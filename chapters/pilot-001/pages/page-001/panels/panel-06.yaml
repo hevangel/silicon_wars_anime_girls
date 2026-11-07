@@ -1,0 +1,10 @@
+id: panel-06
+title: The progress bar
+camera: Wide three-shot
+characters: [intel, amd, nvidia]
+references: [characters/intel/character_sheet.png, characters/amd/character_sheet.png, characters/nvidia/character_sheet.png]
+dialogue_ids: [b06a, b06b, ui06]
+crop_center: [0.5, 0.49]
+art: chapters/pilot-001/pages/page-001/art/panel-06.png
+direction: "Wide comedic three-shot in the Citadel test chamber at the end of the new bridge. Exactly three adult women, separated evenly across the frame, waist-up, all facing a common low foreground testing console. From viewer LEFT to RIGHT: AMD from Image 2 (red braided ponytail, black/crimson tactical jacket and headphones, amused, holding a coffee mug), NVIDIA from Image 3 (green braid, goggles, tough arms, black leather jacket-dress with luminous green seams, mildly surprised, holding a mug), INTEL from Image 1 (light-blue hair, sapphire crown and royal-blue/cream/gold uniform, composed, holding a mug). No faces swap. Their faces should be near x=0.20, 0.50 and 0.80, all at y=0.50, so the heads and upper bodies survive a very wide center crop. Leave clear dark space directly above the left and right characters for short speech balloons, and a blank horizontal console strip low center for a digital status overlay. Have the dark test chamber read as the same fortress. No lettering even on the screen."
+framing: "Use the widest landscape canvas available. Keep faces and vital details in the central 42% of the image height for a panoramic crop."

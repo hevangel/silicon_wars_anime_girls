@@ -14,7 +14,8 @@ def main():
 
     sources = {
         "index.html": ROOT / "site/index.html",
-        "assets/storyboard.svg": ROOT / "chapters/chapter-001/storyboard.svg",
+        "assets/storyboard.svg": ROOT / "chapters/pilot-001/storyboard.svg",
+        "assets/pilot-001.png": ROOT / "chapters/pilot-001/pages/page-001/final/page-001.png",
     }
     for character in CHARACTERS:
         sources[f"assets/{character}.jpg"] = (

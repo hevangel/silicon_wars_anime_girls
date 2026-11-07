@@ -1,0 +1,10 @@
+page: page-001
+reading_direction: rtl
+items:
+  - {id: b02, panel: panel-02, kind: speech, text: "The old code stays.", at: [0.75, 0.14], speaker: intel, tail: [0.55, 0.37]}
+  - {id: b03, panel: panel-03, kind: speech, text: "Then I’ll build around it.", at: [0.75, 0.14], speaker: amd, tail: [0.56, 0.36]}
+  - {id: b04, panel: panel-04, kind: speech, text: "Need a hand?", at: [0.78, 0.15], speaker: nvidia, tail: [0.56, 0.36]}
+  - {id: s05, panel: panel-05, kind: sfx, text: "KLIK KLIK!", at: [0.75, 0.82]}
+  - {id: b06a, panel: panel-06, kind: speech, text: "Now we wait.", at: [0.86, 0.12], speaker: intel, tail: [0.875, 0.31]}
+  - {id: b06b, panel: panel-06, kind: speech, text: "I brought coffee.", at: [0.25, 0.12], speaker: amd, tail: [0.30, 0.31]}
+  - {id: ui06, panel: panel-06, kind: screen, text: "COMPATIBILITY CHECK: 1%", at: [0.5, 0.91]}

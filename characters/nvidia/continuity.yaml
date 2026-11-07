@@ -1,0 +1,7 @@
+id: nvidia
+title: The Emerald Queen
+identity: Long green braid, goggles, strong arms, athletic legs, and black leather jacket-dress with green seams. Greatest raw physical strength of the cast.
+reference_assets:
+  model_sheet: characters/nvidia/character_sheet.png
+  expressions: characters/nvidia/expressions.png
+  portrait: characters/nvidia/reference_card.jpg

@@ -1,0 +1,17 @@
+chapter: pilot-001
+page: page-001
+layout: layouts/six-panel-rtl.yaml
+reading_direction: rtl
+panels:
+  - id: panel-01
+    brief: chapters/pilot-001/pages/page-001/panels/panel-01.yaml
+  - id: panel-02
+    brief: chapters/pilot-001/pages/page-001/panels/panel-02.yaml
+  - id: panel-03
+    brief: chapters/pilot-001/pages/page-001/panels/panel-03.yaml
+  - id: panel-04
+    brief: chapters/pilot-001/pages/page-001/panels/panel-04.yaml
+  - id: panel-05
+    brief: chapters/pilot-001/pages/page-001/panels/panel-05.yaml
+  - id: panel-06
+    brief: chapters/pilot-001/pages/page-001/panels/panel-06.yaml

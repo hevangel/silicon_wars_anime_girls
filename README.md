@@ -15,4 +15,4 @@ A manga universe personifying technology, AI, and semiconductor companies. Ficti
 | [external/](external/README.md) | Four pinned upstream tools |
 | [scratchpad/](scratchpad/README.md) | Original group artwork and legacy templates |
 
-Start with the [six-panel chapter exercise](chapters/chapter-001/README.md). A regular clone contains all series artwork and tutorial images. Initialize a submodule when you need its upstream tooling.
+Start with the [six-panel production pilot](chapters/pilot-001/README.md). A regular clone contains all series artwork and tutorial images. Initialize a submodule when you need its upstream tooling.

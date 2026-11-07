@@ -1,0 +1,70 @@
+chapter: pilot-001
+page: page-001
+status: review_draft
+human_approval: pending
+generator: built-in image generation
+model: null
+seed: null
+generation_note: The built-in generator did not expose a model identifier or seed.
+  The selected takes were visually reviewed.
+panels:
+- id: panel-01
+  brief: chapters/pilot-001/pages/page-001/panels/panel-01.yaml
+  prompt_sha256: 40833637fc7b8235843e27492135c660cc0a9f77fb24dc5e74b01f3bed1a7caa
+  references: []
+  output: chapters/pilot-001/pages/page-001/art/panel-01.png
+  image_sha256: 2bc81668120f01d2d868ee52115af1daf164278e890b5af71b438dc13f7c4daa
+- id: panel-02
+  brief: chapters/pilot-001/pages/page-001/panels/panel-02.yaml
+  prompt_sha256: 913cce3f78ed59042232900b92f43c447b126fafd25bbcf7245b53d3c4f3bdb7
+  references:
+  - path: characters/intel/character_sheet.png
+    role: model_sheet
+    sha256: ffbb5c57db81149f439f1e6f4c10e54271896283291d3344bdf52f70b801ec2b
+  output: chapters/pilot-001/pages/page-001/art/panel-02.png
+  image_sha256: d21efd5b29fc7be2f589148cb9bec77f4ea8354d95af2bb426680131f28fbae4
+- id: panel-03
+  brief: chapters/pilot-001/pages/page-001/panels/panel-03.yaml
+  prompt_sha256: 24115dfe1f962938966b1c1b3b42cc74352f889f69f4329d139395ae828393cf
+  references:
+  - path: characters/amd/character_sheet.png
+    role: model_sheet
+    sha256: ae1a946d57c03396970ff00415150f5c052a24c4596448f65855973a8063c702
+  output: chapters/pilot-001/pages/page-001/art/panel-03.png
+  image_sha256: 5b06aa9edbc451b952ef552db0ba0a4a7a036dc5b91f02d80d8842662987cf75
+- id: panel-04
+  brief: chapters/pilot-001/pages/page-001/panels/panel-04.yaml
+  prompt_sha256: d573c2122792fdead3d25621b34ff1ce934ff09aa8d8aa15ec22a0900e711b68
+  references:
+  - path: characters/nvidia/character_sheet.png
+    role: model_sheet
+    sha256: 76b24d2a8787437aa0b6418aac41cfd4ea789360b5b99ffb4455275acbffdd1d
+  output: chapters/pilot-001/pages/page-001/art/panel-04.png
+  image_sha256: 6cf9f7263eda9c37415fcd53fb7a6ba86b4fdbf53d297d5c01e43950d714a773
+- id: panel-05
+  brief: chapters/pilot-001/pages/page-001/panels/panel-05.yaml
+  prompt_sha256: ba03cc6af9e55be8846ee830c2c72c1bfb51c8960b0ce1b6d6fe69cb768f542c
+  references: []
+  output: chapters/pilot-001/pages/page-001/art/panel-05.png
+  image_sha256: d7da01379e069b625bd51af037ffc01ecfba4cd2cf61a4a81fefdb74e308886a
+- id: panel-06
+  brief: chapters/pilot-001/pages/page-001/panels/panel-06.yaml
+  prompt_sha256: 0c2501e9cbd888489312b70e1e5a1e6b28883e2e90bf9dbd5434c620273c80d2
+  references:
+  - path: characters/intel/character_sheet.png
+    role: model_sheet
+    sha256: ffbb5c57db81149f439f1e6f4c10e54271896283291d3344bdf52f70b801ec2b
+  - path: characters/amd/character_sheet.png
+    role: model_sheet
+    sha256: ae1a946d57c03396970ff00415150f5c052a24c4596448f65855973a8063c702
+  - path: characters/nvidia/character_sheet.png
+    role: model_sheet
+    sha256: 76b24d2a8787437aa0b6418aac41cfd4ea789360b5b99ffb4455275acbffdd1d
+  output: chapters/pilot-001/pages/page-001/art/panel-06.png
+  image_sha256: e588914c3f5fb97727fea861356645e02708cc6c3bbf4f800539491cddd9ca08
+assembly:
+  pillow_version: 12.2.0
+  width: 1800
+  height: 2600
+  output: chapters/pilot-001/pages/page-001/final/page-001.png
+  sha256: 90a56ddfff96e7ea30a6ea1d2dd29d6be19c579035756ae2b939977483388621

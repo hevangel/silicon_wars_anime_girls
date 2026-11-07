@@ -64,20 +64,20 @@ In a lab scene where Intel and AMD argue and Nvidia enters, establish the lab as
 
 ## 4. Storyboard before rendering
 
-![Six-panel rough storyboard with numbered right-to-left reading order](../chapters/chapter-001/storyboard.svg)
+![Six-panel rough storyboard with numbered right-to-left reading order](../chapters/pilot-001/storyboard.svg)
 
 Use thumbnails, stick figures, or simple rectangles to lay out the action. Specify reading order before assigning geometry. For traditional Japanese manga, the right panel of a paired row is read first. For webtoons, use vertical spacing and reveal points to control pacing.
 
 | Panel | Camera | Story beat |
 | --- | --- | --- |
-| 1 | Wide | Establish the semiconductor conference lab |
-| 2 | Medium | Intel presents her latest chip |
-| 3 | Close-up | AMD smirks |
-| 4 | Extreme close-up | Intel notices the smirk |
-| 5 | Dynamic low angle | Nvidia bursts through the door |
-| 6 | Silent reaction | Everyone freezes |
+| 1 | Wide | Establish the x86 Citadel |
+| 2 | Medium | Intel presents her wafer heirloom |
+| 3 | Close-up | AMD smirks and summons chiplets |
+| 4 | Low-angle action shot | Nvidia lifts the gate |
+| 5 | Oblique action insert | The chiplet bridge snaps together |
+| 6 | Wide three-shot | All three watch the slow test |
 
-Vary shot size and emotional purpose. Panel 4 turns Intel's attention into a beat of its own. In a thumbnail pass, check eyelines, screen direction, balloon space, and whether the page reads without the dialogue.
+Vary shot size and emotional purpose. Panel 4 uses a low angle to make the weight of the gate legible. In a thumbnail pass, check eyelines, screen direction, balloon space, and whether the page reads without the dialogue.
 
 ## 5. Keep production source in Git
 
@@ -94,10 +94,10 @@ tutorial/    Illustrated guide
 external/    Pinned upstream tools
 ```
 
-Keep editable panel instructions in text or YAML so you can review individual fields in a diff. Give a panel a stable ID. The chapter starter includes a [sample panel](../chapters/chapter-001/pages/page-001/panel-03.yaml) and [separate lettering](../chapters/chapter-001/lettering.yaml). For a two-shot, a panel definition could look like this.
+Keep editable panel instructions in text or YAML so you can review individual fields in a diff. Give a panel a stable ID. The pilot includes a [sample panel](../chapters/pilot-001/pages/page-001/panels/panel-03.yaml) and [separate lettering](../chapters/pilot-001/pages/page-001/lettering.yaml). For a two-shot, a panel definition could look like this.
 
 ```yaml
-id: chapter-001-page-003-panel-002
+id: chapter-002-page-003-panel-002
 status: storyboard_approved
 characters:
   - id: amd
@@ -134,7 +134,7 @@ git switch main
 git pull --ff-only
 git switch -c art/fix-amd-expression-p003
 # Revise the affected instructions and render or layer, then update its manifest.
-git add chapters/chapter-001/pages/page-003/
+git add chapters/chapter-002/pages/page-003/
 git commit -m "Fix AMD's expression in chapter 1, page 3"
 git push -u origin art/fix-amd-expression-p003
 ```
@@ -184,7 +184,7 @@ See [external/](../external/README.md) for checkout commands and pinned revision
 
 ## 10. Try one six-panel page
 
-Use the [chapter 1 starter](../chapters/chapter-001/README.md) for the Intel vs. AMD scene.
+Use [Pilot 001](../chapters/pilot-001/README.md) for the compatibility test with Intel, AMD, and Nvidia. Compare the storyboard with the rendered page.
 
 - [ ] Confirm character reference images and lock costume continuity.
 - [ ] Review the script, thumbnails, panel order, and balloon space.
