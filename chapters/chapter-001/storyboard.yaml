@@ -1,0 +1,31 @@
+chapter: chapter-001
+status: draft
+pages:
+  - id: page-001
+    layout: six-panel-rtl
+    location: semiconductor_conference_lab
+    panels:
+      - id: panel-01
+        camera: wide
+        characters: [intel, amd]
+        beat: establish_the_lab
+      - id: panel-02
+        camera: medium
+        characters: [intel]
+        beat: present_the_wafer
+      - id: panel-03
+        camera: close_up
+        characters: [amd]
+        beat: amd_challenges_intel
+      - id: panel-04
+        camera: extreme_close_up
+        characters: [intel]
+        beat: intel_notices
+      - id: panel-05
+        camera: low_angle
+        characters: [nvidia]
+        beat: nvidia_enters
+      - id: panel-06
+        camera: wide
+        characters: [intel, amd, nvidia]
+        beat: silent_reaction

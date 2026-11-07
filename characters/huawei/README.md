@@ -43,6 +43,7 @@ Chinese industrial ecosystem
 > When the gates close we build our own road.
 
 ## Character design assets
+- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
 - [SVG design-sheet draft](character_sheet.svg) — editable 3-view illustration and layout.
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

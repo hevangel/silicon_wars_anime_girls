@@ -41,8 +41,11 @@ TSMC and open ecosystems.
 > Ten times my resources? That makes victory sweeter.
 
 ## Visual assets
-- [Editable SVG design-sheet draft](character_sheet.svg)
+- [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
+- [Model sheet generation prompt](character_sheet.prompt.md)
+- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
+- [Archived SVG concept draft](character_sheet.svg)
 - [Detailed final-anime illustration prompt](art_prompt.md)
 - [Original group illustration archive](../../scratchpad/illustrations.md)
 
-This SVG is an editable first-pass graphic, not an individually generated full-color anime painting. Use the archived group artwork for established anime character continuity.
+Use the illustrated model sheet for pose and expression work. The painted card and original group artwork provide visual continuity references.

@@ -1,0 +1,11 @@
+id: six-panel-rtl
+units: px
+page: {width: 1080, height: 1440}
+reading_direction: rtl
+panels:
+  - {id: panel-01, x: 30, y: 30, width: 1020, height: 260}
+  - {id: panel-02, x: 550, y: 310, width: 500, height: 400}
+  - {id: panel-03, x: 30, y: 310, width: 500, height: 400}
+  - {id: panel-04, x: 550, y: 730, width: 500, height: 400}
+  - {id: panel-05, x: 30, y: 730, width: 500, height: 400}
+  - {id: panel-06, x: 30, y: 1150, width: 1020, height: 260}
