@@ -94,6 +94,7 @@
     {
       "character": "nvidia",
       "path": "characters/nvidia/reference_card.jpg",
+      "archive_commit": "fb3bde542b8f939ceb9e9386b4400f273fe429d7",
       "source": "compute_triad_datasheet_final_red_amd_green_nvidia.png",
       "column": 3
     },

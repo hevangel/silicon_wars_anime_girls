@@ -6,7 +6,7 @@
 
 - [Intel](./intel/README.md) — The Blue Empress
 - [AMD](./amd/README.md) — The Crimson Challenger
-- [Nvidia](./nvidia/README.md) — The Emerald Dragon Queen
+- [Nvidia](./nvidia/README.md) — The Emerald Queen
 
 ## Connectivity Quartet
 
@@ -89,6 +89,6 @@
 
 ## Artwork status
 
-Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Profiles link to painted cards where available. [Intel](intel/character_sheet.png) and [AMD](amd/character_sheet.png) also have illustrated turnaround sheets.
+Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), and [Nvidia](nvidia/character_sheet.png) also have illustrated turnaround sheets.
 
 The [structured roster](roster.json) captures the same cast for production tools.

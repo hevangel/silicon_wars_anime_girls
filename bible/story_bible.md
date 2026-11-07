@@ -11,7 +11,7 @@ A seinen technology fantasy about corporate personifications whose powers derive
 ## Strict visual continuity
 - Intel: long light-blue hair, pointed sapphire crown, and a royal-blue imperial uniform with gold-fringed epaulettes. Composed, authoritative pose.
 - AMD: fiery red ponytail, red/black chiplet armor, athletic challenger stance.
-- Nvidia: emerald green hair, black/green dragon-queen armor, imperious pose.
+- Nvidia, the Emerald Queen: thick emerald-green braid and a black leather jacket-dress with glowing green circuit seams. She has the greatest raw physical strength of the cast, with powerful arms and naturally proportioned athletic legs.
 - Fairchild: rolled sleeves, red bandana, glasses, working forewoman; do not duplicate Bell Labs' silhouette.
 - Bell Labs: gentle elderly scholar, tweed and vintage instruments.
 - DEC and Sun: preserve the selected designs from the final four-grandmothers infographic.
