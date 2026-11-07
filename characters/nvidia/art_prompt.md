@@ -1,17 +1,16 @@
-# Nvidia — Full manga character-sheet brief
+# Nvidia · The Emerald Queen
 
-Produce a landscape **16:9** professional anime character reference sheet for the original *Silicon Wars* character Nvidia, titled **The Emerald Dragon Queen**. Full-body front, side and back views, 3 expressions, signature technical prop, 5 color swatches, and a small labeled bio card; clean, highly detailed consistent cel shading.
+Create an anime character illustration of Nvidia, the adult Emerald Queen of *Silicon Wars*. Use the [illustrated model sheet](character_sheet.png) for anatomy and clothing and the [reference card](reference_card.jpg) for her bearing in an action scene.
 
 ## Continuity lock
-- Age: adult; adult woman.
-- Appearance: Long vivid green hair, piercing emerald eyes and proud dragon-queen bearing.
-- Costume: Black-and-green ornate armor, floating GPU plates and spectral dragon halo.
-- Hair: emerald green. Signature brand accent: neon green.
-- Body language: Charismatic, ambitious, dominant and theatrical.
-- Technical magical effect: CUDA Dragon.
-- Tone: sophisticated manga + vintage computing references + legible tech datasheet UI.
-- Avoid giving all characters the same pointing or outstretched-hand pose; use a unique posture related to her role.
-- Character should be consistently recognizable from original group images (indexed in ../../scratchpad/illustrations.md).
-- Text needs proofread and easy-to-read. No erroneous labels or fabricated performance specifications.
 
-Include the signature line: “Challenge me if you wish. Which of my GPUs are you using?”
+- **Face and hair** · Emerald eyes, a thick high emerald-green braid with jade highlights, and black goggles pushed up into her hair.
+- **Build and movement** · The strongest character in raw physical strength. Give her broad shoulders, visibly strong arms and forearms, naturally proportioned athletic legs, and a stable stance. Her confidence reads as ease under load.
+- **Outfit** · A tailored black leather motorcycle jacket-dress with an angular collar, asymmetrical metal zipper, rolled cuffs, wide belt, knee-length split skirt, and heavy black boots. Luminous green traces branch upward from the hem along the leather seams.
+- **Strength in action** · Show her actually gripping and bearing the weight of a heavy object. Use a grounded stance, the object’s scale, and visible hand contact. Her CUDA Dragon is a separate signature ability.
+
+For a model sheet, show complete front, three-quarter, side, and back views with consistent proportions, plus confident, focused, and defiant expressions. Keep leg muscle definition subtle across the four views. Use detailed manga linework and cel shading.
+
+Signature line · “Challenge me if you wish. Which of my GPUs are you using?”
+
+[Exact model sheet and reference card prompts](character_sheet.prompt.md)
