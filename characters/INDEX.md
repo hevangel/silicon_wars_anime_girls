@@ -1,6 +1,6 @@
 # Silicon Wars — Character Index
 
-**46 characters** with individually committed folders, character descriptions, edit-ready vector concept sheets and production prompts.
+**46 characters** with individually committed folders, character descriptions and production prompts.
 
 ## Silicon Kingdoms
 
@@ -89,6 +89,6 @@
 
 ## Artwork status
 
-Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Character-folder SVG files are editable concept drafts, not full-resolution painted anime portraits. The original posters are checked in under [scratchpad/originals/](../scratchpad/originals/). Where available, each character profile links a painted reference card cropped from its group datasheet.
+Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Profiles link to painted cards where available. [Intel](intel/character_sheet.png) and [AMD](amd/character_sheet.png) also have illustrated turnaround sheets.
 
 The [structured roster](roster.json) captures the same cast for production tools.

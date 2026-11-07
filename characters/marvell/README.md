@@ -42,8 +42,7 @@ Cloud infrastructure builders.
 
 ## Visual assets
 - [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Editable SVG design-sheet draft](character_sheet.svg)
 - [Detailed final-anime illustration prompt](art_prompt.md)
 - [Original group illustration archive](../../scratchpad/illustrations.md)
 
-This SVG is an editable first-pass graphic, not an individually generated full-color anime painting. Use the painted reference card and original group artwork for established visual continuity.
+Use the painted reference card and original group artwork for established visual continuity.

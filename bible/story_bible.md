@@ -9,7 +9,7 @@ A seinen technology fantasy about corporate personifications whose powers derive
 - **Younger grannies:** DEC (red varsity jacket, interactive-computing hacker), Sun Microsystems (joyful purple Solaris jacket), with other retired empires in the older generation.
 
 ## Strict visual continuity
-- Intel: platinum/silver hair; navy blue imperial uniform; composed, authoritative pose.
+- Intel: long light-blue hair, pointed sapphire crown, and a royal-blue imperial uniform with gold-fringed epaulettes. Composed, authoritative pose.
 - AMD: fiery red ponytail, red/black chiplet armor, athletic challenger stance.
 - Nvidia: emerald green hair, black/green dragon-queen armor, imperious pose.
 - Fairchild: rolled sleeves, red bandana, glasses, working forewoman; do not duplicate Bell Labs' silhouette.

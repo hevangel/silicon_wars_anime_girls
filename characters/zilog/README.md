@@ -43,8 +43,5 @@ Retro engineers and CP/M enthusiasts
 > Eight bits were enough to conquer the world.
 
 ## Character design assets
-- [SVG design-sheet draft](character_sheet.svg) — editable 3-view illustration and layout.
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
-
-The SVG is an editable initial concept, **not** a finished standalone image-generation portrait. Original full-resolution group artworks were generated earlier in this conversation.

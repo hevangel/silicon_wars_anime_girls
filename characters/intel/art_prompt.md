@@ -1,17 +1,16 @@
-# Intel — Full manga character-sheet brief
+# Intel · The Blue Empress
 
-Produce a landscape **16:9** professional anime character reference sheet for the original *Silicon Wars* character Intel, titled **The Blue Empress**. Full-body front, side and back views, 3 expressions, signature technical prop, 5 color swatches, and a small labeled bio card; clean, highly detailed consistent cel shading.
+Create an anime character reference sheet for Intel, the adult Blue Empress of *Silicon Wars*. Use the crowned woman on the far left of the [original Compute Triad poster](../../scratchpad/originals/compute_triad_original.png) as the costume and silhouette blueprint. Use the [illustrated model sheet](character_sheet.png) and [current reference card](reference_card.jpg) for the updated design.
 
 ## Continuity lock
-- Age: adult; adult woman.
-- Appearance: Composed and commanding; sapphire blue eyes and long flowing platinum hair.
-- Costume: Navy-and-silver military coat, sharp epaulettes, sapphire circuitry and wafer-shaped heirloom.
-- Hair: silver-platinum. Signature brand accent: royal blue.
-- Body language: Proud, disciplined, strategic, wary of decline.
-- Technical magical effect: x86 Citadel.
-- Tone: sophisticated manga + vintage computing references + legible tech datasheet UI.
-- Avoid giving all characters the same pointing or outstretched-hand pose; use a unique posture related to her role.
-- Character should be consistently recognizable from original group images (indexed in ../../scratchpad/illustrations.md).
-- Text needs proofread and easy-to-read. No erroneous labels or fabricated performance specifications.
 
-Include the signature line: “I built this kingdom before you counted transistors.”
+- **Face and hair** · Composed, commanding face, sapphire-blue eyes, and long flowing light-blue hair with icy sky-blue highlights and soft blue shadows.
+- **Crown and jewelry** · Pointed metallic crown set with faceted sapphire-blue crystals, gold trim, and sapphire drop earrings.
+- **Uniform** · High-collared royal-blue imperial military coat, cream-white front and lining, gold-fringed epaulettes, layered gold cords, tailored double-breasted waist, and long split panels embroidered with subtle blue circuitry. White gloves and tall dark military boots.
+- **Body language and prop** · Disciplined and poised. Use a wafer-shaped heirloom when the scene calls for it. Her signature power is x86 Citadel.
+
+For a sheet, render front, three-quarter, side, and back views at the same scale, with the crown tips and boots visible. Include composed, stern, and surprised expressions and a small color palette. For a portrait, frame the crown, light-blue hair, and gold-fringed shoulders. Use detailed manga linework and cel shading.
+
+Signature line · “I built this kingdom before you counted transistors.”
+
+[Exact model sheet and reference card prompts](character_sheet.prompt.md)
