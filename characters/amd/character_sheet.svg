@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#0e172b"/><stop offset="1" stop-color="#223250"/></linearGradient></defs><rect width="1600" height="900" fill="url(#g)"/><path d="M0 80H1600 M0 822H1600" stroke="#d72f4b" stroke-width="5"/><g font-family="Arial, sans-serif"><text x="48" y="57" font-size="39" font-weight="bold" fill="#fff">AMD</text><text x="1545" y="56" font-size="18" fill="#9fb8da" text-anchor="end">SILICON WARS / DESIGN SHEET 01</text><text x="48" y="128" font-size="29" font-weight="bold" fill="#d72f4b">The Crimson Challenger</text><text x="48" y="160" font-size="16" fill="#abbdd6">Silicon Kingdoms • ADULT</text>
+ <rect x="36" y="190" width="780" height="570" rx="16" fill="#15233a" stroke="#d72f4b" stroke-width="3"/>
+ <g transform="translate(187 456) scale(1.04)">
+ <ellipse cy="224" rx="114" ry="11" fill="#000" opacity=".4"/>
+ <path d="M-75 30 Q-120 52-118 208 L118 208 Q120 52 75 30 Z" fill="#d72f4b" stroke="#dfeafe" stroke-width="3"/>
+ <path d="M-57 48 L0 108 L57 48" fill="none" stroke="#edf0fa" stroke-width="11"/>
+ <path d="M-80-130 Q-111 -80 -83 60 Q0 110 83 60 Q111-84 79-139 Q0-204-80-130" fill="#e6334b"/>
+ <ellipse cx="0" cy="-77" rx="65" ry="84" fill="#efc5b0" stroke="#a97f75" stroke-width="3"/>
+ <path d="M-69-105 Q-30-188 49-155 Q82-139 67-89 Q44-133 7-129 Q-19-97-69-105" fill="#e6334b"/>
+ <ellipse cx="-25" cy="-80" rx="10" ry="7" fill="#d72f4b"/><ellipse cx="26" cy="-80" rx="10" ry="7" fill="#d72f4b"/><path d="M-19-22Q0-18 20-22" stroke="#b56367" stroke-width="3" fill="none"/>
+ 
+ <circle cy="121" r="15" fill="#0e162a" stroke="#ffffff" stroke-width="2"/><circle cy="121" r="7" fill="#e6334b"/>
+ </g><g transform="translate(421 456) scale(1.04)">
+ <ellipse cy="224" rx="114" ry="11" fill="#000" opacity=".4"/>
+ <path d="M-75 30 Q-120 52-118 208 L118 208 Q120 52 75 30 Z" fill="#d72f4b" stroke="#dfeafe" stroke-width="3"/>
+ <path d="M-57 48 L0 108 L57 48" fill="none" stroke="#edf0fa" stroke-width="11"/>
+ <path d="M-80-130 Q-111 -80 -83 60 Q0 110 83 60 Q111-84 79-139 Q0-204-80-130" fill="#e6334b"/>
+ <ellipse cx="0" cy="-77" rx="65" ry="84" fill="#efc5b0" stroke="#a97f75" stroke-width="3"/>
+ <path d="M-69-105 Q-30-188 49-155 Q82-139 67-89 Q44-133 7-129 Q-19-97-69-105" fill="#e6334b"/>
+ <ellipse cx="-25" cy="-80" rx="10" ry="7" fill="#d72f4b"/><ellipse cx="26" cy="-80" rx="10" ry="7" fill="#d72f4b"/><path d="M-18-25Q0-5 22-25" stroke="#b56367" stroke-width="3" fill="none"/>
+ 
+ <circle cy="121" r="15" fill="#0e162a" stroke="#ffffff" stroke-width="2"/><circle cy="121" r="7" fill="#e6334b"/>
+ </g><g transform="translate(652 456) scale(1.04)">
+ <ellipse cy="224" rx="114" ry="11" fill="#000" opacity=".4"/>
+ <path d="M-75 30 Q-120 52-118 208 L118 208 Q120 52 75 30 Z" fill="#d72f4b" stroke="#dfeafe" stroke-width="3"/>
+ <path d="M-57 48 L0 108 L57 48" fill="none" stroke="#edf0fa" stroke-width="11"/>
+ <path d="M-80-130 Q-111 -80 -83 60 Q0 110 83 60 Q111-84 79-139 Q0-204-80-130" fill="#e6334b"/>
+ <ellipse cx="0" cy="-77" rx="65" ry="84" fill="#efc5b0" stroke="#a97f75" stroke-width="3"/>
+ <path d="M-69-105 Q-30-188 49-155 Q82-139 67-89 Q44-133 7-129 Q-19-97-69-105" fill="#e6334b"/>
+ <path d="M-54-57 Q0-10 54-57 L66 37 Q0 84-66 37Z" fill="#e6334b"/>
+ 
+ <circle cy="121" r="15" fill="#0e162a" stroke="#ffffff" stroke-width="2"/><circle cy="121" r="7" fill="#e6334b"/>
+ </g>
+ <g font-size="16" fill="#c8d8eb" text-anchor="middle"><text x="187" y="733">FRONT VIEW</text><text x="421" y="733">EXPRESSION</text><text x="652" y="733">HAIR / BACK</text></g>
+ <rect x="836" y="190" width="726" height="570" rx="16" fill="#0e1a30" stroke="#d72f4b" stroke-width="3"/>
+ <text x="870" y="225" fill="#d72f4b" font-size="17" font-weight="800" letter-spacing="2">APPEARANCE</text><text x="870" y="254" fill="#e4e8f6" font-size="17">Athletic red-haired heroine, high ponytail, amber eyes and irrepressible</text><text x="870" y="278" fill="#e4e8f6" font-size="17">grin</text><text x="870" y="330" fill="#d72f4b" font-size="17" font-weight="800" letter-spacing="2">CLOTHING</text><text x="870" y="359" fill="#e4e8f6" font-size="17">Black-and-red cropped tactical jacket, modular chiplet plating and heavy</text><text x="870" y="383" fill="#e4e8f6" font-size="17">boots</text><text x="870" y="435" fill="#d72f4b" font-size="17" font-weight="800" letter-spacing="2">PERSONALITY</text><text x="870" y="464" fill="#e4e8f6" font-size="17">Tenacious, scrappy, witty, determined to be taken seriously</text><text x="870" y="540" fill="#d72f4b" font-size="17" font-weight="800" letter-spacing="2">VOICE</text><text x="870" y="569" fill="#e4e8f6" font-size="17">Fast sarcastic challenges and friendly taunts toward Intel</text><text x="870" y="645" fill="#d72f4b" font-size="17" font-weight="800" letter-spacing="2">FLAW</text><text x="870" y="674" fill="#e4e8f6" font-size="17">Can overcommit while proving her worth</text>
+ <text x="56" y="799" font-size="16" fill="#d6e7f9">COLOR STUDY</text>
+ <rect x="193" y="772" width="63" height="30" rx="5" fill="#e6334b" stroke="#ffffff70"/><rect x="269" y="772" width="63" height="30" rx="5" fill="#d72f4b" stroke="#ffffff70"/><rect x="345" y="772" width="63" height="30" rx="5" fill="#efc5b0" stroke="#ffffff70"/><rect x="421" y="772" width="63" height="30" rx="5" fill="#182b45" stroke="#ffffff70"/><rect x="497" y="772" width="63" height="30" rx="5" fill="#e5eaf5" stroke="#ffffff70"/>
+ <text x="618" y="797" font-size="15" fill="#d4e6fd">Chiplet Barrage</text>
+ <text x="49" y="863" font-size="17" fill="#e3f0ff">Ten times my resources? That makes victory sweeter.</text>
+ <text x="1545" y="864" font-size="13" fill="#8da2c4" text-anchor="end">Vector concept draft • See original art in scratchpad</text></g></svg>
