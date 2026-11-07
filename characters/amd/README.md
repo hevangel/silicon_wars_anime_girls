@@ -42,6 +42,7 @@ TSMC and open ecosystems.
 
 ## Visual assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
 - [Model sheet generation prompt](character_sheet.prompt.md)
 - [Painted reference card](reference_card.jpg).
 - [Detailed final-anime illustration prompt](art_prompt.md)

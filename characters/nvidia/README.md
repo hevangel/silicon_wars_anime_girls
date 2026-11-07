@@ -42,6 +42,7 @@ TSMC, memory suppliers and AI labs.
 
 ## Visual assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
 - [Painted reference card](reference_card.jpg) showing her carrying a steel I-beam one-handed.
 - [Model sheet and reference card prompts](character_sheet.prompt.md)
 - [Detailed final-anime illustration prompt](art_prompt.md)
