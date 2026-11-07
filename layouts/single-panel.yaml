@@ -1,0 +1,6 @@
+id: single-panel
+units: px
+page: {width: 1800, height: 2600}
+reading_direction: rtl
+panels:
+  - {id: panel-01, x: 80, y: 275, width: 1640, height: 2050}

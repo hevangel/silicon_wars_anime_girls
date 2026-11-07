@@ -5,4 +5,7 @@ checks:
   - Dialogue, sound effect, and screen status added as separate overlays
   - No real product performance claims
   - Review the page at intended reading size
+  - Page 002 is a single splash panel: Intel and AMD deadlocked in a tug of war over one taut rope
+  - Nvidia seated in the foreground, casually pressing a massive dumbbell with one hand
+  - Page 002 dialogue reads right to left (AMD, then Intel, then Nvidia's punchline) and uses only glyphs the renderer font supports (no em dashes)
 human_approval: pending
