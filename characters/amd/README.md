@@ -43,8 +43,7 @@ TSMC and open ecosystems.
 ## Visual assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
 - [Model sheet generation prompt](character_sheet.prompt.md)
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Archived SVG concept draft](character_sheet.svg)
+- [Painted reference card](reference_card.jpg).
 - [Detailed final-anime illustration prompt](art_prompt.md)
 - [Original group illustration archive](../../scratchpad/illustrations.md)
 

@@ -5,7 +5,7 @@ A manga universe personifying technology, AI, and semiconductor companies. Ficti
 | Folder | What lives there |
 | --- | --- |
 | [bible/](bible/README.md) | Series canon, story arcs, and visual continuity |
-| [characters/](characters/INDEX.md) | 46 profiles with art prompts, editable SVG sheets, and available painted references |
+| [characters/](characters/INDEX.md) | 46 profiles with art prompts and available illustrated references |
 | [chapters/](chapters/README.md) | Scripts, storyboards, panel source, and lettering |
 | [layouts/](layouts/README.md) | Reusable page geometry and reading order |
 | [workflows/](workflows/README.md) | Generation and review conventions |

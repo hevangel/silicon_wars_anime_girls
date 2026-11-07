@@ -4,14 +4,14 @@
 
 **Faction:** Silicon Kingdoms  
 **Age portrayal:** adult  
-**Hair:** silver-platinum  
+**Hair:** light blue\
 **Signature color:** royal blue
 
 ## Appearance
-Composed and commanding; sapphire blue eyes and long flowing platinum hair.
+Composed and commanding; sapphire blue eyes and long flowing light-blue hair.
 
 ## Clothing and accessories
-Navy-and-silver military coat, sharp epaulettes, sapphire circuitry and wafer-shaped heirloom.
+Sapphire-crystal crown, royal-blue imperial military coat with gold-fringed epaulettes and cream lining, white gloves, and a wafer-shaped heirloom.
 
 ## Personality
 Proud, disciplined, strategic, wary of decline.
@@ -41,9 +41,10 @@ IBM and the PC ecosystem.
 > I built this kingdom before you counted transistors.
 
 ## Visual assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Editable SVG design-sheet draft](character_sheet.svg)
+- [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
+- [Model sheet and reference card prompts](character_sheet.prompt.md)
+- [Painted reference card](reference_card.jpg).
 - [Detailed final-anime illustration prompt](art_prompt.md)
 - [Original group illustration archive](../../scratchpad/illustrations.md)
 
-This SVG is an editable first-pass graphic, not an individually generated full-color anime painting. Use the painted reference card and original group artwork for established visual continuity.
+Use the illustrated model sheet and current reference card for light-blue hair and costume continuity. The original group poster is the blueprint for her crown and uniform.

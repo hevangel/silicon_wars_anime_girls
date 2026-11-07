@@ -25,7 +25,7 @@ Give each stage a file you can review and version independently. If AMD's expres
 
 ![AMD painted reference card with a red ponytail and black-and-red costume](../characters/amd/reference_card.jpg)
 
-*The painted reference card comes from the final group datasheet. Use the written profile to resolve outfit and story details for the scene.*
+*The portrait card uses the same design in a different pose and setting. Use the written profile to resolve outfit and story details for the scene.*
 
 Build a character bible before rendering chapter one. Collect front, side, three-quarter, and full-body views, then make a small expression sheet with the same face proportions in each drawing. Keep approved images and structured notes beside the character profile. The [character roster](../characters/INDEX.md) and [series bible](../bible/story_bible.md) record existing Silicon Wars designs.
 
@@ -33,8 +33,8 @@ Build a character bible before rendering chapter one. Collect front, side, three
 | --- | --- |
 | Identity | Intel, the Blue Empress |
 | Archetype | Proud veteran and established power |
-| Hair and eyes | Long silver-platinum hair and sapphire eyes |
-| Default outfit | Navy-and-silver military coat, sharp epaulettes, wafer-shaped heirloom |
+| Hair and eyes | Long light-blue hair and sapphire eyes |
+| Default outfit | Sapphire crown, royal-blue imperial military coat, gold-fringed epaulettes, wafer-shaped heirloom |
 | Personality | Disciplined, strategic, wary of decline |
 | Expression studies | Confidence, irritation, exhaustion, embarrassment |
 | Checks | Preserve her hair silhouette, face proportions, epaulettes, and accessory design |

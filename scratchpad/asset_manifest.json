@@ -80,12 +80,14 @@
     {
       "character": "intel",
       "path": "characters/intel/reference_card.jpg",
+      "archive_commit": "d75dd93d8dbd2589fa7fe947df27eb1396df94b1",
       "source": "compute_triad_datasheet_final_red_amd_green_nvidia.png",
       "column": 1
     },
     {
       "character": "amd",
       "path": "characters/amd/reference_card.jpg",
+      "archive_commit": "d75dd93d8dbd2589fa7fe947df27eb1396df94b1",
       "source": "compute_triad_datasheet_final_red_amd_green_nvidia.png",
       "column": 2
     },
