@@ -1,0 +1,11 @@
+panel_id: null
+generator: null
+model: null
+workflow_revision: null
+seed: null
+prompt: null
+negative_prompt: null
+loras: [] # Record model identifier, version, and strength per LoRA.
+references: [] # Record repository-relative path, role, and SHA-256 per input.
+selected_take: null
+output: null # Repository-relative path to the accepted render.

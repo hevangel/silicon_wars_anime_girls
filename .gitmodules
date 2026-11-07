@@ -1,0 +1,12 @@
+[submodule "external/manga-studio"]
+	path = external/manga-studio
+	url = https://github.com/ahmet360/manga-studio.git
+[submodule "external/comic-pipeline"]
+	path = external/comic-pipeline
+	url = https://github.com/adachi0130/comic-pipeline.git
+[submodule "external/open-pose-costume"]
+	path = external/open-pose-costume
+	url = https://github.com/hongye007/open-pose-costume.git
+[submodule "external/open-pose-costume-skill"]
+	path = external/open-pose-costume-skill
+	url = https://github.com/hongye007/open-pose-costume-skill.git

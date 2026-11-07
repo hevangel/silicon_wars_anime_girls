@@ -89,4 +89,6 @@
 
 ## Artwork status
 
-Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Character-folder SVG files are editable concept drafts, not full-resolution painted anime portraits. The recovered PNG originals are supplied as a downloadable ZIP separately until they can be committed as binary assets.
+Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Character-folder SVG files are editable concept drafts, not full-resolution painted anime portraits. The original posters are checked in under [scratchpad/originals/](../scratchpad/originals/). Where available, each character profile links a painted reference card cropped from its group datasheet.
+
+The [structured roster](roster.json) captures the same cast for production tools.

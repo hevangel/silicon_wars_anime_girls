@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 996 318" width="996" height="318" role="img" aria-labelledby="title">
+  <title id="title">Six stages of manga production</title>
+  <rect width="996" height="318" rx="16" fill="#0c1526"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="24" y="46" fill="#f2f6fc" font-size="27" font-weight="700">Each stage produces a reviewable artifact</text>
+    <g transform="translate(24 75)">
+    <rect width="300" height="96" rx="12" fill="#16243b" stroke="#445d7e"/>
+    <text x="17" y="31" fill="#96d2ff" font-size="15">01</text>
+    <text x="55" y="33" fill="#f2f6fc" font-size="23" font-weight="700">Story &amp; world</text>
+    <text x="55" y="66" fill="#bfcee2" font-size="17">Series bible and script</text>
+  </g>
+    <g transform="translate(348 75)">
+    <rect width="300" height="96" rx="12" fill="#16243b" stroke="#445d7e"/>
+    <text x="17" y="31" fill="#96d2ff" font-size="15">02</text>
+    <text x="55" y="33" fill="#f2f6fc" font-size="23" font-weight="700">Character design</text>
+    <text x="55" y="66" fill="#bfcee2" font-size="17">Approved reference sheets</text>
+  </g>
+    <g transform="translate(672 75)">
+    <rect width="300" height="96" rx="12" fill="#16243b" stroke="#445d7e"/>
+    <text x="17" y="31" fill="#96d2ff" font-size="15">03</text>
+    <text x="55" y="33" fill="#f2f6fc" font-size="23" font-weight="700">Storyboard</text>
+    <text x="55" y="66" fill="#bfcee2" font-size="17">Page beats and camera</text>
+  </g>
+    <g transform="translate(24 193)">
+    <rect width="300" height="96" rx="12" fill="#16243b" stroke="#445d7e"/>
+    <text x="17" y="31" fill="#96d2ff" font-size="15">04</text>
+    <text x="55" y="33" fill="#f2f6fc" font-size="23" font-weight="700">Panel art</text>
+    <text x="55" y="66" fill="#bfcee2" font-size="17">Renders and manifests</text>
+  </g>
+    <g transform="translate(348 193)">
+    <rect width="300" height="96" rx="12" fill="#16243b" stroke="#445d7e"/>
+    <text x="17" y="31" fill="#96d2ff" font-size="15">05</text>
+    <text x="55" y="33" fill="#f2f6fc" font-size="23" font-weight="700">Page assembly</text>
+    <text x="55" y="66" fill="#bfcee2" font-size="17">Lettering and exports</text>
+  </g>
+    <g transform="translate(672 193)">
+    <rect width="300" height="96" rx="12" fill="#16243b" stroke="#445d7e"/>
+    <text x="17" y="31" fill="#96d2ff" font-size="15">06</text>
+    <text x="55" y="33" fill="#f2f6fc" font-size="23" font-weight="700">Review &amp; release</text>
+    <text x="55" y="66" fill="#bfcee2" font-size="17">Visual QA and Git tag</text>
+  </g>
+  </g>
+</svg>

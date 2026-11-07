@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 720" width="540" height="720" role="img" aria-labelledby="title">
+  <title id="title">Compute Triad, six-panel right-to-left storyboard</title>
+  <rect width="540" height="720" fill="#e9edf2"/>
+  <g transform="translate(15 15)">
+    <rect width="510" height="130" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M116 92H401M160 92L197 56H350L383 92M197 56V18H350V56M222 35H323M245 104H311" fill="none"/><circle cx="143" cy="58" r="12"/><path d="M133 91L143 72L155 91"/><circle cx="408" cy="61" r="12"/><path d="M395 95L408 75L420 94"/></g>
+    <rect x="1" y="105" width="508" height="24" fill="#23344a"/>
+    <text x="11" y="122" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">01 · Establish the lab</text>
+  </g>
+  <g transform="translate(275 155)">
+    <rect width="250" height="200" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M42 159Q55 98 106 105Q158 108 180 158M147 135L181 109L191 84"/><circle cx="107" cy="72" r="32"/><path d="M80 71L94 48L123 54L134 72" stroke="#597fc0"/><path d="M173 64L193 45L212 64L193 83Z" fill="#b4c9e4"/></g>
+    <rect x="1" y="175" width="248" height="24" fill="#23344a"/>
+    <text x="11" y="192" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">02 · Present the chip</text>
+  </g>
+  <g transform="translate(15 155)">
+    <rect width="250" height="200" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M63 158Q77 122 120 122Q161 122 183 158"/><circle cx="121" cy="82" r="38"/><path d="M84 86Q82 39 125 40Q156 44 163 78L139 64L112 70L84 87M159 61Q191 47 185 101" stroke="#b3324b"/><path d="M102 87H109M132 87H143M116 105Q132 112 141 99" /></g>
+    <rect x="1" y="175" width="248" height="24" fill="#23344a"/>
+    <text x="11" y="192" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">03 · AMD smirks</text>
+  </g>
+  <g transform="translate(275 365)">
+    <rect width="250" height="200" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M27 119Q95 34 222 113Q139 171 27 119Z"/><circle cx="106" cy="111" r="28" fill="#c3d9fa"/><circle cx="100" cy="111" r="12" fill="#4b70ad"/><path d="M36 83Q96 43 197 71" stroke="#597fc0"/></g>
+    <rect x="1" y="175" width="248" height="24" fill="#23344a"/>
+    <text x="11" y="192" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">04 · Intel notices</text>
+  </g>
+  <g transform="translate(15 365)">
+    <rect width="250" height="200" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M64 162V47L166 29V162M166 29L205 64V157L166 162M32 163H225M34 156L101 143M186 145L222 159"/><circle cx="112" cy="83" r="19"/><path d="M93 91Q88 66 111 62Q134 61 136 92L143 127M85 147Q90 106 112 106Q135 104 148 147" stroke="#228269"/></g>
+    <rect x="1" y="175" width="248" height="24" fill="#23344a"/>
+    <text x="11" y="192" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">05 · Nvidia enters</text>
+  </g>
+  <g transform="translate(15 575)">
+    <rect width="510" height="130" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M86 99H422M122 93Q131 68 153 68Q174 68 184 93M220 93Q229 68 250 68Q271 68 280 93M323 93Q332 68 353 68Q374 68 384 93"/><circle cx="153" cy="48" r="18" stroke="#597fc0"/><circle cx="250" cy="48" r="18" stroke="#b3324b"/><circle cx="353" cy="48" r="18" stroke="#228269"/><path d="M161 48H166M259 48H263M341 48H346"/></g>
+    <rect x="1" y="105" width="508" height="24" fill="#23344a"/>
+    <text x="11" y="122" font-family="system-ui, sans-serif" font-size="14" fill="#f1f5f9">06 · Silent reaction</text>
+  </g>
+</svg>

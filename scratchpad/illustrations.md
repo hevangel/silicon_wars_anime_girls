@@ -1,22 +1,21 @@
 # Original generated artwork inventory
 
-| Original local filename | Contents | Status |
-|---|---|---|
-| `neon_circuit_empresses_and_dragon.png` | Intel / AMD / Nvidia original portrait | Archive |
-| `grandmothers_of_computing_hall_of_fame.png` | Older-generation ensemble | Archive |
-| `semiconductor_goddesses_neon_network_ensemble.png` | Arm / Broadcom / Qualcomm / Marvell original | Archive |
-| `four_ai_visionaries_in_a_futuristic_lab.png` | OpenAI / Anthropic / xAI / Hugging Face original | Archive |
-| `a_detailed_high_quality_anime_style_illustration.png` | Apple / Microsoft / Google / Meta / Amazon datasheet | Current |
-| `a_high_detail_anime_infographic_in_the_same_data.png` | Intel / AMD / Nvidia datasheet v1 | Superseded |
-| `a_high_detail_anime_style_infographic_illustration.png` | SK hynix / Samsung / Micron datasheet | Current |
-| `a_highly_detailed_anime_style_illustrated_infogra.png` | Fairchild / Bell Labs / DEC / Sun datasheet v1 | Superseded |
-| `a_highly_detailed_anime_style_illustrated_poster_o.png` | TSMC / ASML / Huawei datasheet | Current |
-| `a_highly_detailed_anime_style_infographic_poster_i.png` | Arm / Qualcomm / Broadcom / Marvell datasheet | Current |
-| `a_highly_detailed_colorful_anime_style_infographi.png` | Fairchild / Bell Labs differentiated; DEC / Sun unchanged | Preferred |
-| `a_highly_detailed_polished_anime_illustrated_tec.png` | IBM / Oracle / Xerox middle-aged executive women | Current |
-| `a_vibrant_highly_detailed_anime_data_sheet_poste.png` | Anthropic / OpenAI / xAI / Hugging Face school-theme datasheet | Current |
-| `a_vibrant_ultra_detailed_anime_style_datasheet_p.png` | Cerebras / Mistral / DeepSeek as child prodigies | Current |
+| Illustration | Contents | Status |
+| --- | --- | --- |
+| [compute_triad_original.png](originals/compute_triad_original.png) | Intel / AMD / Nvidia original portrait | Archive |
+| [grandmothers_ensemble_original.png](originals/grandmothers_ensemble_original.png) | Older-generation ensemble | Archive |
+| [connectivity_quartet_original.png](originals/connectivity_quartet_original.png) | Arm / Broadcom / Qualcomm / Marvell original | Archive |
+| [ai_quartet_original.png](originals/ai_quartet_original.png) | OpenAI / Anthropic / xAI / Hugging Face original | Archive |
+| [platform_five_datasheet.png](originals/platform_five_datasheet.png) | Apple / Microsoft / Google / Meta / Amazon datasheet | Current |
+| [compute_triad_datasheet_v1_superseded.png](originals/compute_triad_datasheet_v1_superseded.png) | Intel / AMD / Nvidia datasheet v1 | Superseded |
+| [compute_triad_datasheet_final_red_amd_green_nvidia.png](originals/compute_triad_datasheet_final_red_amd_green_nvidia.png) | Revised Compute Triad with red-haired AMD and green-haired Nvidia | Preferred |
+| [memory_trio_datasheet.png](originals/memory_trio_datasheet.png) | SK hynix / Samsung / Micron datasheet | Current |
+| [grandmothers_datasheet_v1_superseded.png](originals/grandmothers_datasheet_v1_superseded.png) | Fairchild / Bell Labs / DEC / Sun datasheet v1 | Superseded |
+| [foundry_trio_datasheet.png](originals/foundry_trio_datasheet.png) | TSMC / ASML / Huawei datasheet | Current |
+| [connectivity_quartet_datasheet.png](originals/connectivity_quartet_datasheet.png) | Arm / Qualcomm / Broadcom / Marvell datasheet | Current |
+| [grandmothers_datasheet_final.png](originals/grandmothers_datasheet_final.png) | Fairchild / Bell Labs differentiated, DEC / Sun preserved | Preferred |
+| [enterprise_trio_datasheet.png](originals/enterprise_trio_datasheet.png) | IBM / Oracle / Xerox executive datasheet | Current |
+| [ai_quartet_datasheet.png](originals/ai_quartet_datasheet.png) | Anthropic / OpenAI / xAI / Hugging Face school-theme datasheet | Current |
+| [ai_juniors_datasheet.png](originals/ai_juniors_datasheet.png) | Cerebras / Mistral / DeepSeek as child prodigies | Current |
 
-**Additional source art:** The revised Intel/AMD/Nvidia sheet with **AMD red hair and Nvidia green hair** was generated using a filename collision (`a_highly_detailed_anime_style_infographic_poster_i.png`) with the connectivity sheet. Preserve both under unique names during ZIP import.
-
-Originals are included in the downloadable ZIP bundle for manual GitHub import into `scratchpad/originals/`.
+The revised Compute Triad and connectivity datasheets had the same filename before the archive was prepared. The restored files have separate names. See the [asset manifest](asset_manifest.json) for poster checksums and the source poster for each individual reference card.

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 908 260" width="908" height="260" role="img" aria-labelledby="title">
+  <title id="title">Panel compositing from background, character, and lettering</title>
+  <rect width="908" height="260" rx="16" fill="#0c1526"/>
+  <g font-family="system-ui, sans-serif">
+    <text x="24" y="42" font-size="25" font-weight="700" fill="#f2f6fc">Three editable layers become one panel</text>
+    <g transform="translate(24 68)">
+      <rect width="180" height="128" rx="8" fill="#192e4a" stroke="#496183"/>
+      <path d="M8 96H172M22 96V62H158V96M22 62L42 42H138L158 62M55 50H125M59 42V20H121V42" fill="none" stroke="#8badd7" stroke-width="3"/>
+      <path d="M10 20H38M142 20H170M48 108H132" stroke="#476487" stroke-width="2"/>
+      <text x="90" y="160" font-size="19" text-anchor="middle" fill="#e4edf9">Background</text>
+    </g>
+    <g transform="translate(250 68)">
+      <rect width="180" height="128" rx="8" fill="#162138" stroke="#496183"/>
+      <path d="M111 51Q125 35 127 59L119 77L109 66Z" fill="#b33745"/>
+      <circle cx="97" cy="53" r="15" fill="#e6c1a4" stroke="#672d46" stroke-width="2"/>
+      <path d="M81 53Q80 31 106 36L115 52L99 47L83 57Z" fill="#c84150"/>
+      <path d="M76 101Q78 73 97 73Q114 73 122 101Z" fill="#a32f49" stroke="#f07983" stroke-width="2"/>
+      <text x="90" y="160" font-size="19" text-anchor="middle" fill="#e4edf9">Character</text>
+    </g>
+    <g transform="translate(476 68)">
+      <rect width="180" height="128" rx="8" fill="#162138" stroke="#496183"/>
+      <path d="M39 15H132Q143 15 143 27V47Q143 57 132 57H95L79 68L82 57H39Q27 57 27 47V27Q27 15 39 15Z" fill="#f1f6ff" stroke="#28384e" stroke-width="2"/>
+      <text x="85" y="34" fill="#17263a" font-size="12" text-anchor="middle">Competition</text>
+      <text x="85" y="49" fill="#17263a" font-size="12" text-anchor="middle">makes us stronger.</text>
+      <text x="90" y="160" font-size="19" text-anchor="middle" fill="#e4edf9">Lettering</text>
+    </g>
+    <g transform="translate(702 68)">
+      <rect width="180" height="128" rx="8" fill="#192e4a" stroke="#496183"/>
+      <path d="M8 96H172M22 96V62H158V96M22 62L42 42H138L158 62M55 50H125M59 42V20H121V42" fill="none" stroke="#8badd7" stroke-width="3"/>
+      <path d="M10 20H38M142 20H170M48 108H132" stroke="#476487" stroke-width="2"/><g transform="translate(12 18)"><path d="M111 51Q125 35 127 59L119 77L109 66Z" fill="#b33745"/>
+      <circle cx="97" cy="53" r="15" fill="#e6c1a4" stroke="#672d46" stroke-width="2"/>
+      <path d="M81 53Q80 31 106 36L115 52L99 47L83 57Z" fill="#c84150"/>
+      <path d="M76 101Q78 73 97 73Q114 73 122 101Z" fill="#a32f49" stroke="#f07983" stroke-width="2"/></g><g transform="translate(-12 -1) scale(.88)"><path d="M39 15H132Q143 15 143 27V47Q143 57 132 57H95L79 68L82 57H39Q27 57 27 47V27Q27 15 39 15Z" fill="#f1f6ff" stroke="#28384e" stroke-width="2"/>
+      <text x="85" y="34" fill="#17263a" font-size="12" text-anchor="middle">Competition</text>
+      <text x="85" y="49" fill="#17263a" font-size="12" text-anchor="middle">makes us stronger.</text></g>
+      <text x="90" y="160" font-size="19" text-anchor="middle" fill="#e4edf9">Composed panel</text>
+    </g>
+    <g font-size="25" font-weight="700" fill="#9bcfff" text-anchor="middle">
+      <text x="227" y="137">+</text><text x="453" y="137">+</text><text x="679" y="137">=</text>
+    </g>
+  </g>
+</svg>
