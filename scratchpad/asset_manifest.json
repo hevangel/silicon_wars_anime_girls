@@ -245,6 +245,7 @@
     {
       "character": "xerox",
       "path": "characters/xerox/reference_card.jpg",
+      "archive_commit": "8ce953618a547bcb8e3aeca73f7e5a9e2ce98dd1",
       "source": "enterprise_trio_datasheet.png",
       "column": 3
     },

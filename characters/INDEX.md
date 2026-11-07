@@ -1,94 +1,59 @@
-# Silicon Wars — Character Index
+# Silicon Wars · Season 1 Character Index
 
-**46 characters** with individually committed folders, character descriptions and production prompts.
+**32 characters** grouped by their role in Season 1.
 
-## Silicon Kingdoms
+## Tier 1 · Main characters
 
-- [Intel](./intel/README.md) — The Blue Empress
-- [AMD](./amd/README.md) — The Crimson Challenger
-- [Nvidia](./nvidia/README.md) — The Emerald Queen
+- [Intel](intel/README.md) — The Blue Empress
+- [AMD](amd/README.md) — The Crimson Challenger
+- [Nvidia](nvidia/README.md) — The Emerald Queen
 
-## Connectivity Quartet
+## Tier 2A · Platforms
 
-- [Arm](./arm/README.md) — The Quiet Architect
-- [Qualcomm](./qualcomm/README.md) — The Wireless Speedster
-- [Broadcom](./broadcom/README.md) — The Network Spider Queen
-- [Marvell](./marvell/README.md) — The Deep-Sea Navigator
+- [Google](google/README.md) — The Rainbow Polymath
+- [Microsoft](microsoft/README.md) — The Azure Commander
+- [Apple](apple/README.md) — The Silver Perfectionist
+- [Meta](meta/README.md) — The Social Worldbuilder
+- [Amazon](amazon/README.md) — The Logistics Overlord
 
-## AI Academy
+## Tier 2B · AI labs
 
-- [OpenAI](./openai/README.md) — The Reckless Prodigy
-- [Anthropic](./anthropic/README.md) — The Cautious Scholar
-- [Google](./google/README.md) — The Rainbow Polymath
-- [xAI](./xai/README.md) — The Chaos Astronaut
-- [Hugging Face](./huggingface/README.md) — The Open-Source Sunshine Girl
+- [Anthropic](anthropic/README.md) — The Cautious Scholar
+- [OpenAI](openai/README.md) — The Reckless Prodigy
+- [xAI](xai/README.md) — The Chaos Astronaut
+- [Hugging Face](huggingface/README.md) — The Open-Source Sunshine Girl
+- [Mistral AI](mistral-ai/README.md) — The Little Wind Mage
+- [DeepSeek](deepseek/README.md) — The Frugal Reasoning Prodigy
 
-## Platform Kingdoms
+## Tier 3A · Memory, foundry, and equipment
 
-- [Microsoft](./microsoft/README.md) — The Azure Commander
-- [Apple](./apple/README.md) — The Silver Perfectionist
-- [Meta](./meta/README.md) — The Social Worldbuilder
-- [Amazon](./amazon/README.md) — The Logistics Overlord
-- [Huawei](./huawei/README.md) — The Crimson Fortress
+- [TSMC](tsmc/README.md) — The Jade Foundry Goddess
+- [ASML](asml/README.md) — The EUV Light Weaver
+- [Samsung](samsung/README.md) — The Sapphire Conglomerate Princess
+- [Micron](micron/README.md) — The Violet Archivist
+- [SK hynix](sk-hynix/README.md) — The HBM Princess
 
-## Foundry Guild
+## Tier 3B · Other chip companies
 
-- [TSMC](./tsmc/README.md) — The Jade Foundry Goddess
+- [Arm](arm/README.md) — The Quiet Architect
+- [Qualcomm](qualcomm/README.md) — The Wireless Speedster
+- [Broadcom](broadcom/README.md) — The Network Spider Queen
+- [Marvell](marvell/README.md) — The Deep-Sea Navigator
+- [Huawei](huawei/README.md) — The Crimson Fortress
+- [Cerebras](cerebras/README.md) — The Wafer-Scale Prodigy
 
-## Memory Kingdom
+## Tier 4 · Cameos
 
-- [Micron](./micron/README.md) — The Violet Archivist
-- [Samsung](./samsung/README.md) — The Sapphire Conglomerate Princess
-- [SK hynix](./sk-hynix/README.md) — The HBM Princess
+- [IBM](ibm/README.md) — The Iron Lady of Computing
+- [Oracle](oracle/README.md) — The Database Duchess
+- [Sun Microsystems](sun-microsystems/README.md) — The Solaris Sorceress
+- [Bell Labs](bell-labs/README.md) — The Grandmother of Transistors
+- [Fairchild Semiconductor](fairchild/README.md) — The Silicon Matriarch
+- [DEC](dec/README.md) — The Hacker Grandma
+- [Xerox PARC](xerox-parc/README.md) — The Forgotten Inventor
 
-## Creative Kingdom
+## Artwork and production references
 
-- [Sony](./sony/README.md) — The Dream Director
+Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), and [Nvidia](nvidia/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
 
-## Foundry Equipment Guild
-
-- [ASML](./asml/README.md) — The EUV Light Weaver
-
-## EDA Trinity
-
-- [Cadence](./cadence/README.md) — The Waveform Witch
-- [Synopsys](./synopsys/README.md) — The Formal Judge
-- [Siemens EDA](./siemens-eda/README.md) — The Systems Commander
-
-## Equipment Guild
-
-- [Applied Materials](./applied-materials/README.md) — The Atomic Alchemist
-- [Lam Research](./lam-research/README.md) — The Plasma Blade Master
-- [KLA](./kla/README.md) — The All-Seeing Inspector
-
-## AI Academy Juniors
-
-- [Cerebras](./cerebras/README.md) — The Wafer-Scale Prodigy
-- [DeepSeek](./deepseek/README.md) — The Frugal Reasoning Prodigy
-- [Mistral AI](./mistral-ai/README.md) — The Little Wind Mage
-
-## Grandmother Generation
-
-- [Bell Labs](./bell-labs/README.md) — The Grandmother of Transistors
-- [Fairchild Semiconductor](./fairchild/README.md) — The Silicon Matriarch
-- [DEC](./dec/README.md) — The Hacker Grandma
-- [Motorola Semiconductor](./motorola-semiconductor/README.md) — The Embedded Biker Granny
-- [Zilog](./zilog/README.md) — The Eight-Bit Rebel Granny
-- [MOS Technology](./mos-technology/README.md) — The People's Processor Granny
-- [Atari](./atari/README.md) — The Arcade Grandma
-- [Commodore](./commodore/README.md) — The Home Computer Grandma
-- [Sun Microsystems](./sun-microsystems/README.md) — The Solaris Sorceress
-- [Xerox PARC](./xerox-parc/README.md) — The Forgotten Inventor
-- [Silicon Graphics](./sgi/README.md) — The Graphics Sorceress
-
-## Enterprise Elders
-
-- [IBM](./ibm/README.md) — The Iron Lady of Computing
-- [Oracle](./oracle/README.md) — The Database Duchess
-- [Xerox](./xerox/README.md) — The Office Innovation Pioneer
-
-## Artwork status
-
-Group illustrations are catalogued in [scratchpad/illustrations.md](../scratchpad/illustrations.md). Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), and [Nvidia](nvidia/character_sheet.png) also have illustrated turnaround sheets.
-
-The [structured roster](roster.json) captures the same cast for production tools.
+The [structured roster](roster.json) lists the same cast in tier order. The [original group artwork](../scratchpad/illustrations.md) is archived separately.
