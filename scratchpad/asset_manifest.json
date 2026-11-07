@@ -1,0 +1,274 @@
+{
+  "original_pngs": [
+    {
+      "path": "scratchpad/originals/compute_triad_original.png",
+      "bytes": 3295101,
+      "sha256": "2f6f147f04a149aaf873554ccd9b4a711c01863d8e5255c8619cce674f59218f"
+    },
+    {
+      "path": "scratchpad/originals/grandmothers_ensemble_original.png",
+      "bytes": 3802292,
+      "sha256": "3767e2fb51a86ec65ac9311e2995c79c5e63326b83b858d30ab883df982cbc99"
+    },
+    {
+      "path": "scratchpad/originals/connectivity_quartet_original.png",
+      "bytes": 3491519,
+      "sha256": "00f15411b152ef782d31bc13ccf05a71208e065d7481b95c9382a287e787ffb2"
+    },
+    {
+      "path": "scratchpad/originals/ai_quartet_original.png",
+      "bytes": 3504262,
+      "sha256": "887318d5f58e18c5c16886154044430fc758f54cf4b5fa2bb386df790aa6cd53"
+    },
+    {
+      "path": "scratchpad/originals/platform_five_datasheet.png",
+      "bytes": 2760388,
+      "sha256": "101595b42008210fbf7bbc4620bee6b8628d3d484d8eb2983f6c061ad1936cbb"
+    },
+    {
+      "path": "scratchpad/originals/foundry_trio_datasheet.png",
+      "bytes": 2824297,
+      "sha256": "e4087f8c17ca360ad4a34ea740a525a052b6995674f1c42e6e012d0705174a54"
+    },
+    {
+      "path": "scratchpad/originals/memory_trio_datasheet.png",
+      "bytes": 2728657,
+      "sha256": "236decb98e46ed97cc4de51a8c6b3ba52a0513351a113f5e5f4475b60e2cc52d"
+    },
+    {
+      "path": "scratchpad/originals/compute_triad_datasheet_v1_superseded.png",
+      "bytes": 2690453,
+      "sha256": "ab0b97aafc203f5bc28d45746e4bd286564ed8a179ddfb4aa247319c2decf6d1"
+    },
+    {
+      "path": "scratchpad/originals/compute_triad_datasheet_final_red_amd_green_nvidia.png",
+      "bytes": 2651513,
+      "sha256": "642f005315351e1a3557776edf70cf3156c255531af0a425e7e6841eb9956e8b"
+    },
+    {
+      "path": "scratchpad/originals/connectivity_quartet_datasheet.png",
+      "bytes": 2766394,
+      "sha256": "a43d8dc5a97f6cb3d2cfc54d1de6157d9dff3592a1ad7a6cceb0261cdf05a119"
+    },
+    {
+      "path": "scratchpad/originals/ai_juniors_datasheet.png",
+      "bytes": 2566134,
+      "sha256": "b00ca9fd614cb830a91ad9ed55007f6f30c481d16b4dcad1026dbdbe6035ede3"
+    },
+    {
+      "path": "scratchpad/originals/ai_quartet_datasheet.png",
+      "bytes": 2689075,
+      "sha256": "acadeac7bf58a9012851478ad0836d91fb6b8415115f8abd457f872a64ecb954"
+    },
+    {
+      "path": "scratchpad/originals/enterprise_trio_datasheet.png",
+      "bytes": 2494448,
+      "sha256": "9820f6cf024d0ac41cfebd4be982d48512a1296b3a1d1247eeb16c193ce1c730"
+    },
+    {
+      "path": "scratchpad/originals/grandmothers_datasheet_v1_superseded.png",
+      "bytes": 2712294,
+      "sha256": "2e317a496ec02dc269cb34393d6ebbc7749de1184d975959913c1f4ab6931bef"
+    },
+    {
+      "path": "scratchpad/originals/grandmothers_datasheet_final.png",
+      "bytes": 2679560,
+      "sha256": "78bcb8380ab49bba52905b8f8625012c0a38e222d25fd14a8e5cc301239ea9a7"
+    }
+  ],
+  "individual_reference_cards": [
+    {
+      "character": "intel",
+      "path": "characters/intel/reference_card.jpg",
+      "source": "compute_triad_datasheet_final_red_amd_green_nvidia.png",
+      "column": 1
+    },
+    {
+      "character": "amd",
+      "path": "characters/amd/reference_card.jpg",
+      "source": "compute_triad_datasheet_final_red_amd_green_nvidia.png",
+      "column": 2
+    },
+    {
+      "character": "nvidia",
+      "path": "characters/nvidia/reference_card.jpg",
+      "source": "compute_triad_datasheet_final_red_amd_green_nvidia.png",
+      "column": 3
+    },
+    {
+      "character": "arm",
+      "path": "characters/arm/reference_card.jpg",
+      "source": "connectivity_quartet_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "qualcomm",
+      "path": "characters/qualcomm/reference_card.jpg",
+      "source": "connectivity_quartet_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "broadcom",
+      "path": "characters/broadcom/reference_card.jpg",
+      "source": "connectivity_quartet_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "marvell",
+      "path": "characters/marvell/reference_card.jpg",
+      "source": "connectivity_quartet_datasheet.png",
+      "column": 4
+    },
+    {
+      "character": "sk-hynix",
+      "path": "characters/sk-hynix/reference_card.jpg",
+      "source": "memory_trio_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "samsung",
+      "path": "characters/samsung/reference_card.jpg",
+      "source": "memory_trio_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "micron",
+      "path": "characters/micron/reference_card.jpg",
+      "source": "memory_trio_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "apple",
+      "path": "characters/apple/reference_card.jpg",
+      "source": "platform_five_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "microsoft",
+      "path": "characters/microsoft/reference_card.jpg",
+      "source": "platform_five_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "google",
+      "path": "characters/google/reference_card.jpg",
+      "source": "platform_five_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "meta",
+      "path": "characters/meta/reference_card.jpg",
+      "source": "platform_five_datasheet.png",
+      "column": 4
+    },
+    {
+      "character": "amazon",
+      "path": "characters/amazon/reference_card.jpg",
+      "source": "platform_five_datasheet.png",
+      "column": 5
+    },
+    {
+      "character": "tsmc",
+      "path": "characters/tsmc/reference_card.jpg",
+      "source": "foundry_trio_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "asml",
+      "path": "characters/asml/reference_card.jpg",
+      "source": "foundry_trio_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "huawei",
+      "path": "characters/huawei/reference_card.jpg",
+      "source": "foundry_trio_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "anthropic",
+      "path": "characters/anthropic/reference_card.jpg",
+      "source": "ai_quartet_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "openai",
+      "path": "characters/openai/reference_card.jpg",
+      "source": "ai_quartet_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "xai",
+      "path": "characters/xai/reference_card.jpg",
+      "source": "ai_quartet_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "huggingface",
+      "path": "characters/huggingface/reference_card.jpg",
+      "source": "ai_quartet_datasheet.png",
+      "column": 4
+    },
+    {
+      "character": "cerebras",
+      "path": "characters/cerebras/reference_card.jpg",
+      "source": "ai_juniors_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "mistral-ai",
+      "path": "characters/mistral-ai/reference_card.jpg",
+      "source": "ai_juniors_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "deepseek",
+      "path": "characters/deepseek/reference_card.jpg",
+      "source": "ai_juniors_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "ibm",
+      "path": "characters/ibm/reference_card.jpg",
+      "source": "enterprise_trio_datasheet.png",
+      "column": 1
+    },
+    {
+      "character": "oracle",
+      "path": "characters/oracle/reference_card.jpg",
+      "source": "enterprise_trio_datasheet.png",
+      "column": 2
+    },
+    {
+      "character": "xerox",
+      "path": "characters/xerox/reference_card.jpg",
+      "source": "enterprise_trio_datasheet.png",
+      "column": 3
+    },
+    {
+      "character": "fairchild",
+      "path": "characters/fairchild/reference_card.jpg",
+      "source": "grandmothers_datasheet_final.png",
+      "column": 1
+    },
+    {
+      "character": "bell-labs",
+      "path": "characters/bell-labs/reference_card.jpg",
+      "source": "grandmothers_datasheet_final.png",
+      "column": 2
+    },
+    {
+      "character": "dec",
+      "path": "characters/dec/reference_card.jpg",
+      "source": "grandmothers_datasheet_final.png",
+      "column": 3
+    },
+    {
+      "character": "sun-microsystems",
+      "path": "characters/sun-microsystems/reference_card.jpg",
+      "source": "grandmothers_datasheet_final.png",
+      "column": 4
+    }
+  ],
+  "notes": "These assets accompany 46 character folders already committed individually to GitHub. Cropped cards are not newly generated standalone turnaround art."
+}
