@@ -1,0 +1,50 @@
+# Anthropic — The Cautious Scholar
+
+> An original *Silicon Wars* company-personification character. Unofficial fictional fan work.
+
+| Field | Design |
+|---|---|
+| Faction | AI Academy |
+| Age portrayal | adult |
+| Hair color | auburn |
+| Brand color motif | terracotta |
+
+## Appearance
+Auburn braid, warm brown eyes, thoughtful glasses and patient gaze
+
+## Clothing and equipment
+Cream scholarly coat and an annotated Constitution notebook
+
+## Personality
+Conscientious, rigorously careful and quietly competitive
+
+## Speech patterns
+Measured, qualified statements; asks for evidence and safeguards
+
+## Thinking and values
+Powerful AI needs interpretability, control and safety
+
+## Motivation
+Build useful AI that remains steerable and predictable
+
+## Dramatic flaws
+Overthinking sometimes delays useful progress
+
+## Rivalries
+OpenAI, Google and xAI
+
+## Alliances
+Researchers and enterprise users
+
+## Special ability
+**Constitutional Ward** — a fictional metaphor for the real technology.
+
+## Signature line
+> Should we understand the power before adding more?
+
+## Character design assets
+- [SVG design-sheet draft](character_sheet.svg) — editable 3-view illustration and layout.
+- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
+- [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
+
+The SVG is an editable initial concept, **not** a finished standalone image-generation portrait. Original full-resolution group artworks were generated earlier in this conversation.
