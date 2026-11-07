@@ -1,0 +1,10 @@
+id: panel-03
+title: A new bridge
+camera: Three-quarter medium shot
+characters: [amd]
+references: [characters/amd/character_sheet.png]
+dialogue_ids: [b03]
+crop_center: [0.5, 0.43]
+art: chapters/pilot-001/pages/page-001/art/panel-03.png
+direction: "One person only, AMD, the adult Crimson Challenger from Image 1. Her fiery red braided high ponytail, amber eyes, neck headphones, and black and crimson tactical jacket are unmistakable. At the moat rim she turns to her right with a confident asymmetric grin, raising a fingerless-gloved hand to summon several hovering red square chiplet tiles. Position her face around x=0.42, y=0.48, on the left/center. Tiles arc low from the right toward her hand. Leave dark clean space in the UPPER RIGHT for a speech balloon. Show the metal rim and reflected crimson light."
+framing: "Use a 5:4 or 3:2 landscape canvas. Keep focal details inside a central 5:4 crop."

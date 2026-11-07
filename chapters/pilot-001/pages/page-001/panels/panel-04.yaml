@@ -1,0 +1,10 @@
+id: panel-04
+title: A little leverage
+camera: Low-angle action shot
+characters: [nvidia]
+references: [characters/nvidia/character_sheet.png]
+dialogue_ids: [b04]
+crop_center: [0.5, 0.44]
+art: chapters/pilot-001/pages/page-001/art/panel-04.png
+direction: "One person only, Nvidia, the adult Emerald Queen from Image 1. Thick emerald braid, goggles up in her hair, strong forearms, naturally athletic legs, black leather jacket-dress with branching emerald seams. She plants her boots and wedges the huge raised steel processor-gate slab open with her right shoulder and right palm flat under its bottom rim. The elbow is visibly below the palm, and the slab clearly rests on her shoulder; her other arm is free. No telekinesis. Medium-wide low angle, confident slight smile, her face around x=0.42 y=0.47, with clear dark open room in the UPPER RIGHT for a short balloon. Crop safely and make the scene of her carrying the weight obvious."
+framing: "Use a 5:4 or 3:2 landscape canvas. Keep focal details inside a central 5:4 crop."

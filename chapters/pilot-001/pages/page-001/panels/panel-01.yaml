@@ -1,0 +1,10 @@
+id: panel-01
+title: The Citadel
+camera: Panoramic establishing
+characters: []
+references: []
+dialogue_ids: []
+crop_center: [0.5, 0.5]
+art: chapters/pilot-001/pages/page-001/art/panel-01.png
+direction: "Very wide, cinematic establishing shot of a vast processor-shaped fortress in a cold night skyline. A closed, layered rectangular steel processor gate spans the center above a deep dry circuit-trace moat. Place the entire gate and the glowing moat rim within the central horizontal half of the image so a wide panoramic crop is safe. Blade-like skyscrapers and icy blue circuit lines radiate outward; no figures. Powerful, readable architecture and atmosphere."
+framing: "Use the widest landscape canvas available. Keep faces and vital details in the central 42% of the image height for a panoramic crop."

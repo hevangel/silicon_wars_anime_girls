@@ -1,5 +1,5 @@
 # Chapters
 
-Each chapter has a script, storyboard, page folders, and editable lettering. Keep accepted panel artwork beside its numbered panel instructions and generation manifest. Use a stable ID such as `chapter-001-page-001-panel-03` in both the storyboard and the corresponding panel file.
+Each production run has a script, storyboard, page folders, and editable lettering. Keep panel art and its generation inputs beside the page. Use stable panel IDs across the storyboard, panel briefs, and lettering.
 
-[Chapter 1 exercise](chapter-001/README.md)
+[Production pilot 001](pilot-001/README.md)

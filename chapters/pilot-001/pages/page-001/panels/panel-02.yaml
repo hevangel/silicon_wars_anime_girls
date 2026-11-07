@@ -1,0 +1,10 @@
+id: panel-02
+title: The rule
+camera: Low-angle medium close-up
+characters: [intel]
+references: [characters/intel/character_sheet.png]
+dialogue_ids: [b02]
+crop_center: [0.5, 0.43]
+art: chapters/pilot-001/pages/page-001/art/panel-02.png
+direction: "One person only, Intel, the adult Blue Empress from Image 1. Long flowing light-blue hair, sapphire crystal crown, cream and royal-blue gold-trimmed military coat, white gloves. She holds up a small round iridescent silicon wafer, with a composed stern look. Camera slightly below eye level, chest-up. Place her crown, face, and wafer mainly in the left 65 percent, with the face around x=0.40, y=0.47. Keep the UPPER RIGHT clear and dark for a speech balloon to be added later. The processor gate looms behind her. Her blue hair must be clearly blue."
+framing: "Use a 5:4 or 3:2 landscape canvas. Keep focal details inside a central 5:4 crop."

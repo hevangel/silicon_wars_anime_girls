@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 866.67" width="600" height="867" role="img" aria-labelledby="title">
+  <title id="title">The Compatibility Test · Pilot 001 right-to-left storyboard</title>
+  <rect width="600" height="867" fill="#e9edf2"/>
+  <g transform="translate(26.67 20.00)">
+    <rect width="546.67" height="160.00" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 72H528M120 72V36H203V16H343V36H426V72M210 72V30H337V72M226 39H321M226 50H321M226 61H321M169 101L229 77M379 101L318 77"/><path d="M65 62H121M427 62H483" stroke="#5b8bcd"/></g>
+    <rect x="1" y="136.00" width="544.67" height="23" fill="#23344a"/>
+    <text x="11" y="152.00" font-family="sans-serif" font-size="14" fill="#f1f5f9">01 · The Citadel</text>
+  </g>
+  <g transform="translate(305.00 190.00)">
+    <rect width="268.33" height="216.67" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M25 183Q37 128 88 125Q143 126 180 180M139 151L193 103"/><circle cx="94" cy="87" r="35"/><path d="M61 61L69 42L88 55L95 31L106 55L128 43L130 61" stroke="#5b8bcd"/><circle cx="197" cy="91" r="16" stroke="#5b8bcd"/></g>
+    <rect x="1" y="192.67" width="266.33" height="23" fill="#23344a"/>
+    <text x="11" y="208.67" font-family="sans-serif" font-size="14" fill="#f1f5f9">02 · The rule</text>
+  </g>
+  <g transform="translate(26.67 190.00)">
+    <rect width="268.33" height="216.67" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M24 182Q34 132 85 125Q131 126 163 173L201 126"/><circle cx="90" cy="89" r="34"/><path d="M59 86Q54 58 89 52Q123 55 125 88M115 57Q155 36 158 97" stroke="#c34055"/><path d="M172 97L186 87L199 97L186 107Z M210 78L224 68L237 78L224 88Z" stroke="#c34055"/></g>
+    <rect x="1" y="192.67" width="266.33" height="23" fill="#23344a"/>
+    <text x="11" y="208.67" font-family="sans-serif" font-size="14" fill="#f1f5f9">03 · A new bridge</text>
+  </g>
+  <g transform="translate(305.00 416.67)">
+    <rect width="268.33" height="216.67" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M14 94L242 25L251 44L21 112ZM69 167L77 116L51 104M79 118L111 103M81 164L62 188M81 164L122 188"/><circle cx="100" cy="84" r="17" stroke="#228269"/><path d="M112 88Q130 105 134 147" stroke="#228269"/></g>
+    <rect x="1" y="192.67" width="266.33" height="23" fill="#23344a"/>
+    <text x="11" y="208.67" font-family="sans-serif" font-size="14" fill="#f1f5f9">04 · A little leverage</text>
+  </g>
+  <g transform="translate(26.67 416.67)">
+    <rect width="268.33" height="216.67" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M16 156L214 58M57 182L247 88M187 58V23H249V85"/><path d="M46 152L76 137L103 150L73 165Z M97 126L127 111L152 123L124 138Z M149 101L177 86L201 98L173 113Z" stroke="#c34055"/></g>
+    <rect x="1" y="192.67" width="266.33" height="23" fill="#23344a"/>
+    <text x="11" y="208.67" font-family="sans-serif" font-size="14" fill="#f1f5f9">05 · Chiplets lock</text>
+  </g>
+  <g transform="translate(26.67 643.33)">
+    <rect width="546.67" height="203.33" fill="#fafbfd" stroke="#23344a" stroke-width="2"/>
+    <g fill="none" stroke="#374e68" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M75 132H470M113 123Q124 93 157 93Q188 93 200 123M230 123Q241 93 274 93Q304 93 318 123M344 123Q358 93 390 93Q422 93 435 123M224 135V153H319V135"/><circle cx="157" cy="68" r="19" stroke="#c34055"/><circle cx="274" cy="68" r="19" stroke="#228269"/><circle cx="390" cy="68" r="19" stroke="#5b8bcd"/></g>
+    <rect x="1" y="179.33" width="544.67" height="23" fill="#23344a"/>
+    <text x="11" y="195.33" font-family="sans-serif" font-size="14" fill="#f1f5f9">06 · The progress bar</text>
+  </g>
+</svg>
