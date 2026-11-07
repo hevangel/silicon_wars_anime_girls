@@ -42,6 +42,7 @@ IBM and the PC ecosystem.
 
 ## Visual assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
 - [Model sheet and reference card prompts](character_sheet.prompt.md)
 - [Painted reference card](reference_card.jpg).
 - [Detailed final-anime illustration prompt](art_prompt.md)
