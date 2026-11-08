@@ -44,5 +44,8 @@ NVIDIA, TSMC and AI accelerator companies
 
 ## Character design assets
 - [Painted reference card](reference_card.jpg) — regenerated 2026-11-08 as the younger of the hanbok sisters (tall slim column hanbok in red-orange→charcoal, HBM stack on her open palm, notebook held to her chest); name plate carries name + title only. Supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/sk-hynix-reference-card-hbm-specialist.jpg](../../scratchpad/superseded/sk-hynix-reference-card-hbm-specialist.jpg).
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and the (pending) character sheets.
+- [Character model sheet](character_sheet.png) — front/three-quarter/side/back turnarounds in the corrected hanbok proportions, FOCUSED / SMUG / IRRITATED close-ups, and palette; recorded takes in [character_sheet.prompt.md](character_sheet.prompt.md).
+- [Expression sheet](expressions.png) — full-body figure with notebook and HBM stack plus twelve labeled expressions; her quiet register held (smiles slight, anger a glare).
+- [Continuity lock](continuity.yaml) — identity and reference assets for panel generation.
+- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and the character sheets.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
