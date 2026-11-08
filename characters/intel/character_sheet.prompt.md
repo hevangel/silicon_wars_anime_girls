@@ -1,24 +1,24 @@
-# Intel model sheet and reference card generation record
+# Intel illustration generation record
 
-Both illustrations were generated with the built-in image generator.
+The built-in image generator produced the initial artwork and the crown-badge revisions.
 
 ## Model sheet
 
-- Output [Illustrated model sheet](character_sheet.png)
+- Output [Pre-badge model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/character_sheet.png)
 - Input [Original Compute Triad poster](../../scratchpad/originals/compute_triad_original.png), with Intel on the left
 
 Create a polished landscape 3:2 anime character model sheet for INTEL, THE BLUE EMPRESS, an adult woman in Silicon Wars. Image 1 is the original Compute Triad painting. Use only Intel, the crowned woman on the FAR LEFT, as the identity and costume blueprint. Preserve her poised, mature face, sapphire eyes, and long, voluminous flowing hairstyle. Change the hair color to unmistakably pale icy sky blue from roots through tips, visibly light blue in every view, with soft blue shadows. Keep her ornate, pointed metallic crown set with bright sapphire-blue crystals, gold trim and small sapphire drop earrings. Faithfully carry over the original elegant imperial military silhouette: structured deep royal-blue and navy dress coat, high collar, cream-white front and lining, gold-fringed epaulettes, layered gold aiguillettes, tailored double-breasted waist, long split coat panels with subtle blue circuit embroidery, white gloves and tall black/navy military boots. Maintain the same crown, hairstyle, uniform construction, accessories and proportions in every angle. Put four complete standing turnarounds in a row on a pale neutral background, feet and crown tips fully in frame with comfortable outer margins: FRONT, THREE-QUARTER, SIDE, BACK. Below them, include three close-up expressions of the same face: COMPOSED, STERN, and SURPRISED, plus a small palette strip. Use clear restrained labels, with only the text "INTEL", "THE BLUE EMPRESS", "FRONT", "THREE-QUARTER", "SIDE", "BACK", "COMPOSED", "STERN", and "SURPRISED". Crisp high-end manga linework and detailed cel shading. Give the figures room to breathe. Keep the sheet free of other characters, product logos, scenery, and technical marketing copy.
 
 ## Reference card
 
-- Output [Painted reference card](reference_card.jpg)
-- Inputs [New model sheet](character_sheet.png) and [previous card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d75dd93d8dbd2589fa7fe947df27eb1396df94b1/characters/intel/reference_card.jpg) for layout
+- Output [Pre-badge reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/reference_card.jpg)
+- Inputs [Pre-badge model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/character_sheet.png) and [previous card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d75dd93d8dbd2589fa7fe947df27eb1396df94b1/characters/intel/reference_card.jpg) for layout
 
 Create a polished portrait-oriented 2:3 anime character reference card for Intel in Silicon Wars. Image 1 is the approved model-sheet design to match: the adult Blue Empress, flowing icy light-blue hair, sapphire-blue eyes, ornate pointed metallic crown with faceted sapphire-blue crystals, gold trim, sapphire drop earrings, high-collared royal-blue imperial military coat with cream-white front and lining, gold-fringed epaulettes, layered gold cords, tailored waist, white gloves. Match that exact identity, crown shape, colors, and uniform details. Image 2 is the previous reference card and a guide ONLY for its vertical portrait-and-caption structure and blue tech framing. Give the new regal design a large three-quarter portrait from about the hips up, with the crown tips fully visible, a composed commanding gaze and a gloved hand holding a small wafer-shaped heirloom low in the frame. The character occupies most of the card, against understated blue circuitry and dark architecture. Keep the skin tones natural and the hair visibly light blue. Use a narrow elegant blue-and-gold border and a clean bottom nameplate. Render only the exact text "INTEL" and "THE BLUE EMPRESS" in the bottom nameplate, with no logos, watermark, marketing, or other text. Match the sheet's polished detailed manga linework and cel shading.
 
 ## Expression sheet
 
-The built-in image generator used the [current model sheet](character_sheet.png) for identity and the user’s attached example for layout and acting. The output is [expressions.png](expressions.png).
+The built-in image generator used the [pre-badge model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/character_sheet.png) for identity and the user’s attached example for layout and acting. The output is [the pre-badge expression sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/expressions.png).
 
 Create a production-ready colored manga EXPRESSION SHEET for INTEL, THE BLUE EMPRESS, in Silicon Wars. Image 1 is this adult character's current model sheet. Follow it closely for the exact facial proportions, eyes, hairstyle, accessories, outfit, colors and body build. Image 2 is the user's layout and acting reference only. Use its one-full-body-plus-twelve-faces structure and range of expressions. Adult woman with long, flowing light sky-blue hair, sapphire eyes, a tall pointed sapphire-crystal crown, sapphire drop earrings, and the exact royal-blue imperial military coat with cream panels, gold epaulettes and cords, white gloves, and dark boots. Palette accents are sapphire blue and gold. Her default demeanor is composed and regal. In anger she issues a sharp command; in smugness she lifts one brow; in excitement she gives a rare delighted grin.
 
@@ -30,3 +30,31 @@ SMUG | FLUSTERED | SERIOUS
 BLUSHING | EXCITED | OMINOUS
 
 Distinguish all 12 clearly. Neutral is relaxed with open eyes; smiling is warm; eyes closed is calmly resting; angry has tight brows and an open sharp retort; crying has visible tears; surprised has wide eyes and a small open mouth; smug has one corner of the mouth raised; flustered has anxious brows and a small sweat drop; serious is alert with a level mouth; blushing is visibly flushed with a shy look; excited is an energetic delighted expression with bright eyes; ominous is quiet and shadowed, with a steady intimidating gaze. Use detailed colored anime linework and cel shading that match Image 1. Use only the nameplate and 12 exact English labels, with a crisp simple typeface. Keep every cell and label separate and readable. No other characters, layout panels, logos, watermark, or scenery.
+
+## Crown-badge revisions
+
+The [archived original reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d75dd93d8dbd2589fa7fe947df27eb1396df94b1/characters/intel/reference_card.jpg) supplied the Intel logo. The edits targeted the corresponding pre-badge artwork linked above.
+
+### Current model sheet
+
+[Updated model sheet](character_sheet.png)
+
+Image 1 is the actual artwork to edit. Image 2 is the archived Intel card for the Intel logo ONLY. Make one localized edit to Image 1: mount a small, legible deep-sapphire blue enamel oval badge with a fine gold rim onto the front brow band of Intel's crown, immediately under the large central sapphire jewel and above her hairline. Inside the blue oval, reproduce the archived card's white lowercase Intel wordmark spelled exactly "intel", with the familiar white orbital swoosh, like the badge in Image 2. This is a tiny physical crown emblem, scaled like jewelry, with perspective and shading appropriate to the angle. Keep the central sapphire intact and do not cover her forehead or hair. Retain Image 1's exact art style, framing, expression, face, light-blue hair, blue-and-gold imperial uniform, jewelry, all crown spires and sapphire crystals, scenery, palette, borders, layout, and existing headings. No extra branding elsewhere.
+
+This is the original four-view character model sheet with three expression portraits. Place the same front-facing crown badge on each of the three portraits and on the front and three-quarter standing figures. In the true side view only the small edge can show; the back shows the rear of the crown. Keep the same 3:2 landscape sheet and exact labels FRONT, THREE-QUARTER, SIDE, BACK, COMPOSED, STERN, SURPRISED.
+
+### Current expression sheet
+
+[Updated expression sheet](expressions.png)
+
+Image 1 is the actual artwork to edit. Image 2 is the archived Intel card for the Intel logo ONLY. Make one localized edit to Image 1: mount a small, legible deep-sapphire blue enamel oval badge with a fine gold rim onto the front brow band of Intel's crown, immediately under the large central sapphire jewel and above her hairline. Inside the blue oval, reproduce the archived card's white lowercase Intel wordmark spelled exactly "intel", with the familiar white orbital swoosh, like the badge in Image 2. This is a tiny physical crown emblem, scaled like jewelry, with perspective and shading appropriate to the angle. Keep the central sapphire intact and do not cover her forehead or hair. Retain Image 1's exact art style, framing, expression, face, light-blue hair, blue-and-gold imperial uniform, jewelry, all crown spires and sapphire crystals, scenery, palette, borders, layout, and existing headings. No extra branding elsewhere.
+
+This is the original 12-expression sheet. Apply the same crown emblem to ALL twelve front-facing or three-quarter close-up crowns and to the full-body figure on the left. Preserve the existing 3:2 layout, exact grid of 3 columns by 4 rows, and every existing English label in place and correctly spelled. Maintain all twelve distinct expressions. At small scale prioritize the exact readable white lowercase "intel" wordmark.
+
+### Current reference card
+
+[Updated reference card](reference_card.jpg)
+
+Image 1 is the actual artwork to edit. Image 2 is the archived Intel card for the Intel logo ONLY. Make one localized edit to Image 1: mount a small, legible deep-sapphire blue enamel oval badge with a fine gold rim onto the front brow band of Intel's crown, immediately under the large central sapphire jewel and above her hairline. Inside the blue oval, reproduce the archived card's white lowercase Intel wordmark spelled exactly "intel", with the familiar white orbital swoosh, like the badge in Image 2. This is a tiny physical crown emblem, scaled like jewelry, with perspective and shading appropriate to the angle. Keep the central sapphire intact and do not cover her forehead or hair. Retain Image 1's exact art style, framing, expression, face, light-blue hair, blue-and-gold imperial uniform, jewelry, all crown spires and sapphire crystals, scenery, palette, borders, layout, and existing headings. No extra branding elsewhere.
+
+This is the original 2:3 reference card. In this large portrait the crown badge must be clearly readable and properly embedded in the crown band. Preserve the exact title "INTEL" and subtitle "THE BLUE EMPRESS", the sapphire crown silhouette and gem arrangement, the wafer in her glove, the background and gold card border.

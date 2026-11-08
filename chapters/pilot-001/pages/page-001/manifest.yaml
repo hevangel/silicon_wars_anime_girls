@@ -21,6 +21,7 @@ panels:
   - path: characters/intel/character_sheet.png
     role: model_sheet
     sha256: ffbb5c57db81149f439f1e6f4c10e54271896283291d3344bdf52f70b801ec2b
+    archive_commit: d3f5842277b0356693d3c54f49c9366072737076
   output: chapters/pilot-001/pages/page-001/art/panel-02.png
   image_sha256: d21efd5b29fc7be2f589148cb9bec77f4ea8354d95af2bb426680131f28fbae4
 - id: panel-03
@@ -54,6 +55,7 @@ panels:
   - path: characters/intel/character_sheet.png
     role: model_sheet
     sha256: ffbb5c57db81149f439f1e6f4c10e54271896283291d3344bdf52f70b801ec2b
+    archive_commit: d3f5842277b0356693d3c54f49c9366072737076
   - path: characters/amd/character_sheet.png
     role: model_sheet
     sha256: ae1a946d57c03396970ff00415150f5c052a24c4596448f65855973a8063c702
