@@ -4,6 +4,7 @@ identity: Middle-school wafer engineer about 12–13 with a round copper-orange 
 reference_assets:
   model_sheet: characters/cerebras/character_sheet.png
   expressions: characters/cerebras/expressions.png
+  chibi_sheet: characters/cerebras/chibi_sheet.png
   portrait: characters/cerebras/reference_card.jpg
 
 default_style: default_manga

@@ -4,6 +4,7 @@ identity: "Determined woman in her late twenties with long near-black hair strea
 reference_assets:
   model_sheet: characters/huawei/character_sheet.png
   expressions: characters/huawei/expressions.png
+  chibi_sheet: characters/huawei/chibi_sheet.png
   portrait: characters/huawei/reference_card.jpg
 
 default_style: default_manga
