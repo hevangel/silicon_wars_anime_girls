@@ -4,6 +4,7 @@ identity: Mature executive with sculpted auburn waves, red rectangular glasses, 
 reference_assets:
   model_sheet: characters/oracle/character_sheet.png
   expressions: characters/oracle/expressions.png
+  chibi_sheet: characters/oracle/chibi_sheet.png
   portrait: characters/oracle/reference_card.jpg
 
 default_style: default_manga
