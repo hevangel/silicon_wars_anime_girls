@@ -29,4 +29,4 @@ assembly:
   width: 1800
   height: 2600
   output: chapters/pilot-001/pages/page-003/final/page-003.png
-  sha256: 8a005223698f985a9ba50cd15255bf548650fefb8cc2082daea00a4ddf61a903
+  sha256: bcbcaa437c9683387d35a1f2d2af8eb8246f9a439485cd777298b5a999a3f907
