@@ -1,6 +1,7 @@
 id: huggingface
 title: The Open-Source Sunshine Girl
-identity: "Young adult with chestnut curls in high twin ponytails, yellow bows, a smiling mascot clip, and warm amber-brown eyes. Wears a white sailor top, a navy pleated skirt with yellow trim, and a purple-and-yellow backpack."
+identity: "Middle-school girl about 12–13 with chestnut curls in high twin ponytails, yellow bows, a smiling mascot clip, and warm amber-brown eyes. Wears a white sailor top, a navy pleated skirt with yellow trim, and a purple-and-yellow backpack."
+logo_lockup: symbol_and_name
 reference_assets:
   model_sheet: characters/huggingface/character_sheet.png
   expressions: characters/huggingface/expressions.png
