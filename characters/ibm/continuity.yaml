@@ -4,6 +4,7 @@ identity: Distinguished woman around sixty with steel-blue eyes, a silver-charco
 reference_assets:
   model_sheet: characters/ibm/character_sheet.png
   expressions: characters/ibm/expressions.png
+  chibi_sheet: characters/ibm/chibi_sheet.png
   portrait: characters/ibm/reference_card.jpg
 
 default_style: default_manga
