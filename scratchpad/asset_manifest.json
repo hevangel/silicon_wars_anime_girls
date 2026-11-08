@@ -235,6 +235,7 @@
     {
       "character": "ibm",
       "path": "characters/ibm/reference_card.jpg",
+      "archive_commit": "0537d649b209e6b5e9e6358b90ff4490d95806c3",
       "source": "enterprise_trio_datasheet.png",
       "column": 1
     },

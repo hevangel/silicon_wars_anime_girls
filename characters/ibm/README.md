@@ -5,15 +5,15 @@
 | Field | Design |
 |---|---|
 | Faction | Enterprise Elders |
-| Age portrayal | mature |
+| Age portrayal | Mature, around 60 |
 | Hair color | silver charcoal |
 | Brand color motif | navy blue |
 
 ## Appearance
-Distinguished woman around sixty, dark hair streaked silver, steel-blue eyes and dignified posture
+Distinguished executive around sixty with a swept silver-charcoal wavy bob, steel-blue eyes, thin gold-rimmed glasses, and dignified posture.
 
 ## Clothing and equipment
-Navy pinstripe suit, pearl earrings, vintage watch and mainframe-style coat
+Tailored navy pinstripe double-breasted suit with peaked lapels and gently flared trousers, ivory blouse, cobalt-and-white silk scarf, IBM lapel pin, gold drop earrings and watch, and black pumps.
 
 ## Personality
 Resilient, proud, strategic and patient
@@ -43,6 +43,9 @@ Enterprise users and researchers
 > I have been declared obsolete more times than you have released models.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
+- [Illustrated character sheet](character_sheet.png) with four turnaround views, expression studies, and a palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 expressions.
+- [Painted reference card](reference_card.jpg).
+- [Exact generation prompts](character_sheet.prompt.md).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
