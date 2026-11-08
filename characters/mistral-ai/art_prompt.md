@@ -90,9 +90,9 @@ beret, twin pigtails, periwinkle blouse with white collar, glowing
 Eiffel Tower in the window.
 ```
 
-Generation record: the rendered card follows the DeepSeek card's bottom name/title banner (name "Mistral", title "THE TINY TITAN OF EUROPE", tagline beneath) rather than a full five-row info panel; the info-panel rows live in the README and roster. All four book spines and the slate text rendered correctly. Noted details: the "Take a copy!" sign reads "Take a a copy!", the pixel M emblems render as pixel "H"-like marks, and the notebook handwriting is decorative pseudo-cursive.
+Generation record: the first rendered card followed the DeepSeek card's bottom name/title banner but included the tagline as a third line. At the user's direction it was regenerated with the name plate holding exactly two centered lines — the name "Mistral" and the title "THE TINY TITAN OF EUROPE" — and no tagline anywhere on the plate; the current `reference_card.jpg` is that second generation. All four book spines and the slate text rendered correctly, and the "Take a copy!" sign is spelled correctly this time. Noted details: the slate sits at lower left and the cartable hangs on the wall at right rather than resting on the chair; the notebook handwriting is decorative pseudo-cursive.
 
-## Character sheet brief (pending — update to the new design when her sheet is built)
+## Character sheet brief (built 2026-11-07 — see character_sheet.prompt.md)
 
 Create a **16:9 anime character-reference sheet** for Mistral AI, titled "The Tiny Titan of Europe," in the established detailed technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
 

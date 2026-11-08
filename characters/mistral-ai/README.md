@@ -43,6 +43,9 @@ Hugging Face, the European AI ecosystem, enterprises, and developers who value o
 > Open, efficient and for everyone!
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) — regenerated 2026-11-07 in the DeepSeek-card composition (desk, Eiffel Tower window, Le Chat pixel plush); supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/mistral-ai-reference-card-little-wind-mage.jpg](../../scratchpad/superseded/mistral-ai-reference-card-little-wind-mage.jpg).
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and the (pending) final anime drawing.
+- [Painted reference card](reference_card.jpg) — regenerated 2026-11-07 in the DeepSeek-card composition (desk, Eiffel Tower window, Le Chat pixel plush); name plate carries name + title only. Supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/mistral-ai-reference-card-little-wind-mage.jpg](../../scratchpad/superseded/mistral-ai-reference-card-little-wind-mage.jpg).
+- [Character model sheet](character_sheet.png) — FRONT / THREE-QUARTER / SIDE / BACK turnarounds with CHEERFUL / PROUD / CHEEKY close-ups and palette.
+- [12-expression sheet](expressions.png)
+- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and character sheets.
+- [Generation prompts](character_sheet.prompt.md) — the exact prompts used for the card and sheets.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
