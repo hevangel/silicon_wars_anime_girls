@@ -1,7 +1,38 @@
 id: amazon
 title: The Logistics Overlord
-identity: Dark brown hair in a practical low ponytail, amber-orange eyes, confident determined grin, black baseball cap with a white lowercase a and orange smile-arrow logo, dangling earrings, black-and-orange warehouse work jacket with orange smile-arrow logos over a dark top, logistics utility belt with pouches, dark work trousers, black fingerless work gloves, sturdy dark work boots. Signature props: cardboard delivery box with the black smile-arrow logo, and one small black quadcopter delivery drone familiar with glowing blue eyes.
+identity: Dark brown hair in a practical low ponytail, amber-orange eyes, confident determined grin, black baseball cap with a white lowercase a and orange smile-arrow logo, dangling earrings, black-and-orange warehouse work jacket with orange smile-arrow logos over a dark top, logistics utility belt with pouches, dark work trousers, black fingerless work gloves, sturdy dark work boots. Signature props - cardboard delivery box with the black smile-arrow logo, and one small black quadcopter delivery drone familiar with glowing blue eyes.
 reference_assets:
   model_sheet: characters/amazon/character_sheet.png
   expressions: characters/amazon/expressions.png
   portrait: characters/amazon/reference_card.jpg
+
+default_style: default_manga
+supported_styles:
+  - default_manga
+  - chibi
+
+style_variants:
+  chibi:
+    description: "Super-deformed cute comedic version of the character."
+    silhouette: "large head, tiny busy body in a work jacket"
+    preserve:
+      - dark brown low ponytail
+      - amber-orange eyes
+      - black cap with white lowercase a and orange smile-arrow logo
+      - black-and-orange work jacket
+      - logistics utility belt
+      - cardboard delivery box
+      - one small drone familiar
+    simplifications:
+      - simplify belt pouches to two rounded pouches
+      - keep the smile-arrow as one bold curve on jacket and box
+    comedic_traits:
+      - thumbs-up at record pace
+      - barked tiny orders
+      - ruthless optimizer stare
+    transform:
+      proportions: "large head, tiny body"
+      anatomy: "simplified"
+      expressions: "more exaggerated"
+      shading: "minimal"
+      costume_detail: "simplified but recognizable"

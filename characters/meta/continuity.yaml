@@ -22,3 +22,32 @@ reference_assets:
   model_sheet: characters/meta/character_sheet.png
   expressions: characters/meta/expressions.png
   portrait: characters/meta/reference_card.jpg
+
+default_style: default_manga
+supported_styles:
+  - default_manga
+  - chibi
+
+style_variants:
+  chibi:
+    description: "Super-deformed cute comedic version of the character."
+    silhouette: "large head, tiny body under an oversized hoodie and cape"
+    preserve:
+      - tousled blue-violet side bun with electric-blue strands
+      - violet-blue eyes
+      - VR visor with glowing cyan infinity-loop emblem
+      - black hoodie with electric-blue seams
+      - purple-lilac cape
+      - black-and-purple striped stockings
+    simplifications:
+      - simplify the cape's wireframe lining to a few geometric lines
+      - keep the visor as one angular band with the cyan loop
+    comedic_traits:
+      - building tiny worlds with both hands
+      - oblivious headset-on stare
+    transform:
+      proportions: "large head, tiny body"
+      anatomy: "simplified"
+      expressions: "more exaggerated"
+      shading: "minimal"
+      costume_detail: "simplified but recognizable"

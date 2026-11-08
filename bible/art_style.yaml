@@ -1,0 +1,59 @@
+# Silicon Wars global art style system.
+#
+# A style variant is a rendering mode, NOT a different character. Identity is
+# immutable and lives in each character's continuity.yaml (name, persona, hair
+# color and signature hairstyle, eye color, signature colors, core outfit
+# motifs, personality, signature prop / power, speaking style). Only the
+# rendering rules in this file change between variants.
+#
+# Levels:
+#   1. This file        — what each variant means for the whole project.
+#   2. continuity.yaml  — per-character style_variants: what to preserve and
+#                         what to simplify for that character in each variant.
+#   3. Panel YAML       — a panel's `style_variant` field picks the variant
+#                         for that panel (default: default_manga).
+#
+# Where each variant may appear is governed by style_usage_policy.yaml.
+
+style_system:
+  default_style: default_manga
+
+  variants:
+    default_manga:
+      description: "Primary Silicon Wars story style."
+      proportions:
+        head_to_body_ratio: "1:6.5 to 1:7"
+        limbs: "natural anime proportions"
+        hands_feet: "fully drawn"
+      rendering:
+        line_style: "clean manga line art"
+        shading: "cel shading or manga screentone"
+        detail_level: "high"
+      expression_rules:
+        exaggeration: "moderate"
+      pose_rules:
+        style: "heroic, dramatic, story-driven"
+      tone: "dramatic, stylish, semi-serious"
+
+    chibi:
+      description: "Super-deformed comedic style for reaction shots, comedy cutaways, and bonus scenes."
+      proportions:
+        head_to_body_ratio: "1:2 to 1:3"
+        limbs: "short and simplified"
+        hands_feet: "small, rounded, and simplified"
+      rendering:
+        line_style: "clean, rounded, cute"
+        shading: "minimal"
+        detail_level: "medium"
+      expression_rules:
+        exaggeration: "high"
+        mouth_shapes: "simple and very expressive"
+        eye_style: "large and simplified"
+      pose_rules:
+        style: "cute, comedic, exaggerated"
+      tone: "cute, comedic, high-energy"
+      rules:
+        - preserve character identity through hair, colors, and signature accessories
+        - simplify costume details but keep major motifs
+        - use exaggerated expressions
+        - avoid realistic anatomy

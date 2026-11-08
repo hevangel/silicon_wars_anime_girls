@@ -5,3 +5,24 @@ reference_assets:
   model_sheet: characters/{{ID}}/character_sheet.png
   expressions: characters/{{ID}}/expressions.png
   portrait: characters/{{ID}}/reference_card.jpg
+
+default_style: default_manga
+supported_styles:
+  - default_manga
+  - chibi
+
+style_variants:
+  chibi:
+    description: "Super-deformed cute comedic version of the character."
+    preserve:
+      - signature hair color
+      - signature hairstyle
+      - signature outfit colors
+      - key accessory motifs
+      - personality cues
+    transform:
+      proportions: "large head, tiny body"
+      anatomy: "simplified"
+      expressions: "more exaggerated"
+      shading: "minimal"
+      costume_detail: "simplified but recognizable"
