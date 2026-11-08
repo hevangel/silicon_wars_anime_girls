@@ -1,0 +1,27 @@
+id: dec
+title: The Digital Vaklkyire
+identity: Mature workshop engineer around sixty with tousled silver-gray hair, black rectangular glasses, amber eyes, burgundy canvas jacket, and khakis.
+logo_lockup: wordmark
+reference_assets:
+  model_sheet: characters/dec/character_sheet.png
+  expressions: characters/dec/expressions.png
+  chibi_sheet: characters/dec/chibi_sheet.png
+  portrait: characters/dec/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed version of the mischievous workshop engineer.
+    preserve:
+      - tousled silver-gray hair, amber eyes, black rectangular glasses, and smile lines
+      - burgundy jacket with rolled cuffs and lowercase DEC tile patch
+      - charcoal shirt, khakis, dark work boots, gold hoops and pendant
+      - crooked grin and raised eyebrow
+    transform:
+      proportions: Target 2.5 anatomical heads tall from crown to soles
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable

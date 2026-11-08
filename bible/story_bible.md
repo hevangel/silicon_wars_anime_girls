@@ -47,7 +47,7 @@ The younger characters occasionally call the older women Obaa-sama or Grandma, w
 - **Middle-school students:** Hugging Face and Cerebras, about 12–13.
 - **Mature executives:** IBM and Oracle, in their late 50s or early 60s. IBM is the silver-haired Iron Lady who survives every technological cycle.
 - **Very old grandmothers:** Bell Labs (scholarly research grandmother), Fairchild (hands-on semiconductor matriarch).
-- **Younger grannies:** DEC (red varsity jacket, interactive-computing hacker), Sun Microsystems (joyful purple Solaris jacket).
+- **Younger grannies:** DEC (burgundy canvas work jacket and khakis, informal minicomputer engineer around sixty), Sun Microsystems (joyful purple Solaris jacket).
 - **Everyone else** is an adult. Meta is the youngest adult at 20; Microsoft and Apple are around 30.
 
 ## Core relationships
@@ -74,7 +74,7 @@ The approved art is canon. For a character with a model sheet, the sheet and ref
 - Amazon: black smile-arrow cap, dark brown ponytail, black-and-orange work jacket, parcel and drone.
 - Fairchild: rolled sleeves, red bandana, glasses, working forewoman; do not duplicate Bell Labs' silhouette.
 - Bell Labs: gentle elderly scholar, tweed and vintage instruments.
-- DEC and Sun: preserve the selected designs from the final four-grandmothers infographic.
+- DEC: use her approved workshop portrait and model sheet. Sun: preserve the selected design from the final four-grandmothers infographic.
 
 ## Season 1 story threads
 
