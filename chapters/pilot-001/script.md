@@ -18,3 +18,9 @@ The bridge gets them through the door. The test is still ahead.
 7. **The tug of war.** Intel and AMD grip opposite ends of one taut rope, leaning back with their boots braced, deadlocked. Read right to left: **AMD:** "I am the strongest!" **Intel:** "No! I am!" In the foreground, Nvidia sits on a steel testing block between them, unbothered, casually pressing a massive dumbbell with one hand. **Nvidia:** "I'm stronger than both of you together... with one hand."
 
 The rope does not move. Neither does Nvidia's smile.
+
+## Page 003 · The Line Walk (single panel)
+
+**Logline** · The triad moves through the Citadel corridor in a line: Nvidia strolling ahead unbothered, AMD sprinting in hot pursuit, and Intel hurrying to keep up without compromising her imperial dignity.
+
+8. **The line walk.** The three tech heroines walk in a line down the Citadel's testing corridor. In the lead, Nvidia walks casually ahead with relaxed confidence. Midground, AMD runs to chase her down, shouting in challenge. In the background, Intel hurries to catch up, lifting her coat hem and steadying her crown, flustered at the lack of decorum. Read right to left: **Intel:** "Wait! A queen does not sprint! Maintain formation!" **AMD:** "Hey! Don't you walk away, Nvidia! We're not finished!" **Nvidia:** "If you want the lead, keep up with the clock speed."
