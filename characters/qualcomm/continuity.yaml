@@ -1,0 +1,26 @@
+id: qualcomm
+title: The Last-Mile Ace
+identity: Athletic 19–20-year-old dispatch rider with blue eyes, a high electric-blue ponytail and gold band, one cobalt Bluetooth earbud, an asymmetric cobalt jacket with white Qualcomm shoulder panel and Snapdragon clasp, graphite utility trousers, white-and-cobalt riding sneakers, and a hard-shell hip relay kit.
+logo_lockup: wordmark
+reference_assets:
+  model_sheet: characters/qualcomm/character_sheet.png
+  expressions: characters/qualcomm/expressions.png
+  chibi_sheet: characters/qualcomm/chibi_sheet.png
+  portrait: characters/qualcomm/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - high electric-blue ponytail, gold band, blue eyes, and single cobalt Bluetooth earbud
+      - asymmetric cobalt jacket, white Qualcomm shoulder panel, and red-and-white Snapdragon clasp
+      - graphite trousers, white-and-cobalt riding sneakers, and hard-shell hip relay kit
+    transform:
+      proportions: 2.5 anatomical head heights
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
