@@ -46,3 +46,43 @@ In the upper-left lockup use a single clean compact line reading 鈥淴EROX PARC鈥
 ### Proportion correction
 
 Make a targeted proportion correction on the first image, Xerox PARC's CHIBI character sheet. The second image is the blank template with the correct 2.5-head chibi mannequins. Edit only the four standing views above the gold divider. Keep each existing head and hairstyle at exactly the same visible size and facial identity, but shorten the body vertically from chin to shoe sole by about 18 percent, taking length from her torso, skirt and legs proportionally. Keep feet planted on their existing common baseline, so the crown of each head moves downward. Exact target anatomical crown-to-chin height is 40 percent of anatomical crown-to-sole standing height (ignore stray hairs). At 1536x1024 image resolution aim for an anatomical crown around y=250, chin about y=400, sole about y=625; scale proportionally if rendering a different resolution. The costume details, pale collar, necklace only in front, patched cardigan, scuffed loafers, dusty-rose skirt, elderly features and blue-gray eyes remain identical. Do not change lower closeups, typography, palette, frames, or labels, preserve the upper title XEROX PARC, THE UNPAID INVENTOR, SILICON WARS, and single CHIBI plaque. Exactly four standing views and three lower closeups. Match original 3:2 aspect ratio.
+
+## Company mark revision 路 Model sheet
+
+Inputs: [Previous model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/32ce8470e2e4bf50b9d8da128a4622ecc2959cdc/characters/xerox-parc/character_sheet.png). Output: [character_sheet.png](character_sheet.png).
+
+Use case: precise-object-edit. Regenerate this Xerox PARC Silicon Wars model sheet as a highly faithful, localized art revision. Image 1 is the exact image to edit. All existing characters, design, proportions, outfit construction, color palette, acting, props, framing, layout, labels, and canvas aspect ratio are fixed. Edit only the specified logo placements. The company mark on her clothing is required even on sheets that already have a header mark. Copy unaffected areas of Image 1 as closely as possible.
+
+Place one small worn ivory rectangular woven badge with the exact dark-red vintage uppercase XEROX wordmark on the right chest of her oatmeal-gray cardigan, high near the neckline so it stays visible in head-and-shoulder views where that side is shown. Use the same period red XEROX lettering seen in the source sheet heading (XEROX alone on the badge). The badge is stitched flat to the garment, with subtly frayed edges and legible red lettering. Do not move or replace her vintage mouse pendant, the existing brown right elbow patch, or the small darn by the pocket. Show the chest badge only when its actual placement is visible; never stamp the cardigan back. It must be clearly readable on the card or main full-body pose.
+
+Keep all four full-height turnarounds, three close-ups, and six swatches. Preserve the existing label text and poses.
+
+## Company mark revision 路 Reference card
+
+Inputs: [Previous reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/32ce8470e2e4bf50b9d8da128a4622ecc2959cdc/characters/xerox-parc/reference_card.jpg). Output: [reference_card.jpg](reference_card.jpg).
+
+Use case: precise-object-edit. Regenerate this Xerox PARC Silicon Wars portrait reference card as a highly faithful, localized art revision. Image 1 is the exact image to edit. All existing characters, design, proportions, outfit construction, color palette, acting, props, framing, layout, labels, and canvas aspect ratio are fixed. Edit only the specified logo placements. The company mark on her clothing is required even on sheets that already have a header mark. Copy unaffected areas of Image 1 as closely as possible.
+
+Place one small worn ivory rectangular woven badge with the exact dark-red vintage uppercase XEROX wordmark on the right chest of her oatmeal-gray cardigan, high near the neckline so it stays visible in head-and-shoulder views where that side is shown. Use the same period red XEROX lettering seen in the source sheet heading (XEROX alone on the badge). The badge is stitched flat to the garment, with subtly frayed edges and legible red lettering. Do not move or replace her vintage mouse pendant, the existing brown right elbow patch, or the small darn by the pocket. Show the chest badge only when its actual placement is visible; never stamp the cardigan back. It must be clearly readable on the card or main full-body pose.
+
+Preserve the existing scene, border, and two exact centered nameplate lines. The first line reads "XEROX PARC"; the second reads "THE UNPAID INVENTOR". Keep logos out of the nameplate. Do not crop the visible garment mark.
+
+## Company mark revision 路 Expression sheet
+
+Inputs: [Previous expression sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/32ce8470e2e4bf50b9d8da128a4622ecc2959cdc/characters/xerox-parc/expressions.png). Output: [expressions.png](expressions.png).
+
+Use case: precise-object-edit. Regenerate this Xerox PARC Silicon Wars 12-expression sheet as a highly faithful, localized art revision. Image 1 is the exact image to edit. All existing characters, design, proportions, outfit construction, color palette, acting, props, framing, layout, labels, and canvas aspect ratio are fixed. Edit only the specified logo placements. The company mark on her clothing is required even on sheets that already have a header mark. Copy unaffected areas of Image 1 as closely as possible.
+
+Place one small worn ivory rectangular woven badge with the exact dark-red vintage uppercase XEROX wordmark on the right chest of her oatmeal-gray cardigan, high near the neckline so it stays visible in head-and-shoulder views where that side is shown. Use the same period red XEROX lettering seen in the source sheet heading (XEROX alone on the badge). The badge is stitched flat to the garment, with subtly frayed edges and legible red lettering. Do not move or replace her vintage mouse pendant, the existing brown right elbow patch, or the small darn by the pocket. Show the chest badge only when its actual placement is visible; never stamp the cardigan back. It must be clearly readable on the card or main full-body pose.
+
+Keep the standing figure and all twelve face cells in exactly their current positions, each label spelled exactly as in Image 1. Keep every expression distinct. Repeat the logo or accessory in the cropped view only when the marked surface is visible.
+
+## Company mark revision 路 Chibi sheet
+
+Inputs: [Previous chibi sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/32ce8470e2e4bf50b9d8da128a4622ecc2959cdc/characters/xerox-parc/chibi_sheet.png). Output: [chibi_sheet.png](chibi_sheet.png).
+
+Use case: precise-object-edit. Regenerate this Xerox PARC Silicon Wars chibi sheet as a highly faithful, localized art revision. Image 1 is the exact image to edit. All existing characters, design, proportions, outfit construction, color palette, acting, props, framing, layout, labels, and canvas aspect ratio are fixed. Edit only the specified logo placements. The company mark on her clothing is required even on sheets that already have a header mark. Copy unaffected areas of Image 1 as closely as possible.
+
+Place one small worn ivory rectangular woven badge with the exact dark-red vintage uppercase XEROX wordmark on the right chest of her oatmeal-gray cardigan, high near the neckline so it stays visible in head-and-shoulder views where that side is shown. Use the same period red XEROX lettering seen in the source sheet heading (XEROX alone on the badge). The badge is stitched flat to the garment, with subtly frayed edges and legible red lettering. Do not move or replace her vintage mouse pendant, the existing brown right elbow patch, or the small darn by the pocket. Show the chest badge only when its actual placement is visible; never stamp the cardigan back. It must be clearly readable on the card or main full-body pose.
+
+Keep all four chibi turnarounds, three close-ups, six swatches, and the top-right CHIBI tag. Preserve the compact 2.5-anatomical-head proportions.

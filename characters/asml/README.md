@@ -13,7 +13,7 @@
 Adult woman with long golden-blonde waves loosely pinned under a white lace cap and cobalt ribbon, icy-blue eyes, and blue drop earrings.
 
 ## Clothing and equipment
-White gathered-sleeve blouse, silver-clasped cobalt bodice, full navy skirt, ivory apron embroidered with blue tulips, white gloves, ivory socks, and black buckled shoes. A cream tulip sits at her collar and a silver windmill charm hangs at her waist.
+White gathered-sleeve blouse with the cobalt ASML wordmark embroidered high on her right sleeve, silver-clasped cobalt bodice, full navy skirt, ivory apron embroidered with blue tulips, white gloves, ivory socks, and black buckled shoes. A cream tulip sits at her collar and a silver windmill charm hangs at her waist.
 
 ## Personality
 Eccentric, exacting, confident and technically brilliant

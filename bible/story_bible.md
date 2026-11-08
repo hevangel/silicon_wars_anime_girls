@@ -26,11 +26,13 @@ Power reflects technical interdependence, not market capitalization. Nvidia can 
 
 Every character profile names who she depends on and what her power cannot do.
 
-## Three artistic rules
+## Artistic rules
 
 1. **Every heroine needs a recognizable silhouette.** A reader should tell Nvidia's angular black leather and emerald circuit seams, Apple's clean geometry, TSMC's artisan uniform, and Hugging Face's yellow bows and mascot plush apart even with the company names removed.
 2. **Every heroine needs a contradiction.** Intel is powerful but vulnerable. Nvidia is arrogant but genuinely brilliant. OpenAI is optimistic but impatient. Anthropic is careful but competitive. TSMC is quiet but extraordinarily influential. These tensions make characters believable.
 3. **Power reflects technical interdependence,** as described above.
+
+4. **Every heroine wears a company mark.** Integrate a recognizable company logo or wordmark into her outfit or a worn accessory, using a period version where appropriate. Keep that placement consistent across her production art.
 
 ## Two generations
 

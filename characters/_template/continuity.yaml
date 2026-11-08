@@ -1,6 +1,7 @@
 id: {{ID}}
 title: {{TITLE}}
 identity: {{ONE_LINE_IDENTITY}}
+costume_logo: "{{COMPANY_MARK_COLOR_AND_PLACEMENT}}"
 reference_assets:
   model_sheet: characters/{{ID}}/character_sheet.png
   expressions: characters/{{ID}}/expressions.png

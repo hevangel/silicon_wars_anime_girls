@@ -32,6 +32,10 @@ The guides use gray mannequins, empty nameplates, and neutral charcoal and gold 
 
 Always pass the blank guide as Image 2. The border, background, nameplate and logo rules for every sheet type are locked in the chrome blocks of the prompt templates. Intel's finished sheets are no longer a valid Image 2, because they bring Intel's look along with them.
 
+## Required company mark
+
+Every character wears at least one recognizable company logo or wordmark on a garment or worn accessory. Record the exact mark, color, and placement in the character's continuity file and generation prompt. Use the model sheet as the placement reference for the other assets. Keep the mark visible in the card, the expression sheet's standing figure, and the model and chibi views that show that part of the outfit. Repeat it in close-ups when the marked area is in view. The sheet header is separate from this requirement.
+
 ## Workflow
 
 Generate the assets in this order, because each one is the identity input for the next:
@@ -60,11 +64,12 @@ When the design source is a painted card that has already been approved, as with
 3. Save outputs as `character_sheet.png`, `reference_card.jpg`, and `expressions.png` in the character folder. Don't overwrite files under `scratchpad/originals/`.
 4. Before accepting each image, check it at reading size:
    - Every label is spelled correctly and in order, and there is no extra text.
-   - Accessories that are always worn appear in every view and every cell.
+   - Accessories that are always worn appear in each view and cell where their placement is visible.
+   - The company mark is readable on the character in every asset, without moving it to the wrong side for rear views or close-ups.
    - Front-only items are absent from the back view.
    - Hair, headwear, and footwear are inside the frame.
    - Proportions match between the turnarounds and the card.
-   - Sheets (model, expression, chibi): the title lockup is the same on all three (company logo, company name, canonical title, "SILICON WARS"; the name is dropped when the logo already spells it), and background, frame, label plaques and palette strip match the locked sheet chrome, size is 1920 x 1280, all 12 expression label boxes match the locked box (same size, charcoal plaque, cream serif caps, on the cell's top edge), there is no logo outside the costume and props, and the chibi sheet has exactly one "CHIBI" tag. In each chibi turnaround, the head from crown to chin takes up 40% of crown-to-sole height. Measure without hair or headwear above the crown.
+   - Sheets (model, expression, chibi): the title lockup is the same on all three (company logo, company name, canonical title, "SILICON WARS"; the name is dropped when the logo already spells it), and background, frame, label plaques and palette strip match the locked sheet chrome, size is 1920 x 1280, all 12 expression label boxes match the locked box (same size, charcoal plaque, cream serif caps, on the cell's top edge), there is no logo outside the title lockup, costume, and approved props, and the chibi sheet has exactly one "CHIBI" tag. In each chibi turnaround, the head from crown to chin takes up 40% of crown-to-sole height. Measure without hair or headwear above the crown.
    - Reference cards only: the border and nameplate match the [locked chrome](layout/reference_card_chrome.svg) (gold outer frame with inner hairline, charcoal hex nameplate, two serif lines), with no logo outside the costume and props and no tagline, banner or profile panel. Compare against two or three existing cards at thumbnail size, using a contact sheet.
 5. Update the character's README asset links and the artwork line in [INDEX.md](../INDEX.md).
 6. Open a PR from a branch, with before/after images.

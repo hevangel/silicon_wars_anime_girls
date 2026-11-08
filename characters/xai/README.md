@@ -11,9 +11,9 @@
 
 ## Look and presence
 
-Her windblown chin-length bob looks like she cut it herself. Two star clips and a small X clip hold one side in place. She wears a black school shirt with a loosened silver-gray tie under an oversized black hoodie with white stripes and an X on the sleeve. The cuffs cover half her hands. A charcoal pleated skirt, opaque tights, star-studded boots, and a gold watch too big for her wrist finish the look.
+Her windblown chin-length bob looks like she cut it herself. Two star clips and a silver enamel Grok-symbol clip hold one side in place. She wears a black school shirt with a loosened silver-gray tie under an oversized black hoodie with white stripes and the asymmetric X.com mark embroidered in white on the upper sleeve. The cuffs cover half her hands. A charcoal pleated skirt, opaque tights, star-studded boots, and a gold watch too big for her wrist finish the look.
 
-Her glossy black backpack has a gold X and room for a stack of glowing graphics cards. Her little tan-and-cream Shiba Inu rides beside them in sunglasses, wearing a gold X tag. She keeps a toy rocket in her jacket pocket and puts star stickers on her notebook.
+Her glossy black backpack has a gold X.com mark and room for a stack of glowing graphics cards. Her little tan-and-cream Shiba Inu rides beside them in sunglasses, wearing a gold X.com tag. She keeps a toy rocket in her jacket pocket and puts star stickers on her notebook.
 
 ## Core contradiction
 
