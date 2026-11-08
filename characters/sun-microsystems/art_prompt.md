@@ -1,19 +1,9 @@
-# Sun Microsystems full-resolution character-sheet brief
+# Sun Microsystems illustration brief
 
-Create a **16:9 anime character-reference sheet** for Sun Microsystems, titled “The Solaris Sorceress,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Draw **Sun Microsystems — The Solar Archon**, a glamorous older professor with quiet authority over a room full of servers. Use the [reference card](reference_card.jpg) and [model sheet](character_sheet.png) as the visual authority.
 
-**Age portrayal:** senior. Authentic elderly details and comfortable age-appropriate clothing.
-
-**Appearance:** Younger granny with curly gray hair, joyful open-mouth laugh and energetic pose
-
-**Clothing:** Purple Sun jacket, golden sunburst T-shirt and a Solaris workstation
-
-**Personality and pose:** Philosophical, idealistic, witty and enthusiastic. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Passionate speeches about networks, Unix and open systems
-
-**Power visualization:** Solaris Domain
-
-**Quote:** “The network is the computer.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+- **Face and silhouette.** Keep her comfortably rounded, upright and visibly elderly. She has warm amber-brown eyes, gentle age lines, thin gold half-moon reading glasses low on her nose, and long silver-white hair in a loose low bun with warm rim highlights.
+- **Costume.** Keep the high-collared royal-purple gown with a gold chest sunburst and server-blade skirt panels, long gold-trimmed charcoal coat, patterned pashmina, pearl jewelry, blue-face watch and practical black ankle boots.
+- **Brand and props.** Use the 1996–2009-era purple Sun diamond ambigram on her lapel brooch and a gold rendering on her cane pommel. The cream Java mug shows red steam over a blue saucer. The enamel MySQL dolphin hangs from a gold ring. Her leather satchel carries a worn Unix manual.
+- **Acting and power.** She is welcoming and intimidating in the same breath. A look over her glasses or a small raised eyebrow can do the work of a speech. Solaris Domain appears as a quiet gold halo and faint blue packet routes or a server schematic. Keep the technical glow subordinate to her face and hands.
+- **Sheet format.** Follow the [asset templates](../_template/README.md), with the symbol-only Sun logo beside the name. Use [the recorded prompts](character_sheet.prompt.md) for the accepted card and sheets.
