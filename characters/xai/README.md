@@ -27,7 +27,7 @@ Her glossy black backpack has a gold X and room for a stack of glowing graphics 
 
 ## Relationships
 
-She heckles [OpenAI](../openai/README.md) from the back row during show-and-tell and challenges [Anthropic](../anthropic/README.md) when a safety check delays a launch. Google is also a rival. She finds allies among the X platform and independent builders.
+She heckles [OpenAI](../openai/README.md) from the back row during show-and-tell and challenges [Anthropic](../anthropic/README.md) when a safety check delays a launch. [DeepSeek](../deepseek/README.md) gets under her skin when one old GPU comes close to matching her stockpile. Google is also a rival. She finds allies among the X platform and independent builders.
 
 ## Signature power
 
