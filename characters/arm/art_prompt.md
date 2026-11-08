@@ -1,17 +1,11 @@
-# Arm — Full manga character-sheet brief
+# Arm — The Pocket Architect
 
-Produce a landscape **16:9** professional anime character reference sheet for the original *Silicon Wars* character Arm, titled **The Quiet Architect**. Full-body front, side and back views, 3 expressions, signature technical prop, 5 color swatches, and a small labeled bio card; clean, highly detailed consistent cel shading.
+Use the [model sheet](character_sheet.png) for costume and proportions, and the [reference card](reference_card.jpg) for staging and lighting.
 
-## Continuity lock
-- Age: adult; adult woman.
-- Appearance: Ash-blonde hair, light green eyes and graceful bookish posture.
-- Costume: British-academia blouse, green architectural cloak and hovering CPU blueprint.
-- Hair: ash blonde. Signature brand accent: sage green.
-- Body language: Diplomatic, modest and quietly influential.
-- Technical magical effect: Architecture Codex.
-- Tone: sophisticated manga + vintage computing references + legible tech datasheet UI.
-- Avoid giving all characters the same pointing or outstretched-hand pose; use a unique posture related to her role.
-- Character should be consistently recognizable from original group images (indexed in ../../scratchpad/illustrations.md).
-- Text needs proofread and easy-to-read. No erroneous labels or fabricated performance specifications.
+Arm is a petite 19-year-old British engineering apprentice from Cambridge, with cool blue eyes and a long, wavy silver ash-blonde side ponytail. Preserve the blue-teal ribbon, layered bangs, and brass mechanical pencil tucked behind the ear beside the ponytail.
 
-Include the signature line: “I did not build your kingdom. I designed its foundations.”
+Her blue-teal workshop jacket is cropped, with brass fittings, stitched chest pockets and rolled cream cuffs. The cream patch above her right chest pocket carries the retro blue-teal lowercase `arm` wordmark. She wears a cream button-front shirt, a charcoal pleated skirt with a brass-buckled belt, and dark ankle-height lace-up work boots.
+
+For a workshop portrait, show her leaning lightly on a workbench and pinching a thumbnail-sized blue-teal circuit board by its edges. Give her a raised eyebrow and a wry half-smile. A folded schematic and a battered tin of boards sit on the bench. Light her face and hands with a warm bench lamp against a rainy Cambridge workshop. Use clean manga lines and detailed cel shading.
+
+For reference sheets, use the [locked layouts](../_template/README.md) and the lowercase wordmark title lockup. For the portrait card, keep the logo on her jacket patch and set only ARM and THE POCKET ARCHITECT in the standard two-line nameplate.
