@@ -28,7 +28,7 @@
 ## Tier 3A · Memory, foundry, and equipment
 
 - [TSMC](tsmc/README.md) — The Quiet Queenmaker
-- [ASML](asml/README.md) — The EUV Light Weaver
+- [ASML](asml/README.md) — The Miller of Impossible Light
 - [Samsung](samsung/README.md) — The Everything Empress
 - [Micron](micron/README.md) — The Stack-'Em-High Wrangler
 - [SK hynix](sk-hynix/README.md) — The Stack Savant
