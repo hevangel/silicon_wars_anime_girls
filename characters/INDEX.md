@@ -31,7 +31,7 @@
 - [ASML](asml/README.md) — The EUV Light Weaver
 - [Samsung](samsung/README.md) — The Sapphire Conglomerate Princess
 - [Micron](micron/README.md) — The Stack-'Em-High Wrangler
-- [SK hynix](sk-hynix/README.md) — The HBM Princess
+- [SK hynix](sk-hynix/README.md) — The Stack Savant
 
 ## Tier 3B · Other chip companies
 
