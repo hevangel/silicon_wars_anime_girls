@@ -50,7 +50,7 @@ The younger characters occasionally call the older women Obaa-sama or Grandma, w
 - **Mature executives:** IBM and Oracle, in their late 50s or early 60s. IBM is the silver-haired Iron Lady who survives every technological cycle.
 - **Very old grandmothers:** Bell Labs (scholarly research grandmother), Fairchild (hands-on semiconductor matriarch).
 - **Grandmothers:** DEC (burgundy canvas work jacket and khakis, informal minicomputer engineer around sixty) and Sun Microsystems (silver-haired Solar Archon in her late sixties or seventies, with half-moon glasses, a purple gown and a long charcoal coat).
-- **Everyone else** is an adult. Meta is the youngest adult at 20; Microsoft and Apple are around 30.
+- **Everyone else** is an adult. Arm is 19, Qualcomm is 19–20, and Meta is 20. Microsoft and Apple are around 30.
 
 ## Core relationships
 

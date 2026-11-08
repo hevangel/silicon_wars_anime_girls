@@ -1,0 +1,26 @@
+id: arm
+title: The Pocket Architect
+identity: Petite 19-year-old British engineering apprentice with cool blue eyes, a wavy silver ash-blonde side ponytail, blue-teal ribbon, and brass pencil. She wears a blue-teal workshop jacket with a cream arm wordmark patch, cream collared shirt, charcoal pleated skirt, and dark lace-up work boots.
+logo_lockup: wordmark
+reference_assets:
+  model_sheet: characters/arm/character_sheet.png
+  expressions: characters/arm/expressions.png
+  chibi_sheet: characters/arm/chibi_sheet.png
+  portrait: characters/arm/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - silver ash-blonde side ponytail, blue-teal ribbon, cool blue eyes, and brass pencil
+      - cropped blue-teal workshop jacket with arm patch, cream collar, pleated skirt, and work boots
+      - wry expression and miniature circuit board
+    transform:
+      proportions: 2.5 anatomical head heights
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
