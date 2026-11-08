@@ -1,7 +1,8 @@
 id: xerox-parc
 title: The Unpaid Inventor
-identity: "Early-seventies slender woman with lightly stooped shoulders, softly lined elderly face, attentive blue-gray eyes, gently mischievous smile, and side-parted chin-length white bob with a few flyaways. Faded dusty-rose late-1960s collared A-line button-front shirt dress with cream pointed collar and same-fabric waist belt, hem just below knee, open oatmeal-gray worn cardigan with a brown patch on her right elbow (viewer left in front) and visible small darn by right pocket, tan stockings and dark-brown scuffed loafers. A tiny beige rectangular two-button vintage mouse pendant hangs from a thin cord in front only."
+identity: "Early-seventies slender woman with lightly stooped shoulders, softly lined elderly face, attentive blue-gray eyes, gently mischievous smile, and side-parted chin-length white bob with a few flyaways. Faded dusty-rose late-1960s collared A-line button-front shirt dress with cream pointed collar and same-fabric waist belt, hem just below knee, open oatmeal-gray worn cardigan with a brown patch on her right elbow (viewer left in front) and visible small darn by right pocket, a worn ivory dark-red XEROX badge on the cardigan's right chest, tan stockings and dark-brown scuffed loafers. A tiny beige rectangular two-button vintage mouse pendant hangs from a thin cord in front only."
 logo_lockup: wordmark
+costume_logo: Dark-red vintage XEROX wordmark on a worn ivory woven badge stitched to the right chest of her cardigan.
 reference_assets:
   model_sheet: characters/xerox-parc/character_sheet.png
   expressions: characters/xerox-parc/expressions.png
@@ -16,7 +17,7 @@ style_variants:
     description: Compact manga variant of the elderly inventor.
     preserve:
       - white side-parted bob, blue-gray eyes, and recognizable age lines
-      - faded dusty-rose collared dress and oatmeal cardigan with right-elbow patch
+      - faded dusty-rose collared dress and oatmeal cardigan with right-elbow patch and right-chest XEROX badge
       - mouse pendant on the front, tan stockings, and worn brown loafers
     transform:
       proportions: Target 2.5 anatomical heads tall from crown to soles

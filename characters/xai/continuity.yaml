@@ -1,7 +1,8 @@
 id: xai
 title: The Moneybags Moonshot
-identity: Elementary-school girl about 9–10 with a messy black chin-length bob, white-silver under-streaks, star and X clips, an oversized black X hoodie, and a sunglasses Shiba riding next to GPUs in her backpack.
+identity: Elementary-school girl about 9–10 with a messy black chin-length bob, white-silver under-streaks, two star clips and a silver Grok-symbol hair clip, an oversized black hoodie with a white X.com sleeve mark, and a sunglasses Shiba riding next to GPUs in her backpack.
 logo_lockup: symbol_and_name
+costume_logo: White X.com glyph embroidered directly on the upper sleeve. Gold variants on the backpack and Shiba collar tag. The silver Grok symbol belongs to the hair clip.
 reference_assets:
   model_sheet: characters/xai/character_sheet.png
   expressions: characters/xai/expressions.png
@@ -15,8 +16,8 @@ style_variants:
   chibi:
     description: Super-deformed comedic version of the character.
     preserve:
-      - short black bob with white-silver under-streaks and star and X clips
-      - oversized black hoodie with white stripes, loose tie, and star-studded boots
+      - short black bob with white-silver under-streaks and two star clips and the silver Grok-symbol clip
+      - oversized black hoodie with white stripes and the white X.com sleeve mark, loose tie, and star-studded boots
       - smug chin-up expression and black-and-gold backpack with Shiba and GPUs
     transform:
       proportions: large head, tiny body

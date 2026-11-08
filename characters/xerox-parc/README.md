@@ -15,7 +15,7 @@ Lean inventor in her early seventies with a side-parted white bob, lined face, a
 
 ## Clothing and equipment
 
-Faded dusty-rose collared dress, mended oatmeal cardigan, vintage mouse pendant, tan stockings, and scuffed brown loafers. Her paper tower contains years of prototype listings and diagrams. She works at a salvaged Alto with a dim display and a printer that barely has toner.
+Faded dusty-rose collared dress, mended oatmeal cardigan with a worn ivory badge bearing the dark-red Xerox wordmark on the right chest, vintage mouse pendant, tan stockings, and scuffed brown loafers. Her paper tower contains years of prototype listings and diagrams. She works at a salvaged Alto with a dim display and a printer that barely has toner.
 
 ## Personality
 
