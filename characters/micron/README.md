@@ -1,4 +1,4 @@
-# Micron — The Violet Archivist
+# Micron — The Stack-'Em-High Wrangler
 
 > An original *Silicon Wars* company-personification character. Unofficial fictional fan work.
 
@@ -6,17 +6,17 @@
 |---|---|
 | Faction | Memory Kingdom |
 | Age portrayal | adult |
-| Hair color | silver lilac |
-| Brand color motif | teal |
+| Hair color | honey blonde |
+| Brand color motif | silicon silver and iridescent wafer gradient |
 
 ## Appearance
-Soft silvery violet hair, blue eyes and crystal memory hair ornaments
+Adult young woman with honey-blonde hair in a long thick side braid tied with a blue ribbon, bright blue eyes, and a cream cowboy hat with a blue band and chip-shaped concho
 
 ## Clothing and equipment
-Navy-teal lab uniform and memory-module jewelry
+Cream-white western shirt with silver-violet trim and rolled sleeves under a fringed cream leather vest with a chip-shaped sheriff star, iridescent violet neckerchief, jeans with a DIMM edge-connector belt buckle, tan cowboy boots with gear-shaped spurs, and a DIMM holstered at her hip
 
 ## Personality
-Patient, resilient, careful and quietly funny
+Practical, resilient, innovative and persistent; the steady underdog that keeps pushing forward — tenacious, steady, resourceful, a little too cautious, and a friendly neighbor
 
 ## Speech patterns
 Gentle precise reminders of forgotten promises
@@ -25,24 +25,27 @@ Gentle precise reminders of forgotten promises
 Memory and data bandwidth determine computing effectiveness
 
 ## Motivation
-Improve DRAM, NAND and AI memory technologies
+Gain share and technological leadership in DRAM, NAND and HBM (e.g., next-gen HBM and 3D NAND)
 
 ## Dramatic flaws
-Faces larger competitors and industry cycles
+Resource-constrained compared to Samsung; can be conservative at times; faces larger competitors and industry cycles
 
 ## Rivalries
-Samsung and SK hynix
+Samsung (scale) and SK hynix (HBM)
 
 ## Alliances
-System builders and cloud operators
+U.S. ecosystem, AI customers, system builders, cloud operators and long-term partners
 
 ## Special ability
-**Memory Crystal** — a fictional metaphor for the real technology.
+**Memory Lasso** — a glowing blue rope of light that rounds up data and bandwidth; a fictional metaphor for the real technology.
 
 ## Signature line
-> You forgot your promise. Fortunately, I remember.
+> Higher capacity. Higher ambition.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
+- [Painted reference card](reference_card.jpg) — regenerated 2026-11-07 as a Boise ranch cowgirl (glowing iridescent memory-bus lasso, holstered DIMM, HBM hay-bale stack, "Famous Potatoes" crate; accents in silicon silver + iridescent wafer gradient per Micron's Oct 2024 rebrand — no longer blue, new text-only wordmark); name plate carries name + title only. Supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/micron-reference-card-tenacious-challenger.jpg](../../scratchpad/superseded/micron-reference-card-tenacious-challenger.jpg).
+- [Character model sheet](character_sheet.png) — FRONT / THREE-QUARTER / SIDE / BACK turnarounds with CONFIDENT / DETERMINED / FRIENDLY close-ups and palette (figures crop at mid-thigh; boots are documented on the card and the expression sheet).
+- [12-expression sheet](expressions.png)
+- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and character sheets.
+- [Generation prompts](character_sheet.prompt.md) — the exact prompts used for the card and sheets.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
