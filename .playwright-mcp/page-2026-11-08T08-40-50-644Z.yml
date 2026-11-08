@@ -1,0 +1,71 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - link "Silicon Wars character archive" [ref=f3e3] [cursor=pointer]:
+      - /url: "#characters"
+      - text: Silicon Wars
+    - generic [ref=f3e13]: Season One · Character Archive
+  - main [ref=f3e14]:
+    - generic [ref=f3e561]:
+      - button "Back to character gallery" [ref=f3e562] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f3e563]: ←
+        - text: Character gallery
+      - generic [ref=f3e564]:
+        - paragraph [ref=f3e565]: Production archive
+        - heading "All Expression sheets" [level=1] [ref=f3e623]
+        - paragraph [ref=f3e567]: 18 character assets · scroll to browse
+      - generic [ref=f3e568]:
+        - article [ref=f3e624]:
+          - heading "Intel" [level=2] [ref=f3e625]
+          - img "Intel expressions" [ref=f3e626]
+        - article [ref=f3e627]:
+          - heading "AMD" [level=2] [ref=f3e628]
+          - img "AMD expressions" [ref=f3e629]
+        - article [ref=f3e630]:
+          - heading "Nvidia" [level=2] [ref=f3e631]
+          - img "Nvidia expressions" [ref=f3e632]
+        - article [ref=f3e633]:
+          - heading "Google" [level=2] [ref=f3e634]
+          - img "Google expressions" [ref=f3e635]
+        - article [ref=f3e636]:
+          - heading "Microsoft" [level=2] [ref=f3e637]
+          - img "Microsoft expressions" [ref=f3e638]
+        - article [ref=f3e639]:
+          - heading "Apple" [level=2] [ref=f3e640]
+          - img "Apple expressions" [ref=f3e641]
+        - article [ref=f3e642]:
+          - heading "Meta" [level=2] [ref=f3e643]
+          - img "Meta expressions" [ref=f3e644]
+        - article [ref=f3e645]:
+          - heading "Amazon" [level=2] [ref=f3e646]
+          - img "Amazon expressions" [ref=f3e647]
+        - article [ref=f3e648]:
+          - heading "Anthropic" [level=2] [ref=f3e649]
+          - img "Anthropic expressions" [ref=f3e650]
+        - article [ref=f3e651]:
+          - heading "OpenAI" [level=2] [ref=f3e652]
+          - img "OpenAI expressions" [ref=f3e653]
+        - article [ref=f3e654]:
+          - heading "xAI" [level=2] [ref=f3e655]
+          - img "xAI expressions" [ref=f3e656]
+        - article [ref=f3e657]:
+          - heading "Hugging Face" [level=2] [ref=f3e658]
+          - img "Hugging Face expressions" [ref=f3e659]
+        - article [ref=f3e660]:
+          - heading "DeepSeek" [level=2] [ref=f3e661]
+          - img "DeepSeek expressions" [ref=f3e662]
+        - article [ref=f3e663]:
+          - heading "TSMC" [level=2] [ref=f3e664]
+          - img "TSMC expressions" [ref=f3e665]
+        - article [ref=f3e666]:
+          - heading "Huawei" [level=2] [ref=f3e667]
+          - img "Huawei expressions" [ref=f3e668]
+        - article [ref=f3e669]:
+          - heading "Cerebras" [level=2] [ref=f3e670]
+          - img "Cerebras expressions" [ref=f3e671]
+        - article [ref=f3e672]:
+          - heading "IBM" [level=2] [ref=f3e673]
+          - img "IBM expressions" [ref=f3e674]
+        - article [ref=f3e675]:
+          - heading "Oracle" [level=2] [ref=f3e676]
+          - img "Oracle expressions" [ref=f3e677]
+  - contentinfo [ref=f3e560]: Fictional fan art unaffiliated with the companies depicted.

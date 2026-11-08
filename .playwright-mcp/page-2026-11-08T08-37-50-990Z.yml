@@ -1,0 +1,612 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - link "Silicon Wars character archive" [ref=f1e3] [cursor=pointer]:
+      - /url: "#characters"
+      - text: Silicon Wars
+    - generic [ref=f1e13]: Season One · Character Archive
+  - main [ref=f1e14]:
+    - generic [ref=f1e15]:
+      - region [ref=f1e16]:
+        - paragraph [ref=f1e17]: Every faction has a face
+        - heading "Silicon Wars" [level=1] [ref=f1e18]
+        - paragraph [ref=f1e32]: A manga universe of technology, ambition, and unlikely alliances.
+      - region [ref=f1e33]:
+        - generic [ref=f1e34]:
+          - heading "Character reference cards" [level=2] [ref=f1e35]
+          - generic [ref=f1e36]: 31 illustrated cards
+        - generic [ref=f1e37]:
+          - button "Scroll to previous characters" [ref=f1e38] [cursor=pointer]
+          - region "Silicon Wars character reference cards" [ref=f1e47]:
+            - generic [ref=f1e48]:
+              - article [aria-hidden] [ref=f1e49] [cursor=pointer]:
+                - generic [ref=f1e50]:
+                  - generic [ref=f1e51]: Intel
+                  - generic [ref=f1e52]: The Blue Empress
+                - link [ref=f1e53]:
+                  - /url: "#character/intel"
+              - article [aria-hidden] [ref=f1e54] [cursor=pointer]:
+                - generic [ref=f1e55]:
+                  - generic [ref=f1e56]: AMD
+                  - generic [ref=f1e57]: The Crimson Challenger
+                - link [ref=f1e58]:
+                  - /url: "#character/amd"
+              - article [aria-hidden] [ref=f1e59] [cursor=pointer]:
+                - generic [ref=f1e60]:
+                  - generic [ref=f1e61]: Nvidia
+                  - generic [ref=f1e62]: The Emerald Queen
+                - link [ref=f1e63]:
+                  - /url: "#character/nvidia"
+              - article [aria-hidden] [ref=f1e64] [cursor=pointer]:
+                - generic [ref=f1e65]:
+                  - generic [ref=f1e66]: Google
+                  - generic [ref=f1e67]: The Rainbow Polymath
+                - link [ref=f1e68]:
+                  - /url: "#character/google"
+              - article [aria-hidden] [ref=f1e69] [cursor=pointer]:
+                - generic [ref=f1e70]:
+                  - generic [ref=f1e71]: Microsoft
+                  - generic [ref=f1e72]: The Azure Commander
+                - link [ref=f1e73]:
+                  - /url: "#character/microsoft"
+              - article [aria-hidden] [ref=f1e74] [cursor=pointer]:
+                - generic [ref=f1e75]:
+                  - generic [ref=f1e76]: Apple
+                  - generic [ref=f1e77]: The Silver Perfectionist
+                - link [ref=f1e78]:
+                  - /url: "#character/apple"
+              - article [aria-hidden] [ref=f1e79] [cursor=pointer]:
+                - generic [ref=f1e80]:
+                  - generic [ref=f1e81]: Meta
+                  - generic [ref=f1e82]: The Social Worldbuilder
+                - link [ref=f1e83]:
+                  - /url: "#character/meta"
+              - article [aria-hidden] [ref=f1e84] [cursor=pointer]:
+                - generic [ref=f1e85]:
+                  - generic [ref=f1e86]: Amazon
+                  - generic [ref=f1e87]: The Logistics Overlord
+                - link [ref=f1e88]:
+                  - /url: "#character/amazon"
+              - article [aria-hidden] [ref=f1e89] [cursor=pointer]:
+                - generic [ref=f1e90]:
+                  - generic [ref=f1e91]: Anthropic
+                  - generic [ref=f1e92]: The Cautious Scholar
+                - link [ref=f1e93]:
+                  - /url: "#character/anthropic"
+              - article [aria-hidden] [ref=f1e94] [cursor=pointer]:
+                - generic [ref=f1e95]:
+                  - generic [ref=f1e96]: OpenAI
+                  - generic [ref=f1e97]: The Reckless Prodigy
+                - link [ref=f1e98]:
+                  - /url: "#character/openai"
+              - article [aria-hidden] [ref=f1e99] [cursor=pointer]:
+                - generic [ref=f1e100]:
+                  - generic [ref=f1e101]: xAI
+                  - generic [ref=f1e102]: The Chaos Astronaut
+                - link [ref=f1e103]:
+                  - /url: "#character/xai"
+              - article [aria-hidden] [ref=f1e104] [cursor=pointer]:
+                - generic [ref=f1e105]:
+                  - generic [ref=f1e106]: Hugging Face
+                  - generic [ref=f1e107]: The Open-Source Sunshine Girl
+                - link [ref=f1e108]:
+                  - /url: "#character/huggingface"
+              - article [aria-hidden] [ref=f1e109] [cursor=pointer]:
+                - generic [ref=f1e110]:
+                  - generic [ref=f1e111]: Mistral AI
+                  - generic [ref=f1e112]: The Tiny Titan of Europe
+                - link [ref=f1e113]:
+                  - /url: "#character/mistral-ai"
+              - article [aria-hidden] [ref=f1e114] [cursor=pointer]:
+                - generic [ref=f1e115]:
+                  - generic [ref=f1e116]: DeepSeek
+                  - generic [ref=f1e117]: The Budget Brainiac
+                - link [ref=f1e118]:
+                  - /url: "#character/deepseek"
+              - article [aria-hidden] [ref=f1e119] [cursor=pointer]:
+                - generic [ref=f1e120]:
+                  - generic [ref=f1e121]: TSMC
+                  - generic [ref=f1e122]: The Jade Foundry Goddess
+                - link [ref=f1e123]:
+                  - /url: "#character/tsmc"
+              - article [aria-hidden] [ref=f1e124] [cursor=pointer]:
+                - generic [ref=f1e125]:
+                  - generic [ref=f1e126]: ASML
+                  - generic [ref=f1e127]: The EUV Light Weaver
+                - link [ref=f1e128]:
+                  - /url: "#character/asml"
+              - article [aria-hidden] [ref=f1e129] [cursor=pointer]:
+                - generic [ref=f1e130]:
+                  - generic [ref=f1e131]: Samsung
+                  - generic [ref=f1e132]: The Everything Empress
+                - link [ref=f1e133]:
+                  - /url: "#character/samsung"
+              - article [aria-hidden] [ref=f1e134] [cursor=pointer]:
+                - generic [ref=f1e135]:
+                  - generic [ref=f1e136]: Micron
+                  - generic [ref=f1e137]: The Stack-'Em-High Wrangler
+                - link [ref=f1e138]:
+                  - /url: "#character/micron"
+              - article [aria-hidden] [ref=f1e139] [cursor=pointer]:
+                - generic [ref=f1e140]:
+                  - generic [ref=f1e141]: SK hynix
+                  - generic [ref=f1e142]: The Stack Savant
+                - link [ref=f1e143]:
+                  - /url: "#character/sk-hynix"
+              - article [aria-hidden] [ref=f1e144] [cursor=pointer]:
+                - generic [ref=f1e145]:
+                  - generic [ref=f1e146]: Arm
+                  - generic [ref=f1e147]: The Quiet Architect
+                - link [ref=f1e148]:
+                  - /url: "#character/arm"
+              - article [aria-hidden] [ref=f1e149] [cursor=pointer]:
+                - generic [ref=f1e150]:
+                  - generic [ref=f1e151]: Qualcomm
+                  - generic [ref=f1e152]: The Wireless Speedster
+                - link [ref=f1e153]:
+                  - /url: "#character/qualcomm"
+              - article [aria-hidden] [ref=f1e154] [cursor=pointer]:
+                - generic [ref=f1e155]:
+                  - generic [ref=f1e156]: Broadcom
+                  - generic [ref=f1e157]: The Network Spider Queen
+                - link [ref=f1e158]:
+                  - /url: "#character/broadcom"
+              - article [aria-hidden] [ref=f1e159] [cursor=pointer]:
+                - generic [ref=f1e160]:
+                  - generic [ref=f1e161]: Marvell
+                  - generic [ref=f1e162]: The Deep-Sea Navigator
+                - link [ref=f1e163]:
+                  - /url: "#character/marvell"
+              - article [aria-hidden] [ref=f1e164] [cursor=pointer]:
+                - generic [ref=f1e165]:
+                  - generic [ref=f1e166]: Huawei
+                  - generic [ref=f1e167]: The Crimson Fortress
+                - link [ref=f1e168]:
+                  - /url: "#character/huawei"
+              - article [aria-hidden] [ref=f1e169] [cursor=pointer]:
+                - generic [ref=f1e170]:
+                  - generic [ref=f1e171]: Cerebras
+                  - generic [ref=f1e172]: The Wafer-Scale Prodigy
+                - link [ref=f1e173]:
+                  - /url: "#character/cerebras"
+              - article [aria-hidden] [ref=f1e174] [cursor=pointer]:
+                - generic [ref=f1e175]:
+                  - generic [ref=f1e176]: IBM
+                  - generic [ref=f1e177]: The Iron Lady of Computing
+                - link [ref=f1e178]:
+                  - /url: "#character/ibm"
+              - article [aria-hidden] [ref=f1e179] [cursor=pointer]:
+                - generic [ref=f1e180]:
+                  - generic [ref=f1e181]: Oracle
+                  - generic [ref=f1e182]: The Database Duchess
+                - link [ref=f1e183]:
+                  - /url: "#character/oracle"
+              - article [aria-hidden] [ref=f1e184] [cursor=pointer]:
+                - generic [ref=f1e185]:
+                  - generic [ref=f1e186]: Sun Microsystems
+                  - generic [ref=f1e187]: The Solaris Sorceress
+                - link [ref=f1e188]:
+                  - /url: "#character/sun-microsystems"
+              - article [aria-hidden] [ref=f1e189] [cursor=pointer]:
+                - generic [ref=f1e190]:
+                  - generic [ref=f1e191]: DEC
+                  - generic [ref=f1e192]: The Hacker Grandma
+                - link [ref=f1e193]:
+                  - /url: "#character/dec"
+              - article [aria-hidden] [ref=f1e194] [cursor=pointer]:
+                - generic [ref=f1e195]:
+                  - generic [ref=f1e196]: Fairchild Semiconductor
+                  - generic [ref=f1e197]: The Silicon Matriarch
+                - link [ref=f1e198]:
+                  - /url: "#character/fairchild"
+              - article [aria-hidden] [ref=f1e199] [cursor=pointer]:
+                - generic [ref=f1e200]:
+                  - generic [ref=f1e201]: Bell Labs
+                  - generic [ref=f1e202]: The Grandmother of Transistors
+                - link [ref=f1e203]:
+                  - /url: "#character/bell-labs"
+              - article [ref=f1e204] [cursor=pointer]:
+                - img "Intel — The Blue Empress" [ref=f1e205]
+                - generic [ref=f1e206]:
+                  - generic [ref=f1e207]: Intel
+                  - generic [ref=f1e208]: The Blue Empress
+                - link "View Intel character profile" [ref=f1e209]:
+                  - /url: "#character/intel"
+              - article [ref=f1e210] [cursor=pointer]:
+                - img "AMD — The Crimson Challenger" [ref=f1e211]
+                - generic [ref=f1e212]:
+                  - generic [ref=f1e213]: AMD
+                  - generic [ref=f1e214]: The Crimson Challenger
+                - link "View AMD character profile" [ref=f1e215]:
+                  - /url: "#character/amd"
+              - article [ref=f1e216] [cursor=pointer]:
+                - img "Nvidia — The Emerald Queen" [ref=f1e217]
+                - generic [ref=f1e218]:
+                  - generic [ref=f1e219]: Nvidia
+                  - generic [ref=f1e220]: The Emerald Queen
+                - link "View Nvidia character profile" [ref=f1e221]:
+                  - /url: "#character/nvidia"
+              - article [ref=f1e222] [cursor=pointer]:
+                - img "Google — The Rainbow Polymath" [ref=f1e223]
+                - generic [ref=f1e224]:
+                  - generic [ref=f1e225]: Google
+                  - generic [ref=f1e226]: The Rainbow Polymath
+                - link "View Google character profile" [ref=f1e227]:
+                  - /url: "#character/google"
+              - article [ref=f1e228] [cursor=pointer]:
+                - img "Microsoft — The Azure Commander" [ref=f1e229]
+                - generic [ref=f1e230]:
+                  - generic [ref=f1e231]: Microsoft
+                  - generic [ref=f1e232]: The Azure Commander
+                - link "View Microsoft character profile" [ref=f1e233]:
+                  - /url: "#character/microsoft"
+              - article [ref=f1e234] [cursor=pointer]:
+                - img "Apple — The Silver Perfectionist" [ref=f1e235]
+                - generic [ref=f1e236]:
+                  - generic [ref=f1e237]: Apple
+                  - generic [ref=f1e238]: The Silver Perfectionist
+                - link "View Apple character profile" [ref=f1e239]:
+                  - /url: "#character/apple"
+              - article [ref=f1e240] [cursor=pointer]:
+                - img "Meta — The Social Worldbuilder" [ref=f1e241]
+                - generic [ref=f1e242]:
+                  - generic [ref=f1e243]: Meta
+                  - generic [ref=f1e244]: The Social Worldbuilder
+                - link "View Meta character profile" [ref=f1e245]:
+                  - /url: "#character/meta"
+              - article [ref=f1e246] [cursor=pointer]:
+                - img "Amazon — The Logistics Overlord" [ref=f1e247]
+                - generic [ref=f1e248]:
+                  - generic [ref=f1e249]: Amazon
+                  - generic [ref=f1e250]: The Logistics Overlord
+                - link "View Amazon character profile" [ref=f1e251]:
+                  - /url: "#character/amazon"
+              - article [ref=f1e252] [cursor=pointer]:
+                - img "Anthropic — The Cautious Scholar" [ref=f1e253]
+                - generic [ref=f1e254]:
+                  - generic [ref=f1e255]: Anthropic
+                  - generic [ref=f1e256]: The Cautious Scholar
+                - link "View Anthropic character profile" [ref=f1e257]:
+                  - /url: "#character/anthropic"
+              - article [ref=f1e258] [cursor=pointer]:
+                - img "OpenAI — The Reckless Prodigy" [ref=f1e259]
+                - generic [ref=f1e260]:
+                  - generic [ref=f1e261]: OpenAI
+                  - generic [ref=f1e262]: The Reckless Prodigy
+                - link "View OpenAI character profile" [ref=f1e263]:
+                  - /url: "#character/openai"
+              - article [ref=f1e264] [cursor=pointer]:
+                - img "xAI — The Chaos Astronaut" [ref=f1e265]
+                - generic [ref=f1e266]:
+                  - generic [ref=f1e267]: xAI
+                  - generic [ref=f1e268]: The Chaos Astronaut
+                - link "View xAI character profile" [ref=f1e269]:
+                  - /url: "#character/xai"
+              - article [ref=f1e270] [cursor=pointer]:
+                - img "Hugging Face — The Open-Source Sunshine Girl" [ref=f1e271]
+                - generic [ref=f1e272]:
+                  - generic [ref=f1e273]: Hugging Face
+                  - generic [ref=f1e274]: The Open-Source Sunshine Girl
+                - link "View Hugging Face character profile" [ref=f1e275]:
+                  - /url: "#character/huggingface"
+              - article [ref=f1e276] [cursor=pointer]:
+                - img "Mistral AI — The Tiny Titan of Europe" [ref=f1e277]
+                - generic [ref=f1e278]:
+                  - generic [ref=f1e279]: Mistral AI
+                  - generic [ref=f1e280]: The Tiny Titan of Europe
+                - link "View Mistral AI character profile" [ref=f1e281]:
+                  - /url: "#character/mistral-ai"
+              - article [ref=f1e282] [cursor=pointer]:
+                - img "DeepSeek — The Budget Brainiac" [ref=f1e283]
+                - generic [ref=f1e284]:
+                  - generic [ref=f1e285]: DeepSeek
+                  - generic [ref=f1e286]: The Budget Brainiac
+                - link "View DeepSeek character profile" [ref=f1e287]:
+                  - /url: "#character/deepseek"
+              - article [ref=f1e288] [cursor=pointer]:
+                - img "TSMC — The Jade Foundry Goddess" [ref=f1e289]
+                - generic [ref=f1e290]:
+                  - generic [ref=f1e291]: TSMC
+                  - generic [ref=f1e292]: The Jade Foundry Goddess
+                - link "View TSMC character profile" [ref=f1e293]:
+                  - /url: "#character/tsmc"
+              - article [ref=f1e294] [cursor=pointer]:
+                - img "ASML — The EUV Light Weaver" [ref=f1e295]
+                - generic [ref=f1e296]:
+                  - generic [ref=f1e297]: ASML
+                  - generic [ref=f1e298]: The EUV Light Weaver
+                - link "View ASML character profile" [ref=f1e299]:
+                  - /url: "#character/asml"
+              - article [ref=f1e300] [cursor=pointer]:
+                - img "Samsung — The Everything Empress" [ref=f1e301]
+                - generic [ref=f1e302]:
+                  - generic [ref=f1e303]: Samsung
+                  - generic [ref=f1e304]: The Everything Empress
+                - link "View Samsung character profile" [ref=f1e305]:
+                  - /url: "#character/samsung"
+              - article [ref=f1e306] [cursor=pointer]:
+                - img "Micron — The Stack-'Em-High Wrangler" [ref=f1e307]
+                - generic [ref=f1e308]:
+                  - generic [ref=f1e309]: Micron
+                  - generic [ref=f1e310]: The Stack-'Em-High Wrangler
+                - link "View Micron character profile" [ref=f1e311]:
+                  - /url: "#character/micron"
+              - article [ref=f1e312] [cursor=pointer]:
+                - img "SK hynix — The Stack Savant" [ref=f1e313]
+                - generic [ref=f1e314]:
+                  - generic [ref=f1e315]: SK hynix
+                  - generic [ref=f1e316]: The Stack Savant
+                - link "View SK hynix character profile" [ref=f1e317]:
+                  - /url: "#character/sk-hynix"
+              - article [ref=f1e318] [cursor=pointer]:
+                - img "Arm — The Quiet Architect" [ref=f1e319]
+                - generic [ref=f1e320]:
+                  - generic [ref=f1e321]: Arm
+                  - generic [ref=f1e322]: The Quiet Architect
+                - link "View Arm character profile" [ref=f1e323]:
+                  - /url: "#character/arm"
+              - article [ref=f1e324] [cursor=pointer]:
+                - img "Qualcomm — The Wireless Speedster" [ref=f1e325]
+                - generic [ref=f1e326]:
+                  - generic [ref=f1e327]: Qualcomm
+                  - generic [ref=f1e328]: The Wireless Speedster
+                - link "View Qualcomm character profile" [ref=f1e329]:
+                  - /url: "#character/qualcomm"
+              - article [ref=f1e330] [cursor=pointer]:
+                - img "Broadcom — The Network Spider Queen" [ref=f1e331]
+                - generic [ref=f1e332]:
+                  - generic [ref=f1e333]: Broadcom
+                  - generic [ref=f1e334]: The Network Spider Queen
+                - link "View Broadcom character profile" [ref=f1e335]:
+                  - /url: "#character/broadcom"
+              - article [ref=f1e336] [cursor=pointer]:
+                - img "Marvell — The Deep-Sea Navigator" [ref=f1e337]
+                - generic [ref=f1e338]:
+                  - generic [ref=f1e339]: Marvell
+                  - generic [ref=f1e340]: The Deep-Sea Navigator
+                - link "View Marvell character profile" [ref=f1e341]:
+                  - /url: "#character/marvell"
+              - article [ref=f1e342] [cursor=pointer]:
+                - img "Huawei — The Crimson Fortress" [ref=f1e343]
+                - generic [ref=f1e344]:
+                  - generic [ref=f1e345]: Huawei
+                  - generic [ref=f1e346]: The Crimson Fortress
+                - link "View Huawei character profile" [ref=f1e347]:
+                  - /url: "#character/huawei"
+              - article [ref=f1e348] [cursor=pointer]:
+                - img "Cerebras — The Wafer-Scale Prodigy" [ref=f1e349]
+                - generic [ref=f1e350]:
+                  - generic [ref=f1e351]: Cerebras
+                  - generic [ref=f1e352]: The Wafer-Scale Prodigy
+                - link "View Cerebras character profile" [ref=f1e353]:
+                  - /url: "#character/cerebras"
+              - article [ref=f1e354] [cursor=pointer]:
+                - img "IBM — The Iron Lady of Computing" [ref=f1e355]
+                - generic [ref=f1e356]:
+                  - generic [ref=f1e357]: IBM
+                  - generic [ref=f1e358]: The Iron Lady of Computing
+                - link "View IBM character profile" [ref=f1e359]:
+                  - /url: "#character/ibm"
+              - article [ref=f1e360] [cursor=pointer]:
+                - img "Oracle — The Database Duchess" [ref=f1e361]
+                - generic [ref=f1e362]:
+                  - generic [ref=f1e363]: Oracle
+                  - generic [ref=f1e364]: The Database Duchess
+                - link "View Oracle character profile" [ref=f1e365]:
+                  - /url: "#character/oracle"
+              - article [ref=f1e366] [cursor=pointer]:
+                - img "Sun Microsystems — The Solaris Sorceress" [ref=f1e367]
+                - generic [ref=f1e368]:
+                  - generic [ref=f1e369]: Sun Microsystems
+                  - generic [ref=f1e370]: The Solaris Sorceress
+                - link "View Sun Microsystems character profile" [ref=f1e371]:
+                  - /url: "#character/sun-microsystems"
+              - article [ref=f1e372] [cursor=pointer]:
+                - img "DEC — The Hacker Grandma" [ref=f1e373]
+                - generic [ref=f1e374]:
+                  - generic [ref=f1e375]: DEC
+                  - generic [ref=f1e376]: The Hacker Grandma
+                - link "View DEC character profile" [ref=f1e377]:
+                  - /url: "#character/dec"
+              - article [ref=f1e378] [cursor=pointer]:
+                - img "Fairchild Semiconductor — The Silicon Matriarch" [ref=f1e379]
+                - generic [ref=f1e380]:
+                  - generic [ref=f1e381]: Fairchild Semiconductor
+                  - generic [ref=f1e382]: The Silicon Matriarch
+                - link "View Fairchild Semiconductor character profile" [ref=f1e383]:
+                  - /url: "#character/fairchild"
+              - article [ref=f1e384] [cursor=pointer]:
+                - img "Bell Labs — The Grandmother of Transistors" [ref=f1e385]
+                - generic [ref=f1e386]:
+                  - generic [ref=f1e387]: Bell Labs
+                  - generic [ref=f1e388]: The Grandmother of Transistors
+                - link "View Bell Labs character profile" [ref=f1e389]:
+                  - /url: "#character/bell-labs"
+              - article [aria-hidden] [ref=f1e390] [cursor=pointer]:
+                - generic [ref=f1e391]:
+                  - generic [ref=f1e392]: Intel
+                  - generic [ref=f1e393]: The Blue Empress
+                - link [ref=f1e394]:
+                  - /url: "#character/intel"
+              - article [aria-hidden] [ref=f1e395] [cursor=pointer]:
+                - generic [ref=f1e396]:
+                  - generic [ref=f1e397]: AMD
+                  - generic [ref=f1e398]: The Crimson Challenger
+                - link [ref=f1e399]:
+                  - /url: "#character/amd"
+              - article [aria-hidden] [ref=f1e400] [cursor=pointer]:
+                - generic [ref=f1e401]:
+                  - generic [ref=f1e402]: Nvidia
+                  - generic [ref=f1e403]: The Emerald Queen
+                - link [ref=f1e404]:
+                  - /url: "#character/nvidia"
+              - article [aria-hidden] [ref=f1e405] [cursor=pointer]:
+                - generic [ref=f1e406]:
+                  - generic [ref=f1e407]: Google
+                  - generic [ref=f1e408]: The Rainbow Polymath
+                - link [ref=f1e409]:
+                  - /url: "#character/google"
+              - article [aria-hidden] [ref=f1e410] [cursor=pointer]:
+                - generic [ref=f1e411]:
+                  - generic [ref=f1e412]: Microsoft
+                  - generic [ref=f1e413]: The Azure Commander
+                - link [ref=f1e414]:
+                  - /url: "#character/microsoft"
+              - article [aria-hidden] [ref=f1e415] [cursor=pointer]:
+                - generic [ref=f1e416]:
+                  - generic [ref=f1e417]: Apple
+                  - generic [ref=f1e418]: The Silver Perfectionist
+                - link [ref=f1e419]:
+                  - /url: "#character/apple"
+              - article [aria-hidden] [ref=f1e420] [cursor=pointer]:
+                - generic [ref=f1e421]:
+                  - generic [ref=f1e422]: Meta
+                  - generic [ref=f1e423]: The Social Worldbuilder
+                - link [ref=f1e424]:
+                  - /url: "#character/meta"
+              - article [aria-hidden] [ref=f1e425] [cursor=pointer]:
+                - generic [ref=f1e426]:
+                  - generic [ref=f1e427]: Amazon
+                  - generic [ref=f1e428]: The Logistics Overlord
+                - link [ref=f1e429]:
+                  - /url: "#character/amazon"
+              - article [aria-hidden] [ref=f1e430] [cursor=pointer]:
+                - generic [ref=f1e431]:
+                  - generic [ref=f1e432]: Anthropic
+                  - generic [ref=f1e433]: The Cautious Scholar
+                - link [ref=f1e434]:
+                  - /url: "#character/anthropic"
+              - article [aria-hidden] [ref=f1e435] [cursor=pointer]:
+                - generic [ref=f1e436]:
+                  - generic [ref=f1e437]: OpenAI
+                  - generic [ref=f1e438]: The Reckless Prodigy
+                - link [ref=f1e439]:
+                  - /url: "#character/openai"
+              - article [aria-hidden] [ref=f1e440] [cursor=pointer]:
+                - generic [ref=f1e441]:
+                  - generic [ref=f1e442]: xAI
+                  - generic [ref=f1e443]: The Chaos Astronaut
+                - link [ref=f1e444]:
+                  - /url: "#character/xai"
+              - article [aria-hidden] [ref=f1e445] [cursor=pointer]:
+                - generic [ref=f1e446]:
+                  - generic [ref=f1e447]: Hugging Face
+                  - generic [ref=f1e448]: The Open-Source Sunshine Girl
+                - link [ref=f1e449]:
+                  - /url: "#character/huggingface"
+              - article [aria-hidden] [ref=f1e450] [cursor=pointer]:
+                - generic [ref=f1e451]:
+                  - generic [ref=f1e452]: Mistral AI
+                  - generic [ref=f1e453]: The Tiny Titan of Europe
+                - link [ref=f1e454]:
+                  - /url: "#character/mistral-ai"
+              - article [aria-hidden] [ref=f1e455] [cursor=pointer]:
+                - generic [ref=f1e456]:
+                  - generic [ref=f1e457]: DeepSeek
+                  - generic [ref=f1e458]: The Budget Brainiac
+                - link [ref=f1e459]:
+                  - /url: "#character/deepseek"
+              - article [aria-hidden] [ref=f1e460] [cursor=pointer]:
+                - generic [ref=f1e461]:
+                  - generic [ref=f1e462]: TSMC
+                  - generic [ref=f1e463]: The Jade Foundry Goddess
+                - link [ref=f1e464]:
+                  - /url: "#character/tsmc"
+              - article [aria-hidden] [ref=f1e465] [cursor=pointer]:
+                - generic [ref=f1e466]:
+                  - generic [ref=f1e467]: ASML
+                  - generic [ref=f1e468]: The EUV Light Weaver
+                - link [ref=f1e469]:
+                  - /url: "#character/asml"
+              - article [aria-hidden] [ref=f1e470] [cursor=pointer]:
+                - generic [ref=f1e471]:
+                  - generic [ref=f1e472]: Samsung
+                  - generic [ref=f1e473]: The Everything Empress
+                - link [ref=f1e474]:
+                  - /url: "#character/samsung"
+              - article [aria-hidden] [ref=f1e475] [cursor=pointer]:
+                - generic [ref=f1e476]:
+                  - generic [ref=f1e477]: Micron
+                  - generic [ref=f1e478]: The Stack-'Em-High Wrangler
+                - link [ref=f1e479]:
+                  - /url: "#character/micron"
+              - article [aria-hidden] [ref=f1e480] [cursor=pointer]:
+                - generic [ref=f1e481]:
+                  - generic [ref=f1e482]: SK hynix
+                  - generic [ref=f1e483]: The Stack Savant
+                - link [ref=f1e484]:
+                  - /url: "#character/sk-hynix"
+              - article [aria-hidden] [ref=f1e485] [cursor=pointer]:
+                - generic [ref=f1e486]:
+                  - generic [ref=f1e487]: Arm
+                  - generic [ref=f1e488]: The Quiet Architect
+                - link [ref=f1e489]:
+                  - /url: "#character/arm"
+              - article [aria-hidden] [ref=f1e490] [cursor=pointer]:
+                - generic [ref=f1e491]:
+                  - generic [ref=f1e492]: Qualcomm
+                  - generic [ref=f1e493]: The Wireless Speedster
+                - link [ref=f1e494]:
+                  - /url: "#character/qualcomm"
+              - article [aria-hidden] [ref=f1e495] [cursor=pointer]:
+                - generic [ref=f1e496]:
+                  - generic [ref=f1e497]: Broadcom
+                  - generic [ref=f1e498]: The Network Spider Queen
+                - link [ref=f1e499]:
+                  - /url: "#character/broadcom"
+              - article [aria-hidden] [ref=f1e500] [cursor=pointer]:
+                - generic [ref=f1e501]:
+                  - generic [ref=f1e502]: Marvell
+                  - generic [ref=f1e503]: The Deep-Sea Navigator
+                - link [ref=f1e504]:
+                  - /url: "#character/marvell"
+              - article [aria-hidden] [ref=f1e505] [cursor=pointer]:
+                - generic [ref=f1e506]:
+                  - generic [ref=f1e507]: Huawei
+                  - generic [ref=f1e508]: The Crimson Fortress
+                - link [ref=f1e509]:
+                  - /url: "#character/huawei"
+              - article [aria-hidden] [ref=f1e510] [cursor=pointer]:
+                - generic [ref=f1e511]:
+                  - generic [ref=f1e512]: Cerebras
+                  - generic [ref=f1e513]: The Wafer-Scale Prodigy
+                - link [ref=f1e514]:
+                  - /url: "#character/cerebras"
+              - article [aria-hidden] [ref=f1e515] [cursor=pointer]:
+                - generic [ref=f1e516]:
+                  - generic [ref=f1e517]: IBM
+                  - generic [ref=f1e518]: The Iron Lady of Computing
+                - link [ref=f1e519]:
+                  - /url: "#character/ibm"
+              - article [aria-hidden] [ref=f1e520] [cursor=pointer]:
+                - generic [ref=f1e521]:
+                  - generic [ref=f1e522]: Oracle
+                  - generic [ref=f1e523]: The Database Duchess
+                - link [ref=f1e524]:
+                  - /url: "#character/oracle"
+              - article [aria-hidden] [ref=f1e525] [cursor=pointer]:
+                - generic [ref=f1e526]:
+                  - generic [ref=f1e527]: Sun Microsystems
+                  - generic [ref=f1e528]: The Solaris Sorceress
+                - link [ref=f1e529]:
+                  - /url: "#character/sun-microsystems"
+              - article [aria-hidden] [ref=f1e530] [cursor=pointer]:
+                - generic [ref=f1e531]:
+                  - generic [ref=f1e532]: DEC
+                  - generic [ref=f1e533]: The Hacker Grandma
+                - link [ref=f1e534]:
+                  - /url: "#character/dec"
+              - article [aria-hidden] [ref=f1e535] [cursor=pointer]:
+                - generic [ref=f1e536]:
+                  - generic [ref=f1e537]: Fairchild Semiconductor
+                  - generic [ref=f1e538]: The Silicon Matriarch
+                - link [ref=f1e539]:
+                  - /url: "#character/fairchild"
+              - article [aria-hidden] [ref=f1e540] [cursor=pointer]:
+                - generic [ref=f1e541]:
+                  - generic [ref=f1e542]: Bell Labs
+                  - generic [ref=f1e543]: The Grandmother of Transistors
+                - link [ref=f1e544]:
+                  - /url: "#character/bell-labs"
+          - button "Scroll to next characters" [ref=f1e545] [cursor=pointer]
+        - paragraph [ref=f1e554]: Click a card to open its profile · Hover the chips to accelerate · Drag or swipe to browse
+  - contentinfo [ref=f1e555]: Fictional fan art unaffiliated with the companies depicted.
