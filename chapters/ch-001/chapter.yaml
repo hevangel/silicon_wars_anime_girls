@@ -1,0 +1,10 @@
+id: ch-001
+title: Who Owns the Table
+format: right-to-left manga chapter (8 pages)
+status: script_draft
+featured_characters: [intel, amd, nvidia, fairchild, tsmc]
+continues: pilot-001
+pages: [page-001, page-002, page-003, page-004, page-005, page-006, page-007, page-008]
+script: chapters/ch-001/script.md
+season_outline: bible/season1_outline.md
+notes: Script only. No art, storyboard, panel briefs or lettering exist yet. Panel IDs below are stable and should be reused by every later file.

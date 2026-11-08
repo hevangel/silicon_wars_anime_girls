@@ -5,3 +5,5 @@ The [series bible](story_bible.md) defines the world of the Great Compute War, i
 ## Style variants
 
 Characters have one immutable identity and multiple rendering modes. [art_style.yaml](art_style.yaml) defines the variants globally (`default_manga`, `chibi`); [style_usage_policy.yaml](style_usage_policy.yaml) says where each variant may appear. Each character's `continuity.yaml` carries `supported_styles` and per-variant preserve / simplify rules under `style_variants`. A panel picks its variant with a `style_variant` field in its panel YAML (panels without the field are `default_manga`). Prompt templates for each variant live in [prompts/templates/](../prompts/templates/).
+
+See the [Season 1 outline](season1_outline.md) for the chapter-by-chapter plan.
