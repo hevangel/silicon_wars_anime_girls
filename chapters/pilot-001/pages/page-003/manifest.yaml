@@ -1,0 +1,32 @@
+chapter: pilot-001
+page: page-003
+status: review_draft
+human_approval: pending
+generator: built-in image generation
+model: null
+seed: null
+generation_note: The built-in generator did not expose a model identifier or seed.
+  The selected take was visually reviewed.
+panels:
+- id: panel-01
+  brief: chapters/pilot-001/pages/page-003/panels/panel-01.yaml
+  prompt_sha256: c94ce0d57a271ea774fbd1972030d0fbda8beb76e4f743d2f65c9bceeb415b38
+  references:
+  - path: characters/intel/character_sheet.png
+    role: model_sheet
+    sha256: 551fc2befb0fe8eed53f5341731d7c7b56b47afc301319c5bd3ca84eea952c95
+    archive_commit: d3f5842277b0356693d3c54f49c9366072737076
+  - path: characters/amd/character_sheet.png
+    role: model_sheet
+    sha256: ae1a946d57c03396970ff00415150f5c052a24c4596448f65855973a8063c702
+  - path: characters/nvidia/character_sheet.png
+    role: model_sheet
+    sha256: 76b24d2a8787437aa0b6418aac41cfd4ea789360b5b99ffb4455275acbffdd1d
+  output: chapters/pilot-001/pages/page-003/art/panel-01.png
+  image_sha256: a220b03364d3f56f25a793c840c10d1123d6e769c19c3c2772f3a012b025a2db
+assembly:
+  pillow_version: 13.0.0
+  width: 1800
+  height: 2600
+  output: chapters/pilot-001/pages/page-003/final/page-003.png
+  sha256: bcbcaa437c9683387d35a1f2d2af8eb8246f9a439485cd777298b5a999a3f907
