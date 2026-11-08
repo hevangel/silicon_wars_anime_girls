@@ -1,19 +1,19 @@
-# Huawei — The Crimson Fortress
+# Huawei — The Full-Stack Phoenix
 
 > An original *Silicon Wars* company-personification character. Unofficial fictional fan work.
 
 | Field | Design |
 |---|---|
 | Faction | Platform Kingdoms |
-| Age portrayal | adult |
-| Hair color | black |
-| Brand color motif | crimson |
+| Age portrayal | Late twenties, about 28 |
+| Hair color | near-black with scarlet streaks |
+| Brand color motif | scarlet, black, and gold |
 
 ## Appearance
-Long black hair, crimson floral ornaments and quietly determined eyes
+Determined woman in her late twenties with long near-black hair streaked scarlet, an ornate high bun, red tassels, a pink flower, and a phoenix-feather pin.
 
 ## Clothing and equipment
-Red-white engineered robe, telecom antenna staff and modular armor
+Black high-collar bodice with gold dragon embroidery, wide scarlet sleeves, white Huawei shoulder armor, layered skirt plates, black boots, and a tool belt with a gold-repaired tablet.
 
 ## Personality
 Disciplined, strategic, reserved and resilient
@@ -43,6 +43,8 @@ Chinese industrial ecosystem
 > When the gates close we build our own road.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
+- [Character model sheet](character_sheet.png)
+- [12-expression sheet](expressions.png)
+- [Painted reference card](reference_card.jpg)
+- [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

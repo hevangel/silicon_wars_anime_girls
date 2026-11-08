@@ -1,19 +1,9 @@
-# Huawei full-resolution character-sheet brief
+# Huawei · The Full-Stack Phoenix
 
-Create a **16:9 anime character-reference sheet** for Huawei, titled “The Crimson Fortress,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) for continuity.
 
-**Age portrayal:** adult. Confident adult woman with age-appropriate clothing.
+- Keep the determined late-twenties face and long near-black hair with scarlet streaks. The high bun carries red silk tassels, a pink cherry blossom, gold pins, and a long phoenix-feather pin with a dangling charm.
+- Keep the winding gold dragon on the black high-collar bodice, broad scarlet sleeves, white shoulder piece with the red Huawei fan mark, layered black-and-scarlet skirt armor, and black boots with gold trim. Keep the wrench and gold-repaired tablet at her waist.
+- In the portrait, she stands firm over a stormy communications skyline, holding a four-layer hologram off to the side so the dragon stays visible. Let scarlet embers suggest the phoenix. Keep the turnaround poses empty-handed and the tools secured to her belt.
 
-**Appearance:** Long black hair, crimson floral ornaments and quietly determined eyes
-
-**Clothing:** Red-white engineered robe, telecom antenna staff and modular armor
-
-**Personality and pose:** Disciplined, strategic, reserved and resilient. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Formal calm declarations and carefully guarded plans
-
-**Power visualization:** Red Fortress
-
-**Quote:** “When the gates close we build our own road.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)
