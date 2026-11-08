@@ -1,6 +1,7 @@
 id: intel
 title: The Blue Empress
 identity: Long light-blue hair, sapphire eyes, unbranded sapphire crown, royal-blue and cream military coat, gold epaulettes, white gloves, and a wafer heirloom. The embroidered Intel Inside emblem sits above the hem of her left front skirt panel.
+logo_lockup: wordmark
 reference_assets:
   model_sheet: characters/intel/character_sheet.png
   expressions: characters/intel/expressions.png
@@ -33,7 +34,7 @@ style_variants:
       - tiny disapproving stare
       - flustered royal indignation
     transform:
-      proportions: "large head, tiny body"
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: "simplified"
       expressions: "more exaggerated"
       shading: "minimal"

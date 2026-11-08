@@ -1,6 +1,7 @@
 id: openai
 title: The Reckless Prodigy
 identity: "Elementary-school girl with a fluffy silver-white side ponytail, blue-teal eyes, and an oversized navy knot ribbon with glowing cyan edges. Wears a white-and-navy sailor uniform with a teal tie and carries an experiment backpack with a little white robot."
+logo_lockup: symbol_and_name
 reference_assets:
   model_sheet: characters/openai/character_sheet.png
   expressions: characters/openai/expressions.png

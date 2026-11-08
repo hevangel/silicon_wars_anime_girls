@@ -10,7 +10,7 @@
 | Brand color motif | silicon silver and iridescent wafer gradient |
 
 ## Appearance
-Adult young woman with honey-blonde hair in a long thick side braid tied with a blue ribbon, bright blue eyes, and a cream cowboy hat with a blue band and chip-shaped concho
+Adult young woman with honey-blonde hair in a long thick side braid tied with a silver ribbon, bright blue eyes, and a cream cowboy hat with an iridescent silver band and chip-shaped concho
 
 ## Clothing and equipment
 Cream-white western shirt with silver-violet trim and rolled sleeves under a fringed cream leather vest with a chip-shaped sheriff star, iridescent violet neckerchief, jeans with a DIMM edge-connector belt buckle, tan cowboy boots with gear-shaped spurs, and a DIMM holstered at her hip
@@ -46,6 +46,7 @@ U.S. ecosystem, AI customers, system builders, cloud operators and long-term par
 - [Painted reference card](reference_card.jpg) — regenerated 2026-11-07 as a Boise ranch cowgirl (glowing iridescent memory-bus lasso, holstered DIMM, HBM hay-bale stack, "Famous Potatoes" crate; accents in silicon silver + iridescent wafer gradient per Micron's Oct 2024 rebrand — no longer blue, new text-only wordmark); name plate carries name + title only. Supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/micron-reference-card-tenacious-challenger.jpg](../../scratchpad/superseded/micron-reference-card-tenacious-challenger.jpg).
 - [Character model sheet](character_sheet.png) — FRONT / THREE-QUARTER / SIDE / BACK turnarounds with CONFIDENT / DETERMINED / FRIENDLY close-ups and palette (figures crop at mid-thigh; boots are documented on the card and the expression sheet).
 - [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — four turnarounds and three close-ups.
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and character sheets.
 - [Generation prompts](character_sheet.prompt.md) — the exact prompts used for the card and sheets.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

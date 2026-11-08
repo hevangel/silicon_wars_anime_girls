@@ -1,6 +1,7 @@
 id: mistral-ai
 title: The Tiny Titan of Europe
 identity: "Elementary-school girl about 9-10 with light chestnut-brown wavy hair in low twin pigtails with tricolor ribbons, a tilted navy beret with a pixel M pin, warm amber eyes and freckles, and a periwinkle French-blue school blouse smock with a white Peter Pan collar over a Breton striped shirt."
+logo_lockup: symbol_and_name
 reference_assets:
   model_sheet: characters/mistral-ai/character_sheet.png
   expressions: characters/mistral-ai/expressions.png
@@ -19,7 +20,7 @@ style_variants:
       - periwinkle blouse smock with white Peter Pan collar and pixel M pocket
       - tan leather cartable and Le Chat pixel plush
     transform:
-      proportions: large head, tiny body
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: simplified
       expressions: more exaggerated
       shading: minimal

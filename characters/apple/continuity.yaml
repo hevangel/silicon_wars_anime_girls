@@ -1,6 +1,7 @@
 id: apple
 title: The Silver Perfectionist
 identity: Adult woman around 30 with a silver-gray layered bob, blue-gray eyes, a tailored white lab coat over a black turtleneck, white trousers, black loafers, and a silver Apple-logo pendant.
+logo_lockup: symbol_and_name
 reference_assets:
   model_sheet: characters/apple/character_sheet.png
   expressions: characters/apple/expressions.png
@@ -28,7 +29,7 @@ style_variants:
       - polishing an already spotless surface
       - tiny perfectionist huff
     transform:
-      proportions: "large head, tiny body"
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: "simplified"
       expressions: "more exaggerated"
       shading: "minimal"

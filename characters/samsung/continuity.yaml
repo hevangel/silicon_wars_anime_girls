@@ -1,8 +1,10 @@
 id: samsung
 title: The Everything Empress
 identity: "Adult young woman in her mid 20s with sleek near-black hair in daenggi ribbons, sparkling sapphire eyes, a white and ice-silver hanbok-inspired dress with a full flared skirt, a SAMSUNG sash, and a norigae overloaded with tiny gadgets."
+logo_lockup: wordmark
 reference_assets:
   model_sheet: characters/samsung/character_sheet.png
+  chibi_sheet: characters/samsung/chibi_sheet.png
   expressions: characters/samsung/expressions.png
   portrait: characters/samsung/reference_card.jpg
 
@@ -17,7 +19,7 @@ style_variants:
       - white and ice-silver hanbok, wide sleeves, full flared skirt
       - SAMSUNG sash and the gadget-overloaded norigae
     transform:
-      proportions: large head, tiny body
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: simplified
       expressions: more exaggerated
       shading: minimal
