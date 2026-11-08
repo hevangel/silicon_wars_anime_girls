@@ -1,0 +1,21 @@
+# Where each style variant (defined in art_style.yaml) is allowed to appear.
+# This policy exists to prevent tone drift: chibi is a comedic instrument,
+# not a replacement for the base character design.
+
+style_usage_policy:
+  default_manga:
+    allowed_in:
+      - main story panels
+      - character sheets
+      - promotional key art
+
+  chibi:
+    allowed_in:
+      - reaction panels
+      - comedic inserts
+      - omake pages
+      - chapter end jokes
+      - stickers and emoji assets
+    avoid_in:
+      - serious dramatic climaxes
+      - lore-critical reveal scenes
