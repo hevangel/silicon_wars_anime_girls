@@ -4,6 +4,7 @@ identity: Dark brown hair in a practical low ponytail, amber-orange eyes, confid
 reference_assets:
   model_sheet: characters/amazon/character_sheet.png
   expressions: characters/amazon/expressions.png
+  chibi_sheet: characters/amazon/chibi_sheet.png
   portrait: characters/amazon/reference_card.jpg
 
 default_style: default_manga

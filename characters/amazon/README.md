@@ -45,6 +45,7 @@ AWS partners and suppliers
 ## Character design assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette. (One label nit: the FRONT caption under the first figure is missing; the views read left to right as FRONT / THREE-QUARTER / SIDE / BACK.)
 - [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop: same colors and style, hair in her profile's low ponytail, canonical nameplate title, and one drone familiar carrying a tiny parcel.
 - [Model sheet, reference card, and expression sheet prompts](character_sheet.prompt.md).
 - [Continuity lock](continuity.yaml).
