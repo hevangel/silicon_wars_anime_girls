@@ -43,7 +43,7 @@ OpenAI, businesses and developers
 > Great research. Can we deploy it securely by Monday?
 
 ## Character design assets
-- [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette. NOTE: the model sheet still shows the retired trousers outfit; the business-dress redesign (2026-11-07) is in the reference card and expression sheet, and the model-sheet regeneration is pending.
+- [Illustrated character model sheet](character_sheet.png) with turnarounds in the business dress, three expressions, and palette.
 - [Expression sheet](expressions.png) with a full-body pose in the business dress and 12 facial expressions; glasses in 11 of 12 cells (SMUG still missing them).
 - [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop at full size, as a 30-year-old, with glasses, suit, corporate name tag, and coffee mug; redrawn the same day in a business dress instead of trousers.
 - [Model sheet and reference card prompts](character_sheet.prompt.md).
