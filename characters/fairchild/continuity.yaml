@@ -1,0 +1,27 @@
+id: fairchild
+title: The First Lady of Silicon
+identity: Wiry elderly workshop forewoman with round spectacles, silver-white work updo with two pencils, olive polka-dot head and neck scarves, and a forest-green postwar shirtwaist dress with a cream Flying F sleeve patch.
+logo_lockup: symbol_and_name
+reference_assets:
+  model_sheet: characters/fairchild/character_sheet.png
+  expressions: characters/fairchild/expressions.png
+  chibi_sheet: characters/fairchild/chibi_sheet.png
+  portrait: characters/fairchild/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed version of the elderly workshop forewoman.
+    preserve:
+      - silver-white updo with two pencils and round spectacles
+      - olive scarves with cream polka dots
+      - forest-green work dress with rolled cuffs, brass belt buckle, and original Flying F sleeve patch
+      - proud smile and Rosie-style flex
+    transform:
+      proportions: Target 2.5 anatomical heads tall from crown to soles
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable

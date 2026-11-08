@@ -1,19 +1,11 @@
-# Fairchild Semiconductor full-resolution character-sheet brief
+# Fairchild Semiconductor illustration brief
 
-Create a **16:9 anime character-reference sheet** for Fairchild Semiconductor, titled “The Silicon Matriarch,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Fairchild, **The First Lady of Silicon**, is the formidable grandmother of the Silicon Valley family. Use the [model sheet](character_sheet.png) for her silhouette, costume, and proportions and the [reference card](reference_card.jpg) for her workshop setting and signature pose.
 
-**Age portrayal:** elder. Authentic elderly details and comfortable age-appropriate clothing.
+- **Face and hair.** Visibly elderly and wiry, with a pointed chin, dark brown eyes, fine age lines, a wry smile, and round dark wire-rim spectacles. Silver-white hair in a swept work updo with two pencils. Keep her glasses on.
+- **Costume.** Postwar forest-green shirtwaist work dress with a below-knee A-line skirt, rolled cream cuffs, brass buttons, and a square brass belt buckle. Dark olive head and neck scarves with cream polka dots. Gray stockings and low-heeled brown lace-up work shoes.
+- **Emblem.** One cream patch on her right upper sleeve carries the original circular dark-green Fairchild Flying F. Use the same symbol in the sheet lockup beside FAIRCHILD. The reference-card nameplate has two centered lines, FAIRCHILD and THE FIRST LADY OF SILICON.
+- **Acting.** Pragmatic, bossy, protective, and inventive. Use her wry expression and one-arm Rosie-style flex for the portrait. Set the card at an early-1960s semiconductor bench with an optical microscope and a tray of metal-can transistors under warm task light.
+- **Story.** Her ability is Planar Genesis. Her signature line is “Intel! AMD! Stop fighting at my table!”
 
-**Appearance:** Very elderly formidable grandmother with white hair, scarlet polka-dot bandana and rolled sleeves
-
-**Clothing:** Vintage semiconductor workshop shirt, round spectacles, wafer tray and practical tools
-
-**Personality and pose:** Pragmatic, bossy, protective and inventive. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Commands the noisy children like an experienced forewoman
-
-**Power visualization:** Planar Genesis
-
-**Quote:** “Intel! AMD! Stop fighting at my table!”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+Use the [expression sheet](expressions.png) for facial acting and the [chibi sheet](chibi_sheet.png) for super-deformed proportions. See the [generation record](character_sheet.prompt.md) for layout guides and source references.
