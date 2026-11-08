@@ -1,0 +1,26 @@
+id: xerox-parc
+title: The Unpaid Inventor
+identity: "Early-seventies slender woman with lightly stooped shoulders, softly lined elderly face, attentive blue-gray eyes, gently mischievous smile, and side-parted chin-length white bob with a few flyaways. Faded dusty-rose late-1960s collared A-line button-front shirt dress with cream pointed collar and same-fabric waist belt, hem just below knee, open oatmeal-gray worn cardigan with a brown patch on her right elbow (viewer left in front) and visible small darn by right pocket, tan stockings and dark-brown scuffed loafers. A tiny beige rectangular two-button vintage mouse pendant hangs from a thin cord in front only."
+logo_lockup: wordmark
+reference_assets:
+  model_sheet: characters/xerox-parc/character_sheet.png
+  expressions: characters/xerox-parc/expressions.png
+  chibi_sheet: characters/xerox-parc/chibi_sheet.png
+  portrait: characters/xerox-parc/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Compact manga variant of the elderly inventor.
+    preserve:
+      - white side-parted bob, blue-gray eyes, and recognizable age lines
+      - faded dusty-rose collared dress and oatmeal cardigan with right-elbow patch
+      - mouse pendant on the front, tan stockings, and worn brown loafers
+    transform:
+      proportions: Target 2.5 anatomical heads tall from crown to soles
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable

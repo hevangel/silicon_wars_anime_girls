@@ -1,19 +1,9 @@
-# Xerox PARC full-resolution character-sheet brief
+# Xerox PARC · The Unpaid Inventor
 
-Create a **16:9 anime character-reference sheet** for Xerox PARC, titled “The Forgotten Inventor,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Draw an elderly anime inventor in her early seventies. Early-seventies slender woman with lightly stooped shoulders, softly lined elderly face, attentive blue-gray eyes, gently mischievous smile, and side-parted chin-length white bob with a few flyaways. Faded dusty-rose late-1960s collared A-line button-front shirt dress with cream pointed collar and same-fabric waist belt, hem just below knee, open oatmeal-gray worn cardigan with a brown patch on her right elbow (viewer left in front) and visible small darn by right pocket, tan stockings and dark-brown scuffed loafers. A tiny beige rectangular two-button vintage mouse pendant hangs from a thin cord in front only. The approved [reference card](reference_card.jpg) anchors her outfit and age. The [model sheet](character_sheet.png) anchors her silhouette from all angles.
 
-**Age portrayal:** elder. Authentic elderly details and comfortable age-appropriate clothing.
+She is the poorest character in the story, even below DeepSeek. Show it through clean, visibly repaired clothing, reused printouts, and salvaged equipment. Her demeanor is quietly proud and observant. When someone pitches an idea she built years ago, she can find the dated listing and point out the old bug.
 
-**Appearance:** Frailty disguises a quick mind; elderly white-haired inventor with gentle blue eyes
+For the portrait, echo [Margaret Hamilton's 1969 pose beside the Apollo software listings](https://news.mit.edu/2016/scene-at-mit-margaret-hamilton-apollo-code-0817) with a nearly person-height stack of fanfold printouts in a sparse early-1970s lab. Use period desktop-window drawings, program listings, and a dim Alto-style workstation inspired by [PARC's archive](https://computerhistory.org/blog/xerox-alto-source-code/). Keep the card's exact two-line nameplate, “XEROX PARC” and “THE UNPAID INVENTOR”.
 
-**Clothing:** Research cardigan, old mouse necklace and sketchbook of GUIs
-
-**Personality and pose:** Inventive, kind, melancholy and brilliant. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Treats revolutionary ideas as ordinary observations
-
-**Power visualization:** Window of Possibilities
-
-**Quote:** “Oh yes dear, we tried that years ago.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+Use the locked [character artwork templates](../_template/README.md) for turnarounds, expressions, and chibi art. See the [generation record](character_sheet.prompt.md) for the exact prompts.
