@@ -5,12 +5,12 @@
 | Field | Design |
 |---|---|
 | Faction | AI Academy |
-| Age portrayal | Young adult |
+| Age portrayal | Middle-school girl, about 12–13 |
 | Hair color | chestnut brown |
 | Brand color motif | sunny yellow |
 
 ## Appearance
-Chestnut-brown curls in high twin ponytails with yellow bows, a smiling mascot clip, and warm amber-brown eyes
+Middle-school girl with chestnut-brown curls in high twin ponytails with yellow bows, a smiling mascot clip, and warm amber-brown eyes
 
 ## Clothing and equipment
 White sailor blouse with navy collar and yellow piping, navy pleated skirt with yellow trim, white socks, navy loafers, purple-and-yellow backpack, and a yellow mascot plush

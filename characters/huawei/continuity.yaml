@@ -1,6 +1,7 @@
 id: huawei
 title: The Full-Stack Phoenix
 identity: "Determined woman in her late twenties with long near-black hair streaked scarlet, an ornate high bun, red tassels, a pink flower, and a phoenix-feather pin. Black high-collar bodice with gold dragon embroidery, wide scarlet sleeves, white Huawei shoulder armor, layered skirt plates, black boots, and a tool belt with a gold-repaired tablet."
+logo_lockup: symbol_and_name
 reference_assets:
   model_sheet: characters/huawei/character_sheet.png
   expressions: characters/huawei/expressions.png
