@@ -11,7 +11,7 @@
 ## Tier 2A · Platforms
 
 - [Google](google/README.md) — The Rainbow Polymath
-- [Microsoft](microsoft/README.md) — The Azure Commander
+- [Microsoft](microsoft/README.md) — The Matriarch of Office
 - [Apple](apple/README.md) — The Silver Perfectionist
 - [Meta](meta/README.md) — The Social Worldbuilder
 - [Amazon](amazon/README.md) — The Logistics Overlord
