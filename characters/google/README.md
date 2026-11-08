@@ -44,10 +44,10 @@ Scientists, developers and Android
 
 ## Character design assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
 - [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop: same colors and style, sunglasses and headphones removed, Android plush and Waymo belt charm added.
-- [Model sheet and reference card prompts](character_sheet.prompt.md) — generation record, including the pending expression sheet.
+- [Model sheet, reference card, and expression sheet prompts](character_sheet.prompt.md).
 - [Continuity lock](continuity.yaml).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
 
-An expression sheet (12 expressions, house format) is still to be generated from the model sheet.
