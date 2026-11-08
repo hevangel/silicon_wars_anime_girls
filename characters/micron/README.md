@@ -44,5 +44,7 @@ U.S. ecosystem, AI customers, system builders, cloud operators and long-term par
 
 ## Character design assets
 - [Painted reference card](reference_card.jpg) — regenerated 2026-11-07 as a Boise ranch cowgirl (glowing iridescent memory-bus lasso, holstered DIMM, HBM hay-bale stack, "Famous Potatoes" crate; accents in silicon silver + iridescent wafer gradient per Micron's Oct 2024 rebrand — no longer blue, new text-only wordmark); name plate carries name + title only. Supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/micron-reference-card-tenacious-challenger.jpg](../../scratchpad/superseded/micron-reference-card-tenacious-challenger.jpg).
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and the (pending) final anime drawing.
+- [Character model sheet](character_sheet.png) — FRONT / THREE-QUARTER / SIDE / BACK turnarounds with CONFIDENT / DETERMINED / FRIENDLY close-ups and palette (figures crop at mid-thigh; the card remains the boot reference).
+- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and character sheets.
+- [Generation prompts](character_sheet.prompt.md) — the exact prompts used for the card and sheets.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

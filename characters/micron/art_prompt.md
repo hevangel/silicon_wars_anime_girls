@@ -84,7 +84,7 @@ vest and glowing lasso.
 
 Generation record: the first generation used the brief's original Micron-blue accents and is preserved at `../../scratchpad/superseded/micron-reference-card-wrangler-blue-v1.jpg`. The current card is the second generation, with these palette deltas applied over the brief: hat band silver-gray with an iridescent sheen (chip concho kept); shirt cream-white with silver-violet trim and the plain Micron wordmark stitched on the sleeve (no orbiting-M logo, per the Oct 2024 rebrand); neckerchief iridescent violet; lasso, HBM stack, barn and chip glows in iridescent violet-silver; boot stitching silver. Name plate holds exactly two centered lines (name + title), no tagline, per the current convention. All hooks landed: holstered DIMM with gold contacts, DIMM-connector buckle, chip-shaped sheriff star, glowing lasso, fringed vest, gear spurs, toolkit by the "Famous Potatoes" crate, a barn signed "NAND BARN", and this time the floating chip's label reads in full: "DRAM - NAND - HBM". Noted: she winks in this take, one eye closed.
 
-## Character sheet brief (pending — update to the new design when her sheet is built)
+## Character sheet brief (built 2026-11-08 — see character_sheet.prompt.md)
 
 Create a **16:9 anime character-reference sheet** for Micron, titled "The Stack-'Em-High Wrangler," in the established detailed technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
 
