@@ -51,7 +51,7 @@ Edit the supplied xAI anime reference card. Make a localized correction to the s
 
 ## Reference card vehicle and lettering revision
 
-Input [previous reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d88b476abd7bade97e09aa5017ea1c081ecefa33/characters/xai/reference_card.jpg). Output [reference_card.jpg](reference_card.jpg).
+Input [previous reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d88b476abd7bade97e09aa5017ea1c081ecefa33/characters/xai/reference_card.jpg). Output [vehicle revision](https://github.com/hevangel/silicon_wars_anime_girls/blob/7eb9b63b831775baf4ef6d80a4b0e498741a5f30/characters/xai/reference_card.jpg).
 
 Edit the supplied 1024×1536 portrait anime reference card for xAI, The Moneybags Moonshot. Keep the composition and anime rendering closely matched. Make these four localized changes:
 1. Replace the black limousine at the lower right with a custom black Tesla Cybertruck stretch limousine. It is a low, long six-door Cybertruck with hard-edged angular black body panels, wedge-shaped front, continuous slim white headlight bar, extended passenger cabin and recognizable angular wheel arches. It is parked in the same location and perspective, reflecting on the wet pavement.
@@ -60,3 +60,19 @@ Edit the supplied 1024×1536 portrait anime reference card for xAI, The Moneybag
 4. Remove the bottom tagline "Why wait in line for GPUs when you can buy the line?" completely. Refine the bottom nameplate to use only the existing xAI insignia and "xAI" on the left and "THE MONEYBAGS MOONSHOT" on the right, vertically centered. Keep the slim gold frame and the original readable capitalization. Do not fill the tagline space with any other copy.
 
 Preserve the elementary-school girl, her face, pose, hair, black hoodie, card in her hand, wristwatch, dog and GPUs in the backpack, bodyguard, radar dish, holographic zeros, empty GPU shelves with "SOLD OUT", the "NO RUNNING" sign, and existing night lighting. Keep the 2:3 portrait aspect ratio. No watermark or added text.
+
+## Starship silhouette revision
+
+Input [vehicle revision](https://github.com/hevangel/silicon_wars_anime_girls/blob/7eb9b63b831775baf4ef6d80a4b0e498741a5f30/characters/xai/reference_card.jpg). This render supplied the artwork for the final lettering pass.
+
+Edit the supplied xAI reference card with one localized change: replace the TWO ascending full-size rockets in the upper-right sky with unmistakable SpaceX Starship launch stacks at liftoff, the nearer one larger and the other farther away. Each is a single wide-diameter, straight-sided, two-stage stainless-steel cylinder: a tall silver Super Heavy booster below with a dense Raptor exhaust plume and small lattice grid fins near its upper rim, topped by the Starship spacecraft at the same diameter, with its long smoothly tapered pointed nose, visible aerodynamic control flaps near the nose and at the aft end of the spacecraft, and a dark heat-shield tile face on one visible side. The nose and flap silhouette should be clear even at small size. The same-diameter stage connection has a distinct ring. Use bright launch highlights on brushed silver metal and dark panels only for the heat shield. Avoid a narrow black Falcon-style shaft, side-mounted boosters, or white payload fairing. Put only a small black SpaceX swoosh-X symbol on the silver upper-stage side of each, with no spelled-out words or lettering. Keep both flight positions, the starry background and dramatic exhaust lighting. Leave the toy rocket in her pocket exactly as it is. Preserve the child, her expression and pose, hoodie and card, Shiba and GPUs, empty shelves and signs, Cybertruck stretch limo, hovering Tesla Roadster and landing pad, bodyguard, and the title-only bottom nameplate exactly as shown. Keep the 1024 × 1536 portrait composition, clean gold frame, and no tagline.
+
+## Final nameplate and shelf sign
+
+Input the Starship render above. Output [reference_card.jpg](reference_card.jpg).
+
+Edit the supplied finished 1024×1536 xAI anime reference card. Make exactly two targeted typography changes and preserve every other element and its position.
+1. Redesign the content inside the existing black-and-gold bottom nameplate as a fresh, centered, balanced two-line lockup. Remove the split-column arrangement and its vertical gold divider. Center both lines horizontally on the center of the whole card. On the top line, place the white xAI insignia and "xAI" as a small unified centered wordmark. On the lower line, center the single-line white title "THE MONEYBAGS MOONSHOT" in a bold legible typeface, sized to fit inside the plate. Align the pair of lines as a group in the vertical center of the black panel, with visibly even top and bottom padding and an even, comfortable gap between the lines. Preserve the existing outer gold frame and plate outline. The panel has only the xAI wordmark and title, no tagline or other text.
+2. Replace the lettering on the existing black hanging sign in front of the empty shelves on the left with exactly "GPU SOLD OUT" in bold legible white capitals. Use two centered lines, "GPU" above "SOLD OUT", so all three words fit comfortably in the original hanging sign. Keep its angle, chains, black field, gold border, and the bare shelves.
+
+Keep the girl, her face and pose, all wardrobe, her gold-edged payment card, the sunglasses Shiba and graphics cards, both stainless-steel Starship stacks with their symbol-only markings, the Cybertruck limo, the hovering Roadster, the NO RUNNING sign, bodyguard, lighting, and portrait framing exactly as shown. Do not add a tagline, logos in the sky, or other text.
