@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="">
+  <meta name="description" content="">
+  <title>Silicon Wars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="#characters" data-aria-label="brand.ariaLabel">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="brand-core" x1="10" y1="7" x2="23" y2="26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#e5fbff"/><stop offset="1" stop-color="#43caff"/>
+          </linearGradient>
+        </defs>
+        <g stroke="currentColor" stroke-width="1.3" stroke-linejoin="bevel">
+          <path d="M11 1V6M21 1V6M11 26V31M21 26V31M1 11H6M1 21H6M26 11H31M26 21H31"/>
+          <path d="M10 5H22L27 10V22L22 27H10L5 22V10Z" fill="#0b202e"/>
+          <path d="M11 9H21L23 11V21L21 23H11L9 21V11Z" fill="#173c50" stroke-opacity=".55"/>
+        </g>
+        <path d="M18 9L10 18H15L14 24L23 14H17L18 9Z" fill="url(#brand-core)"/>
+        <path d="M8 3H4V7M24 29H28V25" stroke="currentColor" stroke-width="1" opacity=".65"/>
+        <circle cx="11" cy="1" r="1" fill="#d1f8ff"/>
+        <circle cx="31" cy="21" r="1" fill="#d1f8ff"/>
+      </svg>
+      <span data-text="brand.name"></span>
+    </a>
+    <span class="edition" data-text="brand.edition"></span>
+  </header>
+  <main>
+    <div id="gallery-view">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow" data-text="intro.eyebrow"></p>
+      <h1 id="page-title" data-aria-label="intro.titleAriaLabel">
+        <svg class="title-art" viewBox="0 0 880 148" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="title-metal" x1="0" y1="36" x2="0" y2="112" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#f0fcff"/><stop offset=".48" stop-color="#a8ecff"/>
+              <stop offset=".5" stop-color="#47a7ca"/><stop offset="1" stop-color="#72eaff"/>
+            </linearGradient>
+          </defs>
+          <!-- Angular, hand-drawn letterforms keep the logo independent of fonts. -->
+          <g stroke="url(#title-metal)" stroke-width="8" stroke-linejoin="bevel" stroke-linecap="square">
+            <path d="M112 46H80L70 56V68L80 78H102L112 88V100L102 110H70
+              M138 46H158M148 46V110M138 110H158
+              M184 46V110H222
+              M246 46H266M256 46V110M246 110H266
+              M332 46H300L290 56V100L300 110H332
+              M366 46H388L398 56V100L388 110H366L356 100V56Z
+              M424 110V46L466 110V46"/>
+            <path d="M512 46L524 110H534L548 74L562 110H572L584 46
+              M604 110V60L618 46H632L646 60V110M604 84H646
+              M672 110V46H704L714 56V72L704 82H672M696 82L718 110
+              M786 46H754L744 56V68L754 78H776L786 88V100L776 110H744"/>
+          </g>
+          <g stroke="#66e4ff" stroke-width="1.3" opacity=".7">
+            <path d="M18 78H40L52 66V34L68 18H292L304 6H360M862 78H840L828 90V122L812 138H588L576 146H520
+              M86 128H342L352 118H450M794 28H538L528 38H490"/>
+            <path d="M26 96H44L56 108V120M854 52H836L824 40V28"/>
+          </g>
+          <g fill="#66e4ff">
+            <circle cx="18" cy="78" r="3"/><circle cx="862" cy="78" r="3"/>
+            <circle cx="360" cy="6" r="3"/><circle cx="520" cy="146" r="3"/>
+            <path d="M384 14H420L426 20H390ZM434 14H470L476 20H440ZM484 14H520L526 20H490Z"/>
+          </g>
+        </svg>
+      </h1>
+      <p class="intro-copy" data-text="intro.copy"></p>
+    </section>
+
+    <section class="archive" id="characters" aria-labelledby="archive-title">
+      <div class="section-heading">
+        <h2 id="archive-title" data-text="gallery.heading"></h2>
+        <span class="card-count"></span>
+      </div>
+      <div class="carousel-shell">
+        <button class="carousel-control carousel-control--left" type="button" data-aria-label="gallery.previousLabel" data-direction="-1">
+          <svg viewBox="0 0 80 80" aria-hidden="true">
+            <path class="chip-trace" d="M24 4V16M34 4V16M46 4V16M56 4V16M24 64V76M34 64V76M46 64V76M56 64V76M4 24H16M4 34H16M4 46H16M4 56H16M64 24H76M64 34H76M64 46H76M64 56H76"/>
+            <path class="chip-fill" d="M24 14H56L66 24V56L56 66H24L14 56V24Z"/>
+            <path class="chip-die" d="M28 22H52L58 28V52L52 58H28L22 52V28Z"/>
+            <path class="chip-trace" d="M18 30H26V24M18 50H26V56M54 24V30H62M54 56V50H62"/>
+            <path class="chip-arrow" d="M29 40H49M40 30L50 40L40 50"/>
+            <circle class="chip-node" cx="24" cy="4" r="2"/><circle class="chip-node" cx="56" cy="76" r="2"/>
+          </svg>
+        </button>
+        <div class="carousel" tabindex="0" role="region" aria-roledescription="carousel" data-aria-label="gallery.carouselLabel">
+          <div class="track"></div>
+        </div>
+        <button class="carousel-control carousel-control--right" type="button" data-aria-label="gallery.nextLabel" data-direction="1">
+          <svg viewBox="0 0 80 80" aria-hidden="true">
+            <path class="chip-trace" d="M24 4V16M34 4V16M46 4V16M56 4V16M24 64V76M34 64V76M46 64V76M56 64V76M4 24H16M4 34H16M4 46H16M4 56H16M64 24H76M64 34H76M64 46H76M64 56H76"/>
+            <path class="chip-fill" d="M24 14H56L66 24V56L56 66H24L14 56V24Z"/>
+            <path class="chip-die" d="M28 22H52L58 28V52L52 58H28L22 52V28Z"/>
+            <path class="chip-trace" d="M18 30H26V24M18 50H26V56M54 24V30H62M54 56V50H62"/>
+            <path class="chip-arrow" d="M29 40H49M40 30L50 40L40 50"/>
+            <circle class="chip-node" cx="24" cy="4" r="2"/><circle class="chip-node" cx="56" cy="76" r="2"/>
+          </svg>
+        </button>
+      </div>
+      <p class="interaction-hint" data-text="gallery.hint"></p>
+      <nav class="asset-links" data-aria-label="gallery.assetLinksLabel"></nav>
+    </section>
+    </div>
+
+    <section class="character-profile" id="character-profile" aria-live="polite" hidden>
+      <button class="profile-back" type="button" data-aria-label="profile.backAriaLabel">
+        <span aria-hidden="true">←</span> <span data-text="profile.backLabel"></span>
+      </button>
+      <div class="profile-layout">
+        <div class="profile-sidebar">
+          <article class="profile-identity">
+            <img class="profile-card-image" alt="">
+            <div class="profile-card-caption">
+              <span class="character-name"></span>
+              <span class="character-title"></span>
+            </div>
+          </article>
+          <section class="portfolio-panel" aria-labelledby="portfolio-title">
+            <p class="profile-kicker"></p>
+            <p class="portfolio-description" id="portfolio-title"></p>
+            <p class="profile-ability" hidden><strong data-text="profile.abilityLabel"></strong> <span></span></p>
+          </section>
+        </div>
+        <section class="profile-artwork" aria-labelledby="artwork-title">
+          <p class="sheet-kicker" data-text="profile.artworkKicker"></p>
+          <h2 id="artwork-title" data-text="profile.artworkHeading"></h2>
+          <div class="sheet-grid"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="asset-archive" id="asset-archive" aria-live="polite" hidden>
+      <button class="profile-back asset-archive-back" type="button" data-aria-label="profile.backAriaLabel">
+        <span aria-hidden="true">←</span> <span data-text="profile.backLabel"></span>
+      </button>
+      <header class="asset-archive-heading">
+        <p class="eyebrow" data-text="assetArchive.kicker"></p>
+        <h1 class="asset-archive-title"></h1>
+        <p class="asset-archive-count"></p>
+      </header>
+      <div class="asset-list"></div>
+    </section>
+  </main>
+
+  <footer data-text="footer"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

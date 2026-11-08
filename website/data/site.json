@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Silicon Wars — Character Archive",
+    "description": "Meet the characters of Silicon Wars, a manga universe of rival technology factions.",
+    "themeColor": "#080d16",
+    "profileTitleTemplate": "{name} — Silicon Wars",
+    "archiveTitleTemplate": "{title} — Silicon Wars"
+  },
+  "paths": {
+    "characters": "data/characters.json",
+    "assetBase": "../"
+  },
+  "brand": {
+    "name": "Silicon Wars",
+    "ariaLabel": "Silicon Wars character archive",
+    "edition": "Season One · Character Archive"
+  },
+  "intro": {
+    "eyebrow": "Every faction has a face",
+    "titleAriaLabel": "Silicon Wars",
+    "copy": "A manga universe of technology, ambition, and unlikely alliances."
+  },
+  "gallery": {
+    "heading": "Character reference cards",
+    "countTemplate": "{count} illustrated cards",
+    "carouselLabel": "Silicon Wars character reference cards",
+    "previousLabel": "Scroll to previous characters",
+    "nextLabel": "Scroll to next characters",
+    "viewProfileTemplate": "View {name} character profile",
+    "hint": "Click a card to open its profile · Hover the chips to accelerate · Drag or swipe to browse",
+    "assetLinksLabel": "Browse all character assets"
+  },
+  "assetTypes": [
+    {
+      "id": "character_sheet",
+      "navLabel": "All character sheets",
+      "archiveTitle": "Character Sheets",
+      "profileHeading": "Character sheet",
+      "altLabel": "character sheet"
+    },
+    {
+      "id": "expressions",
+      "navLabel": "All expression sheets",
+      "archiveTitle": "Expression Sheets",
+      "profileHeading": "Expression sheet",
+      "altLabel": "expressions"
+    },
+    {
+      "id": "chibi_sheet",
+      "navLabel": "All chibi sheets",
+      "archiveTitle": "Chibi Sheets",
+      "profileHeading": "Chibi sheet",
+      "altLabel": "chibi sheet"
+    },
+    {
+      "id": "reference_card",
+      "navLabel": "All reference cards",
+      "archiveTitle": "Reference Cards",
+      "profileHeading": null,
+      "altLabel": "reference card"
+    }
+  ],
+  "profile": {
+    "backLabel": "Character gallery",
+    "backAriaLabel": "Back to character gallery",
+    "kicker": "Character portfolio",
+    "kickerWithFactionTemplate": "Character portfolio · {faction}",
+    "abilityLabel": "Signature ability:",
+    "artworkKicker": "Production archive",
+    "artworkHeading": "Character artwork",
+    "unavailable": "Not available yet"
+  },
+  "assetArchive": {
+    "kicker": "Production archive",
+    "titleTemplate": "All {title}",
+    "countTemplate": "{count} character assets · scroll to browse"
+  },
+  "footer": "Fictional fan art unaffiliated with the companies depicted.",
+  "behavior": {
+    "hoverSpeed": 280,
+    "idleSpeed": 24,
+    "idleDelayMs": 1200,
+    "clickScrollFraction": 0.72,
+    "clickScrollSpeed": 700,
+    "dragThresholdPx": 6,
+    "maxFrameMs": 40,
+    "eagerLoadCount": 3
+  }
+}
