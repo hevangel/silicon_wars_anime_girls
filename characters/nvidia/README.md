@@ -93,7 +93,7 @@ Charismatic, confident, theatrical, and almost unbearably smug, with the stamina
 - **TSMC** · Her armorer. Every weapon Nvidia owns is forged in TSMC's halls and packaged on her advanced lines. Nvidia is never anything but gracious to TSMC.
 - **SK hynix, Micron, and Samsung** · The memory houses whose HBM feeds her dragon. SK hynix is her favorite supplier and knows it.
 - **The AI Academy (OpenAI, Anthropic, Google, Meta, xAI)** · Her disciples and customers. Several of them are quietly forging their own swords (TPUs, Trainium, custom chips) to escape her table, and she knows that too.
-- **Cerebras** · A wafer-sized child prodigy who wants to dethrone her. Nvidia pats her on the head, which drives Cerebras wild.
+- **Cerebras** · A middle-school wafer engineer who wants to dethrone her. Nvidia pats her on the head, which drives Cerebras wild.
 - **Arm** · The architect whose blueprints she once tried to buy. They work together politely.
 
 ### Dependencies and limits

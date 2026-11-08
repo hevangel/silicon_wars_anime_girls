@@ -221,6 +221,7 @@
     {
       "character": "cerebras",
       "path": "characters/cerebras/reference_card.jpg",
+      "archive_commit": "09a3b366cffd637fd8b47cdc6df277a92e865aa3",
       "source": "ai_juniors_datasheet.png",
       "column": 1
     },

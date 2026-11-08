@@ -1,48 +1,45 @@
-# Cerebras — The Wafer-Scale Prodigy
+# Cerebras — The Go-Big-or-Go-Home Girl
 
-> An original *Silicon Wars* company-personification character. Unofficial fictional fan work.
+> An original *Silicon Wars* company personification. Unofficial fictional fan work.
 
 | Field | Design |
 |---|---|
-| Faction | AI Academy Juniors |
-| Age portrayal | child |
-| Hair color | dark brown |
-| Brand color motif | orange |
+| Faction | Silicon Kingdoms |
+| Age portrayal | Middle-school girl, about 12–13 |
+| Hair color | Copper orange |
+| Brand color motif | Vermilion, cream, and silver |
 
-## Appearance
-Elementary-school girl with dark twin buns, large amber eyes and oversized wafer hairpin
+## Look and presence
 
-## Clothing and equipment
-Wholesome orange-white school hoodie, comfortable shorts, big backpack and round wafer shield
+Her glossy copper-orange bob is as round as a dinner plate. A slightly oversized white toque with an orange swirl tilts above her neat bangs. She wears a white double-breasted chef's jacket with vermilion trim, an orange neckerchief, a flour-marked cream apron, oversized quilted mitts, and scuffed kitchen clogs. Her amber eyes and oven-flushed cheeks give away how fast she wants to move.
 
-## Personality
-Boisterous, curious, ambitious and imaginative
+Her pizzeria doubles as a chip fab. She carries a giant silver silicon wafer on a wooden pizza peel, the square die grid catching the light in iridescent colors. An intact wafer is the one thing she handles without rushing.
 
-## Speech patterns
-Cheerful oversized boasts and dramatic little inventions
+## Core contradiction
 
-## Thinking and values
-Questioning conventional chip boundaries leads to new architectures
+**Impatient with everything except the wafer.** She runs ahead of the timer, finishes people's sentences, and picks the biggest size every time. The moment the wafer comes out of the oven, both hands steady the peel. Mention cutting it and the grin turns into a protective glare. She loves showing off her equipment and sometimes wishes someone else had a kitchen it would fit into.
 
-## Motivation
-Prove wafer-scale acceleration has a place in AI
+## Habits and voice
 
-## Dramatic flaws
-Underestimates system integration hurdles
+- She underlines “one big piece” in her engineering notebook and keeps a no-cutting sign beside the oven.
+- She taps a clog through a countdown. If someone says “slices,” she goes red and looks ready to argue.
+- She presents a working wafer like a trophy. “Beat that!”
 
-## Rivalries
-Nvidia and AMD AI accelerators
+## Relationships
 
-## Alliances
-AI labs and semiconductor researchers
+- [Nvidia](../nvidia/README.md) is her biggest rival. Nvidia's neatly divided trays make Cerebras want to demonstrate what one intact wafer can do.
+- AMD is another accelerator rival. She works with semiconductor researchers and AI labs that can use the hardware she builds.
 
-## Special ability
-**Wafer Colossus** — a fictional metaphor for the real technology.
+## Signature power
 
-## Signature line
-> Bigger chips for bigger AI ideas!
+**Wafer Colossus** keeps a single wafer working as a whole. She depends on dedicated power, cooling, and chip-fab equipment to keep it running. The setup can do a lot in its own kitchen, and it takes work to fit it into someone else's.
+
+> One big chip. Zero slices.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
-- [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
+
+- [Character model sheet](character_sheet.png)
+- [12-expression sheet](expressions.png)
+- [Painted reference card](reference_card.jpg)
+- [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
+- [Original image inventory](../../scratchpad/illustrations.md)
