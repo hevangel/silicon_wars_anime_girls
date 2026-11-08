@@ -1,0 +1,41 @@
+chapter: pilot-004
+page: page-001
+status: review_draft
+human_approval: pending
+generator: built-in image generation
+model: null
+seed: null
+generation_note: The built-in generator did not expose a model identifier or seed. The selected take was
+  visually reviewed.
+panels:
+- id: panel-01
+  brief: chapters/pilot-004/pages/page-001/panels/panel-01.yaml
+  prompt_sha256: c13ce194ff63f7eff02cb3c9fc6b9579c8c44ae7ced8217a36f05b0b074befad
+  references:
+  - path: characters/openai/character_sheet.png
+    role: model_sheet
+    sha256: 27073d0653aba7b5883d2be7aaeb2c3bec7b247e1af317c0b9b2ad5d6b23cad6
+    archive_commit: ef5a348d8774163943add31d98da5ce951bf4adb
+  - path: characters/micron/character_sheet.png
+    role: model_sheet
+    sha256: f5aa8920f807655ed269c9087b8759a963dfbc53c3fd201040524299d6b99c64
+  - path: characters/samsung/character_sheet.png
+    role: model_sheet
+    sha256: e1dc4cff37ac6b0140e3a696bea37fbea507f312f86defe0104d924f25fc7bc6
+  - path: characters/sk-hynix/character_sheet.png
+    role: model_sheet
+    sha256: 7f65bdd92b02ac7230fba13beae080bcc8b7843facb094b1d646da77c66a9149
+  output: chapters/pilot-004/pages/page-001/art/panel-01.png
+  image_sha256: c7dd5fd0738244063745052f0a86fe6a928ca9ddc149985b352e2c2c26bf029b
+assembly:
+  pillow_version: 12.3.0
+  width: 2400
+  height: 1800
+  output: chapters/pilot-004/pages/page-001/final/page-001.png
+  sha256: dc9e5f76d19485e4d59b8af55b725ab8779cad6de99c6ed224cd9ef9c79b79ab
+visual_language: "One single text-free color manga panel for Silicon Wars: cinematic seinen anime, decisive black ink, expressive line weight, detailed but readable industrial architecture, controlled screentone texture, high contrast cel shading, cool dark navy and stone-gray environment, precise accents of sapphire, crimson, and emerald when present. The recurring setting is an immense x86 Citadel: monumental processor-socket gate with layered dark steel slabs and thin icy circuit traces, a deep moat patterned with tracks, brushed-metal testing gantries. Use believable hand anatomy, clearly separated silhouettes, and a flat readable composition. Full-bleed art; no panel borders, lettering, numbers, logos, captions, bubbles, or watermarks. References are for character identity and costume only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  openai: characters/openai/continuity.yaml
+  micron: characters/micron/continuity.yaml
+  samsung: characters/samsung/continuity.yaml
+  sk-hynix: characters/sk-hynix/continuity.yaml

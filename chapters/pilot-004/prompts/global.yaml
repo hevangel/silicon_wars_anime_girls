@@ -1,0 +1,6 @@
+visual_language: "One single text-free color manga panel for Silicon Wars: cinematic seinen anime, decisive black ink, expressive line weight, detailed but readable industrial architecture, controlled screentone texture, high contrast cel shading, cool dark navy and stone-gray environment, precise accents of sapphire, crimson, and emerald when present. The recurring setting is an immense x86 Citadel: monumental processor-socket gate with layered dark steel slabs and thin icy circuit traces, a deep moat patterned with tracks, brushed-metal testing gantries. Use believable hand anatomy, clearly separated silhouettes, and a flat readable composition. Full-bleed art; no panel borders, lettering, numbers, logos, captions, bubbles, or watermarks. References are for character identity and costume only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  openai: characters/openai/continuity.yaml
+  micron: characters/micron/continuity.yaml
+  samsung: characters/samsung/continuity.yaml
+  sk-hynix: characters/sk-hynix/continuity.yaml
