@@ -1,19 +1,12 @@
-# DeepSeek full-resolution character-sheet brief
+# DeepSeek · The Budget Brainiac
 
-Create a **16:9 anime character-reference sheet** for DeepSeek, titled “The Frugal Reasoning Prodigy,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) for continuity.
 
-**Age portrayal:** child. Wholesome, fully clothed school-aged child, nonsexualized.
+- Draw her as an elementary-school girl about 9–10 with focused sea-blue eyes and neat ocean-blue hair in two round shuangyuanbao buns. Keep the navy roots, lighter tips, wispy bangs, whale-tail pins, and pencil behind her ear.
+- Keep the royal-blue child's qipao with a high mandarin collar, white piping, frog-knot buttons, modest side vent, and small white whale embroidery. Add white knee socks, simple blue Mary Janes, and the worn navy backpack with a crossed-out price tag. Use royal blue, sea blue, white, and silver for her outfit.
+- At her desk, give her one old GPU in a bento box, a taped whale-logo laptop, an abacus, and a little fan. Draw her leaning forward with her chin on one hand and her other hand on the beads. Use a small knowing smile and slightly raised eyebrow. She bows politely on greeting and looks shy when praised.
+- For the card, use a cramped, tidy study corner at night with cool window light and a warm desk lamp. Add a blue whale-and-lightbulb hologram with a tall result bar. Keep xAI's dark limo and silhouette a distant glimpse through the window.
 
-**Appearance:** Elementary-school girl with pale-blue braids, thoughtful blue eyes and whale hairpin
+Card tagline · “Fewer GPUs. Bigger brain.”
 
-**Clothing:** Wholesome blue-white sailor-style school outfit and a small laptop satchel
-
-**Personality and pose:** Shy, diligent, clever and resourceful. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Quiet concise answers after careful thought
-
-**Power visualization:** Sparse Awakening
-
-**Quote:** “I found a simpler answer.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)
