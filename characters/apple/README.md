@@ -45,6 +45,7 @@ Arm ecosystem and application developers
 ## Character design assets
 - [Illustrated character sheet](character_sheet.png) with four turnaround views, expression studies, and a palette.
 - [Expression sheet](expressions.png) with a full-body pose and twelve expressions.
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg).
 - [Exact generation prompts](character_sheet.prompt.md).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.

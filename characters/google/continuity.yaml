@@ -4,6 +4,7 @@ identity: "Messy dark high ponytail with rainbow streaks (red, orange, yellow, g
 reference_assets:
   model_sheet: characters/google/character_sheet.png
   expressions: characters/google/expressions.png
+  chibi_sheet: characters/google/chibi_sheet.png
   portrait: characters/google/reference_card.jpg
 
 default_style: default_manga
