@@ -1,6 +1,6 @@
 # OpenAI · The Reckless Prodigy
 
-Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card_v2.jpg) for continuity.
+Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) for continuity.
 
 - Keep her elementary-school proportions, fluffy silver-white side ponytail, and blue-teal eyes. Her oversized navy ribbon has a white knot emblem and a cyan glow along its edge. It shines when she's excited, dims when she's tired, and droops when she's discouraged.
 - Keep the white long-sleeved sailor blouse with navy trim, teal necktie, knee-length navy pleated skirt, opaque tights, and white-and-navy sneakers. Her uniform looks tidy enough for school and a little rumpled from working on her projects.
