@@ -4,7 +4,7 @@ The built-in image generator produced all three illustrations. The redesign brie
 
 ## Model sheet
 
-Input [model sheet layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/model_sheet_layout.png) for structure. Output [character_sheet.png](character_sheet.png).
+Input [model sheet layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/model_sheet_layout.png) for structure. Output [first-pass character_sheet.png](https://github.com/hevangel/silicon_wars_anime_girls/blob/b4be7c8f57fb177ab497567f0fa5520eb69a6bae/characters/cerebras/character_sheet.png).
 
 Draw a 1536 × 1024 landscape production model sheet for "Cerebras" / "THE GO-BIG-OR-GO-HOME GIRL" in Silicon Wars. Image 1 is the blank repository turnaround layout only. Use the written redesign as the character source.
 
@@ -14,7 +14,7 @@ Exactly four equal-height standing full-body views on a shared baseline, with al
 
 ## Expression sheet
 
-Inputs [model sheet](character_sheet.png) for identity and [expression layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/expressions_layout.png) for the twelve-cell grid. Output [expressions.png](expressions.png).
+Inputs [model sheet](character_sheet.png) for identity and [expression layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/expressions_layout.png) for the twelve-cell grid. Output [first-pass expressions.png](https://github.com/hevangel/silicon_wars_anime_girls/blob/b4be7c8f57fb177ab497567f0fa5520eb69a6bae/characters/cerebras/expressions.png).
 
 Create a 1536 × 1024 landscape anime production expression sheet for "Cerebras" / "THE GO-BIG-OR-GO-HOME GIRL". Image 1 is the strict model sheet for her middle-school age, face, bob, toque, uniform, boots, mitts and wafer. Image 2 is the repo blank expression layout for composition only.
 
@@ -31,7 +31,7 @@ Neutral is expectant, smiling is a big proud grin, eyes closed is a pleased smil
 
 ## Reference card
 
-Inputs [model sheet](character_sheet.png) for identity and [reference card layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/reference_card_layout.png) for framing. Output [reference_card.jpg](reference_card.jpg).
+Inputs [model sheet](character_sheet.png) for identity and [reference card layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/reference_card_layout.png) for framing. Output [first-pass reference_card.jpg](https://github.com/hevangel/silicon_wars_anime_girls/blob/b4be7c8f57fb177ab497567f0fa5520eb69a6bae/characters/cerebras/reference_card.jpg).
 
 Create a polished 1024 × 1536 portrait anime reference card for Cerebras, "THE GO-BIG-OR-GO-HOME GIRL", from Silicon Wars. Image 1 is the approved new model sheet and strict costume, character and age reference. Image 2 is the blank portrait layout for framing and nameplate only.
 
@@ -46,3 +46,29 @@ Background: warm glowing brick pizza oven and clean-room window with wafer racks
 Inside the bottom plate, center exactly two lines as a vertically balanced group with equal top and bottom padding: "Cerebras" and "THE GO-BIG-OR-GO-HOME GIRL". Leave out the tagline and all extra nameplate copy. Only the specified scene labels and title. No duplicate name at the top, extra logo banner, advertising copy, or watermark.
 
 The [previous Cerebras card](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/cerebras/reference_card.jpg) is archived in Git.
+
+## Cerebras emblem and prop-free turnaround
+
+### Model sheet
+
+Inputs [previous character_sheet.png](https://github.com/hevangel/silicon_wars_anime_girls/blob/b4be7c8f57fb177ab497567f0fa5520eb69a6bae/characters/cerebras/character_sheet.png) and the standalone Cerebras C logo from the [official press kit](https://www.cerebras.ai/company/press-kit). Output [character_sheet.png](character_sheet.png).
+
+Image 1 is the finished Cerebras illustration to edit. Image 2 is the exact standalone Cerebras brand icon from the official press kit. Replace every existing orange bullseye or spiral on the character's white chef's hat band and cream apron with that standalone icon, fitted to the orientation, scale and perspective of the fabric. Match Image 2 precisely: four distinct thick nested orange arcs with unequal endpoints and a generous opening on the right, with the smallest black C at their center also opening to the right. The arcs never join or close. No orange dot, closed circles, target, coiled spiral, added letters or full wordmark on the clothing. Keep negative spaces clean and recognizable at small size. Do not add badges to views where the band or apron front is not visible.
+
+For the model sheet ONLY, also remove the entire wafer, wooden pizza peel and all hand-held props from the second standing figure labeled THREE-QUARTER. Restore her two empty mitted hands resting naturally at her sides, as in the FRONT and SIDE views, and draw the apron, jacket, orange scarf, and sleeve details that were hidden by the peel. Keep her same head, age, body angle, stance, outfit, foot positions and silhouette. Restore a clean off-white background where the props extended past her. She still wears her orange quilted oven mitts. The other views and the three lower face studies stay the same except the clothing logo changes. Preserve the exact four standing views, three expression studies, swatches, title, all labels, fine frame, landscape composition, and dimensions 1536 × 1024. Do not add any wafer, pizza peel, or new object anywhere on the model sheet.
+
+### Expression sheet
+
+Inputs [previous expressions.png](https://github.com/hevangel/silicon_wars_anime_girls/blob/b4be7c8f57fb177ab497567f0fa5520eb69a6bae/characters/cerebras/expressions.png) and the standalone Cerebras C logo from the [official press kit](https://www.cerebras.ai/company/press-kit). Output [expressions.png](expressions.png).
+
+Image 1 is the finished Cerebras illustration to edit. Image 2 is the exact standalone Cerebras brand icon from the official press kit. Replace every existing orange bullseye or spiral on the character's white chef's hat band and cream apron with that standalone icon, fitted to the orientation, scale and perspective of the fabric. Match Image 2 precisely: four distinct thick nested orange arcs with unequal endpoints and a generous opening on the right, with the smallest black C at their center also opening to the right. The arcs never join or close. No orange dot, closed circles, target, coiled spiral, added letters or full wordmark on the clothing. Keep negative spaces clean and recognizable at small size. Do not add badges to views where the band or apron front is not visible.
+
+Apply the logo correction to the left full-body figure's hat and apron and to each visible hat band in the twelve separate expression panels. Retain the full-body figure's intact wafer and wooden peel. Preserve the individual expressions, character design, every panel label and its order, scale, background, fine frame, and 1536 × 1024 layout. Change only the clothing logos.
+
+### Reference card
+
+Inputs [previous reference_card.jpg](https://github.com/hevangel/silicon_wars_anime_girls/blob/b4be7c8f57fb177ab497567f0fa5520eb69a6bae/characters/cerebras/reference_card.jpg) and the standalone Cerebras C logo from the [official press kit](https://www.cerebras.ai/company/press-kit). Output [reference_card.jpg](reference_card.jpg).
+
+Image 1 is the finished Cerebras illustration to edit. Image 2 is the exact standalone Cerebras brand icon from the official press kit. Replace every existing orange bullseye or spiral on the character's white chef's hat band and cream apron with that standalone icon, fitted to the orientation, scale and perspective of the fabric. Match Image 2 precisely: four distinct thick nested orange arcs with unequal endpoints and a generous opening on the right, with the smallest black C at their center also opening to the right. The arcs never join or close. No orange dot, closed circles, target, coiled spiral, added letters or full wordmark on the clothing. Keep negative spaces clean and recognizable at small size. Do not add badges to views where the band or apron front is not visible.
+
+In the card there are two logo placements to correct: the white chef hat band and the cream apron. Keep the large intact wafer and wooden peel, mittened hands, girl, lighting, pizzeria and clean room, all background figures, NO CUTTING! sign, and Wafer-Scale Engine board. Preserve the existing title-only two-line nameplate and its alignment. Change only those two clothing logos. Preserve the portrait composition and 1024 × 1536 format.

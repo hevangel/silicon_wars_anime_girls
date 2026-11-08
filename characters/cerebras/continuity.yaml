@@ -13,7 +13,7 @@ style_variants:
   chibi:
     description: Super-deformed comedic version of the character.
     preserve:
-      - round copper-orange bob and tilted white chef's toque
+      - round copper-orange bob and tilted white chef's toque with the Cerebras C emblem
       - vermilion scarf, cream flour-marked apron, oversized quilted mitts, and scuffed clogs
       - proud grin and intact iridescent wafer on a wooden pizza peel
     transform:

@@ -11,7 +11,7 @@
 
 ## Look and presence
 
-Her glossy copper-orange bob is as round as a dinner plate. A slightly oversized white toque with an orange swirl tilts above her neat bangs. She wears a white double-breasted chef's jacket with vermilion trim, an orange neckerchief, a flour-marked cream apron, oversized quilted mitts, and scuffed kitchen clogs. Her amber eyes and oven-flushed cheeks give away how fast she wants to move.
+Her glossy copper-orange bob is as round as a dinner plate. A slightly oversized white toque with the orange-arc Cerebras C emblem tilts above her neat bangs. She wears a white double-breasted chef's jacket with vermilion trim, an orange neckerchief, a flour-marked cream apron, oversized quilted mitts, and scuffed kitchen clogs. Her amber eyes and oven-flushed cheeks give away how fast she wants to move.
 
 Her pizzeria doubles as a chip fab. She carries a giant silver silicon wafer on a wooden pizza peel, the square die grid catching the light in iridescent colors. An intact wafer is the one thing she handles without rushing.
 
