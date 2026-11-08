@@ -1,0 +1,27 @@
+id: broadcom
+title: The Network Spider Queen
+identity: "Composed adult woman with burgundy eyes, narrow rectangular glasses, and a sculpted black-cherry updo held by two gold fiber-connector hairpins. Sharp-shouldered black-plum brocade jacket with gold piping and a red-and-white Broadcom pulse clasp, ankle-length wine-red pleated skirt, gold drop earrings, and black heeled ankle boots."
+logo_lockup: symbol_and_name
+costume_logo: White Broadcom pulse waveform on a red circular clasp on the left chest of the jacket.
+reference_assets:
+  model_sheet: characters/broadcom/character_sheet.png
+  expressions: characters/broadcom/expressions.png
+  chibi_sheet: characters/broadcom/chibi_sheet.png
+  portrait: characters/broadcom/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed manga variant of the Network Spider Queen.
+    preserve:
+      - black-cherry updo, rectangular glasses, and two gold fiber-connector pins
+      - dark plum jacket, gold piping, red pleated skirt, and Broadcom pulse clasp
+      - level gaze and composed bearing
+    transform:
+      proportions: Target 2.5 anatomical heads tall from crown to soles
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
