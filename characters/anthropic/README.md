@@ -11,7 +11,7 @@
 
 ## Look and presence
 
-Dark-brown ringlets spill out from under a slightly crooked terracotta hard hat. The helmet has a cream reflective stripe, a small cream A sticker, and a chin strap she checks twice. Her cream rounded-collar blouse and charcoal pinafore are easy to spot under a diagonal orange reflective sash and a Class Monitor armband. She wears knee pads to school and carries a brown leather satchel with a laminated checklist clipped outside.
+Dark-brown ringlets spill out from under a slightly crooked terracotta hard hat. The helmet has a cream reflective stripe, a Claude spark badge, and a chin strap she checks twice. Her cream rounded-collar blouse and charcoal pinafore are easy to spot under a diagonal orange reflective sash and a Class Monitor armband. She wears knee pads to school and carries a brown leather satchel with a laminated checklist clipped outside.
 
 She holds her clipboard close to her chest, stands with her weight on her heels, and gives the action a sidelong look. One raised eyebrow usually gets there before her soft “Wait, should we?” She raises a palm close to her shoulder when it's time to stop and puts a finger to her chin when she needs to think.
 
@@ -41,6 +41,7 @@ She holds her clipboard close to her chest, stands with her weight on her heels,
 
 - [Character model sheet](character_sheet.png)
 - [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg)
 - [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
 - [Original image inventory](../../scratchpad/illustrations.md)
