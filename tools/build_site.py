@@ -1,10 +1,10 @@
 """Build a self-contained Silicon Wars gallery."""
 import argparse
+import re
 from pathlib import Path
 from shutil import copyfile
 
 ROOT = Path(__file__).resolve().parents[1]
-CHARACTERS = ("intel", "amd", "nvidia")
 
 
 def main():
@@ -12,15 +12,13 @@ def main():
     parser.add_argument("output", type=Path, help="New directory for the gallery")
     args = parser.parse_args()
 
-    sources = {
-        "index.html": ROOT / "site/index.html",
-        "assets/storyboard.svg": ROOT / "chapters/pilot-001/storyboard.svg",
-        "assets/pilot-001.png": ROOT / "chapters/pilot-001/pages/page-001/final/page-001.png",
-    }
-    for character in CHARACTERS:
-        sources[f"assets/{character}.jpg"] = (
-            ROOT / "characters" / character / "reference_card.jpg"
-        )
+    homepage = ROOT / "index.html"
+    card_paths = re.findall(
+        r'src="(characters/[^"]+/reference_card\.jpg)"',
+        homepage.read_text(encoding="utf-8"),
+    )
+    sources = {"index.html": homepage}
+    sources.update({path: ROOT / path for path in card_paths})
 
     for source in sources.values():
         if not source.is_file():
@@ -31,9 +29,10 @@ def main():
         output.mkdir(parents=True)
     except FileExistsError:
         parser.error(f"Choose a new output directory: {output}")
-    (output / "assets").mkdir()
     for name, source in sources.items():
-        copyfile(source, output / name)
+        destination = output / name
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        copyfile(source, destination)
     print(output / "index.html")
 
 
