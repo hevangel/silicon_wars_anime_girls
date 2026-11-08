@@ -31,7 +31,7 @@ Build useful AI that remains steerable and predictable
 Overthinking sometimes delays useful progress
 
 ## Rivalries
-OpenAI, Google and xAI
+Google and xAI. [OpenAI](../openai/README.md) was her best friend before Anthropic switched seats. They still argue about whose club rules were better.
 
 ## Alliances
 Researchers and enterprise users
