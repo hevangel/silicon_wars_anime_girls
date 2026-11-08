@@ -1,0 +1,26 @@
+id: bell-labs
+title: The Grand Dame of Signals
+identity: The oldest woman in the cast, with silver-white finger waves, round gold wire spectacles, a brown 1930s day dress, and an ivory scarf with a Bell System brooch. She uses a vintage manual wheelchair.
+logo_lockup: symbol_and_name
+reference_assets:
+  model_sheet: characters/bell-labs/character_sheet.png
+  expressions: characters/bell-labs/expressions.png
+  chibi_sheet: characters/bell-labs/chibi_sheet.png
+  portrait: characters/bell-labs/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed seated version of the elderly scientist.
+    preserve:
+      - silver-white finger waves, round gold wire spectacles, and visible age lines
+      - brown day dress, ivory scarf, black Bell System brooch, and brown pumps
+      - vintage manual wheelchair with leather upholstery, walnut armrests, push rims, casters, and footplate
+    transform:
+      proportions: Target 2.5 anatomical heads tall in standing-equivalent proportions
+      anatomy: simplified seated figure
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
