@@ -5,15 +5,15 @@
 | Field | Design |
 |---|---|
 | Faction | Platform Kingdoms |
-| Age portrayal | adult |
+| Age portrayal | Adult, 20 |
 | Hair color | blue violet |
 | Brand color motif | violet |
 
 ## Appearance
-Blue-purple hair, energetic expression and augmented-reality glasses
+20-year-old adult with violet eyes, a blue-violet side bun, electric-blue face-framing strands, and black VR goggles worn above her eyes. The goggles carry a glowing cyan Meta infinity-loop emblem.
 
 ## Clothing and equipment
-Fashionable streetwear, VR visor and holographic avatar bracelets
+Iridescent violet jacket, black choker and tech crop top, graphite cargo trousers with utility straps, black tech boots, and a holographic avatar wristband. The crop top repeats the cyan loop.
 
 ## Personality
 Outgoing, curious, ambitious and trend-sensitive
@@ -43,6 +43,9 @@ Creators and open-model builders
 > Open the gates. Let everyone build.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
+- [Illustrated character sheet](character_sheet.png) with four turnaround views, expression studies, and a palette.
+- [Expression sheet](expressions.png) with a full-body pose and twelve expressions.
+- [Painted reference card](reference_card.jpg).
+- [Exact generation prompts](character_sheet.prompt.md).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

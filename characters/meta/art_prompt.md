@@ -1,19 +1,17 @@
-# Meta full-resolution character-sheet brief
+# Meta · The Social Worldbuilder
 
-Create a **16:9 anime character-reference sheet** for Meta, titled “The Social Worldbuilder,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Illustrate Meta, a 20-year-old adult woman in *Silicon Wars*. Match her [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg).
 
-**Age portrayal:** adult. Adult character, age-appropriate styling.
+## Continuity lock
 
-**Appearance:** Blue-purple hair, energetic expression and augmented-reality glasses
+- **Face and hair** · Violet eyes, a tousled blue-violet side bun, a swept fringe, and long electric-blue face-framing strands.
+- **VR goggles** · Keep the angular black VR headset strapped on and pushed up above her eyes. The cyan Meta infinity-loop emblem glows on the faceplate.
+- **Cyberpunk streetwear** · Translucent iridescent violet jacket with bright seams, black choker, black cropped tech top with a cyan loop, graphite cargo trousers with asymmetrical pockets and straps, and sturdy black tech boots.
+- **Gear** · Holographic avatar wristband. Use sparse cyan wireframes when she activates it.
+- **Palette and acting** · Electric blue, violet, lilac, charcoal, and cyan light. Use crisp anime linework and painterly cel shading. Her expressions are energetic, outgoing, and curious.
 
-**Clothing:** Fashionable streetwear, VR visor and holographic avatar bracelets
+Signature ability · Avatar Multiverse.
 
-**Personality and pose:** Outgoing, curious, ambitious and trend-sensitive. Give this character a distinctive pose that differs from other company heroines.
+Signature line · “Open the gates. Let everyone build.”
 
-**Speech and expression:** Casual, humorous and overly enthusiastic about sharing
-
-**Power visualization:** Avatar Multiverse
-
-**Quote:** “Open the gates. Let everyone build.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)
