@@ -1,19 +1,17 @@
-# Apple full-resolution character-sheet brief
+# Apple · The Silver Perfectionist
 
-Create a **16:9 anime character-reference sheet** for Apple, titled “The Silver Perfectionist,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Illustrate Apple, an adult woman around 30 in *Silicon Wars*. Match her [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg).
 
-**Age portrayal:** adult. Adult character, age-appropriate styling.
+## Continuity lock
 
-**Appearance:** Flawless pale silver bob, cool eyes and aloof minimalist look
+- **Face and hair** · Pale silver-gray layered bob with a deep side part, cool slate blue-gray eyes, and a restrained, appraising expression.
+- **Clothing** · Tailored white lab coat with sleeves rolled to the forearms, fitted black turtleneck, straight-leg white trousers, and black loafers.
+- **Accessories** · Small silver Apple-logo pendant on a thin chain over the turtleneck, silver drop earrings, a black-and-gold hair clip, and a square smartwatch with a silver band.
+- **Palette and style** · Pearl white, silver, and charcoal. Use soft warm daylight, refined anime linework, and delicate cel shading.
+- **Acting** · Poised and exacting. Give her controlled gestures and let small shifts in the brows and mouth carry most reactions.
 
-**Clothing:** Black-and-white seamless designer outfit and a single elegant accessory
+Signature ability · Seamless Domain.
 
-**Personality and pose:** Elegant, exacting, private and perfectionistic. Give this character a distinctive pose that differs from other company heroines.
+Signature line · “It just works.”
 
-**Speech and expression:** Few words and long pauses; precise critiques
-
-**Power visualization:** Seamless Domain
-
-**Quote:** “It just works.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)

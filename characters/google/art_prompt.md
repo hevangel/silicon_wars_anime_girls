@@ -17,3 +17,5 @@ Create a **16:9 anime character-reference sheet** for Google, titled “The Rain
 **Quote:** “We researched that twelve years ago! Let me find the paper.”
 
 **Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+
+**Revised design lock (2026-11-07):** The approved design is now the [model sheet](character_sheet.png) and [revised reference card](reference_card.jpg). No sunglasses on her head and no headphones around her neck. She carries a green Android plush as her signature prop, and exactly one white Waymo car plush charm hangs from her belt. Full costume: white oversized sweatshirt with a large multicolor G, rainbow crossbody strap and satchel, colorful bracelets, dark navy belt with gold buckle, dark indigo cropped pants with colorful stitch accents, mismatched colorful high-top sneakers.

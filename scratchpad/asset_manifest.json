@@ -143,6 +143,7 @@
     {
       "character": "apple",
       "path": "characters/apple/reference_card.jpg",
+      "archive_commit": "d3f5842277b0356693d3c54f49c9366072737076",
       "source": "platform_five_datasheet.png",
       "column": 1
     },
