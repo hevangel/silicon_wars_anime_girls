@@ -28,7 +28,7 @@
 ## Tier 3A · Memory, foundry, and equipment
 
 - [TSMC](tsmc/README.md) — The Quiet Queenmaker
-- [ASML](asml/README.md) — The EUV Light Weaver
+- [ASML](asml/README.md) — The Miller of Impossible Light
 - [Samsung](samsung/README.md) — The Everything Empress
 - [Micron](micron/README.md) — The Stack-'Em-High Wrangler
 - [SK hynix](sk-hynix/README.md) — The Stack Savant
@@ -47,7 +47,7 @@
 - [IBM](ibm/README.md) — The Iron Lady of Computing
 - [Oracle](oracle/README.md) — The Database Duchess
 - [Sun Microsystems](sun-microsystems/README.md) — The Solaris Sorceress
-- [Bell Labs](bell-labs/README.md) — The Grandmother of Transistors
+- [Bell Labs](bell-labs/README.md) — The Grand Dame of Signals
 - [Fairchild Semiconductor](fairchild/README.md) — The First Lady of Silicon
 - [DEC](dec/README.md) — The Hacker Grandma
 - [Xerox PARC](xerox-parc/README.md) — The Unpaid Inventor
