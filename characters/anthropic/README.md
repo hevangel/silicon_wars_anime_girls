@@ -41,6 +41,7 @@ She holds her clipboard close to her chest, stands with her weight on her heels,
 
 - [Character model sheet](character_sheet.png)
 - [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg)
 - [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
 - [Original image inventory](../../scratchpad/illustrations.md)

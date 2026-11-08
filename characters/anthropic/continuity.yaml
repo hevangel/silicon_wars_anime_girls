@@ -4,6 +4,7 @@ identity: Elementary-school class monitor about 9–10 with dark-brown springy r
 reference_assets:
   model_sheet: characters/anthropic/character_sheet.png
   expressions: characters/anthropic/expressions.png
+  chibi_sheet: characters/anthropic/chibi_sheet.png
   portrait: characters/anthropic/reference_card.jpg
 
 default_style: default_manga
