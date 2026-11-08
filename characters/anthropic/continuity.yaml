@@ -1,0 +1,24 @@
+id: anthropic
+title: The Precautionary Prodigy
+identity: Elementary-school class monitor about 9–10 with dark-brown springy ringlets, warm-brown eyes, a terracotta hard hat, an orange safety sash, and a clipboard held close.
+reference_assets:
+  model_sheet: characters/anthropic/character_sheet.png
+  expressions: characters/anthropic/expressions.png
+  portrait: characters/anthropic/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - dark-brown ringlets and terracotta hard hat with cream stripe and clipped chin strap
+      - cream blouse, charcoal pinafore, orange safety sash, armband, and knee pads
+      - guarded stance, clipboard, and leather checklist satchel
+    transform:
+      proportions: large head, tiny body
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
