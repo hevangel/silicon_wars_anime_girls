@@ -1,0 +1,28 @@
+Silicon Wars prompt template — style variant: default_manga
+
+Assemble every generation prompt from three blocks. Never bake a style
+variant into the identity block: identity comes from the character's
+continuity.yaml and stays identical across variants.
+
+[BASE IDENTITY BLOCK]
+Draw {{NAME}} from Silicon Wars. Preserve her identity: {{IDENTITY}}
+(persona: {{PERSONALITY}}; signature prop / power: {{SIGNATURE_PROP}}).
+
+[STYLE BLOCK — default_manga]
+Render in the primary Silicon Wars manga style: standard anime adult
+proportions, head-to-body ratio about 1:6.5 to 1:7, clean manga line art,
+cel shading or manga screentone, high detail, moderate expression
+exaggeration, heroic and dramatic pose language.
+
+[SCENE BLOCK]
+{{POSE, EXPRESSION, CAMERA, ENVIRONMENT for this panel or asset}}
+
+Worked example (Intel):
+Draw Intel from Silicon Wars in the default manga style. Preserve her
+identity: adult woman personification of Intel, long light-blue hair,
+sapphire eyes, unbranded sapphire crown, royal-blue and cream military coat
+with gold epaulettes, white gloves, wafer heirloom, proud and composed
+personality. Render her at standard anime adult proportions with clean manga
+line art, cel shading, and high costume detail. She stands in a heroic
+three-quarter pose, offering a glowing data cable, expression mildly
+impressed.

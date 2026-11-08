@@ -5,3 +5,35 @@ reference_assets:
   model_sheet: characters/intel/character_sheet.png
   expressions: characters/intel/expressions.png
   portrait: characters/intel/reference_card.jpg
+
+default_style: default_manga
+supported_styles:
+  - default_manga
+  - chibi
+
+style_variants:
+  chibi:
+    description: "Super-deformed cute comedic version of the character."
+    silhouette: "large rounded head, tiny regal body"
+    preserve:
+      - long light-blue hair
+      - sapphire eyes
+      - royal-blue and silver/cream military color palette
+      - unbranded sapphire crown
+      - wafer heirloom motif
+      - composed or smug expression
+    simplifications:
+      - simplify coat trim
+      - reduce epaulette complexity
+      - keep only one or two circuitry accents
+      - keep the Intel Inside skirt embroidery as a single small emblem
+    comedic_traits:
+      - puffs up proudly
+      - tiny disapproving stare
+      - flustered royal indignation
+    transform:
+      proportions: "large head, tiny body"
+      anatomy: "simplified"
+      expressions: "more exaggerated"
+      shading: "minimal"
+      costume_detail: "simplified but recognizable"

@@ -5,3 +5,30 @@ reference_assets:
   model_sheet: characters/apple/character_sheet.png
   expressions: characters/apple/expressions.png
   portrait: characters/apple/reference_card.jpg
+
+default_style: default_manga
+supported_styles:
+  - default_manga
+  - chibi
+
+style_variants:
+  chibi:
+    description: "Super-deformed cute comedic version of the character."
+    silhouette: "large head, tiny precise body in a lab coat"
+    preserve:
+      - silver-gray layered bob
+      - blue-gray eyes
+      - white lab coat over black turtleneck
+      - silver Apple-logo pendant
+    simplifications:
+      - simplify coat seams and buttons
+      - keep the pendant as one small silver disc
+    comedic_traits:
+      - polishing an already spotless surface
+      - tiny perfectionist huff
+    transform:
+      proportions: "large head, tiny body"
+      anatomy: "simplified"
+      expressions: "more exaggerated"
+      shading: "minimal"
+      costume_detail: "simplified but recognizable"

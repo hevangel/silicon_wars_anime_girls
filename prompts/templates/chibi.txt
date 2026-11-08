@@ -1,0 +1,41 @@
+Silicon Wars prompt template — style variant: chibi
+
+Assemble every generation prompt from three blocks. The identity block is
+the same one used for default_manga; only the style block changes. Per-
+character preserve / simplify lists live under `style_variants.chibi` in
+each character's continuity.yaml.
+
+[BASE IDENTITY BLOCK]
+Draw {{NAME}} from Silicon Wars. Preserve her identity: {{IDENTITY}}
+(persona: {{PERSONALITY}}; signature prop / power: {{SIGNATURE_PROP}}).
+
+[STYLE BLOCK — chibi]
+Render her as a super-deformed chibi character: large head, tiny body,
+head-to-body ratio about 1:2.5, short simplified limbs, small rounded hands
+and feet, simplified costume details but keep the major motifs and signature
+accessories recognizable, rounded cute shapes, clean manga line art, minimal
+shading, large simplified eyes, simple and very expressive mouth shapes,
+highly exaggerated expression, cute comedic pose language. Avoid realistic
+anatomy.
+
+[SCENE BLOCK]
+{{POSE, EXPRESSION, CAMERA, ENVIRONMENT for this panel or asset}}
+
+Worked example (Intel):
+Draw Intel from Silicon Wars in chibi style. Preserve her identity: adult
+woman personification of Intel, long platinum-silver hair, sapphire eyes,
+navy-and-silver imperial military coat, blue color theme, wafer heirloom
+motif, proud and composed personality. Render her as a super-deformed chibi
+character with a large head, tiny body, short limbs, simplified costume
+details, rounded cute shapes, clean manga line art, minimal shading, and
+exaggerated expression. She is standing with tiny regal posture and a smug
+expression, holding a glowing wafer badge.
+
+Worked example (AMD):
+Draw AMD from Silicon Wars in chibi style. Preserve her identity: fire-red
+high ponytail, amber eyes, black-and-red tactical jacket, chiplet armor
+motif, athletic challenger personality, witty and energetic attitude. Render
+her as a super-deformed chibi character with a large head, tiny body,
+simplified armor, bold silhouette, rounded cute style, minimal shading, and
+exaggerated expression. She is leaning forward with a mischievous grin and a
+tiny fist-pump, with small floating chiplet motifs around her.

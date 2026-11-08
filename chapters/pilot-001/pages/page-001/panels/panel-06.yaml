@@ -1,4 +1,5 @@
 id: panel-06
+style_variant: default_manga
 title: The progress bar
 camera: Wide three-shot
 characters: [intel, amd, nvidia]
