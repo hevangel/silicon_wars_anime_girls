@@ -37,10 +37,6 @@ At her desk, she props up her chin with one hand and moves the abacus beads with
 
 > I found a simpler answer.
 
-## Card tagline
-
-> Fewer GPUs. Bigger brain.
-
 ## Character design assets
 
 - [Character model sheet](character_sheet.png)

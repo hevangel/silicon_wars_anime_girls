@@ -37,7 +37,7 @@ Neutral is absorbed and quietly alert. Smiling is small, knowing and warm. Eyes 
 
 ## Reference card
 
-Inputs [model sheet](character_sheet.png) for identity, [reference card layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/reference_card_layout.png) for framing, and [xAI reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/xai/reference_card.jpg) for the distant rival and limo. Output [reference_card.jpg](reference_card.jpg).
+Inputs [model sheet](character_sheet.png) for identity, [reference card layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/_template/layout/reference_card_layout.png) for framing, and [xAI reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/xai/reference_card.jpg) for the distant rival and limo. Output [first redesigned card](https://github.com/hevangel/silicon_wars_anime_girls/blob/62782aa07178551a4c13a28285018bd741bb86b1/characters/deepseek/reference_card.jpg).
 
 Create a polished 1024 × 1536 portrait anime reference card for DeepSeek, The Budget Brainiac, from Silicon Wars. Image 1 is the new model sheet and strict identity and costume reference. Image 2 is the repo blank portrait layout for the border and bottom nameplate only. Image 3 is xAI's reference card, used ONLY for the tiny rival silhouette and limo seen outside; give DeepSeek no traits or costume details from Image 3.
 
@@ -52,3 +52,15 @@ Background: deep-blue night city through the window. Outside in the distance, a 
 The bottom nameplate has centered, readable type on three balanced lines: "DeepSeek", "THE BUDGET BRAINIAC", and the exact tagline "Fewer GPUs. Bigger brain." Keep all three lines fully inside with even margins. Use only the requested prop text and nameplate. No large header logo, speech balloons, watermark, or extra text.
 
 The [previous DeepSeek card](https://github.com/hevangel/silicon_wars_anime_girls/blob/09a3b366cffd637fd8b47cdc6df277a92e865aa3/characters/deepseek/reference_card.jpg) is archived in Git.
+
+## Reference card window and nameplate revision
+
+Input [first redesigned card](https://github.com/hevangel/silicon_wars_anime_girls/blob/62782aa07178551a4c13a28285018bd741bb86b1/characters/deepseek/reference_card.jpg). Output [reference_card.jpg](reference_card.jpg).
+
+Redraw two specific regions of the supplied 1024 × 1536 DeepSeek anime reference card, using the existing card as strict identity and composition input. Keep the girl and her desk scene precisely matched.
+
+WINDOW ONLY: Replace the entire city, black limo, road, and xAI figure outside the window with a beautiful moonlit view of the Great Wall of China. Show an unmistakable crenellated stone wall and two compact traditional stone watchtowers, with the wall winding across layered mountain ridges into the distance. Make the near watchtower and the receding line of the wall readable in the open part of the window to the right of DeepSeek's head. Render the stones, mist, slopes, and sky in a restrained palette of navy, cobalt, indigo, and pale silver-blue moonlight. Keep the indoor window frame and the blue whale-and-lightbulb and RESULT chart holograms in front of the view. The exterior is entirely landscape, with no figures, cars, streets, or skyscrapers. Keep the warm desk lamp indoors.
+
+BOTTOM NAMEPLATE ONLY: Rebuild the lettering from scratch as a centered two-line group. Line 1: "DeepSeek" in large white type. Line 2: "THE BUDGET BRAINIAC" in smaller, readable white capitals. Center each line horizontally in the existing blue plate. Center the whole two-line group vertically within the plate with visibly equal top and bottom padding and a clean, comfortable gap between the lines. Move both lines down as needed to balance the former third-line space. Preserve the existing navy field and silver outer border. Remove the former tagline completely, and omit the inner title plaque, extra rules, empty ornaments, and any third line.
+
+Preserve her age, face and blue eyes, two ocean-blue buns with whale-tail pins, blue qipao and sewn sleeve patch, chin-in-hand pose, abacus hand, all desk and room objects, exactly one bento-box GPU, all existing visible note, textbook, and hologram labels, chalkboard and doodle, silver-blue frame, and 2:3 portrait composition. The desk and character remain the visual focus. Do not add new words, characters, logos, or watermarks.

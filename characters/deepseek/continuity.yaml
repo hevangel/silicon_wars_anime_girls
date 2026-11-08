@@ -1,7 +1,6 @@
 id: deepseek
 title: The Budget Brainiac
 identity: Elementary-school girl about 9–10 with navy-to-sea-blue double buns, whale-tail pins, sea-blue eyes, and a royal-blue qipao with white trim.
-tagline: "Fewer GPUs. Bigger brain."
 reference_assets:
   model_sheet: characters/deepseek/character_sheet.png
   expressions: characters/deepseek/expressions.png
