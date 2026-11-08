@@ -3,22 +3,26 @@ title: The Social Worldbuilder
 age: 20
 palette: [electric-blue, violet, lilac, charcoal, cyan]
 identity: >-
-  Young adult woman with violet-blue eyes, blue-violet hair gathered in a tousled
-  side bun with long electric-blue face-framing strands. Retain the angular
-  VR headset with a glowing cyan Meta infinity-loop emblem.
+  Young adult woman with violet-blue eyes, a tousled blue-violet side bun and
+  electric-blue face-framing strands. Angular black and white VR visor pushed
+  above her eyes, with a glowing cyan Meta infinity-loop emblem.
 costume: >-
-  Cyberpunk black hoodie with glowing cyan piping, an asymmetric flowing
-  violet cape with geometric holographic wireframe lining, compact utility
-  belt, holographic avatar wristband, and black tech boots.
+  Oversized black cyberpunk hoodie with electric-blue seams, a flowing asymmetrical
+  purple and lilac holographic cape with geometric wireframe lining, fitted dark
+  shorts, fully opaque horizontal black-and-purple striped stockings covering
+  both legs without exposed thighs, utility belt and black technical boots.
 continuity_rules:
-  - Keep the blue-violet hair identity and cyan infinity symbol on VR headset.
-  - Hoodie and cape replace the previous iridescent jacket and cargo-trouser emphasis.
-  - The hood can be raised or lowered; the cape must remain identifiable.
-  - Do not remove or replace the visor, or change the signature palette.
+  - Keep the blue-violet hair identity, side bun, violet eyes and cyan infinity visor.
+  - Preserve the hoodie and clearly visible cape in all full-body views.
+  - Both legs have horizontal purple and dark striped stockings from shorts hem to boots.
+  - Do not show exposed thighs or replace stockings with bare skin.
+  - Keep the palette blue, violet, lilac, charcoal and cyan.
+  - Expression portraits must preserve the same face, hair and VR headset.
 reference_assets:
   model_sheet: characters/meta/character_sheet.png
   expressions: characters/meta/expressions.png
   portrait: characters/meta/reference_card.jpg
 artwork_status: >-
-  Hoodie-and-cape binary replacements generated in the current chat and pending
-  import into this branch. Existing repository PNGs still depict the former outfit.
+  New striped-stocking images were generated and packaged in ChatGPT, and are
+  pending binary import into this GitHub PR branch. Existing repository PNG/JPG
+  may still depict the earlier jacket design.

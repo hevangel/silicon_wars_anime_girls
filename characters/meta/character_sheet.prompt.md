@@ -29,3 +29,15 @@ New source images were generated in ChatGPT and packaged as `meta_cyberpunk_hood
 - `characters/meta/reference_card.jpg`: illustrated hero portrait with structured description.
 
 Keep Meta's blue-violet hairstyle, electric-blue/cyan glow and distinctive VR headset. **These binary assets have not yet replaced the existing PR's PNG files.** The prior generation record above remains preserved for provenance.
+
+## Regenerated revision: opaque striped stockings
+
+The three files have been regenerated from the repository's existing layout conventions with a new cyberpunk hoodie and purple cape. The character now wears opaque black and purple striped stockings covering both legs rather than exposing the thighs.
+
+| GitHub path | Source output | Dimensions | SHA-256 |
+|---|---|---|---|
+| `character_sheet.png` | landscape character turnaround | 1536x1024 | `fdfbd7c90987803afb8ef8cd149ad65a28f5d1ae591d5e07060db638c099f071` |
+| `expressions.png` | landscape 12-expression grid | 1536x1024 | `3af41170f40708fb68754df1ba80bd84e9c590b1eb48426ad55800c88d19b83b` |
+| `reference_card.jpg` | vertical portrait card | 1024x1536 | `4503255153512307aec9e5859299553a5cd6071c1291429e18fae5f59bce0fda` |
+
+**These hashes are of the prepared ZIP asset files, not GitHub file contents.** Full-resolution binaries must still be imported into `art/meta-social-worldbuilder` before merging PR #11.
