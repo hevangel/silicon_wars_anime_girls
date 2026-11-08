@@ -16,19 +16,19 @@ Sleek straight near-black hair with a deep indigo sheen, center-parted and flowi
 Modern hanbok-inspired dress in luminous white and ice-silver: short jeogori jacket with wide flowing sleeves, ice-blue goreum ribbon, very full flared chima skirt with glowing circuit hems, silver armored belt, white SAMSUNG sash, and a norigae overloaded with tiny gadgets
 
 ## Personality
-Proud, versatile, ambitious and competitive; the generous older sister who does everything and is slightly overextended
+Proud, flashy and generous; a hostess-empress who does everything, offers memory to everyone, and runs slightly overextended
 
 ## Speech patterns
-Confident boasts about making every part of the system
+Grand, generous boasts delivered like a hostess passing dishes; a raised-eyebrow aside whenever her younger sister is mentioned
 
 ## Thinking and values
-Vertical integration across devices, displays, memory and fabrication
+Vertical integration across devices, displays, memory and fabrication — breadth is the moat
 
 ## Motivation
-Lead as many technology categories as possible
+Lead as many technology categories as possible: overall leadership in DRAM, NAND and HBM, and define the next generation of memory
 
 ## Dramatic flaws
-Spreading effort across too many fronts
+Overextended across too many fronts; underestimates focused rivals like her younger sister SK hynix
 
 ## Rivalries
 SK hynix, Micron, Apple and TSMC
@@ -37,7 +37,7 @@ SK hynix, Micron, Apple and TSMC
 Device makers and foundry partners
 
 ## Special ability
-**Sapphire Crown** — a fictional metaphor for the real technology.
+**Everything Norigae** — a fictional metaphor for the real technology.
 
 ## Signature line
 > Memory for everything, everywhere.
