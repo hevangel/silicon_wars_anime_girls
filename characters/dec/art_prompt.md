@@ -1,19 +1,15 @@
-# DEC full-resolution character-sheet brief
+# DEC illustration brief
 
-Create a **16:9 anime character-reference sheet** for DEC, titled “The Hacker Grandma,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+**Title** The Digital Vaklkyire
 
-**Age portrayal:** senior. Authentic elderly details and comfortable age-appropriate clothing.
+**Age and appearance** Mature woman around sixty with short, tousled silver-gray hair, amber eyes, black rectangular glasses, fine smile lines, and a crooked grin. She reads as a peer of IBM.
 
-**Appearance:** Silver-haired older woman with rectangular glasses and a knowing smirk
+**Costume** Burgundy canvas work jacket with rolled cuffs, a three-tile DEC chest patch and a pocket pencil, charcoal open-collar work shirt, khaki trousers, a brown work belt, dark leather work boots, small gold hoops, and a fine pendant.
 
-**Clothing:** Red varsity jacket, PDP-11 manual and vintage terminal keyboard
+**Acting** Mischievous, independent and practical. She welcomes a good argument and would rather try a new idea at the workbench than wait for a formal sign-off. Give her a relaxed stance, an inquisitive raised eyebrow, and friendly, blunt hacker humor.
 
-**Personality and pose:** Mischievous, independent, practical and rebellious. Give this character a distinctive pose that differs from other company heroines.
+**Setting and props** An amber-lit university electronics lab with a shared workbench, a PDP-11-style minicomputer, a green-phosphor terminal, and a circuit notebook.
 
-**Speech and expression:** Friendly teasing, old-hacker humor and blunt lessons
+**Power visualization** VAX Fortress.
 
-**Power visualization:** VAX Fortress
-
-**Quote:** “We did not need a whole data center to have fun.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+**Continuity** Use the [model sheet](character_sheet.png) for costume and proportions and the [reference card](reference_card.jpg) for setting and mood. The [generation record](character_sheet.prompt.md) includes the exact sheet and card prompts.

@@ -49,7 +49,7 @@
 - [Sun Microsystems](sun-microsystems/README.md) — The Solaris Sorceress
 - [Bell Labs](bell-labs/README.md) — The Grand Dame of Signals
 - [Fairchild Semiconductor](fairchild/README.md) — The First Lady of Silicon
-- [DEC](dec/README.md) — The Hacker Grandma
+- [DEC](dec/README.md) — The Digital Vaklkyire
 - [Xerox PARC](xerox-parc/README.md) — The Unpaid Inventor
 
 ## Artwork and production references
