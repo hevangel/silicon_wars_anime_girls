@@ -6,7 +6,7 @@ Create a **16:9 anime character-reference sheet** for Microsoft, titled “The A
 
 **Appearance:** Ash-blonde hair in a neat low bun with four-color windowpane clips, glasses and a calm commanding gaze (the approved reference card is ash-blonde; older text saying navy hair was wrong)
 
-**Clothing:** Tailored dark charcoal suit with four-color windowpane pin, azure pocket square, blue lanyard with ID name badge, and projected business dashboards; white coffee mug with the windowpane logo
+**Clothing:** Tailored dark charcoal business dress (knee-length sheath) under a fitted blazer with four-color windowpane pin and azure pocket square, blue lanyard with ID name badge, and projected business dashboards; white coffee mug with the windowpane logo
 
 **Personality and pose:** Pragmatic, diplomatic, procedural and strategic. Give this character a distinctive pose that differs from other company heroines.
 
@@ -18,4 +18,4 @@ Create a **16:9 anime character-reference sheet** for Microsoft, titled “The A
 
 **Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
 
-**Revised design lock (2026-11-07):** The approved design is the [model sheet](character_sheet.png) and [revised reference card](reference_card.jpg): a 30-year-old, ash-blonde low bun with windowpane clips, black-rimmed glasses in every view, dark charcoal suit, corporate lanyard name badge, and her white windowpane-logo coffee mug.
+**Revised design lock (2026-11-07):** The approved design is the [model sheet](character_sheet.png) and [revised reference card](reference_card.jpg): a 30-year-old, ash-blonde low bun with windowpane clips, black-rimmed glasses in every view, dark charcoal business dress under the fitted blazer (trousers retired 2026-11-07 at Horace's direction), corporate lanyard name badge, and her white windowpane-logo coffee mug.
