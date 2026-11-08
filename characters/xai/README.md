@@ -33,7 +33,7 @@ She heckles [OpenAI](../openai/README.md) from the back row during show-and-tell
 
 **Rocket Paradox** is her signature ability. Her instinct is to turn a problem into a launch and throw more compute at it. That can get a stalled idea off the ground or leave her classmates cleaning up the fallout.
 
-## Card tagline
+## Signature line
 
 > Why wait in line for GPUs when you can buy the line?
 

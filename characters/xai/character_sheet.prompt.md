@@ -45,6 +45,18 @@ At the bottom, a clean high-contrast near-black nameplate with exactly "xAI" and
 
 ## Reference card correction
 
-Input the first card render from the prompt above. Output [reference_card.jpg](reference_card.jpg).
+Input the first card render from the prompt above. Output [previous reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d88b476abd7bade97e09aa5017ea1c081ecefa33/characters/xai/reference_card.jpg).
 
 Edit the supplied xAI anime reference card. Make a localized correction to the shelf area at the left edge of the scene: every shelf behind the existing "SOLD OUT" sign must be completely bare. Remove all of the visible rows of graphics cards and fans from that shelf, exposing the empty horizontal shelves and dark backing. Keep the sign, shelf framing, floor, and lighting. The graphics cards beside the sunglasses Shiba in the character's backpack stay exactly as shown, making it clear she bought the stock. As a second small cleanup, remove the duplicated xAI logo and wordmark in the upper-left sky and fill the space with matching dark starry sky, preserving the holographic zeros and radar dish. Keep the original 2:3 canvas, character, hair, eyes, face, anatomy, child proportions, watch, card gesture, backpack, dog, rockets and their SpaceX text, vehicles, bodyguard, frame, and bottom title and tagline unchanged. Preserve exactly "Why wait in line for GPUs when you can buy the line?" in the bottom nameplate.
+
+## Reference card vehicle and lettering revision
+
+Input [previous reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d88b476abd7bade97e09aa5017ea1c081ecefa33/characters/xai/reference_card.jpg). Output [reference_card.jpg](reference_card.jpg).
+
+Edit the supplied 1024×1536 portrait anime reference card for xAI, The Moneybags Moonshot. Keep the composition and anime rendering closely matched. Make these four localized changes:
+1. Replace the black limousine at the lower right with a custom black Tesla Cybertruck stretch limousine. It is a low, long six-door Cybertruck with hard-edged angular black body panels, wedge-shaped front, continuous slim white headlight bar, extended passenger cabin and recognizable angular wheel arches. It is parked in the same location and perspective, reflecting on the wet pavement.
+2. Replace the helicopter in the middle right with a futuristic flying Tesla Roadster, unmistakably a sleek low two-door sports car with the rounded Roadster nose, low curved windshield, and all four wheels, in the same dark color family. It has no rotor, no wings and no helicopter body. Show it descending gently, hovering a short distance above the lit landing pad. The wheels are down and ready to touch the pad, with subtle downward white-blue lift jets, a visible gap and light or shadow directly under it. Keep the landing platform and perspective, and make it read clearly as a sports car coming in to land.
+3. On the side of each ascending rocket, remove the entire "SPACEX" wordmark and replace it with one small clean SpaceX curved swoosh-X emblem only. No letters spelling SpaceX anywhere on the rockets. Keep both rockets, their fins and their exhaust plumes.
+4. Remove the bottom tagline "Why wait in line for GPUs when you can buy the line?" completely. Refine the bottom nameplate to use only the existing xAI insignia and "xAI" on the left and "THE MONEYBAGS MOONSHOT" on the right, vertically centered. Keep the slim gold frame and the original readable capitalization. Do not fill the tagline space with any other copy.
+
+Preserve the elementary-school girl, her face, pose, hair, black hoodie, card in her hand, wristwatch, dog and GPUs in the backpack, bodyguard, radar dish, holographic zeros, empty GPU shelves with "SOLD OUT", the "NO RUNNING" sign, and existing night lighting. Keep the 2:3 portrait aspect ratio. No watermark or added text.
