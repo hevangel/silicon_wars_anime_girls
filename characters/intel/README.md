@@ -11,7 +11,7 @@
 Composed and commanding; sapphire blue eyes and long flowing light-blue hair.
 
 ## Clothing and accessories
-Sapphire-crystal crown with a blue oval Intel-logo badge, royal-blue imperial military coat with gold-fringed epaulettes and cream lining, white gloves, and a wafer-shaped heirloom.
+Original sapphire-crystal crown and a royal-blue imperial military coat with gold-fringed epaulettes and cream lining, white gloves, and a wafer-shaped heirloom. A small embroidered Intel Inside logo sits just above the hem at the lower outer corner of her left front skirt panel.
 
 ## Personality
 Proud, disciplined, strategic, wary of decline.
@@ -44,7 +44,7 @@ IBM and the PC ecosystem.
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
 - [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
 - [Artwork generation prompts](character_sheet.prompt.md)
-- [Painted reference card](reference_card.jpg).
+- [Full-length reference card](reference_card.jpg) showing the skirt emblem.
 - [Detailed final-anime illustration prompt](art_prompt.md)
 - [Original group illustration archive](../../scratchpad/illustrations.md)
 

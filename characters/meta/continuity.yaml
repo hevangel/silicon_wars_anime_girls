@@ -22,7 +22,3 @@ reference_assets:
   model_sheet: characters/meta/character_sheet.png
   expressions: characters/meta/expressions.png
   portrait: characters/meta/reference_card.jpg
-artwork_status: >-
-  New striped-stocking images were generated and packaged in ChatGPT, and are
-  pending binary import into this GitHub PR branch. Existing repository PNG/JPG
-  may still depict the earlier jacket design.

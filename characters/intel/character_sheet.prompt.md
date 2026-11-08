@@ -1,6 +1,6 @@
 # Intel illustration generation record
 
-The built-in image generator produced the initial artwork and the crown-badge revisions.
+The built-in image generator produced the initial artwork and later costume revisions.
 
 ## Model sheet
 
@@ -31,13 +31,13 @@ BLUSHING | EXCITED | OMINOUS
 
 Distinguish all 12 clearly. Neutral is relaxed with open eyes; smiling is warm; eyes closed is calmly resting; angry has tight brows and an open sharp retort; crying has visible tears; surprised has wide eyes and a small open mouth; smug has one corner of the mouth raised; flustered has anxious brows and a small sweat drop; serious is alert with a level mouth; blushing is visibly flushed with a shy look; excited is an energetic delighted expression with bright eyes; ominous is quiet and shadowed, with a steady intimidating gaze. Use detailed colored anime linework and cel shading that match Image 1. Use only the nameplate and 12 exact English labels, with a crisp simple typeface. Keep every cell and label separate and readable. No other characters, layout panels, logos, watermark, or scenery.
 
-## Crown-badge revisions
+## Earlier crown-badge revisions
 
 The [archived original reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/d75dd93d8dbd2589fa7fe947df27eb1396df94b1/characters/intel/reference_card.jpg) supplied the Intel logo. The edits targeted the corresponding pre-badge artwork linked above.
 
 ### Current model sheet
 
-[Updated model sheet](character_sheet.png)
+[Crown-badge model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/53c6864bd92fc9c848d47acc3fda81f9b72938d5/characters/intel/character_sheet.png)
 
 Image 1 is the actual artwork to edit. Image 2 is the archived Intel card for the Intel logo ONLY. Make one localized edit to Image 1: mount a small, legible deep-sapphire blue enamel oval badge with a fine gold rim onto the front brow band of Intel's crown, immediately under the large central sapphire jewel and above her hairline. Inside the blue oval, reproduce the archived card's white lowercase Intel wordmark spelled exactly "intel", with the familiar white orbital swoosh, like the badge in Image 2. This is a tiny physical crown emblem, scaled like jewelry, with perspective and shading appropriate to the angle. Keep the central sapphire intact and do not cover her forehead or hair. Retain Image 1's exact art style, framing, expression, face, light-blue hair, blue-and-gold imperial uniform, jewelry, all crown spires and sapphire crystals, scenery, palette, borders, layout, and existing headings. No extra branding elsewhere.
 
@@ -45,7 +45,7 @@ This is the original four-view character model sheet with three expression portr
 
 ### Current expression sheet
 
-[Updated expression sheet](expressions.png)
+[Crown-badge expression sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/53c6864bd92fc9c848d47acc3fda81f9b72938d5/characters/intel/expressions.png)
 
 Image 1 is the actual artwork to edit. Image 2 is the archived Intel card for the Intel logo ONLY. Make one localized edit to Image 1: mount a small, legible deep-sapphire blue enamel oval badge with a fine gold rim onto the front brow band of Intel's crown, immediately under the large central sapphire jewel and above her hairline. Inside the blue oval, reproduce the archived card's white lowercase Intel wordmark spelled exactly "intel", with the familiar white orbital swoosh, like the badge in Image 2. This is a tiny physical crown emblem, scaled like jewelry, with perspective and shading appropriate to the angle. Keep the central sapphire intact and do not cover her forehead or hair. Retain Image 1's exact art style, framing, expression, face, light-blue hair, blue-and-gold imperial uniform, jewelry, all crown spires and sapphire crystals, scenery, palette, borders, layout, and existing headings. No extra branding elsewhere.
 
@@ -53,8 +53,36 @@ This is the original 12-expression sheet. Apply the same crown emblem to ALL twe
 
 ### Current reference card
 
-[Updated reference card](reference_card.jpg)
+[Crown-badge reference card](https://github.com/hevangel/silicon_wars_anime_girls/blob/53c6864bd92fc9c848d47acc3fda81f9b72938d5/characters/intel/reference_card.jpg)
 
 Image 1 is the actual artwork to edit. Image 2 is the archived Intel card for the Intel logo ONLY. Make one localized edit to Image 1: mount a small, legible deep-sapphire blue enamel oval badge with a fine gold rim onto the front brow band of Intel's crown, immediately under the large central sapphire jewel and above her hairline. Inside the blue oval, reproduce the archived card's white lowercase Intel wordmark spelled exactly "intel", with the familiar white orbital swoosh, like the badge in Image 2. This is a tiny physical crown emblem, scaled like jewelry, with perspective and shading appropriate to the angle. Keep the central sapphire intact and do not cover her forehead or hair. Retain Image 1's exact art style, framing, expression, face, light-blue hair, blue-and-gold imperial uniform, jewelry, all crown spires and sapphire crystals, scenery, palette, borders, layout, and existing headings. No extra branding elsewhere.
 
 This is the original 2:3 reference card. In this large portrait the crown badge must be clearly readable and properly embedded in the crown band. Preserve the exact title "INTEL" and subtitle "THE BLUE EMPRESS", the sapphire crown silhouette and gem arrangement, the wafer in her glove, the background and gold card border.
+
+## Current skirt emblem
+
+The built-in image generator used the pre-badge artwork and [Intel’s 1991 campaign artwork](https://timeline.intel.com/1991/inside-intel-inside) to restore the sapphire crown and place the embroidered Intel Inside emblem at the lower outer corner of her left front skirt panel.
+
+### Current model sheet
+
+Input [Original model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/character_sheet.png). Output [Updated model sheet](character_sheet.png).
+
+Edit Image 1, Intel's original logo-free model sheet. Image 2 is Intel's historic ad for logo shape only. Restore and preserve the original logo-free sapphire crystal crown exactly as shown in the pre-badge illustration. Its gold brow band, pointed sapphire jewels and silhouette are intact, with no emblem, nameplate, or lettering on it. Intel is the same adult Blue Empress with flowing icy light-blue hair, sapphire eyes, sapphire drop earrings, her royal-blue and cream imperial military coat with gold epaulettes, white gloves and dark tall boots. Add the classic 1991 Intel Inside mark as a small readable ivory-thread embroidered logo directly on the blue fabric at the lower outer corner of her own left front skirt panel (viewer right in front view), just above the gold hem. Copy the historic stacked lowercase "intel" / "inside" words enclosed by the broken oval swoosh shown in the large blue logo in the official ad reference. Show the mark only on that one corner of the skirt where that surface faces the viewer. Fit the embroidery to the cloth and keep both words legible. No logo elsewhere.
+
+Change only the skirt emblem. Preserve Image 1's composition and framing, exact headings, original face, clothes, and artwork style. Keep all four equal-height full-body views FRONT, THREE-QUARTER, SIDE, BACK, the three close-ups COMPOSED, STERN, SURPRISED, and the palette in the original positions. Show the one left-skirt mark in the FRONT and THREE-QUARTER figures where the same corner is visible. Side/back and close-up portraits stay faithful to the original artwork. Landscape 3:2.
+
+### Current expression sheet
+
+Input [Original expression sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/expressions.png). Output [Updated expression sheet](expressions.png).
+
+Edit Image 1, Intel's original logo-free expression sheet. Image 2 is Intel's historic ad for logo shape only. Restore and preserve the original logo-free sapphire crystal crown exactly as shown in the pre-badge illustration. Its gold brow band, pointed sapphire jewels and silhouette are intact, with no emblem, nameplate, or lettering on it. Intel is the same adult Blue Empress with flowing icy light-blue hair, sapphire eyes, sapphire drop earrings, her royal-blue and cream imperial military coat with gold epaulettes, white gloves and dark tall boots. Add the classic 1991 Intel Inside mark as a small readable ivory-thread embroidered logo directly on the blue fabric at the lower outer corner of her own left front skirt panel (viewer right in front view), just above the gold hem. Copy the historic stacked lowercase "intel" / "inside" words enclosed by the broken oval swoosh shown in the large blue logo in the official ad reference. Show the mark only on that one corner of the skirt where that surface faces the viewer. Fit the embroidery to the cloth and keep both words legible. No logo elsewhere.
+
+Change only the lower corner of the skirt on the single standing figure on the left. Preserve all twelve separately framed expressions, faces, unbranded crowns, exact headings and existing English labels with the original framing and layout. The twelve head-and-shoulder portraits should remain visually identical to Image 1. Landscape 3:2, retain the existing pale background and decorative frame.
+
+### Current reference card
+
+Inputs [Original portrait](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/reference_card.jpg) and [original model sheet](https://github.com/hevangel/silicon_wars_anime_girls/blob/d3f5842277b0356693d3c54f49c9366072737076/characters/intel/character_sheet.png). Output [Full-length reference card](reference_card.jpg).
+
+Regenerate a portrait 2:3 reference card for INTEL, THE BLUE EMPRESS. Image 1 is her original logo-free portrait card for face, pose, costume, dramatic blue-lit architecture, the wafer held in her glove, blue-and-gold frame and bottom title. Image 2 is her pre-badge full-body turnaround for the exact full uniform, skirt split, and black boots. Image 3 is Intel's historic ad for logo shape only. Restore and preserve the original logo-free sapphire crystal crown exactly as shown in the pre-badge illustration. Its gold brow band, pointed sapphire jewels and silhouette are intact, with no emblem, nameplate, or lettering on it. Intel is the same adult Blue Empress with flowing icy light-blue hair, sapphire eyes, sapphire drop earrings, her royal-blue and cream imperial military coat with gold epaulettes, white gloves and dark tall boots. Add the classic 1991 Intel Inside mark as a small readable ivory-thread embroidered logo directly on the blue fabric at the lower outer corner of her own left front skirt panel (viewer right in front view), just above the gold hem. Copy the historic stacked lowercase "intel" / "inside" words enclosed by the broken oval swoosh shown in the large blue logo in the official ad reference. Show the mark only on that one corner of the skirt where that surface faces the viewer. Fit the embroidery to the cloth and keep both words legible. No logo elsewhere.
+
+Pull the camera back to a dramatic, composed full-body three-quarter portrait from crown tip to boots with all of the skirt hem visible. Put the visible embroidered "intel inside" logo near the bottom viewer-right outer corner of the royal-blue skirt panel as the only logo. Keep it modest in scale, bright enough to read against the cloth, and fully inside the picture well above the nameplate. Keep her waist and face proportional and render the crown unbranded as in Image 1. Preserve the cinematic blue-and-gold palette, tall dark palace setting, gold card border and a compact bottom nameplate with exactly "INTEL" and "THE BLUE EMPRESS". No other text except the small garment logo.
