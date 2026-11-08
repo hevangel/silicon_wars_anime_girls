@@ -4,6 +4,7 @@ identity: Adult woman around 30 with a silver-gray layered bob, blue-gray eyes, 
 reference_assets:
   model_sheet: characters/apple/character_sheet.png
   expressions: characters/apple/expressions.png
+  chibi_sheet: characters/apple/chibi_sheet.png
   portrait: characters/apple/reference_card.jpg
 
 default_style: default_manga

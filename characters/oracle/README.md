@@ -5,15 +5,15 @@
 | Field | Design |
 |---|---|
 | Faction | Enterprise Elders |
-| Age portrayal | mature |
+| Age portrayal | Mature, late 50s or early 60s |
 | Hair color | dark auburn |
 | Brand color motif | scarlet |
 
 ## Appearance
-Sophisticated mature executive with warm brunette curls, red glasses and confident smile
+Sophisticated executive in her late 50s or early 60s with sculpted auburn waves, amber-brown eyes, red rectangular glasses, and a confident smile.
 
 ## Clothing and equipment
-Crimson tailored blazer, black silk blouse and holographic database ledger
+Structured scarlet 1990s power blazer over a black knee-length sheath dress with a pencil-skirt hem, sheer charcoal hosiery, black pumps, gold hoops and chain, an Oracle lapel pin, and a holographic database ledger.
 
 ## Personality
 Strategic, competitive, formidable and commercially minded
@@ -43,6 +43,9 @@ Enterprise CIOs and Sun's software legacy
 > Information is a kingdom. I keep the keys.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
+- [Illustrated character sheet](character_sheet.png) with four turnaround views, expression studies, and a palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 expressions.
+- [Painted reference card](reference_card.jpg).
+- [Exact generation prompts](character_sheet.prompt.md).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

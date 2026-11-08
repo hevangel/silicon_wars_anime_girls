@@ -4,6 +4,7 @@ identity: "30-year-old woman. Light ash-blonde hair in a neat low bun with four-
 reference_assets:
   model_sheet: characters/microsoft/character_sheet.png
   expressions: characters/microsoft/expressions.png
+  chibi_sheet: characters/microsoft/chibi_sheet.png
   portrait: characters/microsoft/reference_card.jpg
 
 default_style: default_manga

@@ -1,0 +1,12 @@
+page: page-002-chibi
+style_variant: chibi
+checks:
+  staging: "Pass (take 3) - mirrored at the user's direction: Nvidia alone on the LEFT pulls against Intel and AMD together on the right (the default_manga page-002 has Intel vs AMD with Nvidia seated)."
+  facing: "Pass - Nvidia faces right toward the pair; Intel and AMD face left toward her while leaning back right. (Take 1's front-facing pair and take 2's right-side Nvidia are kept in the art folder.)"
+  nvidia_hands: "Pass - her right hand grips the rope down at her side, exactly as briefed; her left hand curls the dumbbell beside her head."
+  effort_contrast: "Pass - Intel and AMD flushed and straining with sweat drops flying; Nvidia upright, relaxed, smug."
+  identity: "Pass - chibi designs match the three chibi sheets, Intel's white gloves included this time."
+  dialogue: "Pass - AMD 'I am the strongest!', Intel 'No! I am!', then Nvidia's rephrased line 'Hee hee... both of you together are still no match for one of my hands!' (cute rephrase at the user's request; ASCII-safe, no em-dash, per the renderer font limit)."
+  lettering_layout: "Pass with a note - balloons staggered in two rows with no overlaps and no crossed tails; reading order AMD, Intel, Nvidia punchline. In this mirrored staging Nvidia's balloon sits center-top rather than at the far left, since the left sky is narrow behind the dumbbell; her tail is long but unambiguous."
+  dumbbell_crop: "Known nit - the dumbbell is partly cropped by the left frame edge in take 3 (it sits at the very edge of the raw art and the 4:5 fit cannot recover it). The weight still reads clearly as enormous."
+  art_text: "Pass - the raw art is text-free apart from the small emblem glyphs the generator adds on costumes; all lettering is renderer-applied and editable."

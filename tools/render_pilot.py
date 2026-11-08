@@ -72,7 +72,10 @@ def load_source(plan):
             raise ValueError(f"{panel_id}: panel or lettering IDs do not match")
         if any(item["kind"] == "speech" and item["speaker"] not in panel["characters"] for item in by_panel[panel_id]):
             raise ValueError(f"{panel_id}: speaking character is absent")
-        references = [cast[name]["reference_assets"]["model_sheet"] for name in panel["characters"]]
+        asset_key = {"default_manga": "model_sheet", "chibi": "chibi_sheet"}.get(panel.get("style_variant", "default_manga"))
+        if asset_key is None:
+            raise ValueError(f"{panel_id}: unknown style_variant {panel.get('style_variant')!r}")
+        references = [cast[name]["reference_assets"][asset_key] for name in panel["characters"]]
         if panel["references"] != references or any(not (ROOT / path).is_file() for path in references):
             raise ValueError(f"{panel_id}: references must match the cast in order")
         point(panel["crop_center"], (1, 1))

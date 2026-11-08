@@ -1,0 +1,13 @@
+chapter: pilot-001
+page: page-002-chibi
+global_prompt: chapters/pilot-001/prompts/global.yaml
+storyboard: chapters/pilot-001/pages/page-002-chibi/storyboard.yaml
+lettering: chapters/pilot-001/pages/page-002-chibi/lettering.yaml
+output: chapters/pilot-001/pages/page-002-chibi/final/page-002.png
+generator: built-in image generation
+seed: null
+change_invalidation:
+  lettering: [final_page]
+  panel_pose_or_expression: [affected_panel_art, final_page]
+  character_design: [panels_using_that_character, final_page]
+  layout: [final_page]
