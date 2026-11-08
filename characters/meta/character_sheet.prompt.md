@@ -19,3 +19,13 @@ Create a polished landscape 3:2 anime expression sheet for META, THE SOCIAL WORL
 The [model sheet](character_sheet.png) and [original card](https://github.com/hevangel/silicon_wars_anime_girls/blob/1b39058ea5cf75f9a5818fc6890ad33677c4b7d3/characters/meta/reference_card.jpg) supplied design and palette for the [new reference card](reference_card.jpg).
 
 Generate a portrait 2:3 painted anime reference card for META, THE SOCIAL WORLDBUILDER, a fictional 20-year-old adult woman. Image 1 is her new model sheet and the strict design reference; Image 2 is her old card for its palette, expressive face and energetic illustration style. She has violet eyes, a tousled high blue-violet side bun, and long electric-blue strands. The chunky black VR headset with luminous cyan Meta infinity-loop on its faceplate is strapped onto her head and pushed up on her forehead, so we see her eyes and a playful confident smile. Match the model sheet's black choker and tech crop top with cyan loop, translucent iridescent violet jacket with illuminated seams, graphite cargo trousers, and holographic avatar wristband. Frame her from the hips up in a three-quarter cyberpunk portrait, casually adjusting the edge of the headset strap with one hand or resting that hand near her goggles. The other arm is relaxed. Keep clear anatomy. Place her against a purple-blue city at dusk with soft rain reflections and a few abstract cyan wireframe interface shapes. Preserve the old card's bright electric blue, violet, lavender, cyan, and charcoal color language and polished cel-shaded anime painting. Use a slim angular violet frame and a neat bottom nameplate with exactly "META" and "THE SOCIAL WORLDBUILDER". No other characters, slogans, statistics, or additional text.
+
+## Revision: cyberpunk hoodie and cape (new art pending import)
+
+New source images were generated in ChatGPT and packaged as `meta_cyberpunk_hoodie_cape.zip`. Deliverables:
+
+- `characters/meta/character_sheet.png`: full datasheet/turnaround, hoodie plus violet geometric cape, palette and technical props.
+- `characters/meta/expressions.png`: ten headshot expressions extracted from a newly generated expression study, with corrected labels.
+- `characters/meta/reference_card.jpg`: illustrated hero portrait with structured description.
+
+Keep Meta's blue-violet hairstyle, electric-blue/cyan glow and distinctive VR headset. **These binary assets have not yet replaced the existing PR's PNG files.** The prior generation record above remains preserved for provenance.

@@ -13,7 +13,7 @@
 20-year-old adult with violet eyes, a blue-violet side bun, electric-blue face-framing strands, and black VR goggles worn above her eyes. The goggles carry a glowing cyan Meta infinity-loop emblem.
 
 ## Clothing and equipment
-Iridescent violet jacket, black choker and tech crop top, graphite cargo trousers with utility straps, black tech boots, and a holographic avatar wristband. The crop top repeats the cyan loop.
+A black cyberpunk hoodie with vivid electric-blue seams and an asymmetric flowing violet cape, its inner fabric printed with glowing geometric metaverse wireframes. She retains dark technical boots, a compact utility belt, a holographic avatar wristband, and her black VR goggles with the luminous cyan infinity emblem. The hoodie and cape replace the earlier short jacket and cargo-trouser silhouette.
 
 ## Personality
 Outgoing, curious, ambitious and trend-sensitive
@@ -49,3 +49,7 @@ Creators and open-model builders
 - [Exact generation prompts](character_sheet.prompt.md).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
+
+## Hoodie-and-cape revision (pending image import)
+
+The user selected a new cyberpunk hoodie and cape costume while preserving Meta's blue-violet palette and VR headset. New standalone PNGs were generated in ChatGPT as `character_sheet.png`, `expressions.png`, and `reference_card.jpg` and packaged in `meta_cyberpunk_hoodie_cape.zip`. **The PNGs on this branch still show the previous jacket design until those replacement binary assets are committed.** This text update does not imply the art has been uploaded.
