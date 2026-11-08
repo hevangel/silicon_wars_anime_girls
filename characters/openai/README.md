@@ -41,6 +41,7 @@ A fluffy side ponytail, bright blue-teal eyes, and an oversized navy ribbon with
 
 - [Character model sheet](character_sheet.png)
 - [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg)
 - [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
 - [Original group illustration archive](../../scratchpad/illustrations.md)
