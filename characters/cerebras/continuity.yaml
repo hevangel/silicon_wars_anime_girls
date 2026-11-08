@@ -1,0 +1,24 @@
+id: cerebras
+title: The Go-Big-or-Go-Home Girl
+identity: Middle-school wafer engineer about 12–13 with a round copper-orange bob, amber eyes, an oversized white chef's toque, vermilion-trimmed kitchen whites, and a giant intact silver wafer on a pizza peel.
+reference_assets:
+  model_sheet: characters/cerebras/character_sheet.png
+  expressions: characters/cerebras/expressions.png
+  portrait: characters/cerebras/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - round copper-orange bob and tilted white chef's toque
+      - vermilion scarf, cream flour-marked apron, oversized quilted mitts, and scuffed clogs
+      - proud grin and intact iridescent wafer on a wooden pizza peel
+    transform:
+      proportions: large head, tiny body
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
