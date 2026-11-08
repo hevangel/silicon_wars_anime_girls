@@ -1,0 +1,71 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - link "Silicon Wars character archive" [ref=f4e3] [cursor=pointer]:
+      - /url: "#characters"
+      - text: Silicon Wars
+    - generic [ref=f4e13]: Season One · Character Archive
+  - main [ref=f4e14]:
+    - generic [ref=f4e561]:
+      - button "Back to character gallery" [ref=f4e562] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f4e563]: ←
+        - text: Character gallery
+      - generic [ref=f4e564]:
+        - paragraph [ref=f4e565]: Production archive
+        - heading "All Character Sheets" [level=1] [ref=f4e566]
+        - paragraph [ref=f4e567]: 18 character assets · scroll to browse
+      - generic [ref=f4e568]:
+        - article [ref=f4e569]:
+          - heading "Intel" [level=2] [ref=f4e570]
+          - img "Intel character sheet" [ref=f4e571]
+        - article [ref=f4e572]:
+          - heading "AMD" [level=2] [ref=f4e573]
+          - img "AMD character sheet" [ref=f4e574]
+        - article [ref=f4e575]:
+          - heading "Nvidia" [level=2] [ref=f4e576]
+          - img "Nvidia character sheet" [ref=f4e577]
+        - article [ref=f4e578]:
+          - heading "Google" [level=2] [ref=f4e579]
+          - img "Google character sheet" [ref=f4e580]
+        - article [ref=f4e581]:
+          - heading "Microsoft" [level=2] [ref=f4e582]
+          - img "Microsoft character sheet" [ref=f4e583]
+        - article [ref=f4e584]:
+          - heading "Apple" [level=2] [ref=f4e585]
+          - img "Apple character sheet" [ref=f4e586]
+        - article [ref=f4e587]:
+          - heading "Meta" [level=2] [ref=f4e588]
+          - img "Meta character sheet" [ref=f4e589]
+        - article [ref=f4e590]:
+          - heading "Amazon" [level=2] [ref=f4e591]
+          - img "Amazon character sheet" [ref=f4e592]
+        - article [ref=f4e593]:
+          - heading "Anthropic" [level=2] [ref=f4e594]
+          - img "Anthropic character sheet" [ref=f4e595]
+        - article [ref=f4e596]:
+          - heading "OpenAI" [level=2] [ref=f4e597]
+          - img "OpenAI character sheet" [ref=f4e598]
+        - article [ref=f4e599]:
+          - heading "xAI" [level=2] [ref=f4e600]
+          - img "xAI character sheet" [ref=f4e601]
+        - article [ref=f4e602]:
+          - heading "Hugging Face" [level=2] [ref=f4e603]
+          - img "Hugging Face character sheet" [ref=f4e604]
+        - article [ref=f4e605]:
+          - heading "DeepSeek" [level=2] [ref=f4e606]
+          - img "DeepSeek character sheet" [ref=f4e607]
+        - article [ref=f4e608]:
+          - heading "TSMC" [level=2] [ref=f4e609]
+          - img "TSMC character sheet" [ref=f4e610]
+        - article [ref=f4e611]:
+          - heading "Huawei" [level=2] [ref=f4e612]
+          - img "Huawei character sheet" [ref=f4e613]
+        - article [ref=f4e614]:
+          - heading "Cerebras" [level=2] [ref=f4e615]
+          - img "Cerebras character sheet" [ref=f4e616]
+        - article [ref=f4e617]:
+          - heading "IBM" [level=2] [ref=f4e618]
+          - img "IBM character sheet" [ref=f4e619]
+        - article [ref=f4e620]:
+          - heading "Oracle" [level=2] [ref=f4e621]
+          - img "Oracle character sheet" [ref=f4e622]
+  - contentinfo [ref=f4e560]: Fictional fan art unaffiliated with the companies depicted.

@@ -19,6 +19,13 @@ def main():
     )
     sources = {"index.html": homepage}
     sources.update({path: ROOT / path for path in card_paths})
+    for path in card_paths:
+        character_dir = (ROOT / path).parent
+        slug = character_dir.name
+        for artwork in ("character_sheet.png", "expressions.png", "chibi_sheet.png"):
+            source = character_dir / artwork
+            if source.is_file():
+                sources[f"characters/{slug}/{artwork}"] = source
 
     for source in sources.values():
         if not source.is_file():

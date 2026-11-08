@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1536" viewBox="0 0 1024 1536">
+  <title>Silicon Wars reference card chrome (locked)</title>
+  <!-- portrait window: leave transparent / fill with the scene -->
+  <rect x="0" y="0" width="1024" height="1536" fill="#34373e"/>
+  <rect x="14" y="14" width="995" height="1507" fill="none" stroke="#b09868" stroke-width="3"/>
+  <rect x="26" y="26" width="971" height="1483" fill="none" stroke="#786a50" stroke-width="1"/>
+  <path d="M512 8L524 20L512 32L500 20Z" fill="#b09868"/>
+  <!-- nameplate: hex-ended charcoal plate, gold hairline -->
+  <polygon points="110,1340 914,1340 954,1410 914,1480 110,1480 70,1410" fill="#2c2e34" stroke="#b09868" stroke-width="1"/>
+  <rect id="name-bar" x="300" y="1362" width="424" height="58" rx="4" fill="#96928c"/>
+  <line x1="180" y1="1448" x2="300" y2="1448" stroke="#b09868"/>
+  <line x1="724" y1="1448" x2="844" y2="1448" stroke="#b09868"/>
+  <rect id="title-bar" x="320" y="1438" width="384" height="20" rx="3" fill="#787570"/>
+  <path d="M70 1400L80 1410L70 1420L60 1410Z" fill="#b09868"/><path d="M954 1400L964 1410L954 1420L944 1410Z" fill="#b09868"/><path d="M512 1480L522 1490L512 1500L502 1490Z" fill="#b09868"/>
+</svg>

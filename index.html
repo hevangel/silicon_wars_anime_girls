@@ -182,6 +182,7 @@
       border-radius: .55rem;
       background: linear-gradient(145deg, #182a39, #0c1520 72%);
       box-shadow: 0 18px 42px #0007, inset 0 1px #b5e9ff12;
+      cursor: pointer;
       transform: scale(1);
       transition: border-color .25s ease, box-shadow .25s ease, transform .35s ease;
     }
@@ -247,7 +248,21 @@
       visibility: visible;
     }
 
-    .character-card:focus-visible {
+    .card-description {
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .character-link {
+      position: absolute;
+      z-index: 1;
+      inset: 0;
+      border-radius: inherit;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .character-link:focus-visible {
       outline: 2px solid var(--cyan);
       outline-offset: 3px;
     }
@@ -288,12 +303,227 @@
     .chip-node { fill: #b9f5ff; }
     .carousel-control:hover .chip-die { fill: #236078; }
     .carousel { touch-action: pan-x pan-y; cursor: grab; }
-    .carousel.is-dragging { cursor: grabbing; user-select: none; }
+    .carousel.is-dragging, .carousel.is-dragging .character-card {
+      cursor: grabbing;
+      user-select: none;
+    }
 
     .interaction-hint {
       width: min(100% - 3rem, 88rem);
-      margin: .2rem auto 0;
+      margin: .5rem auto .7rem;
       text-align: center;
+    }
+
+    .asset-links {
+      width: min(100% - 3rem, 88rem);
+      margin: 0 auto 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: .55rem;
+    }
+
+    .asset-link {
+      padding: .45rem .7rem;
+      border: 1px solid #294151;
+      border-radius: 999px;
+      color: #bcefff;
+      background: #101e2b;
+      font-size: .72rem;
+      text-decoration: none;
+      transition: border-color .2s ease, background .2s ease, color .2s ease;
+    }
+
+    .asset-link:hover, .asset-link:focus-visible {
+      border-color: var(--cyan);
+      color: #fff;
+      background: #163144;
+      outline: none;
+    }
+
+    [hidden] { display: none !important; }
+
+    .character-profile {
+      width: min(100% - 3rem, 88rem);
+      margin: 0 auto;
+    }
+
+    .profile-back {
+      display: inline-flex;
+      align-items: center;
+      gap: .55rem;
+      margin-bottom: 1.4rem;
+      padding: .65rem .9rem;
+      border: 1px solid #385266;
+      border-radius: .35rem;
+      color: #bcefff;
+      background: #101e2b;
+      font: inherit;
+      font-size: .8rem;
+      cursor: pointer;
+    }
+
+    .profile-back:hover, .profile-back:focus-visible {
+      border-color: var(--cyan);
+      color: #fff;
+      outline: none;
+    }
+
+    .profile-layout {
+      display: grid;
+      grid-template-columns: minmax(15rem, 24rem) minmax(0, 1fr);
+      align-items: start;
+      gap: clamp(1.25rem, 4vw, 3.5rem);
+    }
+
+    .profile-identity, .portfolio-panel, .sheet-card {
+      border: 1px solid #294151;
+      border-radius: .55rem;
+      background: linear-gradient(145deg, #142333, #0b131e 80%);
+      box-shadow: 0 18px 42px #0005;
+    }
+
+    .profile-identity { overflow: hidden; }
+
+    .profile-card-image {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: #111d29;
+    }
+
+    .profile-card-caption { padding: 1rem 1.1rem 1.1rem; }
+    .profile-card-caption .character-name { font-size: 1.25rem; }
+    .profile-card-caption .character-title { font-size: .82rem; }
+
+    .portfolio-panel {
+      margin-top: .9rem;
+      padding: 1.1rem;
+    }
+
+    .profile-kicker, .sheet-kicker {
+      margin: 0 0 .45rem;
+      color: var(--cyan);
+      font-size: .68rem;
+      font-weight: 750;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .portfolio-panel p:last-child {
+      margin: 0;
+      color: #c0d0df;
+      font-size: .9rem;
+      line-height: 1.65;
+    }
+
+    .profile-ability {
+      margin-top: .85rem;
+      padding-top: .75rem;
+      border-top: 1px solid #294151;
+      color: #95adbf;
+      font-size: .8rem;
+    }
+
+    .profile-ability strong { color: #e4f6ff; }
+
+    .profile-artwork h2 {
+      margin: 0 0 1rem;
+      font-size: clamp(1.25rem, 2.5vw, 1.8rem);
+      letter-spacing: -.025em;
+    }
+
+    .sheet-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+
+    .sheet-card { overflow: hidden; }
+
+    .sheet-card h3 {
+      margin: 0;
+      padding: .75rem .9rem;
+      border-bottom: 1px solid #294151;
+      color: #eaf6ff;
+      font-size: .82rem;
+    }
+
+    .sheet-image-wrap {
+      min-height: 12rem;
+      display: grid;
+      place-items: center;
+      padding: .65rem;
+      background: #080e17;
+    }
+
+    .sheet-image {
+      width: 100%;
+      max-height: 28rem;
+      display: block;
+      object-fit: contain;
+    }
+
+    .sheet-unavailable {
+      margin: 0;
+      padding: 2rem 1rem;
+      color: #91a6bb;
+      font-size: .8rem;
+      text-align: center;
+    }
+
+    .asset-archive {
+      width: min(100% - 3rem, 88rem);
+      margin: 0 auto;
+    }
+
+    .asset-archive-heading {
+      margin-bottom: 1.5rem;
+    }
+
+    .asset-archive-heading h1 {
+      font-size: clamp(1.7rem, 4vw, 2.8rem);
+      letter-spacing: -.04em;
+      line-height: 1.15;
+      text-transform: none;
+    }
+
+    .asset-archive-heading p {
+      margin: .5rem 0 0;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+
+    .asset-list {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .asset-entry {
+      overflow: hidden;
+      border: 1px solid #294151;
+      border-radius: .55rem;
+      background: linear-gradient(145deg, #142333, #0b131e 80%);
+      box-shadow: 0 18px 42px #0005;
+    }
+
+    .asset-entry h2 {
+      margin: 0;
+      padding: .75rem 1rem;
+      border-bottom: 1px solid #294151;
+      color: #eaf6ff;
+      font-size: .9rem;
+    }
+
+    .asset-entry img {
+      width: 100%;
+      max-height: min(82vh, 64rem);
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      object-fit: contain;
+      object-position: top center;
+      background: #080e17;
     }
 
     footer {
@@ -310,11 +540,16 @@
       .masthead { gap: .75rem; }
       .brand { font-size: .78rem; }
       .edition { flex: 0 1 45%; font-size: .6rem; text-align: right; }
-      .intro, .section-heading, .interaction-hint, footer { width: calc(100% - 2rem); }
+      .intro, .section-heading, .interaction-hint, .asset-links, footer { width: calc(100% - 2rem); }
+      .character-profile, .asset-archive { width: calc(100% - 2rem); }
       .intro { margin-bottom: 1.8rem; }
       .character-card { width: min(64vw, 15rem); }
       .carousel-control { width: 3.3rem; }
       .carousel-control svg { width: 3rem; }
+      .profile-layout { grid-template-columns: minmax(0, 1fr); gap: 1.25rem; }
+      .profile-identity { width: min(100%, 25rem); margin: 0 auto; }
+      .sheet-grid { grid-template-columns: minmax(0, 1fr); }
+      .sheet-image-wrap { min-height: 9rem; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -347,6 +582,7 @@
   </header>
 
   <main>
+    <div id="gallery-view">
     <section class="intro" aria-labelledby="page-title">
       <p class="eyebrow">Every faction has a face</p>
       <h1 id="page-title" aria-label="Silicon Wars">
@@ -416,13 +652,13 @@
             <article class="character-card"><img src="characters/openai/reference_card.jpg" alt="OpenAI — The Reckless Prodigy" loading="lazy"><div class="card-caption"><span class="character-name">OpenAI</span><span class="character-title">The Reckless Prodigy</span></div></article>
             <article class="character-card"><img src="characters/xai/reference_card.jpg" alt="xAI — The Chaos Astronaut" loading="lazy"><div class="card-caption"><span class="character-name">xAI</span><span class="character-title">The Chaos Astronaut</span></div></article>
             <article class="character-card"><img src="characters/huggingface/reference_card.jpg" alt="Hugging Face — The Open-Source Sunshine Girl" loading="lazy"><div class="card-caption"><span class="character-name">Hugging Face</span><span class="character-title">The Open-Source Sunshine Girl</span></div></article>
-            <article class="character-card"><img src="characters/mistral-ai/reference_card.jpg" alt="Mistral AI — The Little Wind Mage" loading="lazy"><div class="card-caption"><span class="character-name">Mistral AI</span><span class="character-title">The Little Wind Mage</span></div></article>
-            <article class="character-card"><img src="characters/deepseek/reference_card.jpg" alt="DeepSeek — The Frugal Reasoning Prodigy" loading="lazy"><div class="card-caption"><span class="character-name">DeepSeek</span><span class="character-title">The Frugal Reasoning Prodigy</span></div></article>
+            <article class="character-card"><img src="characters/mistral-ai/reference_card.jpg" alt="Mistral AI — The Tiny Titan of Europe" loading="lazy"><div class="card-caption"><span class="character-name">Mistral AI</span><span class="character-title">The Tiny Titan of Europe</span></div></article>
+            <article class="character-card"><img src="characters/deepseek/reference_card.jpg" alt="DeepSeek — The Budget Brainiac" loading="lazy"><div class="card-caption"><span class="character-name">DeepSeek</span><span class="character-title">The Budget Brainiac</span></div></article>
             <article class="character-card"><img src="characters/tsmc/reference_card.jpg" alt="TSMC — The Jade Foundry Goddess" loading="lazy"><div class="card-caption"><span class="character-name">TSMC</span><span class="character-title">The Jade Foundry Goddess</span></div></article>
             <article class="character-card"><img src="characters/asml/reference_card.jpg" alt="ASML — The EUV Light Weaver" loading="lazy"><div class="card-caption"><span class="character-name">ASML</span><span class="character-title">The EUV Light Weaver</span></div></article>
-            <article class="character-card"><img src="characters/samsung/reference_card.jpg" alt="Samsung — The Sapphire Conglomerate Princess" loading="lazy"><div class="card-caption"><span class="character-name">Samsung</span><span class="character-title">The Sapphire Conglomerate Princess</span></div></article>
-            <article class="character-card"><img src="characters/micron/reference_card.jpg" alt="Micron — The Violet Archivist" loading="lazy"><div class="card-caption"><span class="character-name">Micron</span><span class="character-title">The Violet Archivist</span></div></article>
-            <article class="character-card"><img src="characters/sk-hynix/reference_card.jpg" alt="SK hynix — The HBM Princess" loading="lazy"><div class="card-caption"><span class="character-name">SK hynix</span><span class="character-title">The HBM Princess</span></div></article>
+            <article class="character-card"><img src="characters/samsung/reference_card.jpg" alt="Samsung — The Everything Empress" loading="lazy"><div class="card-caption"><span class="character-name">Samsung</span><span class="character-title">The Everything Empress</span></div></article>
+            <article class="character-card"><img src="characters/micron/reference_card.jpg" alt="Micron — The Stack-'Em-High Wrangler" loading="lazy"><div class="card-caption"><span class="character-name">Micron</span><span class="character-title">The Stack-'Em-High Wrangler</span></div></article>
+            <article class="character-card"><img src="characters/sk-hynix/reference_card.jpg" alt="SK hynix — The Stack Savant" loading="lazy"><div class="card-caption"><span class="character-name">SK hynix</span><span class="character-title">The Stack Savant</span></div></article>
             <article class="character-card"><img src="characters/arm/reference_card.jpg" alt="Arm — The Quiet Architect" loading="lazy"><div class="card-caption"><span class="character-name">Arm</span><span class="character-title">The Quiet Architect</span></div></article>
             <article class="character-card"><img src="characters/qualcomm/reference_card.jpg" alt="Qualcomm — The Wireless Speedster" loading="lazy"><div class="card-caption"><span class="character-name">Qualcomm</span><span class="character-title">The Wireless Speedster</span></div></article>
             <article class="character-card"><img src="characters/broadcom/reference_card.jpg" alt="Broadcom — The Network Spider Queen" loading="lazy"><div class="card-caption"><span class="character-name">Broadcom</span><span class="character-title">The Network Spider Queen</span></div></article>
@@ -432,9 +668,9 @@
             <article class="character-card"><img src="characters/ibm/reference_card.jpg" alt="IBM — The Iron Lady of Computing" loading="lazy"><div class="card-caption"><span class="character-name">IBM</span><span class="character-title">The Iron Lady of Computing</span></div></article>
             <article class="character-card"><img src="characters/oracle/reference_card.jpg" alt="Oracle — The Database Duchess" loading="lazy"><div class="card-caption"><span class="character-name">Oracle</span><span class="character-title">The Database Duchess</span></div></article>
             <article class="character-card"><img src="characters/sun-microsystems/reference_card.jpg" alt="Sun Microsystems — The Solaris Sorceress" loading="lazy"><div class="card-caption"><span class="character-name">Sun Microsystems</span><span class="character-title">The Solaris Sorceress</span></div></article>
-            <article class="character-card"><img src="characters/bell-labs/reference_card.jpg" alt="Bell Labs — The Grandmother of Transistors" loading="lazy"><div class="card-caption"><span class="character-name">Bell Labs</span><span class="character-title">The Grandmother of Transistors</span></div></article>
-            <article class="character-card"><img src="characters/fairchild/reference_card.jpg" alt="Fairchild Semiconductor — The Silicon Matriarch" loading="lazy"><div class="card-caption"><span class="character-name">Fairchild Semiconductor</span><span class="character-title">The Silicon Matriarch</span></div></article>
             <article class="character-card"><img src="characters/dec/reference_card.jpg" alt="DEC — The Hacker Grandma" loading="lazy"><div class="card-caption"><span class="character-name">DEC</span><span class="character-title">The Hacker Grandma</span></div></article>
+            <article class="character-card"><img src="characters/fairchild/reference_card.jpg" alt="Fairchild Semiconductor — The Silicon Matriarch" loading="lazy"><div class="card-caption"><span class="character-name">Fairchild Semiconductor</span><span class="character-title">The Silicon Matriarch</span></div></article>
+            <article class="character-card"><img src="characters/bell-labs/reference_card.jpg" alt="Bell Labs — The Grandmother of Transistors" loading="lazy"><div class="card-caption"><span class="character-name">Bell Labs</span><span class="character-title">The Grandmother of Transistors</span></div></article>
           </div>
         </div>
         <button class="carousel-control carousel-control--right" type="button" aria-label="Scroll to next characters" data-direction="1">
@@ -448,7 +684,66 @@
           </svg>
         </button>
       </div>
-      <p class="interaction-hint">Idle to explore · Hover the chips to accelerate · Drag or swipe to browse</p>
+      <p class="interaction-hint">Click a card to open its profile · Hover the chips to accelerate · Drag or swipe to browse</p>
+      <nav class="asset-links" aria-label="Browse all character assets">
+        <a class="asset-link" href="#assets/character_sheet">All character sheets</a>
+        <a class="asset-link" href="#assets/expressions">All expression sheets</a>
+        <a class="asset-link" href="#assets/chibi_sheet">All chibi sheets</a>
+        <a class="asset-link" href="#assets/reference_card">All reference cards</a>
+      </nav>
+    </section>
+    </div>
+
+    <section class="character-profile" id="character-profile" aria-live="polite" hidden>
+      <button class="profile-back" type="button" aria-label="Back to character gallery">
+        <span aria-hidden="true">←</span> Character gallery
+      </button>
+      <div class="profile-layout">
+        <div class="profile-sidebar">
+          <article class="profile-identity">
+            <img class="profile-card-image" alt="">
+            <div class="profile-card-caption">
+              <span class="character-name"></span>
+              <span class="character-title"></span>
+            </div>
+          </article>
+          <section class="portfolio-panel" aria-labelledby="portfolio-title">
+            <p class="profile-kicker">Character portfolio</p>
+            <p class="portfolio-description" id="portfolio-title"></p>
+            <p class="profile-ability" hidden><strong>Signature ability:</strong> <span></span></p>
+          </section>
+        </div>
+        <section class="profile-artwork" aria-labelledby="artwork-title">
+          <p class="sheet-kicker">Production archive</p>
+          <h2 id="artwork-title">Character artwork</h2>
+          <div class="sheet-grid">
+            <article class="sheet-card" data-sheet="character_sheet">
+              <h3>Character sheet</h3>
+              <div class="sheet-image-wrap"><img class="sheet-image" alt="" hidden><p class="sheet-unavailable">Not available yet</p></div>
+            </article>
+            <article class="sheet-card" data-sheet="expressions">
+              <h3>Expression sheet</h3>
+              <div class="sheet-image-wrap"><img class="sheet-image" alt="" hidden><p class="sheet-unavailable">Not available yet</p></div>
+            </article>
+            <article class="sheet-card" data-sheet="chibi_sheet">
+              <h3>Chibi sheet</h3>
+              <div class="sheet-image-wrap"><img class="sheet-image" alt="" hidden><p class="sheet-unavailable">Not available yet</p></div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="asset-archive" id="asset-archive" aria-live="polite" hidden>
+      <button class="profile-back asset-archive-back" type="button" aria-label="Back to character gallery">
+        <span aria-hidden="true">←</span> Character gallery
+      </button>
+      <header class="asset-archive-heading">
+        <p class="eyebrow">Production archive</p>
+        <h1 class="asset-archive-title"></h1>
+        <p class="asset-archive-count"></p>
+      </header>
+      <div class="asset-list"></div>
     </section>
   </main>
 
@@ -461,6 +756,22 @@
       const cards = [...track.children];
       const controls = [...document.querySelectorAll(".carousel-control")];
       const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const galleryView = document.querySelector("#gallery-view");
+      const profileView = document.querySelector("#character-profile");
+      const assetArchive = document.querySelector("#asset-archive");
+      const profileBack = document.querySelector(".profile-back");
+      const assetArchiveBack = document.querySelector(".asset-archive-back");
+      const assetArchiveTitle = document.querySelector(".asset-archive-title");
+      const assetArchiveCount = document.querySelector(".asset-archive-count");
+      const assetList = document.querySelector(".asset-list");
+      const profileCardImage = document.querySelector(".profile-card-image");
+      const profileName = document.querySelector(".profile-card-caption .character-name");
+      const profileTitle = document.querySelector(".profile-card-caption .character-title");
+      const profileDescription = document.querySelector(".portfolio-description");
+      const profileAbility = document.querySelector(".profile-ability");
+      const profileAbilityName = profileAbility.querySelector("span");
+      const characterCards = new Map();
+      const pageTitle = document.title;
       const descriptions = {
         intel: "Commands x86 compatibility, manufacturing know-how, and enduring institutional power.",
         amd: "Turns efficient chiplet design and ingenuity into a challenge to bigger rivals.",
@@ -494,6 +805,55 @@
         fairchild: "Helped make silicon scalable and sparked new technology empires.",
         dec: "Puts interactive computing power directly into people's hands."
       };
+      const factions = {
+        intel: "Silicon Kingdoms", amd: "Silicon Kingdoms", nvidia: "Silicon Kingdoms",
+        google: "AI Academy", microsoft: "Platform Kingdoms", apple: "Platform Kingdoms",
+        meta: "Platform Kingdoms", amazon: "Platform Kingdoms", anthropic: "AI Academy",
+        openai: "AI Academy", xai: "AI Academy", huggingface: "AI Academy",
+        "mistral-ai": "AI Academy Juniors", deepseek: "AI Academy Juniors",
+        tsmc: "Foundry Guild", asml: "Foundry Equipment Guild", samsung: "Memory Kingdom",
+        micron: "Memory Kingdom", "sk-hynix": "Memory Kingdom", arm: "Connectivity Quartet",
+        qualcomm: "Connectivity Quartet", broadcom: "Connectivity Quartet",
+        marvell: "Connectivity Quartet", huawei: "Platform Kingdoms",
+        cerebras: "Silicon Kingdoms", ibm: "Enterprise Elders", oracle: "Enterprise Elders",
+        "sun-microsystems": "Grandmother Generation", "bell-labs": "Grandmother Generation",
+        fairchild: "Grandmother Generation", dec: "Grandmother Generation"
+      };
+      const abilities = {
+        intel: "x86 Citadel", amd: "Chiplet Barrage", nvidia: "CUDA Dragon",
+        google: "Rainbow Searchlight", microsoft: "Azure Fleet", apple: "Seamless Domain",
+        meta: "Avatar Multiverse", amazon: "Fulfillment Swarm", anthropic: "Constitutional Ward",
+        openai: "Reasoning Constellation", xai: "Rocket Paradox", huggingface: "Community Hug",
+        "mistral-ai": "Mixture of Experts", deepseek: "Sparse Awakening",
+        tsmc: "Wafer Genesis", asml: "EUV Mirror Halo", samsung: "Sapphire Crown",
+        micron: "Memory Crystal", "sk-hynix": "Memory Tower", arm: "Architecture Codex",
+        qualcomm: "Snapdragon Dash", broadcom: "Optical Web", marvell: "Data Tide",
+        huawei: "Red Fortress", cerebras: "Wafer Colossus", ibm: "Mainframe Citadel",
+        oracle: "Relational Throne", "sun-microsystems": "Solaris Domain",
+        "bell-labs": "Transistor Spark", fairchild: "Planar Genesis", dec: "VAX Fortress"
+      };
+      const availableArtwork = {
+        character_sheet: new Set([
+          "amazon", "amd", "anthropic", "apple", "cerebras", "deepseek", "google",
+          "huawei", "huggingface", "ibm", "intel", "meta", "microsoft", "nvidia",
+          "openai", "oracle", "tsmc", "xai"
+        ]),
+        expressions: new Set([
+          "amazon", "amd", "anthropic", "apple", "cerebras", "deepseek", "google",
+          "huawei", "huggingface", "ibm", "intel", "meta", "microsoft", "nvidia",
+          "openai", "oracle", "tsmc", "xai"
+        ]),
+        chibi_sheet: new Set([
+          "amazon", "amd", "anthropic", "apple", "google", "huggingface", "ibm",
+          "intel", "meta", "microsoft", "nvidia", "openai", "oracle"
+        ])
+      };
+      const assetTitles = {
+        character_sheet: "Character Sheets",
+        expressions: "Expression Sheets",
+        chibi_sheet: "Chibi Sheets",
+        reference_card: "Reference Cards"
+      };
 
       cards.forEach((card) => {
         const slug = card.querySelector("img").getAttribute("src").split("/")[1];
@@ -503,13 +863,143 @@
         blurb.className = "card-description";
         blurb.textContent = description;
         card.append(blurb);
-        card.tabIndex = 0;
+        card.dataset.slug = slug;
+        const link = document.createElement("a");
+        link.className = "character-link";
+        link.href = `#character/${slug}`;
+        link.setAttribute("aria-label", `View ${card.querySelector(".character-name").textContent} character profile`);
+        card.append(link);
+        characterCards.set(slug, card);
       });
+
+      const renderProfile = (slug) => {
+        const card = characterCards.get(slug);
+        if (!card) {
+          profileView.hidden = true;
+          assetArchive.hidden = true;
+          galleryView.hidden = false;
+          document.title = pageTitle;
+          return;
+        }
+
+        const image = card.querySelector("img");
+        const name = card.querySelector(".character-name").textContent;
+        profileCardImage.src = image.getAttribute("src");
+        profileCardImage.alt = image.alt;
+        profileName.textContent = name;
+        profileTitle.textContent = card.querySelector(".character-title").textContent;
+        profileDescription.textContent = descriptions[slug];
+        profileAbility.hidden = !abilities[slug];
+        profileAbilityName.textContent = abilities[slug] || "";
+        document.querySelector(".profile-kicker").textContent = factions[slug]
+          ? `Character portfolio · ${factions[slug]}`
+          : "Character portfolio";
+
+        document.querySelectorAll(".sheet-card").forEach((sheetCard) => {
+          const sheet = sheetCard.dataset.sheet;
+          const artwork = sheetCard.querySelector(".sheet-image");
+          const unavailable = sheetCard.querySelector(".sheet-unavailable");
+          artwork.hidden = true;
+          unavailable.hidden = false;
+          artwork.onload = () => {
+            artwork.hidden = false;
+            unavailable.hidden = true;
+          };
+          artwork.onerror = () => {
+            artwork.hidden = true;
+            unavailable.hidden = false;
+          };
+          artwork.alt = `${name} ${sheet.replaceAll("_", " ")}`;
+          if (!availableArtwork[sheet].has(slug)) {
+            artwork.removeAttribute("src");
+            return;
+          }
+          artwork.src = `characters/${slug}/${sheet}.png`;
+        });
+
+        galleryView.hidden = true;
+        assetArchive.hidden = true;
+        profileView.hidden = false;
+        document.title = `${name} — Silicon Wars`;
+        window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" });
+      };
+
+      const renderAssetArchive = (type) => {
+        const title = assetTitles[type];
+        if (!title) return false;
+
+        const items = [...characterCards.entries()].flatMap(([slug, card]) => {
+          if (type !== "reference_card" && !availableArtwork[type].has(slug)) return [];
+          const image = card.querySelector("img");
+          const name = card.querySelector(".character-name").textContent;
+          return [{
+            name,
+            path: type === "reference_card"
+              ? image.getAttribute("src")
+              : `characters/${slug}/${type}.png`
+          }];
+        });
+
+        assetArchiveTitle.textContent = `All ${title}`;
+        assetArchiveCount.textContent = `${items.length} character assets · scroll to browse`;
+        assetList.replaceChildren();
+        items.forEach(({ name, path }) => {
+          const entry = document.createElement("article");
+          entry.className = "asset-entry";
+          const heading = document.createElement("h2");
+          heading.textContent = name;
+          const image = document.createElement("img");
+          image.src = path;
+          image.alt = `${name} ${type === "reference_card" ? "reference card" : type.replaceAll("_", " ")}`;
+          image.loading = "lazy";
+          entry.append(heading, image);
+          assetList.append(entry);
+        });
+
+        galleryView.hidden = true;
+        profileView.hidden = true;
+        assetArchive.hidden = false;
+        document.title = `${title} — Silicon Wars`;
+        window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" });
+        return true;
+      };
+
+      const renderRoute = () => {
+        const match = location.hash.match(/^#character\/([a-z0-9-]+)$/);
+        const assetMatch = location.hash.match(/^#assets\/([a-z_]+)$/);
+        if (match) renderProfile(match[1]);
+        else if (!assetMatch || !renderAssetArchive(assetMatch[1])) {
+          profileView.hidden = true;
+          assetArchive.hidden = true;
+          galleryView.hidden = false;
+          document.title = pageTitle;
+        }
+      };
+
+      track.addEventListener("click", (event) => {
+        if (didDrag) {
+          event.preventDefault();
+          event.stopPropagation();
+          didDrag = false;
+        }
+      });
+      profileBack.addEventListener("click", () => {
+        history.replaceState(null, "", "#characters");
+        renderRoute();
+      });
+      assetArchiveBack.addEventListener("click", () => {
+        history.replaceState(null, "", "#characters");
+        renderRoute();
+      });
+      window.addEventListener("popstate", renderRoute);
+      window.addEventListener("hashchange", renderRoute);
+      renderRoute();
 
       const cloneCard = (card) => {
         const clone = card.cloneNode(true);
         clone.setAttribute("aria-hidden", "true");
         clone.removeAttribute("tabindex");
+        clone.querySelector(".character-link").tabIndex = -1;
         clone.querySelector("img").alt = "";
         clone.querySelector("img").removeAttribute("fetchpriority");
         clone.querySelector("img").loading = "lazy";
@@ -529,7 +1019,10 @@
       let lastWritten = 0;
       let lastActivity = -Infinity;
       let interacting = false;
+      let pointerOverCarousel = false;
       let dragX = null;
+      let dragStartX = null;
+      let didDrag = false;
       let clickDistance = 0;
 
       const normalize = (value) => loopWidth
@@ -549,11 +1042,11 @@
       };
 
       const animate = (time) => {
-        if (previousTime && !document.hidden) {
+        if (previousTime && !document.hidden && profileView.hidden) {
           const elapsed = Math.min(time - previousTime, 40) / 1000;
           const direction = hoveredDirection || focusedDirection;
           const keyboardFocus = carousel.matches(":focus-visible") || carousel.querySelector(":focus-visible");
-          const idle = time - lastActivity > 1200 && !keyboardFocus;
+          const idle = time - lastActivity > 1200 && !keyboardFocus && !pointerOverCarousel;
           const speed = reduceMotion.matches || interacting ? 0 : direction ? direction * 280 : idle ? 24 : 0;
           const step = Math.sign(clickDistance) * Math.min(Math.abs(clickDistance), 700 * elapsed);
           clickDistance -= step;
@@ -580,6 +1073,8 @@
       });
 
       const activity = () => { lastActivity = performance.now(); };
+      carousel.addEventListener("pointerenter", () => { pointerOverCarousel = true; });
+      carousel.addEventListener("pointerleave", () => { pointerOverCarousel = false; });
       window.addEventListener("pointermove", activity, { passive: true });
       carousel.addEventListener("wheel", () => { activity(); clickDistance = 0; }, { passive: true });
       carousel.addEventListener("keydown", activity);
@@ -591,20 +1086,28 @@
         activity();
         if (event.pointerType === "mouse") {
           dragX = event.clientX;
-          carousel.setPointerCapture(event.pointerId);
-          carousel.classList.add("is-dragging");
+          dragStartX = event.clientX;
+          didDrag = false;
+          const captureTarget = event.target.closest(".character-link") || carousel;
+          captureTarget.setPointerCapture(event.pointerId);
         }
       });
       carousel.addEventListener("pointermove", (event) => {
         if (dragX === null) return;
+        if (Math.abs(event.clientX - dragStartX) > 6) {
+          didDrag = true;
+          carousel.classList.add("is-dragging");
+        }
         renderPosition(position + dragX - event.clientX);
         dragX = event.clientX;
       });
       const endInteraction = () => {
         interacting = false;
         dragX = null;
+        dragStartX = null;
         carousel.classList.remove("is-dragging");
         activity();
+        if (didDrag) setTimeout(() => { didDrag = false; }, 0);
       };
       window.addEventListener("pointerup", endInteraction);
       window.addEventListener("pointercancel", endInteraction);
