@@ -207,6 +207,7 @@
     {
       "character": "xai",
       "path": "characters/xai/reference_card.jpg",
+      "archive_commit": "e2d1a7f3c3dd1d41b67482dbf9b9f99763f693fa",
       "source": "ai_quartet_datasheet.png",
       "column": 3
     },
