@@ -38,7 +38,8 @@ style_system:
     chibi:
       description: "Super-deformed comedic style for reaction shots, comedy cutaways, and bonus scenes."
       proportions:
-        head_to_body_ratio: "1:2 to 1:3"
+        head_to_body_ratio: "1:2.5"
+        measurement: "Crown to chin is 40% of standing height from crown to soles. Ignore hair and headwear above the crown."
         limbs: "short and simplified"
         hands_feet: "small, rounded, and simplified"
       rendering:
