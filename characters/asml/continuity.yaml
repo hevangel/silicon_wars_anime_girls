@@ -1,0 +1,28 @@
+id: asml
+title: The Miller of Impossible Light
+identity: Adult precision optician with long golden-blonde waves, icy-blue eyes, a white lace cap, a cobalt bodice, an ivory tulip apron, and a silver windmill charm.
+logo_lockup: wordmark
+reference_assets:
+  model_sheet: characters/asml/character_sheet.png
+  expressions: characters/asml/expressions.png
+  chibi_sheet: characters/asml/chibi_sheet.png
+  portrait: characters/asml/reference_card.jpg
+
+default_style: default_manga
+supported_styles:
+  - default_manga
+  - chibi
+
+style_variants:
+  chibi:
+    description: Rounded super-deformed version of the same adult character.
+    preserve:
+      - golden waves, icy-blue eyes, lace cap, and cobalt ribbon
+      - cobalt bodice, tulip apron, white gloves, and windmill charm
+      - four silver mirrors with one violet point when the halo is active
+    transform:
+      proportions: Target 2.5 anatomical heads tall from crown to soles
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
