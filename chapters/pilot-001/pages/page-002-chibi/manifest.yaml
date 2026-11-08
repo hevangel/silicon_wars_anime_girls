@@ -6,13 +6,13 @@ generator: built-in image generation
 model: null
 seed: null
 generation_note: Chibi style-variant test of page-002, generated from the three chibi sheets as
-  references. Take 2 is the current art (facing fix at the user's direction); take 1 is kept at
-  art/panel-01-take1.png. The built-in generator did not expose a model identifier or seed.
-  The selected take was visually reviewed.
+  references. Take 3 is the current art (mirrored staging at the user's direction: Nvidia on
+  the left); takes 1-2 are kept in the art folder. The built-in generator did not expose a
+  model identifier or seed. The selected take was visually reviewed.
 panels:
 - id: panel-01
   brief: chapters/pilot-001/pages/page-002-chibi/panels/panel-01.yaml
-  prompt_sha256: ae383a53dfc21a530d93cba3e436b78c920e7082cad93820996230a3bc688668
+  prompt_sha256: 44fec4a39e8cfa921f38913494ab326f8b04f591cde2f75ce7323101cd606c03
   references:
   - path: characters/intel/chibi_sheet.png
     role: chibi_sheet
@@ -24,14 +24,16 @@ panels:
     role: chibi_sheet
     sha256: eda58d921dd3c45ea66ac36814ecbb6f98d787366b6d7052ee94ff9eb933b1a6
   output: chapters/pilot-001/pages/page-002-chibi/art/panel-01.png
-  image_sha256: 56521a2d729726cbd5d48f03becc1a8afeefdfd124a09376d0d33250a653513f
-  previous_take: chapters/pilot-001/pages/page-002-chibi/art/panel-01-take1.png
+  image_sha256: 1ace91b9d7e8d2c01047b1c592666c14159709e4111516ad3753839a84b37330
+  previous_takes:
+  - chapters/pilot-001/pages/page-002-chibi/art/panel-01-take1.png
+  - chapters/pilot-001/pages/page-002-chibi/art/panel-01-take2.png
 assembly:
   pillow_version: 12.3.0
   width: 1800
   height: 2600
   output: chapters/pilot-001/pages/page-002-chibi/final/page-002.png
-  sha256: 2d3681d615b032ee4304ec4fa98a150458cba14c1b2877c7423be30727cd7480
+  sha256: bbbe60f2c494676f56d2d76a622bcdd3dfca28eccbb8c54991bb73213874bc97
 renderer_note: tools/render_pilot.py selects the reference asset by the panel's
   style_variant (default_manga -> model_sheet, chibi -> chibi_sheet); page-002's original
   plan still validates and its re-render is pixel-identical to the committed final.
