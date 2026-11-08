@@ -4,6 +4,7 @@ identity: "Elementary-school girl with a fluffy silver-white side ponytail, blue
 reference_assets:
   model_sheet: characters/openai/character_sheet.png
   expressions: characters/openai/expressions.png
+  chibi_sheet: characters/openai/chibi_sheet.png
   portrait: characters/openai/reference_card.jpg
 
 default_style: default_manga

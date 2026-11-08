@@ -43,7 +43,7 @@ The younger characters occasionally call the older women Obaa-sama or Grandma, w
 
 ## Character ages
 
-- **Elementary-school child prodigies:** Cerebras, Mistral AI, DeepSeek, OpenAI, and Anthropic. All designs and stories are wholesome and nonsexualized.
+- **Elementary-school child prodigies:** Cerebras, Mistral AI, DeepSeek, OpenAI, Anthropic, and xAI. All designs and stories are wholesome and nonsexualized.
 - **Mature executives:** IBM and Oracle, in their late 50s or early 60s. IBM is the silver-haired Iron Lady who survives every technological cycle.
 - **Very old grandmothers:** Bell Labs (scholarly research grandmother), Fairchild (hands-on semiconductor matriarch).
 - **Younger grannies:** DEC (red varsity jacket, interactive-computing hacker), Sun Microsystems (joyful purple Solaris jacket).

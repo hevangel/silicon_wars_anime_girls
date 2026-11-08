@@ -4,6 +4,7 @@ identity: "Young adult with chestnut curls in high twin ponytails, yellow bows, 
 reference_assets:
   model_sheet: characters/huggingface/character_sheet.png
   expressions: characters/huggingface/expressions.png
+  chibi_sheet: characters/huggingface/chibi_sheet.png
   portrait: characters/huggingface/reference_card.jpg
 
 default_style: default_manga
