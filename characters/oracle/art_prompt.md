@@ -1,19 +1,16 @@
-# Oracle full-resolution character-sheet brief
+# Oracle · The Database Duchess
 
-Create a **16:9 anime character-reference sheet** for Oracle, titled “The Database Duchess,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Illustrate Oracle, a mature executive in her late 50s or early 60s in *Silicon Wars*. Use her [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) as the design references.
 
-**Age portrayal:** mature. Confident adult woman with age-appropriate clothing.
+## Continuity lock
 
-**Appearance:** Sophisticated mature executive with warm brunette curls, red glasses and confident smile
+- **Face and hair** · Mature features, amber-brown eyes, red rectangular glasses, and shoulder-length sculpted auburn waves.
+- **Clothing** · Tailored scarlet 1990s power blazer with structured shoulders and a defined waist over a fitted black sheath business dress. Show the continuous knee-length pencil-skirt hem in full-body views. Pair it with sheer charcoal hosiery and black pumps.
+- **Accessories** · Gold hoop earrings, a fine gold chain, and the Oracle lapel pin at the front. Her holographic database ledger appears when the scene calls for it.
+- **Palette and acting** · Scarlet, burgundy, black, and warm gold. She projects authority with a measured gaze and the slight smile of a confident negotiator.
 
-**Clothing:** Crimson tailored blazer, black silk blouse and holographic database ledger
+Signature ability · Relational Throne.
 
-**Personality and pose:** Strategic, competitive, formidable and commercially minded. Give this character a distinctive pose that differs from other company heroines.
+Signature line · “Information is a kingdom. I keep the keys.”
 
-**Speech and expression:** Polished sales language and decisive negotiation
-
-**Power visualization:** Relational Throne
-
-**Quote:** “Information is a kingdom. I keep the keys.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)

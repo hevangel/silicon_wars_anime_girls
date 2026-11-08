@@ -1,0 +1,24 @@
+id: oracle
+title: The Database Duchess
+identity: Mature executive with sculpted auburn waves, red rectangular glasses, amber-brown eyes, and a poised smile. She wears a structured scarlet blazer over a black knee-length business sheath dress with a pencil-skirt hem.
+reference_assets:
+  model_sheet: characters/oracle/character_sheet.png
+  expressions: characters/oracle/expressions.png
+  portrait: characters/oracle/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - sculpted auburn waves and red rectangular glasses
+      - scarlet blazer and black skirt silhouette
+      - gold hoop earrings and a confident smile
+    transform:
+      proportions: large head, tiny body
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
