@@ -124,6 +124,7 @@ She enters the season determined to prove she can ship, not just invent. Gemini 
 ## Character design assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette.
 - [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop: same colors and style, sunglasses and headphones removed, Android plush and Waymo belt charm added.
 - [Model sheet, reference card, and expression sheet prompts](character_sheet.prompt.md).
 - [Continuity lock](continuity.yaml).

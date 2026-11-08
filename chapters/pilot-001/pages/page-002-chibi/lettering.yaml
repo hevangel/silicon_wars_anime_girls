@@ -1,0 +1,6 @@
+page: page-002-chibi
+reading_direction: rtl
+items:
+  - {id: b01, panel: panel-01, kind: speech, text: "I am the strongest!", at: [0.845, 0.07], speaker: amd, tail: [0.435, 0.335]}
+  - {id: b02, panel: panel-01, kind: speech, text: "No! I am!", at: [0.60, 0.07], speaker: intel, tail: [0.175, 0.295]}
+  - {id: b03, panel: panel-01, kind: speech, text: "Hee hee... both of you together are still no match for one of my hands!", at: [0.50, 0.175], speaker: nvidia, tail: [0.755, 0.315]}

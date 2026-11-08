@@ -21,6 +21,7 @@ continuity_rules:
 reference_assets:
   model_sheet: characters/meta/character_sheet.png
   expressions: characters/meta/expressions.png
+  chibi_sheet: characters/meta/chibi_sheet.png
   portrait: characters/meta/reference_card.jpg
 
 default_style: default_manga

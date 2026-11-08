@@ -126,6 +126,7 @@ She opens the season defending the Citadel and ends it deciding whether to open 
 ## Visual assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds, expressions, and palette.
 - [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Artwork generation prompts](character_sheet.prompt.md)
 - [Full-length reference card](reference_card.jpg) showing the skirt emblem.
 - [Detailed final-anime illustration prompt](art_prompt.md)

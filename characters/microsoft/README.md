@@ -127,6 +127,7 @@ She starts the season as the steady partner holding the AI alliance together. Th
 ## Character design assets
 - [Illustrated character model sheet](character_sheet.png) with turnarounds in the business dress, three expressions, and palette.
 - [Expression sheet](expressions.png) with a full-body pose in the business dress and 12 facial expressions; glasses in 11 of 12 cells (SMUG still missing them).
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop at full size, as a 30-year-old, with glasses, suit, corporate name tag, and coffee mug; redrawn the same day in a business dress instead of trousers.
 - [Model sheet and reference card prompts](character_sheet.prompt.md).
 - [Continuity lock](continuity.yaml).

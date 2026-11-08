@@ -1,0 +1,37 @@
+chapter: pilot-001
+page: page-002-chibi
+status: review_draft
+human_approval: pending
+generator: built-in image generation
+model: null
+seed: null
+generation_note: Chibi style-variant test of page-002, generated from the three chibi sheets as
+  references. Take 2 is the current art (facing fix at the user's direction); take 1 is kept at
+  art/panel-01-take1.png. The built-in generator did not expose a model identifier or seed.
+  The selected take was visually reviewed.
+panels:
+- id: panel-01
+  brief: chapters/pilot-001/pages/page-002-chibi/panels/panel-01.yaml
+  prompt_sha256: ae383a53dfc21a530d93cba3e436b78c920e7082cad93820996230a3bc688668
+  references:
+  - path: characters/intel/chibi_sheet.png
+    role: chibi_sheet
+    sha256: 3716969c65a999a312e76cfec233371e63d34246b93825c2ed47695a2bab3e02
+  - path: characters/amd/chibi_sheet.png
+    role: chibi_sheet
+    sha256: 9e398b5dec622f81b0893fccba623660c6f7869a05068d4ff24c578cd2925ea3
+  - path: characters/nvidia/chibi_sheet.png
+    role: chibi_sheet
+    sha256: eda58d921dd3c45ea66ac36814ecbb6f98d787366b6d7052ee94ff9eb933b1a6
+  output: chapters/pilot-001/pages/page-002-chibi/art/panel-01.png
+  image_sha256: 56521a2d729726cbd5d48f03becc1a8afeefdfd124a09376d0d33250a653513f
+  previous_take: chapters/pilot-001/pages/page-002-chibi/art/panel-01-take1.png
+assembly:
+  pillow_version: 12.3.0
+  width: 1800
+  height: 2600
+  output: chapters/pilot-001/pages/page-002-chibi/final/page-002.png
+  sha256: 2d3681d615b032ee4304ec4fa98a150458cba14c1b2877c7423be30727cd7480
+renderer_note: tools/render_pilot.py selects the reference asset by the panel's
+  style_variant (default_manga -> model_sheet, chibi -> chibi_sheet); page-002's original
+  plan still validates and its re-render is pixel-identical to the committed final.

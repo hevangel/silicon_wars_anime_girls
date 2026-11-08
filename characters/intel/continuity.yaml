@@ -4,6 +4,7 @@ identity: Long light-blue hair, sapphire eyes, unbranded sapphire crown, royal-b
 reference_assets:
   model_sheet: characters/intel/character_sheet.png
   expressions: characters/intel/expressions.png
+  chibi_sheet: characters/intel/chibi_sheet.png
   portrait: characters/intel/reference_card.jpg
 
 default_style: default_manga

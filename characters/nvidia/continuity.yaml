@@ -4,6 +4,7 @@ identity: Long green braid, goggles, strong arms, athletic legs, and black leath
 reference_assets:
   model_sheet: characters/nvidia/character_sheet.png
   expressions: characters/nvidia/expressions.png
+  chibi_sheet: characters/nvidia/chibi_sheet.png
   portrait: characters/nvidia/reference_card.jpg
 
 default_style: default_manga
