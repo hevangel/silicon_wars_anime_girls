@@ -1,11 +1,12 @@
-# Character art template
+# Character template
 
-Templates for the three design assets each main character gets: a **model sheet**, a **reference card**, and an **expression sheet**. They are built from how [Intel](../intel/character_sheet.prompt.md), [AMD](../amd/character_sheet.prompt.md), and [Nvidia](../nvidia/character_sheet.prompt.md) were generated, with fixes learned from [Microsoft](../microsoft/character_sheet.prompt.md). This folder is not a character, and it is not listed in the roster.
+Templates for a character's written profile and for the three design assets each main character gets: a **model sheet**, a **reference card**, and an **expression sheet**. They are built from how [Intel](../intel/character_sheet.prompt.md), [AMD](../amd/character_sheet.prompt.md), and [Nvidia](../nvidia/character_sheet.prompt.md) were generated, with fixes learned from [Microsoft](../microsoft/character_sheet.prompt.md). This folder is not a character, and it is not listed in the roster.
 
 ## Contents
 
 | File | Use |
 |---|---|
+| [profile.md](profile.md) | Character profile (README): short roster fields plus character depth |
 | [prompts/model_sheet.prompt.md](prompts/model_sheet.prompt.md) | Four-view turnaround, three close-ups, palette |
 | [prompts/reference_card.prompt.md](prompts/reference_card.prompt.md) | 2:3 painted portrait with a two-line nameplate |
 | [prompts/expressions.prompt.md](prompts/expressions.prompt.md) | One full body plus 12 labeled faces |
@@ -36,6 +37,15 @@ Generate the assets in this order, because each one is the identity input for th
 4. **Correction passes**, one flaw at a time, with the edit-pass template.
 
 When the design source is a painted card that has already been approved, as with Microsoft and Google, revise the card first. Then build the model sheet from it.
+
+## Writing the profile
+
+[profile.md](profile.md) becomes the character's `README.md`. Its short fields mirror [roster.json](../roster.json). The **Character depth** sections cover look and presence, core contradiction, personality, background, company culture, brand image, relationships, dependencies, private side, voice samples, Season 1 arc, and how her power works in the story. The eight characters with model sheets are filled-in examples, starting with [Intel](../intel/README.md).
+
+- Read the [series bible](../../bible/story_bible.md) first: tone, the interdependence power system, and the three artistic rules.
+- Build the background from documented company history, culture, and brand image. Refer to real founders and executives by role, never by name, and don't invent product specs or numbers.
+- Describe only what the approved art shows. Characters without a model sheet are draft stand-ins and keep their draft text until their sheet is made.
+- Mirror every relationship in the other character's profile.
 
 ## Setting up a character
 
