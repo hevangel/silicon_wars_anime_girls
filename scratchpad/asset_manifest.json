@@ -175,6 +175,7 @@
     {
       "character": "tsmc",
       "path": "characters/tsmc/reference_card.jpg",
+      "archive_commit": "9db65e1f1fab3f99723297a1f500339ca3e262d1",
       "source": "foundry_trio_datasheet.png",
       "column": 1
     },
@@ -187,6 +188,7 @@
     {
       "character": "huawei",
       "path": "characters/huawei/reference_card.jpg",
+      "archive_commit": "9db65e1f1fab3f99723297a1f500339ca3e262d1",
       "source": "foundry_trio_datasheet.png",
       "column": 3
     },
