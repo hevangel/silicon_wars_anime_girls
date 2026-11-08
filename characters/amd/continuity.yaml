@@ -4,6 +4,7 @@ identity: Red braided high ponytail, amber eyes, black-and-crimson tactical jack
 reference_assets:
   model_sheet: characters/amd/character_sheet.png
   expressions: characters/amd/expressions.png
+  chibi_sheet: characters/amd/chibi_sheet.png
   portrait: characters/amd/reference_card.jpg
 
 default_style: default_manga
