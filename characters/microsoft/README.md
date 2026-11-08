@@ -43,8 +43,8 @@ OpenAI, businesses and developers
 > Great research. Can we deploy it securely by Monday?
 
 ## Character design assets
-- [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette. Two known flaws are recorded in the prompt file (garbled palette caption; badge also visible in the back view).
-- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions. Known flaw: glasses missing in 7 of the 12 cells; correction pending.
+- [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette.
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions, glasses in every cell.
 - [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop at full size, as a 30-year-old, with glasses, suit, corporate name tag, and coffee mug.
 - [Model sheet and reference card prompts](character_sheet.prompt.md).
 - [Continuity lock](continuity.yaml).
