@@ -1,0 +1,15 @@
+id: panel-01
+style_variant: chibi
+title: The Tug of War (Chibi Test)
+camera: Wide three-shot, single splash panel, chibi style variant test of page-002
+characters: [intel, amd, nvidia]
+references: [characters/intel/chibi_sheet.png, characters/amd/chibi_sheet.png, characters/nvidia/chibi_sheet.png]
+dialogue_ids: [b01, b02, b03]
+crop_center: [0.5, 0.42]
+art: chapters/pilot-001/pages/page-002-chibi/art/panel-01.png
+direction: "Exactly three chibi characters in a simplified cute version of the x86 Citadel testing courtyard, one single scene. A thick rope runs horizontally across the frame with a knot at its center, its left end held by the pair and its right end by Nvidia alone, the rope taut and angled slightly down toward the pair, who are losing. On the LEFT, chibi Intel from Image 1 (long light-blue hair, sapphire crown, royal-blue and cream imperial military coat, white gloves) and chibi AMD from Image 2 (bright red braided high ponytail, amber eyes, black-and-crimson tactical jacket, headphones at her neck) stand side by side TOGETHER, both gripping the rope with both tiny hands, leaning back hard, feet sliding, faces flushed and straining, eyes squeezed shut, with big cartoon sweat drops flying. On the RIGHT, chibi Nvidia from Image 3 (long green braid, goggles pushed up on her head, black leather jacket-dress with green seams) stands completely relaxed and upright, gripping the same rope with ONE tiny hand at her side without leaning at all, a smug deadpan grin on her face, while her OTHER hand casually curls a comically massive dark dumbbell up beside her head, the enormous weight clearly effortless for her. Leave clear light open sky space above Intel and AMD for two short speech balloons, and clear light open sky space above Nvidia for one longer speech balloon. No lettering, no text, no speech balloons drawn anywhere."
+framing: "Use a vertical portrait canvas, about 4:5. Keep all three faces, both rope grips, the full dumbbell, and all three chibi figures inside a central 4:5 crop; keep vital details away from the edges."
+notes:
+  - Chibi test variant of page-002 (brief panel-01) at the user's direction: Nvidia now pulls against Intel and AMD TOGETHER, one hand on the rope and her other hand curling a dumbbell, while the pair strain with flying sweat.
+  - Nvidia's line was rephrased cute at the user's request (see lettering.yaml b03); Intel and AMD keep their original page-002 shouts.
+  - crop_center is raised to 0.42 because the raw take is a full-bleed scene (no reserved balloon space in the art); the 4:5 page fit keeps more sky at the top so the balloons sit over sky instead of covering Nvidia's dumbbell.
