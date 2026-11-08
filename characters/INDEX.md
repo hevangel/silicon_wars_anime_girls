@@ -56,4 +56,6 @@
 
 Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), and [Apple](apple/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
 
+To make these assets for another character, start from the [character art template](_template/README.md).
+
 The [structured roster](roster.json) lists the same cast in tier order. The [original group artwork](../scratchpad/illustrations.md) is archived separately.
