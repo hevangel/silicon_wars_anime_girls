@@ -29,7 +29,7 @@
 
 - [TSMC](tsmc/README.md) — The Quiet Queenmaker
 - [ASML](asml/README.md) — The EUV Light Weaver
-- [Samsung](samsung/README.md) — The Sapphire Conglomerate Princess
+- [Samsung](samsung/README.md) — The Everything Empress
 - [Micron](micron/README.md) — The Stack-'Em-High Wrangler
 - [SK hynix](sk-hynix/README.md) — The HBM Princess
 

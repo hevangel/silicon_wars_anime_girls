@@ -324,12 +324,12 @@
     "slug": "samsung",
     "faction": "Memory Kingdom",
     "age": "adult",
-    "title": "The Sapphire Conglomerate Princess",
-    "hair": "dark navy blue",
-    "accent": "sapphire",
-    "appearance": "Flowing cobalt hair, sapphire eyes and regal bearing",
-    "clothing": "Luxurious blue-white tech armor, display ornaments and memory jewels",
-    "personality": "Proud, versatile, ambitious and competitive",
+    "title": "The Everything Empress",
+    "hair": "near-black with indigo sheen",
+    "accent": "white and ice-silver with sapphire accents",
+    "appearance": "Sleek straight near-black hair with a deep indigo sheen, center-parted and flowing past the waist with sapphire daenggi ribbons at the ends, sparkling sapphire eyes and a proud half-smile",
+    "clothing": "Modern hanbok-inspired dress in luminous white and ice-silver: short jeogori jacket with wide flowing sleeves, ice-blue goreum ribbon, very full flared chima skirt with glowing circuit hems, silver armored belt, white SAMSUNG sash, and a norigae overloaded with tiny gadgets",
+    "personality": "Proud, versatile, ambitious and competitive; the generous older sister who does everything and is slightly overextended",
     "speech": "Confident boasts about making every part of the system",
     "thinking": "Vertical integration across devices, displays, memory and fabrication",
     "motivation": "Lead as many technology categories as possible",
@@ -337,7 +337,7 @@
     "rivals": "SK hynix, Micron, Apple and TSMC",
     "allies": "Device makers and foundry partners",
     "ability": "Sapphire Crown",
-    "quote": "I make the memory, display and the device."
+    "quote": "Memory for everything, everywhere."
   },
   {
     "name": "Micron",
