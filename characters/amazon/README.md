@@ -43,6 +43,10 @@ AWS partners and suppliers
 > What is the cost and failure rate?
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
+- Illustrated character model sheet (character_sheet.png) — pending: one generation attempt on 2026-11-07 produced no image; the exact prompt is recorded in the prompt record below.
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions.
+- [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop: same colors and style, hair in her profile's low ponytail, canonical nameplate title, and one drone familiar carrying a tiny parcel.
+- [Model sheet, reference card, and expression sheet prompts](character_sheet.prompt.md).
+- [Continuity lock](continuity.yaml).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
