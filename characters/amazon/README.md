@@ -70,7 +70,7 @@ Relentless, resourceful, and customer-obsessed. She is competitive, cheerful in 
 | 2015 · Acquires Annapurna Labs; later the Graviton, Inferentia, and Trainium chips | She began forging her own chips to escape other people's prices |
 | 2017 · Acquires Whole Foods | Even groceries are logistics |
 | 2019 · Completes her move off Oracle's databases | She moved out of the Database Duchess's house and is proud of it |
-| 2023–2024 · Invests $8 billion in Anthropic | She backed the Cautious Scholar as her AI partner |
+| 2023–2024 · Invests $8 billion in Anthropic | She backed the Precautionary Prodigy as her AI partner |
 | Oct 2025 · Opens Project Rainier, an $11 billion AI data center in Indiana built on her Trainium chips | A fortress fed by her own forge |
 | Oct 2025 and Jan 2026 · Cuts about 14,000, then about 16,000 corporate jobs while spending on AI | Day 1 thinking, applied with a cleaver |
 | Nov 2025 · A $38 billion cloud deal with OpenAI | She now serves both estranged scholars |
