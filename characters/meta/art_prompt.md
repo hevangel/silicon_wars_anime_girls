@@ -1,19 +1,28 @@
-# Meta full-resolution character-sheet brief
+# Meta · The Social Worldbuilder
 
-Create a **16:9 anime character-reference sheet** for Meta, titled “The Social Worldbuilder,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Illustrate Meta, a 20-year-old adult woman in *Silicon Wars*. Match her [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg).
 
-**Age portrayal:** adult. Adult character, age-appropriate styling.
+## Continuity lock
 
-**Appearance:** Blue-purple hair, energetic expression and augmented-reality glasses
+- **Face and hair** · Violet eyes, a tousled blue-violet side bun, a swept fringe, and long electric-blue face-framing strands.
+- **VR goggles** · Keep the angular black VR headset strapped on and pushed up above her eyes. The cyan Meta infinity-loop emblem glows on the faceplate.
+- **Cyberpunk hoodie and cape** · Oversized black techwear hoodie with electric-blue seams and a long asymmetrical flowing violet holographic cape. Add fitted dark shorts over **fully opaque horizontal black-and-violet striped stockings extending from shorts hem all the way to boots**. No exposed thighs. Preserve distinctive cape silhouette in front, side and back views.
+- **Gear** · Holographic avatar wristband. Use sparse cyan wireframes when she activates it.
+- **Palette and acting** · Electric blue, violet, lilac, charcoal, and cyan light. Use crisp anime linework and painterly cel shading. Her expressions are energetic, outgoing, and curious.
 
-**Clothing:** Fashionable streetwear, VR visor and holographic avatar bracelets
+Signature ability · Avatar Multiverse.
 
-**Personality and pose:** Outgoing, curious, ambitious and trend-sensitive. Give this character a distinctive pose that differs from other company heroines.
+Signature line · “Open the gates. Let everyone build.”
 
-**Speech and expression:** Casual, humorous and overly enthusiastic about sharing
+[Exact generation prompts](character_sheet.prompt.md)
 
-**Power visualization:** Avatar Multiverse
+## November 2026 wardrobe revision
 
-**Quote:** “Open the gates. Let everyone build.”
+Keep Meta's blue-violet palette and the cyan-logo VR headset. Replace the prior iridescent jacket and cargo trousers as the defining silhouette with a hooded black cyberpunk top and a flowing purple/lilac holographic cape. The user requested a matching character sheet, expression sheet, and reference card. Replacement images have been generated separately and must be imported from the accompanying ChatGPT ZIP before this PR's published artwork matches the written continuity.
 
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+## Final striped-stockings approval
+
+- **Strict wardrobe:** black hoodie, flowing violet cyberpunk cape, fitted shorts, opaque black-and-violet striped stockings on both legs, and black tech boots; **no visible bare thighs**.
+- **Identity:** electric blue-violet hair with a side bun, violet eyes, Meta infinity-logo VR headset pushed up on the forehead.
+- **Required file split:** `character_sheet.png` landscape turnaround; `expressions.png` landscape twelve-expression grid; `reference_card.jpg` vertical 2:3 portrait card. Do not combine all three into one image.
+- **Status:** updated binary images created locally and available in the import ZIP, but not yet replaced in GitHub. See `IMPORT-striped-stockings.md`.

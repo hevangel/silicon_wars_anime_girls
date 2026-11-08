@@ -162,6 +162,7 @@
     {
       "character": "meta",
       "path": "characters/meta/reference_card.jpg",
+      "archive_commit": "1b39058ea5cf75f9a5818fc6890ad33677c4b7d3",
       "source": "platform_five_datasheet.png",
       "column": 4
     },
