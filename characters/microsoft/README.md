@@ -5,15 +5,15 @@
 | Field | Design |
 |---|---|
 | Faction | Platform Kingdoms |
-| Age portrayal | adult |
-| Hair color | deep blue |
+| Age portrayal | adult, 30 years old |
+| Hair color | ash blonde |
 | Brand color motif | azure |
 
 ## Appearance
-Navy hair neatly tied back, glasses and a calm commanding gaze
+Ash-blonde hair in a neat low bun with four-color windowpane clips, glasses and a calm commanding gaze
 
 ## Clothing and equipment
-Tailored azure suit with four-color pin and projected business dashboards
+Tailored dark charcoal suit with four-color windowpane pin, azure pocket square, blue lanyard with ID name badge, and projected business dashboards; white coffee mug with the windowpane logo
 
 ## Personality
 Pragmatic, diplomatic, procedural and strategic
@@ -43,6 +43,10 @@ OpenAI, businesses and developers
 > Great research. Can we deploy it securely by Monday?
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
+- [Illustrated character model sheet](character_sheet.png) with turnarounds, three expressions, and palette. Two known flaws are recorded in the prompt file (garbled palette caption; badge also visible in the back view).
+- [Expression sheet](expressions.png) with a full-body pose and 12 facial expressions. Known flaw: glasses missing in 7 of the 12 cells; correction pending.
+- [Painted reference card](reference_card.jpg) — revised 2026-11-07 from the original group-datasheet crop at full size, as a 30-year-old, with glasses, suit, corporate name tag, and coffee mug.
+- [Model sheet and reference card prompts](character_sheet.prompt.md).
+- [Continuity lock](continuity.yaml).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
