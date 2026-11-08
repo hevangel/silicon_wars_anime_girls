@@ -20,7 +20,7 @@
 
 - [Anthropic](anthropic/README.md) — The Precautionary Prodigy
 - [OpenAI](openai/README.md) — The Reckless Prodigy
-- [xAI](xai/README.md) — The Chaos Astronaut
+- [xAI](xai/README.md) — The Moneybags Moonshot
 - [Hugging Face](huggingface/README.md) — The Open-Source Sunshine Girl
 - [Mistral AI](mistral-ai/README.md) — The Little Wind Mage
 - [DeepSeek](deepseek/README.md) — The Frugal Reasoning Prodigy
@@ -54,7 +54,7 @@
 
 ## Artwork and production references
 
-Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [IBM](ibm/character_sheet.png), [Oracle](oracle/character_sheet.png), [Hugging Face](huggingface/character_sheet.png), [OpenAI](openai/character_sheet.png), and [Anthropic](anthropic/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
+Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [IBM](ibm/character_sheet.png), [Oracle](oracle/character_sheet.png), [Hugging Face](huggingface/character_sheet.png), [OpenAI](openai/character_sheet.png), [Anthropic](anthropic/character_sheet.png), and [xAI](xai/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
 
 To make these assets for another character, start from the [character art template](_template/README.md).
 
