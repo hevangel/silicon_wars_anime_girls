@@ -1,0 +1,7 @@
+chapter: pilot-001
+page: page-002
+layout: layouts/single-panel.yaml
+reading_direction: rtl
+panels:
+  - id: panel-01
+    brief: chapters/pilot-001/pages/page-002/panels/panel-01.yaml

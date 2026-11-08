@@ -49,8 +49,8 @@ def load_source(plan):
         if max(first[0], second[0]) < min(first[2], second[2]) and max(first[1], second[1]) < min(first[3], second[3]):
             raise ValueError("Panel rectangles overlap")
     ordered = sorted(boxes, key=lambda key: (boxes[key][1], -boxes[key][0]))
-    if len(ordered) != 6 or [panel["id"] for panel in storyboard["panels"]] != ordered:
-        raise ValueError("The storyboard must list all six layout panels in right-to-left order")
+    if len(storyboard["panels"]) != len(ordered) or [panel["id"] for panel in storyboard["panels"]] != ordered:
+        raise ValueError("The storyboard must list all layout panels in right-to-left order")
 
     cast = {name: read_yaml(ROOT / path) for name, path in style["continuity"].items()}
     by_panel = {panel_id: [] for panel_id in ordered}
@@ -156,14 +156,15 @@ def main():
     mode.add_argument("--prompt", metavar="PANEL", help="Print the exact art prompt for one panel")
     mode.add_argument("--check", action="store_true", help="Validate source and references only")
     parser.add_argument("--output", type=Path, help="Write the assembled PNG to a different path")
+    parser.add_argument("--plan", type=Path, default=PLAN, help="Render plan YAML (defaults to the page-001 plan)")
     args = parser.parse_args()
     try:
-        plan = read_yaml(PLAN)
+        plan = read_yaml(args.plan if args.plan.is_absolute() else ROOT / args.plan)
         source = load_source(plan)
         if args.prompt:
             print(prompt_for(source[2][args.prompt], source[4]))
         elif args.check:
-            print("Pilot source validated: six panels, reference order, layout, and lettering.")
+            print(f"Pilot source validated: {len(source[2])} panel(s), reference order, layout, and lettering.")
         else:
             print(assemble(plan, source, args.output))
     except (KeyError, OSError, TypeError, ValueError, yaml.YAMLError) as error:

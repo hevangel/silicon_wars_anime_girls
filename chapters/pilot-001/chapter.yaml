@@ -1,8 +1,8 @@
 id: pilot-001
 title: The Compatibility Test
-format: one-page right-to-left manga pilot
+format: right-to-left manga pilot (six-panel page plus a single-panel page)
 status: review_draft
 featured_characters: [intel, amd, nvidia]
-pages: [page-001]
+pages: [page-001, page-002]
 script: chapters/pilot-001/script.md
 review: chapters/pilot-001/qa.yaml
