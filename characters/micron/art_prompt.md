@@ -6,7 +6,8 @@ The current `reference_card.jpg` was generated from this prompt, using DeepSeek'
 
 Design notes behind the prompt:
 
-- Her bible role is the steady underdog in DRAM, NAND and HBM, so a cowgirl fits: memory as a ranch (DRAM the fast horse, NAND the barn that stores everything, HBM the tall stack of hay bales), a glowing blue lasso as her memory bus, a DIMM holstered like a six-shooter (no actual weapon), a chip-shaped sheriff star, and a DIMM edge-connector belt buckle. Potatoes are the Idaho gag — Micron's home is Boise.
+- Her bible role is the steady underdog in DRAM, NAND and HBM, so a cowgirl fits: memory as a ranch (DRAM the fast horse, NAND the barn that stores everything, HBM the tall stack of hay bales), a glowing lasso as her memory bus, a DIMM holstered like a six-shooter (no actual weapon), a chip-shaped sheriff star, and a DIMM edge-connector belt buckle. Potatoes are the Idaho gag — Micron's home is Boise.
+- Brand identity corrected 2026-11-08: Micron's corporate color is no longer blue, and it has a new logo. The October 2024 rebrand retired the blue orbiting-M mark for a text-only rounded lowercase wordmark in silicon silver-gray with an iridescent wafer gradient (light reflecting across a wafer — violet/indigo sheen). Her accents therefore use silicon silver + the iridescent gradient, not Micron blue; the brief below is the original user-supplied text (kept verbatim), and the palette deltas applied at generation are listed in the generation record. Her sleeve carries the plain wordmark only — no orbiting M. (Denim jeans and her blue eyes are clothing/character, not brand accents.)
 - Hair changed from silver to honey-blonde in a long braid: silver would clash with TSMC's silver bob, and the braid under a hat gives her a different silhouette.
 - Rivals Samsung and SK hynix are left unlabeled — they read as giant neighboring ranches with huge herds, not logos.
 - Title picked from the user's shortlist ("The Stack-'Em-High Wrangler"); the original tagline "Higher capacity. Higher ambition." is kept as her signature line (per the current name-plate convention it does not appear on the card itself).
@@ -81,7 +82,7 @@ silhouette that reads at small size: wide cream cowboy hat, long side braid,
 vest and glowing lasso.
 ```
 
-Generation record: name plate holds exactly two centered lines (name + title), no tagline, per the current convention. All hooks landed: holstered DIMM with gold contacts, DIMM-connector buckle, chip-shaped sheriff star and hatband concho, glowing lasso, patched fringed vest, gear spurs, "Famous Potatoes" crate, and a barn signed "NAND BARN — STORAGE". Noted: the floating chip's label renders as "DRAM — [chip] — HBM" (NAND moved to the barn sign), and a coiled rope rather than a toolkit hangs at her belt.
+Generation record: the first generation used the brief's original Micron-blue accents and is preserved at `../../scratchpad/superseded/micron-reference-card-wrangler-blue-v1.jpg`. The current card is the second generation, with these palette deltas applied over the brief: hat band silver-gray with an iridescent sheen (chip concho kept); shirt cream-white with silver-violet trim and the plain Micron wordmark stitched on the sleeve (no orbiting-M logo, per the Oct 2024 rebrand); neckerchief iridescent violet; lasso, HBM stack, barn and chip glows in iridescent violet-silver; boot stitching silver. Name plate holds exactly two centered lines (name + title), no tagline, per the current convention. All hooks landed: holstered DIMM with gold contacts, DIMM-connector buckle, chip-shaped sheriff star, glowing lasso, fringed vest, gear spurs, toolkit by the "Famous Potatoes" crate, a barn signed "NAND BARN", and this time the floating chip's label reads in full: "DRAM - NAND - HBM". Noted: she winks in this take, one eye closed.
 
 ## Character sheet brief (pending — update to the new design when her sheet is built)
 
@@ -91,7 +92,7 @@ Create a **16:9 anime character-reference sheet** for Micron, titled "The Stack-
 
 **Appearance:** Adult young woman with honey-blonde hair in a long thick side braid tied with a blue ribbon, bright blue eyes, and a cream cowboy hat with a blue band and chip-shaped concho
 
-**Clothing:** Blue-and-white western shirt with rolled sleeves under a fringed cream leather vest with a chip-shaped sheriff star, blue neckerchief, jeans with a DIMM edge-connector belt buckle, tan cowboy boots with gear-shaped spurs, and a DIMM holstered at her hip
+**Clothing:** Cream-white western shirt with silver-violet trim and rolled sleeves under a fringed cream leather vest with a chip-shaped sheriff star, iridescent violet neckerchief, jeans with a DIMM edge-connector belt buckle, tan cowboy boots with gear-shaped spurs, and a DIMM holstered at her hip
 
 **Personality and pose:** Practical, resilient, innovative and persistent; the steady underdog. Give this character a distinctive pose that differs from other company heroines.
 
