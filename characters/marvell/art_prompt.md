@@ -1,17 +1,11 @@
-# Marvell — Full manga character-sheet brief
+# Marvell — illustration brief
 
-Produce a landscape **16:9** professional anime character reference sheet for the original *Silicon Wars* character Marvell, titled **The Deep-Sea Navigator**. Full-body front, side and back views, 3 expressions, signature technical prop, 5 color swatches, and a small labeled bio card; clean, highly detailed consistent cel shading.
+Draw Marvell, **The Deep-Sea Navigator**, a 20-year-old optical field engineer and fictional *Silicon Wars* character. Use the [model sheet](character_sheet.png) and [reference card](reference_card.jpg) as the visual authority. Follow the [character art template](../_template/README.md) for each asset type and the [generation record](character_sheet.prompt.md) for the accepted edit passes.
 
-## Continuity lock
-- Age: adult; adult woman.
-- Appearance: Dark teal hair, blue ocean-colored eyes and calm seafaring poise.
-- Costume: Naval-engineering coat, copper trim and a luminous fiber-optic compass.
-- Hair: deep teal. Signature brand accent: ocean teal.
-- Body language: Thoughtful, precise, quietly ambitious.
-- Technical magical effect: Data Tide.
-- Tone: sophisticated manga + vintage computing references + legible tech datasheet UI.
-- Avoid giving all characters the same pointing or outstretched-hand pose; use a unique posture related to her role.
-- Character should be consistently recognizable from original group images (indexed in ../../scratchpad/illustrations.md).
-- Text needs proofread and easy-to-read. No erroneous labels or fabricated performance specifications.
+## Continuity
 
-Include the signature line: “Someone must build the bridges that dragons fly across.”
+- Jaw-length navy-black asymmetrical bob. The shorter right side tucks under the angular Marvell clip. The left side reaches the jaw and carries a single deep-teal streak. Keep the tapered nape, amber eyes, fine wire-frame glasses, and teal-and-gold drop earrings.
+- One-piece knee-length white coatdress. Keep the storm collar, rolled sleeves, navy high-neck inset, copper piping, angular pockets, narrow navy skirt side panels, right upper-sleeve emblem, teal harness, and copper-buckled utility belt with stylus holster. Dark ankle engineering boots with teal stitching.
+- She is a hands-on peer of Arm and Qualcomm. Show concentration at the workbench and the small grin that follows a successful repair. Her body language should read younger and more informal than Broadcom's.
+- **Data Tide** is a cyan pulse traveling through a narrow fiber between chip packages. A faint seafloor route chart can echo the link in the background. Keep her glasses, face, and hand placement clear.
+- Use the angular Marvell symbol plus the name in the sheet title lockup. The card's two-line nameplate reads **MARVELL** and **THE DEEP-SEA NAVIGATOR**.
