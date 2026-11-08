@@ -2,9 +2,10 @@ page: page-002-chibi
 style_variant: chibi
 checks:
   staging: "Pass - Nvidia alone on the right pulls against Intel and AMD together on the left, per the user's brief (the default_manga page-002 has Intel vs AMD with Nvidia seated)."
-  nvidia_hands: "Pass - one hand grips the rope at her side; the other curls the huge dumbbell beside her head."
-  effort_contrast: "Pass - Intel and AMD flushed, eyes squeezed, teeth gritted, sweat drops flying, feet sliding; Nvidia upright, relaxed, smug deadpan grin with sparkle accents."
-  identity: "Pass - chibi designs match the three chibi sheets (Intel crown/coat, AMD ponytail/headphones, Nvidia braid/goggles/jacket-dress)."
-  dialogue: "Pass - reading order RTL: AMD 'I am the strongest!', Intel 'No! I am!', then Nvidia's rephrased line 'Hee hee... both of you together are still no match for one of my hands!' (cute rephrase at the user's request; ASCII-safe, no em-dash, per the renderer font limit)."
-  lettering_layout: "Known overlap, accepted for a test render: Nvidia's balloon tail crosses AMD's balloon. Balloons were moved three times during layout (sky band is narrow); all text is fully readable and tails reach the right speakers. Tighten if this test page is promoted."
-  art_text: "Pass - the raw art is text-free; all lettering is renderer-applied and editable."
+  facing: "Fixed in take 2 at the user's direction - the pair are in three-quarter view facing RIGHT toward Nvidia while leaning back left; AMD's face is fully turned to her with an angry glare, and Nvidia faces left toward them. Take 1 (front-facing pair) is kept at art/panel-01-take1.png."
+  nvidia_hands: "Pass with a trade-off - one hand curls the huge dumbbell; the rope hand reads at the central knot beside her rather than at her side, and the rope end dangles from the knot. Her other hand is free at her side. Take 1 had the cleaner at-her-side grip."
+  effort_contrast: "Pass - Intel and AMD flushed and straining with sweat drops flying; Nvidia upright, relaxed, smug."
+  identity: "Pass with one nit - chibi designs match the three chibi sheets; Intel's gloves render skin-toned instead of white in take 2."
+  dialogue: "Pass - reading order by position: AMD 'I am the strongest!', Intel 'No! I am!', then Nvidia's rephrased line 'Hee hee... both of you together are still no match for one of my hands!' lowest as the punchline (cute rephrase at the user's request; ASCII-safe, no em-dash, per the renderer font limit)."
+  lettering_layout: "Fixed in take 2 - balloons are staggered in three rows with no overlaps and no crossed tails (the take-1 layout had Nvidia's tail crossing AMD's balloon). Long thin tails remain, a house renderer trait with distant speakers."
+  art_text: "Pass - the raw art is text-free apart from the small emblem glyphs the generator adds on costumes; all lettering is renderer-applied and editable."
