@@ -1,0 +1,36 @@
+page: page-003
+reading_direction: rtl
+items:
+- id: b01
+  panel: panel-01
+  kind: speech
+  text: Wait! A queen does not sprint! Maintain formation!
+  at:
+  - 0.77
+  - 0.1
+  speaker: intel
+  tail:
+  - 0.79
+  - 0.42
+- id: b02
+  panel: panel-01
+  kind: speech
+  text: Hey! Don't you walk away, Nvidia! We're not finished!
+  at:
+  - 0.49
+  - 0.27
+  speaker: amd
+  tail:
+  - 0.56
+  - 0.46
+- id: b03
+  panel: panel-01
+  kind: speech
+  text: If you want the lead, keep up with the clock speed.
+  at:
+  - 0.22
+  - 0.1
+  speaker: nvidia
+  tail:
+  - 0.28
+  - 0.34

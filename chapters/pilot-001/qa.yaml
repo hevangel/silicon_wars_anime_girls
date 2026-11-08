@@ -8,4 +8,7 @@ checks:
   - Page 002 is a single splash panel: Intel and AMD deadlocked in a tug of war over one taut rope
   - Nvidia seated in the foreground, casually pressing a massive dumbbell with one hand
   - Page 002 dialogue reads right to left (AMD, then Intel, then Nvidia's punchline) and uses only glyphs the renderer font supports (no em dashes)
+  - Page 003 is a single splash panel: Intel, AMD, and Nvidia walking in a line down the Citadel corridor
+  - Nvidia leads calmly at the front in the foreground, AMD sprints in the midground chasing her, and Intel hurries behind to catch up while maintaining imperial decorum
+  - Page 003 dialogue reads right to left (Intel, AMD, then Nvidia's punchline) with non-overlapping balloons
 human_approval: pending

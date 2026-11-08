@@ -1,0 +1,11 @@
+id: panel-01
+style_variant: default_manga
+title: The Line Walk
+camera: Wide three-shot with depth, single splash panel
+characters: [intel, amd, nvidia]
+references: [characters/intel/character_sheet.png, characters/amd/character_sheet.png, characters/nvidia/character_sheet.png]
+dialogue_ids: [b01, b02, b03]
+crop_center: [0.5, 0.5]
+art: chapters/pilot-001/pages/page-003/art/panel-01.png
+direction: "Three adult women walking in a line with clear perspective and distance down an x86 Citadel testing corridor. In the foreground at the front of the line, Nvidia (thick emerald-green braid, goggles pushed up, black leather jacket-dress with glowing green circuit seams) strides confidently forward, calm and unbothered, glancing back over her shoulder with an amused smirk. In the middle ground, AMD (fiery red high ponytail, amber eyes, black-and-crimson tactical jacket with chiplets, headphones at neck) sprints dynamically to chase her down with an energetic competitive shout. In the background, Intel (light-blue hair, sapphire crown, royal-blue imperial coat with gold epaulettes, white gloves) hurries to catch up, lifting her coat hem and steadying her crown, flustered and indignant trying to preserve royal decorum. Leave open space in the upper portion for dialogue bubbles. No text, lettering, or watermarks in the art."
+framing: "Use a vertical portrait canvas, about 4:5. Keep all three characters, their silhouettes, and expressions clearly framed inside a central 4:5 crop; keep vital details away from the edges."

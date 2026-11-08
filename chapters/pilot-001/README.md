@@ -1,6 +1,6 @@
 # Pilot 001 · The Compatibility Test
 
-A production test for Intel, AMD, and Nvidia. Page 001 is six panels — read the paired rows from right to left. Page 002 is a single splash panel.
+A production test for Intel, AMD, and Nvidia. Page 001 is six panels — read the paired rows from right to left. Page 002 and Page 003 are single splash panels.
 
 ![Rendered manga page for Pilot 001](pages/page-001/final/page-001.png)
 
@@ -23,6 +23,24 @@ Assemble it the same way, with its own render plan:
 python tools/render_pilot.py --plan chapters/pilot-001/render-page-002.yaml --check
 python tools/render_pilot.py --plan chapters/pilot-001/render-page-002.yaml
 ```
+
+## Page 003 · The Line Walk
+
+![Rendered single-panel page 003](pages/page-003/final/page-003.png)
+
+The trio walks in a line down the x86 Citadel corridor: Nvidia strides ahead calmly in the lead, AMD sprints dynamically to chase her down, and Intel hurries behind trying to maintain her imperial decorum.
+
+- [Panel brief](pages/page-003/panels/panel-01.yaml) and [editable lettering](pages/page-003/lettering.yaml)
+- [Panel order](pages/page-003/storyboard.yaml) on the reusable [single-panel layout](../../layouts/single-panel.yaml), [render plan](render-page-003.yaml), and [generation manifest](pages/page-003/manifest.yaml)
+
+Assemble it with its render plan:
+
+```sh
+python tools/render_pilot.py --plan chapters/pilot-001/render-page-003.yaml --check
+python tools/render_pilot.py --plan chapters/pilot-001/render-page-003.yaml
+```
+
+---
 
 The ZIP contributed the compatibility-test premise, per-panel briefs, shared prompt, separate lettering, generation manifest, and review gate. This adaptation uses the current character PNGs and color so the cast’s designs are easy to compare. The page is a review draft.
 
