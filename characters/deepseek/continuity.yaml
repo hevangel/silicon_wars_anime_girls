@@ -4,6 +4,7 @@ identity: Elementary-school girl about 9–10 with navy-to-sea-blue double buns,
 reference_assets:
   model_sheet: characters/deepseek/character_sheet.png
   expressions: characters/deepseek/expressions.png
+  chibi_sheet: characters/deepseek/chibi_sheet.png
   portrait: characters/deepseek/reference_card.jpg
 
 default_style: default_manga
