@@ -5,15 +5,15 @@
 | Field | Design |
 |---|---|
 | Faction | AI Academy |
-| Age portrayal | adult |
-| Hair color | golden yellow |
+| Age portrayal | Young adult |
+| Hair color | chestnut brown |
 | Brand color motif | sunny yellow |
 
 ## Appearance
-Golden hair in playful buns, bright warm eyes and smiling hair clips
+Chestnut-brown curls in high twin ponytails with yellow bows, a smiling mascot clip, and warm amber-brown eyes
 
 ## Clothing and equipment
-Oversized yellow hoodie, headphones and model-card backpack
+White sailor blouse with navy collar and yellow piping, navy pleated skirt with yellow trim, white socks, navy loafers, purple-and-yellow backpack, and a yellow mascot plush
 
 ## Personality
 Friendly, inclusive, supportive and energetic
@@ -43,6 +43,9 @@ Open AI researchers, developers and Mistral
 > You made a model? Let's share it!
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
+- [Character model sheet](character_sheet.png)
+- [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
+- [Painted reference card](reference_card.jpg)
+- [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

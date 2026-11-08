@@ -1,0 +1,25 @@
+id: huggingface
+title: The Open-Source Sunshine Girl
+identity: "Young adult with chestnut curls in high twin ponytails, yellow bows, a smiling mascot clip, and warm amber-brown eyes. Wears a white sailor top, a navy pleated skirt with yellow trim, and a purple-and-yellow backpack."
+reference_assets:
+  model_sheet: characters/huggingface/character_sheet.png
+  expressions: characters/huggingface/expressions.png
+  chibi_sheet: characters/huggingface/chibi_sheet.png
+  portrait: characters/huggingface/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - chestnut twin ponytails, yellow bows, and mascot clip
+      - navy-and-yellow sailor trim and purple backpack
+      - mascot plush and warm, welcoming smile
+    transform:
+      proportions: large head, tiny body
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable

@@ -36,6 +36,8 @@ Google, Amazon and Apple
 ## Alliances
 OpenAI, businesses and developers
 
+[OpenAI](../openai/README.md) looks up to her like a big sister. Microsoft pays for her field trips, shares her umbrella, and carries her home when she falls asleep after a demo.
+
 ## Special ability
 **Azure Fleet** — a fictional metaphor for the real technology.
 

@@ -1,0 +1,49 @@
+# TSMC · The Quiet Queenmaker generation record
+
+The built-in image generator produced all three illustrations. The reference card was approved before the model and expression sheets were generated.
+
+## Reference card
+
+Inputs [previous card](https://github.com/hevangel/silicon_wars_anime_girls/blob/9db65e1f1fab3f99723297a1f500339ca3e262d1/characters/tsmc/reference_card.jpg) for the retained motifs and [reference card layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/9db65e1f1fab3f99723297a1f500339ca3e262d1/characters/_template/layout/reference_card_layout.png) for framing. Output [reference_card.jpg](reference_card.jpg).
+
+Generate a polished 1024 × 1536 portrait anime reference card for TSMC, "The Quiet Queenmaker", an original fictional Silicon Wars personification. Image 1 is the older TSMC card for the wafer die-grid motif, iridescent disc, amber eyes, and small red TSMC clothing mark only. Use the written design for her new face framing, haircut, outfit, and pose. Image 2 is the blank reference-card template, for the thin border and centered bottom nameplate only. This card is one of a paired set with a woman of the same age, but show TSMC alone in the foreground.
+
+She is an adult woman around 28 with a refined late-twenties face, calm amber eyes, short glossy ash-silver blunt bob stopping at the chin, razor-straight blunt bangs, and one small silver wafer-die hairpin with one short wine-red tassel. No stray hair or elaborate ornaments. She wears thin round silver glasses and a tailored white-and-pearl cleanroom tunic and matching skirt. Both carry a fine silver-and-pearl chip die grid woven into the fabric. High collar, discreet crisp red tsmc mark on her chest, thin deep wine-red piping and lining, narrow wine-red sash beneath a slim silver belt, fine white gloves, a surgical mask lowered around her neck, and a tiny jeweler's loupe on a silver chain. White, pearl and silver dominate. Keep the red accents narrow.
+
+Frame her from head to below the knees with a poised straight posture in three-quarter view. She holds a thin iridescent silicon wafer at eye level in one gloved hand, naturally gripping its edge. Angle the wafer enough to show a fine rainbow die grid and give both the wafer and her face separate clear silhouettes. Her eyes track the wafer, with the faintest pleased smile and a hint of tension held in her shoulders. On a nearby inspection bench, arrange tweezers, a ruler, laminated checklist, spare pair of white gloves and an untouched cup of tea in an orderly line. The bright white cleanroom has glass partitions, racks of wafers, a reflective floor, soft warm gold-yellow light, distant bunny-suited technicians, and a subtle queue of tiny waiting figures visible through a service window. Keep the background subdued, calm and immaculate.
+
+Clean anime cel shading, soft luminous whites, very fine silver textures and restrained wine-red details. Two lines only, centered as a vertically balanced group in the bottom plate with equal padding: "TSMC" and "THE QUIET QUEENMAKER". No tagline, third line, top banner, profile grid, or other display text.
+
+## Model sheet
+
+Inputs the approved [reference card](reference_card.jpg) for identity and [model sheet layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/9db65e1f1fab3f99723297a1f500339ca3e262d1/characters/_template/layout/model_sheet_layout.png) for structure. This pass supplied the model sheet before the cleanup below.
+
+Create a finished 1536 × 1024 landscape anime character model sheet for the following Silicon Wars adult character. Image 1 is the approved portrait and strict identity and costume source. Image 2 is the model-sheet template for layout only. Reconstruct the whole character without the original scenery, effects, original portrait framing or mannequin.
+
+TSMC / THE QUIET QUEENMAKER. Adult woman about 28, mature poised facial structure, amber eyes, thin round silver glasses, short ash-silver chin-length bob with razor-straight bangs, and one tiny silver die-grid hairpin with a short wine-red tassel on the same side in every view. Tailored pearl-white high-collar cleanroom tunic and fitted knee-length skirt, subtle fine silver die grid woven across both garments, a small dark wine-red lowercase tsmc mark on the chest, slender wine-red piping, narrow wine-red sash beneath a thin silver belt, fine white gloves, surgical mask lowered around her neck, and a tiny jeweler's loupe on a long silver chain. Complete the lower silhouette with understated closed-toe pearl-white ankle boots with a low stable heel. Predominantly white, pearl and silver with narrow wine-red accents. Still, meticulous and calm.
+
+Place exactly four separate complete standing turnarounds in one row at the same adult scale and baseline, labeled FRONT, THREE-QUARTER, SIDE, BACK. Show the entire topmost ornament and both shoes in frame where visible. Use a neutral steady stance with relaxed arms and empty hands, keeping the torso and outfit readable. Keep the same adult proportions, face, garment construction, layer order, hair color and accessory placement at every angle. The front-only chest motif or logo appears on the front or three-quarter view only where visible. The side and back reveal garment and hair construction. Preserve belt-mounted items, but keep the wafer, hologram, detached tools and other handheld props off the sheet.
+
+In a distinct bottom band, draw exactly three shoulder-up studies and a compact unlabeled palette strip. Acting studies in order: COMPOSED (level, calm), INSPECTING (focused eyes and a tiny frown), and SATISFIED (a very faint smile). Glasses remain on in all three. Use white, pearl gray, silver, wine red and a tiny warm amber palette. Use legible labels above or below their own portraits. Clean detailed anime cel shading, warm off-white paper and a fine border keyed to the character palette. Text only for the exact character name and title, the four turn labels, the three acting labels, and the small established costume emblem. No extra figures, slogan, scenery, or additional panels.
+
+## Model sheet lettering cleanup
+
+Input the first model render. Output [character_sheet.png](character_sheet.png).
+
+Make one localized edit to this 1536 × 1024 TSMC model sheet: remove the large standalone wine-red "tsmc" wordmark above the palette swatches in the lower-right corner. Replace only those standalone letters with clean warm off-white paper matching the area around them. Keep the swatches, divider, frame, titles, all four figures, all three facial studies, and the small chest logos as they are. Do not move or resize any element. Preserve the original dimensions and layout.
+
+## Expression sheet
+
+Inputs the model sheet before the lettering cleanup, with the same character art as the [final sheet](character_sheet.png) and [expressions layout](https://github.com/hevangel/silicon_wars_anime_girls/blob/9db65e1f1fab3f99723297a1f500339ca3e262d1/characters/_template/layout/expressions_layout.png) for the twelve-cell grid. Output [expressions.png](expressions.png).
+
+Create a polished 1536 × 1024 landscape anime expression sheet for TSMC, THE QUIET QUEENMAKER, a late-twenties adult woman in Silicon Wars. Image 1 is the approved model sheet, the strict reference for her face, build, hairstyle, and outfit. Image 2 is the blank expression sheet template for layout only. Draw finished original art in place of its placeholders.
+
+Maintain mature facial proportions, amber eyes, short ash-silver bob and blunt bangs, silver die hairpin with short wine-red tassel, thin round silver glasses, pearl-white fitted die-grid tunic and skirt with thin wine-red piping and sash, lowered white mask at the neck, silver belt and loupe chain, white gloves and pearl-white ankle boots. Keep both round spectacle lenses, bridge and frames clearly on her face in every visible portrait. Keep the pin on the same side and the mask around the neck. Match the model sheet's palette and polished anime cel shading.
+
+On warm off-white paper, reserve the left 30 percent for the title "TSMC" / "THE QUIET QUEENMAKER" and one full standing three-quarter figure, gloved hands empty and relaxed, hair to boots inside the frame. On the right place exactly twelve bordered head-and-shoulder portraits in a precise three-column four-row grid. Keep camera angle, head scale, silhouette and lighting fixed. Put one legible uppercase English label above each panel in this exact row order:
+NEUTRAL | SMILING | EYES CLOSED
+ANGRY | CRYING | SURPRISED
+SMUG | FLUSTERED | SERIOUS
+BLUSHING | EXCITED | OMINOUS
+
+Neutral is poised and observant; smiling is a small warm closed-mouth smile; eyes closed is a composed pause; angry is a tight restrained reprimand; crying has a visible quiet tear; surprised is wide-eyed with a small open mouth; smug is one raised corner and a lifted brow; flustered has slight heat and a sweat drop; serious is a level inspection stare; blushing is restrained with pink cheeks; excited is a rare bright smile; ominous is a cool shadowed gaze. Draw expressions distinct without losing her reserve. Include only the title, 12 panel labels, and tiny established costume mark, with no separate large wordmark, handheld props, scenery or slogan.

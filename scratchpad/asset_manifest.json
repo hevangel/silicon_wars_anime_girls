@@ -175,6 +175,7 @@
     {
       "character": "tsmc",
       "path": "characters/tsmc/reference_card.jpg",
+      "archive_commit": "9db65e1f1fab3f99723297a1f500339ca3e262d1",
       "source": "foundry_trio_datasheet.png",
       "column": 1
     },
@@ -187,36 +188,42 @@
     {
       "character": "huawei",
       "path": "characters/huawei/reference_card.jpg",
+      "archive_commit": "9db65e1f1fab3f99723297a1f500339ca3e262d1",
       "source": "foundry_trio_datasheet.png",
       "column": 3
     },
     {
       "character": "anthropic",
       "path": "characters/anthropic/reference_card.jpg",
+      "archive_commit": "efbc36a5bcd2a1b0c10343989e4edd2a886efe08",
       "source": "ai_quartet_datasheet.png",
       "column": 1
     },
     {
       "character": "openai",
       "path": "characters/openai/reference_card.jpg",
+      "archive_commit": "8066cb3abc61768d9cecd6b1620405c1d569161f",
       "source": "ai_quartet_datasheet.png",
       "column": 2
     },
     {
       "character": "xai",
       "path": "characters/xai/reference_card.jpg",
+      "archive_commit": "e2d1a7f3c3dd1d41b67482dbf9b9f99763f693fa",
       "source": "ai_quartet_datasheet.png",
       "column": 3
     },
     {
       "character": "huggingface",
       "path": "characters/huggingface/reference_card.jpg",
+      "archive_commit": "8066cb3abc61768d9cecd6b1620405c1d569161f",
       "source": "ai_quartet_datasheet.png",
       "column": 4
     },
     {
       "character": "cerebras",
       "path": "characters/cerebras/reference_card.jpg",
+      "archive_commit": "09a3b366cffd637fd8b47cdc6df277a92e865aa3",
       "source": "ai_juniors_datasheet.png",
       "column": 1
     },

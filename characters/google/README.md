@@ -31,6 +31,9 @@ Organize knowledge and turn research into universal products
 Too many unrelated ideas compete for attention
 
 ## Rivalries
+
+[OpenAI](../openai/README.md) treats Google's old Academy textbook as a springboard for her own ideas. Google quietly resents how often those ideas look like copies.
+
 Microsoft, OpenAI and Meta
 
 ## Alliances
@@ -72,7 +75,7 @@ Brilliant, distracted, expansive, and creative. She is warm and generous with wh
 | 2022–2023 · ChatGPT takes the spotlight; she launches Bard, then Gemini, and merges Brain and DeepMind | Her greatest invention made her rival famous. She is still processing that |
 | Ongoing · A long list of retired products, from Reader to Stadia | Her graveyard of beloved abandoned projects |
 | 2024–2025 · A US court rules she illegally maintained a search monopoly; in September 2025 the judge lets her keep Chrome and Android but bans exclusive default deals and orders data sharing with rivals | The kingdoms clipped her wings and left her crown. She is appealing |
-| Oct 2025 · Up to one million TPUs for Anthropic, followed in 2026 by a larger investment and capacity deal | She arms the Cautious Scholar with her own swords |
+| Oct 2025 · Up to one million TPUs for Anthropic, followed in 2026 by a larger investment and capacity deal | She arms the Precautionary Prodigy with her own swords |
 | Nov 2025 · Gemini 3 | The polymath back at the front of the race |
 | Jan 2026 · Apple announces its next foundation models will be built on Gemini | Her old rival's assistant now thinks with her mind |
 
@@ -92,7 +95,7 @@ Brilliant, distracted, expansive, and creative. She is warm and generous with wh
 - **Microsoft** · An old rival across search, browsers, office software, and cloud. Microsoft ships; Google researches.
 - **Meta** · Rivals for the same advertising kingdom, and fellow believers in publishing research.
 - **Apple** · Partner and rival at once: Google pays to be Apple's default search engine and competes with her through Android. Since 2026, Gemini also powers Apple's next foundation models.
-- **Anthropic** · An investor and supplier of TPU compute. She treats the Cautious Scholar like a promising junior colleague.
+- **Anthropic** · An investor and supplier of TPU compute. She treats the Precautionary Prodigy like a promising young inventor.
 - **Nvidia** · A customer who also forges her own TPUs to stay free of the dragon's table, and now rents them to others.
 - **Samsung** · Android's most important partner.
 

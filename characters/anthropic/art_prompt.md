@@ -1,19 +1,11 @@
-# Anthropic full-resolution character-sheet brief
+# Anthropic · The Precautionary Prodigy
 
-Create a **16:9 anime character-reference sheet** for Anthropic, titled “The Cautious Scholar,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) for continuity.
 
-**Age portrayal:** adult. Adult character, age-appropriate styling.
+- Draw her as an elementary-school girl about 9–10, with warm-brown eyes and dark-brown springy ringlets that escape a slightly crooked terracotta hard hat. Keep the cream reflective stripe, rounded Claude icon with an ivory spark on terracotta, and clipped chin strap. Use the Claude icon beside her name as well. Her helmet badge pairs visually with [OpenAI's knot ribbon](../openai/README.md).
+- Keep the cream rounded-collar blouse, charcoal pinafore, diagonal orange reflective sash, Class Monitor armband, knee pads, cream socks, and practical brown school shoes. Use terracotta, cream, charcoal, and warm brown.
+- Keep the brown satchel with a clipped laminated checklist and a tucked-away bandage kit. Add a pencil behind her ear, a red pen in her pocket, and a caution-tape bracelet. She holds her clipboard like a shield and carries a gold-lettered *Claude* book with pride.
+- Use a sidelong look, one raised eyebrow, and a closed concerned frown. Give her a planted stance with her weight back and a close, bent-elbow stop gesture. A thinking pose can use one finger on her chin. A small closed-mouth smile can reveal her softer side. Avoid winking and broad open-mouth grins.
+- Render Constitutional Ward as an orange checklist marked Helpful, Honest, and Harmless. Keep the classroom chalkboard warm green with a balance-scale doodle. Keep teal, sailor styling, and animal companions out of her design.
 
-**Appearance:** Auburn braid, warm brown eyes, thoughtful glasses and patient gaze
-
-**Clothing:** Cream scholarly coat and an annotated Constitution notebook
-
-**Personality and pose:** Conscientious, rigorously careful and quietly competitive. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Measured, qualified statements; asks for evidence and safeguards
-
-**Power visualization:** Constitutional Ward
-
-**Quote:** “Should we understand the power before adding more?”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)

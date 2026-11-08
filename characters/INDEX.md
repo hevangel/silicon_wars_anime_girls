@@ -18,16 +18,16 @@
 
 ## Tier 2B · AI labs
 
-- [Anthropic](anthropic/README.md) — The Cautious Scholar
+- [Anthropic](anthropic/README.md) — The Precautionary Prodigy
 - [OpenAI](openai/README.md) — The Reckless Prodigy
-- [xAI](xai/README.md) — The Chaos Astronaut
+- [xAI](xai/README.md) — The Moneybags Moonshot
 - [Hugging Face](huggingface/README.md) — The Open-Source Sunshine Girl
 - [Mistral AI](mistral-ai/README.md) — The Little Wind Mage
 - [DeepSeek](deepseek/README.md) — The Frugal Reasoning Prodigy
 
 ## Tier 3A · Memory, foundry, and equipment
 
-- [TSMC](tsmc/README.md) — The Jade Foundry Goddess
+- [TSMC](tsmc/README.md) — The Quiet Queenmaker
 - [ASML](asml/README.md) — The EUV Light Weaver
 - [Samsung](samsung/README.md) — The Sapphire Conglomerate Princess
 - [Micron](micron/README.md) — The Violet Archivist
@@ -39,8 +39,8 @@
 - [Qualcomm](qualcomm/README.md) — The Wireless Speedster
 - [Broadcom](broadcom/README.md) — The Network Spider Queen
 - [Marvell](marvell/README.md) — The Deep-Sea Navigator
-- [Huawei](huawei/README.md) — The Crimson Fortress
-- [Cerebras](cerebras/README.md) — The Wafer-Scale Prodigy
+- [Huawei](huawei/README.md) — The Full-Stack Phoenix
+- [Cerebras](cerebras/README.md) — The Go-Big-or-Go-Home Girl
 
 ## Tier 4 · Cameos
 
@@ -54,8 +54,10 @@
 
 ## Artwork and production references
 
-Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [IBM](ibm/character_sheet.png), and [Oracle](oracle/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
+Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [IBM](ibm/character_sheet.png), [Oracle](oracle/character_sheet.png), [Hugging Face](huggingface/character_sheet.png), [OpenAI](openai/character_sheet.png), [Anthropic](anthropic/character_sheet.png), [xAI](xai/character_sheet.png), [TSMC](tsmc/character_sheet.png), and [Huawei](huawei/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
 
 To make these assets for another character, start from the [character art template](_template/README.md).
 
 The [structured roster](roster.json) lists the same cast in tier order. The [original group artwork](../scratchpad/illustrations.md) is archived separately.
+
+The [Cerebras turnaround](cerebras/character_sheet.png) and [expression sheet](cerebras/expressions.png) show her wafer-chef design.
