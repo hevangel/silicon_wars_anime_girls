@@ -1,4 +1,4 @@
-# Mistral AI — The Little Wind Mage
+# Mistral AI — The Tiny Titan of Europe
 
 > An original *Silicon Wars* company-personification character. Unofficial fictional fan work.
 
@@ -6,17 +6,17 @@
 |---|---|
 | Faction | AI Academy Juniors |
 | Age portrayal | child |
-| Hair color | honey blond |
-| Brand color motif | orange gold |
+| Hair color | light chestnut brown |
+| Brand color motif | French blue and orange-yellow pixel gradient |
 
 ## Appearance
-Elementary-school girl with blonde ringlets, pixel-ribbon and mischievous eyes
+Elementary-school girl with light chestnut-brown soft wavy hair in low twin pigtails with blue-white-red tricolor ribbons, a tilted navy beret with a pixel M pin, and bright warm amber eyes
 
 ## Clothing and equipment
-Wholesome orange-white school cape, beret and tiny math wand
+Periwinkle French-blue school blouse smock with white Peter Pan collar and a pixel M pocket emblem over a white-and-navy Breton striped shirt, white knee socks, navy Mary Jane shoes, and a tan leather cartable satchel
 
 ## Personality
-Cheerful, independent, brave and proud
+Bright, cheerful, generous and practical; loves open-source and building useful things
 
 ## Speech patterns
 Quick witty answers with little French expressions
@@ -25,16 +25,16 @@ Quick witty answers with little French expressions
 Efficient open models enable independent technological ecosystems
 
 ## Motivation
-Make European AI research competitive and accessible
+Deliver high-performance, efficient, open models for everyone; make European AI research competitive and accessible
 
 ## Dramatic flaws
-Pride can make her reject useful help
+Smaller ecosystem and resources than the U.S. giants; fewer frontier-sized models (for now); pride can make her reject useful help
 
 ## Rivalries
-OpenAI, Anthropic and DeepSeek
+OpenAI, Anthropic, DeepSeek and Google
 
 ## Alliances
-Hugging Face and European developers
+Hugging Face, the European AI ecosystem, enterprises, and developers who value open and sovereign AI
 
 ## Special ability
 **Mixture of Experts** — a fictional metaphor for the real technology.
@@ -43,6 +43,6 @@ Hugging Face and European developers
 > Open, efficient and for everyone!
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
+- [Painted reference card](reference_card.jpg) — regenerated 2026-11-07 in the DeepSeek-card composition (desk, Eiffel Tower window, Le Chat pixel plush); supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/mistral-ai-reference-card-little-wind-mage.jpg](../../scratchpad/superseded/mistral-ai-reference-card-little-wind-mage.jpg).
+- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and the (pending) final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.
