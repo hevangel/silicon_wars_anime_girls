@@ -17,7 +17,7 @@
     "rivals": "AMD, Nvidia",
     "allies": "IBM and the PC ecosystem",
     "ability": "x86 Citadel",
-    "quote": "I built this kingdom before you counted transistors."
+    "quote": "Child, I was building the foundations of this civilization before you learned to count transistors."
   },
   {
     "name": "AMD",
@@ -28,7 +28,7 @@
     "hair": "fire red",
     "accent": "crimson",
     "appearance": "Athletic red-haired heroine, high ponytail, amber eyes and irrepressible grin",
-    "clothing": "Black-and-red cropped tactical jacket, modular chiplet plating and heavy boots",
+    "clothing": "Off-shoulder crimson-and-black cropped jacket over a black crop top, modular chiplet plating, gold-buckled harness and belts, black cargo trousers, fingerless gloves, black-and-red headphones around her neck, and heavy boots",
     "personality": "Tenacious, scrappy, witty, determined to be taken seriously",
     "speech": "Fast sarcastic challenges and friendly taunts toward Intel",
     "thinking": "Efficiency, modular chiplets and architectural ingenuity beat superior resources",
@@ -37,7 +37,7 @@
     "rivals": "Intel, Nvidia",
     "allies": "TSMC and open ecosystems",
     "ability": "Chiplet Barrage",
-    "quote": "Ten times my resources? That makes victory sweeter."
+    "quote": "You have ten times my resources? Perfect. It'll make my victory ten times more embarrassing for you."
   },
   {
     "name": "Nvidia",
@@ -48,7 +48,7 @@
     "hair": "emerald green",
     "accent": "neon green",
     "appearance": "Long emerald-green braid, piercing emerald eyes, broad shoulders, strong arms, and naturally proportioned athletic legs. Greatest raw physical strength of the cast",
-    "clothing": "Black leather motorcycle jacket-dress with an angular collar, asymmetrical zipper, wide belt, heavy boots, and glowing green circuit seams",
+    "clothing": "Black leather motorcycle jacket-dress with an angular collar, asymmetrical zipper, wide belt, heavy boots, and glowing green circuit seams; black goggles pushed up in her hair",
     "personality": "Charismatic, ambitious, dominant and theatrical",
     "speech": "Smooth, commanding and teasing; talks as though she already owns the table",
     "thinking": "Software ecosystems multiply the value of accelerated compute",
@@ -57,7 +57,7 @@
     "rivals": "AMD, Cerebras",
     "allies": "TSMC, memory suppliers and AI labs",
     "ability": "CUDA Dragon",
-    "quote": "Challenge me if you wish. Which of my GPUs are you using?"
+    "quote": "Of course you are free to challenge me, darling. Just tell me which of my GPUs you're using to train your army."
   },
   {
     "name": "Google",
@@ -147,8 +147,8 @@
     "title": "The Logistics Overlord",
     "hair": "dark brown",
     "accent": "amber orange",
-    "appearance": "Dark ponytail, amber eyes and determined practical expression",
-    "clothing": "Black-orange work jacket, drone familiars and logistics utility belt",
+    "appearance": "Dark brown hair in a practical ponytail under a black cap, amber-orange eyes, dangling earrings and a confident, determined grin",
+    "clothing": "Black baseball cap with a white lowercase a and orange smile-arrow logo, black-and-orange hooded warehouse work jacket with smile-arrow logos over a dark top, chest harness, logistics utility belt with pouches, dark cargo work trousers, black fingerless work gloves and sturdy work boots; carries a smile-marked cardboard delivery box, with one small black quadcopter drone familiar",
     "personality": "Relentless, resourceful and customer-obsessed",
     "speech": "Fast-fire questions about costs, scale, delivery and reliability",
     "thinking": "Efficient infrastructure and automation turn products into services",

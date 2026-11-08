@@ -4,9 +4,9 @@ Create a **16:9 anime character-reference sheet** for Amazon, titled “The Logi
 
 **Age portrayal:** adult. Adult character, age-appropriate styling.
 
-**Appearance:** Dark ponytail, amber eyes and determined practical expression
+**Appearance:** Dark brown hair in a practical ponytail under a black cap, amber-orange eyes, dangling earrings and a confident, determined grin
 
-**Clothing:** Black-orange work jacket, drone familiars and logistics utility belt
+**Clothing:** Black baseball cap with a white lowercase a and orange smile-arrow logo, black-and-orange hooded warehouse work jacket with smile-arrow logos over a dark top, chest harness, logistics utility belt with pouches, dark cargo work trousers, black fingerless work gloves and sturdy work boots; carries a smile-marked cardboard delivery box, with one small black quadcopter drone familiar
 
 **Personality and pose:** Relentless, resourceful and customer-obsessed. Give this character a distinctive pose that differs from other company heroines.
 
