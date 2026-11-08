@@ -28,7 +28,7 @@ Every character profile names who she depends on and what her power cannot do.
 
 ## Three artistic rules
 
-1. **Every heroine needs a recognizable silhouette.** A reader should tell Nvidia's angular black leather and emerald circuit seams, Apple's clean geometry, TSMC's artisan uniform, and Hugging Face's cheerful hoodie apart even with the company names removed.
+1. **Every heroine needs a recognizable silhouette.** A reader should tell Nvidia's angular black leather and emerald circuit seams, Apple's clean geometry, TSMC's artisan uniform, and Hugging Face's yellow bows and mascot plush apart even with the company names removed.
 2. **Every heroine needs a contradiction.** Intel is powerful but vulnerable. Nvidia is arrogant but genuinely brilliant. OpenAI is optimistic but impatient. Anthropic is careful but competitive. TSMC is quiet but extraordinarily influential. These tensions make characters believable.
 3. **Power reflects technical interdependence,** as described above.
 
@@ -43,7 +43,7 @@ The younger characters occasionally call the older women Obaa-sama or Grandma, w
 
 ## Character ages
 
-- **Elementary-school child prodigies:** Cerebras, Mistral AI, DeepSeek. All designs and stories are wholesome and nonsexualized.
+- **Elementary-school child prodigies:** Cerebras, Mistral AI, DeepSeek, and OpenAI. All designs and stories are wholesome and nonsexualized.
 - **Mature executives:** IBM and Oracle, in their late 50s or early 60s. IBM is the silver-haired Iron Lady who survives every technological cycle.
 - **Very old grandmothers:** Bell Labs (scholarly research grandmother), Fairchild (hands-on semiconductor matriarch).
 - **Younger grannies:** DEC (red varsity jacket, interactive-computing hacker), Sun Microsystems (joyful purple Solaris jacket).
@@ -55,7 +55,7 @@ A heroine comes alive through someone who brings out her strengths and weaknesse
 
 - **AMD vs Intel: the Hundred-Year Rivalry.** Intel acts like the former queen of the CPU kingdom. AMD is the rebellious challenger who refuses to remain in her shadow. Both were founded by people who left Fairchild, so their arguments are equal parts engineering debate and old-fashioned sibling rivalry, and Fairchild still yells at them for fighting at her table.
 - **Nvidia vs AMD: the Dragon and the Challenger.** Nvidia has the throne, the infrastructure, and a fiercely loyal following. AMD believes she can win through clever design, openness, and competitive economics. Nvidia enjoys reminding her of the ecosystem advantage.
-- **OpenAI vs Anthropic: the Estranged Scholars.** Former colleagues separated by philosophical disagreements. OpenAI believes in moving forward rapidly. Anthropic insists on understanding what they are creating. They know each other's arguments better than anyone.
+- **OpenAI vs Anthropic: the Estranged Scholars.** Former best friends who now sit apart at the Academy. OpenAI wants the class to try her prototype as soon as it runs. Anthropic asks how it works and whether they should test it first. They still know each other's arguments better than anyone.
 - **TSMC vs Samsung vs Intel: the Three Foundry Houses.** Three powerful manufacturers, each with a different philosophy about how advanced chips should be built. TSMC is the disciplined specialist, Samsung the ambitious industrial empire, and Intel the historic integrated manufacturer fighting to reclaim manufacturing prestige.
 - **ASML and TSMC: the Sorceress and the Artisan.** ASML builds tools that bend light to extraordinary precision. TSMC turns those tools and many other complex processes into mass-produced silicon. Their collaboration is central to the power of the advanced-chip kingdoms.
 

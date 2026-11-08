@@ -1,17 +1,14 @@
-# OpenAI — Full manga character-sheet brief
+# OpenAI · The Reckless Prodigy
 
-Produce a landscape **16:9** professional anime character reference sheet for the original *Silicon Wars* character OpenAI, titled **The Reckless Prodigy**. Full-body front, side and back views, 3 expressions, signature technical prop, 5 color swatches, and a small labeled bio card; clean, highly detailed consistent cel shading.
+Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) for continuity.
 
-## Continuity lock
-- Age: adult; adult woman.
-- Appearance: Silver-white hair, luminous teal eyes and an inquisitive expression.
-- Costume: Minimal black-and-white researcher coat and interlocking-knot brooch.
-- Hair: silver white. Signature brand accent: teal.
-- Body language: Optimistic, driven and philosophically ambitious.
-- Technical magical effect: Reasoning Constellation.
-- Tone: sophisticated manga + vintage computing references + legible tech datasheet UI.
-- Avoid giving all characters the same pointing or outstretched-hand pose; use a unique posture related to her role.
-- Character should be consistently recognizable from original group images (indexed in ../../scratchpad/illustrations.md).
-- Text needs proofread and easy-to-read. No erroneous labels or fabricated performance specifications.
+- Keep her elementary-school proportions, fluffy silver-white side ponytail, and blue-teal eyes. Her oversized navy ribbon has a white knot emblem and a cyan glow along its edge. It shines when she's excited, dims when she's tired, and droops when she's discouraged.
+- Keep the white long-sleeved sailor blouse with navy trim, teal necktie, knee-length navy pleated skirt, opaque tights, and white-and-navy sneakers. Her uniform looks tidy enough for school and a little rumpled from working on her projects.
+- Use the navy experiment backpack with clipped gadgets and a battered doodle notebook. Sketches can lift out as unfinished cyan holograms. The little white robot has a black face display and two cyan eyes and rides on the side of the pack.
+- Give her an idea wink and an eager forward lean. A too-bright grin, a raised inner brow, or a glance at the room can show that she just guessed or promised too much. For a confident guess, have her point out the missing part as if she meant to leave it off, then glance back to see if the room bought it. The robot can give her a skeptical side-eye. When she runs out of steam, the pose slumps and the ribbon dims.
 
-Include the signature line: “What if intelligence is no longer the limit?”
+Signature ability · Reasoning Constellation.
+
+Signature lines · “Let’s try it!” and “…and then what?!”
+
+[Exact generation prompts](character_sheet.prompt.md)

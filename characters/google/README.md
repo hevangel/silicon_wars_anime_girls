@@ -31,6 +31,9 @@ Organize knowledge and turn research into universal products
 Too many unrelated ideas compete for attention
 
 ## Rivalries
+
+[OpenAI](../openai/README.md) treats Google's old Academy textbook as a springboard for her own ideas. Google quietly resents how often those ideas look like copies.
+
 Microsoft, OpenAI and Meta
 
 ## Alliances

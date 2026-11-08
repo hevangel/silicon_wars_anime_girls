@@ -31,6 +31,9 @@ Advance AI and ambitious compute infrastructure
 May confuse provocation with real insight
 
 ## Rivalries
+
+At the Academy, she heckles [OpenAI](../openai/README.md) from the back row during show-and-tell.
+
 OpenAI, Anthropic and Google
 
 ## Alliances

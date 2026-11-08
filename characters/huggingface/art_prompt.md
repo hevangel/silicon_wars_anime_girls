@@ -1,19 +1,14 @@
-# Hugging Face full-resolution character-sheet brief
+# Hugging Face · The Open-Source Sunshine Girl
 
-Create a **16:9 anime character-reference sheet** for Hugging Face, titled “The Open-Source Sunshine Girl,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Use the [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) for continuity.
 
-**Age portrayal:** adult. Confident adult woman with age-appropriate clothing.
+- Keep her chestnut-brown curls in high twin ponytails, bright yellow bows, smiling mascot clip, and warm amber-brown eyes.
+- Keep the white sailor blouse with navy collar and yellow piping, navy pleated skirt with yellow hem trim, white socks, and navy loafers.
+- Use the purple-and-yellow backpack and yellow mascot plush as her recognizable props. Navy and white ground the sunny yellow accents.
+- Draw her as a young adult. Use open, welcoming gestures and a bright smile. Her excitement comes from getting someone else involved.
 
-**Appearance:** Golden hair in playful buns, bright warm eyes and smiling hair clips
+Signature ability · Community Hug.
 
-**Clothing:** Oversized yellow hoodie, headphones and model-card backpack
+Signature line · “You made a model? Let's share it!”
 
-**Personality and pose:** Friendly, inclusive, supportive and energetic. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Welcoming explanations and effusive praise for beginners
-
-**Power visualization:** Community Hug
-
-**Quote:** “You made a model? Let's share it!”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)

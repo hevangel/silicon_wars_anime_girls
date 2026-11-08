@@ -31,6 +31,9 @@ Solve harder problems with fewer resources
 Refuses help even when extra resources would matter
 
 ## Rivalries
+
+[OpenAI](../openai/README.md) sizes up the quiet transfer student after DeepSeek aces a test with half the study time.
+
 OpenAI, Anthropic and Google
 
 ## Alliances

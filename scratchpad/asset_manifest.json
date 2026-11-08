@@ -199,6 +199,7 @@
     {
       "character": "openai",
       "path": "characters/openai/reference_card.jpg",
+      "archive_commit": "8066cb3abc61768d9cecd6b1620405c1d569161f",
       "source": "ai_quartet_datasheet.png",
       "column": 2
     },
@@ -211,6 +212,7 @@
     {
       "character": "huggingface",
       "path": "characters/huggingface/reference_card.jpg",
+      "archive_commit": "8066cb3abc61768d9cecd6b1620405c1d569161f",
       "source": "ai_quartet_datasheet.png",
       "column": 4
     },
