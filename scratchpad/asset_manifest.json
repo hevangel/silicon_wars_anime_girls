@@ -193,6 +193,7 @@
     {
       "character": "anthropic",
       "path": "characters/anthropic/reference_card.jpg",
+      "archive_commit": "efbc36a5bcd2a1b0c10343989e4edd2a886efe08",
       "source": "ai_quartet_datasheet.png",
       "column": 1
     },
