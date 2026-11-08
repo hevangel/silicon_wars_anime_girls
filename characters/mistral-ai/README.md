@@ -10,7 +10,7 @@
 | Brand color motif | French blue and orange-yellow pixel gradient |
 
 ## Appearance
-Elementary-school girl with light chestnut-brown soft wavy hair in low twin pigtails with blue-white-red tricolor ribbons, a tilted navy beret with a pixel M pin, and bright warm amber eyes
+Elementary-school girl with light chestnut-brown soft wavy hair in low twin pigtails with blue-white-red tricolor ribbons, a tilted navy beret with a pixel M pin, bright warm amber eyes, and freckles
 
 ## Clothing and equipment
 Periwinkle French-blue school blouse smock with white Peter Pan collar and a pixel M pocket emblem over a white-and-navy Breton striped shirt, white knee socks, navy Mary Jane shoes, and a tan leather cartable satchel

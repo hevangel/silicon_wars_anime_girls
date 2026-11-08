@@ -13,7 +13,7 @@
 Ash-blonde hair in a neat low bun with four-color windowpane clips, glasses and a calm commanding gaze
 
 ## Clothing and equipment
-Tailored dark charcoal business dress (knee-length sheath) under a fitted blazer with four-color windowpane pin and azure pocket square, blue lanyard with ID name badge, and projected business dashboards; white coffee mug with the windowpane logo
+Tailored dark charcoal business dress (knee-length sheath) under a fitted blazer with four-color windowpane pin and azure pocket square, blue lanyard with ID name badge. She carries a white coffee mug with the windowpane logo
 
 ## Personality
 Pragmatic, diplomatic, procedural and strategic

@@ -1,8 +1,10 @@
 id: sk-hynix
 title: The Stack Savant
 identity: Adult young woman in her mid 20s with violet-black hair in a tall updo and diagonal binyeo, sparkling violet eyes, a red-orange jeogori and a slim column chima in a red-orange-to-charcoal gradient, a cream SK hynix sash, and a copper-rod norigae.
+logo_lockup: wordmark
 reference_assets:
   model_sheet: characters/sk-hynix/character_sheet.png
+  chibi_sheet: characters/sk-hynix/chibi_sheet.png
   expressions: characters/sk-hynix/expressions.png
   portrait: characters/sk-hynix/reference_card.jpg
 
@@ -18,7 +20,7 @@ style_variants:
       - slim column chima in a red-orange-to-charcoal gradient with tiered hem
       - narrow-eyed quietly intense look, HBM stack and tabbed notebook
     transform:
-      proportions: large head, tiny body
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: simplified
       expressions: more exaggerated
       shading: minimal

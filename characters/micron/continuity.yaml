@@ -1,8 +1,10 @@
 id: micron
 title: The Stack-'Em-High Wrangler
 identity: "Adult young woman in her mid 20s with honey-blonde hair in a long side braid, bright blue eyes, a cream cowboy hat with a silver iridescent band, a fringed cream vest with a chip-shaped sheriff star, an iridescent violet neckerchief, and a DIMM holstered at her hip."
+logo_lockup: wordmark
 reference_assets:
   model_sheet: characters/micron/character_sheet.png
+  chibi_sheet: characters/micron/chibi_sheet.png
   expressions: characters/micron/expressions.png
   portrait: characters/micron/reference_card.jpg
 
@@ -17,7 +19,7 @@ style_variants:
       - fringed cream vest, chip-shaped sheriff star, iridescent violet neckerchief
       - holstered DIMM, connector belt buckle, glowing iridescent lasso
     transform:
-      proportions: large head, tiny body
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: simplified
       expressions: more exaggerated
       shading: minimal

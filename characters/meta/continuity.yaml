@@ -18,6 +18,7 @@ continuity_rules:
   - Do not show exposed thighs or replace stockings with bare skin.
   - Keep the palette blue, violet, lilac, charcoal and cyan.
   - Expression portraits must preserve the same face, hair and VR headset.
+logo_lockup: symbol_and_name
 reference_assets:
   model_sheet: characters/meta/character_sheet.png
   expressions: characters/meta/expressions.png
@@ -47,7 +48,7 @@ style_variants:
       - building tiny worlds with both hands
       - oblivious headset-on stare
     transform:
-      proportions: "large head, tiny body"
+      proportions: "Target 2.5 anatomical heads tall from crown to soles"
       anatomy: "simplified"
       expressions: "more exaggerated"
       shading: "minimal"

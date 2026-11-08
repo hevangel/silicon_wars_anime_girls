@@ -46,6 +46,7 @@ Device makers and foundry partners
 - [Painted reference card](reference_card.jpg) — regenerated 2026-11-08 as the older of the hanbok sisters (white/ice-silver wide hanbok, overloaded gadget norigae, reaching hostess palm, her sister's dismissed notebook on the floor); name plate carries name + title only. Supersedes the original group-datasheet crop, preserved at [scratchpad/superseded/samsung-reference-card-memory-queen.jpg](../../scratchpad/superseded/samsung-reference-card-memory-queen.jpg).
 - [Character model sheet](character_sheet.png) — FRONT / THREE-QUARTER / SIDE / BACK turnarounds with PROUD / WELCOMING / WEARY close-ups and palette.
 - [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — four turnarounds and three close-ups.
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompts for the reference card and character sheets.
 - [Generation prompts](character_sheet.prompt.md) — the exact prompts used for the card and sheets.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

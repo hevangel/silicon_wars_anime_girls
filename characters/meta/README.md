@@ -122,7 +122,7 @@ She starts the season pouring everything into her new superintelligence lab, wit
 - [Illustrated character sheet](character_sheet.png) with four turnaround views, expression studies, and a palette.
 - [Expression sheet](expressions.png) with a full-body pose and twelve expressions.
 - [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
-- [Painted reference card](reference_card.jpg) from the approved striped-stockings artwork.
+- [Painted reference card](reference_card.jpg) — the approved striped-stockings design in the shared portrait format.
 - [Exact generation prompts](character_sheet.prompt.md).
 - [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

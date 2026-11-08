@@ -54,10 +54,8 @@
 
 ## Artwork and production references
 
-Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [IBM](ibm/character_sheet.png), [Oracle](oracle/character_sheet.png), [Hugging Face](huggingface/character_sheet.png), [OpenAI](openai/character_sheet.png), [Anthropic](anthropic/character_sheet.png), [xAI](xai/character_sheet.png), [TSMC](tsmc/character_sheet.png), [Huawei](huawei/character_sheet.png), and [DeepSeek](deepseek/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
+Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Google](google/character_sheet.png), [Microsoft](microsoft/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [Amazon](amazon/character_sheet.png), [Anthropic](anthropic/character_sheet.png), [OpenAI](openai/character_sheet.png), [xAI](xai/character_sheet.png), [Hugging Face](huggingface/character_sheet.png), [Mistral AI](mistral-ai/character_sheet.png), [DeepSeek](deepseek/character_sheet.png), [TSMC](tsmc/character_sheet.png), [Samsung](samsung/character_sheet.png), [Micron](micron/character_sheet.png), [SK hynix](sk-hynix/character_sheet.png), [Huawei](huawei/character_sheet.png), [Cerebras](cerebras/character_sheet.png), [IBM](ibm/character_sheet.png), and [Oracle](oracle/character_sheet.png) have illustrated turnarounds, expression sheets, and chibi sheets.
 
 To make these assets for another character, start from the [character art template](_template/README.md).
 
 The [structured roster](roster.json) lists the same cast in tier order. The [original group artwork](../scratchpad/illustrations.md) is archived separately.
-
-The [Cerebras turnaround](cerebras/character_sheet.png) and [expression sheet](cerebras/expressions.png) show her wafer-chef design.
