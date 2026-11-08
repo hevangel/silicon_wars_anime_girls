@@ -22,7 +22,7 @@
 - [OpenAI](openai/README.md) — The Reckless Prodigy
 - [xAI](xai/README.md) — The Moneybags Moonshot
 - [Hugging Face](huggingface/README.md) — The Open-Source Sunshine Girl
-- [Mistral AI](mistral-ai/README.md) — The Little Wind Mage
+- [Mistral AI](mistral-ai/README.md) — The Tiny Titan of Europe
 - [DeepSeek](deepseek/README.md) — The Budget Brainiac
 
 ## Tier 3A · Memory, foundry, and equipment
@@ -30,7 +30,7 @@
 - [TSMC](tsmc/README.md) — The Quiet Queenmaker
 - [ASML](asml/README.md) — The EUV Light Weaver
 - [Samsung](samsung/README.md) — The Sapphire Conglomerate Princess
-- [Micron](micron/README.md) — The Violet Archivist
+- [Micron](micron/README.md) — The Stack-'Em-High Wrangler
 - [SK hynix](sk-hynix/README.md) — The HBM Princess
 
 ## Tier 3B · Other chip companies

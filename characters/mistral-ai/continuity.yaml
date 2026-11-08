@@ -1,0 +1,26 @@
+id: mistral-ai
+title: The Tiny Titan of Europe
+identity: "Elementary-school girl about 9-10 with light chestnut-brown wavy hair in low twin pigtails with tricolor ribbons, a tilted navy beret with a pixel M pin, warm amber eyes and freckles, and a periwinkle French-blue school blouse smock with a white Peter Pan collar over a Breton striped shirt."
+reference_assets:
+  model_sheet: characters/mistral-ai/character_sheet.png
+  expressions: characters/mistral-ai/expressions.png
+  chibi_sheet: characters/mistral-ai/chibi_sheet.png
+  portrait: characters/mistral-ai/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - chestnut twin pigtails with blue-white-red tricolor ribbons
+      - tilted navy beret with pixel M pin
+      - periwinkle blouse smock with white Peter Pan collar and pixel M pocket
+      - tan leather cartable and Le Chat pixel plush
+    transform:
+      proportions: large head, tiny body
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
