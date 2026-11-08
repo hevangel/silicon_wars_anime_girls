@@ -1,19 +1,16 @@
-# IBM full-resolution character-sheet brief
+# IBM · The Iron Lady of Computing
 
-Create a **16:9 anime character-reference sheet** for IBM, titled “The Iron Lady of Computing,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Illustrate IBM, a distinguished executive around sixty in *Silicon Wars*. Use her [model sheet](character_sheet.png), [expression sheet](expressions.png), and [reference card](reference_card.jpg) as the design references.
 
-**Age portrayal:** mature. Confident adult woman with age-appropriate clothing.
+## Continuity lock
 
-**Appearance:** Distinguished woman around sixty, dark hair streaked silver, steel-blue eyes and dignified posture
+- **Face and hair** · Mature, composed features, steel-blue eyes, swept silver-charcoal wavy bob, and thin gold-rimmed glasses.
+- **Clothing** · 1970s-inspired navy pinstripe double-breasted suit with moderately broad peaked lapels, lightly structured shoulders, and gently flared trousers. Keep the tailoring close and current. Ivory blouse and black low block-heel pumps.
+- **Accessories** · Cobalt-and-white silk neck scarf, IBM lapel pin on the front, gold drop earrings, and a vintage gold wristwatch.
+- **Palette and acting** · Navy, cobalt, ivory, silver, and warm gold. She commands the room with an upright stance and restrained gestures. Her humor is dry and precise.
 
-**Clothing:** Navy pinstripe suit, pearl earrings, vintage watch and mainframe-style coat
+Signature ability · Mainframe Citadel.
 
-**Personality and pose:** Resilient, proud, strategic and patient. Give this character a distinctive pose that differs from other company heroines.
+Signature line · “I have been declared obsolete more times than you have released models.”
 
-**Speech and expression:** Formal and dryly humorous; calls younger rivals young lady
-
-**Power visualization:** Mainframe Citadel
-
-**Quote:** “I have been declared obsolete more times than you have released models.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)

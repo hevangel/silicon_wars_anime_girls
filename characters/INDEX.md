@@ -54,7 +54,7 @@
 
 ## Artwork and production references
 
-Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), and [Meta](meta/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
+Profiles link to painted cards where available. [Intel](intel/character_sheet.png), [AMD](amd/character_sheet.png), [Nvidia](nvidia/character_sheet.png), [Apple](apple/character_sheet.png), [Meta](meta/character_sheet.png), [IBM](ibm/character_sheet.png), and [Oracle](oracle/character_sheet.png) also have illustrated turnaround sheets and dedicated expression sheets.
 
 To make these assets for another character, start from the [character art template](_template/README.md).
 
