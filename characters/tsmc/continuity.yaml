@@ -4,6 +4,7 @@ identity: "Poised woman in her late twenties with an ash-silver bob, amber eyes,
 reference_assets:
   model_sheet: characters/tsmc/character_sheet.png
   expressions: characters/tsmc/expressions.png
+  chibi_sheet: characters/tsmc/chibi_sheet.png
   portrait: characters/tsmc/reference_card.jpg
 
 default_style: default_manga
