@@ -1,0 +1,24 @@
+id: deepseek
+title: The Budget Brainiac
+identity: Elementary-school girl about 9–10 with navy-to-sea-blue double buns, whale-tail pins, sea-blue eyes, and a royal-blue qipao with white trim.
+reference_assets:
+  model_sheet: characters/deepseek/character_sheet.png
+  expressions: characters/deepseek/expressions.png
+  portrait: characters/deepseek/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Super-deformed comedic version of the character.
+    preserve:
+      - round ocean-blue buns and whale-tail hairpins
+      - royal-blue qipao with white piping and whale embroidery
+      - focused knowing smile, abacus, and lunchbox GPU
+    transform:
+      proportions: large head, tiny body
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable
