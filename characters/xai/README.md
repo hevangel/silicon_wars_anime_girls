@@ -41,6 +41,7 @@ She heckles [OpenAI](../openai/README.md) from the back row during show-and-tell
 
 - [Character model sheet](character_sheet.png)
 - [12-expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png) — the chibi style variant: turnarounds, three expressions, and palette.
 - [Painted reference card](reference_card.jpg)
 - [Illustration brief](art_prompt.md) and [generation record](character_sheet.prompt.md)
 - [Original image inventory](../../scratchpad/illustrations.md)
