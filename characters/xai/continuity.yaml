@@ -4,6 +4,7 @@ identity: Elementary-school girl about 9–10 with a messy black chin-length bob
 reference_assets:
   model_sheet: characters/xai/character_sheet.png
   expressions: characters/xai/expressions.png
+  chibi_sheet: characters/xai/chibi_sheet.png
   portrait: characters/xai/reference_card.jpg
 
 default_style: default_manga
