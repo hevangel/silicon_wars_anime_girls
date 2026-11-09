@@ -14,12 +14,10 @@
   "brand": {
     "name": "Silicon Wars",
     "ariaLabel": "Silicon Wars character archive",
-    "edition": "Season One · Character Archive"
+    "edition": "Season One"
   },
   "intro": {
-    "eyebrow": "Every faction has a face",
-    "titleAriaLabel": "Silicon Wars",
-    "copy": "A manga universe of technology, ambition, and unlikely alliances."
+    "titleAriaLabel": "Silicon Wars"
   },
   "gallery": {
     "heading": "Character reference cards",
@@ -29,7 +27,9 @@
     "nextLabel": "Scroll to next characters",
     "viewProfileTemplate": "View {name} character profile",
     "hint": "Click a card to open its profile · Hover the chips to accelerate · Drag or swipe to browse",
-    "assetLinksLabel": "Browse all character assets"
+    "assetLinksLabel": "Browse all character assets",
+    "groupLabel": "Group",
+    "allGroupsLabel": "All groups"
   },
   "assetTypes": [
     {
@@ -74,7 +74,7 @@
   "assetArchive": {
     "kicker": "Production archive",
     "titleTemplate": "All {title}",
-    "countTemplate": "{count} character assets · scroll to browse"
+    "countTemplate": "{count} artworks"
   },
   "footer": "Fictional fan art unaffiliated with the companies depicted.",
   "behavior": {
@@ -86,5 +86,39 @@
     "dragThresholdPx": 6,
     "maxFrameMs": 40,
     "eagerLoadCount": 3
+  },
+  "navigation": {
+    "menuLabel": "Browse Silicon Wars",
+    "homeLabel": "Home"
+  },
+  "viewer": {
+    "profileLabel": "Character profile",
+    "closeLabel": "Close full-screen artwork",
+    "previousLabel": "Previous artwork",
+    "nextLabel": "Next artwork",
+    "expandTemplate": "Expand {artwork}"
+  },
+  "sorting": {
+    "label": "Sort by",
+    "default": "curated",
+    "options": [
+      {
+        "value": "curated",
+        "label": "Curated order"
+      },
+      {
+        "value": "name",
+        "label": "Name (A–Z)"
+      },
+      {
+        "value": "founded",
+        "label": "Founding year (oldest first)"
+      },
+      {
+        "value": "marketCap",
+        "label": "Market cap / valuation (largest first)"
+      }
+    ],
+    "note": "Private-company estimates use the latest disclosed funding valuation or acquisition price."
   }
 }
