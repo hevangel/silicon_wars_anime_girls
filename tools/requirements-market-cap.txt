@@ -1,0 +1,2 @@
+# Optional dependency for update_market_caps.py; gallery builds need no packages.
+yfinance==1.8.0

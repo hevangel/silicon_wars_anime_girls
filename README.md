@@ -17,10 +17,10 @@ A manga universe personifying technology, AI, and semiconductor companies. Ficti
 | [chapters/](chapters/README.md) | Scripts, storyboards, panel source, and lettering |
 | [layouts/](layouts/README.md) | Reusable page geometry and reading order |
 | [workflows/](workflows/README.md) | Generation and review conventions |
-| [index.html](index.html) | Character reference-card gallery |
+| [website/](website/index.html) | Character reference-card gallery (content in `website/data/*.json`) |
 | [tools/](tools/README.md) | Local gallery preview builder |
 | [tutorial/](tutorial/README.md) | Illustrated AI manga production and GitHub guide |
 | [external/](external/README.md) | Four pinned upstream tools |
 | [scratchpad/](scratchpad/README.md) | Original group artwork and legacy templates |
 
-Start with the [character gallery](index.html) or the [six-panel production pilot](chapters/pilot-001/README.md). A regular clone contains all series artwork and tutorial images. Initialize a submodule when you need its upstream tooling.
+Start with the [character gallery](website/index.html) (serve the repo root, e.g. `py -m http.server`, and open `/website/`) or the [six-panel production pilot](chapters/pilot-001/README.md). A regular clone contains all series artwork and tutorial images. Initialize a submodule when you need its upstream tooling.
