@@ -1,14 +1,11 @@
 status: review_draft
 checks:
-  - One 4:3 landscape panel; art and lettering are separate sources that assemble into page-001
-  - OpenAI keeps her side ponytail, navy knot ribbon with the white knot, sailor uniform, teal tie, and robot backpack
-  - Micron keeps her cream hat with iridescent band, braided hair, fringed vest, chip-shaped star, neckerchief, holstered DIMM, and glowing lasso
-  - Samsung keeps her near-black waist-length hair with sapphire ribbons, white and ice-silver hanbok, circuit hem, SAMSUNG sash, and gadget norigae
-  - SK hynix keeps her violet-black updo with gold pin and crystal cubes, red-orange jeogori, red-to-charcoal column skirt with stacked hem, copper norigae, and glowing HBM stack
-  - Balloons read right to left (SK hynix, Samsung, Micron, then OpenAI's plea) and do not overlap or cover any face
-  - Lettering uses only glyphs the renderer font supports (no em dashes or ellipsis characters)
-  - Scale gap reads: the child is on the floor, the three suppliers stand on the loading platform above her
-  - Sash and shirt wordmarks read correctly at page size but are not letter-accurate at 1:1; accepted for this comedy beat
-  - No real product performance claims; the scarcity is played as fiction
-  - Review the assembled page at intended reading size
+  - Single panel on the 4:3 layout (2400x1800 page, panel 2240x1640), lettering reads right to left (SK hynix, Samsung, OpenAI, Micron) with non-overlapping balloons
+  - OpenAI kneeling and begging in the foreground: silver-white side ponytail, knot ribbon, sailor uniform, robot in her backpack
+  - Micron with honey-blonde side braid, cowboy hat, crossed arms, DIMM at her hip and the glowing lasso in hand (recorded — the lasso hangs from her hand rather than coiled at her hip)
+  - Samsung in the white and ice-silver hanbok with the sash and gadget norigae, one hand raised and one on her hip
+  - SK hynix in the red-orange column hanbok with binyeo and crystal cubes, notebook in hand and the HBM stack glowing on her palm (recorded — she holds the stack out at waist height rather than up on her palm, and her gaze drops down-left instead of locking onto OpenAI)
+  - Dialogue, and only dialogue, added as a separate overlay; all glyphs are ASCII-safe for the renderer font (no em dashes)
+  - No real product performance claims
+  - Review the page at intended reading size
 human_approval: pending

@@ -1,16 +1,7 @@
-# Silicon Wars · Pilot 004 · The Memory Plea
+# Silicon Wars · Pilot 004 · More Memory, Please
 
-**Logline** · The smartest girl in the AI Academy cannot compute her way past a sold-out memory market.
+**Logline** · One landscape 4:3 panel in the Citadel courtyard. OpenAI's next model is hungry, and the three memory houses hold all the supply.
 
-## Page 001 · The Memory Plea (single 4:3 panel)
+1. **The beg.** OpenAI kneels in the foreground, hands clasped, teary-eyed, pleading up at the memory makers. The three stand over her in an arc: SK hynix deadpan with her HBM stack glowing on her palm, Samsung grand and half-exasperated in her white hanbok, Micron arms crossed with her glowing lasso coiled at her hip. Read right to left: **SK hynix:** "Get in line." **Samsung:** "Oh my. Even I cannot make THAT much." **OpenAI:** "Please! My next model needs more memory! Just a few more stacks!" **Micron:** "Kid, the whole line is out the door."
 
-OpenAI kneels on the concrete floor of an immense memory warehouse, hands clasped, an empty tray and a few loose modules in front of her. Micron, Samsung, and SK hynix look down from the loading platform, each with a different reason to say no.
-
-Read right to left:
-
-- **SK hynix:** "Every stack is spoken for."
-- **Samsung:** "All of it reserved, darling."
-- **Micron:** "Contract first, partner."
-- **OpenAI:** "I'll take NAND! I'll take DRAM! Just give me SOMETHING!"
-
-Three queens, one platform, and not a single wafer for the girl who asked first.
+The queue is long. The begging changes nothing.

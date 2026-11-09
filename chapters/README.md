@@ -10,4 +10,4 @@ Each production run has a script, storyboard, page folders, and editable letteri
 
 [Concept pilot 003 — Beach Day](pilot-003/README.md)
 
-[Comedy pilot 004 — The Memory Plea](pilot-004/README.md)
+[Production pilot 004 — More Memory, Please](pilot-004/README.md)
