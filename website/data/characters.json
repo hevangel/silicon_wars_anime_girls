@@ -1,0 +1,1057 @@
+{
+  "characters": [
+    {
+      "slug": "intel",
+      "name": "Intel",
+      "title": "The Blue Empress",
+      "description": "Commands x86 compatibility, manufacturing know-how, and enduring institutional power.",
+      "faction": "Silicon Kingdoms",
+      "ability": "x86 Citadel",
+      "referenceCard": "characters/intel/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/intel/character_sheet.png",
+        "expressions": "characters/intel/expressions.png",
+        "chibi_sheet": "characters/intel/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 1,
+        "foundedYear": 1968,
+        "yahooSymbol": "INTC",
+        "marketCapUsd": 299128193024,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 299128193024,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/INTC/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Foundry Guild"
+      ]
+    },
+    {
+      "slug": "amd",
+      "name": "AMD",
+      "title": "The Crimson Challenger",
+      "description": "Turns efficient chiplet design and ingenuity into a challenge to bigger rivals.",
+      "faction": "Silicon Kingdoms",
+      "ability": "Chiplet Barrage",
+      "referenceCard": "characters/amd/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/amd/character_sheet.png",
+        "expressions": "characters/amd/expressions.png",
+        "chibi_sheet": "characters/amd/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 2,
+        "foundedYear": 1969,
+        "yahooSymbol": "AMD",
+        "marketCapUsd": 736464797696,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 736464797696,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/AMD/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "nvidia",
+      "name": "Nvidia",
+      "title": "The Emerald Queen",
+      "description": "Uses software ecosystems to multiply the power of accelerated computing.",
+      "faction": "Silicon Kingdoms",
+      "ability": "CUDA Dragon",
+      "referenceCard": "characters/nvidia/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/nvidia/character_sheet.png",
+        "expressions": "characters/nvidia/expressions.png",
+        "chibi_sheet": "characters/nvidia/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 3,
+        "foundedYear": 1993,
+        "yahooSymbol": "NVDA",
+        "marketCapUsd": 4506795900928,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 4506795900928,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:00+00:00",
+          "source": "https://finance.yahoo.com/quote/NVDA/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "microsoft",
+      "name": "Microsoft",
+      "title": "The Matriarch of Office",
+      "description": "Brings software, cloud, customers, and AI together in real workflows.",
+      "faction": "Platform Kingdoms",
+      "ability": "Azure Fleet",
+      "referenceCard": "characters/microsoft/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/microsoft/character_sheet.png",
+        "expressions": "characters/microsoft/expressions.png",
+        "chibi_sheet": "characters/microsoft/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 4,
+        "foundedYear": 1975,
+        "yahooSymbol": "MSFT",
+        "marketCapUsd": 3940412817408,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 3940412817408,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/MSFT/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Platform Kingdoms",
+        "Enterprise Elders"
+      ]
+    },
+    {
+      "slug": "apple",
+      "name": "Apple",
+      "title": "The Silver Perfectionist",
+      "description": "Pairs hardware and software into polished, intuitive experiences.",
+      "faction": "Platform Kingdoms",
+      "ability": "Seamless Domain",
+      "referenceCard": "characters/apple/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/apple/character_sheet.png",
+        "expressions": "characters/apple/expressions.png",
+        "chibi_sheet": "characters/apple/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 5,
+        "foundedYear": 1976,
+        "yahooSymbol": "AAPL",
+        "marketCapUsd": 4975383019520,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 4975383019520,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/AAPL/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Platform Kingdoms"
+      ]
+    },
+    {
+      "slug": "google",
+      "name": "Google",
+      "title": "The Rainbow Polymath",
+      "description": "Connects research and information to build broad, useful platforms.",
+      "faction": "AI Academy",
+      "ability": "Rainbow Searchlight",
+      "referenceCard": "characters/google/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/google/character_sheet.png",
+        "expressions": "characters/google/expressions.png",
+        "chibi_sheet": "characters/google/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 6,
+        "foundedYear": 1998,
+        "yahooSymbol": "GOOGL",
+        "marketCapUsd": 3501085163520,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 3501085163520,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/GOOGL/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "meta",
+      "name": "Meta",
+      "title": "The Social Worldbuilder",
+      "description": "Builds reach through social networks, open models, and shared digital worlds.",
+      "faction": "Platform Kingdoms",
+      "ability": "Avatar Multiverse",
+      "referenceCard": "characters/meta/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/meta/character_sheet.png",
+        "expressions": "characters/meta/expressions.png",
+        "chibi_sheet": "characters/meta/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 7,
+        "foundedYear": 2004,
+        "yahooSymbol": "META",
+        "marketCapUsd": 1560051712000,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 1560051712000,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/META/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Platform Kingdoms"
+      ]
+    },
+    {
+      "slug": "amazon",
+      "name": "Amazon",
+      "title": "The Logistics Overlord",
+      "description": "Turns efficient infrastructure and automation into services at global scale.",
+      "faction": "Platform Kingdoms",
+      "ability": "Fulfillment Swarm",
+      "referenceCard": "characters/amazon/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/amazon/character_sheet.png",
+        "expressions": "characters/amazon/expressions.png",
+        "chibi_sheet": "characters/amazon/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 8,
+        "foundedYear": 1994,
+        "yahooSymbol": "AMZN",
+        "marketCapUsd": 2803846610944,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 2803846610944,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/AMZN/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Platform Kingdoms"
+      ]
+    },
+    {
+      "slug": "openai",
+      "name": "OpenAI",
+      "title": "The Reckless Prodigy",
+      "description": "Chases breakthroughs through bold experimentation and scaling.",
+      "faction": "AI Academy",
+      "ability": "Reasoning Constellation",
+      "referenceCard": "characters/openai/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/openai/character_sheet.png",
+        "expressions": "characters/openai/expressions.png",
+        "chibi_sheet": "characters/openai/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 9,
+        "foundedYear": 2015,
+        "yahooSymbol": null,
+        "marketCapUsd": 1250000000000,
+        "marketCapUpdatedAt": "2026-11-09T01:56:58+00:00",
+        "marketCapNote": "Estimated value for sorting; see valuationEstimate for the transaction date, status, and source.",
+        "marketCapBasis": "funding_valuation",
+        "valuationEstimate": {
+          "amount": 1250000000000,
+          "currency": "USD",
+          "basis": "post_money_funding",
+          "eventDate": "2026-11-06",
+          "status": "reported_initial_tranche_closed",
+          "source": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value",
+          "note": "Initial funding tranche; reported valuation.",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "comparison": "approximate"
+        }
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "title": "The Cautious Scholar",
+      "description": "Champions interpretable, controllable, and responsible artificial intelligence.",
+      "faction": "AI Academy",
+      "ability": "Constitutional Ward",
+      "referenceCard": "characters/anthropic/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/anthropic/character_sheet.png",
+        "expressions": "characters/anthropic/expressions.png",
+        "chibi_sheet": "characters/anthropic/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 10,
+        "foundedYear": 2021,
+        "yahooSymbol": null,
+        "marketCapUsd": 965000000000,
+        "marketCapUpdatedAt": "2026-11-09T01:56:58+00:00",
+        "marketCapNote": "Estimated value for sorting; see valuationEstimate for the transaction date, status, and source.",
+        "marketCapBasis": "funding_valuation",
+        "valuationEstimate": {
+          "amount": 965000000000,
+          "currency": "USD",
+          "basis": "post_money_funding",
+          "eventDate": "2026-05-28",
+          "status": "closed",
+          "source": "https://www.anthropic.com/news/series-h",
+          "note": "Series H post-money valuation; excludes proposed IPO pricing.",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "comparison": "approximate"
+        }
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "xai",
+      "name": "xAI",
+      "title": "The Chaos Astronaut",
+      "description": "Questions conventional wisdom in pursuit of unexpected truths.",
+      "faction": "AI Academy",
+      "ability": "Rocket Paradox",
+      "referenceCard": "characters/xai/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/xai/character_sheet.png",
+        "expressions": "characters/xai/expressions.png",
+        "chibi_sheet": "characters/xai/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 11,
+        "foundedYear": 2023,
+        "yahooSymbol": null,
+        "marketCapUsd": 250000000000,
+        "marketCapUpdatedAt": "2026-11-09T01:56:58+00:00",
+        "marketCapNote": "Estimated value for sorting; see valuationEstimate for the transaction date, status, and source.",
+        "marketCapBasis": "acquisition_price",
+        "valuationEstimate": {
+          "amount": 250000000000,
+          "currency": "USD",
+          "basis": "acquisition_price",
+          "eventDate": "2026-02-02",
+          "status": "completed",
+          "source": "https://www.investing.com/news/stock-market-news/musks-spacex-to-merge-with-xai-at-combined-valuation-of-125-trillion-bloomberg-news-reports-4480053",
+          "note": "Reported value assigned to xAI in its acquisition by SpaceX; excludes the parent company value.",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "comparison": "approximate"
+        }
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "mistral-ai",
+      "name": "Mistral AI",
+      "title": "The Tiny Titan of Europe",
+      "description": "Builds efficient open models for independent technology ecosystems.",
+      "faction": "AI Academy Juniors",
+      "ability": "Mixture of Experts",
+      "referenceCard": "characters/mistral-ai/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/mistral-ai/character_sheet.png",
+        "expressions": "characters/mistral-ai/expressions.png",
+        "chibi_sheet": "characters/mistral-ai/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 12,
+        "foundedYear": 2023,
+        "yahooSymbol": null,
+        "marketCapUsd": 23424427986,
+        "marketCapUpdatedAt": "2026-11-09T01:56:58+00:00",
+        "marketCapNote": "Estimated value for sorting; see valuationEstimate for the transaction date, status, and source.",
+        "marketCapBasis": "funding_valuation",
+        "valuationEstimate": {
+          "amount": 21000000000,
+          "currency": "EUR",
+          "basis": "post_money_funding",
+          "eventDate": "2026-09-08",
+          "status": "closed",
+          "comparison": "greater_than",
+          "source": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "note": "Series D; disclosed threshold used as a conservative sorting estimate.",
+          "usdExchangeRate": 1.1154489517211914,
+          "exchangeRateDate": "2026-11-09T00:00:00+00:00",
+          "exchangeRateSource": "https://finance.yahoo.com/quote/EURUSD=X/"
+        }
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "title": "The Budget Brainiac",
+      "description": "Makes capable reasoning go further with efficient computation.",
+      "faction": "AI Academy Juniors",
+      "ability": "Sparse Awakening",
+      "referenceCard": "characters/deepseek/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/deepseek/character_sheet.png",
+        "expressions": "characters/deepseek/expressions.png",
+        "chibi_sheet": "characters/deepseek/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 13,
+        "foundedYear": 2023,
+        "yahooSymbol": null,
+        "marketCapUsd": 89887636900,
+        "marketCapUpdatedAt": "2026-11-09T01:56:58+00:00",
+        "marketCapNote": "Estimated value for sorting; see valuationEstimate for the transaction date, status, and source.",
+        "marketCapBasis": "funding_valuation",
+        "valuationEstimate": {
+          "amount": 600000000000,
+          "currency": "CNY",
+          "basis": "post_money_funding",
+          "eventDate": "2026-10-22",
+          "status": "reported_closed",
+          "comparison": "greater_than",
+          "source": "https://www.theinformation.com/briefings/deepseek-raises-nearly-16-billion-second-funding-round",
+          "note": "Second funding round; disclosed lower bound.",
+          "usdExchangeRate": 0.1498127281665802,
+          "exchangeRateDate": "2026-11-09T00:00:00+00:00",
+          "exchangeRateSource": "https://finance.yahoo.com/quote/CNYUSD=X/"
+        }
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "huggingface",
+      "name": "Hugging Face",
+      "title": "The Open-Source Sunshine Girl",
+      "description": "Makes AI more accessible by sharing models, tools, and datasets.",
+      "faction": "AI Academy",
+      "ability": "Community Hug",
+      "referenceCard": "characters/huggingface/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/huggingface/character_sheet.png",
+        "expressions": "characters/huggingface/expressions.png",
+        "chibi_sheet": "characters/huggingface/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 14,
+        "foundedYear": 2016,
+        "yahooSymbol": null,
+        "marketCapUsd": 11900000000,
+        "marketCapUpdatedAt": "2026-11-09T01:56:58+00:00",
+        "marketCapNote": "Estimated value for sorting; see valuationEstimate for the transaction date, status, and source.",
+        "marketCapBasis": "acquisition_price",
+        "valuationEstimate": {
+          "amount": 11900000000,
+          "currency": "USD",
+          "basis": "acquisition_price",
+          "eventDate": "2026-09-02",
+          "announcedDate": "2026-09-03",
+          "status": "announced_pending_close",
+          "source": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+          "note": "Approximate shareholder consideration; excludes employee retention awards. Expected closing in first-half 2027.",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "comparison": "approximate"
+        }
+      },
+      "groups": [
+        "AI Academy"
+      ]
+    },
+    {
+      "slug": "tsmc",
+      "name": "TSMC",
+      "title": "The Jade Foundry Goddess",
+      "description": "Turns complex chip designs into working silicon through manufacturing mastery.",
+      "faction": "Foundry Guild",
+      "ability": "Wafer Genesis",
+      "referenceCard": "characters/tsmc/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/tsmc/character_sheet.png",
+        "expressions": "characters/tsmc/expressions.png",
+        "chibi_sheet": "characters/tsmc/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 15,
+        "foundedYear": 1987,
+        "yahooSymbol": "2330.TW",
+        "marketCapUsd": 1750105154761,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 57440200556544,
+          "currency": "TWD",
+          "usdExchangeRate": 0.030468298122286797,
+          "exchangeRateDate": "2026-11-09T00:00:00+00:00",
+          "marketTime": "2026-11-09T01:26:23+00:00",
+          "source": "https://finance.yahoo.com/quote/2330.TW/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Foundry Guild"
+      ]
+    },
+    {
+      "slug": "asml",
+      "name": "ASML",
+      "title": "The Miller of Impossible Light",
+      "description": "Uses precision optics and physics to make advanced chipmaking possible.",
+      "faction": "Foundry Equipment Guild",
+      "ability": "EUV Mirror Halo",
+      "referenceCard": "characters/asml/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/asml/character_sheet.png",
+        "expressions": "characters/asml/expressions.png",
+        "chibi_sheet": "characters/asml/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 16,
+        "foundedYear": 1984,
+        "yahooSymbol": "ASML.AS",
+        "marketCapUsd": 551837345177,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 494722187264,
+          "currency": "EUR",
+          "usdExchangeRate": 1.1154489517211914,
+          "exchangeRateDate": "2026-11-09T00:00:00+00:00",
+          "marketTime": "2026-11-06T16:39:30+00:00",
+          "source": "https://finance.yahoo.com/quote/ASML.AS/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Foundry Guild"
+      ]
+    },
+    {
+      "slug": "samsung",
+      "name": "Samsung",
+      "title": "The Everything Empress",
+      "description": "Connects devices, displays, memory, and fabrication under one roof.",
+      "faction": "Memory Kingdom",
+      "ability": "Sapphire Crown",
+      "referenceCard": "characters/samsung/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/samsung/character_sheet.png",
+        "expressions": "characters/samsung/expressions.png",
+        "chibi_sheet": "characters/samsung/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 17,
+        "foundedYear": 1969,
+        "yahooSymbol": "005930.KS",
+        "marketCapUsd": 914052103298,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "foundedYearNote": "Samsung Electronics (1969), rather than the Samsung Group (1938).",
+        "marketCapQuote": {
+          "amount": 1243778102853632,
+          "currency": "KRW",
+          "usdExchangeRate": 0.0007348996587097645,
+          "exchangeRateDate": "2026-11-09T00:00:00+00:00",
+          "marketTime": "2026-11-09T01:26:26+00:00",
+          "source": "https://finance.yahoo.com/quote/005930.KS/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Memory Kingdom",
+        "Foundry Guild"
+      ]
+    },
+    {
+      "slug": "sk-hynix",
+      "name": "SK hynix",
+      "title": "The Stack Savant",
+      "description": "Feeds advanced processors with high-bandwidth memory.",
+      "faction": "Memory Kingdom",
+      "ability": "Memory Tower",
+      "referenceCard": "characters/sk-hynix/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/sk-hynix/character_sheet.png",
+        "expressions": "characters/sk-hynix/expressions.png",
+        "chibi_sheet": "characters/sk-hynix/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 18,
+        "foundedYear": 1983,
+        "yahooSymbol": "000660.KS",
+        "marketCapUsd": 597002824996,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 812359643824128,
+          "currency": "KRW",
+          "usdExchangeRate": 0.0007348996587097645,
+          "exchangeRateDate": "2026-11-09T00:00:00+00:00",
+          "marketTime": "2026-11-09T01:26:28+00:00",
+          "source": "https://finance.yahoo.com/quote/000660.KS/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Memory Kingdom"
+      ]
+    },
+    {
+      "slug": "micron",
+      "name": "Micron",
+      "title": "The Stack-'Em-High Wrangler",
+      "description": "Supplies the memory and bandwidth that keep computing moving.",
+      "faction": "Memory Kingdom",
+      "ability": "Memory Crystal",
+      "referenceCard": "characters/micron/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/micron/character_sheet.png",
+        "expressions": "characters/micron/expressions.png",
+        "chibi_sheet": "characters/micron/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 19,
+        "foundedYear": 1978,
+        "yahooSymbol": "MU",
+        "marketCapUsd": 780682002432,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 780682002432,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/MU/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Memory Kingdom"
+      ]
+    },
+    {
+      "slug": "broadcom",
+      "name": "Broadcom",
+      "title": "The Network Spider Queen",
+      "description": "Turns networking infrastructure and switching into strategic leverage.",
+      "faction": "Connectivity Quartet",
+      "ability": "Optical Web",
+      "referenceCard": "characters/broadcom/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/broadcom/character_sheet.png",
+        "expressions": "characters/broadcom/expressions.png",
+        "chibi_sheet": "characters/broadcom/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 20,
+        "foundedYear": 1961,
+        "yahooSymbol": "AVGO",
+        "marketCapUsd": 1401967345664,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "foundedYearNote": "1961 HP semiconductor lineage of Broadcom Inc.; original Broadcom Corporation was founded in 1991.",
+        "marketCapQuote": {
+          "amount": 1401967345664,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/AVGO/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "huawei",
+      "name": "Huawei",
+      "title": "The Crimson Fortress",
+      "description": "Pursues technological independence despite supply constraints.",
+      "faction": "Platform Kingdoms",
+      "ability": "Red Fortress",
+      "referenceCard": "characters/huawei/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/huawei/character_sheet.png",
+        "expressions": "characters/huawei/expressions.png",
+        "chibi_sheet": "characters/huawei/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 21,
+        "foundedYear": 1987,
+        "yahooSymbol": null,
+        "marketCapUsd": null,
+        "marketCapUpdatedAt": null,
+        "marketCapNote": "No independent public listing; private valuations and parent-company market caps are excluded."
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Platform Kingdoms"
+      ]
+    },
+    {
+      "slug": "qualcomm",
+      "name": "Qualcomm",
+      "title": "The Wireless Speedster",
+      "description": "Brings efficient processors, modems, and wireless technology together.",
+      "faction": "Connectivity Quartet",
+      "ability": "Snapdragon Dash",
+      "referenceCard": "characters/qualcomm/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/qualcomm/character_sheet.png",
+        "expressions": "characters/qualcomm/expressions.png",
+        "chibi_sheet": "characters/qualcomm/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 22,
+        "foundedYear": 1985,
+        "yahooSymbol": "QCOM",
+        "marketCapUsd": 176988700672,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 176988700672,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/QCOM/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "arm",
+      "name": "Arm",
+      "title": "The Quiet Architect",
+      "description": "Builds a far-reaching ecosystem around a widely licensed architecture.",
+      "faction": "Connectivity Quartet",
+      "ability": "Architecture Codex",
+      "referenceCard": "characters/arm/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/arm/character_sheet.png",
+        "expressions": "characters/arm/expressions.png",
+        "chibi_sheet": "characters/arm/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 23,
+        "foundedYear": 1990,
+        "yahooSymbol": "ARM",
+        "marketCapUsd": 186843398144,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 186843398144,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/ARM/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "marvell",
+      "name": "Marvell",
+      "title": "The Deep-Sea Navigator",
+      "description": "Moves data faster with custom silicon and networking technology.",
+      "faction": "Connectivity Quartet",
+      "ability": "Data Tide",
+      "referenceCard": "characters/marvell/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/marvell/character_sheet.png",
+        "expressions": "characters/marvell/expressions.png",
+        "chibi_sheet": "characters/marvell/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 24,
+        "foundedYear": 1995,
+        "yahooSymbol": "MRVL",
+        "marketCapUsd": 127046942720,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 127046942720,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/MRVL/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "cerebras",
+      "name": "Cerebras",
+      "title": "The Wafer-Scale Prodigy",
+      "description": "Reimagines chip architecture by challenging the boundaries of a wafer.",
+      "faction": "Silicon Kingdoms",
+      "ability": "Wafer Colossus",
+      "referenceCard": "characters/cerebras/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/cerebras/character_sheet.png",
+        "expressions": "characters/cerebras/expressions.png",
+        "chibi_sheet": "characters/cerebras/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 25,
+        "foundedYear": 2015,
+        "yahooSymbol": "CBRS",
+        "marketCapUsd": 21304743936,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 21304743936,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:01+00:00",
+          "source": "https://finance.yahoo.com/quote/CBRS/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Silicon Kingdoms"
+      ]
+    },
+    {
+      "slug": "ibm",
+      "name": "IBM",
+      "title": "The Iron Lady of Computing",
+      "description": "Balances reliability and compatibility with a long history of reinvention.",
+      "faction": "Enterprise Elders",
+      "ability": "Mainframe Citadel",
+      "referenceCard": "characters/ibm/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/ibm/character_sheet.png",
+        "expressions": "characters/ibm/expressions.png",
+        "chibi_sheet": "characters/ibm/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 26,
+        "foundedYear": 1911,
+        "yahooSymbol": "IBM",
+        "marketCapUsd": 231554596864,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 231554596864,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:00:02+00:00",
+          "source": "https://finance.yahoo.com/quote/IBM/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Enterprise Elders"
+      ]
+    },
+    {
+      "slug": "oracle",
+      "name": "Oracle",
+      "title": "The Database Duchess",
+      "description": "Builds lasting influence through databases and enterprise platforms.",
+      "faction": "Enterprise Elders",
+      "ability": "Relational Throne",
+      "referenceCard": "characters/oracle/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/oracle/character_sheet.png",
+        "expressions": "characters/oracle/expressions.png",
+        "chibi_sheet": "characters/oracle/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 27,
+        "foundedYear": 1977,
+        "yahooSymbol": "ORCL",
+        "marketCapUsd": 361965912064,
+        "marketCapUpdatedAt": "2026-11-09T01:45:53+00:00",
+        "marketCapQuote": {
+          "amount": 361965912064,
+          "currency": "USD",
+          "usdExchangeRate": 1.0,
+          "exchangeRateDate": null,
+          "marketTime": "2026-11-06T21:03:15+00:00",
+          "source": "https://finance.yahoo.com/quote/ORCL/"
+        },
+        "marketCapBasis": "public_market_cap"
+      },
+      "groups": [
+        "Enterprise Elders"
+      ]
+    },
+    {
+      "slug": "xerox-parc",
+      "name": "Xerox PARC",
+      "title": "The Unpaid Inventor",
+      "description": "Invented tomorrow’s desktop in a lab that can barely afford toner.",
+      "faction": "Grandmother Generation",
+      "ability": "Window of Possibilities",
+      "referenceCard": "characters/xerox-parc/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/xerox-parc/character_sheet.png",
+        "expressions": "characters/xerox-parc/expressions.png",
+        "chibi_sheet": "characters/xerox-parc/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 28,
+        "foundedYear": 1970,
+        "yahooSymbol": null,
+        "marketCapUsd": null,
+        "marketCapUpdatedAt": null,
+        "marketCapNote": "No independent public listing; private valuations and parent-company market caps are excluded."
+      },
+      "groups": [
+        "Grandmother Generation"
+      ]
+    },
+    {
+      "slug": "sun-microsystems",
+      "name": "Sun Microsystems",
+      "title": "The Solar Archon",
+      "description": "Believes networks and portable software shape the future.",
+      "faction": "Grandmother Generation",
+      "ability": "Solaris Domain",
+      "referenceCard": "characters/sun-microsystems/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/sun-microsystems/character_sheet.png",
+        "expressions": "characters/sun-microsystems/expressions.png",
+        "chibi_sheet": "characters/sun-microsystems/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 29,
+        "foundedYear": 1982,
+        "yahooSymbol": null,
+        "marketCapUsd": null,
+        "marketCapUpdatedAt": null,
+        "marketCapNote": "No independent public listing; private valuations and parent-company market caps are excluded."
+      },
+      "groups": [
+        "Grandmother Generation"
+      ]
+    },
+    {
+      "slug": "dec",
+      "name": "DEC",
+      "title": "The Digital Valkyrie",
+      "description": "Puts interactive computing power directly into people's hands.",
+      "faction": "Grandmother Generation",
+      "ability": "VAX Fortress",
+      "referenceCard": "characters/dec/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/dec/character_sheet.png",
+        "expressions": "characters/dec/expressions.png",
+        "chibi_sheet": "characters/dec/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 30,
+        "foundedYear": 1957,
+        "yahooSymbol": null,
+        "marketCapUsd": null,
+        "marketCapUpdatedAt": null,
+        "marketCapNote": "No independent public listing; private valuations and parent-company market caps are excluded."
+      },
+      "groups": [
+        "Grandmother Generation"
+      ]
+    },
+    {
+      "slug": "fairchild",
+      "name": "Fairchild Semiconductor",
+      "title": "The First Lady of Silicon",
+      "description": "Helped make silicon scalable and sparked new technology empires.",
+      "faction": "Grandmother Generation",
+      "ability": "Planar Genesis",
+      "referenceCard": "characters/fairchild/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/fairchild/character_sheet.png",
+        "expressions": "characters/fairchild/expressions.png",
+        "chibi_sheet": "characters/fairchild/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 31,
+        "foundedYear": 1957,
+        "yahooSymbol": null,
+        "marketCapUsd": null,
+        "marketCapUpdatedAt": null,
+        "marketCapNote": "No independent public listing; private valuations and parent-company market caps are excluded."
+      },
+      "groups": [
+        "Silicon Kingdoms",
+        "Grandmother Generation"
+      ]
+    },
+    {
+      "slug": "bell-labs",
+      "name": "Bell Labs",
+      "title": "The Grandmother of Transistors",
+      "description": "Creates foundational science that outlives any single product.",
+      "faction": "Grandmother Generation",
+      "ability": "Transistor Spark",
+      "referenceCard": "characters/bell-labs/reference_card.jpg",
+      "artwork": {
+        "character_sheet": "characters/bell-labs/character_sheet.png",
+        "expressions": "characters/bell-labs/expressions.png",
+        "chibi_sheet": "characters/bell-labs/chibi_sheet.png"
+      },
+      "sort": {
+        "curatedOrder": 32,
+        "foundedYear": 1925,
+        "yahooSymbol": null,
+        "marketCapUsd": null,
+        "marketCapUpdatedAt": null,
+        "marketCapNote": "No independent public listing; private valuations and parent-company market caps are excluded."
+      },
+      "groups": [
+        "Grandmother Generation"
+      ]
+    }
+  ]
+}

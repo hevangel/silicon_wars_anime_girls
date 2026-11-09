@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="">
+  <meta name="description" content="">
+  <title>Silicon Wars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand-navigation">
+    <button class="menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false" data-aria-label="navigation.menuLabel">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="brand-core" x1="10" y1="7" x2="23" y2="26" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#e5fbff"/><stop offset="1" stop-color="#43caff"/>
+          </linearGradient>
+        </defs>
+        <g stroke="currentColor" stroke-width="1.3" stroke-linejoin="bevel">
+          <path d="M11 1V6M21 1V6M11 26V31M21 26V31M1 11H6M1 21H6M26 11H31M26 21H31"/>
+          <path d="M10 5H22L27 10V22L22 27H10L5 22V10Z" fill="#0b202e"/>
+          <path d="M11 9H21L23 11V21L21 23H11L9 21V11Z" fill="#173c50" stroke-opacity=".55"/>
+        </g>
+        <path d="M18 9L10 18H15L14 24L23 14H17L18 9Z" fill="url(#brand-core)"/>
+        <path d="M8 3H4V7M24 29H28V25" stroke="currentColor" stroke-width="1" opacity=".65"/>
+        <circle cx="11" cy="1" r="1" fill="#d1f8ff"/>
+        <circle cx="31" cy="21" r="1" fill="#d1f8ff"/>
+      </svg>
+    </button>
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a class="brand" href="#characters" data-aria-label="brand.ariaLabel"><span data-text="brand.name"></span></a>
+      <span class="breadcrumb-current" aria-current="page" hidden></span>
+    </nav>
+    </div>
+    <nav id="site-menu" class="site-menu" data-aria-label="navigation.menuLabel" hidden></nav>
+    <span class="edition" data-text="brand.edition"></span>
+  </header>
+  <main>
+    <div id="gallery-view">
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title" data-aria-label="intro.titleAriaLabel">
+        <a class="logo-home" href="#characters" data-aria-label="brand.ariaLabel">
+        <span class="logo-neon" data-logo>
+          <svg class="logo-circuit logo-circuit--left" viewBox="0 0 164 124" fill="none" aria-hidden="true">
+            <path class="trace" d="M160 60H120L100 40H50L28 18H8M160 70H136L116 90H76L58 108H28M160 50H142L122 20H92M160 80H150L132 110H112"/>
+            <path class="flow" pathLength="100" d="M160 60H120L100 40H50L28 18H8" style="--i:0"/>
+            <path class="flow" pathLength="100" d="M160 70H136L116 90H76L58 108H28" style="--i:1"/>
+            <path class="flow" pathLength="100" d="M160 50H142L122 20H92" style="--i:2"/>
+            <circle class="node" cx="8" cy="18" r="3"/><circle class="node" cx="28" cy="108" r="3"/>
+            <circle class="node" cx="92" cy="20" r="2"/><circle class="node" cx="112" cy="110" r="2"/>
+          </svg>
+          <img class="title-art" src="silicon_wars_logo.svg" width="520" height="290" alt="">
+          <svg class="logo-circuit logo-circuit--right" viewBox="0 0 164 124" fill="none" aria-hidden="true">
+            <path class="trace" d="M160 60H120L100 40H50L28 18H8M160 70H136L116 90H76L58 108H28M160 50H142L122 20H92M160 80H150L132 110H112"/>
+            <path class="flow" pathLength="100" d="M160 60H120L100 40H50L28 18H8" style="--i:0"/>
+            <path class="flow" pathLength="100" d="M160 70H136L116 90H76L58 108H28" style="--i:1"/>
+            <path class="flow" pathLength="100" d="M160 50H142L122 20H92" style="--i:2"/>
+            <circle class="node" cx="8" cy="18" r="3"/><circle class="node" cx="28" cy="108" r="3"/>
+            <circle class="node" cx="92" cy="20" r="2"/><circle class="node" cx="112" cy="110" r="2"/>
+          </svg>
+        </span>
+        </a>
+      </h1>
+    </section>
+
+    <section class="archive" id="characters" aria-labelledby="archive-title">
+      <div class="section-heading">
+        <h2 id="archive-title" data-text="gallery.heading"></h2>
+        <span class="card-count"></span>
+      </div>
+      <div class="carousel-shell">
+        <button class="carousel-control carousel-control--left" type="button" data-aria-label="gallery.previousLabel" data-direction="-1">
+          <svg viewBox="0 0 80 80" aria-hidden="true">
+            <path class="chip-trace" d="M24 4V16M34 4V16M46 4V16M56 4V16M24 64V76M34 64V76M46 64V76M56 64V76M4 24H16M4 34H16M4 46H16M4 56H16M64 24H76M64 34H76M64 46H76M64 56H76"/>
+            <path class="chip-fill" d="M24 14H56L66 24V56L56 66H24L14 56V24Z"/>
+            <path class="chip-die" d="M28 22H52L58 28V52L52 58H28L22 52V28Z"/>
+            <path class="chip-trace" d="M18 30H26V24M18 50H26V56M54 24V30H62M54 56V50H62"/>
+            <path class="chip-arrow" d="M29 40H49M40 30L50 40L40 50"/>
+            <circle class="chip-node" cx="24" cy="4" r="2"/><circle class="chip-node" cx="56" cy="76" r="2"/>
+          </svg>
+        </button>
+        <div class="carousel" tabindex="0" role="region" aria-roledescription="carousel" data-aria-label="gallery.carouselLabel">
+          <div class="track"></div>
+        </div>
+        <button class="carousel-control carousel-control--right" type="button" data-aria-label="gallery.nextLabel" data-direction="1">
+          <svg viewBox="0 0 80 80" aria-hidden="true">
+            <path class="chip-trace" d="M24 4V16M34 4V16M46 4V16M56 4V16M24 64V76M34 64V76M46 64V76M56 64V76M4 24H16M4 34H16M4 46H16M4 56H16M64 24H76M64 34H76M64 46H76M64 56H76"/>
+            <path class="chip-fill" d="M24 14H56L66 24V56L56 66H24L14 56V24Z"/>
+            <path class="chip-die" d="M28 22H52L58 28V52L52 58H28L22 52V28Z"/>
+            <path class="chip-trace" d="M18 30H26V24M18 50H26V56M54 24V30H62M54 56V50H62"/>
+            <path class="chip-arrow" d="M29 40H49M40 30L50 40L40 50"/>
+            <circle class="chip-node" cx="24" cy="4" r="2"/><circle class="chip-node" cx="56" cy="76" r="2"/>
+          </svg>
+        </button>
+      </div>
+      <p class="interaction-hint" data-text="gallery.hint"></p>
+    </section>
+    </div>
+
+    <section class="character-profile" id="character-profile" aria-live="polite" hidden>
+      <button class="profile-back" type="button" data-aria-label="profile.backAriaLabel">
+        <span aria-hidden="true">←</span> <span data-text="profile.backLabel"></span>
+      </button>
+      <div class="profile-layout">
+        <div class="profile-sidebar">
+          <article class="profile-identity">
+            <img class="profile-card-image" alt="">
+            <div class="profile-card-caption">
+              <span class="character-name"></span>
+              <span class="character-title"></span>
+            </div>
+          </article>
+          <section class="portfolio-panel" aria-labelledby="portfolio-title">
+            <p class="profile-kicker"></p>
+            <p class="portfolio-description" id="portfolio-title"></p>
+            <p class="profile-ability" hidden><strong data-text="profile.abilityLabel"></strong> <span></span></p>
+          </section>
+        </div>
+        <section class="profile-artwork" aria-labelledby="artwork-title">
+          <p class="sheet-kicker" data-text="profile.artworkKicker"></p>
+          <h2 id="artwork-title" data-text="profile.artworkHeading"></h2>
+          <div class="sheet-grid"></div>
+        </section>
+      </div>
+    </section>
+
+    <section class="asset-archive" id="asset-archive" aria-live="polite" hidden>
+      <h1 class="asset-archive-title sr-only"></h1>
+      <div class="gallery-toolbar archive-toolbar">
+        <label class="group-selection"><span data-text="gallery.groupLabel"></span><select class="group-filter"></select></label>
+        <label class="sort-selection"><span data-text="sorting.label"></span><select class="sort-select"></select></label>
+        <span class="asset-archive-count" aria-live="polite"></span>
+      </div>
+      <p class="sorting-note" data-text="sorting.note" hidden></p>
+      <div class="asset-list"></div>
+    </section>
+  </main>
+
+  <dialog class="art-viewer" aria-labelledby="viewer-title">
+    <div class="viewer-toolbar">
+      <span id="viewer-title"></span>
+      <a class="viewer-profile" data-text="viewer.profileLabel"></a>
+      <button class="viewer-close" type="button" data-aria-label="viewer.closeLabel">×</button>
+    </div>
+    <button class="viewer-previous" type="button" data-aria-label="viewer.previousLabel">‹</button>
+    <div class="viewer-image-wrap"><img class="viewer-image" alt=""></div>
+    <button class="viewer-next" type="button" data-aria-label="viewer.nextLabel">›</button>
+  </dialog>
+
+  <footer data-text="footer"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
