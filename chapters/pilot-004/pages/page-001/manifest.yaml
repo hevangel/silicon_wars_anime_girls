@@ -1,0 +1,50 @@
+chapter: pilot-004
+page: page-001
+status: review_draft
+human_approval: pending
+generator: autoglm image tool
+model: doubao-seedream-5-0
+seed: null
+generation_note: The image tool returned a remote JPEG with no exposed model seed; the accepted take was
+  downloaded, converted losslessly to PNG, and reviewed at reading size before lettering.
+panels:
+- id: panel-01
+  brief: chapters/pilot-004/pages/page-001/panels/panel-01.yaml
+  prompt_sha256: c2db47ced18b47c725573f54a3dd324fbdfef6531b86e3bfa8c2ebb298f061a2
+  generation_reference:
+    path: chapters/pilot-004/pages/page-001/refs/cast-reference.jpg
+    role: This composite of the four painted reference cards, cropped above the name plates, was the single image passed to the generator. The model sheets below remain the canonical identity sources.
+    sha256: b3e8efb8ac98a2168e806beeca1bc9c1fbc68c6cb44d14e78977e3a223f136de
+  references:
+  - path: characters/openai/character_sheet.png
+    role: model_sheet
+    sha256: 27073d0653aba7b5883d2be7aaeb2c3bec7b247e1af317c0b9b2ad5d6b23cad6
+  - path: characters/micron/character_sheet.png
+    role: model_sheet
+    sha256: f5aa8920f807655ed269c9087b8759a963dfbc53c3fd201040524299d6b99c64
+  - path: characters/samsung/character_sheet.png
+    role: model_sheet
+    sha256: e1dc4cff37ac6b0140e3a696bea37fbea507f312f86defe0104d924f25fc7bc6
+  - path: characters/sk-hynix/character_sheet.png
+    role: model_sheet
+    sha256: 7f65bdd92b02ac7230fba13beae080bcc8b7843facb094b1d646da77c66a9149
+  selected_take: panel-01.png
+  rejected_takes:
+  - take: 2
+    retained: false
+    reason: Better balloon headroom, but the child read as cheering instead of begging and she grew to
+      half the frame, losing the scale gap between her and the suppliers.
+  - take: 3
+    retained: false
+    reason: Clean balloon space and a clear plea, but the three suppliers stood level with the child, the
+      loading platform disappeared, and SK hynix's HBM stack read as folded cloth.
+  output: chapters/pilot-004/pages/page-001/art/panel-01.png
+  image_sha256: 609b2005242726d7242f41ab62f3428bd4f887be4824a2ee6a81f835ac026f83
+  art_notes: Sash and shirt wordmarks are AI-rendered approximations that read correctly at page size but
+    are not letter-accurate at 1:1; flagged in the review checklist.
+assembly:
+  pillow_version: 12.2.0
+  width: 2080
+  height: 1560
+  output: chapters/pilot-004/pages/page-001/final/page-001.png
+  sha256: 42af39d1b1e402bcd89caca5e6bebaf9523e7ace440a36e6cb764a5718a36c44

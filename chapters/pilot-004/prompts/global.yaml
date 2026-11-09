@@ -1,0 +1,6 @@
+visual_language: "One single text-free color manga panel for Silicon Wars: cinematic seinen anime, decisive black ink, expressive line weight, detailed but readable industrial architecture, controlled screentone texture, high contrast cel shading, warm amber warehouse light against cool cyan, sapphire, violet and copper accents. The setting is an immense memory-chip warehouse: towering racks of stacked memory modules, pallets of DRAM sticks, shrink-wrapped NAND crates, hazy light shafts. Use believable hand anatomy, clearly separated silhouettes, and a flat readable composition with open ceiling space reserved for balloons. Full-bleed art; no panel borders, lettering, numbers, captions, bubbles, or watermarks. References are for character identity and costume only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  openai: characters/openai/continuity.yaml
+  micron: characters/micron/continuity.yaml
+  samsung: characters/samsung/continuity.yaml
+  sk-hynix: characters/sk-hynix/continuity.yaml

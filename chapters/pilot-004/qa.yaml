@@ -1,0 +1,14 @@
+status: review_draft
+checks:
+  - One 4:3 landscape panel; art and lettering are separate sources that assemble into page-001
+  - OpenAI keeps her side ponytail, navy knot ribbon with the white knot, sailor uniform, teal tie, and robot backpack
+  - Micron keeps her cream hat with iridescent band, braided hair, fringed vest, chip-shaped star, neckerchief, holstered DIMM, and glowing lasso
+  - Samsung keeps her near-black waist-length hair with sapphire ribbons, white and ice-silver hanbok, circuit hem, SAMSUNG sash, and gadget norigae
+  - SK hynix keeps her violet-black updo with gold pin and crystal cubes, red-orange jeogori, red-to-charcoal column skirt with stacked hem, copper norigae, and glowing HBM stack
+  - Balloons read right to left (SK hynix, Samsung, Micron, then OpenAI's plea) and do not overlap or cover any face
+  - Lettering uses only glyphs the renderer font supports (no em dashes or ellipsis characters)
+  - Scale gap reads: the child is on the floor, the three suppliers stand on the loading platform above her
+  - Sash and shirt wordmarks read correctly at page size but are not letter-accurate at 1:1; accepted for this comedy beat
+  - No real product performance claims; the scarcity is played as fiction
+  - Review the assembled page at intended reading size
+human_approval: pending

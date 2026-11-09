@@ -1,0 +1,13 @@
+chapter: pilot-004
+page: page-001
+global_prompt: chapters/pilot-004/prompts/global.yaml
+storyboard: chapters/pilot-004/pages/page-001/storyboard.yaml
+lettering: chapters/pilot-004/pages/page-001/lettering.yaml
+output: chapters/pilot-004/pages/page-001/final/page-001.png
+generator: doubao-seedream-5-0 (autoglm image tool)
+seed: null
+change_invalidation:
+  lettering: [final_page]
+  panel_pose_or_expression: [affected_panel_art, final_page]
+  character_design: [panels_using_that_character, final_page]
+  layout: [final_page]
