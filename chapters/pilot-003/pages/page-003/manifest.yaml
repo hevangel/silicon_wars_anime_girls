@@ -1,0 +1,48 @@
+chapter: pilot-003
+page: page-003
+status: review_draft
+human_approval: pending
+generator: built-in image generation
+model: null
+seed: null
+generation_note: The built-in generator did not expose a model identifier or seed. The selected take was
+  visually reviewed. Per the user's direction, all six sheets (character sheet and expression sheet
+  for each character) were passed as generation inputs; the renderer validates the three model
+  sheets as the panel references.
+panels:
+- id: panel-01
+  brief: chapters/pilot-003/pages/page-003/panels/panel-01.yaml
+  prompt_sha256: 5b5e4001c5dcb0db6919315f46fd2327c7c1ab94448555ed90eaeabccf606ebf
+  references:
+  - path: characters/nvidia/character_sheet.png
+    role: model_sheet
+    sha256: d9bb716ffd34baaff4ec062e1590f0cca1bf3f3b08fa99a91ebf81604e958b3a
+    archive_commit: 0d86782cdcc8f9fe5c1b1c24ce31dddbe4783d1d
+  - path: characters/nvidia/expressions.png
+    role: expression_sheet (additional generation input)
+    sha256: 91de36f21492b2e57a92eecf504e6cb9db1e5a57dfb9d2b200262b6bd90e04a4
+  - path: characters/amd/character_sheet.png
+    role: model_sheet
+    sha256: be93df9c38e9d590f66655bee108c3b0af293fcc74ccc660e4a0f7976ebf0c58
+  - path: characters/amd/expressions.png
+    role: expression_sheet (additional generation input)
+    sha256: 5460af35081c5654db9442c0a918f5338fccb97df18fcaa05915c0b720920018
+  - path: characters/intel/character_sheet.png
+    role: model_sheet
+    sha256: 8a58cb9e40c666ed86527dea4456dcc78d66d3e74d50496161f06dd5d810631f
+  - path: characters/intel/expressions.png
+    role: expression_sheet (additional generation input)
+    sha256: 423b0ef28f3fe718bb35383da0c67878c89bf17c0b700ddf9eb4beaa6a7e305c
+  output: chapters/pilot-003/pages/page-003/art/panel-01.png
+  image_sha256: 2aa17ab9db0193a5b2f51f991db4d945b2ef748dce2642519b0b003db1ff40c6
+assembly:
+  pillow_version: 12.3.0
+  width: 2400
+  height: 1800
+  output: chapters/pilot-003/pages/page-003/final/page-003.png
+  sha256: 382e74e401bbe520c6f0d3549cd80f8ffb60da2f04834d63f8c107a146ad7ac7
+visual_language: "One single text-free color manga panel for Silicon Wars: cinematic seinen anime, decisive black ink, expressive line weight, high contrast cel shading, bright sunlit colors. The recurring setting for this chapter is a sunny tropical beach: golden sand, turquoise ocean, blue sky, palm trees at the frame edges. The Compute Triad wears swimsuit variants in their signature colors (from the chapter continuity notes) and plays barefoot; keep each character's hair, face, and signature accessories exactly as her character and expression sheets define them. Use believable hand anatomy, clearly separated silhouettes, and a flat readable composition. Full-bleed art; no panel borders, lettering, numbers, logos, captions, bubbles, or watermarks. References are for character identity and design details only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  intel: characters/intel/continuity.yaml
+  amd: characters/amd/continuity.yaml
+  nvidia: characters/nvidia/continuity.yaml

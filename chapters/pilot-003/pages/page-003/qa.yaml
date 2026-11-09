@@ -1,0 +1,11 @@
+status: review_draft
+checks:
+  - Single panel on the 4:3 layout (2400x1800 page, panel 2240x1640), lettering reads right to left (Nvidia, AMD, Intel) with non-overlapping balloons
+  - Generated from all six reference sheets (character sheet and expression sheet for each player) at the user's direction; swimsuit variants follow the chapter continuity notes — signature colors, Intel crown, Nvidia goggles and braid, AMD braided ponytail
+  - All three players barefoot; no shoes, sandals, or footwear anywhere in the frame
+  - AMD mid-spike above the net with the ball at her hand; Intel and Nvidia low in ready stances on the far side
+  - Dialogue, and only dialogue, added as a separate overlay; all glyphs are ASCII-safe for the renderer font (no em dashes)
+  - Recorded — Intel crouches in a deep squat with hands at the sand instead of the forearms-together receive platform the brief asked for; her swimsuit adds glowing blue circuit lines not in the continuity notes
+  - Recorded — Nvidia's goggles sit on her forehead from a side band rather than pushed up on top of her hair; her black swimsuit keeps the glowing green circuit seams from her design
+  - Review the page at intended reading size
+human_approval: pending
