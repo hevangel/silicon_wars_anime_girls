@@ -20,3 +20,11 @@ python tools/render_pilot.py --plan chapters/pilot-004/render.yaml
 ---
 
 The page is a review draft.
+
+## Wafer roundtable alternate
+
+In this 4:3 review draft, OpenAI asks for more memory across a giant silicon wafer while her robot catches the end of the requisition.
+
+[Corrected panel](pages/page-001/alternates/wafer-roundtable/c-wafer-roundtable-draft-02.png) · [Composition sketch](pages/page-001/alternates/wafer-roundtable/c-memory-request.png) · [Generation notes](pages/page-001/alternates/wafer-roundtable/c-wafer-roundtable-draft-01.prompt.md) · [Wordmark edits](pages/page-001/alternates/wafer-roundtable/c-wafer-roundtable-draft-02.prompt.md)
+
+The dialogue is part of this preview image.
