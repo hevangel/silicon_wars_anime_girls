@@ -677,7 +677,11 @@
       "faction": "Connectivity Quartet",
       "ability": "Optical Web",
       "referenceCard": "characters/broadcom/reference_card.jpg",
-      "artwork": {},
+      "artwork": {
+        "character_sheet": "characters/broadcom/character_sheet.png",
+        "expressions": "characters/broadcom/expressions.png",
+        "chibi_sheet": "characters/broadcom/chibi_sheet.png"
+      },
       "sort": {
         "curatedOrder": 20,
         "foundedYear": 1961,
@@ -733,7 +737,11 @@
       "faction": "Connectivity Quartet",
       "ability": "Snapdragon Dash",
       "referenceCard": "characters/qualcomm/reference_card.jpg",
-      "artwork": {},
+      "artwork": {
+        "character_sheet": "characters/qualcomm/character_sheet.png",
+        "expressions": "characters/qualcomm/expressions.png",
+        "chibi_sheet": "characters/qualcomm/chibi_sheet.png"
+      },
       "sort": {
         "curatedOrder": 22,
         "foundedYear": 1985,
@@ -762,7 +770,11 @@
       "faction": "Connectivity Quartet",
       "ability": "Architecture Codex",
       "referenceCard": "characters/arm/reference_card.jpg",
-      "artwork": {},
+      "artwork": {
+        "character_sheet": "characters/arm/character_sheet.png",
+        "expressions": "characters/arm/expressions.png",
+        "chibi_sheet": "characters/arm/chibi_sheet.png"
+      },
       "sort": {
         "curatedOrder": 23,
         "foundedYear": 1990,
@@ -791,7 +803,11 @@
       "faction": "Connectivity Quartet",
       "ability": "Data Tide",
       "referenceCard": "characters/marvell/reference_card.jpg",
-      "artwork": {},
+      "artwork": {
+        "character_sheet": "characters/marvell/character_sheet.png",
+        "expressions": "characters/marvell/expressions.png",
+        "chibi_sheet": "characters/marvell/chibi_sheet.png"
+      },
       "sort": {
         "curatedOrder": 24,
         "foundedYear": 1995,
