@@ -1,0 +1,7 @@
+page: page-001
+reading_direction: rtl
+items:
+  - {id: b01, panel: panel-01, kind: speech, text: "Get in line.", at: [0.90, 0.11], speaker: sk-hynix, tail: [0.86, 0.24]}
+  - {id: b02, panel: panel-01, kind: speech, text: "Oh my. Even I cannot make THAT much.", at: [0.68, 0.10], speaker: samsung, tail: [0.63, 0.23]}
+  - {id: b03, panel: panel-01, kind: speech, text: "Please! My next model needs more memory! Just a few more stacks!", at: [0.36, 0.42], speaker: openai, tail: [0.40, 0.55]}
+  - {id: b04, panel: panel-01, kind: speech, text: "Kid, the whole line is out the door.", at: [0.15, 0.11], speaker: micron, tail: [0.16, 0.24]}

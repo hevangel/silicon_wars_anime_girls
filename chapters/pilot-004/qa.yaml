@@ -1,0 +1,11 @@
+status: review_draft
+checks:
+  - Single panel on the 4:3 layout (2400x1800 page, panel 2240x1640), lettering reads right to left (SK hynix, Samsung, OpenAI, Micron) with non-overlapping balloons
+  - OpenAI kneeling and begging in the foreground: silver-white side ponytail, knot ribbon, sailor uniform, robot in her backpack
+  - Micron with honey-blonde side braid, cowboy hat, crossed arms, DIMM at her hip and the glowing lasso in hand (recorded — the lasso hangs from her hand rather than coiled at her hip)
+  - Samsung in the white and ice-silver hanbok with the sash and gadget norigae, one hand raised and one on her hip
+  - SK hynix in the red-orange column hanbok with binyeo and crystal cubes, notebook in hand and the HBM stack glowing on her palm (recorded — she holds the stack out at waist height rather than up on her palm, and her gaze drops down-left instead of locking onto OpenAI)
+  - Dialogue, and only dialogue, added as a separate overlay; all glyphs are ASCII-safe for the renderer font (no em dashes)
+  - No real product performance claims
+  - Review the page at intended reading size
+human_approval: pending
