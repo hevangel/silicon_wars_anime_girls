@@ -1,0 +1,65 @@
+chapter: pilot-001
+page: page-002-chibi-4x3
+status: review_draft
+human_approval: pending
+generator: built-in image generation (generate_image_seedream)
+model: doubao-seedream-5-0
+seed: null
+generation_note: The generator returned a 2304x1728 remote JPEG with no exposed seed; the accepted take was
+  downloaded, converted losslessly to PNG, and reviewed at reading size before lettering. Six earlier or
+  alternative takes are kept beside the accepted art and listed below.
+panels:
+- id: panel-01
+  brief: chapters/pilot-001/pages/page-002-chibi-4x3/panels/panel-01.yaml
+  prompt_sha256: b08b091d3f1c6e4f23029c775ec3f66c95b389a465ca36472eb72b3e0176b2fe
+  generation_reference:
+    path: chapters/pilot-001/pages/page-002-chibi-4x3/refs/cast-chibi-reference.jpg
+    role: This composite crops the front and three-quarter turnaround figures out of the three chibi
+      sheets and is the single image passed to the generator. The chibi sheets below remain the
+      canonical identity sources.
+    sha256: 081e8cf61f8c0aa69ae7ec4042bbb583b593c442e18b174d1aa623e2b21c9c84
+  references:
+  - path: characters/intel/chibi_sheet.png
+    role: chibi_sheet
+    sha256: 625d94bd1949635d5fae09de252ec215777c6bb1c5b0cc94cd3c05c6d6883a2e
+  - path: characters/amd/chibi_sheet.png
+    role: chibi_sheet
+    sha256: fbab83465ae01bf5e9ba5dd1a77bc10ba421d7d6fa381216e4063934a1fe880f
+  - path: characters/nvidia/chibi_sheet.png
+    role: chibi_sheet
+    sha256: 4034ac8549862452210d4856bd94bcc138d05bf2b5e430156740e481bfd99edb
+  selected_take: panel-01-take6.jpg
+  rejected_takes:
+  - take: panel-01-take1.jpg
+    retained: false
+    reason: Strong staging and a fully visible dumbbell, but Intel and AMD read as pleased (closed
+      eyes, smiles) instead of straining, and the rope continued past Nvidia's fist to the left edge.
+  - take: panel-01-take2.jpg
+    retained: false
+    reason: Both opponents strained properly, but Intel's legs read as kneeling and crossed, and the
+      rope still ran past Nvidia's fist off the left edge.
+  - take: panel-01-take3.jpg
+    retained: false
+    reason: Rope ended correctly and Intel strained well, but AMD looked smug and upright, and the
+      dumbbell was clipped by the left edge.
+  - take: panel-01-take4.jpg
+    retained: false
+    reason: Edit pass over take 2; it returned nearly unchanged, so the rope and Intel's legs stayed broken.
+  - take: panel-01-take5.jpg
+    retained: false
+    reason: Nvidia's rope hand hung open with no grip, the dumbbell shrank to a normal size, and both
+      opponents smiled through the pull.
+  - take: panel-01-take7.jpg
+    retained: false
+    reason: Dumbbell sat fully in frame but at normal scale, the rope no longer met her fist, and the
+      pair barely leaned.
+  output: chapters/pilot-001/pages/page-002-chibi-4x3/art/panel-01.png
+  image_sha256: 55d4a2d522f6fe7c1b4818c3abf567d234e6cc985f483668197f19b1e466caec
+  art_notes: Art is text-free apart from the small costume emblems the generator renders on Intel and AMD.
+    The dumbbell's outer plate is trimmed by the left frame edge; the weight still reads at page size.
+assembly:
+  pillow_version: 12.2.0
+  width: 2400
+  height: 1800
+  output: chapters/pilot-001/pages/page-002-chibi-4x3/final/page-002-chibi-4x3.png
+  sha256: bf893ef38abbd104bd97f34b8cfdf1c380b7e723e85665b6a8f6314863463f58

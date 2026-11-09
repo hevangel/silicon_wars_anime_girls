@@ -1,0 +1,6 @@
+visual_language: "One single text-free chibi manga panel for Silicon Wars: super-deformed comedic anime, roughly 2.5 heads tall, large rounded heads, tiny simplified bodies, clean rounded ink lines, flat cel shading with minimal detail, bright saturated color, cute exaggerated expressions, cartoon sweat drops and thin motion lines. The recurring setting is the x86 Citadel testing courtyard: pale stone paving, dark steel testing gantries, a monumental processor-socket gate behind the cast, open pale sky. Keep clearly separated silhouettes and believable small hands; keep a flat, readable composition with open sky at the top for a speech balloon. Full-bleed art; no panel borders, lettering, numbers, logos, captions, bubbles, or watermarks. References are for character identity and costume only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  intel: characters/intel/continuity.yaml
+  amd: characters/amd/continuity.yaml
+  nvidia: characters/nvidia/continuity.yaml
+status: review_draft

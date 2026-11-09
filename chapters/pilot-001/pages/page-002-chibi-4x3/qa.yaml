@@ -1,0 +1,13 @@
+page: page-002-chibi-4x3
+style_variant: chibi
+checks:
+  staging: "Pass - one 4:3 panel: Nvidia alone on the LEFT pulls against Intel and AMD together on the right, on the single-panel 4x3 layout."
+  hands: "Pass - Nvidia's right fist grips the rope and is the end of the rope; her left hand lifts the dumbbell. She pulls with one hand only, upright and not leaning."
+  effort_contrast: "Pass - Intel and AMD are flushed, eyes shut, mouths open, sweating and skidding backwards with dust at their heels; Nvidia stands square and relaxed with a show-off grin."
+  identity: "Pass - chibi designs follow the three chibi sheets: Intel's blue hair, sapphire crown, royal-blue and cream coat and white gloves; AMD's red braided ponytail, headphones and black-and-crimson kit; Nvidia's green braid, goggles and black leather jacket-dress."
+  dialogue: "Pass - Nvidia: 'I am stronger than both of you, using one hand.' (ASCII-safe, no em dash, per the renderer font limit)."
+  lettering_layout: "Pass - a single balloon sits in the open sky above Nvidia's head with a clear tail to her; it overlaps the upper left of the socket gate but covers no face and no hand."
+  dumbbell_crop: "Known nit - the dumbbell's outer plate is trimmed by the left frame edge in the accepted take. The weight still reads clearly as oversized at page size; the alternative takes that kept the whole dumbbell lost the rope end or the opponents' effort."
+  art_text: "Pass - the raw art is text-free apart from the small costume emblems the generator adds on Intel and AMD; all lettering is renderer-applied and editable."
+  reading_size: "Pass - reviewed the assembled 2400x1800 page at reading size; the rope, the one-handed grip, the dumbbell and both strained faces read at a glance."
+  claims: "Pass - no real product performance claims; the contest is played as fiction."

@@ -24,6 +24,22 @@ python tools/render_pilot.py --plan chapters/pilot-001/render-page-002.yaml --ch
 python tools/render_pilot.py --plan chapters/pilot-001/render-page-002.yaml
 ```
 
+## Page 002 · Chibi 4:3 variant
+
+![Rendered chibi 4:3 panel of the tug of war](pages/page-002-chibi-4x3/final/page-002-chibi-4x3.png)
+
+The same beat in the chibi style on the 4:3 single-panel layout: Nvidia pulls Intel and AMD along with one hand while her other hand curls a dumbbell, and tells them she is stronger than both of them using one hand.
+
+- [Panel brief](pages/page-002-chibi-4x3/panels/panel-01.yaml), [editable lettering](pages/page-002-chibi-4x3/lettering.yaml), and [panel order](pages/page-002-chibi-4x3/storyboard.yaml)
+- [Render plan](render-page-002-chibi-4x3.yaml), [generation manifest](pages/page-002-chibi-4x3/manifest.yaml), [review checklist](pages/page-002-chibi-4x3/qa.yaml), and the [chibi cast reference](pages/page-002-chibi-4x3/refs/cast-chibi-reference.jpg) cropped from the three chibi sheets
+
+The chibi variant has its own [style prompt](prompts/chibi.yaml); the render plan points at it.
+
+```sh
+python tools/render_pilot.py --plan chapters/pilot-001/render-page-002-chibi-4x3.yaml --check
+python tools/render_pilot.py --plan chapters/pilot-001/render-page-002-chibi-4x3.yaml
+```
+
 ## Page 003 · The Line Walk
 
 ![Rendered single-panel page 003](pages/page-003/final/page-003.png)
