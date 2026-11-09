@@ -1,17 +1,17 @@
-# Broadcom — Full manga character-sheet brief
+# Broadcom — Illustration brief
 
-Produce a landscape **16:9** professional anime character reference sheet for the original *Silicon Wars* character Broadcom, titled **The Network Spider Queen**. Full-body front, side and back views, 3 expressions, signature technical prop, 5 color swatches, and a small labeled bio card; clean, highly detailed consistent cel shading.
+Broadcom, **The Network Spider Queen**, is a composed adult woman whose authority comes from precision and a steady gaze. Use the [model sheet](character_sheet.png) for her exact appearance and [reference card](reference_card.jpg) for her bearing.
 
-## Continuity lock
-- Age: adult; adult woman.
-- Appearance: Dark purple hair, rectangular glasses and an intimidating executive stare.
-- Costume: Impeccable dark-plum suit and fiber-optic web jewelry.
-- Hair: dark violet. Signature brand accent: deep red.
-- Body language: Cold, calculating and formidable in negotiation.
-- Technical magical effect: Optical Web.
-- Tone: sophisticated manga + vintage computing references + legible tech datasheet UI.
-- Avoid giving all characters the same pointing or outstretched-hand pose; use a unique posture related to her role.
-- Character should be consistently recognizable from original group images (indexed in ../../scratchpad/illustrations.md).
-- Text needs proofread and easy-to-read. No erroneous labels or fabricated performance specifications.
+## Design continuity
 
-Include the signature line: “Your empire runs through my switches.”
+- Composed adult woman with burgundy eyes, narrow rectangular glasses, and a sculpted black-cherry updo held by two gold fiber-connector hairpins.
+- Sharp-shouldered black-plum brocade jacket with gold piping and a red-and-white Broadcom pulse clasp, ankle-length wine-red pleated skirt, gold drop earrings, and black heeled ankle boots.
+- Keep the glasses, gold earrings, and paired connector pins wherever visible. The company mark is a white pulse waveform on a red circular clasp on her left chest.
+- Her shoulders look strong through structured tailoring. Keep the build slender and the pose planted and relaxed.
+- In chibi, simplify the brocade and retain the pleated skirt, glasses, pins, and pulse clasp.
+
+## Optical Web
+
+Set her in a deep graphite switching hall with an optical patch console at waist height. She seats one gold fiber plug while keeping her gaze level. Crimson fibers arc overhead in a geometric web that terminates in the server racks. Use warm gold accents and keep her face and outline clear against the web.
+
+For the exact input prompts and reference images, see the [generation record](character_sheet.prompt.md).

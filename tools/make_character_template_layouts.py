@@ -29,6 +29,7 @@ SHEET = (1536, 1024)
 CARD = (1024, 1536)
 EXPR_PLAQUE_W = 200  # locked expression label plaque width (cell is 332 wide)
 HEADS = 7.5  # target figure height in head-heights, from the Microsoft proportion pass
+CHIBI_HEADS = 2.5
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
@@ -218,8 +219,8 @@ def expression_sheet() -> Image.Image:
 
 
 def chibi_figure(d: ImageDraw.ImageDraw, cx: float, top: float, height: float, view: str) -> None:
-    """Chibi mannequin: big head, short body, about 2.5 head-heights tall."""
-    u = height / 2.5
+    """Chibi mannequin with one head height from crown to chin."""
+    u = height / CHIBI_HEADS
     sx = {"front": 1.0, "back": 1.0, "three-quarter": 0.85, "side": 0.6}[view]
     base = top + height
     d.ellipse([cx - 0.9 * u, base - 0.07 * u, cx + 0.9 * u, base + 0.07 * u], fill=SHADOW)
@@ -227,15 +228,16 @@ def chibi_figure(d: ImageDraw.ImageDraw, cx: float, top: float, height: float, v
     def poly(pts):
         d.polygon([(cx + x * u * sx, top + y * u) for x, y in pts], fill=FIG_FILL, outline=FIG_LINE)
 
-    poly([(-0.3, 1.9), (-0.04, 1.9), (-0.06, 2.5), (-0.34, 2.5)])
-    poly([(0.04, 1.9), (0.3, 1.9), (0.34, 2.5), (0.06, 2.5)])
-    poly([(-0.36, 1.2), (0.36, 1.2), (0.32, 1.95), (-0.32, 1.95)])
-    poly([(-0.36, 1.25), (-0.28, 1.25), (-0.4, 1.8), (-0.5, 1.8)])
-    poly([(0.28, 1.25), (0.36, 1.25), (0.5, 1.8), (0.4, 1.8)])
-    d.ellipse([cx - 0.62 * u * sx, top, cx + 0.62 * u * sx, top + 1.3 * u], fill=FIG_FILL, outline=FIG_LINE)
+    poly([(-0.3, 1.8), (-0.04, 1.8), (-0.06, CHIBI_HEADS), (-0.34, CHIBI_HEADS)])
+    poly([(0.04, 1.8), (0.3, 1.8), (0.34, CHIBI_HEADS), (0.06, CHIBI_HEADS)])
+    poly([(-0.36, 0.95), (0.36, 0.95), (0.32, 1.85), (-0.32, 1.85)])
+    poly([(-0.36, 1.03), (-0.28, 1.03), (-0.4, 1.65), (-0.5, 1.65)])
+    poly([(0.28, 1.03), (0.36, 1.03), (0.5, 1.65), (0.4, 1.65)])
+    head_half_width = 0.5 * u * sx
+    d.ellipse([cx - head_half_width, top, cx + head_half_width, top + u], fill=FIG_FILL, outline=FIG_LINE)
     if view in ("three-quarter", "side"):
-        nx = cx + 0.62 * u * sx
-        d.line([nx - 2, top + 0.7 * u, nx + 0.05 * u, top + 0.75 * u], fill=FIG_LINE, width=2)
+        nx = cx + head_half_width
+        d.line([nx - 2, top + 0.54 * u, nx + 0.05 * u, top + 0.59 * u], fill=FIG_LINE, width=2)
 
 
 def chibi_sheet() -> Image.Image:

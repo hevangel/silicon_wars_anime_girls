@@ -1,0 +1,26 @@
+id: sun-microsystems
+title: The Solar Archon
+identity: "Poised woman in her late sixties or seventies with a softly rounded build, amber-brown eyes, silver-white low bun, fine age lines and gold half-moon reading glasses. Royal-purple sunburst gown with server-blade skirt panels, long gold-trimmed charcoal coat, network-patterned purple pashmina, pearls, gold watch with a blue face and low black boots. Purple period Sun ambigram brooch, Java coffee mug and blue MySQL dolphin charm."
+logo_lockup: symbol_and_name
+reference_assets:
+  model_sheet: characters/sun-microsystems/character_sheet.png
+  expressions: characters/sun-microsystems/expressions.png
+  chibi_sheet: characters/sun-microsystems/chibi_sheet.png
+  portrait: characters/sun-microsystems/reference_card.jpg
+
+default_style: default_manga
+supported_styles: [default_manga, chibi]
+
+style_variants:
+  chibi:
+    description: Compact manga variant of the elderly professor.
+    preserve:
+      - silver-white low bun, warm eyes, gold half-moon glasses and recognizable age lines
+      - purple sunburst gown, charcoal coat, patterned shawl and Sun ambigram brooch
+      - Java mug and blue dolphin charm in the front pose
+    transform:
+      proportions: Target 2.5 anatomical heads tall from crown to soles
+      anatomy: simplified
+      expressions: more exaggerated
+      shading: minimal
+      costume_detail: simplified but recognizable

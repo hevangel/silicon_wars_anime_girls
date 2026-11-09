@@ -1,19 +1,19 @@
-# Bell Labs — The Grandmother of Transistors
+# Bell Labs — The Grand Dame of Signals
 
 > An original *Silicon Wars* company-personification character. Unofficial fictional fan work.
 
 | Field | Design |
 |---|---|
 | Faction | Grandmother Generation |
-| Age portrayal | elder |
-| Hair color | white |
+| Age portrayal | elder, visibly in her nineties |
+| Hair color | silver-white |
 | Brand color motif | warm sepia |
 
 ## Appearance
-Very elderly white-haired bespectacled scholar with deep gentle wrinkles
+The oldest member of the cast, visibly in her nineties, with silver-white finger waves, round gold wire spectacles on a chain, and deep smile lines.
 
 ## Clothing and equipment
-Vintage tweed research coat, bow tie, old transistor and handwritten notebooks
+Chocolate-brown 1930s belted day dress, ivory silk scarf with a black Bell System enamel brooch, and brown pumps. She uses a vintage manual wheelchair with brown leather upholstery, walnut armrests, spoked rear wheels, and a footplate. Her lab props include an early transistor and a handwritten notebook.
 
 ## Personality
 Patient, wise, curious and soft-spoken
@@ -43,6 +43,10 @@ Fairchild and academic scientists
 > It all started with something very small.
 
 ## Character design assets
-- [Painted reference card](reference_card.jpg) cropped from the original group datasheet.
-- [Full-quality illustration brief](art_prompt.md) — continuity-locked prompt for a final anime drawing.
+- [Painted reference card](reference_card.jpg)
+- [Character model sheet](character_sheet.png)
+- [Expression sheet](expressions.png)
+- [Chibi sheet](chibi_sheet.png)
+- [Continuity lock](continuity.yaml)
+- [Illustration brief and generation record](art_prompt.md)
 - [Original image inventory](../../scratchpad/illustrations.md) — established group image references.

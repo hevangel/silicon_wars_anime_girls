@@ -15,7 +15,7 @@ Always use the blank guide as Image 2. Another character's card brings its palet
 
 Paste this block into every card prompt unchanged. Only the character fields below vary. The border is the same gold for every character; a character's color goes in the scene and lighting, not in the frame.
 
-> **CHROME (locked):** Match Image 2's frame and nameplate exactly. Frame: a thin gold outer border with a fine darker-gold inner hairline, one small gold diamond at top center, uniform on all four sides, with no art crossing it. Nameplate: a dark charcoal hexagon-ended plate across the bottom with a thin gold outline, a gold diamond at each end and one centered below it, holding exactly two centered lines of serif capitals in cream: the name large, the title smaller between two short gold rules. **LOGO RULE (locked):** no company logo, emblem or brand mark anywhere outside the character's own costume and props as described in the model sheet. None in the frame, none in the nameplate, none as a header, and no watermark, tagline, banner, profile panel or any text beyond the two nameplate lines.
+> **CHROME (locked):** Match Image 2's frame and nameplate exactly. Frame: a thin gold outer border with a fine darker-gold inner hairline, one small gold diamond at top center, uniform on all four sides, with no art crossing it. Nameplate: a dark charcoal hexagon-ended plate across the bottom with a thin gold outline, a gold diamond at each end and one centered below it, holding exactly two centered lines of serif capitals in cream: the name large, the title smaller between two short gold rules. **LOGO RULE (locked):** no company logo, emblem or brand mark anywhere outside the character's own costume and props as described in the model sheet. None in the frame, none in the nameplate, none as a header, and no watermark, tagline, banner, profile panel or any display text beyond the two nameplate lines. A wordmark embroidered on the character is part of the costume. **ON-CHARACTER LOGO (required):** Give the character at least one recognizable company logo or wordmark on a garment or worn accessory. Use the real mark or the character's approved period version. Preserve its exact design, color, side, and placement. Render it in the main figure and each view where that part of the outfit is visible. Use the angle and crop to show it on the card and on the expression sheet's standing figure. A header mark or a logo on a detached prop does not satisfy this requirement.
 
 ---
 
@@ -27,7 +27,7 @@ Create a polished portrait-oriented 2:3 anime character reference card for {{NAM
 
 | Field | Example |
 |---|---|
-| `{{IDENTITY_LIST}}` | Eyes, hair, build, every costume piece and accessory, copied from the model sheet prompt |
+| `{{IDENTITY_LIST}}` | Eyes, hair, build, every costume piece and accessory, and the company mark with its placement, copied from the model sheet prompt |
 | `{{CROP}}` | "about the hips up" (Intel, AMD); "the knees up, at a low angle" (Nvidia) |
 | `{{FRAMING_PRIORITY}}` | "the crown tips fully visible"; "the ponytail and face" |
 | `{{EXPRESSION}}` | "a composed commanding gaze"; "a bold confident smirk" |

@@ -182,6 +182,7 @@
     {
       "character": "asml",
       "path": "characters/asml/reference_card.jpg",
+      "archive_commit": "67db1849cf4ebf3f295f9b35ecee7334c55d8beb",
       "source": "foundry_trio_datasheet.png",
       "column": 2
     },

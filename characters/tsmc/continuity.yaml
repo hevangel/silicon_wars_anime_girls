@@ -1,6 +1,7 @@
 id: tsmc
 title: The Quiet Queenmaker
 identity: "Poised woman in her late twenties with an ash-silver bob, amber eyes, thin round silver glasses, and a wafer-die hairpin with a wine-red tassel. Pearl-white die-grid cleanroom tunic and skirt, narrow wine-red trim and sash, silver belt, gloves, lowered mask, loupe, and pearl ankle boots."
+logo_lockup: wordmark
 reference_assets:
   model_sheet: characters/tsmc/character_sheet.png
   expressions: characters/tsmc/expressions.png

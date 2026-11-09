@@ -1,19 +1,10 @@
-# ASML full-resolution character-sheet brief
+# ASML · The Miller of Impossible Light
 
-Create a **16:9 anime character-reference sheet** for ASML, titled “The EUV Light Weaver,” in the established detailed cyberpunk technology-datasheet aesthetic of Silicon Wars. Include large full-body front view, side view, back view, three facial expressions, signature equipment, color palette, logo/name heading, and a concise character bio.
+Use the [turnaround](character_sheet.png), [expression sheet](expressions.png), [chibi sheet](chibi_sheet.png), and [reference card](reference_card.jpg) for continuity.
 
-**Age portrayal:** adult. Confident adult woman with age-appropriate clothing.
+- Keep her an adult with long golden-blonde waves, icy-blue eyes, blue drop earrings, and a white lace cap tied with a cobalt ribbon.
+- Keep the Dutch folk-inspired silhouette with a white gathered-sleeve blouse, fitted cobalt bodice with silver clasps, full navy skirt, and ivory apron embroidered with blue tulips. Embroider the dark cobalt ASML wordmark high on the outside of her right white blouse sleeve, just below the shoulder seam, matching the old ASML card. The cream tulip pin and silver windmill charm sit at the front. Add white gloves, ivory socks, and black buckled shoes.
+- Her EUV Mirror Halo uses four floating silver mirrors arranged like windmill sails. Their violet rays converge at the center as she adjusts the mirrors with a gloved hand.
+- Her default expression is poised and faintly amused. In chibi, simplify the lace and embroidery while preserving the cap, apron, and windmill silhouette. Target 2.5 anatomical head heights across the four views.
 
-**Appearance:** Long blonde hair, icy-blue eyes and a reflective mirror halo
-
-**Clothing:** White-cobalt precision-engineering coat and floating EUV optic
-
-**Personality and pose:** Eccentric, exacting, confident and technically brilliant. Give this character a distinctive pose that differs from other company heroines.
-
-**Speech and expression:** Cheerful explanations of extreme optical engineering
-
-**Power visualization:** EUV Mirror Halo
-
-**Quote:** “All we need is impossible light and several miracles.”
-
-**Continuity:** Match the preferred group portraits listed in `../../scratchpad/illustrations.md`. Preserve the revised red-haired AMD and green-haired Nvidia. Preserve distinct Fairchild versus Bell Labs silhouettes, while keeping DEC and Sun visually consistent with their final group poster. Avoid illegible small text and invented technical numerical claims.
+[Exact generation prompts](character_sheet.prompt.md)

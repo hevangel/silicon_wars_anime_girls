@@ -1,6 +1,7 @@
 id: ibm
 title: The Iron Lady of Computing
 identity: Distinguished woman around sixty with steel-blue eyes, a silver-charcoal wavy bob, and thin gold-rimmed glasses. She wears a navy pinstripe power suit with peaked lapels, gently flared trousers, and a cobalt-and-white silk scarf.
+logo_lockup: wordmark
 reference_assets:
   model_sheet: characters/ibm/character_sheet.png
   expressions: characters/ibm/expressions.png

@@ -26,11 +26,13 @@ Power reflects technical interdependence, not market capitalization. Nvidia can 
 
 Every character profile names who she depends on and what her power cannot do.
 
-## Three artistic rules
+## Artistic rules
 
 1. **Every heroine needs a recognizable silhouette.** A reader should tell Nvidia's angular black leather and emerald circuit seams, Apple's clean geometry, TSMC's artisan uniform, and Hugging Face's yellow bows and mascot plush apart even with the company names removed.
 2. **Every heroine needs a contradiction.** Intel is powerful but vulnerable. Nvidia is arrogant but genuinely brilliant. OpenAI is optimistic but impatient. Anthropic is careful but competitive. TSMC is quiet but extraordinarily influential. These tensions make characters believable.
 3. **Power reflects technical interdependence,** as described above.
+
+4. **Every heroine wears a company mark.** Integrate a recognizable company logo or wordmark into her outfit or a worn accessory, using a period version where appropriate. Keep that placement consistent across her production art.
 
 ## Two generations
 
@@ -44,11 +46,11 @@ The younger characters occasionally call the older women Obaa-sama or Grandma, w
 ## Character ages
 
 - **Elementary-school child prodigies:** Mistral AI, DeepSeek, OpenAI, Anthropic, and xAI. All designs and stories are wholesome and nonsexualized.
-- **Middle-school wafer engineer:** Cerebras, about 12–13.
+- **Middle-school students:** Hugging Face and Cerebras, about 12–13.
 - **Mature executives:** IBM and Oracle, in their late 50s or early 60s. IBM is the silver-haired Iron Lady who survives every technological cycle.
 - **Very old grandmothers:** Bell Labs (scholarly research grandmother), Fairchild (hands-on semiconductor matriarch).
-- **Younger grannies:** DEC (red varsity jacket, interactive-computing hacker), Sun Microsystems (joyful purple Solaris jacket).
-- **Everyone else** is an adult. Meta is the youngest adult at 20; Microsoft and Apple are around 30.
+- **Grandmothers:** DEC (burgundy canvas work jacket and khakis, informal minicomputer engineer around sixty) and Sun Microsystems (silver-haired Solar Archon in her late sixties or seventies, with half-moon glasses, a purple gown and a long charcoal coat).
+- **Everyone else** is an adult. Arm is 19, Qualcomm is 19–20, and Meta is 20. Microsoft and Apple are around 30.
 
 ## Core relationships
 
@@ -74,7 +76,7 @@ The approved art is canon. For a character with a model sheet, the sheet and ref
 - Amazon: black smile-arrow cap, dark brown ponytail, black-and-orange work jacket, parcel and drone.
 - Fairchild: rolled sleeves, red bandana, glasses, working forewoman; do not duplicate Bell Labs' silhouette.
 - Bell Labs: gentle elderly scholar, tweed and vintage instruments.
-- DEC and Sun: preserve the selected designs from the final four-grandmothers infographic.
+- DEC: use her approved workshop portrait and model sheet. Sun: preserve the selected design from the final four-grandmothers infographic.
 
 ## Season 1 story threads
 
