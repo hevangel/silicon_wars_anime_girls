@@ -67,3 +67,15 @@ style_usage_policy:
       - changing age portrayal or exposing child characters
       - real-person impersonations or undocumented model releases
       - overwriting approved Season 1 character art
+
+  live_action_hyperreal_fantasy:
+    allowed_in:
+      - original fantasy key art
+      - dramatic semiconductor technology visual metaphors
+      - VFX studies with source and effect layers
+    avoid_in:
+      - changing actor identity under intense light or FX
+      - disguising effects as real documentary photos
+      - opaque one-layer source that cannot be repaired
+      - replacing practical silhouette cues with generic glowing armor
+      - implying any real person's endorsement or likeness

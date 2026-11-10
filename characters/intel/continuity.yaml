@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - live_action_hyperreal_fantasy
   - live_action_cosplay
   - live_action_cinematic
   - pixel_arcade_sf2
@@ -91,3 +92,14 @@ style_variants:
     transform:
       materials: "twill, lining, sewn cords and lightweight crown support"
       emphasis: "supported epaulette/crown, full-length movement and closure detail"
+
+  live_action_hyperreal_fantasy:
+    description: "Same fictional Intel cast as cinematic style; extend power in sapphire Citadel projections."
+    override_file: characters/intel/styles/live_action_hyperreal_fantasy.yaml
+    preserve:
+      - Intel cinematic actor face and mature regal anatomy
+      - long light-blue hair, sapphire crown, blue-cream coat and wafer
+      - small Intel Inside skirt emblem; never letter crown
+    transform:
+      effects: "sapphire x86 Citadel holographic architecture as separated VFX passes"
+      lighting: "physically motivated blue illumination with visible grounding"

@@ -1,0 +1,18 @@
+style_id: live_action_hyperreal_fantasy
+character_id: amd
+parent_style: live_action_cinematic
+identity_source: characters/amd/continuity.yaml
+actor_identity_ref: characters/amd/styles/live_action_cinematic.yaml
+actor_id: amd-fictional-cast-v1
+status: fx_design_pending_visual_review
+costume:
+  physical: "black-crimson wearable chiplet armor, headphones at neck, red braided ponytail"
+  simulated: "additional floating chiplet motifs and luminous circuits; not part of wearable rig"
+fx_atlas:
+  primary: "chiplet barrage, crimson sparks and modular parts"
+  palette: ["#9E2432", "#F74343", "#FF9655"]
+  passes: [chiplets_rgba, bloom_rgba, contact_light_reference]
+  occlusion: "face and braid never replaced by effects"
+lighting_checks: [shadow_direction, ground_contact, reflection, eye_line, atmospheric_depth]
+source_plates: []
+human_approved: false
