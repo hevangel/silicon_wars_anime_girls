@@ -1,0 +1,13 @@
+id: cisco
+title: "The Router Queen"
+season: 2
+status: planning_unapproved
+historical_company: "Cisco"
+age_portrayal: "Mature adult commander"
+identity: "High cable-loop crown and angular standing router-pack; asymmetrical sleeves shaped like forward arrows"
+default_style: default_manga
+supported_styles: [default_manga]
+art_status: not_generated
+visual_assets: {}
+history_source: "https://weare.cisco.com/c/r/weare/about-us.html"
+season_bible: bible/season-2.md

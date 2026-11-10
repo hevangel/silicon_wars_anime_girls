@@ -1,0 +1,13 @@
+id: nokia
+title: "The Blue Phone Empress"
+season: 2
+status: planning_unapproved
+historical_company: "Nokia"
+age_portrayal: "Experienced adult industrial leader"
+identity: "Heavy winter-blue coat, sweeping glacier braid, a compact handset holster and a rounded shield-like silhouette"
+default_style: default_manga
+supported_styles: [default_manga]
+art_status: not_generated
+visual_assets: {}
+history_source: "https://www.nokia.com/system/files/files/form20-f-11-pdf.pdf"
+season_bible: bible/season-2.md

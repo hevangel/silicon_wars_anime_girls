@@ -1,0 +1,13 @@
+id: blackberry
+title: "The Secure Messenger"
+season: 2
+status: planning_unapproved
+historical_company: "BlackBerry / Research In Motion"
+age_portrayal: "Adult professional tactician"
+identity: "Vertical rectangular keyboard gauntlets, angular blazer, tight hairline and blinking single red jewel"
+default_style: default_manga
+supported_styles: [default_manga]
+art_status: not_generated
+visual_assets: {}
+history_source: "https://investors.blackberry.com/faq"
+season_bible: bible/season-2.md
