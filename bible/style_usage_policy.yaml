@@ -55,3 +55,15 @@ style_usage_policy:
       - changing actor face structure to fit a camera angle
       - making costumes that have no physically workable construction
       - overwriting canonical manga character art
+
+  live_action_cosplay:
+    allowed_in:
+      - real-world convention costume planning
+      - neutral studio cosplay photography
+      - costume making tutorials and material boards
+    avoid_in:
+      - fantastical floating VFX armor disguised as practical build
+      - unsourced price estimates or unsupported safety claims
+      - changing age portrayal or exposing child characters
+      - real-person impersonations or undocumented model releases
+      - overwriting approved Season 1 character art

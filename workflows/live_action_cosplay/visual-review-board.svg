@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-label="Silicon Wars live_action_cosplay draft art-direction board">
+ <defs><radialGradient id="spotA"><stop stop-color="#ba4a57" stop-opacity=".34"/><stop offset="1" stop-color="#253044" stop-opacity="0"/></radialGradient><radialGradient id="spotI"><stop stop-color="#69c4fc" stop-opacity=".30"/><stop offset="1" stop-color="#253044" stop-opacity="0"/></radialGradient></defs>
+ <rect width="1200" height="660" fill="#253044"/><circle cx="295" cy="340" r="350" fill="url(#spotA)"/><circle cx="885" cy="320" r="350" fill="url(#spotI)"/>
+ <path d="M18 66 H1182 M18 523 H1182" stroke="#adcaeb" stroke-opacity=".37"/>
+ <text x="40" y="43" fill="#eff8ff" font-family="Arial,sans-serif" font-size="29" font-weight="bold">PRACTICAL COSPLAY — BUILD SHEET</text>
+ <text x="40" y="90" fill="#b9d0ee" font-family="Arial,sans-serif" font-size="15">FABRIC / FOAM / SEAMS / FASTENERS · MAKER + SHOWPIECE TIERS</text>
+ <g transform="translate(115,90) scale(1.05)">
+<ellipse cx="145" cy="360" rx="134" ry="26" fill="#000" opacity=".34"/>
+<path d="M35 350 Q28 247 72 221 Q104 204 144 208 Q195 200 231 224 Q276 262 262 350 Z" fill="#302233" stroke="#bb3d52" stroke-width="5"/>
+<path d="M99 219 Q118 229 138 285 Q169 233 190 217 L177 350 H100 Z" fill="#b93440" opacity=".92"/>
+<path d="M24 342 L47 252 82 233 91 310 70 350 Z M228 231 L257 256 270 350 229 350 212 284 Z" fill="#371f2f" stroke="#ff7358" stroke-width="4"/>
+<path d="M95 219 L119 236 L140 262 163 234 181 218" stroke="#f16354" stroke-width="7" fill="none"/>
+<path d="M74 139 Q50 176 66 222 L91 238 L108 180 Z M186 130 Q232 153 216 230 L185 244 L174 172 Z" fill="#70212b"/>
+<ellipse cx="140" cy="150" rx="76" ry="93" fill="#e7b3a2" stroke="#8e5a55" stroke-width="4"/>
+<path d="M70 137 Q52 70 111 52 Q155 32 197 80 Q218 115 201 142 Q179 101 162 112 Q118 89 70 137 Z" fill="#70212b"/>
+<path d="M81 127 Q98 69 145 67 Q185 65 193 126 L179 122 Q173 97 154 99 L132 110 Q108 107 81 132Z" fill="#d93f34"/>
+<path d="M94 156 Q113 149 124 157 M152 156 Q174 147 188 157" stroke="#2a1d2d" stroke-width="6" stroke-linecap="round" fill="none"/>
+<ellipse cx="112" cy="165" rx="8" ry="9" fill="#bf7d49"/><ellipse cx="171" cy="165" rx="8" ry="9" fill="#bf7d49"/>
+<circle cx="115" cy="163" r="2" fill="#fff"/><circle cx="173" cy="163" r="2" fill="#fff"/>
+<path d="M139 172 Q135 190 142 192 M126 215 Q144 223 160 212" stroke="#965e62" stroke-width="3.5" fill="none"/>
+<path d="M76 99 Q39 83 19 91 Q38 112 69 112 Q44 130 26 154 L74 148" fill="#d93f34" stroke="#70212b" stroke-width="5"/><path d="M45 104 L13 88 L27 74 L61 87" stroke="#ff7358" stroke-width="7" fill="none"/><ellipse cx="145" cy="225" rx="63" ry="22" fill="#191923" stroke="#bd3d49" stroke-width="7"/><rect x="76" y="216" width="20" height="37" rx="7" fill="#101823"/><rect x="197" y="213" width="20" height="37" rx="7" fill="#101823"/><path d="M79 276 h51 M166 276 h56" stroke="#ea6454" stroke-width="8"/>
+<g stroke="#fbdf9b" stroke-width="3" stroke-dasharray="6 5" fill="none"><path d="M89 235 V345"/><path d="M193 234 V345"/><path d="M140 266 V347"/></g>
+</g> <g transform="translate(720,90) scale(1.05)">
+<ellipse cx="145" cy="360" rx="134" ry="26" fill="#000" opacity=".34"/>
+<path d="M35 350 Q28 247 72 221 Q104 204 144 208 Q195 200 231 224 Q276 262 262 350 Z" fill="#275394" stroke="#5ba4ee" stroke-width="5"/>
+<path d="M99 219 Q118 229 138 285 Q169 233 190 217 L177 350 H100 Z" fill="#f4efdd" opacity=".92"/>
+<path d="M24 342 L47 252 82 233 91 310 70 350 Z M228 231 L257 256 270 350 229 350 212 284 Z" fill="#3161a8" stroke="#c3e9ff" stroke-width="4"/>
+<path d="M95 219 L119 236 L140 262 163 234 181 218" stroke="#d9b455" stroke-width="7" fill="none"/>
+<path d="M74 139 Q50 176 66 222 L91 238 L108 180 Z M186 130 Q232 153 216 230 L185 244 L174 172 Z" fill="#386c99"/>
+<ellipse cx="140" cy="150" rx="76" ry="93" fill="#e7b3a2" stroke="#8e5a55" stroke-width="4"/>
+<path d="M70 137 Q52 70 111 52 Q155 32 197 80 Q218 115 201 142 Q179 101 162 112 Q118 89 70 137 Z" fill="#386c99"/>
+<path d="M81 127 Q98 69 145 67 Q185 65 193 126 L179 122 Q173 97 154 99 L132 110 Q108 107 81 132Z" fill="#98d5f3"/>
+<path d="M94 156 Q113 149 124 157 M152 156 Q174 147 188 157" stroke="#2a1d2d" stroke-width="6" stroke-linecap="round" fill="none"/>
+<ellipse cx="112" cy="165" rx="8" ry="9" fill="#4480bf"/><ellipse cx="171" cy="165" rx="8" ry="9" fill="#4480bf"/>
+<circle cx="115" cy="163" r="2" fill="#fff"/><circle cx="173" cy="163" r="2" fill="#fff"/>
+<path d="M139 172 Q135 190 142 192 M126 215 Q144 223 160 212" stroke="#965e62" stroke-width="3.5" fill="none"/>
+<path d="M67 132 Q34 196 58 274 L88 286 L100 126 Z M185 133 Q226 186 211 282 L185 286 L172 128 Z" fill="#98d5f3" stroke="#386c99" stroke-width="5"/><path d="M88 72 L101 22 L129 56 L145 11 L170 54 L193 25 L197 78 Z" fill="#305c9b" stroke="#c3eaff" stroke-width="5"/><path d="M97 69 L106 38 L129 66 L146 32 L160 67 L187 40 L183 72 Z" fill="#a7d8fa"/><path d="M92 239 L110 269 M185 239 L173 269" stroke="#efce6b" stroke-width="12"/><g transform="translate(224,270)"><circle r="33" fill="#cdddf3" stroke="#5889b9" stroke-width="7"/><path d="M-20 -10 Q0 0 22 5 M-17 8 Q0 22 19 15" stroke="#7bb1d2" stroke-width="3" fill="none"/></g>
+<g stroke="#fbdf9b" stroke-width="3" stroke-dasharray="6 5" fill="none"><path d="M89 235 V345"/><path d="M193 234 V345"/><path d="M140 266 V347"/></g>
+</g>
+ <text x="277" y="510" text-anchor="middle" fill="#ffc3c0" font-size="24" font-family="Arial,sans-serif" font-weight="bold">AMD · CRIMSON CHALLENGER</text>
+ <text x="892" y="510" text-anchor="middle" fill="#b6e9ff" font-size="24" font-family="Arial,sans-serif" font-weight="bold">INTEL · BLUE EMPRESS</text>
+ <g font-family="Arial,sans-serif" font-size="17" fill="#e7eefc"><path d="M390 260 H515 V230" stroke="#ffd48e" stroke-width="3" fill="none"/><text x="526" y="230">SEWN CRIMSON PANELS</text><path d="M710 280 H770 V310" stroke="#ffd48e" stroke-width="3" fill="none"/><text x="785" y="317">SUPPORTED EPAULETTES</text><path d="M315 440 H465" stroke="#b9c8da" stroke-width="3"/><text x="483" y="446">LIGHTWEIGHT FOAM / TWILL</text></g><rect x="38" y="573" width="1124" height="63" rx="9" fill="#101a2f" stroke="#acc1db"/><g fill="#fff" font-family="Arial,sans-serif" font-size="16"><text x="60" y="600">MAKER: altered cloth, EVA foam, safe headphone cable</text><text x="60" y="624">SHOWPIECE: tailored coat, secure crown mount, removable badges</text></g>
+ <text x="1170" y="652" fill="#a0bad2" font-family="Arial,sans-serif" font-size="10" text-anchor="end">CONCEPT STUDY • NOT HUMAN APPROVED • SILICON WARS FAN PROJECT</text>
+ </svg>
