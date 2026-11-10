@@ -37,3 +37,7 @@ jobs:
           PY
       - run: python -m unittest discover -s tools -p "test_pixel_arcade.py" -v
       - run: python -m unittest discover -s tools -p "test_nes_sprite.py" -v
+      - name: Validate generated pixel_arcade_sf2 native PNG sources
+        run: |
+          python tools/pixel_arcade.py validate characters/amd/references/pixel_arcade_sf2/frames.json
+          python tools/pixel_arcade.py validate characters/intel/references/pixel_arcade_sf2/frames.json
