@@ -19,3 +19,15 @@ style_usage_policy:
     avoid_in:
       - serious dramatic climaxes
       - lore-critical reveal scenes
+
+  pixel_arcade_sf2:
+    allowed_in:
+      - arcade-inspired promotional sprites
+      - original pixel-game scenes
+      - animation proof-of-concepts after human approval
+      - style-specific pixel reference sheets
+    avoid_in:
+      - silently replacing approved Season 1 manga art
+      - treating photo pixelation as final master artwork
+      - visually copying Street Fighter II character sprites or assets
+      - shipping unapproved batch sprite sheets

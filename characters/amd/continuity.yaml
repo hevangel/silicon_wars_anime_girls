@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - pixel_arcade_sf2
 
 style_variants:
   chibi:
@@ -38,3 +39,16 @@ style_variants:
       expressions: "more exaggerated"
       shading: "minimal"
       costume_detail: "simplified but recognizable"
+
+  pixel_arcade_sf2:
+    description: "High-energy red-haired pixel-fighter, not a recolored Intel."
+    override_file: characters/amd/styles/pixel_arcade_sf2.yaml
+    preserve:
+      - red braided high ponytail with directional silhouette
+      - amber eyes and animated grin
+      - black-crimson segmented chiplet jacket
+      - headphones resting at neck
+      - modular chiplet motif and fingerless gloves
+    transform:
+      proportions: "adult fighter, no chibi foreshortening"
+      rendering: "intentional hard clusters and sharp light-side accent"

@@ -1,0 +1,31 @@
+style_id: pixel_arcade_sf2
+character_id: amd
+identity_source: characters/amd/continuity.yaml
+approved_base_sheet: characters/amd/character_sheet.png
+status: draft_pending_visual_review
+canvas:
+  width: 96
+  height: 128
+  alternate_width: 128
+  alternate_height: 160
+palette:
+  limit: 32
+  target: 24
+  ramps: {hair: 4, skin: 4, jacket: 4, armor: 4, metallic: 3}
+  suggested_swatch_hex: ["#1A121D", "#53121D", "#9E2734", "#F04B3B", "#FF8B43", "#F1BF83", "#FCE0BD", "#E7D9CC", "#D73B30", "#6A6B72", "#A8A8A8", "#FAE8D9"]
+  note: "Exploration swatches, not locked production colors."
+outline_px: [1, 2]
+light: upper_left
+baseline_y: 121
+anchor_x: 47
+reference_sheet_views: [front, three_quarter, side, back, face_closeup, attack_stance]
+silhouette_read: "High braided ponytail extends rearward, dynamic crouch, segmented chiplet jacket and dangling headphones."
+signature_pose: "Asymmetric low forward lunge, right hand gripping chiplet gauntlet, back boot planted; no mirrored Intel pose."
+layers_optional: [hair_ponytail, torso_jacket, left_arm, right_arm, chiplet_fx]
+forbidden:
+  - brown or blue hair
+  - removing headphones or chiplet elements
+  - identical posing to Intel
+  - anti-aliased cutouts or smeared pixels
+master_asset: null
+human_approved: false
