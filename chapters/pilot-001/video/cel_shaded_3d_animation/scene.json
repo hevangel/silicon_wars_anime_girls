@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "issue": 77,
+  "technique": "cel_shaded_3d_animation",
+  "visual": {
+    "art_style": "default_manga",
+    "source_character_continuity": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "format": "browser_blocking_preview"
+  },
+  "status": "draft_not_approved",
+  "shots": [
+    {
+      "id": "shot-1",
+      "duration_frames": 120,
+      "description": "AMD charges a chiplet"
+    },
+    {
+      "id": "shot-2",
+      "duration_frames": 120,
+      "description": "AMD attacks; Intel raises wafer"
+    },
+    {
+      "id": "shot-3",
+      "duration_frames": 120,
+      "description": "Intel blocks; effect resolves"
+    }
+  ],
+  "source_media": {
+    "approved_meshes": null,
+    "approved_wav": null
+  },
+  "tool_specific_output": null,
+  "limitations": "No approved original humanoid meshes, skinning, hair physics or rendered final fight yet; Blender proxy code is only blockout."
+}

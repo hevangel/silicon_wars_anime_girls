@@ -1,0 +1,8 @@
+id: cel_shaded_3d_animation
+classification: animation_technique
+status: partial_prototype
+objective: "AMD Chiplet Barrage vs Intel x86 Citadel"
+source_canon: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+requires: [approved_source_characters, source_rights, human_review]
+outputs: [editable_scene, browser_blocking_preview, original_vector_review_board]
+qa: {human_visual_review: mandatory, production_render: missing}
