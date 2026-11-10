@@ -123,7 +123,7 @@
       "id": "s05",
       "panel_id": "panel-05",
       "art": "chapters/pilot-001/pages/page-001/art/panel-05.png",
-      "art_sha256": "d7da01379e55be8846ee830c2c72c1ecfba4cd2cf61a4a81fefdb74e308886a",
+      "art_sha256": "d7da01379e069b625bd51af037ffc01ecfba4cd2cf61a4a81fefdb74e308886a",
       "characters": [
         "amd"
       ],
