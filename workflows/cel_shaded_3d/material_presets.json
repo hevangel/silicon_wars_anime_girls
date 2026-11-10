@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "style": "cel_shaded_3d",
+  "status": "noncanonical_material_preview",
+  "shader_bands": 3,
+  "thresholds": [
+    0.28,
+    0.68
+  ],
+  "outline_pixels_target": [
+    1.5,
+    3
+  ],
+  "characters": {
+    "amd": {
+      "materials": {
+        "hair": [
+          "#47121D",
+          "#C52E36",
+          "#FF5A4F"
+        ],
+        "cloth": [
+          "#171625",
+          "#61212B",
+          "#A7374D"
+        ],
+        "skin": [
+          "#7D4C42",
+          "#CE9877",
+          "#F4D4B2"
+        ],
+        "metal": [
+          "#252837",
+          "#666D7F",
+          "#C4CBD5"
+        ]
+      }
+    },
+    "intel": {
+      "materials": {
+        "hair": [
+          "#386596",
+          "#8AC0DF",
+          "#D3ECF6"
+        ],
+        "cloth": [
+          "#13294F",
+          "#28589B",
+          "#649ADA"
+        ],
+        "skin": [
+          "#977A76",
+          "#D6AA9A",
+          "#F3D7C7"
+        ],
+        "gold": [
+          "#644322",
+          "#B39348",
+          "#FFE09A"
+        ]
+      }
+    }
+  },
+  "notes": "Proposed ramp colors, subject to human material review; no actual character model included."
+}

@@ -163,3 +163,23 @@ style_system:
         nvidia: "emerald dragon aura only if her own continuity is referenced in a later approved scope"
       reference_sheets: [inherited_casting, heroic_costume_turnaround, material_board, fx_atlas, key_art_camera_tests]
       approval: "human continuity, VFX masking and lighting review; no automatic approval"
+
+    cel_shaded_3d:
+      description: "A 3D render language preserving manga identity; independent of skeletal animation or VRM tracking."
+      model:
+        source: "approved 2D turnaround; retain head, hair, crown, shoulders and prop silhouettes"
+        review_angles_deg: [0, 90, 180, 270]
+        topology: "deformation-ready, no intersecting costume layers at expressive poses"
+      shader:
+        illumination_bands: [shadow, midtone, light]
+        implementation: "three-level Shader to RGB plus constant ColorRamp in Eevee"
+        outlines: "controlled mesh inversion or compositing outline, 1.5-3 px at target display framing"
+        rim: "deliberate accent rim separate from main shadow ramp"
+        materials: "discrete silk, fabric, metal, hair and skin ramps"
+      camera:
+        neutral: "orthographic model turnaround, repeatable focal framing"
+        presentation: "consistent perspective, outline width tested at full, medium and close-up"
+      expressions:
+        blendshapes: "optional; no animation system required to define the look"
+      exports: "Blender source and approved renders; glTF or VRM only after separate rig/runtime checks"
+      approval: "human 2D-to-3D silhouette and shader review is mandatory"

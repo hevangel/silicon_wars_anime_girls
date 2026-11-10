@@ -1,0 +1,23 @@
+style_id: cel_shaded_3d
+character_id: intel
+source_continuity: characters/intel/continuity.yaml
+reference_manga_sheet: characters/intel/character_sheet.png
+status: model_pending_artist_approval
+model:
+  age_portrayal: adult
+  silhouette: "long light-blue hair, tall sapphire crown, supported epaulettes and flared coat"
+  turnaround_deg: [0, 90, 180, 270]
+  mesh_check: [crown_hair_clearance, coat_arm_intersection, epaulette_support, wafer_grip]
+  expressions: [neutral, composed, displeased, embarrassed]
+materials:
+  preset: intel
+  source: workflows/cel_shaded_3d/material_presets.json
+  shadows: "three hard bands, 1.5-3 px chosen outline at review resolution"
+camera:
+  reference: orthographic
+  check_sizes_px: [256, 512, 1024]
+output:
+  blender_scene: null
+  gltf: null
+  vrm: null
+human_approved: false

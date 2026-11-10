@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - cel_shaded_3d
   - live_action_hyperreal_fantasy
   - live_action_cosplay
   - live_action_cinematic
@@ -103,3 +104,14 @@ style_variants:
     transform:
       effects: "sapphire x86 Citadel holographic architecture as separated VFX passes"
       lighting: "physically motivated blue illumination with visible grounding"
+
+  cel_shaded_3d:
+    description: "Adult Intel Blue Empress, sapphire crown and blue-coat silhouette at every angle."
+    override_file: characters/intel/styles/cel_shaded_3d.yaml
+    preserve:
+      - long light-blue hair with crown-silhouette gap
+      - sapphire eyes and unbranded pointed sapphire crown
+      - blue-cream uniform, gold epaulettes, wafer and hem emblem
+    transform:
+      model: "adult graceful 3D body and supported flared coat panels"
+      shading: "three hard bands, stable outline in orthographic and mid shots"

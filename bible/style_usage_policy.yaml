@@ -79,3 +79,16 @@ style_usage_policy:
       - opaque one-layer source that cannot be repaired
       - replacing practical silhouette cues with generic glowing armor
       - implying any real person's endorsement or likeness
+
+  cel_shaded_3d:
+    allowed_in:
+      - character model and shader boards
+      - 3D turnaround previews
+      - manga-inspired cel-rendered scenes
+      - future 3D animation sources after rig review
+    avoid_in:
+      - treating a shader sample as an approved actor model
+      - photoreal skin and gradients replacing flat manga shadow planes
+      - changing recognizable facial structure or signature props
+      - claiming VRM compatibility without export/runtime validation
+      - overwriting existing Season 1 character art
