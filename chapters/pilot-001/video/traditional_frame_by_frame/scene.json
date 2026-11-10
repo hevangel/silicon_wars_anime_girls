@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "issue": 74,
+  "technique": "traditional_frame_by_frame",
+  "visual": "default_manga",
+  "fps": 24,
+  "delivery": "browser_live_preview",
+  "review_status": "human_review_pending",
+  "stages": [
+    {
+      "id": "s1",
+      "description": "Charge and anticipation",
+      "start_frame": 0,
+      "end_frame": 48
+    },
+    {
+      "id": "s2",
+      "description": "AMD launches",
+      "start_frame": 48,
+      "end_frame": 96
+    },
+    {
+      "id": "s3",
+      "description": "Intel blocks",
+      "start_frame": 96,
+      "end_frame": 144
+    }
+  ],
+  "source_provenance": "original_programmatic_vector_art",
+  "output_video": null,
+  "limitations": "six original numbered SVG key poses; 24fps player on fours; no inbetweened hand-painted cels"
+}
