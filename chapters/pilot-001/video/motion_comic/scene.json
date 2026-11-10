@@ -1,0 +1,81 @@
+{
+  "schema": 1,
+  "technique": "motion_comic",
+  "visual": {
+    "art_style": "default_manga",
+    "identity_source": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "format": "browser_preview",
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ]
+  },
+  "review_status": "draft_human_review_required",
+  "reading_direction": "rtl",
+  "audio": {
+    "status": "not_supplied",
+    "mute": true
+  },
+  "shots": [
+    {
+      "id": "s02",
+      "panel": "panel-02",
+      "image": "../../pages/page-001/art/panel-02.png",
+      "speaker": "Intel",
+      "caption": "The old code stays.",
+      "duration_frames": 144,
+      "from": {
+        "x": -3,
+        "y": 1,
+        "scale": 1.02
+      },
+      "to": {
+        "x": 2,
+        "y": -2,
+        "scale": 1.12
+      }
+    },
+    {
+      "id": "s03",
+      "panel": "panel-03",
+      "image": "../../pages/page-001/art/panel-03.png",
+      "speaker": "AMD",
+      "caption": "Then I'll build around it.",
+      "duration_frames": 144,
+      "from": {
+        "x": 2,
+        "y": 0,
+        "scale": 1.01
+      },
+      "to": {
+        "x": -3,
+        "y": -1,
+        "scale": 1.12
+      }
+    },
+    {
+      "id": "s06",
+      "panel": "panel-06",
+      "image": "../../pages/page-001/art/panel-06.png",
+      "speaker": "Intel & AMD",
+      "caption": "Compatibility: 1%",
+      "duration_frames": 144,
+      "from": {
+        "x": 0,
+        "y": 2,
+        "scale": 1.01
+      },
+      "to": {
+        "x": 0,
+        "y": -2,
+        "scale": 1.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+id: pilot-001-motion_comic
+visual: {art_style: default_manga}
+animation: {technique: motion_comic}
+delivery: {format: browser_preview, fps: 24, resolution: [1920, 1080]}
+entrypoint: chapters/pilot-001/video/motion_comic/preview.html
+scene: chapters/pilot-001/video/motion_comic/scene.json
+source: chapters/pilot-001/pages/page-001/art/
+toolchain: {browser: modern_ES2022, python_http_server: '>=3.10'}
+review: pending_human_approval
+notes: Existing artwork; no regenerated character frames or audio. MP4 export not yet implemented.

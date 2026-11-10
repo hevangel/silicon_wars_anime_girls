@@ -1,0 +1,11 @@
+id: motion_comic
+classification: animation_technique
+status: prototype_review_required
+compatible_art_styles: [default_manga, chibi]
+inputs: [existing_panel_pngs, shot_timeline_json, source_character_continuity]
+controls: [camera_x, camera_y, camera_zoom, shot_duration_frames, subtitle]
+outputs: [browser_preview, editable_scene_json, review_board_svg]
+qa:
+  source_art_untouched: true
+  human_identity_review: required
+  visual_approval: pending
