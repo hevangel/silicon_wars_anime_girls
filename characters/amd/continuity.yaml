@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - cel_shaded_3d
   - live_action_hyperreal_fantasy
   - live_action_cosplay
   - live_action_cinematic
@@ -102,3 +103,14 @@ style_variants:
     transform:
       effects: "crimson chiplets, sparks and articulated circuitry as separate layered VFX"
       lighting: "red effects cast controlled plausible color onto physical surfaces"
+
+  cel_shaded_3d:
+    description: "Adult AMD heroine model rendered in three-band manga-toon lighting."
+    override_file: characters/amd/styles/cel_shaded_3d.yaml
+    preserve:
+      - red braided high ponytail with unmistakable 3D volume
+      - amber eye hue, black-crimson chiplet jacket, headphones
+      - dynamic athletic posture and segmented hardware
+    transform:
+      model: "rig-ready stylized adult 3D anatomy, hand-drawn silhouette priority"
+      shading: "three hard bands, distinct metal/skin/hair ramps, restrained rim"

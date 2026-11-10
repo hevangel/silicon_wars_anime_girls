@@ -1,0 +1,23 @@
+style_id: cel_shaded_3d
+character_id: amd
+source_continuity: characters/amd/continuity.yaml
+reference_manga_sheet: characters/amd/character_sheet.png
+status: model_pending_artist_approval
+model:
+  age_portrayal: adult
+  silhouette: "high braided ponytail, headphone collar and chiplet panels read without logos"
+  turnaround_deg: [0, 90, 180, 270]
+  mesh_check: [shoulder_deformation, ear_headset_intersection, braid_torso_collision, boot_sole_contact]
+  expressions: [neutral, grin, skeptical, angry]
+materials:
+  preset: amd
+  source: workflows/cel_shaded_3d/material_presets.json
+  shadows: "three hard shader bands with optional separate rim"
+camera:
+  reference: orthographic
+  check_sizes_px: [256, 512, 1024]
+output:
+  blender_scene: null
+  gltf: null
+  vrm: null
+human_approved: false
