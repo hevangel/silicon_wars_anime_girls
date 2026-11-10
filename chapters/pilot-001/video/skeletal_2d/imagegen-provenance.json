@@ -1,0 +1,17 @@
+{
+  "issue": 70,
+  "art_type": "AI generated key art (concept, not rigged sprites)",
+  "generation_id": "cce2df4f-3a63-479e-8fc9-2e8bfc4cbf0d",
+  "original": "silicon_wars_skeletal_rigging_showdown.png",
+  "original_size": [
+    1672,
+    941
+  ],
+  "preview": "polished-board-preview.webp",
+  "preview_size": [
+    240,
+    135
+  ],
+  "preview_sha256": "5caaff2c1007e56d78ec7a4b4d2b45868e88b6ce3dc5079b7c27748bcc757f22",
+  "human_review": "pending"
+}
