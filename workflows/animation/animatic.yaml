@@ -1,0 +1,27 @@
+id: pilot-001-animatic
+technique: animatic
+format: video_with_selectable_subtitles
+art_style: default_manga
+source: chapters/pilot-001/video/animatic/timeline.json
+entrypoint: tools/animatic.py
+toolchain:
+  python: ">=3.11"
+  pillow: ">=10.1"
+  pyyaml: ">=6.0"
+  ffmpeg: "libx264, AAC and mov_text support; exact version captured in build manifest"
+default_resolution: [1920, 1080]
+fps: 24
+timebase: "frame index; [start,end) spans, total 720 frames / 30 seconds"
+source_dependencies:
+  - chapters/pilot-001/pages/page-001/storyboard.yaml
+  - chapters/pilot-001/pages/page-001/lettering.yaml
+  - chapters/pilot-001/pages/page-001/manifest.yaml
+  - chapters/pilot-001/pages/page-001/art/
+output_directory: "/tmp/silicon-wars-animatic, can override with --out"
+audio:
+  voices: none_supplied
+  synthetic_fx: "original generated two mechanical clicks at s05; otherwise silence"
+  sample_rate: 48000
+  rights: "self-generated tones; original panel art already in repository"
+preview: chapters/pilot-001/video/animatic/preview.html
+review: pending_human_timing_and_identity_approval

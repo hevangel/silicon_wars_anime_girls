@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+  "episode": "pilot-001",
+  "technique": "animatic",
+  "art_style": "default_manga",
+  "delivery": "video_with_selectable_subtitles",
+  "review_status": "timing_draft",
+  "reading_direction": "rtl",
+  "fps": 24,
+  "frames": 720,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "source_storyboard": "chapters/pilot-001/pages/page-001/storyboard.yaml",
+  "source_lettering": "chapters/pilot-001/pages/page-001/lettering.yaml",
+  "source_manifest": "chapters/pilot-001/pages/page-001/manifest.yaml",
+  "shots": [
+    {
+      "id": "s01",
+      "panel_id": "panel-01",
+      "art": "chapters/pilot-001/pages/page-001/art/panel-01.png",
+      "art_sha256": "2bc81668120f01d2d868ee52115af1daf164278e890b5af71b438dc13f7c4daa",
+      "characters": [],
+      "start_frame": 0,
+      "end_frame": 72,
+      "camera": {
+        "center": [
+          0.5,
+          0.45
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1.025
+      },
+      "cues": [],
+      "screen_overlays": []
+    },
+    {
+      "id": "s02",
+      "panel_id": "panel-02",
+      "art": "chapters/pilot-001/pages/page-001/art/panel-02.png",
+      "art_sha256": "d21efd5b29fc7be2f589148cb9bec77f4ea8354d95af2bb426680131f28fbae4",
+      "characters": [
+        "intel"
+      ],
+      "start_frame": 72,
+      "end_frame": 192,
+      "camera": {
+        "center": [
+          0.48,
+          0.43
+        ],
+        "zoom_from": 1.01,
+        "zoom_to": 1.045
+      },
+      "cues": [
+        {
+          "id": "b02",
+          "offset_frames": 22,
+          "duration_frames": 75,
+          "text": "The old code stays."
+        }
+      ],
+      "screen_overlays": []
+    },
+    {
+      "id": "s03",
+      "panel_id": "panel-03",
+      "art": "chapters/pilot-001/pages/page-001/art/panel-03.png",
+      "art_sha256": "5b06aa9edbc451b952ef552db0ba0a4a7a036dc5b91f02d80d8842662987cf75",
+      "characters": [
+        "amd"
+      ],
+      "start_frame": 192,
+      "end_frame": 312,
+      "camera": {
+        "center": [
+          0.46,
+          0.44
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1.04
+      },
+      "cues": [
+        {
+          "id": "b03",
+          "offset_frames": 22,
+          "duration_frames": 80,
+          "text": "Then I’ll build around it."
+        }
+      ],
+      "screen_overlays": []
+    },
+    {
+      "id": "s04",
+      "panel_id": "panel-04",
+      "art": "chapters/pilot-001/pages/page-001/art/panel-04.png",
+      "art_sha256": "6cf9f7263eda9c37415fcd53fb7a6ba86b4fdbf53d297d5c01e43950d714a773",
+      "characters": [
+        "nvidia"
+      ],
+      "start_frame": 312,
+      "end_frame": 384,
+      "camera": {
+        "center": [
+          0.51,
+          0.46
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1.025
+      },
+      "cues": [
+        {
+          "id": "b04",
+          "offset_frames": 18,
+          "duration_frames": 46,
+          "text": "Need a hand?"
+        }
+      ],
+      "screen_overlays": []
+    },
+    {
+      "id": "s05",
+      "panel_id": "panel-05",
+      "art": "chapters/pilot-001/pages/page-001/art/panel-05.png",
+      "art_sha256": "d7da01379e55be8846ee830c2c72c1ecfba4cd2cf61a4a81fefdb74e308886a",
+      "characters": [
+        "amd"
+      ],
+      "start_frame": 384,
+      "end_frame": 480,
+      "camera": {
+        "center": [
+          0.5,
+          0.48
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1.04
+      },
+      "cues": [
+        {
+          "id": "s05",
+          "offset_frames": 35,
+          "duration_frames": 28,
+          "text": "KLIK KLIK!"
+        }
+      ],
+      "screen_overlays": []
+    },
+    {
+      "id": "s06",
+      "panel_id": "panel-06",
+      "art": "chapters/pilot-001/pages/page-001/art/panel-06.png",
+      "art_sha256": "e588914c3f5fb97727fea861356645e02708cc6c3bbf4f800539491cddd9ca08",
+      "characters": [
+        "amd",
+        "nvidia",
+        "intel"
+      ],
+      "start_frame": 480,
+      "end_frame": 720,
+      "camera": {
+        "center": [
+          0.5,
+          0.49
+        ],
+        "zoom_from": 1,
+        "zoom_to": 1.03
+      },
+      "cues": [
+        {
+          "id": "b06a",
+          "offset_frames": 42,
+          "duration_frames": 75,
+          "text": "Now we wait."
+        },
+        {
+          "id": "b06b",
+          "offset_frames": 130,
+          "duration_frames": 78,
+          "text": "I brought coffee."
+        }
+      ],
+      "screen_overlays": [
+        "ui06"
+      ]
+    }
+  ]
+}
