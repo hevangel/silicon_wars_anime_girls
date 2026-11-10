@@ -28,7 +28,7 @@ jobs:
           from pathlib import Path
           import yaml
           files = sorted(Path("bible").glob("*.yaml"))
-          files += sorted(Path("characters").glob("*/continuity.yaml"))
+          files += [p for p in sorted(Path("characters").glob("*/continuity.yaml")) if p.parent.name != "_template"]
           files += sorted(Path("characters").glob("*/styles/pixel_*.yaml"))
           for path in files:
               with path.open(encoding="utf-8") as stream:
