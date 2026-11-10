@@ -1,0 +1,45 @@
+[gd_scene load_steps=9 format=3]
+[ext_resource type="Script" path="res://stage.gd" id="1"]
+[sub_resource type="BoxMesh" id="floor_mesh"]
+size = Vector3(13, 0.2, 9)
+[sub_resource type="CapsuleMesh" id="actor_mesh"]
+radius = 0.44
+height = 1.8
+[sub_resource type="StandardMaterial3D" id="floor_mat"]
+albedo_color = Color(0.10, 0.18, 0.26, 1)
+metallic = 0.4
+[sub_resource type="StandardMaterial3D" id="intel_mat"]
+albedo_color = Color(0.23, 0.55, 0.86, 1)
+[sub_resource type="StandardMaterial3D" id="amd_mat"]
+albedo_color = Color(0.78, 0.18, 0.27, 1)
+[sub_resource type="BoxMesh" id="column_mesh"]
+size = Vector3(0.8, 4.5, 0.8)
+[node name="Stage" type="Node3D"]
+script = ExtResource("1")
+[node name="Floor" type="MeshInstance3D" parent="."]
+mesh = SubResource("floor_mesh")
+surface_material_override/0 = SubResource("floor_mat")
+[node name="IntelProxy" type="MeshInstance3D" parent="."]
+position = Vector3(-1.5, 1.0, 0)
+mesh = SubResource("actor_mesh")
+surface_material_override/0 = SubResource("intel_mat")
+[node name="AmdProxy" type="MeshInstance3D" parent="."]
+position = Vector3(1.5, 1.0, 0)
+mesh = SubResource("actor_mesh")
+surface_material_override/0 = SubResource("amd_mat")
+[node name="LeftColumn" type="MeshInstance3D" parent="."]
+position = Vector3(-5, 2.2, 2)
+mesh = SubResource("column_mesh")
+surface_material_override/0 = SubResource("floor_mat")
+[node name="RightColumn" type="MeshInstance3D" parent="."]
+position = Vector3(5, 2.2, 2)
+mesh = SubResource("column_mesh")
+surface_material_override/0 = SubResource("floor_mat")
+[node name="WideCamera" type="Camera3D" parent="."]
+position = Vector3(0, 3, 8.5)
+current = true
+[node name="CloseCamera" type="Camera3D" parent="."]
+position = Vector3(4.5, 2.6, 5.8)
+[node name="WorldLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-45, -25, 0)
+light_energy = 1.6
