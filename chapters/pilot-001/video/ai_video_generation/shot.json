@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "amd-entrance-001",
+  "description": "Original fictional AMD character enters the x86 Citadel, Intel watches; preserve red braided ponytail and Intel sapphire crown",
+  "duration_seconds": 5,
+  "width": 1920,
+  "height": 1080,
+  "characters": [
+    "amd",
+    "intel"
+  ],
+  "canonical_refs": [
+    "characters/amd/continuity.yaml",
+    "characters/intel/continuity.yaml"
+  ],
+  "first_keyframe": "keyframes/first.svg",
+  "last_keyframe": "keyframes/last.svg",
+  "camera_movement": "slow_right_track",
+  "negative_constraints": [
+    "no extra limbs",
+    "no face drift",
+    "no changed costume",
+    "no misspelled logos",
+    "no rewritten dialogue"
+  ],
+  "provider_model": null,
+  "model_version": null,
+  "seed": null,
+  "cost_usd": null,
+  "approval": null
+}
