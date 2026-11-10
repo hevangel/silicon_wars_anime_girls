@@ -1,0 +1,20 @@
+style_id: live_action_cosplay
+character_id: amd
+identity_source: characters/amd/continuity.yaml
+approved_base: characters/amd/character_sheet.png
+status: build_plan_unapproved
+costume_id: amd-cosplay-v1
+performer: "original adult fictional model only"
+design:
+  main_colors: [crimson, black, metal_gray]
+  hair: "red braided high ponytail wig, secured for motion"
+  garment: "sewn short black/crimson jacket over black base, soft chiplet patches and joint-flex panels"
+  headset: "actual lightweight headphones at neck; cable secured"
+  props: "foam chiplet arm guards and safe blunt printed chiplet tokens"
+  closure_points: [front_jacket_zip, inner_armor_straps, wrist_velcro, headphone_retainer]
+  maker_tier: "commercial jacket modified with appliqués and EVA foam segments"
+  showpiece_tier: "custom fitted coat, layered thermoplastic trim, individually finished chiplet panels"
+  material_costs: "source receipts before quoting totals"
+reference_sets: [full_body_three_view, wig_makeup, material_construction, prop_dimensions]
+master_asset: null
+human_approved: false

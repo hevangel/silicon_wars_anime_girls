@@ -1,0 +1,20 @@
+style_id: live_action_cosplay
+character_id: intel
+identity_source: characters/intel/continuity.yaml
+approved_base: characters/intel/character_sheet.png
+status: build_plan_unapproved
+costume_id: intel-cosplay-v1
+performer: "original adult fictional model only"
+design:
+  main_colors: [royal_blue, cream, gold]
+  hair: "long ice-blue wig; crown mounted on comfortable comb/headband assembly"
+  garment: "blue twill double-breasted long coat, cream panels, sew-on gold cords, supported epaulettes"
+  headset: null
+  props: "lightweight metallic-looking wafer disc with rounded protected edge"
+  closure_points: [front_hidden_snaps, shoulder_epaulette_stays, belt, skirt_panel_safety_snap]
+  maker_tier: "altered long blue coat, stitched cream front panels, flexible craft-foam crown"
+  showpiece_tier: "custom tailored coat with sculpted light crown, embroidered hem motif and lined epaulettes"
+  material_costs: "source receipts before quoting totals"
+reference_sets: [full_body_three_view, wig_makeup, material_construction, prop_dimensions]
+master_asset: null
+human_approved: false

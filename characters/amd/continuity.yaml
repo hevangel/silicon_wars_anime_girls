@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - live_action_cosplay
   - live_action_cinematic
   - pixel_arcade_sf2
   - pixel_8bit_nes
@@ -78,3 +79,14 @@ style_variants:
     transform:
       realism: "natural human anatomy, skin and physically supported costume"
       camera: "50-85mm portrait casting then wider environmental two-shots"
+
+  live_action_cosplay:
+    description: "Physically wearable AMD fighter convention costume."
+    override_file: characters/amd/styles/live_action_cosplay.yaml
+    preserve:
+      - braided red high ponytail and amber eye impression
+      - black crimson jacket and headphone collar
+      - modular chiplet motifs, fingerless gloves and practical boots
+    transform:
+      materials: "fabric, EVA foam and securely fitted thermoplastic trim"
+      emphasis: "accessible sewing patterns, wearable moving shoulders and safe props"

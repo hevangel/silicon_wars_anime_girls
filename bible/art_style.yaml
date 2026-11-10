@@ -128,3 +128,18 @@ style_system:
       approval:
         separate_gates: [casting_identity, wardrobe_physics, lighting_consistency, likeness_disclosure]
         visual_human_review: required
+
+    live_action_cosplay:
+      description: "Real-world buildable costume and studio photography; distinct from cinematic VFX and photoreal fantasy."
+      materials: [fabric, foam, thermoplastic, 3d_printed_prop, lightweight_metal_trim]
+      tiers:
+        maker: "accessible construction using sourced safe materials; no fabricated prices"
+        showpiece: "tailored convention-grade interpretation with advanced finishing"
+      wardrobe:
+        requirement: "seam and pattern callouts, closures, wig setup, makeup, safe props, material labels and weight"
+        logo: "historically appropriate removable badge or garment appliqué"
+      photography:
+        stage: "neutral studio cyclorama, believable shadows and full-body editorial lens"
+        effects: "restrained practical lighting; no impossible hovering armor"
+      reference_sheets: [full_body_three_view, wig_makeup, materials_and_patterns, prop_safety]
+      approval: "human costume feasibility and visual review required"

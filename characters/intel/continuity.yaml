@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - live_action_cosplay
   - live_action_cinematic
   - pixel_arcade_sf2
   - pixel_8bit_nes
@@ -79,3 +80,14 @@ style_variants:
     transform:
       realism: "human adult face, natural eyes; costume weight and seams make physical sense"
       camera: "consistent face geometry across casting, wardrobe and dialogue angles"
+
+  live_action_cosplay:
+    description: "Physically wearable Intel imperial convention costume."
+    override_file: characters/intel/styles/live_action_cosplay.yaml
+    preserve:
+      - long ice-blue hair and sapphire crown
+      - royal-blue and cream military coat, gold epaulettes
+      - wafer heirloom and left-hem logo
+    transform:
+      materials: "twill, lining, sewn cords and lightweight crown support"
+      emphasis: "supported epaulette/crown, full-length movement and closure detail"
