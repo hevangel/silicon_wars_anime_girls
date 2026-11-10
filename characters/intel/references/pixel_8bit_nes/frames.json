@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "style": "pixel_8bit_nes",
+  "character": "intel",
+  "mode": "creative_budget",
+  "status": "unapproved",
+  "canvas": {
+    "width": 48,
+    "height": 64
+  },
+  "palettes": {
+    "main": [
+      "#172B50",
+      "#7DBDE8",
+      "#F5EBD0"
+    ]
+  },
+  "default_palette": "main",
+  "tile_palettes": {},
+  "frames": [
+    {
+      "id": "master-draft",
+      "file": "master-draft.png",
+      "anchor": [
+        24,
+        61
+      ],
+      "hitbox": [
+        9,
+        4,
+        43,
+        63
+      ]
+    }
+  ]
+}
