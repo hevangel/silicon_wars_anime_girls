@@ -1,0 +1,16 @@
+{
+  "source": "ChatGPT image generation",
+  "generation_id": "4493fc6e-0a75-4c8d-befa-446b8bcb85e2",
+  "original_canvas": [
+    1536,
+    1024
+  ],
+  "crop": [
+    961,
+    530,
+    1267,
+    1022
+  ],
+  "status": "unapproved_exploratory",
+  "note": "Small generated image study, not a real Blender mesh, material swatch source, or VRM rig."
+}
