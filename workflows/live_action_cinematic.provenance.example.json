@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "style": "live_action_cinematic",
+  "character": "amd",
+  "status": "planning_unapproved",
+  "actor_id": "amd-fictional-cast-v1",
+  "wardrobe_id": "amd-cinematic-wardrobe-v1",
+  "reference_sets": {
+    "actor_casting": [],
+    "wardrobe_turnaround": [],
+    "expressions": [],
+    "props": []
+  },
+  "shot": {
+    "id": "casting-neutral-front",
+    "camera": "portrait 85mm",
+    "lighting": "flat two-softbox",
+    "emotion": "neutral",
+    "scene": "grey cyclorama"
+  },
+  "generation": {
+    "generator": null,
+    "model_id": null,
+    "model_version": null,
+    "seed": null,
+    "input_sha256": [],
+    "prompt_path": "prompts/templates/live_action_cinematic.md",
+    "output_path": null
+  },
+  "review": {
+    "face_identity": "pending",
+    "wardrobe_physics": "pending",
+    "real_person_likeness": "pending",
+    "fictional_disclosure": "required",
+    "human_approved": false
+  }
+}

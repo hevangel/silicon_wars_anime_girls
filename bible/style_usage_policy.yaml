@@ -43,3 +43,15 @@ style_usage_policy:
       - using 16-bit arcade shading and detailed anatomy
       - shrinking finished manga art with automatic quantization
       - overwriting default_manga or chibi approved assets
+
+  live_action_cinematic:
+    allowed_in:
+      - fictional adult live-action concept casting
+      - cinematic science-fiction character stills
+      - actor wardrobe and performance reference sheets
+    avoid_in:
+      - passing fictional images off as documentary photographs
+      - real executive likeness or celebrity casting without consent
+      - changing actor face structure to fit a camera angle
+      - making costumes that have no physically workable construction
+      - overwriting canonical manga character art

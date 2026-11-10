@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - live_action_cinematic
   - pixel_arcade_sf2
   - pixel_8bit_nes
 
@@ -65,3 +66,15 @@ style_variants:
     transform:
       proportions: "adult simplified pixel silhouette, not chibi"
       shading: "3 visible colors plus transparency per tile palette"
+
+  live_action_cinematic:
+    description: "An original fictional adult performer cast as AMD; stable face independent of pose and light."
+    override_file: characters/amd/styles/live_action_cinematic.yaml
+    preserve:
+      - red braided high ponytail and amber-colored eye contact lenses
+      - black crimson segmented tactical jacket and headphone collar
+      - modular chiplet geometry, fingerless gloves and heavy boots
+      - confident athletic adult pose and recognizable profile
+    transform:
+      realism: "natural human anatomy, skin and physically supported costume"
+      camera: "50-85mm portrait casting then wider environmental two-shots"
