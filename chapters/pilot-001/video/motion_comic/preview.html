@@ -7,11 +7,11 @@
 <script>
 "use strict";
 const stage=document.getElementById("stage"),art=document.getElementById("art"),caption=document.getElementById("caption"),seek=document.getElementById("seek"),counter=document.getElementById("counter"),play=document.getElementById("play");
-let data,frame=0,playing=true,last=0;
+let data,frame=0,playing=true,last=0,acc=0;
 function clamp(x,a,b){return Math.max(a,Math.min(b,x))}
 function locate(f){let start=0;for(let i=0;i<data.shots.length;i++){let s=data.shots[i],end=start+s.duration_frames;if(f<end)return {s,i,start};start=end}return {s:data.shots.at(-1),i:data.shots.length-1,start:start-data.shots.at(-1).duration_frames}}
 function draw(){const {s,i,start}=locate(frame);let u=clamp((frame-start)/Math.max(1,s.duration_frames-1),0,1);u=u*u*(3-2*u);if(art.dataset.id!==s.id){art.src=s.image;art.dataset.id=s.id;art.alt=s.panel+" from Pilot 001"}const mix=(a,b)=>a+(b-a)*u;art.style.transform="translate("+mix(s.from.x,s.to.x)+"%, "+mix(s.from.y,s.to.y)+"%) scale("+mix(s.from.scale,s.to.scale)+")";caption.textContent=s.speaker+": "+s.caption;counter.textContent="shot "+(i+1)+"/"+data.shots.length+" · frame "+frame+" / "+(seek.max)+" · "+(frame/data.delivery.fps).toFixed(2)+"s";seek.value=frame}
-function tick(t){if(playing&&data&&last){frame=(frame+Math.max(0,Math.min(5,Math.round((t-last)*data.delivery.fps/1000))))%Number(seek.max+1)}last=t;if(data)draw();requestAnimationFrame(tick)}
+function tick(t){if(playing&&data&&last){acc+=Math.min(100,t-last);const advance=Math.floor(acc*data.delivery.fps/1000);if(advance){frame=(frame+advance)%(Number(seek.max)+1);acc-=advance*1000/data.delivery.fps}}last=t;if(data)draw();requestAnimationFrame(tick)}
 fetch("scene.json").then(r=>{if(!r.ok)throw Error("scene.json HTTP "+r.status);return r.json()}).then(x=>{if(!Array.isArray(x.shots)||!x.shots.length||x.shots.some(s=>!s.image||!Number.isInteger(s.duration_frames)||s.duration_frames<1))throw Error("Invalid shots");data=x;seek.max=x.shots.reduce((sum,s)=>sum+s.duration_frames,0)-1;draw();requestAnimationFrame(tick)}).catch(e=>{caption.textContent="Cannot load shot data: "+e.message+". Serve the repository root with python -m http.server.";console.error(e)});
 play.onclick=()=>{playing=!playing;play.textContent=playing?"Pause":"Play"};seek.oninput=()=>{frame=Number(seek.value);playing=false;play.textContent="Play";draw()};
 function jump(d){const z=locate(frame),i=clamp(z.i+d,0,data.shots.length-1);frame=data.shots.slice(0,i).reduce((sum,s)=>sum+s.duration_frames,0);draw()}
