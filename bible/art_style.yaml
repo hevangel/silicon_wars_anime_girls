@@ -109,3 +109,22 @@ style_system:
         tile_budget: "8x8 tiles; each tile assigned one 3-color plus transparent sprite palette"
         hardware_authenticity: "Never claim hardware-accurate without PPU/OAM emulation, scanline and sprite overlap review"
         approval: "Explicit visual review required, distinct from palette validation"
+
+    live_action_cinematic:
+      description: "Film-quality live-action reinterpretation with original fictional adult performers, separate from real-person likeness."
+      actor:
+        identity_lock: "face structure, asymmetry, skin texture, hairline, physique and complexion across takes"
+        real_person_likeness: "no celebrity, actual executive or identifiable real-person impersonation"
+        casting_reference: "neutral front, three-quarter and profile head portraits under controlled flat light"
+      wardrobe:
+        constraint: "physically constructible seams, fasteners, fabrics, armor, support and prop dimensions"
+        versioning: "actor_id independent of wardrobe_id, expression, shot and light rig"
+      rendering:
+        style: "photographic film still, plausible lens and camera height"
+        light: "key/fill/rim with contact and bounced light"
+        skin: "retain pores, natural asymmetry, physically plausible speculars; no face smoothing"
+        effects: "restrained integrated science fiction, no detached flying costume pieces"
+      reference_sheets: [casting_face, wardrobe_turnaround, expressions_acting, props_materials]
+      approval:
+        separate_gates: [casting_identity, wardrobe_physics, lighting_consistency, likeness_disclosure]
+        visual_human_review: required

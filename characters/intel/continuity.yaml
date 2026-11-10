@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - live_action_cinematic
   - pixel_arcade_sf2
   - pixel_8bit_nes
 
@@ -66,3 +67,15 @@ style_variants:
     transform:
       proportions: "adult upright stance in simplified pixel shapes"
       shading: "3 visible colors plus transparency per tile palette"
+
+  live_action_cinematic:
+    description: "An original fictional adult performer cast as Intel, without an actual company executive likeness."
+    override_file: characters/intel/styles/live_action_cinematic.yaml
+    preserve:
+      - long light-blue hair and sapphire-blue eyes
+      - pointed sapphire crown with no text
+      - royal blue cream military coat, gold epaulettes and white gloves
+      - wafer heirloom and small skirt-hem Intel Inside mark
+    transform:
+      realism: "human adult face, natural eyes; costume weight and seams make physical sense"
+      camera: "consistent face geometry across casting, wardrobe and dialogue angles"

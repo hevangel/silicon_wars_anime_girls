@@ -1,0 +1,21 @@
+style_id: live_action_cinematic
+character_id: intel
+identity_source: characters/intel/continuity.yaml
+reference_sheet: characters/intel/character_sheet.png
+status: design_pending_actor_review
+performer:
+  actor_id: intel-fictional-cast-v1
+  identity_lock: [facial_structure, facial_asymmetry, skin_texture, hairline, adult_body_shape]
+  no_real_person_likeness: true
+  hair: "long ice-blue wig with controlled hairline and back drape"
+  eyes: "natural-size blue irises, never oversized anime eyes"
+wardrobe:
+  wardrobe_id: intel-cinematic-wardrobe-v1
+  silhouette: "high-collar blue-and-cream military coat, metal-supported unbranded sapphire crown, epaulettes and skirt hem embroidery"
+  materials: "heavy twill, silk-like lining, braided cord and lightweight gold-effect metal hardware"
+  construction: "crown mounted to a comfortable headband; supported shoulder epaulettes; functioning coat closures"
+props: [physical_wafer_heirloom, detachable_crown]
+reference_sets: [neutral_casting_portraits, costume_turnaround, expressions, materials_props]
+lighting_sets: [neutral_softbox, corridor_moonlight, forge_warm]
+reference_assets_produced: []
+human_approved: false
