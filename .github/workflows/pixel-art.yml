@@ -37,3 +37,7 @@ jobs:
           PY
       - run: python -m unittest discover -s tools -p "test_pixel_arcade.py" -v
       - run: python -m unittest discover -s tools -p "test_nes_sprite.py" -v
+      - name: Validate generated pixel_8bit_nes native PNG sources
+        run: |
+          python tools/nes_sprite.py validate characters/amd/references/pixel_8bit_nes/frames.json
+          python tools/nes_sprite.py validate characters/intel/references/pixel_8bit_nes/frames.json
