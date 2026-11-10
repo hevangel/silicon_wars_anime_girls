@@ -1,0 +1,7 @@
+id: interactive_rive_presenter
+classification: animation_technique
+status: implementation_draft
+objective: "Deterministic input validation, safe gesture/expression queue, reset/cancel and scripted replay"
+visual_style_independent: true
+identity_source: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+qa: {human_visual_approval: pending, production_release: not_yet}
