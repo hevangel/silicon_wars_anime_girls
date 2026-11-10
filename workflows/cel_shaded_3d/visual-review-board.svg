@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660"><defs>
+ <linearGradient id="bg3" x2="1" y2="1"><stop stop-color="#10243f"/><stop offset="1" stop-color="#233654"/></linearGradient></defs><rect width="1200" height="660" fill="url(#bg3)"/>
+ <g opacity=".21" stroke="#91b6df" stroke-width="2"><path d="M0 100 V620"/><path d="M100 100 V620"/><path d="M200 100 V620"/><path d="M300 100 V620"/><path d="M400 100 V620"/><path d="M500 100 V620"/><path d="M600 100 V620"/><path d="M700 100 V620"/><path d="M800 100 V620"/><path d="M900 100 V620"/><path d="M1000 100 V620"/><path d="M1100 100 V620"/><path d="M1200 100 V620"/><path d="M0 120 H1200"/><path d="M0 202 H1200"/><path d="M0 284 H1200"/><path d="M0 366 H1200"/><path d="M0 448 H1200"/><path d="M0 530 H1200"/><path d="M0 612 H1200"/></g>
+ <g transform="translate(83,94)">
+<path d="M10 400 Q-7 296 53 242 Q89 213 147 215 Q203 211 246 256 Q285 317 282 400Z" fill="#582038" stroke="#230e24" stroke-width="7"/>
+<path d="M79 244 L131 297 L175 243" stroke="#ff9070" stroke-width="18" fill="none"/>
+<path d="M60 184 Q15 208 48 276 L90 287 L100 177 Z M215 184 Q255 225 219 300 L183 279 L166 176 Z" fill="#df484a"/>
+<ellipse cx="139" cy="168" rx="82" ry="105" fill="#eac1aa" stroke="#76535a" stroke-width="5"/>
+<path d="M58 158 Q52 66 123 51 Q210 42 218 141 Q194 126 179 97 Q140 125 110 103 Q81 130 58 158Z" fill="#df484a" stroke="#230e24" stroke-width="7"/>
+<path d="M88 165 Q102 156 118 164 M155 164 Q172 152 190 163" stroke="#392d3f" stroke-width="6" fill="none"/>
+<ellipse cx="107" cy="175" rx="8" ry="10" fill="#c68b3e"/><ellipse cx="172" cy="175" rx="8" ry="10" fill="#c68b3e"/>
+<path d="M120 225 Q139 233 159 224" stroke="#b06c6f" stroke-width="4" fill="none"/>
+<path d="M79 89 Q21 57 7 103 Q44 111 80 106 Q33 126 16 155" stroke="#df484a" stroke-width="30" fill="none"/><path d="M55 240 Q140 205 220 237" stroke="#101b2d" stroke-width="19" fill="none"/><path d="M205 303 L238 333 L261 303" stroke="#f44a52" stroke-width="12" fill="none"/>
+</g><g transform="translate(390,94)">
+<path d="M10 400 Q-7 296 53 242 Q89 213 147 215 Q203 211 246 256 Q285 317 282 400Z" fill="#245392" stroke="#12294c" stroke-width="7"/>
+<path d="M79 244 L131 297 L175 243" stroke="#eee7dc" stroke-width="18" fill="none"/>
+<path d="M60 184 Q15 208 48 276 L90 287 L100 177 Z M215 184 Q255 225 219 300 L183 279 L166 176 Z" fill="#a5d3f0"/>
+<ellipse cx="139" cy="168" rx="82" ry="105" fill="#eac1aa" stroke="#76535a" stroke-width="5"/>
+<path d="M58 158 Q52 66 123 51 Q210 42 218 141 Q194 126 179 97 Q140 125 110 103 Q81 130 58 158Z" fill="#a5d3f0" stroke="#12294c" stroke-width="7"/>
+<path d="M88 165 Q102 156 118 164 M155 164 Q172 152 190 163" stroke="#392d3f" stroke-width="6" fill="none"/>
+<ellipse cx="107" cy="175" rx="8" ry="10" fill="#3d83c2"/><ellipse cx="172" cy="175" rx="8" ry="10" fill="#3d83c2"/>
+<path d="M120 225 Q139 233 159 224" stroke="#b06c6f" stroke-width="4" fill="none"/>
+<path d="M77 81 L90 22 L124 55 L141 7 L165 54 L197 16 L203 87Z" fill="#316db7" stroke="#ccecff" stroke-width="7"/><path d="M90 90 L94 44 L123 76 L143 29 L164 76 L185 47 L187 91Z" fill="#d4ecff"/><path d="M46 182 Q16 264 40 357 M215 186 Q247 272 235 356" stroke="#a5d3f0" stroke-width="23" fill="none"/><path d="M66 250 L91 291 M213 251 L185 288" stroke="#eed06e" stroke-width="20"/>
+</g>
+ <rect width="1200" height="81" fill="#0b1529" opacity=".95"/><text x="32" y="38" font-family="Arial,sans-serif" font-size="32" fill="#f1f8ff" font-weight="bold">CEL-SHADED 3D: 3-BAND MATERIAL STUDY</text>
+ <text x="32" y="64" font-family="Arial,sans-serif" font-size="16" fill="#b6d1ea">BLENDER EEVEE · PROPOSED RAMP SWATCHES · #65</text>
+ <text x="230" y="495" fill="#ffbfc4" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">AMD / 0°</text>
+ <text x="541" y="495" fill="#b6e9ff" font-family="Arial,sans-serif" font-size="21" text-anchor="middle">INTEL / 0°</text>
+ <rect x="671" y="178" width="496" height="316" rx="15" fill="#0b182f" fill-opacity=".89" stroke="#6790b4"/>
+ <text x="696" y="222" fill="#f0f8ff" font-size="23" font-family="Arial,sans-serif">Shader design constraints</text>
+ <g fill="#c6d9ee" font-size="19" font-family="Arial,sans-serif"><text x="700" y="264">01  Shadow / midtone / lit bands</text><text x="700" y="305">02  Crisp outlines at mobile resolution</text><text x="700" y="346">03  Model silhouette locked to manga</text><text x="700" y="387">04  Rig and VRM are separate deliverables</text><text x="700" y="428">05  Four-angle model review required</text></g>
+ <g transform="translate(695,540)"><circle r="39" fill="#541525"/><path d="M0 -39 Q29 -26 39 0 Q26 17 0 17 Q-15 -10 0 -39" fill="#c43549"/><path d="M0 -39 Q30 -31 39 0 Q15 -15 0 -39" fill="#ff6059"/></g><g transform="translate(802,540)"><circle r="39" fill="#182f5c"/><path d="M0 -39 Q29 -26 39 0 Q26 17 0 17 Q-15 -10 0 -39" fill="#407bbb"/><path d="M0 -39 Q30 -31 39 0 Q15 -15 0 -39" fill="#cdefff"/></g><g transform="translate(909,540)"><circle r="39" fill="#744c35"/><path d="M0 -39 Q29 -26 39 0 Q26 17 0 17 Q-15 -10 0 -39" fill="#ce9274"/><path d="M0 -39 Q30 -31 39 0 Q15 -15 0 -39" fill="#f0d9bd"/></g><g transform="translate(1016,540)"><circle r="39" fill="#392e31"/><path d="M0 -39 Q29 -26 39 0 Q26 17 0 17 Q-15 -10 0 -39" fill="#bd9651"/><path d="M0 -39 Q30 -31 39 0 Q15 -15 0 -39" fill="#ffe5a7"/></g>
+ <text x="687" y="611" fill="#bdd8f0" font-size="17" font-family="Arial,sans-serif">Illustrative material board — no finished model / rig / render yet.</text>
+ <text x="1163" y="642" fill="#b2c8dc" text-anchor="end" font-size="11" font-family="Arial,sans-serif">NOT HUMAN APPROVED</text></svg>
