@@ -1,0 +1,20 @@
+{
+  "source": "ChatGPT image generation",
+  "generation_id": "4493fc6e-0a75-4c8d-befa-446b8bcb85e2",
+  "original_canvas": [
+    1536,
+    1024
+  ],
+  "crop": [
+    0,
+    530,
+    316,
+    1022
+  ],
+  "thumbnail": [
+    128,
+    200
+  ],
+  "status": "unapproved_exploratory",
+  "note": "Downsampled compressed thumbnail; not a high-resolution casting source or a locked actor identity."
+}
