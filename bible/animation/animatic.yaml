@@ -1,0 +1,20 @@
+id: animatic
+classification: animation_technique
+status: prototype_review_required
+description: "Frame-accurate timed storyboard preview before investing in final art."
+compatible_art_styles: [default_manga, chibi, pixel_arcade_sf2, pixel_8bit_nes, live_action_cinematic, live_action_cosplay, live_action_hyperreal_fantasy, cel_shaded_3d]
+default:
+  fps: 24
+  aspect_ratio: "16:9"
+  resolution: [1920, 1080]
+  frame_ranges: half_open
+controls: [shot_start_end, camera_center, zoom_from, zoom_to, cue_offset, cue_duration, subtitle_track, preview_labels]
+requires: [timed_shot_list, source_storyboard, existing_panel_pngs, source_manifest, editable_lettering]
+optional: [licensed_temp_wav, external_licensed_sfx]
+outputs: [mp4, srt, audio_wav, edit_decision_csv, contact_sheet, build_manifest, browser_preview]
+qa:
+  identity_source: "characters/<id>/continuity.yaml"
+  source_images_sha256: required
+  audio: "No voices provided; silence plus original procedural click SFX"
+  human_visual_review: mandatory
+  delivery_note: "MP4 has selectable captions; browser preview overlays independently"

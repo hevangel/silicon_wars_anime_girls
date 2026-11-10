@@ -1,0 +1,49 @@
+name: Pilot animatic validation and preview
+
+on:
+  push:
+    branches: [issue/66-animatic]
+  pull_request:
+    paths:
+      - "tools/animatic.py"
+      - "tools/test_animatic.py"
+      - "chapters/pilot-001/video/animatic/**"
+      - "bible/animation/animatic.yaml"
+      - "workflows/animation/animatic.yaml"
+      - ".github/workflows/animatic.yml"
+  workflow_dispatch:
+
+jobs:
+  validate-and-render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg
+      - run: python -m pip install "Pillow>=10.1" "PyYAML>=6.0"
+      - name: Tests
+        run: python -m unittest discover -s tools -p test_animatic.py -v
+      - name: Verify source assets and hashes
+        run: python tools/animatic.py --check
+      - name: Export review preview MP4 and contact sheet
+        run: python tools/animatic.py --out /tmp/silicon-wars-animatic
+      - name: Validate duration and stream topology
+        shell: bash
+        run: |
+          ffprobe -v error -select_streams v:0 -show_entries stream=width,height,nb_frames,r_frame_rate -of json /tmp/silicon-wars-animatic/animatic.mp4
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 /tmp/silicon-wars-animatic/animatic.mp4
+      - name: Upload review assets
+        uses: actions/upload-artifact@v4
+        with:
+          name: pilot-001-animatic-preview
+          path: |
+            /tmp/silicon-wars-animatic/animatic.mp4
+            /tmp/silicon-wars-animatic/contact-sheet.jpg
+            /tmp/silicon-wars-animatic/subtitles.srt
+            /tmp/silicon-wars-animatic/placeholder-audio.wav
+            /tmp/silicon-wars-animatic/edit-decision-list.csv
+            /tmp/silicon-wars-animatic/build-manifest.json
+          retention-days: 30
