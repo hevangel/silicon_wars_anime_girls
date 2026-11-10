@@ -13,6 +13,7 @@ supported_styles:
   - default_manga
   - chibi
   - pixel_arcade_sf2
+  - pixel_8bit_nes
 
 style_variants:
   chibi:
@@ -52,3 +53,15 @@ style_variants:
     transform:
       proportions: "adult fighter, no chibi foreshortening"
       rendering: "intentional hard clusters and sharp light-side accent"
+
+  pixel_8bit_nes:
+    description: "Red braided ponytail and chiplet silhouette in a tiny original 8-bit interpretation."
+    override_file: characters/amd/styles/pixel_8bit_nes.yaml
+    preserve:
+      - red high braided ponytail represented by rearward pixel cluster
+      - amber-eye intention where face tile budget allows
+      - black and crimson tactical shape
+      - headphones at neck and chiplet badge
+    transform:
+      proportions: "adult simplified pixel silhouette, not chibi"
+      shading: "3 visible colors plus transparency per tile palette"
