@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "issue": 69,
+  "format": "AI-generated conceptual production board",
+  "source_png": "silicon_wars_lip_sync_production_board.png",
+  "generation_id": "9ef3e820-f1c2-4746-9112-bc021351e2fb",
+  "full_resolution": [
+    1672,
+    941
+  ],
+  "committed_preview": [
+    240,
+    135
+  ],
+  "preview_sha256": "49e9081df9b319e0fd91ae5e9bd83670671e8c3a313a650238b8480c2180491c",
+  "approval": "pending",
+  "note": "Waveforms and viseme labels within image are illustrative only; audio not recorded or analyzed"
+}
