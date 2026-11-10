@@ -1,0 +1,5 @@
+visual_language: "One single text-free color manga panel for Silicon Wars: cinematic seinen anime, crisp ink linework, expressive line weight, cel shading with light screentone, glossy summer highlights, detailed swimwear seams, saturated summer palette of turquoise sea, white sand and blue sky. The setting is a tropical beach volleyball court: net, palm trees, surf. Use believable hand and foot anatomy, clearly separated silhouettes, and a flat readable composition with open sky reserved for balloons. Full-bleed art; no panel borders, lettering, numbers, captions, bubbles, or watermarks. References are for character identity and costume only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  intel: characters/intel/continuity.yaml
+  amd: characters/amd/continuity.yaml
+  nvidia: characters/nvidia/continuity.yaml

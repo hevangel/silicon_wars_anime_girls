@@ -1,0 +1,55 @@
+chapter: pilot-005
+page: page-001
+status: review_draft
+human_approval: pending
+generator: autoglm image tool
+model: doubao-seedream-5-0
+seed: null
+generation_note: The tool returned a remote JPEG with no exposed seed; the accepted take was downloaded,
+  converted losslessly to PNG, and reviewed at reading size before lettering.
+panels:
+- id: panel-01
+  brief: chapters/pilot-005/pages/page-001/panels/panel-01.yaml
+  prompt_sha256: ce7fb2fddee33ab9385b07fc9778c0a2dbdfa3e1e971da53baca9d666fc86f70
+  generation_reference:
+    path: chapters/pilot-005/pages/page-001/refs/cast-reference.jpg
+    role: Single image passed to the generator. Three columns built from the design assets — the three-quarter turnaround of each character sheet on top, three expression heads from each expression sheet below. The sheets themselves remain the canonical identity sources.
+    sha256: 73e2aca3d7257e9969133d739b00376cfe0f18214d00d060f4db9abd680e8aa2
+  references:
+  - path: characters/intel/character_sheet.png
+    role: model_sheet
+    sha256: 8a58cb9e40c666ed86527dea4456dcc78d66d3e74d50496161f06dd5d810631f
+  - path: characters/intel/expressions.png
+    role: expression_sheet
+    sha256: 423b0ef28f3fe718bb35383da0c67878c89bf17c0b700ddf9eb4beaa6a7e305c
+  - path: characters/amd/character_sheet.png
+    role: model_sheet
+    sha256: be93df9c38e9d590f66655bee108c3b0af293fcc74ccc660e4a0f7976ebf0c58
+  - path: characters/amd/expressions.png
+    role: expression_sheet
+    sha256: 5460af35081c5654db9442c0a918f5338fccb97df18fcaa05915c0b720920018
+  - path: characters/nvidia/character_sheet.png
+    role: model_sheet
+    sha256: d9bb716ffd34baaff4ec062e1590f0cca1bf3f3b08fa99a91ebf81604e958b3a
+  - path: characters/nvidia/expressions.png
+    role: expression_sheet
+    sha256: 91de36f21492b2e57a92eecf504e6cb9db1e5a57dfb9d2b200262b6bd90e04a4
+  swimsuit_reference:
+    path: chapters/pilot-003/pages/page-002/art/beach-volleyball.jpg
+    role: Carries the swimsuit designs forward from the pilot-003 beach concept.
+  selected_take: panel-01.png
+  rejected_takes:
+  - take: 1
+    retained: false
+    reason: Two volleyballs in the air, the net ran behind all three so the court sides were
+      unreadable, and AMD and Nvidia wore shoes despite the barefoot brief.
+  output: chapters/pilot-005/pages/page-001/art/panel-01.png
+  image_sha256: c7578001a7fba5e94d38b2b1ca44a083ee93d4c17e159e59fa13b5279be79144
+  art_notes: Intel carries a thin black neck band that is not on her sheet; it reads as a swimsuit strap
+    at page size and is logged in the review checklist rather than edited.
+assembly:
+  pillow_version: 12.2.0
+  width: 2400
+  height: 1800
+  output: chapters/pilot-005/pages/page-001/final/page-001.png
+  sha256: e2770ab6f8661a02ff5462192d4d6a71c0feef7a85a352484bf74e107a07cc3b

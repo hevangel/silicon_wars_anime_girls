@@ -1,0 +1,14 @@
+status: review_draft
+checks:
+  - One 4:3 landscape panel; art and lettering are separate sources that assemble into page-001
+  - Intel keeps her long light-blue wavy hair, pale blue eyes, sapphire-and-gold crown, tall elegant build, and royal-blue swimsuit with gold trim
+  - AMD keeps her red high ponytail with braided strands and gold beads, amber eyes, red-and-black two-piece, thigh band, and choker
+  - Nvidia keeps her thick emerald braid, green eyes, goggles pushed up on her head, strong build, and black swimsuit with neon-green circuit traces
+  - All three are barefoot; AMD and Nvidia show full soles and toes on the sand, Intel's foot reaches the bottom edge of the generated art so her toes are partly cut by the frame
+  - Exactly one volleyball in the panel, with the net between Nvidia and the other two so the court sides read
+  - Balloons read Nvidia, Intel, then AMD and do not cover a face
+  - Lettering uses only glyphs the renderer font supports (no em dashes or ellipsis characters)
+  - Swimsuits carry forward from pilot-003 page 002 for design continuity
+  - Intel's thin black neck band is not on her sheet; accepted as a swimsuit strap at page size and noted here
+  - Review the assembled page at intended reading size
+human_approval: pending

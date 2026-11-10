@@ -1,0 +1,6 @@
+page: page-001
+reading_direction: rtl
+items:
+  - {id: b01, panel: panel-01, kind: speech, text: "Two against one. Still not close.", at: [0.70, 0.062], speaker: nvidia, tail: [0.785, 0.118]}
+  - {id: b02, panel: panel-01, kind: speech, text: "Not the face!", at: [0.115, 0.12], speaker: intel, tail: [0.195, 0.205]}
+  - {id: b03, panel: panel-01, kind: speech, text: "Mine! MINE!", at: [0.40, 0.375], speaker: amd, tail: [0.425, 0.50]}

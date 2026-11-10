@@ -11,3 +11,5 @@ Each production run has a script, storyboard, page folders, and editable letteri
 [Concept pilot 003 — Beach Day](pilot-003/README.md)
 
 [Production pilot 004 — More Memory, Please](pilot-004/README.md)
+
+[Swimsuit pilot 005 — Beach Volleyball](pilot-005/README.md)
