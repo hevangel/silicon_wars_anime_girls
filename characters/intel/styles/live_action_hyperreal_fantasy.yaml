@@ -1,0 +1,18 @@
+style_id: live_action_hyperreal_fantasy
+character_id: intel
+parent_style: live_action_cinematic
+identity_source: characters/intel/continuity.yaml
+actor_identity_ref: characters/intel/styles/live_action_cinematic.yaml
+actor_id: intel-fictional-cast-v1
+status: fx_design_pending_visual_review
+costume:
+  physical: "wearable royal-blue/cream officer coat, sapphire crown, wafer heirloom"
+  simulated: "projected x86 Citadel walls, wafer-glow and floating circuitry"
+fx_atlas:
+  primary: "architectural sapphire x86 Citadel"
+  palette: ["#1642A0", "#3988DA", "#9BD2FF"]
+  passes: [citadel_rgba, bloom_rgba, contact_light_reference]
+  occlusion: "face, hair and hem identity preserved"
+lighting_checks: [shadow_direction, ground_contact, reflection, eye_line, atmospheric_depth]
+source_plates: []
+human_approved: false

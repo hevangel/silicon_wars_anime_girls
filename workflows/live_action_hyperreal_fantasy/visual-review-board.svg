@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660"><defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#160e29"/><stop offset=".48" stop-color="#34203b"/><stop offset="1" stop-color="#102a4e"/></linearGradient>
+ <radialGradient id="fire"><stop stop-color="#fb526d" stop-opacity=".9"/><stop offset="1" stop-color="#fa4a67" stop-opacity="0"/></radialGradient>
+ <radialGradient id="frost"><stop stop-color="#6bd5ff" stop-opacity=".8"/><stop offset="1" stop-color="#46cafa" stop-opacity="0"/></radialGradient>
+ </defs>
+ <rect width="1200" height="660" fill="url(#bg)"/><path d="M0 476 L150 412 310 487 485 427 705 491 840 412 1050 475 1200 428 V660 H0Z" fill="#101424"/>
+ <circle cx="385" cy="311" r="285" fill="url(#fire)"/><circle cx="810" cy="311" r="285" fill="url(#frost)"/>
+ <path d="M52 462 Q365 81 615 354 T1147 186" fill="none" stroke="#ff6377" stroke-width="19" stroke-opacity=".45"/>
+ <path d="M105 449 Q423 39 682 330 T1130 124" fill="none" stroke="#a0e7ff" stroke-width="12" stroke-opacity=".7"/>
+ <rect x="410" y="325" width="15" height="15" fill="#ee4158" transform="rotate(0 410 325)"/><rect x="437" y="376" width="21" height="21" fill="#ff9b62" transform="rotate(18 437 376)"/><rect x="464" y="388" width="27" height="27" fill="#ee4158" transform="rotate(36 464 388)"/><rect x="491" y="353" width="15" height="15" fill="#ff9b62" transform="rotate(54 491 353)"/><rect x="518" y="296" width="21" height="21" fill="#ee4158" transform="rotate(72 518 296)"/><rect x="545" y="261" width="27" height="27" fill="#ff9b62" transform="rotate(90 545 261)"/><rect x="572" y="275" width="15" height="15" fill="#ee4158" transform="rotate(108 572 275)"/><rect x="599" y="326" width="21" height="21" fill="#ff9b62" transform="rotate(126 599 326)"/><rect x="626" y="377" width="27" height="27" fill="#ee4158" transform="rotate(144 626 377)"/><rect x="653" y="388" width="15" height="15" fill="#ff9b62" transform="rotate(162 653 388)"/><rect x="680" y="352" width="21" height="21" fill="#ee4158" transform="rotate(180 680 352)"/><path d="M704 172 L996 138 1079 356 943 474 731 423Z" fill="#52a9f0" fill-opacity=".14" stroke="#a3e8ff" stroke-width="8"/>
+ <g transform="translate(102,113)">
+<path d="M10 400 Q-7 296 53 242 Q89 213 147 215 Q203 211 246 256 Q285 317 282 400Z" fill="#471f33" stroke="#230e21" stroke-width="7"/>
+<path d="M79 244 L131 297 L175 243" stroke="#ff9672" stroke-width="18" fill="none"/>
+<path d="M60 184 Q15 208 48 276 L90 287 L100 177 Z M215 184 Q255 225 219 300 L183 279 L166 176 Z" fill="#d74146"/>
+<ellipse cx="139" cy="168" rx="82" ry="105" fill="#eac1aa" stroke="#76535a" stroke-width="5"/>
+<path d="M58 158 Q52 66 123 51 Q210 42 218 141 Q194 126 179 97 Q140 125 110 103 Q81 130 58 158Z" fill="#d74146" stroke="#230e21" stroke-width="7"/>
+<path d="M88 165 Q102 156 118 164 M155 164 Q172 152 190 163" stroke="#392d3f" stroke-width="6" fill="none"/>
+<ellipse cx="107" cy="175" rx="8" ry="10" fill="#b48b4f"/><ellipse cx="172" cy="175" rx="8" ry="10" fill="#b48b4f"/>
+<path d="M120 225 Q139 233 159 224" stroke="#b06c6f" stroke-width="4" fill="none"/>
+<path d="M79 89 Q21 57 7 103 Q44 111 80 106 Q33 126 16 155" stroke="#d74146" stroke-width="30" fill="none"/><path d="M55 240 Q140 205 220 237" stroke="#101b2d" stroke-width="19" fill="none"/><path d="M205 303 L238 333 L261 303" stroke="#f44a52" stroke-width="12" fill="none"/>
+</g><g transform="translate(767,113)">
+<path d="M10 400 Q-7 296 53 242 Q89 213 147 215 Q203 211 246 256 Q285 317 282 400Z" fill="#214677" stroke="#11253e" stroke-width="7"/>
+<path d="M79 244 L131 297 L175 243" stroke="#fff2ca" stroke-width="18" fill="none"/>
+<path d="M60 184 Q15 208 48 276 L90 287 L100 177 Z M215 184 Q255 225 219 300 L183 279 L166 176 Z" fill="#a5d3f0"/>
+<ellipse cx="139" cy="168" rx="82" ry="105" fill="#eac1aa" stroke="#76535a" stroke-width="5"/>
+<path d="M58 158 Q52 66 123 51 Q210 42 218 141 Q194 126 179 97 Q140 125 110 103 Q81 130 58 158Z" fill="#a5d3f0" stroke="#11253e" stroke-width="7"/>
+<path d="M88 165 Q102 156 118 164 M155 164 Q172 152 190 163" stroke="#392d3f" stroke-width="6" fill="none"/>
+<ellipse cx="107" cy="175" rx="8" ry="10" fill="#3876bc"/><ellipse cx="172" cy="175" rx="8" ry="10" fill="#3876bc"/>
+<path d="M120 225 Q139 233 159 224" stroke="#b06c6f" stroke-width="4" fill="none"/>
+<path d="M77 81 L90 22 L124 55 L141 7 L165 54 L197 16 L203 87Z" fill="#316db7" stroke="#ccecff" stroke-width="7"/><path d="M90 90 L94 44 L123 76 L143 29 L164 76 L185 47 L187 91Z" fill="#d4ecff"/><path d="M46 182 Q16 264 40 357 M215 186 Q247 272 235 356" stroke="#a5d3f0" stroke-width="23" fill="none"/><path d="M66 250 L91 291 M213 251 L185 288" stroke="#eed06e" stroke-width="20"/>
+</g>
+ <rect x="0" width="1200" height="83" fill="#101228" fill-opacity=".86"/>
+ <text x="36" y="36" fill="#fff" font-family="Arial,sans-serif" font-size="31" font-weight="bold">CHIPLET BARRAGE vs x86 CITADEL</text>
+ <text x="36" y="63" fill="#b9c8e6" font-family="Arial,sans-serif" font-size="16">SILICON WARS · ORIGINAL FANTASY COMPOSITING CONCEPT · #64</text>
+ <rect x="35" y="570" width="1130" height="61" rx="9" fill="#111b2e" fill-opacity=".93" stroke="#92b5d7"/>
+ <text x="60" y="596" fill="#ff99a4" font-family="Arial,sans-serif" font-size="18">AMD / crimson chiplets on separate RGBA pass</text>
+ <text x="60" y="619" fill="#a8e9ff" font-family="Arial,sans-serif" font-size="18">INTEL / sapphire hologram on separate RGBA pass · actor identity unchanged</text>
+ <text x="1140" y="647" text-anchor="end" fill="#acc1d4" font-size="12" font-family="Arial,sans-serif">DRAFT CONCEPT / NOT APPROVED FILM ART</text>
+ </svg>

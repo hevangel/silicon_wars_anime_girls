@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - live_action_hyperreal_fantasy
   - live_action_cosplay
   - live_action_cinematic
   - pixel_arcade_sf2
@@ -90,3 +91,14 @@ style_variants:
     transform:
       materials: "fabric, EVA foam and securely fitted thermoplastic trim"
       emphasis: "accessible sewing patterns, wearable moving shoulders and safe props"
+
+  live_action_hyperreal_fantasy:
+    description: "Same original AMD fictional performer as cinematic style; more dramatic Chiplet Barrage."
+    override_file: characters/amd/styles/live_action_hyperreal_fantasy.yaml
+    preserve:
+      - AMD cinematic actor face and athletic mature human proportions
+      - red high braid, amber eyes, headphones and black-crimson chiplet armor
+      - independent visible silhouette beneath effects
+    transform:
+      effects: "crimson chiplets, sparks and articulated circuitry as separate layered VFX"
+      lighting: "red effects cast controlled plausible color onto physical surfaces"

@@ -143,3 +143,23 @@ style_system:
         effects: "restrained practical lighting; no impossible hovering armor"
       reference_sheets: [full_body_three_view, wig_makeup, materials_and_patterns, prop_safety]
       approval: "human costume feasibility and visual review required"
+
+    live_action_hyperreal_fantasy:
+      description: "Physically plausible photoreal actors and original exaggerated semiconductor magic on separately editable VFX plates."
+      inherits_actor_identity: live_action_cinematic
+      actor:
+        constraint: "same original fictional adult performer and facial geometry regardless of effects"
+      wardrobe:
+        design: "heroic expanded but plausibly supported armor with separate simulated ornamentation"
+        required_labels: [physical_material, simulated_vfx, contact_shadow]
+      rendering:
+        capture: "HDR-inspired film still; physically consistent key/fill/rim and eye lines"
+        compositing: "actor and costume as independent base plates; chiplet/citadel/light effects as removable RGBA overlays"
+        depth: "camera and perspective match on every plate"
+        skin_rule: "effects cannot repaint or obscure enough face to break identity"
+      effects:
+        intel: "sapphire x86 Citadel geometry, visible source and matching ground bounce"
+        amd: "crimson modular Chiplet Barrage with separate motion and glow"
+        nvidia: "emerald dragon aura only if her own continuity is referenced in a later approved scope"
+      reference_sheets: [inherited_casting, heroic_costume_turnaround, material_board, fx_atlas, key_art_camera_tests]
+      approval: "human continuity, VFX masking and lighting review; no automatic approval"
