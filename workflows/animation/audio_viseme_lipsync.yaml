@@ -1,0 +1,11 @@
+id: pilot-001-audio_viseme_lipsync
+visual: {art_style: default_manga}
+animation: {technique: audio_viseme_lipsync}
+delivery: {format: browser_preview, fps: 24, resolution: [1920, 1080]}
+toolchain: {browser: "modern Canvas2D + ES2022", python: ">=3.10 stdlib tests/server"}
+entrypoint: chapters/pilot-001/video/audio_viseme_lipsync/preview.html
+editable_source: chapters/pilot-001/video/audio_viseme_lipsync/scene.json
+review_board: chapters/pilot-001/video/audio_viseme_lipsync/reference-board.svg
+source_refs: [characters/intel/reference_card.jpg, characters/amd/reference_card.jpg]
+status: prototype_only
+known_blocker: "Cue timings are synthetic examples, NOT derived from actual dialogue recordings or Rhubarb. No WAV included."
