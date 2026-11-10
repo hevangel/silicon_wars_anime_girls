@@ -1,0 +1,22 @@
+style_id: pixel_8bit_nes
+character_id: amd
+source_continuity: characters/amd/continuity.yaml
+reference_manga_sheet: characters/amd/character_sheet.png
+status: concept_not_approved
+creative_budget:
+  canvas: [48, 64]
+  background_stage: [256, 240]
+  tile_px: 8
+  sprite_palette: "3 opaque colors + transparent"
+  palette_bank_max: 4
+  frames_for_first_review: 4
+silhouette: "Red rearward high braided ponytail, boxy crimson-black chiplet chest, headphones loop and one aggressive forward boot"
+identity_at_small_size: "Ponytail must remain red; posture asymmetric and challenging, distinct from Intel"
+recommended_color_banks:
+  main: ["#18151D", "#C83B35", "#F2C7A2"]
+  face: ["#18151D", "#F2C7A2", "#E7A045"]
+  fx: ["#18151D", "#C83B35", "#F2A740"]
+allowed_motion: [idle, walk, point, chiplet_raise]
+strict_mode: emulator_verification_required
+master_asset: null
+human_approved: false

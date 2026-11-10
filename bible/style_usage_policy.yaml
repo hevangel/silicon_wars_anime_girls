@@ -31,3 +31,15 @@ style_usage_policy:
       - treating photo pixelation as final master artwork
       - visually copying Street Fighter II character sprites or assets
       - shipping unapproved batch sprite sheets
+
+  pixel_8bit_nes:
+    allowed_in:
+      - retro-console concept scenes
+      - 8-bit style character sprites
+      - low-resolution game mock-ups
+      - stylized nostalgic tutorials
+    avoid_in:
+      - representing creative sprites as NES-hardware-verified
+      - using 16-bit arcade shading and detailed anatomy
+      - shrinking finished manga art with automatic quantization
+      - overwriting default_manga or chibi approved assets

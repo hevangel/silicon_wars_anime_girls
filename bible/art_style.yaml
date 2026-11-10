@@ -84,3 +84,28 @@ style_system:
         animation_sheet: "uniform cells with frame IDs, anchors, hitboxes and optional separated limbs"
         frame_method: "hand-draw the master and correct pixels before building derived frames"
         acceptance: "manual art-director approval required; numeric validators alone are insufficient"
+
+    pixel_8bit_nes:
+      description: "Intentionally minimal early-console sprite design inspired by 8-bit home consoles; not arcade pixel art."
+      proportions:
+        head_to_body_ratio: "abstracted adult silhouette; a few large legible shape clusters"
+        limbs: "compressed, articulated at tile-scale"
+      rendering:
+        native_canvas_px: [[32, 48], [48, 64]]
+        stage_px: [256, 240]
+        tile_px: [8, 8]
+        opaque_colors_per_sprite_palette: 3
+        transparency: "one transparent index, alpha 0 or 255"
+        upscale: "integer-only nearest neighbour"
+        outline: "single-pixel dark cluster when available within palette budget"
+        shading: "flat clusters and high-contrast color blocking; no soft AA"
+      expression_rules:
+        exaggeration: "eyes and mouth as purposeful small tile changes"
+      pose_rules:
+        style: "idle/walk cycle, simple silhouette, unmistakable signature prop"
+      production:
+        mode: "creative_budget by default; hardware_candidate requires NES emulator checks"
+        reference_sheet: "front, side, back, 4-frame walk/idle, face/eye/mouth tiles and palette allocation"
+        tile_budget: "8x8 tiles; each tile assigned one 3-color plus transparent sprite palette"
+        hardware_authenticity: "Never claim hardware-accurate without PPU/OAM emulation, scanline and sprite overlap review"
+        approval: "Explicit visual review required, distinct from palette validation"

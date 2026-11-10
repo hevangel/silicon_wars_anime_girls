@@ -13,6 +13,7 @@ supported_styles:
   - default_manga
   - chibi
   - pixel_arcade_sf2
+  - pixel_8bit_nes
 
 style_variants:
   chibi:
@@ -53,3 +54,15 @@ style_variants:
     transform:
       proportions: "adult upright imperial fighter stance"
       rendering: "clean royal-blue fabric ramps; restrained gold sparkle"
+
+  pixel_8bit_nes:
+    description: "Regal blue silhouette with sapphire crown, cream coat and wafer."
+    override_file: characters/intel/styles/pixel_8bit_nes.yaml
+    preserve:
+      - long light-blue hair
+      - pointed unbranded sapphire crown
+      - royal-blue and cream coat silhouette with epaulettes
+      - wafer heirloom and tiny hem logo motif when legible
+    transform:
+      proportions: "adult upright stance in simplified pixel shapes"
+      shading: "3 visible colors plus transparency per tile palette"

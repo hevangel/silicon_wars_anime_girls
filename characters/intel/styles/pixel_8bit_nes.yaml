@@ -1,0 +1,22 @@
+style_id: pixel_8bit_nes
+character_id: intel
+source_continuity: characters/intel/continuity.yaml
+reference_manga_sheet: characters/intel/character_sheet.png
+status: concept_not_approved
+creative_budget:
+  canvas: [48, 64]
+  background_stage: [256, 240]
+  tile_px: 8
+  sprite_palette: "3 opaque colors + transparent"
+  palette_bank_max: 4
+  frames_for_first_review: 4
+silhouette: "Pointed crown, long light-blue hair curtain, flared royal-blue coat and small held wafer"
+identity_at_small_size: "Crown and light-blue hair must read; tall regal stance, no AMD-style forward lunge"
+recommended_color_banks:
+  main: ["#16263E", "#4079CA", "#E9E0C5"]
+  face: ["#16263E", "#A4D2F2", "#F3D9C0"]
+  crown: ["#16263E", "#4079CA", "#F1CC62"]
+allowed_motion: [idle, walk, command, wafer_raise]
+strict_mode: emulator_verification_required
+master_asset: null
+human_approved: false
