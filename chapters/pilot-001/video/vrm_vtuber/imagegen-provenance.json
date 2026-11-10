@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "issue": 72,
+  "asset_kind": "ai_generated_concept_board",
+  "generator_id": "22adecaf-4da0-4b1e-b0a3-5441731d8f21",
+  "original_image": "amd_vrm_vtuber_production_board.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "committed_preview": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "273a101397845272356caa6ca0f0c76eab5b8544e09f019cf9604d6ff876fd8e",
+  "status": "concept_preview_only",
+  "verified_vrm_model": false,
+  "human_approved": false
+}
