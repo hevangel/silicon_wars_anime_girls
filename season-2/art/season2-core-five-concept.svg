@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1410" height="575" viewBox="0 0 1410 575">
+<defs><linearGradient id="card0" x2=".9" y2="1"><stop stop-color="#10344b"/><stop offset="1" stop-color="#0a1127"/></linearGradient><linearGradient id="card1" x2=".9" y2="1"><stop stop-color="#1a4f83"/><stop offset="1" stop-color="#0a1127"/></linearGradient><linearGradient id="card2" x2=".9" y2="1"><stop stop-color="#342544"/><stop offset="1" stop-color="#0a1127"/></linearGradient><linearGradient id="card3" x2=".9" y2="1"><stop stop-color="#572466"/><stop offset="1" stop-color="#0a1127"/></linearGradient><linearGradient id="card4" x2=".9" y2="1"><stop stop-color="#204568"/><stop offset="1" stop-color="#0a1127"/></linearGradient><linearGradient id="back" x2="1" y2="1"><stop stop-color="#101c35"/><stop offset=".5" stop-color="#15213c"/><stop offset="1" stop-color="#22172e"/></linearGradient></defs>
+<rect width="1410" height="575" fill="url(#back)"/>
+<path d="M0 35 H1410 M0 560 H1410" stroke="#519dce" opacity=".55"/>
+<text x="22" y="35" font-family="Arial,sans-serif" font-weight="bold" font-size="27" fill="#eef8ff">SILICON WARS — SEASON 2</text>
+<text x="1385" y="33" font-family="Arial,sans-serif" font-size="14" fill="#afc5e6" text-anchor="end">DOT-COM &amp; MOBILE WARS • CONCEPT CAST / UNAPPROVED</text>
+<g transform="translate(17,80)">
+<rect x="0" y="0" width="255" height="475" rx="17" fill="url(#card0)" stroke="#29d7d9" stroke-opacity=".38"/>
+<circle cx="128" cy="195" r="112" fill="#29d7d9" opacity=".06"/>
+<path d="M15 375 Q125 335 235 385" fill="none" stroke="#29d7d9" opacity=".2" stroke-width="6"/>
+<g transform="translate(1,0)"><path d="M42 410 L57 308 Q75 282 99 281 L158 281 Q198 278 208 311 L222 411 Z" fill="#174c72" stroke="#29d7d9" stroke-width="5"/><path d="M111 286 L88 409 L137 409 L156 287" fill="#d3e9ff" opacity=".94"/><path d="M98 286 L124 337 L89 333 M157 282 L124 337 L168 328" fill="#10344b" stroke="#29d7d9" stroke-width="3"/><path d="M69 154 Q30 185 57 299 Q47 331 26 346 L82 332 Q112 280 101 164 Z" fill="#0b314a" stroke="#5dcbdd" stroke-width="5"/><path d="M192 153 Q221 179 202 287 Q225 321 249 334 L201 327 Q162 253 172 164 Z" fill="#104866" stroke="#5dcbdd" stroke-width="5"/><path d="M73 197 Q45 235 64 290" fill="none" stroke="#74eff0" stroke-width="9" stroke-dasharray="8 8"/>
+<path d="M75 155 Q72 112 94 91 Q128 64 167 96 Q194 118 181 174 L178 221 Q172 260 129 270 Q87 263 82 213 Z" fill="#eec3ab" stroke="#754d50" stroke-width="3"/>
+<path d="M74 160 Q61 89 105 71 Q148 54 183 89 Q203 121 181 158 Q169 117 144 125 Q108 144 73 160 Z" fill="#0b314a" stroke="#29d7d9" stroke-opacity=".5" stroke-width="5"/>
+<path d="M84 167 Q96 141 107 154 Q118 165 104 184 L90 181 Z M175 168 Q190 145 190 164 L179 188" fill="#eec3ab"/>
+<path d="M97 186 Q109 181 118 188 M139 186 Q152 180 162 186" stroke="#402d3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="108" cy="194" rx="5.5" ry="9" fill="#62eeea"/><ellipse cx="149" cy="194" rx="5.5" ry="9" fill="#62eeea"/><circle cx="110" cy="191" r="2" fill="white"/><circle cx="151" cy="191" r="2" fill="white"/>
+<path d="M118 235 Q130 242 142 234" stroke="#9d5860" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="101" y="306" width="60" height="35" rx="5" fill="#052331" stroke="#7bf7ef" stroke-width="4"/><g fill="#62e7f2"><circle cx="116" cy="322" r="3"/><circle cx="129" cy="322" r="3"/><circle cx="142" cy="322" r="3"/></g><path d="M81 310 Q24 265 14 228 M163 318 Q233 263 238 217" fill="none" stroke="#44d6e6" stroke-width="4" stroke-dasharray="3 8"/>
+</g>
+<rect x="8" y="412" width="239" height="54" rx="10" fill="#08111e" opacity=".93"/>
+<text x="127" y="435" fill="#fff" font-size="22" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">CISCO</text>
+<text x="127" y="454" fill="#29d7d9" font-size="11" font-family="Arial,sans-serif" letter-spacing="1.4" text-anchor="middle">ROUTER QUEEN</text>
+</g>
+<g transform="translate(292,80)">
+<rect x="0" y="0" width="255" height="475" rx="17" fill="url(#card1)" stroke="#b8ecff" stroke-opacity=".38"/>
+<circle cx="128" cy="195" r="112" fill="#b8ecff" opacity=".06"/>
+<path d="M15 375 Q125 335 235 385" fill="none" stroke="#b8ecff" opacity=".2" stroke-width="6"/>
+<g transform="translate(1,0)"><path d="M44 407 L51 309 Q68 276 97 277 L165 277 Q197 277 209 312 L218 407 Z" fill="#245aa1" stroke="#a7dfff" stroke-width="6"/><path d="M90 286 L64 330 L100 354 L116 293 Z M169 283 L204 331 L169 355 L151 294 Z" fill="#ecf7ff" stroke="#a4d8fb" stroke-width="3"/><path d="M79 157 Q30 192 67 260 L64 341 Q100 325 103 294 L112 160 Z" fill="#7bc8ed"/><path d="M179 150 Q215 188 189 222 Q233 266 196 339 L161 344 Q189 274 166 224 Z" fill="#7fceed"/><path d="M188 229 l17 22 -24 19 20 22 -25 19 13 27" stroke="#d7fcff" fill="none" stroke-width="12" stroke-linecap="round"/>
+<path d="M75 155 Q72 112 94 91 Q128 64 167 96 Q194 118 181 174 L178 221 Q172 260 129 270 Q87 263 82 213 Z" fill="#eec3ab" stroke="#754d50" stroke-width="3"/>
+<path d="M74 160 Q61 89 105 71 Q148 54 183 89 Q203 121 181 158 Q169 117 144 125 Q108 144 73 160 Z" fill="#73c2ea" stroke="#b8ecff" stroke-opacity=".5" stroke-width="5"/>
+<path d="M84 167 Q96 141 107 154 Q118 165 104 184 L90 181 Z M175 168 Q190 145 190 164 L179 188" fill="#eec3ab"/>
+<path d="M97 186 Q109 181 118 188 M139 186 Q152 180 162 186" stroke="#402d3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="108" cy="194" rx="5.5" ry="9" fill="#3268ab"/><ellipse cx="149" cy="194" rx="5.5" ry="9" fill="#3268ab"/><circle cx="110" cy="191" r="2" fill="white"/><circle cx="151" cy="191" r="2" fill="white"/>
+<path d="M118 235 Q130 242 142 234" stroke="#9d5860" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="186" y="288" width="36" height="75" rx="9" fill="#e9fcff" stroke="#1b4686" stroke-width="5"/><rect x="191" y="300" width="25" height="25" rx="3" fill="#56a8ce"/><g fill="#26548c"><circle cx="196" cy="336" r="3"/><circle cx="205" cy="336" r="3"/><circle cx="214" cy="336" r="3"/><circle cx="196" cy="346" r="3"/><circle cx="205" cy="346" r="3"/><circle cx="214" cy="346" r="3"/></g><path d="M199 291 v-21" stroke="#eefaff" stroke-width="4"/>
+</g>
+<rect x="8" y="412" width="239" height="54" rx="10" fill="#08111e" opacity=".93"/>
+<text x="127" y="435" fill="#fff" font-size="22" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">NOKIA</text>
+<text x="127" y="454" fill="#b8ecff" font-size="11" font-family="Arial,sans-serif" letter-spacing="1.4" text-anchor="middle">BLUE PHONE EMPRESS</text>
+</g>
+<g transform="translate(567,80)">
+<rect x="0" y="0" width="255" height="475" rx="17" fill="url(#card2)" stroke="#d5a2ef" stroke-opacity=".38"/>
+<circle cx="128" cy="195" r="112" fill="#d5a2ef" opacity=".06"/>
+<path d="M15 375 Q125 335 235 385" fill="none" stroke="#d5a2ef" opacity=".2" stroke-width="6"/>
+<g transform="translate(1,0)"><path d="M42 410 L57 308 Q75 282 99 281 L158 281 Q198 278 208 311 L222 411 Z" fill="#41265f" stroke="#d5a2ef" stroke-width="5"/><path d="M111 286 L88 409 L137 409 L156 287" fill="#e3cedb" opacity=".94"/><path d="M98 286 L124 337 L89 333 M157 282 L124 337 L168 328" fill="#342544" stroke="#d5a2ef" stroke-width="3"/><path d="M74 158 Q35 199 71 263 L91 249 L92 157 Z" fill="#100e17"/><path d="M171 146 Q210 184 179 265 L166 250 L161 161 Z" fill="#16121c"/><ellipse cx="193" cy="150" rx="34" ry="32" fill="#1c1524" stroke="#4f345a" stroke-width="7"/>
+<path d="M75 155 Q72 112 94 91 Q128 64 167 96 Q194 118 181 174 L178 221 Q172 260 129 270 Q87 263 82 213 Z" fill="#eec3ab" stroke="#754d50" stroke-width="3"/>
+<path d="M74 160 Q61 89 105 71 Q148 54 183 89 Q203 121 181 158 Q169 117 144 125 Q108 144 73 160 Z" fill="#19121f" stroke="#d5a2ef" stroke-opacity=".5" stroke-width="5"/>
+<path d="M84 167 Q96 141 107 154 Q118 165 104 184 L90 181 Z M175 168 Q190 145 190 164 L179 188" fill="#eec3ab"/>
+<path d="M97 186 Q109 181 118 188 M139 186 Q152 180 162 186" stroke="#402d3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="108" cy="194" rx="5.5" ry="9" fill="#8745ba"/><ellipse cx="149" cy="194" rx="5.5" ry="9" fill="#8745ba"/><circle cx="110" cy="191" r="2" fill="white"/><circle cx="151" cy="191" r="2" fill="white"/>
+<path d="M118 235 Q130 242 142 234" stroke="#9d5860" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<rect x="184" y="301" width="64" height="47" rx="7" fill="#14111d" stroke="#bb8ae1" stroke-width="5"/><g fill="#b6a1c9"><rect x="191" y="312" width="7" height="5" rx="1"/><rect x="201" y="312" width="7" height="5" rx="1"/><rect x="211" y="312" width="7" height="5" rx="1"/><rect x="221" y="312" width="7" height="5" rx="1"/><rect x="231" y="312" width="7" height="5" rx="1"/><rect x="191" y="321" width="7" height="5" rx="1"/><rect x="201" y="321" width="7" height="5" rx="1"/><rect x="211" y="321" width="7" height="5" rx="1"/><rect x="221" y="321" width="7" height="5" rx="1"/><rect x="231" y="321" width="7" height="5" rx="1"/><rect x="191" y="330" width="7" height="5" rx="1"/><rect x="201" y="330" width="7" height="5" rx="1"/><rect x="211" y="330" width="7" height="5" rx="1"/><rect x="221" y="330" width="7" height="5" rx="1"/><rect x="231" y="330" width="7" height="5" rx="1"/></g><circle cx="95" cy="303" r="9" fill="#ff4554" stroke="#ffc7d0" stroke-width="3"/>
+</g>
+<rect x="8" y="412" width="239" height="54" rx="10" fill="#08111e" opacity=".93"/>
+<text x="127" y="435" fill="#fff" font-size="17" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">RIM / BLACKBERRY</text>
+<text x="127" y="454" fill="#d5a2ef" font-size="11" font-family="Arial,sans-serif" letter-spacing="1.4" text-anchor="middle">SECURE MESSENGER</text>
+</g>
+<g transform="translate(842,80)">
+<rect x="0" y="0" width="255" height="475" rx="17" fill="url(#card3)" stroke="#f3a2fa" stroke-opacity=".38"/>
+<circle cx="128" cy="195" r="112" fill="#f3a2fa" opacity=".06"/>
+<path d="M15 375 Q125 335 235 385" fill="none" stroke="#f3a2fa" opacity=".2" stroke-width="6"/>
+<g transform="translate(1,0)"><path d="M42 410 L57 308 Q75 282 99 281 L158 281 Q198 278 208 311 L222 411 Z" fill="#6d2d99" stroke="#f3a2fa" stroke-width="5"/><path d="M111 286 L88 409 L137 409 L156 287" fill="#d3e9ff" opacity=".94"/><path d="M98 286 L124 337 L89 333 M157 282 L124 337 L168 328" fill="#572466" stroke="#f3a2fa" stroke-width="3"/><path d="M69 154 Q16 166 36 228 Q13 269 36 304 Q84 291 91 236 L111 159 Z" fill="#9d4bd0"/><path d="M184 156 Q233 153 224 221 Q257 265 227 307 L181 281 L158 157 Z" fill="#ab59d2"/><ellipse cx="42" cy="182" rx="22" ry="32" fill="#ba62db"/><ellipse cx="218" cy="184" rx="22" ry="32" fill="#c879e9"/>
+<path d="M75 155 Q72 112 94 91 Q128 64 167 96 Q194 118 181 174 L178 221 Q172 260 129 270 Q87 263 82 213 Z" fill="#eec3ab" stroke="#754d50" stroke-width="3"/>
+<path d="M74 160 Q61 89 105 71 Q148 54 183 89 Q203 121 181 158 Q169 117 144 125 Q108 144 73 160 Z" fill="#a459d5" stroke="#f3a2fa" stroke-opacity=".5" stroke-width="5"/>
+<path d="M84 167 Q96 141 107 154 Q118 165 104 184 L90 181 Z M175 168 Q190 145 190 164 L179 188" fill="#eec3ab"/>
+<path d="M97 186 Q109 181 118 188 M139 186 Q152 180 162 186" stroke="#402d3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="108" cy="194" rx="5.5" ry="9" fill="#993ab4"/><ellipse cx="149" cy="194" rx="5.5" ry="9" fill="#993ab4"/><circle cx="110" cy="191" r="2" fill="white"/><circle cx="151" cy="191" r="2" fill="white"/>
+<path d="M118 235 Q130 242 142 234" stroke="#9d5860" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<g transform="translate(199,319)"><path d="M-40 9 Q0 -69 45 10 L30 34 Q0 16 -30 34 Z" fill="#af6be1" stroke="#f7cdff" stroke-width="4"/><circle cx="1" cy="3" r="17" fill="none" stroke="#fcf1ff" stroke-width="5"/><path d="M0 -25 v50 M-25 0 h50" stroke="#f6dcff" stroke-width="3"/></g>
+</g>
+<rect x="8" y="412" width="239" height="54" rx="10" fill="#08111e" opacity=".93"/>
+<text x="127" y="435" fill="#fff" font-size="22" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">YAHOO!</text>
+<text x="127" y="454" fill="#f3a2fa" font-size="11" font-family="Arial,sans-serif" letter-spacing="1.4" text-anchor="middle">PORTAL PRINCESS</text>
+</g>
+<g transform="translate(1117,80)">
+<rect x="0" y="0" width="255" height="475" rx="17" fill="url(#card4)" stroke="#c8f3ff" stroke-opacity=".38"/>
+<circle cx="128" cy="195" r="112" fill="#c8f3ff" opacity=".06"/>
+<path d="M15 375 Q125 335 235 385" fill="none" stroke="#c8f3ff" opacity=".2" stroke-width="6"/>
+<g transform="translate(1,0)"><path d="M42 410 L57 308 Q75 282 99 281 L158 281 Q198 278 208 311 L222 411 Z" fill="#406d91" stroke="#c8f3ff" stroke-width="5"/><path d="M111 286 L88 409 L137 409 L156 287" fill="#d3e9ff" opacity=".94"/><path d="M98 286 L124 337 L89 333 M157 282 L124 337 L168 328" fill="#204568" stroke="#c8f3ff" stroke-width="3"/><path d="M76 152 Q24 182 59 257 Q22 279 17 324 L98 307 L107 170 Z" fill="#d9f5ff"/><path d="M185 151 Q242 195 198 252 L248 318 L173 304 L156 170 Z" fill="#a8d9eb"/><path d="M183 174 L211 260 L181 341" stroke="#fff" fill="none" stroke-width="11"/>
+<path d="M75 155 Q72 112 94 91 Q128 64 167 96 Q194 118 181 174 L178 221 Q172 260 129 270 Q87 263 82 213 Z" fill="#eec3ab" stroke="#754d50" stroke-width="3"/>
+<path d="M74 160 Q61 89 105 71 Q148 54 183 89 Q203 121 181 158 Q169 117 144 125 Q108 144 73 160 Z" fill="#d8f4ff" stroke="#c8f3ff" stroke-opacity=".5" stroke-width="5"/>
+<path d="M84 167 Q96 141 107 154 Q118 165 104 184 L90 181 Z M175 168 Q190 145 190 164 L179 188" fill="#eec3ab"/>
+<path d="M97 186 Q109 181 118 188 M139 186 Q152 180 162 186" stroke="#402d3c" stroke-width="4" fill="none" stroke-linecap="round"/>
+<ellipse cx="108" cy="194" rx="5.5" ry="9" fill="#3b82b5"/><ellipse cx="149" cy="194" rx="5.5" ry="9" fill="#3b82b5"/><circle cx="110" cy="191" r="2" fill="white"/><circle cx="151" cy="191" r="2" fill="white"/>
+<path d="M118 235 Q130 242 142 234" stroke="#9d5860" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+<path d="M213 229 L219 363" stroke="#bdefff" stroke-width="8"/><path d="M213 215 L190 253 L216 239 L232 259 L241 246 Z" fill="#d7f9ff" stroke="#53d7ff" stroke-width="5"/><path d="M21 346 Q65 319 99 343 Q141 310 197 330" fill="none" stroke="#c6f9fc" stroke-width="8" opacity=".6"/>
+</g>
+<rect x="8" y="412" width="239" height="54" rx="10" fill="#08111e" opacity=".93"/>
+<text x="127" y="435" fill="#fff" font-size="22" font-family="Arial,sans-serif" font-weight="bold" text-anchor="middle">NORTEL</text>
+<text x="127" y="454" fill="#c8f3ff" font-size="11" font-family="Arial,sans-serif" letter-spacing="1.4" text-anchor="middle">NETWORK VALKYRIE</text>
+</g>
+<text x="705" y="569" fill="#c6d0e1" font-family="Arial,sans-serif" font-size="11" text-anchor="middle">FICTIONAL COMPANY PERSONIFICATIONS • VECTORIZED DESIGN STUDY • NOT PRODUCTION MODEL SHEETS</text>
+</svg>
