@@ -27,7 +27,6 @@
   "defaultComic": "beach-volleyball",
   "models": {
     "seedream": "Seedream 5.0",
-    "builtin": "Built-in image generation",
     "gemini": "Gemini",
     "grok": "Grok",
     "chatgpt": "ChatGPT",
@@ -70,7 +69,7 @@
         },
         {
           "id": "courtyard",
-          "model": "builtin",
+          "model": "muse",
           "label": "Courtyard take",
           "image": "tug-of-war/courtyard.png",
           "width": 1448,
@@ -121,6 +120,30 @@
           "alt": "Against a white background, Intel and AMD lean back on the rope while Nvidia winks and curls a dumbbell. Nameplates identify each character.",
           "references": [],
           "thumbnail": "tug-of-war/grok-expert.webp"
+        },
+        {
+          "id": "chatgpt",
+          "model": "chatgpt",
+          "label": "Training-yard tug of war",
+          "image": "tug-of-war/chatgpt.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Intel and AMD dig their heels into the dirt while Nvidia pulls their rope with one hand and curls a dumbbell with the other.",
+          "references": [
+            {
+              "path": "characters/intel/chibi_sheet.png",
+              "label": "Intel chibi sheet"
+            },
+            {
+              "path": "characters/amd/chibi_sheet.png",
+              "label": "AMD chibi sheet"
+            },
+            {
+              "path": "characters/nvidia/chibi_sheet.png",
+              "label": "Nvidia chibi sheet"
+            }
+          ],
+          "thumbnail": "tug-of-war/chatgpt.webp"
         }
       ]
     },
