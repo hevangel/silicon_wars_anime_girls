@@ -69,3 +69,9 @@ python tools/render_pilot.py
 ```
 
 To regenerate one panel, print its prompt with `python tools/render_pilot.py --prompt panel-03`. Attach the PNG references listed in its brief in order. Replace that panel’s art after review, update its manifest entry, and reassemble. The renderer assembles existing art and lettering locally.
+
+## Page 002 · Courtyard chibi alternate
+
+In this 4:3 review panel, Intel and AMD are on one team. Nvidia pulls them with one hand and curls a dumbbell with the other. The speech balloon is part of the rendered image.
+
+[View the courtyard panel](pages/page-002-chibi/alternates/courtyard-4x3/panel-01.png) · [Generation notes](pages/page-002-chibi/alternates/courtyard-4x3/panel-01.prompt.md)
