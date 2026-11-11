@@ -48,7 +48,12 @@ than a single crowd generation, so no character's traits bleed into another's.
   all 32 striding or rolling left in true profile, and every printed
   logo and text reads correctly — no mirror flips anywhere in v2.
   (Microsoft's batch attempt returned no image; a fresh attempt
-  succeeded.) The v1 notes below are kept as build history.
+  succeeded. Amazon's v2 take was then caught at review with her
+  upper body twisted 180 degrees against her legs — head and torso
+  facing right while her hips and feet walked left — and was
+  regenerated with the whole body aligned in one left-facing
+  profile; verified in slice 2.) The v1 notes below are kept as
+  build history.
 - Intel and Huawei initially produced no image with the standard walker
   prompt. A text-combination test found the fix: scrub the brand name from
   the prompt and explicitly require plain unmarked panels with no text,
