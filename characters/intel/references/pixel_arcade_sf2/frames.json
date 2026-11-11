@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "style": "pixel_arcade_sf2",
+  "character": "intel",
+  "status": "unapproved",
+  "canvas": {
+    "width": 96,
+    "height": 128
+  },
+  "palette_limit": 32,
+  "frames": [
+    {
+      "id": "master-draft",
+      "file": "master-draft.png",
+      "anchor": [
+        48,
+        124
+      ],
+      "hitbox": [
+        11,
+        3,
+        94,
+        127
+      ]
+    }
+  ]
+}

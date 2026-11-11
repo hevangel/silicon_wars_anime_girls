@@ -12,6 +12,7 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - pixel_arcade_sf2
 
 style_variants:
   chibi:
@@ -39,3 +40,16 @@ style_variants:
       expressions: "more exaggerated"
       shading: "minimal"
       costume_detail: "simplified but recognizable"
+
+  pixel_arcade_sf2:
+    description: "Regal light-blue-haired arcade character distinct from AMD."
+    override_file: characters/intel/styles/pixel_arcade_sf2.yaml
+    preserve:
+      - very long light-blue hair
+      - sapphire-blue eyes and unbranded pointed sapphire crown
+      - royal-blue and cream military costume
+      - gold epaulettes, white gloves and wafer heirloom
+      - small Intel Inside skirt-hem embroidery
+    transform:
+      proportions: "adult upright imperial fighter stance"
+      rendering: "clean royal-blue fabric ramps; restrained gold sparkle"

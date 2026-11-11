@@ -58,3 +58,29 @@ style_system:
         - simplify costume details but keep major motifs
         - use exaggerated expressions
         - avoid realistic anatomy
+
+    pixel_arcade_sf2:
+      description: "Original 1990s 16-bit-era arcade fighter-inspired native pixel art; NOT an 8-bit/NES palette or existing game IP."
+      proportions:
+        head_to_body_ratio: "1:5.5 to 1:6.5 within intentional 96x128 or 128x160 pixel staging"
+        limbs: "readable active combat silhouette; hands deliberately clustered"
+        hands_feet: "4-8 pixel feature clusters, no blurred contours"
+      rendering:
+        canvas_px: [[96, 128], [128, 160]]
+        pixel_scale: "1x native output; 4x integer preview by nearest-neighbour only"
+        palette_size: {min: 16, max: 32}
+        outlines: "1 to 2 native pixels; selective colored outline in bright-facing zones"
+        shading: "hard material-specific 3-5 color ramps; no blended gradients"
+        antialiasing: false
+        alpha_levels: [0, 255]
+        light_direction: "upper left, fixed within a sprite set"
+        anatomy_rule: "draw clusters intentionally at target pixel resolution, never scale a manga image and call it master"
+      expression_rules:
+        exaggeration: "high readability at native size, facial features remain identity-locked"
+      pose_rules:
+        style: "strong left/right silhouette and planted feet; explicit foot anchor; no reused pose across characters"
+      production:
+        reference_sheet: "front, three-quarter, side, back, face close-up, palette and one attack stance"
+        animation_sheet: "uniform cells with frame IDs, anchors, hitboxes and optional separated limbs"
+        frame_method: "hand-draw the master and correct pixels before building derived frames"
+        acceptance: "manual art-director approval required; numeric validators alone are insufficient"
