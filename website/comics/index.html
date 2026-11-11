@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="">
+  <meta name="description" content="">
+  <title></title>
+  <link rel="icon" href="chip.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" id="comics-home">
+      <img class="brand-mark" src="chip.svg" width="29" height="29" alt="">
+      <span data-copy="brand"></span>
+    </a>
+    <a class="edition" id="character-archive" data-copy="archiveLink"></a>
+  </header>
+
+  <main class="reader" hidden>
+    <article aria-labelledby="comic-title">
+      <header class="comic-header">
+        <h1 id="comic-title" tabindex="-1"></h1>
+        <nav class="comic-nav" id="comic-navigation">
+          <a class="nav-link" id="previous" data-copy="previous"></a>
+          <label class="comic-picker">
+            <span class="sr-only" data-copy="picker"></span>
+            <select id="comic-picker"></select>
+          </label>
+          <a class="nav-link" id="next" data-copy="next"></a>
+        </nav>
+      </header>
+      <figure class="comic-panel">
+        <a id="full-size"><img id="comic-image" alt=""></a>
+        <figcaption id="variant-caption"></figcaption>
+      </figure>
+    </article>
+
+    <section class="model-gallery" aria-labelledby="model-heading">
+      <h2 id="model-heading" data-copy="gallery"></h2>
+      <ul class="variant-list" id="variant-list"></ul>
+    </section>
+
+    <details class="reference-panel">
+      <summary data-copy="references"></summary>
+      <ul class="reference-list" id="reference-list"></ul>
+      <p id="no-references" data-copy="noReferences" hidden></p>
+    </details>
+  </main>
+  <p class="load-error" role="alert" hidden>Could not load comics.json.</p>
+  <noscript><p class="load-error">Enable JavaScript to open the comics reader.</p></noscript>
+  <footer data-copy="footer"></footer>
+</body>
+</html>

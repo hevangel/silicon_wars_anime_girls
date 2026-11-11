@@ -89,7 +89,8 @@
   },
   "navigation": {
     "menuLabel": "Browse Silicon Wars",
-    "homeLabel": "Home"
+    "homeLabel": "Home",
+    "comicsLabel": "Comics"
   },
   "viewer": {
     "profileLabel": "Character profile",

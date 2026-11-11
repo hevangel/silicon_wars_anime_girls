@@ -88,6 +88,9 @@
   const breadcrumb = document.querySelector(".breadcrumb-current");
   const menu = document.querySelector("#site-menu");
   const menuToggle = document.querySelector(".menu-toggle");
+  const seasonMenu = document.querySelector(".season-menu");
+  const seasonToggle = document.querySelector("#season-toggle");
+  const comicsLink = document.querySelector("#season-comics");
   const viewer = document.querySelector(".art-viewer");
   const viewerImage = document.querySelector(".viewer-image");
   let selectedGroup = "";
@@ -155,11 +158,17 @@
   });
   document.addEventListener("click", (event) => {
     if (!menu.contains(event.target) && !menuToggle.contains(event.target)) closeMenu();
+    if (!seasonMenu.contains(event.target)) seasonMenu.open = false;
   });
   menu.addEventListener("click", (event) => {
     if (event.target.closest("a")) closeMenu();
   });
+  comicsLink.addEventListener("click", () => { seasonMenu.open = false; });
   document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && seasonMenu.open) {
+      seasonMenu.open = false;
+      seasonToggle.focus();
+    }
     if (event.key === "Escape" && !menu.hidden) {
       closeMenu();
       menuToggle.focus();
@@ -176,6 +185,7 @@
       else link.removeAttribute("aria-current");
     });
     closeMenu();
+    seasonMenu.open = false;
   };
   const scrollToTop = () =>
     window.scrollTo({ top: 0, behavior: reduceMotion.matches ? "auto" : "smooth" });

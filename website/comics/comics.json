@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "lang": "en",
+    "themeColor": "#080d16",
+    "description": "Read Silicon Wars Season One comics and compare versions from different image models.",
+    "titleTemplate": "{comic} · Season One Comics"
+  },
+  "paths": {
+    "art": "art/",
+    "references": "../../",
+    "characterArchive": "../"
+  },
+  "copy": {
+    "brand": "Season One Comics",
+    "archiveLink": "Character Archive",
+    "navigation": "Comic navigation",
+    "previous": "‹ Previous",
+    "next": "Next ›",
+    "picker": "Choose a comic",
+    "gallery": "Model gallery",
+    "references": "Reference sheets",
+    "noReferences": "Reference sheets were not recorded for this version.",
+    "fullSize": "Open full-size artwork for {comic}",
+    "caption": "{model} · {version}",
+    "footer": "Fictional fan art unaffiliated with the companies depicted."
+  },
+  "defaultComic": "beach-volleyball",
+  "models": {
+    "seedream": "Seedream 5.0",
+    "builtin": "Built-in image generation",
+    "gemini": "Gemini",
+    "grok": "Grok",
+    "chatgpt": "ChatGPT",
+    "muse": "Muse",
+    "gemini-3-8-flash": "Gemini 3.8 Flash"
+  },
+  "comics": [
+    {
+      "id": "tug-of-war",
+      "title": "Chibi Tug of War",
+      "defaultVariant": "seedream",
+      "variants": [
+        {
+          "id": "seedream",
+          "model": "seedream",
+          "label": "Tug of war",
+          "image": "tug-of-war/seedream.png",
+          "width": 2400,
+          "height": 1800,
+          "alt": "Chibi Nvidia pulls Intel and AMD with one hand while curling a dumbbell with the other.",
+          "references": [
+            {
+              "path": "chapters/pilot-001/pages/page-002-chibi-4x3/refs/cast-chibi-reference.jpg",
+              "label": "Chibi cast composite"
+            },
+            {
+              "path": "characters/intel/chibi_sheet.png",
+              "label": "Intel chibi sheet"
+            },
+            {
+              "path": "characters/amd/chibi_sheet.png",
+              "label": "AMD chibi sheet"
+            },
+            {
+              "path": "characters/nvidia/chibi_sheet.png",
+              "label": "Nvidia chibi sheet"
+            }
+          ],
+          "thumbnail": "tug-of-war/seedream.webp"
+        },
+        {
+          "id": "courtyard",
+          "model": "builtin",
+          "label": "Courtyard take",
+          "image": "tug-of-war/courtyard.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "In a training courtyard, Intel and AMD dig in their heels as chibi Nvidia pulls their rope and curls a dumbbell.",
+          "references": [
+            {
+              "path": "characters/nvidia/character_sheet.png",
+              "label": "Nvidia model sheet"
+            },
+            {
+              "path": "characters/nvidia/chibi_sheet.png",
+              "label": "Nvidia chibi sheet"
+            },
+            {
+              "path": "characters/intel/chibi_sheet.png",
+              "label": "Intel chibi sheet"
+            },
+            {
+              "path": "characters/amd/character_sheet.png",
+              "label": "AMD model sheet"
+            },
+            {
+              "path": "characters/amd/chibi_sheet.png",
+              "label": "AMD chibi sheet"
+            }
+          ],
+          "thumbnail": "tug-of-war/courtyard.webp"
+        },
+        {
+          "id": "gemini",
+          "model": "gemini",
+          "label": "Training yard",
+          "image": "tug-of-war/gemini.jpg",
+          "width": 2400,
+          "height": 1792,
+          "alt": "Intel and AMD strain in a sandy training yard while Nvidia tugs the rope one-handed and curls a dumbbell.",
+          "references": [],
+          "thumbnail": "tug-of-war/gemini.webp"
+        },
+        {
+          "id": "grok-expert",
+          "model": "grok",
+          "label": "Expert",
+          "image": "tug-of-war/grok-expert.jpg",
+          "width": 1712,
+          "height": 1152,
+          "alt": "Against a white background, Intel and AMD lean back on the rope while Nvidia winks and curls a dumbbell. Nameplates identify each character.",
+          "references": [],
+          "thumbnail": "tug-of-war/grok-expert.webp"
+        }
+      ]
+    },
+    {
+      "id": "more-memory",
+      "title": "More Memory, Please",
+      "defaultVariant": "wafer-roundtable",
+      "variants": [
+        {
+          "id": "wafer-roundtable",
+          "model": "chatgpt",
+          "label": "Wafer roundtable",
+          "image": "more-memory/wafer-roundtable.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "OpenAI clasps her hands and begs Samsung, Micron and SK hynix for more memory. Her request scroll spills over their silicon-wafer table.",
+          "references": [
+            {
+              "path": "characters/openai/character_sheet.png",
+              "label": "OpenAI model sheet"
+            },
+            {
+              "path": "characters/samsung/character_sheet.png",
+              "label": "Samsung model sheet"
+            },
+            {
+              "path": "characters/micron/character_sheet.png",
+              "label": "Micron model sheet"
+            },
+            {
+              "path": "characters/sk-hynix/character_sheet.png",
+              "label": "SK hynix model sheet"
+            }
+          ],
+          "thumbnail": "more-memory/wafer-roundtable.webp"
+        },
+        {
+          "id": "courtyard",
+          "model": "muse",
+          "label": "Courtyard take",
+          "image": "more-memory/courtyard.png",
+          "width": 2400,
+          "height": 1800,
+          "alt": "OpenAI kneels in the Citadel courtyard and pleads for more memory from Samsung, Micron and SK hynix.",
+          "references": [
+            {
+              "path": "characters/openai/character_sheet.png",
+              "label": "OpenAI model sheet"
+            },
+            {
+              "path": "characters/micron/character_sheet.png",
+              "label": "Micron model sheet"
+            },
+            {
+              "path": "characters/samsung/character_sheet.png",
+              "label": "Samsung model sheet"
+            },
+            {
+              "path": "characters/sk-hynix/character_sheet.png",
+              "label": "SK hynix model sheet"
+            }
+          ],
+          "thumbnail": "more-memory/courtyard.webp"
+        },
+        {
+          "id": "grok-expert",
+          "model": "grok",
+          "label": "Expert",
+          "image": "more-memory/grok-expert.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "In a bright cleanroom, OpenAI tearfully begs for HBM as Samsung, SK hynix, and Micron display memory hardware.",
+          "references": [],
+          "thumbnail": "more-memory/grok-expert.webp"
+        },
+        {
+          "id": "grok-auto",
+          "model": "grok",
+          "label": "Auto",
+          "image": "more-memory/grok-auto.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "OpenAI kneels beside her robot in a server lab as Samsung, SK hynix, and Micron hold HBM, DRAM, and DIMM modules.",
+          "references": [],
+          "thumbnail": "more-memory/grok-auto.webp"
+        },
+        {
+          "id": "gemini-3-8-flash",
+          "model": "gemini-3-8-flash",
+          "label": "Memory Trinity",
+          "image": "more-memory/gemini-3-8-flash.jpg",
+          "width": 1376,
+          "height": 768,
+          "alt": "OpenAI tearfully kneels with her robot in a server room as Samsung and SK hynix display memory chips and Micron tips her hat.",
+          "references": [],
+          "thumbnail": "more-memory/gemini-3-8-flash.webp"
+        }
+      ]
+    },
+    {
+      "id": "beach-volleyball",
+      "title": "Beach Volleyball",
+      "defaultVariant": "seedream",
+      "variants": [
+        {
+          "id": "seedream",
+          "model": "seedream",
+          "label": "Beach volleyball",
+          "image": "beach-volleyball/seedream.png",
+          "width": 2400,
+          "height": 1800,
+          "alt": "Intel, AMD and Nvidia play beach volleyball. Two go for the same ball and neither reaches it.",
+          "references": [
+            {
+              "path": "chapters/pilot-005/pages/page-001/refs/cast-reference.jpg",
+              "label": "Volleyball cast composite"
+            },
+            {
+              "path": "characters/intel/character_sheet.png",
+              "label": "Intel model sheet"
+            },
+            {
+              "path": "characters/intel/expressions.png",
+              "label": "Intel expression sheet"
+            },
+            {
+              "path": "characters/amd/character_sheet.png",
+              "label": "AMD model sheet"
+            },
+            {
+              "path": "characters/amd/expressions.png",
+              "label": "AMD expression sheet"
+            },
+            {
+              "path": "characters/nvidia/character_sheet.png",
+              "label": "Nvidia model sheet"
+            },
+            {
+              "path": "characters/nvidia/expressions.png",
+              "label": "Nvidia expression sheet"
+            },
+            {
+              "path": "chapters/pilot-003/pages/page-002/art/beach-volleyball.jpg",
+              "label": "Beach Day swimsuit reference"
+            }
+          ],
+          "thumbnail": "beach-volleyball/seedream.webp"
+        },
+        {
+          "id": "beach-day",
+          "model": "chatgpt",
+          "label": "Beach Day concept",
+          "image": "beach-volleyball/beach-day-concept.jpg",
+          "width": 1712,
+          "height": 1152,
+          "alt": "Intel, AMD and Nvidia in the original beach volleyball concept illustration.",
+          "references": [],
+          "thumbnail": "beach-volleyball/beach-day-concept.webp"
+        },
+        {
+          "id": "muse",
+          "model": "muse",
+          "label": "AMD at the net",
+          "image": "beach-volleyball/muse.webp",
+          "width": 498,
+          "height": 374,
+          "alt": "AMD jumps to hit the volleyball while Intel and Nvidia crouch on the sand.",
+          "references": [],
+          "thumbnail": "beach-volleyball/muse-preview.webp"
+        },
+        {
+          "id": "grok",
+          "model": "grok",
+          "label": "Nvidia at the net",
+          "image": "beach-volleyball/grok.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "Nvidia jumps toward the volleyball while Intel and AMD brace to receive it.",
+          "references": [],
+          "thumbnail": "beach-volleyball/grok.webp"
+        }
+      ]
+    }
+  ]
+}
