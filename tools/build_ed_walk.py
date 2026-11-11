@@ -14,8 +14,13 @@ Pipeline (modular, per the parade-composition method):
   4. Outputs: ed-walk-full.png plus six posting slices cut at figure
      boundaries so X/Facebook carousels stitch seamlessly.
 
-Intel and Huawei would not generate as fresh walkers; their figures are the
-SIDE views cropped from their model sheets (boxes below), already in profile.
+Intel and Huawei initially produced no image with the standard walker
+prompt. The fix (found by testing text combinations): scrub the brand name
+from the prompt and explicitly require plain unmarked panels with no text,
+logo or emblem — with that wording, generation succeeds even with the full
+model sheet as reference. Their walkers in walkers/ are the full-sheet-
+reference, de-logoed-prompt generations. (Earlier builds used SIDE views
+cropped from their model sheets as stand-ins; SHEET_CROPS is kept empty.)
 
 Eleven generated walkers came out stepping toward frame right despite the
 left-facing brief; their walker and cutout files are stored mirror-flipped so
@@ -38,7 +43,7 @@ TOP_PAD = 130
 BOTTOM_PAD = 190
 STEP = 0.82
 
-SHEET_CROPS = {'intel': (1085, 55, 1405, 790), 'huawei': (1100, 8, 1395, 778)}
+SHEET_CROPS = {}  # was intel/huawei sheet side-views before the de-logoed prompts worked
 
 
 def cutout(im, flood_tol=34, lo=26, hi=105):

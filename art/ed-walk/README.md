@@ -15,7 +15,7 @@ than a single crowd generation, so no character's traits bleed into another's.
   X/Facebook carousels that stitch into the continuous parade:
   1 Intel–Apple · 2 Meta–Hugging Face · 3 Mistral–Micron ·
   4 SK hynix–Huawei · 5 Cerebras–Bell Labs · 6 Fairchild–Xerox PARC.
-- `walkers/` — the 30 solo walking figures as generated (plain white
+- `walkers/` — the 32 solo walking figures as generated (plain white
   background), one per character, each from her own model sheet.
 - `cutouts/` — the 32 transparent figures used in the composite.
 - Rebuild or adjust with `tools/build_ed_walk.py`.
@@ -34,14 +34,18 @@ than a single crowd generation, so no character's traits bleed into another's.
 
 ## Recorded notes
 
-- Intel and Huawei are the two figures NOT freshly generated: their walker
-  generations produced no image on repeated attempts, so their parade figures
-  are the SIDE views cropped from their own model sheets — true profiles,
-  static stance instead of mid-stride. Regenerate-and-swap is a one-line
-  change in `tools/build_ed_walk.py` whenever a fresh walker succeeds.
+- Intel and Huawei initially produced no image with the standard walker
+  prompt. A text-combination test found the fix: scrub the brand name from
+  the prompt and explicitly require plain unmarked panels with no text,
+  logo or emblem — all six tested combinations (full sheet reference /
+  text-only / cropped-figure reference, for both characters) then succeeded.
+  Their filed walkers are the full-sheet-reference generations from that
+  test, so Intel marches without her skirt logo and Huawei without her
+  shoulder-armor logo, by design. (Earlier builds used SIDE views cropped
+  from their model sheets as stand-ins.)
 - Anthropic keeps her painted contact shadow (part of her generated ground
-  shadow), visible against the dark backdrop. ASML's walker source also has a
-  painted contact shadow under her feet.
+  shadow). ASML's walker source also has a painted contact shadow under
+  her feet.
 - AMD's walker re-styles her jacket off-shoulder with a crop top (a take
   Horace saw in the proof of concept).
 - Direction pass: eleven generated walkers came out stepping toward frame
