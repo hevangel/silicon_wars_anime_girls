@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "episode": "pilot-001",
+  "label": "Flash-style symbol swapping",
+  "technique": "limited_cutout_flash",
+  "visual": {
+    "art_style": "default_manga",
+    "source_character_continuity": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "format": "browser_preview",
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "timebase": "integer_half_open_frames"
+  },
+  "review_status": "draft_human_review_required",
+  "method": "mouth symbol A–F, blink holds and arm rotations",
+  "source_requirements": "layered source art, overpainted occlusion, recorded dialogue, frame timings",
+  "blocked_by": "No approved separated face/arms or licensed dialogue WAV; this is an original editable vector *rig schematic*.",
+  "source_media": {
+    "images": [
+      "characters/intel/reference_card.jpg",
+      "characters/amd/reference_card.jpg"
+    ],
+    "performance_video": null,
+    "dialogue_wav": null
+  },
+  "shots": [
+    {
+      "id": "beat-01",
+      "duration_frames": 96,
+      "description": "Intel declares compatibility",
+      "controls": [
+        "mouth_symbol",
+        "blink",
+        "pivot",
+        "arm_angle",
+        "pose_hold"
+      ],
+      "model_output": null
+    },
+    {
+      "id": "beat-02",
+      "duration_frames": 96,
+      "description": "AMD rebuts with a hand gesture",
+      "controls": [
+        "mouth_symbol",
+        "blink",
+        "pivot",
+        "arm_angle",
+        "pose_hold"
+      ],
+      "model_output": null
+    },
+    {
+      "id": "beat-03",
+      "duration_frames": 96,
+      "description": "Intel reacts with a held skeptical pose",
+      "controls": [
+        "mouth_symbol",
+        "blink",
+        "pivot",
+        "arm_angle",
+        "pose_hold"
+      ],
+      "model_output": null
+    }
+  ]
+}
