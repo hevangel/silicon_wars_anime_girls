@@ -1,0 +1,8 @@
+id: pilot-001-ai_video_generation
+visual: {art_style: default_manga}
+animation: {technique: ai_video_generation}
+delivery: {format: browser_blocking_preview, fps: 24, resolution: [1920, 1080]}
+source: chapters/pilot-001/video/ai_video_generation/scene.json
+entrypoint: chapters/pilot-001/video/ai_video_generation/preview.html
+art: chapters/pilot-001/video/ai_video_generation/reference-board.svg
+status: exploratory
