@@ -1,0 +1,10 @@
+id: skeletal_2d
+classification: animation_technique
+status: proof_of_concept_not_approved
+description: "Joint pivots and reusable point, idle and facepalm gestures"
+compatible_art_styles: [default_manga, chibi, cel_shaded_3d]
+required_inputs: [separated_body/arm/hair_layers_with_hidden_paint, Godot_2D_rig]
+controls: [shoulder_angle, elbow_angle, pose, pivot_location, layer_order]
+outputs: [browser_preview, editable_scene_json, original_review_board_svg]
+identity_contract: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+qa: {visual_human_review: mandatory, source_media_rights: mandatory, export_validation: pending}
