@@ -1,0 +1,7 @@
+id: pilot-001-vrm_vtuber
+art_style: default_manga
+technique: vrm_vtuber
+delivery: browser_controls_only
+entrypoint: chapters/pilot-001/video/vrm_vtuber/preview.html
+source: chapters/pilot-001/video/vrm_vtuber/scene.json
+requirements: [modern_browser, python3_http_server]
