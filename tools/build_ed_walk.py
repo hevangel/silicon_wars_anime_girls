@@ -17,6 +17,10 @@ Pipeline (modular, per the parade-composition method):
 Intel and Huawei would not generate as fresh walkers; their figures are the
 SIDE views cropped from their model sheets (boxes below), already in profile.
 
+Eleven generated walkers came out stepping toward frame right despite the
+left-facing brief; their walker and cutout files are stored mirror-flipped so
+the whole parade strides left (see FLIPPED in art/ed-walk/README.md).
+
 Usage: python3 tools/build_ed_walk.py [--cutouts-only | --composite-only]
 """
 import json, sys
@@ -28,7 +32,7 @@ from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[1]
 ART = ROOT / 'art' / 'ed-walk'
-BACKGROUND = (18, 20, 28, 255)
+BACKGROUND = (255, 255, 255, 255)
 BASE_HEIGHT = 1500
 TOP_PAD = 130
 BOTTOM_PAD = 190
@@ -121,6 +125,8 @@ def build_cutouts():
 
 
 def scale_for(slug, age):
+    if slug in ('arm', 'qualcomm', 'marvell'):
+        return 0.94  # 19-20-year-old young adults: just under full adult height
     if '9' in age or '10' in age:
         return 0.68
     if '12' in age or '13' in age:
@@ -150,7 +156,7 @@ def build_composite():
     height = TOP_PAD + BASE_HEIGHT + BOTTOM_PAD
     ground = TOP_PAD + BASE_HEIGHT
     canvas = Image.new('RGBA', (width, height), BACKGROUND)
-    ImageDraw.Draw(canvas).line([(0, ground), (width, ground)], fill=(90, 96, 110, 255), width=5)
+    ImageDraw.Draw(canvas).line([(0, ground), (width, ground)], fill=(176, 182, 192, 255), width=5)
     for (_, im, _, h), fx in reversed(list(zip(figures, xs))):
         canvas.alpha_composite(im, (fx, ground - h))
     canvas.convert('RGB').save(ART / 'ed-walk-full.png')

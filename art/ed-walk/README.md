@@ -2,8 +2,9 @@
 
 A processional frieze (パレード構図) of all 32 Silicon Wars characters marching
 right-to-left — the forward direction in Japanese visual grammar — on one flat
-ground plane, built with the modular compositing pipeline rather than a single
-crowd generation, so no character's traits bleed into another's.
+ground plane over a plain white background (the figures' own source field, so
+the cutouts sit naturally), built with the modular compositing pipeline rather
+than a single crowd generation, so no character's traits bleed into another's.
 
 ![The ED Walk](ed-walk-full.png)
 
@@ -25,7 +26,9 @@ crowd generation, so no character's traits bleed into another's.
   Grandmother Generation brings up the rear; Bell Labs rolls in her wheelchair.
 - Heights (the frieze doubles as a height chart): adults 1.00, Nvidia 1.06 as
   the cast's strongest presence, the 9–10-year-old Academy kids 0.68, the
-  12–13-year-olds 0.76, the grandmothers 0.96, Bell Labs 0.80 seated.
+  12–13-year-olds 0.76, Arm/Qualcomm/Marvell 0.94 as 19–20-year-old young
+  adults (an earlier build misread their age strings as '1'-leading and shrank
+  them to kid size), the grandmothers 0.96, Bell Labs 0.80 seated.
 - Figures overlap slightly, painted rear-of-march first so the front of the
   march layers on top.
 
@@ -41,6 +44,14 @@ crowd generation, so no character's traits bleed into another's.
   painted contact shadow under her feet.
 - AMD's walker re-styles her jacket off-shoulder with a crop top (a take
   Horace saw in the proof of concept).
-- The backdrop is a flat dark ED-style field with a single ground line.
+- Direction pass: eleven generated walkers came out stepping toward frame
+  right despite the left-facing brief — Samsung, Oracle, Xerox PARC, OpenAI,
+  Anthropic, Meta, Google, Apple, Mistral, DeepSeek, Sun Microsystems. Their
+  walker and cutout files are stored mirror-flipped so the whole parade
+  strides left; on those eleven, small printed logos and text render reversed
+  (Google's G, Anthropic's CLASS MONITOR armband, Samsung's sash patch,
+  Oracle's name tag, Xerox's badge, Sun's Java mug).
+- The backdrop is a plain white field with a single ground line (switched
+  from the first build's dark ED field at review).
 
 Status: review draft, human approval pending.
