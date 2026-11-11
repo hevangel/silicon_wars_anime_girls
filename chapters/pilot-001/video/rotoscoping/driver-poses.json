@@ -1,0 +1,56 @@
+{
+  "source": "procedural_actor_stand_in_NOT_footage",
+  "rights": "own_original_software_demo",
+  "timebase": "frames_24fps",
+  "keyposes": [
+    {
+      "t": 0,
+      "head": [
+        0,
+        0
+      ],
+      "arm": 20
+    },
+    {
+      "t": 12,
+      "head": [
+        16,
+        2
+      ],
+      "arm": 45
+    },
+    {
+      "t": 24,
+      "head": [
+        33,
+        7
+      ],
+      "arm": 85
+    },
+    {
+      "t": 36,
+      "head": [
+        48,
+        9
+      ],
+      "arm": 110
+    },
+    {
+      "t": 48,
+      "head": [
+        60,
+        10
+      ],
+      "arm": 82
+    },
+    {
+      "t": 60,
+      "head": [
+        67,
+        10
+      ],
+      "arm": 35
+    }
+  ],
+  "consent_required_for_real_footage": true
+}
