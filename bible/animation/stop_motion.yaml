@@ -1,0 +1,7 @@
+id: stop_motion
+classification: animation_technique
+status: implementation_draft
+objective: "Eight original SVG pose frames and printable paper parts, with deliberate 8fps cadence"
+visual_style_independent: true
+identity_source: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+qa: {human_visual_approval: pending, production_release: not_yet}
