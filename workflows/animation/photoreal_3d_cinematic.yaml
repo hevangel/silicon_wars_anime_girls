@@ -1,0 +1,8 @@
+id: pilot-001-photoreal_3d_cinematic
+visual: {art_style: default_manga}
+animation: {technique: photoreal_3d_cinematic}
+delivery: {format: browser_blocking_preview, fps: 24, resolution: [1920, 1080]}
+source: chapters/pilot-001/video/photoreal_3d_cinematic/scene.json
+entrypoint: chapters/pilot-001/video/photoreal_3d_cinematic/preview.html
+art: chapters/pilot-001/video/photoreal_3d_cinematic/reference-board.svg
+status: exploratory

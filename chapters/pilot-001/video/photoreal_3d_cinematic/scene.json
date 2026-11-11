@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "issue": 78,
+  "technique": "photoreal_3d_cinematic",
+  "visual": {
+    "art_style": "live_action_cinematic",
+    "source_character_continuity": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "format": "browser_blocking_preview"
+  },
+  "status": "draft_not_approved",
+  "shots": [
+    {
+      "id": "shot-1",
+      "duration_frames": 120,
+      "description": "Intel in neutral studio light"
+    },
+    {
+      "id": "shot-2",
+      "duration_frames": 120,
+      "description": "Intel passes into dramatic light"
+    },
+    {
+      "id": "shot-3",
+      "duration_frames": 120,
+      "description": "Intel turns toward briefing slide"
+    }
+  ],
+  "source_media": {
+    "approved_meshes": null,
+    "approved_wav": null
+  },
+  "tool_specific_output": null,
+  "limitations": "No photoreal actor, high-fidelity face materials or rig, wardrobe simulation or finished cinematic render; this is camera/lighting blocking."
+}
