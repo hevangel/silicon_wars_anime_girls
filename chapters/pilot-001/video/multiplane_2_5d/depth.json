@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "projection": "orthographic",
+  "camera_range": [
+    -100,
+    100
+  ],
+  "plates": [
+    {
+      "id": "far",
+      "file": "planes/far.svg",
+      "depth": 0.22
+    },
+    {
+      "id": "mid",
+      "file": "planes/mid.svg",
+      "depth": 0.58
+    },
+    {
+      "id": "near",
+      "file": "planes/near.svg",
+      "depth": 1
+    }
+  ],
+  "source": "original_vector_proxy_not_pilot_pngs",
+  "missing_paint": "not_applicable_no_occlusions_in_vector_proxy"
+}
