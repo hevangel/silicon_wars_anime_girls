@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "source_type": "synthetic_original_nonrecorded",
+  "timebase": "frames_24fps",
+  "keyposes": [
+    {
+      "frame": 0,
+      "yaw": 0,
+      "arm_pitch": 0,
+      "mouth_open": 0
+    },
+    {
+      "frame": 24,
+      "yaw": 9,
+      "arm_pitch": 12,
+      "mouth_open": 0.6
+    },
+    {
+      "frame": 48,
+      "yaw": 18,
+      "arm_pitch": 45,
+      "mouth_open": 0.8
+    },
+    {
+      "frame": 72,
+      "yaw": 12,
+      "arm_pitch": 62,
+      "mouth_open": 0.5
+    },
+    {
+      "frame": 96,
+      "yaw": 0,
+      "arm_pitch": 10,
+      "mouth_open": 0
+    }
+  ],
+  "approved_real_actor_footage": false
+}

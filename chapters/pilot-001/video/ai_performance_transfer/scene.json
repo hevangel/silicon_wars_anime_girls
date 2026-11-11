@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "issue": 80,
+  "technique": "ai_performance_transfer",
+  "visual": {
+    "art_style": "default_manga",
+    "source_refs": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "format": "browser_preview"
+  },
+  "review_status": "human_approval_pending",
+  "shots": [
+    {
+      "id": "intro",
+      "duration_frames": 120,
+      "description": "Consent-gated driver pose to AMD"
+    },
+    {
+      "id": "action",
+      "duration_frames": 120,
+      "description": "Technique-specific demonstration"
+    },
+    {
+      "id": "review",
+      "duration_frames": 120,
+      "description": "Frame comparison and QA"
+    }
+  ],
+  "limitations": "No rights-cleared actor recording or inference provider result; demonstration uses procedurally authored driver motions.",
+  "source_audio": null,
+  "approved_output": null
+}
