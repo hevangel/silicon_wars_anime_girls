@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "episode": "pilot-001",
+  "issue": 71,
+  "technique": "live2d_vtuber",
+  "visual": {
+    "art_style": "default_manga",
+    "character": "amd"
+  },
+  "delivery": {
+    "format": "browser_preview",
+    "fps": 30
+  },
+  "review_status": "draft_human_review_required",
+  "params": [
+    {
+      "id": "ParamAngleX",
+      "min": -30,
+      "max": 30,
+      "value": 0
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "min": 0,
+      "max": 1,
+      "value": 0
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "min": 0,
+      "max": 1,
+      "value": 0
+    }
+  ],
+  "states": [
+    {
+      "id": "neutral",
+      "label": "Neutral idle",
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "speaking",
+      "label": "Speech & jaw change",
+      "values": [
+        8,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "reaction",
+      "label": "Blink and turn",
+      "values": [
+        -18,
+        1,
+        0.25
+      ]
+    }
+  ],
+  "capture_source": null,
+  "model_export": null,
+  "blocking_requirement": ".cmo3/.moc3 model from layered PSD, VTube Studio tracking and OBS live test"
+}
