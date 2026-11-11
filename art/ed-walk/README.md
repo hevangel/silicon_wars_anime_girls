@@ -37,7 +37,8 @@ crowd generation, so no character's traits bleed into another's.
   static stance instead of mid-stride. Regenerate-and-swap is a one-line
   change in `tools/build_ed_walk.py` whenever a fresh walker succeeds.
 - Anthropic keeps her painted contact shadow (part of her generated ground
-  shadow), visible against the dark backdrop.
+  shadow), visible against the dark backdrop. ASML's walker source also has a
+  painted contact shadow under her feet.
 - AMD's walker re-styles her jacket off-shoulder with a crop top (a take
   Horace saw in the proof of concept).
 - The backdrop is a flat dark ED-style field with a single ground line.
