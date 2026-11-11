@@ -1,0 +1,7 @@
+id: digital_human_vtuber
+classification: animation_technique
+status: mapping_prototype
+required: "rights-cleared original fictional digital-human mesh, FACS rig, facial capture and OBS"
+controls: [HeadYaw, EyeBlink, JawOpen]
+identity_source: characters/intel/continuity.yaml
+qa: {human_approved: false, real_rig_present: false}
