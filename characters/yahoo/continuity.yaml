@@ -1,0 +1,13 @@
+id: yahoo
+title: "The Purple Portal Princess"
+season: 2
+status: planning_unapproved
+historical_company: "Yahoo"
+age_portrayal: "Adult young web-era star"
+identity: "Large portal ring fan, twin curled purple ponytail, bright layered cafe streetwear"
+default_style: default_manga
+supported_styles: [default_manga]
+art_status: not_generated
+visual_assets: {}
+history_source: "https://www.sec.gov/Archives/edgar/data/1011006/000091205702010181/a2073074z10-k.htm"
+season_bible: bible/season-2.md
