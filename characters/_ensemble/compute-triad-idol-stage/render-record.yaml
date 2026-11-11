@@ -14,7 +14,7 @@ shot:
   title: "Compute Triad · Idol Stage"
   branch: art/compute-triad-idol-stage
   created: 2026-11-10
-  status: failed_not_delivered
+  status: blocked_tool_unavailable
   characters: [intel, amd, nvidia]
   tier: "Tier 1 · Compute Triad"
 
@@ -71,6 +71,23 @@ attempts:
     result: generate_video_happy_horse_outcome_unknown
     file_written: false
     note: User-authorized retry at reduced size. Choreography tightened to one continuous move.
+  - at: 2026-11-10
+    tool: generate_video_happy_horse
+    settings: {duration: 5, ratio: "16:9", resolution: 720P, images: 3}
+    refs: cropped front-view figures
+    result: generate_video_happy_horse_outcome_unknown
+    file_written: false
+    note: >-
+      User-requested regeneration using the cleaned single-figure references.
+      Same failure signature as the two sheet-based attempts, so the fault is the
+      video tool itself and not the reference set or the resolution.
+    prompt_delta: >-
+      Same text as `prompt` above, with the opening line replaced by: "Each of the
+      three supplied reference images shows one full-body character; use them ONLY
+      as identity references for face, hair, costume and colours."
+    conclusion: >-
+      Three attempts, two reference sets, two resolutions, one error. Treat video
+      generation as unavailable until the tool is confirmed working again.
 
 choreography:
   beat_structure: >-
@@ -115,7 +132,33 @@ prompt: |
 
   Constraints: exactly three performers, nobody else on stage; no on-screen text, captions or added logos beyond the costumes; no costume, hairstyle or hair-color changes; faces consistent and on-model; correct anatomy and hands.
 
+still:
+  status: accepted
+  path: characters/_ensemble/compute-triad-idol-stage/key-art.jpg
+  size: 2848x1600
+  tool: generate_image_seedream
+  inputs: text prompt only, no image reference
+  why_no_reference: >-
+    The image tool accepts a single reference image. Anchoring on one character's
+    crop risked copying her face across all three, so all three designs were
+    specified in text from the model sheets instead.
+  review:
+    holds:
+      - Intel light-blue wavy hair, sapphire crown, royal-blue coat, gold epaulettes, white gloves, Intel Inside hem badge
+      - AMD red braided ponytail with gold rings, headphones at neck, crimson-and-black cropped jacket, cargo trousers, chunky boots
+      - Nvidia emerald braid, goggles pushed up, black leather with green circuit seams, wide belt
+      - three distinct faces, correct hand count, no text or watermark
+    deviations:
+      - Intel's coat reads as a shortened stage dress with bare thighs, not the floor-sweeping coat of the sheet
+      - Nvidia is slimmer than her broad-shouldered sheet build and her jacket-dress is shorter
+      - Intel carries an extra gold aiguillette not present on the sheet
+    verdict: >-
+      Accepted as idol-stage key art. The costume deviations suit the stage premise,
+      but they are continuity breaks against the model sheets, so a corrected pass
+      would be needed before this frame is treated as canon.
+
 next_step:
-  - Re-run the prompt above with the three model sheets in the image slots, 16:9.
+  - Re-run the video prompt with the three cropped refs once the video tool is confirmed working.
   - A 10s cut needs the longer three-beat version: arc, per-performer push-ins, crane pull-back.
   - Accept only if all three silhouettes read at thumbnail size and no hair color drifts.
+  - If this still is promoted to canon, lengthen Intel's coat and widen Nvidia's build first.
