@@ -1,0 +1,7 @@
+id: traditional_frame_by_frame
+classification: animation_technique
+status: prototype_pending_human_review
+purpose: "Authored key drawings and exposure sheet"
+requires: [authored_key_art, approved_identity, source_rights]
+outputs: [editable_scene_json, browser_preview, original_svg_art]
+qa: {visual_approval: pending, external_pipeline_validated: false}
