@@ -129,13 +129,20 @@ def build_cutouts():
         print('cutout', slug, '(sheet side view)', result.size)
 
 
+# Height ladder is explicit per character: roster.json carries no heights and
+# only coarse age labels, and substring-matching those labels misfired before.
+ELEMENTARY = ('anthropic', 'openai', 'xai', 'mistral-ai', 'deepseek')  # AI Lab kids
+OLDER_CHILD = ('huggingface', 'cerebras')  # middle-schoolers
+YOUNG_ADULT = ('arm', 'qualcomm', 'marvell')  # 19-20
+
+
 def scale_for(slug, age):
-    if slug in ('arm', 'qualcomm', 'marvell'):
-        return 0.94  # 19-20-year-old young adults: just under full adult height
-    if '9' in age or '10' in age:
-        return 0.68
-    if '12' in age or '13' in age:
-        return 0.76
+    if slug in ELEMENTARY:
+        return 0.55
+    if slug in OLDER_CHILD:
+        return 0.66
+    if slug in YOUNG_ADULT:
+        return 0.94
     if slug == 'nvidia':
         return 1.06
     if slug == 'bell-labs':

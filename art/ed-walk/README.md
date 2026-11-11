@@ -24,11 +24,16 @@ than a single crowd generation, so no character's traits bleed into another's.
 
 - Order: roster order, grouped by faction — Silicon Kingdoms lead, the
   Grandmother Generation brings up the rear; Bell Labs rolls in her wheelchair.
-- Heights (the frieze doubles as a height chart): adults 1.00, Nvidia 1.06 as
-  the cast's strongest presence, the 9–10-year-old Academy kids 0.68, the
-  12–13-year-olds 0.76, Arm/Qualcomm/Marvell 0.94 as 19–20-year-old young
-  adults (an earlier build misread their age strings as '1'-leading and shrank
-  them to kid size), the grandmothers 0.96, Bell Labs 0.80 seated.
+- Heights (the frieze doubles as a height chart; the portfolio itself has
+  no height data — roster.json carries only coarse age labels — so the
+  ladder is set explicitly per character in tools/build_ed_walk.py):
+  adults 1.00, Nvidia 1.06 as the cast's strongest presence, the AI Lab
+  elementary kids (Anthropic, OpenAI, xAI, Mistral, DeepSeek) 0.55, the
+  middle-schoolers (Hugging Face, Cerebras) 0.66, Arm/Qualcomm/Marvell
+  0.94 as 19–20-year-old young adults, the grandmothers 0.96, Bell Labs
+  0.80 seated. (The first build's kids at 0.68 read too big at review,
+  and an age-string substring bug had shrunk the young adults to kid
+  size; both are fixed.)
 - Figures overlap slightly, painted rear-of-march first so the front of the
   march layers on top.
 
