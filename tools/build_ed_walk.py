@@ -8,9 +8,9 @@ Pipeline (modular, per the parade-composition method):
      distance-based alpha. Interior background-colored regions (white coats,
      pale hair) are not connected to the border and stay opaque.
   3. Composite: roster order left to right (the march heads left), one flat
-     ground plane, slight overlap painted rear-first, heights scaled by age
-     class from characters/roster.json (adults 1.00, Nvidia 1.06, kids 0.68,
-     tweens 0.76, grandmothers 0.96, Bell Labs seated 0.80).
+     ground plane, slight overlap painted rear-first, heights scaled by
+     height_cm from characters/roster.json (scale = height_cm / 168;
+     Bell Labs seated gets an extra 0.87 factor on her standing height).
   4. Outputs: ed-walk-full.png plus six posting slices cut at figure
      boundaries so X/Facebook carousels stitch seamlessly.
 
@@ -129,27 +129,18 @@ def build_cutouts():
         print('cutout', slug, '(sheet side view)', result.size)
 
 
-# Height ladder is explicit per character: roster.json carries no heights and
-# only coarse age labels, and substring-matching those labels misfired before.
-ELEMENTARY = ('anthropic', 'openai', 'xai', 'mistral-ai', 'deepseek')  # AI Lab kids
-OLDER_CHILD = ('huggingface', 'cerebras')  # middle-schoolers
-YOUNG_ADULT = ('arm', 'qualcomm', 'marvell')  # 19-20
+# Parade heights come from roster.json's height_cm (added 2026-11-11):
+# scale = height_cm / REFERENCE_CM, so editing a roster height rescales
+# the character here automatically. Bell Labs' height_cm is her
+# standing-equivalent height; seated in her wheelchair her figure's
+# bounding box sits lower, hence the extra factor.
+REFERENCE_CM = 168
+SEATED_FACTOR = {'bell-labs': 0.87}
 
 
-def scale_for(slug, age):
-    if slug in ELEMENTARY:
-        return 0.55
-    if slug in OLDER_CHILD:
-        return 0.66
-    if slug in YOUNG_ADULT:
-        return 0.94
-    if slug == 'nvidia':
-        return 1.06
-    if slug == 'bell-labs':
-        return 0.80
-    if 'senior' in age or 'elder' in age:
-        return 0.96
-    return 1.00
+def scale_for(entry):
+    slug = entry['slug']
+    return entry['height_cm'] / REFERENCE_CM * SEATED_FACTOR.get(slug, 1.0)
 
 
 def build_composite():
@@ -159,7 +150,7 @@ def build_composite():
     for entry in roster:
         slug = entry['slug']
         im = Image.open(ART / 'cutouts' / f'{slug}.png')
-        h = int(BASE_HEIGHT * scale_for(slug, entry.get('age', 'adult')))
+        h = int(BASE_HEIGHT * scale_for(entry))
         w = int(im.width * h / im.height)
         figures.append((slug, im.resize((w, h)), w, h))
         xs.append(x)
