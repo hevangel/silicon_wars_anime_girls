@@ -1,0 +1,10 @@
+id: audio_viseme_lipsync
+classification: animation_technique
+status: proof_of_concept_not_approved
+description: "Frame-indexed A–F viseme cues and editable corrections"
+compatible_art_styles: [default_manga, chibi, cel_shaded_3d]
+required_inputs: [isolated_speech_WAV, transcript, Rhubarb_JSON, approved_mouth_drawing_set]
+controls: [cue_start, cue_end, viseme, manual_override, rounding]
+outputs: [browser_preview, editable_scene_json, original_review_board_svg]
+identity_contract: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+qa: {visual_human_review: mandatory, source_media_rights: mandatory, export_validation: pending}
