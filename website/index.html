@@ -6,7 +6,7 @@
   <meta name="theme-color" content="">
   <meta name="description" content="">
   <title>Silicon Wars</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=divider-menus">
 </head>
 <body>
   <header class="masthead">
@@ -35,7 +35,12 @@
     </nav>
     </div>
     <nav id="site-menu" class="site-menu" data-aria-label="navigation.menuLabel" hidden></nav>
-    <span class="edition" data-text="brand.edition"></span>
+    <details class="season-menu">
+      <summary class="edition" id="season-toggle"><span data-text="brand.edition"></span></summary>
+      <nav class="site-menu season-links" aria-labelledby="season-toggle">
+        <a id="season-comics" href="comics/" data-text="navigation.comicsLabel"></a>
+      </nav>
+    </details>
   </header>
   <main>
     <div id="gallery-view">
@@ -151,6 +156,6 @@
 
   <footer data-text="footer"></footer>
 
-  <script src="app.js"></script>
+  <script src="app.js?v=season-menu"></script>
 </body>
 </html>

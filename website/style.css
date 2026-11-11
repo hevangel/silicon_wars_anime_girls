@@ -407,7 +407,37 @@ h1 {
 .site-menu a:hover, .site-menu a:focus-visible, .site-menu a[aria-current] { background: #183246; color: #a8eeff; }
 .logo-home { display: block; color: inherit; text-decoration: none; }
 body:not([data-view="home"]) main { padding: 1.25rem 0 2.5rem; }
-body:not([data-view="home"]) .edition { display: none; }
+body:not([data-view="home"]) .season-menu { display: none; }
+.season-menu { flex: none; }
+.season-menu summary {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  min-height: 2.5rem;
+  padding: .45rem .8rem;
+  border: 1px solid #385266;
+  border-radius: .4rem;
+  background: #0d1a28;
+  color: #e7f2ff;
+  font-weight: 700;
+  list-style: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.season-menu summary::-webkit-details-marker { display: none; }
+.season-menu summary::after {
+  flex: none;
+  width: .42rem;
+  height: .42rem;
+  border: solid var(--cyan);
+  border-width: 0 2px 2px 0;
+  transform: translateY(-.12rem) rotate(45deg);
+  content: "";
+}
+.season-menu[open] summary::after { transform: translateY(.12rem) rotate(225deg); }
+.season-menu summary:hover, .season-menu[open] summary { border-color: var(--cyan); color: var(--cyan); }
+.season-menu summary:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
+.season-links { left: auto; right: 0; width: min(10rem, 100%); }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
 .gallery-toolbar { width: min(100% - 3rem, 88rem); margin: 0 auto 1.2rem; display: flex; align-items: center; flex-wrap: wrap; gap: .8rem 1.5rem; }
 .gallery-toolbar h2 { margin: 0; font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; }
@@ -618,7 +648,7 @@ footer {
   .masthead { width: calc(100% - 2rem); padding-top: 1.3rem; }
   .masthead { gap: .75rem; }
   .brand { font-size: .78rem; }
-  .edition { flex: 0 1 45%; font-size: .6rem; text-align: right; }
+  .season-menu summary { gap: .45rem; padding-inline: .6rem; font-size: .65rem; }
   .intro, footer { width: calc(100% - 2rem); }
   .character-profile, .asset-archive { width: calc(100% - 2rem); }
   .intro { margin-bottom: 1.8rem; }
