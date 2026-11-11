@@ -10,7 +10,7 @@ than a single crowd generation, so no character's traits bleed into another's.
 
 ## Files
 
-- `ed-walk-full.png` — the full panorama (about 20096x1820).
+- `ed-walk-full.png` — the full panorama (19378x1820).
 - `ed-walk-slice-1..6.png` — seamless segments cut at figure boundaries, for
   X/Facebook carousels that stitch into the continuous parade:
   1 Intel–Apple · 2 Meta–Hugging Face · 3 Mistral–Micron ·
@@ -38,6 +38,17 @@ than a single crowd generation, so no character's traits bleed into another's.
 
 ## Recorded notes
 
+- V2 regeneration (2026-11-11): all 32 walkers were regenerated with
+  scale and direction in the prompt itself — each prompt states her
+  canonical height_cm and her proportions in heads (elementary kids
+  about 4.5 heads with true child proportions, Arm petite at 5.5,
+  adults 6.5–7), and requires a STRICT side profile facing left (face
+  in profile, both feet pointing left, no three-quarter view, no
+  looking back at the viewer). A zoom audit of the v2 cutouts finds
+  all 32 striding or rolling left in true profile, and every printed
+  logo and text reads correctly — no mirror flips anywhere in v2.
+  (Microsoft's batch attempt returned no image; a fresh attempt
+  succeeded.) The v1 notes below are kept as build history.
 - Intel and Huawei initially produced no image with the standard walker
   prompt. A text-combination test found the fix: scrub the brand name from
   the prompt and explicitly require plain unmarked panels with no text,
@@ -47,18 +58,13 @@ than a single crowd generation, so no character's traits bleed into another's.
   test, so Intel marches without her skirt logo and Huawei without her
   shoulder-armor logo, by design. (Earlier builds used SIDE views cropped
   from their model sheets as stand-ins.)
-- Anthropic keeps her painted contact shadow (part of her generated ground
-  shadow). ASML's walker source also has a painted contact shadow under
-  her feet.
-- AMD's walker re-styles her jacket off-shoulder with a crop top (a take
-  Horace saw in the proof of concept).
-- Direction pass: eleven generated walkers came out stepping toward frame
-  right despite the left-facing brief — Samsung, Oracle, Xerox PARC, OpenAI,
-  Anthropic, Meta, Google, Apple, Mistral, DeepSeek, Sun Microsystems. Their
-  walker and cutout files are stored mirror-flipped so the whole parade
-  strides left; on those eleven, small printed logos and text render reversed
-  (Google's G, Anthropic's CLASS MONITOR armband, Samsung's sash patch,
-  Oracle's name tag, Xerox's badge, Sun's Java mug).
+- V1 history: Anthropic and ASML kept painted contact shadows; AMD's
+  walker re-styled her jacket off-shoulder with a crop top (a take
+  Horace saw in the proof of concept); eleven v1 walkers came out
+  stepping toward frame right and were stored mirror-flipped, which
+  reversed their small printed logos. All superseded by the v2
+  regeneration above. (OpenAI's v2 walker keeps a faint painted
+  contact shadow.)
 - The backdrop is a plain white field with a single ground line (switched
   from the first build's dark ED field at review).
 
