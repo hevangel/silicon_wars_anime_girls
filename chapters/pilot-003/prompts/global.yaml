@@ -1,0 +1,5 @@
+visual_language: "One single text-free color manga panel for Silicon Wars: cinematic seinen anime, decisive black ink, expressive line weight, high contrast cel shading, bright sunlit colors. The recurring setting for this chapter is a sunny tropical beach: golden sand, turquoise ocean, blue sky, palm trees at the frame edges. The Compute Triad wears swimsuit variants in their signature colors (from the chapter continuity notes) and plays barefoot; keep each character's hair, face, and signature accessories exactly as her character and expression sheets define them. Use believable hand anatomy, clearly separated silhouettes, and a flat readable composition. Full-bleed art; no panel borders, lettering, numbers, logos, captions, bubbles, or watermarks. References are for character identity and design details only. Output one manga scene, never a collage or a character sheet."
+continuity:
+  intel: characters/intel/continuity.yaml
+  amd: characters/amd/continuity.yaml
+  nvidia: characters/nvidia/continuity.yaml

@@ -1,0 +1,6 @@
+page: page-003
+reading_direction: rtl
+items:
+  - {id: b01, panel: panel-01, kind: speech, text: "Mine.", at: [0.86, 0.52], speaker: nvidia, tail: [0.80, 0.47]}
+  - {id: b02, panel: panel-01, kind: speech, text: "Too slow! This one's mine!", at: [0.72, 0.10], speaker: amd, tail: [0.56, 0.18]}
+  - {id: b03, panel: panel-01, kind: speech, text: "Hmph. A queen receives with dignity.", at: [0.17, 0.11], speaker: intel, tail: [0.19, 0.38]}

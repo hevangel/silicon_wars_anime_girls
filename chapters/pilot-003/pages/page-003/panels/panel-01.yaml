@@ -1,0 +1,15 @@
+id: panel-01
+style_variant: default_manga
+title: Match Point
+camera: Wide three-shot, single panel, landscape 4:3
+characters: [nvidia, amd, intel]
+references: [characters/nvidia/character_sheet.png, characters/amd/character_sheet.png, characters/intel/character_sheet.png]
+dialogue_ids: [b01, b02, b03]
+crop_center: [0.5, 0.52]
+art: chapters/pilot-003/pages/page-003/art/panel-01.png
+direction: "Exactly three adult women playing beach volleyball, one single scene, no face swaps. All three wear swimsuits in their signature colors and are BAREFOOT with no shoes, no sandals, no footwear of any kind, feet in the sand. In the CENTER, AMD from Images 3-4 (fiery red braided high ponytail, amber eyes) leaps high at the net in a red-and-black athletic swimsuit, one arm cocked back to spike the volleyball above the net, energetic cocky grin, her face near x=0.50 y=0.30. On the LEFT, Intel from Images 5-6 (very long light-blue hair, sapphire eyes, small unbranded sapphire crown) in a royal-blue swimsuit with gold accents, knees bent in a ready defensive stance with forearms together to receive the ball, composed but flustered, her face near x=0.20 y=0.42. On the RIGHT, Nvidia from Images 1-2 (thick long emerald-green braid, goggles pushed up in her hair, strong athletic build) in a black swimsuit with glowing green circuit seams, low in a powerful ready stance on the same side as Intel, smug and unbothered, her face near x=0.80 y=0.42. The volleyball hangs in the air just above the net between AMD's hand and the other side. Leave clear bright sky space in the upper left, upper center-right, and upper right for speech balloons. No lettering, no text anywhere."
+framing: "Use a horizontal landscape canvas, 4:3. Keep all three faces, the net, the ball, and all bare feet inside the frame; keep vital details away from the edges."
+notes:
+  - Generated from all six reference sheets (character sheet and expression sheet for each of Nvidia, AMD, Intel, passed in that order) at the user's direction, with the instruction to keep the character design details from the sheets.
+  - The renderer validates only the panel's model-sheet references; the expression sheets were additional generation inputs and are recorded in the manifest.
+  - Swimsuit variants follow the chapter's continuity notes (signature colors, crown, goggles, braid, ponytail) and the renderer cast order is the generation order — Nvidia, AMD, Intel — not the reading order.
