@@ -1,0 +1,7 @@
+id: pilot-001-interactive_visual_novel
+visual: {art_style: default_manga}
+animation: {technique: interactive_visual_novel}
+delivery: {format: interactive_game}
+entrypoint: chapters/pilot-001/video/interactive_visual_novel/preview.html
+source: chapters/pilot-001/video/interactive_visual_novel/story.json
+status: working_initial_prototype
