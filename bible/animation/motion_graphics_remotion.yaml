@@ -1,0 +1,7 @@
+id: motion_graphics_remotion
+classification: animation_technique
+status: prototype
+method: "Typed, frame-accurate 24fps compatibility story"
+identity_source: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+controls: [frame_index, shot_id, actor_pose, camera_state]
+qa: {rights_verified: pending, human_visual_approval: pending, video_export: pending}
