@@ -1,0 +1,31 @@
+style_id: pixel_arcade_sf2
+character_id: intel
+identity_source: characters/intel/continuity.yaml
+approved_base_sheet: characters/intel/character_sheet.png
+status: draft_pending_visual_review
+canvas:
+  width: 96
+  height: 128
+  alternate_width: 128
+  alternate_height: 160
+palette:
+  limit: 32
+  target: 28
+  ramps: {hair: 4, skin: 4, uniform: 5, crown: 4, gold: 4}
+  suggested_swatch_hex: ["#14253B", "#1D4166", "#31609C", "#5D88CB", "#A8C7E4", "#D9F4FF", "#F8F9F1", "#F6DCA1", "#B59A43", "#805529", "#D0AE7B", "#4B5474"]
+  note: "Exploration swatches, not locked production colors."
+outline_px: [1, 2]
+light: upper_left
+baseline_y: 122
+anchor_x: 48
+reference_sheet_views: [front, three_quarter, side, back, face_closeup, attack_stance]
+silhouette_read: "Long light-blue hair and tall sapphire crown; high epaulettes and flared blue-and-cream coat panels."
+signature_pose: "Tall lateral command stance with a raised wafer heirloom in left hand, right palm closed; distinct from AMD lunge."
+layers_optional: [long_hair, crown, coat, left_arm, right_arm, wafer_fx]
+forbidden:
+  - red hair or black tactical jacket
+  - brand text on the crown
+  - hiding skirt-hem emblem in master
+  - anti-aliased edges or soft gradients
+master_asset: null
+human_approved: false
