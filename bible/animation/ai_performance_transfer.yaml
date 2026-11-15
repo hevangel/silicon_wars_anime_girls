@@ -1,0 +1,7 @@
+id: ai_performance_transfer
+classification: animation_technique
+status: prototype
+method: "Consent-gated driver pose to AMD"
+identity_source: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+controls: [frame_index, shot_id, actor_pose, camera_state]
+qa: {rights_verified: pending, human_visual_approval: pending, video_export: pending}
