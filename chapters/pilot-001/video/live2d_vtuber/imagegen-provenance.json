@@ -1,0 +1,18 @@
+{
+  "issue": 71,
+  "generation_id": "3e6042c0-54c6-46ec-b167-b7fcde23a239",
+  "original_png": "silicon_wars_amd_vtuber_rig_board.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "preview_webp": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "af471da53061c371800dddbca076661c185d357fb5f46b0b8541d85d0b65d2da",
+  "status": "concept_thumbnail_only",
+  "native_live2d_cubism_rig": false,
+  "artist_approved": false
+}

@@ -1,0 +1,7 @@
+id: live2d_vtuber
+classification: animation_technique
+status: mapping_prototype
+required: ".cmo3/.moc3 model from layered PSD, VTube Studio tracking and OBS live test"
+controls: [ParamAngleX, ParamEyeLOpen, ParamMouthOpenY]
+identity_source: characters/amd/continuity.yaml
+qa: {human_approved: false, real_rig_present: false}
