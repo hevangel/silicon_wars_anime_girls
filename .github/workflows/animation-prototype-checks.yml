@@ -1,0 +1,64 @@
+name: Animation prototype contracts
+on:
+  pull_request:
+    paths:
+      - 'bible/animation/**'
+      - 'workflows/animation/**'
+      - 'chapters/pilot-001/video/**'
+      - 'tools/test_animation_*.py'
+      - 'tools/ai_video_generation_adapter.py'
+      - 'tools/performance_transfer_demo.py'
+      - '.github/workflows/animation-prototype-checks.yml'
+  push:
+    branches:
+      - 'issue/**'
+    paths:
+      - 'bible/animation/**'
+      - 'workflows/animation/**'
+      - 'chapters/pilot-001/video/**'
+      - 'tools/test_animation_*.py'
+      - '.github/workflows/animation-prototype-checks.yml'
+jobs:
+  offline-contract-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python smoke tests
+        run: |
+          python -m compileall -q tools
+          python -m unittest discover -s tools -p 'test_animation_*.py' -v
+      - name: SVG and JSON source validation
+        run: |
+          python - <<'PY'
+          import json
+          import pathlib
+          import xml.etree.ElementTree as ET
+          root = pathlib.Path("chapters/pilot-001/video")
+          scene_dirs = [p for p in root.iterdir() if (p / "preview.html").is_file()] if root.exists() else []
+          svg_count = 0
+          json_count = 0
+          for directory in scene_dirs:
+              for svg in directory.rglob("*.svg"):
+                  ET.parse(svg)
+                  svg_count += 1
+              for path in directory.rglob("*.json"):
+                  json.loads(path.read_text(encoding="utf-8"))
+                  json_count += 1
+          print(f"Validated {svg_count} SVGs and {json_count} JSON sources across {len(scene_dirs)} preview directories")
+          PY
+      - name: Interactive presenter Node tests (when present)
+        run: |
+          if [ -f chapters/pilot-001/video/interactive_rive_presenter/controller.test.mjs ]; then
+            node --test chapters/pilot-001/video/interactive_rive_presenter/controller.test.mjs
+          fi
+      - name: Model-neutral and synthetic input adapter smoke tests (when present)
+        run: |
+          if [ -f tools/ai_video_generation_adapter.py ]; then
+            python tools/ai_video_generation_adapter.py --prepare
+          fi
+          if [ -f tools/performance_transfer_demo.py ]; then
+            python tools/performance_transfer_demo.py
+          fi

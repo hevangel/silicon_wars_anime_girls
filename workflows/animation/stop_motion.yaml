@@ -1,0 +1,7 @@
+id: pilot-001-stop_motion
+visual: {art_style: chibi}
+animation: {technique: stop_motion}
+delivery: {format: browser_preview}
+entrypoint: chapters/pilot-001/video/stop_motion/preview.html
+source: chapters/pilot-001/video/stop_motion/scene.json
+status: working_initial_prototype
