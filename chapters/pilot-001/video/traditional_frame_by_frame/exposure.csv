@@ -1,0 +1,7 @@
+frame_start,frame_end,key_svg,hold_frames
+0,24,keys/key-01.svg,24
+24,48,keys/key-02.svg,24
+48,72,keys/key-03.svg,24
+72,96,keys/key-04.svg,24
+96,120,keys/key-05.svg,24
+120,144,keys/key-06.svg,24
