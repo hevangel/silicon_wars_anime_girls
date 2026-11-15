@@ -1,0 +1,85 @@
+{
+  "id": "fef3c556-d379-4122-a167-a6c4c8b242bc",
+  "createdAt": "2026-11-15T05:19:58.421Z",
+  "engine": "codex exec",
+  "character": "amd",
+  "size": "1024x1536",
+  "quality": "auto",
+  "scene": {
+    "prompt": "Create one complete character image from the attached references. Use the character reference for identity and visual style, preserving the face, hairstyle, hair color, skin tone and body proportions. Use the pose reference only for gesture, balance and viewpoint, without mannequin lines or joints. Use the costume reference only for outfit, colors, garment shape and materials, without copying the outfit model's face or stance. Make clothing drape naturally with the pose. Keep the character fully clothed, with a simple background and no text, watermark, collage or comparison layout.\r\nReference 1 (pose): Use only the pose and single viewpoint shown in this image. Preserve head direction, shoulder and hip orientation, elbows, wrists, hand gestures, bent legs and occlusion. Do not move the hands behind the back unless shown. Match this image's framing. This is a depth map: brighter areas are closer to the camera. Use only its pose, perspective and occlusion; do not copy the grayscale, dark background or mannequin appearance.\r\nReference 2 (costume): Transfer only the visible garments, footwear and accessories, including design, colors, materials and placement, onto the same person. Do not copy the product arrangement, empty spacing or ghost-mannequin appearance.\r\nReference 3 (character): Preserve only this person's identity, facial features, face shape, hairstyle, hair color, skin tone and visual style. Do not copy this reference's pose, clothing or portrait crop, or add separate portraits or other views.\r\nFinal output: one continuous scene, one person and one selected viewpoint only. No panels, columns, storyboards, character sheets, inset close-ups, additional-angle images or repeated people. Combine all references into that one person.\r\nsnow background"
+  },
+  "identity": {
+    "name": "AMD",
+    "slug": "amd",
+    "faction": "Silicon Kingdoms",
+    "age": "adult",
+    "height_cm": 165,
+    "title": "The Crimson Challenger",
+    "hair": "fire red",
+    "accent": "crimson",
+    "appearance": "Athletic red-haired heroine, high ponytail, amber eyes and irrepressible grin",
+    "clothing": "Off-shoulder crimson-and-black cropped jacket over a black crop top, modular chiplet plating, gold-buckled harness and belts, black cargo trousers, fingerless gloves, black-and-red headphones around her neck, and heavy boots",
+    "personality": "Tenacious, scrappy, witty, determined to be taken seriously",
+    "speech": "Fast sarcastic challenges and friendly taunts toward Intel",
+    "thinking": "Efficiency, modular chiplets and architectural ingenuity beat superior resources",
+    "motivation": "Overtake powerful rivals in CPUs and accelerators",
+    "flaw": "Can overcommit while proving her worth",
+    "rivals": "Intel, Nvidia",
+    "allies": "TSMC and open ecosystems",
+    "ability": "Chiplet Barrage",
+    "quote": "You have ten times my resources? Perfect. It'll make my victory ten times more embarrassing for you."
+  },
+  "lettering": {
+    "mode": "none"
+  },
+  "references": [
+    {
+      "kind": "pose",
+      "itemId": "upper80v2_P006",
+      "variantId": "upper80v2_P006_high",
+      "url": "https://ai-pose-depth-gallery.pages.dev/img/upper80v2_P006_high.png",
+      "depth": true,
+      "file": "B:\\silicon_wars_anime_girls\\pose-costume\\output\\fef3c556-d379-4122-a167-a6c4c8b242bc\\pose-reference.png",
+      "sha256": "d15a822f2b436664caf276f66d3df9cd674c9ff82c9b971569dc357c66b204bb"
+    },
+    {
+      "kind": "costume",
+      "itemId": "WIN-0026",
+      "variantId": "WIN-0026",
+      "url": "http://127.0.0.1:5200/references/costume/originals/WIN-0026.png",
+      "file": "B:\\silicon_wars_anime_girls\\external\\open-pose-costume\\costume\\originals\\WIN-0026.png",
+      "sha256": "096838dd924c659c81853da4783a6b83cb3b9baaf89151d64b26f3ea60078a7a"
+    },
+    {
+      "kind": "character",
+      "itemId": "sw-amd",
+      "variantId": "sw-amd-identity",
+      "url": "http://127.0.0.1:5200/characters/amd/character_sheet.png",
+      "file": "B:\\silicon_wars_anime_girls\\characters\\amd\\character_sheet.png",
+      "sha256": "be93df9c38e9d590f66655bee108c3b0af293fcc74ccc660e4a0f7976ebf0c58"
+    }
+  ],
+  "command": [
+    "codex",
+    "exec",
+    "--ephemeral",
+    "--sandbox",
+    "workspace-write",
+    "-C",
+    "B:\\silicon_wars_anime_girls\\pose-costume\\output\\fef3c556-d379-4122-a167-a6c4c8b242bc",
+    "--color",
+    "never",
+    "--image",
+    "B:\\silicon_wars_anime_girls\\pose-costume\\output\\fef3c556-d379-4122-a167-a6c4c8b242bc\\pose-reference.png",
+    "--image",
+    "B:\\silicon_wars_anime_girls\\external\\open-pose-costume\\costume\\originals\\WIN-0026.png",
+    "--image",
+    "B:\\silicon_wars_anime_girls\\characters\\amd\\character_sheet.png",
+    "-"
+  ],
+  "promptSha256": "e5f8a94c53fb37ee566d2b7ae5936fafca0a3a73af7eba56f72313fcafdedb4c",
+  "output": {
+    "file": "output.png",
+    "sha256": "a92899ea1c521dc08e27c8d0154db44bfda6c7158c5f44e47eac7890b5e4ccb4"
+  }
+}
