@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "issue": 68,
+  "type": "ai_generated_concept_board_thumbnail",
+  "original_generation_id": "9ad37c24-da03-4e89-a097-7b2e787a01a7",
+  "original_source": "silicon_wars_limited_cutout_style_board.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "thumbnail": "polished-board-preview.webp",
+  "thumbnail_dimensions": [
+    240,
+    135
+  ],
+  "thumbnail_sha256": "86e906eca958b0f18207eabaa9fc66b554005ce2b96123c4d19b73ee6f0ddc22",
+  "status": "compressed_thumbnail_not_final_rig",
+  "human_review": "pending"
+}
