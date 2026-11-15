@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "issue": 67,
+  "type": "ai_generated_review_key_art",
+  "source_png": "silicon_wars_motion_comic_board.png",
+  "source_dimensions": [
+    1672,
+    941
+  ],
+  "source_sha256": "",
+  "preview": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "b63ec6fe50dcbdd2871bde5af77c1fd87cf49d1bc846ee052341b07f86519509",
+  "status": "compressed_pr_thumbnail_only",
+  "original_generation_id": "8e67b494-de1c-4d8f-983e-4386770bc0c7",
+  "human_review": "pending",
+  "note": "Illustration concept only; does not modify production layer art or prove runnable animation"
+}
