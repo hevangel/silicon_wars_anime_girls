@@ -1,0 +1,8 @@
+id: photoreal_3d_cinematic
+classification: animation_technique
+status: partial_prototype
+objective: "Intel walks into a laboratory through two camera setups"
+source_canon: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+requires: [approved_source_characters, source_rights, human_review]
+outputs: [editable_scene, browser_blocking_preview, original_vector_review_board]
+qa: {human_visual_review: mandatory, production_render: missing}
