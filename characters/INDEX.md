@@ -2,6 +2,8 @@
 
 **32 characters** grouped by their role in Season 1.
 
+[Canonical height reference](HEIGHTS.md) — barefoot standing heights, with the ED Walk scale-correction review.
+
 ## Tier 1 · Main characters
 
 - [Intel](intel/README.md) — The Blue Empress

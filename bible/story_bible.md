@@ -64,6 +64,8 @@ A heroine comes alive through someone who brings out her strengths and weaknesse
 
 ## Strict visual continuity
 
+Canonical barefoot standing heights live in `characters/roster.json` (`height_cm`); see [the height reference](../characters/HEIGHTS.md). Compare anatomical crowns and ground contact, excluding hats, crowns, hair ornaments, and props. Footwear and seated poses require separate scene calibration.
+
 The approved art is canon. For a character with a model sheet, the sheet and reference card decide her look, and the text is corrected to match them. Characters without a model sheet are draft stand-ins; their text and cards may change when their sheets are made.
 
 - Intel: long light-blue hair, pointed sapphire crown and a royal-blue imperial uniform with gold-fringed epaulettes. A small Intel Inside emblem sits near the hem of her left front skirt panel. Composed, authoritative pose.

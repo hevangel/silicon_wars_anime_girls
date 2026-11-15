@@ -6,6 +6,7 @@
 |---|---|
 | Faction | Silicon Kingdoms |
 | Age portrayal | Middle-school girl, about 12–13 |
+| Height | 150 cm, barefoot |
 | Hair color | Copper orange |
 | Brand color motif | Vermilion, cream, and silver |
 

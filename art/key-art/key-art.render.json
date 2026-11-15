@@ -1,0 +1,46 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-14",
+  "request": "Local edits: open Intel and Nvidia mouths for singing, remove Intel lowered spare microphone, sweep Nvidia braid across front as original; preserve head-level camera, poses and AMD two-hand anatomy.",
+  "edit_target": "art/key-art/reviews/eye-level-v4.png",
+  "braid_pose_reference": "art/key-art/reviews/before.jpg",
+  "upstream_render": "art/key-art/reviews/eye-level-v4.render.json",
+  "prompt": "art/key-art/key-art-singing.prompt.txt",
+  "image_inputs": [
+    "art/key-art/reviews/eye-level-v4.png",
+    "art/key-art/reviews/before.jpg"
+  ],
+  "inputs": [
+    {
+      "path": "art/key-art/key-art-singing.prompt.txt",
+      "sha256": "3a21ef21e3993aa1c575df01d49493143659c5c9850a5af4a7ad641fef19cac0"
+    },
+    {
+      "path": "art/key-art/reviews/eye-level-v4.png",
+      "sha256": "2fa6575be5f755e8ec5c47d89cda92822a9b2ad806b6fa263208c81e6d9262c4"
+    },
+    {
+      "path": "art/key-art/reviews/before.jpg",
+      "sha256": "aaa6695bda5fa745552887c3bc26af7c592e2b673ea7fbb4b1f931300f02f6c0"
+    },
+    {
+      "path": "art/key-art/reviews/eye-level-v4.render.json",
+      "sha256": "e60e10bfd8b4d80cf71f23b6f08444aa30550f345785fd472ebacfa4b3f2128a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "art/key-art/key-art.png",
+      "sha256": "075c3d73946601765e25d918e6510af53e1b7408bdc2cc4160625afa551d7e7a"
+    },
+    {
+      "path": "website/artwork/assets/key-art.jpg",
+      "sha256": "6d92a1721da5268e4b27ea3e3cebd062914e15b4fd9ef75a796080a7ee4ce0c2"
+    }
+  ],
+  "size": [
+    1673,
+    940
+  ],
+  "review": "reviews/REVIEW.md"
+}

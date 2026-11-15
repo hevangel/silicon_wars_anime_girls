@@ -6,6 +6,7 @@
 |---|---|
 | Faction | AI Academy |
 | Age portrayal | Elementary-school child |
+| Height | 140 cm, barefoot |
 | Hair color | Silver white |
 | Brand color motif | Teal |
 

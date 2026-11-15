@@ -18,6 +18,7 @@ A manga universe personifying technology, AI, and semiconductor companies. Ficti
 | [layouts/](layouts/README.md) | Reusable page geometry and reading order |
 | [workflows/](workflows/README.md) | Generation and review conventions |
 | [website/](website/index.html) | Character reference-card gallery (content in `website/data/*.json`) |
+| [website/artwork/](website/artwork/index.html) | Artwork portfolio with individually designed illustration pages |
 | [tools/](tools/README.md) | Local gallery preview builder |
 | [tutorial/](tutorial/README.md) | Illustrated AI manga production and GitHub guide |
 | [external/](external/README.md) | Four pinned upstream tools |

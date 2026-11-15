@@ -10,7 +10,7 @@ than a single crowd generation, so no character's traits bleed into another's.
 
 ## Files
 
-- `ed-walk-full.png` — the full panorama (19378x1820).
+- `ed-walk-full.png` — the full panorama (21602x2019 after height correction).
 - `ed-walk-slice-1..6.png` — seamless segments cut at figure boundaries, for
   X/Facebook carousels that stitch into the continuous parade:
   1 Intel–Apple · 2 Meta–Hugging Face · 3 Mistral–Micron ·
@@ -24,19 +24,33 @@ than a single crowd generation, so no character's traits bleed into another's.
 
 - Order: roster order, grouped by faction — Silicon Kingdoms lead, the
   Grandmother Generation brings up the rear; Bell Labs rolls in her wheelchair.
-- Heights (the frieze doubles as a height chart): every character now
-  has a canonical height_cm in characters/roster.json, and the composite
-  scales each figure by height_cm / 168. Edit a roster height and the
-  parade rescales her automatically. Bell Labs' 155 cm is her
-  standing-equivalent height; seated in her wheelchair the composite
-  applies an extra 0.87 factor. (The first builds guessed a ladder from
-  roster age labels: kids read too big at 0.68, and an age-string
-  substring bug shrank the young adults to kid size; both superseded
-  by the roster data.)
+- Heights: `characters/roster.json` gives barefoot standing stature.
+  `height-calibration.json` records inspected anatomical crown and supporting
+  sole landmarks, estimated footwear lifts, and source-cutout hashes. The
+  compositor uses 1500 pixels per 168 cm for this span, preserving aspect ratio;
+  headwear and props extend beyond it instead of shrinking the body. All
+  supporting soles share a ground plane; shadows may extend below it.
+  Bell Labs retains a separately specified 134.85 cm seated crown-to-floor
+  span, an art-directed pose estimate rather than a measured standing ratio.
+  Source changes require reinspecting the landmarks. The canvas grows to
+  accommodate crowns and hats without clipping.
+- `ed-walk.render.json` records the roster, calibration, builder and cutout
+  hashes, each figure's placement/scale, output size and six slice boundaries.
+- [Height-correction review](reviews/height-correction/REVIEW.md) contains the
+  previous heights, before/after comparison art and verification notes.
 - Figures overlap slightly, painted rear-of-march first so the front of the
   march layers on top.
 
 ## Recorded notes
+
+- Height correction (2026-11-14): reviewed all 32 cutouts. Replaced the
+  entire-cutout bounding-box scaling with crown/sole calibration. Corrected
+  the five elementary-school characters from 100–107 cm to 130–140 cm and
+  the two middle-school characters from 116–118 cm to 150–151 cm. Adult and
+  elder canonical heights remain unchanged. Existing walkers, cutouts,
+  costumes, direction and lettering were preserved. Rebuilt the full panorama,
+  all six slices and the website derivative. These are art-direction choices
+  grounded in the character profiles, not heights recoverable from pixels.
 
 - V2 regeneration (2026-11-11): all 32 walkers were regenerated with
   scale and direction in the prompt itself — each prompt states her

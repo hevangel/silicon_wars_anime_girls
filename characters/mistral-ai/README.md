@@ -6,6 +6,7 @@
 |---|---|
 | Faction | AI Academy Juniors |
 | Age portrayal | child |
+| Height | 130 cm, barefoot |
 | Hair color | light chestnut brown |
 | Brand color motif | French blue and orange-yellow pixel gradient |
 

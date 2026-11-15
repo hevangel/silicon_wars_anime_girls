@@ -90,7 +90,9 @@
   "navigation": {
     "menuLabel": "Browse Silicon Wars",
     "homeLabel": "Home",
-    "comicsLabel": "Comics"
+    "comicsLabel": "Comics",
+    "artworkLabel": "Artwork",
+    "youtubeLabel": "YouTube"
   },
   "viewer": {
     "profileLabel": "Character profile",
