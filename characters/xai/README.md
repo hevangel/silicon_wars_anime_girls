@@ -6,6 +6,7 @@
 |---|---|
 | Faction | AI Academy |
 | Age portrayal | Elementary-school child, about 9–10 |
+| Height | 136 cm, barefoot |
 | Hair color | Black with white-silver under-streaks |
 | Brand color motif | Black, white, and silver with small gold accents |
 

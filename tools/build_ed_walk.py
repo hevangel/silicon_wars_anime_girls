@@ -8,9 +8,10 @@ Pipeline (modular, per the parade-composition method):
      distance-based alpha. Interior background-colored regions (white coats,
      pale hair) are not connected to the border and stay opaque.
   3. Composite: roster order left to right (the march heads left), one flat
-     ground plane, slight overlap painted rear-first, heights scaled by
-     height_cm from characters/roster.json (scale = height_cm / 168;
-     Bell Labs seated gets an extra 0.87 factor on her standing height).
+     ground plane, slight overlap painted rear-first. Canonical barefoot
+     heights come from characters/roster.json; inspected skull/sole landmarks
+     and footwear allowances live in art/ed-walk/height-calibration.json.
+     Hats, crowns, hair ornaments and background shadows do not set stature.
   4. Outputs: ed-walk-full.png plus six posting slices cut at figure
      boundaries so X/Facebook carousels stitch seamlessly.
 
@@ -22,12 +23,12 @@ model sheet as reference. Their walkers in walkers/ are the full-sheet-
 reference, de-logoed-prompt generations. (Earlier builds used SIDE views
 cropped from their model sheets as stand-ins; SHEET_CROPS is kept empty.)
 
-Eleven generated walkers came out stepping toward frame right despite the
-left-facing brief; their walker and cutout files are stored mirror-flipped so
-the whole parade strides left (see FLIPPED in art/ed-walk/README.md).
+The current v2 walkers face left without mirroring; see art/ed-walk/README.md
+for the superseded v1 history. This script never flips the source figures.
 
 Usage: python3 tools/build_ed_walk.py [--cutouts-only | --composite-only]
 """
+import hashlib
 import json, sys
 from collections import deque
 from pathlib import Path
@@ -129,48 +130,101 @@ def build_cutouts():
         print('cutout', slug, '(sheet side view)', result.size)
 
 
-# Parade heights come from roster.json's height_cm (added 2026-11-11):
-# scale = height_cm / REFERENCE_CM, so editing a roster height rescales
-# the character here automatically. Bell Labs' height_cm is her
-# standing-equivalent height; seated in her wheelchair her figure's
-# bounding box sits lower, hence the extra factor.
 REFERENCE_CM = 168
-SEATED_FACTOR = {'bell-labs': 0.87}
+CALIBRATION = ART / 'height-calibration.json'
 
 
-def scale_for(entry):
-    slug = entry['slug']
-    return entry['height_cm'] / REFERENCE_CM * SEATED_FACTOR.get(slug, 1.0)
+def sha256(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def figure_geometry(entry, im, calibration):
+    """Uniform scale from estimated anatomical crown to supporting sole.
+
+    Coordinates refer to the unchanged source cutout, not the full canvas.
+    Footwear adds visible height to barefoot stature. A seated character has
+    a separate art-directed crown-to-floor span, not a standing-height ratio.
+    """
+    head = calibration['head_top_y']
+    ground = calibration['ground_y']
+    if not 0 <= head < ground < im.height:
+        raise ValueError(f"Invalid head/ground landmarks for {entry['slug']}")
+    if calibration['source_size'] != list(im.size):
+        raise ValueError(f"Recalibrate changed cutout size for {entry['slug']}")
+    target_cm = calibration.get('seated_head_height_cm')
+    if target_cm is None:
+        target_cm = entry['height_cm'] + calibration['footwear_cm']
+    if target_cm <= 0:
+        raise ValueError(f"Invalid target height for {entry['slug']}")
+    target_px = BASE_HEIGHT * target_cm / REFERENCE_CM
+    scale = target_px / (ground - head)
+    height = round(im.height * scale)
+    width = round(im.width * scale)
+    return {
+        'width': width, 'height': height,
+        # Preserve the projected crown coordinate; rounding both landmarks
+        # independently would add an unnecessary second pixel of audit error.
+        'head_offset': head * height / im.height,
+        'ground_offset': round(ground * height / im.height),
+        'target_span_cm': target_cm, 'target_span_px': target_px,
+    }
 
 
 def build_composite():
-    roster = json.loads((ROOT / 'characters' / 'roster.json').read_text())
-    figures, xs = [], []
+    roster_path = ROOT / 'characters' / 'roster.json'
+    roster = json.loads(roster_path.read_text(encoding='utf-8'))
+    calibration = json.loads(CALIBRATION.read_text(encoding='utf-8'))
+    figures, xs, records = [], [], []
     x = 60
     for entry in roster:
         slug = entry['slug']
-        im = Image.open(ART / 'cutouts' / f'{slug}.png')
-        h = int(BASE_HEIGHT * scale_for(entry))
-        w = int(im.width * h / im.height)
-        figures.append((slug, im.resize((w, h)), w, h))
+        source = ART / 'cutouts' / f'{slug}.png'
+        markers = calibration['characters'][slug]
+        source_hash = sha256(source)
+        if source_hash != markers['source_sha256']:
+            raise ValueError(f"Cutout changed for {slug}; inspect and update height-calibration.json")
+        with Image.open(source) as im:
+            geometry = figure_geometry(entry, im, markers)
+            resized = im.convert('RGBA').resize((geometry['width'], geometry['height']))
+        figures.append((resized, geometry))
         xs.append(x)
-        x += int(w * STEP)
-    width = xs[-1] + figures[-1][2] + 60
-    height = TOP_PAD + BASE_HEIGHT + BOTTOM_PAD
-    ground = TOP_PAD + BASE_HEIGHT
+        records.append({'slug': slug, 'height_cm': entry['height_cm'],
+                        'source_sha256': source_hash, 'x': x, **geometry})
+        x += int(geometry['width'] * STEP)
+    width = xs[-1] + figures[-1][1]['width'] + 60
+    ground = TOP_PAD + max(g['ground_offset'] for _, g in figures)
+    below_ground = max(g['height'] - g['ground_offset'] for _, g in figures)
+    height = ground + max(BOTTOM_PAD, below_ground + 1)
     canvas = Image.new('RGBA', (width, height), BACKGROUND)
     ImageDraw.Draw(canvas).line([(0, ground), (width, ground)], fill=(176, 182, 192, 255), width=5)
-    for (_, im, _, h), fx in reversed(list(zip(figures, xs))):
-        canvas.alpha_composite(im, (fx, ground - h))
+    for (im, geometry), fx in reversed(list(zip(figures, xs))):
+        canvas.alpha_composite(im, (fx, ground - geometry['ground_offset']))
+    for record in records:
+        record['y'] = ground - record['ground_offset']
     canvas.convert('RGB').save(ART / 'ed-walk-full.png')
     print('panorama', canvas.size)
     bounds = [0, 6, 12, 18, 24, 29, 32]
+    slices = []
     for i in range(6):
         a, b = bounds[i], bounds[i + 1]
         x0 = 0 if i == 0 else xs[a] - 30
         x1 = width if i == 5 else xs[b] - 30
         canvas.crop((x0, 0, x1, height)).convert('RGB').save(ART / f'ed-walk-slice-{i + 1}.png')
+        slices.append({'file': f'ed-walk-slice-{i + 1}.png', 'x0': x0, 'x1': x1})
         print(f'slice {i + 1}: x {x0}-{x1}')
+    manifest = {
+        'schema_version': 1,
+        'method': 'Inspected anatomical crown to supporting sole; uniform scaling; no flips or art regeneration',
+        'roster_sha256': sha256(roster_path),
+        'calibration_sha256': sha256(CALIBRATION),
+        'builder_sha256': sha256(Path(__file__)),
+        'pixels_per_cm': BASE_HEIGHT / REFERENCE_CM,
+        'canvas': {'width': width, 'height': height, 'ground_y': ground},
+        'figures': records, 'slices': slices,
+        'render_sha256': sha256(ART / 'ed-walk-full.png'),
+    }
+    (ART / 'ed-walk.render.json').write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 
 if __name__ == '__main__':

@@ -6,6 +6,7 @@
 |---|---|
 | Faction | AI Academy |
 | Age portrayal | Elementary-school child, about 9–10 |
+| Height | 138 cm, barefoot |
 | Hair color | Dark brown |
 | Brand color motif | Terracotta |
 

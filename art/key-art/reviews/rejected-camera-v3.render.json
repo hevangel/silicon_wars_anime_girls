@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-14",
+  "request": "Restore original close stage camera angle while preserving corrected anatomy and model-sheet designs.",
+  "identity_references": [
+    "characters/amd/character_sheet.png",
+    "characters/intel/character_sheet.png",
+    "characters/nvidia/character_sheet.png"
+  ],
+  "camera_reference": "art/key-art/reviews/before.jpg",
+  "corrected_design_reference": "art/key-art/reviews/full-body-v2.png",
+  "prompt": "art/key-art/key-art-camera.prompt.txt",
+  "inputs": [
+    {
+      "path": "art/key-art/key-art-camera.prompt.txt",
+      "sha256": "2467f8aef0d36010ac9a6060c11eef8c237910dff0f24197190a0277bae63360"
+    },
+    {
+      "path": "art/key-art/reviews/before.jpg",
+      "sha256": "aaa6695bda5fa745552887c3bc26af7c592e2b673ea7fbb4b1f931300f02f6c0"
+    },
+    {
+      "path": "art/key-art/reviews/full-body-v2.png",
+      "sha256": "b26a7104a75517c8e1586b9e46c91976a14def2bba80406c13e784f0fd36f091"
+    },
+    {
+      "path": "characters/amd/character_sheet.png",
+      "sha256": "be93df9c38e9d590f66655bee108c3b0af293fcc74ccc660e4a0f7976ebf0c58"
+    },
+    {
+      "path": "characters/intel/character_sheet.png",
+      "sha256": "8a58cb9e40c666ed86527dea4456dcc78d66d3e74d50496161f06dd5d810631f"
+    },
+    {
+      "path": "characters/nvidia/character_sheet.png",
+      "sha256": "d9bb716ffd34baaff4ec062e1590f0cca1bf3f3b08fa99a91ebf81604e958b3a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "art/key-art/key-art.png",
+      "sha256": "c7dec57a85f8594f88c2af40d9307bc6c248ca81aacaaade314362d69a6f7e67"
+    },
+    {
+      "path": "website/artwork/assets/key-art.jpg",
+      "sha256": "1e99a5642347ff7ae5e9d944ea340fdc00ff43c72dc521419c46d1d966d8f9f2"
+    }
+  ],
+  "size": [
+    1674,
+    940
+  ],
+  "review": "reviews/REVIEW.md"
+}

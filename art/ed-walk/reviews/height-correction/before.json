@@ -1,0 +1,42 @@
+{
+  "original_render_sha256": "ec729c060be3d60a0a2694307a64adc1b8aa7a17902b8c28899479b727b13281",
+  "canvas_size": [
+    19383,
+    1820
+  ],
+  "height_cm": {
+    "intel": 172,
+    "amd": 165,
+    "nvidia": 178,
+    "google": 162,
+    "microsoft": 170,
+    "apple": 167,
+    "meta": 163,
+    "amazon": 173,
+    "anthropic": 105,
+    "openai": 107,
+    "xai": 103,
+    "huggingface": 118,
+    "mistral-ai": 100,
+    "deepseek": 104,
+    "tsmc": 165,
+    "asml": 171,
+    "samsung": 174,
+    "micron": 168,
+    "sk-hynix": 161,
+    "arm": 150,
+    "qualcomm": 160,
+    "broadcom": 166,
+    "marvell": 166,
+    "huawei": 170,
+    "cerebras": 116,
+    "ibm": 164,
+    "oracle": 162,
+    "sun-microsystems": 158,
+    "bell-labs": 155,
+    "fairchild": 161,
+    "dec": 163,
+    "xerox-parc": 156
+  },
+  "method": "Entire cutout scaled to 1500 * height_cm / 168, truncated; Bell Labs multiplied by 0.87; all cutout bottoms at y=1630"
+}

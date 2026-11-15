@@ -90,7 +90,6 @@
   const menuToggle = document.querySelector(".menu-toggle");
   const seasonMenu = document.querySelector(".season-menu");
   const seasonToggle = document.querySelector("#season-toggle");
-  const comicsLink = document.querySelector("#season-comics");
   const viewer = document.querySelector(".art-viewer");
   const viewerImage = document.querySelector(".viewer-image");
   let selectedGroup = "";
@@ -163,7 +162,9 @@
   menu.addEventListener("click", (event) => {
     if (event.target.closest("a")) closeMenu();
   });
-  comicsLink.addEventListener("click", () => { seasonMenu.open = false; });
+  seasonMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => { seasonMenu.open = false; });
+  });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && seasonMenu.open) {
       seasonMenu.open = false;
