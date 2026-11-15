@@ -1,0 +1,13 @@
+id: nortel
+title: "The Northern Network Valkyrie"
+season: 2
+status: planning_unapproved
+historical_company: "Nortel"
+age_portrayal: "Adult veteran telecom engineer"
+identity: "Very broad fiber-armor pauldrons, sweeping translucent cape and a single optical spear"
+default_style: default_manga
+supported_styles: [default_manga]
+art_status: not_generated
+visual_assets: {}
+history_source: "https://www.canada.ca/en/news/archive/2009/01/minister-industry-responds-nortel-networks-restructuring-under-companies-creditors-arrangement-act.html"
+season_bible: bible/season-2.md
