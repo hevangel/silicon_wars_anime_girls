@@ -10,3 +10,6 @@
 [submodule "external/open-pose-costume-skill"]
 	path = external/open-pose-costume-skill
 	url = https://github.com/hongye007/open-pose-costume-skill.git
+[submodule "external/ComfyUI-PH3-Manga"]
+	path = external/ComfyUI-PH3-Manga
+	url = https://github.com/sepiablue-ai/ComfyUI-PH3-Manga.git
