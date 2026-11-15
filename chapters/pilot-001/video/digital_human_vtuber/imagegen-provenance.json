@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "issue": 73,
+  "kind": "AI-generated digital-human concept board",
+  "generation_id": "0c422206-2a2c-477b-87af-8caf1cbe6d1f",
+  "original_png": "silicon_wars_digital_human_vtuber_concept_board.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "committed_preview": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "6445ce02501dca77cdddf3945136be700dcf5dbc57b7570a119d1cd1f3677b4c",
+  "rights": "original fictional character concept",
+  "native_3d_actor": false,
+  "live_capture": false,
+  "art_approval": "pending"
+}
