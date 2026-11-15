@@ -1,0 +1,48 @@
+{
+  "format": "rhubarb-mock-not-derived-from-audio",
+  "fps": 24,
+  "segments": [
+    {
+      "start_frame": 0,
+      "end_frame": 12,
+      "value": "A"
+    },
+    {
+      "start_frame": 12,
+      "end_frame": 21,
+      "value": "B"
+    },
+    {
+      "start_frame": 21,
+      "end_frame": 30,
+      "value": "C"
+    },
+    {
+      "start_frame": 30,
+      "end_frame": 41,
+      "value": "D"
+    },
+    {
+      "start_frame": 41,
+      "end_frame": 52,
+      "value": "E"
+    },
+    {
+      "start_frame": 52,
+      "end_frame": 62,
+      "value": "F"
+    },
+    {
+      "start_frame": 62,
+      "end_frame": 72,
+      "value": "X"
+    }
+  ],
+  "manual_overrides": [
+    {
+      "frame": 62,
+      "shape": "X",
+      "reason": "explicit pause"
+    }
+  ]
+}
