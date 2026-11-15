@@ -1,0 +1,7 @@
+id: pilot-001-machinima
+visual: {art_style: default_manga}
+animation: {technique: machinima}
+delivery: {fps: 24, resolution: [1920, 1080]}
+source: chapters/pilot-001/video/machinima/scene.json
+entrypoint: chapters/pilot-001/video/machinima/preview.html
+status: partial_prototype
