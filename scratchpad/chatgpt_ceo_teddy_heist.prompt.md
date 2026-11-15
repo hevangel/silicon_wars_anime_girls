@@ -1,0 +1,11 @@
+# CEO teddy heist
+
+Generated with built-in ChatGPT image generation. The character references, in order, were the Arm and Nvidia chibi sheets.
+
+## Prompt
+
+Draw a single full-color 4:3 landscape Silicon Wars chibi manga panel, 1448 × 1086, with one thin ink border. Image 1 is Arm's chibi sheet and image 2 is Nvidia's chibi sheet. Use them as character design references only, with the same costumes, palettes, and head/body ratio. One view of each character. Clean expressive anime inking and cel shading, clearly readable at thumbnail size.
+
+In a cozy electronics workshop after hours, Arm naps slumped sideways at her workbench, eyes fully shut, cheek softly resting against one bent arm on the desk. Her other arm loosely cradles a small golden-brown teddy bear with a red bow. The bear is the center of the panel, its chest facing the reader. Embroider one large clearly legible uppercase word “CEO” in dark lettering on the bear's pale chest patch. Arm wears her silver ash-blonde side ponytail with blue-teal ribbon and retro blue-teal workshop jacket with cream cuffs. Her jacket chest is visible and uncovered above the bear, with a crisp high-contrast lowercase “arm” brand wordmark patch readable on her chest.
+
+On the right, Nvidia in her black leather jacket-dress with luminous green circuit trim, emerald braid, and goggles is tiptoeing up to the workbench. She leans toward the teddy and carefully pinches one of its paws with her nearest hand, starting to tug it free while Arm is still asleep. Her other hand holds one finger to her own lips, and she wears a mischievous, slightly nervous sideways grin. Keep Nvidia's observable glove and bare fingertips anatomically clear. Place the recognizable NVIDIA green eye-swirl logo on a black upper-sleeve patch facing the reader, away from her hands, and add the clear uppercase wordmark “NVIDIA” beneath the eye on the same patch. Both characters' logos must remain readable at a glance and distinct from the teddy's “CEO”. Frame both faces, both logos, her reaching hand, and the teddy together with an unobstructed view. Warm desk lamp and cool moonlight, quiet workbench with a few small circuits and blueprints. No extra characters, speech balloons, title, labels, watermarks, or additional lettering. A silent, playful visual gag.
