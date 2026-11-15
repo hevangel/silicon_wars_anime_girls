@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "shot_id": "amd-entrance-001",
+  "candidates": [
+    {
+      "id": "candidate-A",
+      "status": "planned",
+      "output": null,
+      "reviewer": null,
+      "cost_usd": null,
+      "notes": "first image to video attempt — not submitted"
+    },
+    {
+      "id": "candidate-B",
+      "status": "planned",
+      "output": null,
+      "reviewer": null,
+      "cost_usd": null,
+      "notes": "controlled alternative camera — not submitted"
+    }
+  ],
+  "actual_generated_count": 0,
+  "accepted_count": 0
+}
