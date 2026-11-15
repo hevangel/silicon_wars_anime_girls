@@ -1,0 +1,7 @@
+id: pilot-001-rotoscoping
+visual: {art_style: default_manga}
+animation: {technique: rotoscoping}
+delivery: {format: browser_preview, fps: 24}
+source: chapters/pilot-001/video/rotoscoping/scene.json
+entrypoint: chapters/pilot-001/video/rotoscoping/preview.html
+production_status: exploratory

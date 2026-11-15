@@ -1,0 +1,19 @@
+{
+  "issue": 75,
+  "asset_type": "AI-generated rotoscoping visual concept",
+  "generation_id": "9b5c6fd4-f3e5-4205-9d21-7b0c9eb8d9d2",
+  "original_image": "silicon_wars_rotoscoping_guide.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "preview_filename": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "ba7201f8aa97b233783efadd165e30da5aeb588347e881f8ad077785b2c5fb69",
+  "real_actor_footage": false,
+  "real_rotoscoped_frames": false,
+  "review": "pending"
+}
