@@ -1,0 +1,7 @@
+id: vrm_vtuber
+classification: animation_technique
+status: mapping_prototype
+required: "authored humanoid mesh and VRM 1.0 export, ARKit facial expressions, capture/OBS"
+controls: [HeadYaw, EyeBlink, MouthOpen]
+identity_source: characters/amd/continuity.yaml
+qa: {human_approved: false, real_rig_present: false}

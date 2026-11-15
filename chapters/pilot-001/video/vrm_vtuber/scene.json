@@ -1,0 +1,67 @@
+{
+  "schema": 1,
+  "episode": "pilot-001",
+  "issue": 72,
+  "technique": "vrm_vtuber",
+  "visual": {
+    "art_style": "default_manga",
+    "character": "amd"
+  },
+  "delivery": {
+    "format": "browser_preview",
+    "fps": 30
+  },
+  "review_status": "draft_human_review_required",
+  "params": [
+    {
+      "id": "HeadYaw",
+      "min": -45,
+      "max": 45,
+      "value": 0
+    },
+    {
+      "id": "EyeBlink",
+      "min": 0,
+      "max": 1,
+      "value": 0
+    },
+    {
+      "id": "MouthOpen",
+      "min": 0,
+      "max": 1,
+      "value": 0
+    }
+  ],
+  "states": [
+    {
+      "id": "neutral",
+      "label": "Neutral idle",
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "speaking",
+      "label": "Speech & jaw change",
+      "values": [
+        8,
+        0,
+        0.8
+      ]
+    },
+    {
+      "id": "reaction",
+      "label": "Blink and turn",
+      "values": [
+        -18,
+        1,
+        0.25
+      ]
+    }
+  ],
+  "capture_source": null,
+  "model_export": null,
+  "blocking_requirement": "authored humanoid mesh and VRM 1.0 export, ARKit facial expressions, capture/OBS"
+}
