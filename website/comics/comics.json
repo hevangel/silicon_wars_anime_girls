@@ -423,5 +423,165 @@
                 }
             ]
         }
-    ]
+      ]
+    },
+    {
+      "id": "outlook-outage",
+      "title": "Outlook Outage",
+      "defaultVariant": "chatgpt",
+      "variants": [
+        {
+          "id": "chatgpt",
+          "model": "chatgpt",
+          "label": "Outage update",
+          "image": "outlook-outage/outlook_outage_gpt.jpg",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Microsoft's heroine watches an Outlook Unavailable screen as a carrier pigeon delivers the outage update.",
+          "references": [
+            {
+              "path": "characters/microsoft/character_sheet.png",
+              "label": "Microsoft model sheet"
+            },
+            {
+              "path": "characters/microsoft/expressions.png",
+              "label": "Microsoft expression sheet"
+            }
+          ]
+        },
+        {
+          "id": "seedream",
+          "model": "seedream",
+          "label": "Everything is fine",
+          "image": "outlook-outage/seedream.jpg",
+          "width": 2848,
+          "height": 1600,
+          "alt": "Microsoft's heroine calmly says everything is fine beside a failed health check and a red Outlook outage dashboard, as mail piles up around her.",
+          "references": [
+            {
+              "path": "characters/microsoft/character_sheet.png",
+              "label": "Microsoft model sheet"
+            },
+            {
+              "path": "characters/microsoft/expressions.png",
+              "label": "Microsoft expression sheet"
+            }
+          ]
+        },
+        {
+          "id": "grok",
+          "model": "grok",
+          "label": "Inbox avalanche",
+          "image": "outlook-outage/43-single-panel-anime.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "Microsoft's bespectacled heroine calmly holds a mug in an office buried under Outlook messages and paperwork.",
+          "references": [
+            {
+              "path": "characters/microsoft/character_sheet.png",
+              "label": "Microsoft model sheet"
+            },
+            {
+              "path": "characters/microsoft/expressions.png",
+              "label": "Microsoft expression sheet"
+            }
+          ]
+        },
+        {
+          "id": "muse",
+          "model": "muse",
+          "label": "Mailroom meltdown",
+          "image": "outlook-outage/muse.webp",
+          "width": 498,
+          "height": 374,
+          "alt": "Microsoft's bespectacled heroine struggles to reach across a desk buried under a storm of Outlook mail and envelopes.",
+          "references": [
+            {
+              "path": "characters/microsoft/character_sheet.png",
+              "label": "Microsoft model sheet"
+            },
+            {
+              "path": "characters/microsoft/expressions.png",
+              "label": "Microsoft expression sheet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steal-the-ceo",
+      "title": "Stealing the CEO",
+      "defaultVariant": "chatgpt",
+      "variants": [
+        {
+          "id": "chatgpt",
+          "model": "chatgpt",
+          "label": "CEO teddy heist",
+          "image": "steal-the-ceo/chatgpt.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Nvidia sneaks toward the CEO teddy bear held by sleeping Arm at her workbench.",
+          "references": [
+            {
+              "path": "characters/arm/chibi_sheet.png",
+              "label": "Arm chibi sheet"
+            },
+            {
+              "path": "characters/nvidia/chibi_sheet.png",
+              "label": "Nvidia chibi sheet"
+            }
+          ]
+        },
+        {
+          "id": "gemini",
+          "model": "gemini",
+          "label": "Four-panel heist",
+          "image": "steal-the-ceo/gemini.jpg",
+          "width": 2400,
+          "height": 1792,
+          "alt": "A four-panel sequence shows Nvidia trying to steal the CEO teddy from sleeping Arm, nearly getting caught, then slipping away with the bear.",
+          "references": []
+        },
+        {
+          "id": "grok",
+          "model": "seedream",
+          "label": "Workshop heist",
+          "image": "steal-the-ceo/grok.jpg",
+          "width": 2304,
+          "height": 1728,
+          "alt": "Nvidia reaches for the CEO teddy beside sleeping Arm at their electronics workbench.",
+          "references": []
+        },
+        {
+          "id": "grok-steal-ceo",
+          "model": "grok",
+          "label": "After-hours snatch",
+          "image": "steal-the-ceo/grok-steal-ceo.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "Nvidia reaches for the CEO teddy in Arm's workshop while Arm sleeps with the bear in her arms.",
+          "references": []
+        },
+        {
+          "id": "muse",
+          "model": "muse",
+          "label": "CEO teddy heist",
+          "image": "steal-the-ceo/muse.webp",
+          "width": 498,
+          "height": 376,
+          "alt": "A green-haired Nvidia reaches for the CEO teddy while Arm sleeps holding it close.",
+          "references": [
+            {
+              "path": "characters/nvidia/character_sheet.png",
+              "label": "Nvidia model sheet"
+            },
+            {
+              "path": "characters/arm/character_sheet.png",
+              "label": "Arm model sheet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

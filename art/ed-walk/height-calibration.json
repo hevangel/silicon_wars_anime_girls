@@ -1,0 +1,360 @@
+{
+  "schema_version": 1,
+  "height_basis": "Roster height_cm is barefoot standing stature. Source head_top_y approximates the anatomical crown; ground_y is the supporting shoe sole (wheel contact for Bell Labs).",
+  "review_note": "Manually inspected ED Walk v2 cutouts. Hidden skull positions, footwear lifts and seated pose span are art-direction estimates, not physical measurements. Reinspect if a source changes. No per-character stretching or mirroring.",
+  "characters": {
+    "intel": {
+      "head_top_y": 130,
+      "ground_y": 1865,
+      "footwear_cm": 5,
+      "source_size": [
+        1057,
+        1866
+      ],
+      "source_sha256": "7e93a0a693babdda5d1a696daf41e03ba2ab54be2cdd90a61bb4c41d05f0171e",
+      "note": "Skull below sapphire crown."
+    },
+    "amd": {
+      "head_top_y": 100,
+      "ground_y": 2053,
+      "footwear_cm": 3,
+      "source_size": [
+        1040,
+        2054
+      ],
+      "source_sha256": "c2fd3f1cbd38313e5e0aae24c7ae6e22b6f5eba73f99bd76cf6fde16f84f08dc",
+      "note": "Skull below high ponytail."
+    },
+    "nvidia": {
+      "head_top_y": 70,
+      "ground_y": 1924,
+      "footwear_cm": 4,
+      "source_size": [
+        1082,
+        1925
+      ],
+      "source_sha256": "b4fc54c34ea28b5d16b404aaf6ee838c59aa5a24480e0acb42b06ebbc4e561eb",
+      "note": "Skull below swept-up hair and goggles."
+    },
+    "google": {
+      "head_top_y": 100,
+      "ground_y": 2375,
+      "footwear_cm": 2,
+      "source_size": [
+        909,
+        2412
+      ],
+      "source_sha256": "6d31884e3f75adb17a3056a549abc606372fc0a38a2ec8549d25f2ebf188360d",
+      "note": "Ignore flyaway hair and ground shadow."
+    },
+    "microsoft": {
+      "head_top_y": 12,
+      "ground_y": 2042,
+      "footwear_cm": 5,
+      "source_size": [
+        872,
+        2061
+      ],
+      "source_sha256": "f1b2200f54750f471c526f1823826eb416f5fae3bb2306a67488ffbfcabe6fe7",
+      "note": "Supporting pump, not ground shadow."
+    },
+    "apple": {
+      "head_top_y": 15,
+      "ground_y": 1954,
+      "footwear_cm": 2,
+      "source_size": [
+        999,
+        1971
+      ],
+      "source_sha256": "8835a87cab5e21bc93c614b56ec3a09e1a2392c942a90b8d607d8607ed2ec28b",
+      "note": "Supporting loafer, not ground shadow."
+    },
+    "meta": {
+      "head_top_y": 100,
+      "ground_y": 1986,
+      "footwear_cm": 4,
+      "source_size": [
+        1106,
+        1987
+      ],
+      "source_sha256": "d6d128d3c8dd219f0391f98f7d5ce8752b3bd6e547a4226a51b253dd482f08ac",
+      "note": "Skull below VR goggles and side bun."
+    },
+    "amazon": {
+      "head_top_y": 90,
+      "ground_y": 1879,
+      "footwear_cm": 3,
+      "source_size": [
+        1020,
+        1901
+      ],
+      "source_sha256": "d889b52449b2c9d18d78e3ee81de7be44cac2fb77e02d90c523eb6bef604c660",
+      "note": "Skull under cap; ignore drone and shadow."
+    },
+    "anthropic": {
+      "head_top_y": 125,
+      "ground_y": 1723,
+      "footwear_cm": 2,
+      "source_size": [
+        964,
+        1724
+      ],
+      "source_sha256": "7492b5ab69b0776b13d798258e80032aff999723d077fc9b3f051baa949f3143",
+      "note": "Skull estimated under hard hat."
+    },
+    "openai": {
+      "head_top_y": 100,
+      "ground_y": 2006,
+      "footwear_cm": 2,
+      "source_size": [
+        930,
+        2032
+      ],
+      "source_sha256": "579debf1ca563aceb0b74a648a4d869e7340e63c3018cd87ebb8750b18293928",
+      "note": "Skull below ribbon and fluffy ponytail; ignore shadow."
+    },
+    "xai": {
+      "head_top_y": 40,
+      "ground_y": 1719,
+      "footwear_cm": 3,
+      "source_size": [
+        922,
+        1720
+      ],
+      "source_sha256": "71f52580a7d190a307e5b611055cdd57a354d9af28a96f53e4ae61104382930d",
+      "note": "Ignore stray bob spikes."
+    },
+    "huggingface": {
+      "head_top_y": 50,
+      "ground_y": 1875,
+      "footwear_cm": 2,
+      "source_size": [
+        923,
+        1876
+      ],
+      "source_sha256": "0b745a57e602ef2f78776eb8ef7f168d73c156dbe7506e22a808f6a2f4a03b27",
+      "note": "Skull below bows and ponytail."
+    },
+    "mistral-ai": {
+      "head_top_y": 100,
+      "ground_y": 1857,
+      "footwear_cm": 2,
+      "source_size": [
+        948,
+        1858
+      ],
+      "source_sha256": "6eecae5ebe69f4d65a65ebfda5f43304bcf8ca79fc96b0032397e50455a11869",
+      "note": "Skull estimated under beret."
+    },
+    "deepseek": {
+      "head_top_y": 120,
+      "ground_y": 1846,
+      "footwear_cm": 2,
+      "source_size": [
+        865,
+        1847
+      ],
+      "source_sha256": "ca88a92fffff7c8ad201dd66edcaf63d974afc452861c4db3a0fd7ba4672d0e0",
+      "note": "Skull below high hair buns."
+    },
+    "tsmc": {
+      "head_top_y": 10,
+      "ground_y": 1774,
+      "footwear_cm": 3,
+      "source_size": [
+        961,
+        1775
+      ],
+      "source_sha256": "0a4b88fa3807c472cc36a797dc683e0722868afbb7c58f190c1c39c3bc867b55",
+      "note": "Smooth bob at crown."
+    },
+    "asml": {
+      "head_top_y": 65,
+      "ground_y": 1200,
+      "footwear_cm": 4,
+      "source_size": [
+        904,
+        1201
+      ],
+      "source_sha256": "fb3fbcb125ff8b04826a762e3933f55ebea85e98e7c02f216acfae9e35b3216e",
+      "note": "Skull below lace headpiece."
+    },
+    "samsung": {
+      "head_top_y": 5,
+      "ground_y": 1159,
+      "footwear_cm": 3,
+      "source_size": [
+        930,
+        1160
+      ],
+      "source_sha256": "49072d3305206c8c9f8f58a0443efac1cea9a0b1462d4048e6fdf28d1af5e6e0",
+      "note": "Smooth hair at crown."
+    },
+    "micron": {
+      "head_top_y": 140,
+      "ground_y": 2025,
+      "footwear_cm": 3,
+      "source_size": [
+        967,
+        2026
+      ],
+      "source_sha256": "394989c5214a0f7a1667cf04ab06bf58ea1463cc92f97f9ccd31832633a4ad0b",
+      "note": "Skull estimated under cowboy hat."
+    },
+    "sk-hynix": {
+      "head_top_y": 140,
+      "ground_y": 1867,
+      "footwear_cm": 3,
+      "source_size": [
+        971,
+        1868
+      ],
+      "source_sha256": "9d31b2febe4037b7887ea014c5afacf5bffefb4fd46b7d6d41fd6fb014b378bd",
+      "note": "Skull below high bun and hair pin."
+    },
+    "arm": {
+      "head_top_y": 80,
+      "ground_y": 1875,
+      "footwear_cm": 3,
+      "source_size": [
+        921,
+        1876
+      ],
+      "source_sha256": "dc7e5310617e1388adbb454f33f0050d7c7be2b12bf6e89ec358351dcbe39afd",
+      "note": "Skull below side ponytail and loose hair."
+    },
+    "qualcomm": {
+      "head_top_y": 90,
+      "ground_y": 1737,
+      "footwear_cm": 2,
+      "source_size": [
+        882,
+        1738
+      ],
+      "source_sha256": "0de5d5d8b56d31088cbf84540310ca9cedd99326dcb2f84c2aeba03d96a78542",
+      "note": "Skull below high ponytail."
+    },
+    "broadcom": {
+      "head_top_y": 120,
+      "ground_y": 1945,
+      "footwear_cm": 4,
+      "source_size": [
+        1041,
+        1946
+      ],
+      "source_sha256": "1b696deb8967e540f466727f0e7ca3039cc2311e28447a7a9b0c466f190bfc54",
+      "note": "Skull below braided bun."
+    },
+    "marvell": {
+      "head_top_y": 20,
+      "ground_y": 1972,
+      "footwear_cm": 3,
+      "source_size": [
+        1002,
+        1973
+      ],
+      "source_sha256": "ed303e0b9fbfe724c87807286a19fa46c520496c17ce7dbcded8e9c3e8a6ed16",
+      "note": "Bob at crown."
+    },
+    "huawei": {
+      "head_top_y": 140,
+      "ground_y": 1982,
+      "footwear_cm": 4,
+      "source_size": [
+        1094,
+        1983
+      ],
+      "source_sha256": "ce32ba901e34ffe3672051aa0a416882f562440531f0c1a0c308cea405cdf713",
+      "note": "Skull below bun, flower and feather ornament."
+    },
+    "cerebras": {
+      "head_top_y": 225,
+      "ground_y": 1648,
+      "footwear_cm": 2,
+      "source_size": [
+        1090,
+        1649
+      ],
+      "source_sha256": "1665202fdfa9a7ef59d4a6628afa8ad06c812a2f4df1b9dc2d2d9f70dcf8834b",
+      "note": "Skull estimated under chef toque; toque must not shrink body."
+    },
+    "ibm": {
+      "head_top_y": 15,
+      "ground_y": 1860,
+      "footwear_cm": 5,
+      "source_size": [
+        922,
+        1861
+      ],
+      "source_sha256": "14a08f09c395d1abdd4bf1516778edc8a44acf7d285acd43fb2717c7d03c213c",
+      "note": "Skull below swept waves."
+    },
+    "oracle": {
+      "head_top_y": 15,
+      "ground_y": 2012,
+      "footwear_cm": 5,
+      "source_size": [
+        929,
+        2013
+      ],
+      "source_sha256": "2b02accc035f0f0122be888f33e141aa9c91f0e19a0aaf975bbeb6ca696aaa39",
+      "note": "Skull below sculpted waves."
+    },
+    "sun-microsystems": {
+      "head_top_y": 10,
+      "ground_y": 1201,
+      "footwear_cm": 2,
+      "source_size": [
+        988,
+        1202
+      ],
+      "source_sha256": "aeaeb4ea72894a375a62977ab03d2cd24315a22f84ef7ec5935d0bdb6695448e",
+      "note": "Skull below silver hair."
+    },
+    "bell-labs": {
+      "head_top_y": 10,
+      "ground_y": 1820,
+      "footwear_cm": 0,
+      "source_size": [
+        1100,
+        1821
+      ],
+      "source_sha256": "33ef406f23732df4197ecf976ced0bbd4111465f3b50537bda214bfce22c5966",
+      "note": "Seated skull-to-wheel-ground span; preserve prior art-directed 134.85 cm seated span, not a measured standing-to-seated ratio.",
+      "seated_head_height_cm": 134.85
+    },
+    "fairchild": {
+      "head_top_y": 120,
+      "ground_y": 1758,
+      "footwear_cm": 2,
+      "source_size": [
+        781,
+        1771
+      ],
+      "source_sha256": "7d4ef31e04dcb684658ce40894b5cd6f788a1e286aaf72d6798d62449ec692a6",
+      "note": "Skull below scarf, pinned hair and workshop pencils; ignore shadow."
+    },
+    "dec": {
+      "head_top_y": 30,
+      "ground_y": 1960,
+      "footwear_cm": 3,
+      "source_size": [
+        997,
+        1969
+      ],
+      "source_sha256": "abcd0d83d494cdf24fbbdb9ea0633e0b3da95c4e0ffe847bde6c04ccf9510df8",
+      "note": "Skull below tousled hair; ignore shadow."
+    },
+    "xerox-parc": {
+      "head_top_y": 30,
+      "ground_y": 1986,
+      "footwear_cm": 2,
+      "source_size": [
+        968,
+        1987
+      ],
+      "source_sha256": "94e2d71335db89aae6fddd9a27800c21ddc73427b5421e721d5098c3c73dbbcf",
+      "note": "Skull below bob; slight stoop remains."
+    }
+  }
+}

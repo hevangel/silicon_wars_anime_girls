@@ -90,7 +90,6 @@
   const menuToggle = document.querySelector(".menu-toggle");
   const seasonMenu = document.querySelector(".season-menu");
   const seasonToggle = document.querySelector("#season-toggle");
-  const comicsLink = document.querySelector("#season-comics");
   const viewer = document.querySelector(".art-viewer");
   const viewerImage = document.querySelector(".viewer-image");
   let selectedGroup = "";
@@ -163,7 +162,9 @@
   menu.addEventListener("click", (event) => {
     if (event.target.closest("a")) closeMenu();
   });
-  comicsLink.addEventListener("click", () => { seasonMenu.open = false; });
+  seasonMenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => { seasonMenu.open = false; });
+  });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape" && seasonMenu.open) {
       seasonMenu.open = false;
@@ -238,11 +239,10 @@
     }
     return curated;
   };
-  const filteredCharacters = (typeId) => characters
+  const filteredCharacters = () => characters
     .filter((character) => !selectedGroup || character.groups?.includes(selectedGroup))
-    .sort(typeId === "reference_card" ? compareCharacters : (a, b) =>
-      (a.sort?.curatedOrder ?? characters.indexOf(a)) - (b.sort?.curatedOrder ?? characters.indexOf(b)));
-  const makeItems = (typeId) => filteredCharacters(typeId).flatMap((character) => {
+    .sort(compareCharacters);
+  const makeItems = (typeId) => filteredCharacters().flatMap((character) => {
     const path = typeId === "reference_card" ? character.referenceCard : character.artwork?.[typeId];
     const type = assetTypeById.get(typeId);
     return path ? [{ character, path, alt: `${character.name} — ${type.altLabel}` }] : [];
@@ -371,8 +371,7 @@
   const renderAssetArchive = (typeId) => {
     const type = assetTypeById.get(typeId);
     if (!type) return false;
-    sortSelect.closest("label").hidden = typeId !== "reference_card";
-    document.querySelector(".sorting-note").hidden = typeId !== "reference_card" || selectedSort !== "marketCap";
+    document.querySelector(".sorting-note").hidden = selectedSort !== "marketCap";
     const items = makeItems(typeId);
     assetArchiveTitle.textContent = type.archiveTitle;
     assetArchiveCount.textContent = fill(site.assetArchive.countTemplate, { count: items.length });

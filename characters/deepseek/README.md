@@ -6,6 +6,7 @@
 |---|---|
 | Faction | AI Academy Juniors |
 | Age portrayal | Elementary-school child, about 9–10 |
+| Height | 137 cm, barefoot |
 | Hair color | Ocean blue, with navy roots and sea-blue tips |
 | Brand color motif | Royal blue, sea blue, and white |
 

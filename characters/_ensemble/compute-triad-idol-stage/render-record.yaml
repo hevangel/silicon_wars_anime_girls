@@ -1,0 +1,164 @@
+# Compute Triad · Idol Stage — render record
+#
+# Shot: Intel, AMD and Nvidia as a K-pop girl group performing together on stage.
+# Status: NOT RENDERED. Both generation attempts returned an unknown outcome and
+# produced no file. This record preserves the accepted inputs so the shot can be
+# re-run without rebuilding the brief.
+#
+# Costume continuity is locked to the model sheets, not the reference cards: the
+# cards carry a painted nameplate, the sheets are the canonical identity source
+# named in each character profile.
+
+shot:
+  id: compute-triad-idol-stage
+  title: "Compute Triad · Idol Stage"
+  branch: art/compute-triad-idol-stage
+  created: 2026-11-10
+  status: blocked_tool_unavailable
+  characters: [intel, amd, nvidia]
+  tier: "Tier 1 · Compute Triad"
+
+reference_assets:
+  role: identity_only
+  note: >-
+    Passed as identity references for face, hair, costume construction and palette.
+    The sheet chrome — cream background, FRONT/THREE-QUARTER/SIDE/BACK plaques,
+    expression labels, palette strip and title lockup — must not appear in the shot.
+  files:
+    - path: characters/intel/character_sheet.png
+      sha256: 8a58cb9e40c666ed86527dea4456dcc78d66d3e74d50496161f06dd5d810631f
+      locks: light-blue wavy hair, sapphire crown, royal-blue and cream imperial coat-dress, gold epaulettes, white gloves, Intel Inside hem emblem
+    - path: characters/amd/character_sheet.png
+      sha256: be93df9c38e9d590f66655bee108c3b0af293fcc74ccc660e4a0f7976ebf0c58
+      locks: red braided high ponytail, amber eyes, off-shoulder crimson-and-black cropped jacket, gold buckles, black cargo trousers, headphones at neck, fingerless gloves
+    - path: characters/nvidia/character_sheet.png
+      sha256: d9bb716ffd34baaff4ec062e1590f0cca1bf3f3b08fa99a91ebf81604e958b3a
+      locks: emerald-green braid, goggles pushed up in hair, black leather jacket-dress, glowing green circuit seams, wide belt, heavy boots
+
+cropped_refs:
+  status: ready
+  generator: tools/crop_triad_front_refs.py
+  why: >-
+    The full sheets carry cream ground, view plaques, expression labels, a palette
+    strip and a title lockup. Passed whole to a video model that chrome tends to
+    bleed into the render, so one clean front-view figure per character is passed
+    instead. The sheets stay the source of truth; these are derived, not new art.
+  files:
+    - path: characters/_ensemble/compute-triad-idol-stage/refs/intel-front.png
+      size: 568x781
+      note: title lockup erased with sheet background; crown and hem emblem intact
+    - path: characters/_ensemble/compute-triad-idol-stage/refs/amd-front.png
+      size: 261x708
+      note: clean crop, no chrome present
+    - path: characters/_ensemble/compute-triad-idol-stage/refs/nvidia-front.png
+      size: 309x762
+      note: corner fragment erased with sheet background; both fists inside frame
+  checks:
+    - one figure per file, crown-to-boot, no plaque or palette strip
+    - no readable text anywhere in the crop
+    - hair, hands and footwear fully inside the frame
+    - costume detail preserved at native resolution, no rescaling
+
+attempts:
+  - at: 2026-11-10
+    tool: generate_video_happy_horse
+    settings: {duration: 10, ratio: "16:9", resolution: 1080P, images: 3}
+    result: generate_video_happy_horse_outcome_unknown
+    file_written: false
+  - at: 2026-11-10
+    tool: generate_video_happy_horse
+    settings: {duration: 5, ratio: "16:9", resolution: 720P, images: 3}
+    result: generate_video_happy_horse_outcome_unknown
+    file_written: false
+    note: User-authorized retry at reduced size. Choreography tightened to one continuous move.
+  - at: 2026-11-10
+    tool: generate_video_happy_horse
+    settings: {duration: 5, ratio: "16:9", resolution: 720P, images: 3}
+    refs: cropped front-view figures
+    result: generate_video_happy_horse_outcome_unknown
+    file_written: false
+    note: >-
+      User-requested regeneration using the cleaned single-figure references.
+      Same failure signature as the two sheet-based attempts, so the fault is the
+      video tool itself and not the reference set or the resolution.
+    prompt_delta: >-
+      Same text as `prompt` above, with the opening line replaced by: "Each of the
+      three supplied reference images shows one full-body character; use them ONLY
+      as identity references for face, hair, costume and colours."
+    conclusion: >-
+      Three attempts, two reference sets, two resolutions, one error. Treat video
+      generation as unavailable until the tool is confirmed working again.
+
+choreography:
+  beat_structure: >-
+    V formation at center stage; on the beat the trio steps forward together into a
+    sharp synchronized arm line, then hair flips into a held pose, each singing into
+    a handheld microphone.
+  per_character:
+    intel: composed, regal, precise lines; carries the center position
+    amd: grinning, cocky, the sharpest accent on the arm hits
+    nvidia: smug, commanding, broadest stance and heaviest weight on the final pose
+  formations: ["V", "unison arm line", "held fan-out pose"]
+  camera: slow arc around the trio with a slight push-in
+
+staging:
+  location: arena concert stage
+  led_wall: glowing blue, crimson and emerald
+  effects: [laser beams, sweeping spotlights, drifting confetti, cyan stage smoke, light-stick audience]
+  floor: glossy reflective
+
+style:
+  rendering: cinematic anime, crisp cel-shaded
+  lighting: rim light, lens flare
+  continuity_rules:
+    - exactly three performers, no one else on stage
+    - no on-screen text, captions or logos beyond the costumes
+    - no costume, hairstyle or hair-color changes across the shot
+    - faces stay on-model; correct anatomy and hands
+
+prompt: |
+  Anime K-pop stage performance. Use the three supplied character sheets ONLY as identity references for faces, hair, costumes and colors — do not reproduce their sheet layout, cream background, view labels or any text from them.
+
+  Three adult anime idol performers, exactly on-model:
+  1) Intel — tall elegant woman, very long flowing light-blue wavy hair, small sapphire-crystal crown, sapphire-blue eyes, royal-blue imperial coat-dress with cream lining and gold trim, gold-fringed epaulettes, white gloves, thigh-high black boots; small round "Intel Inside" emblem near the hem of her left front skirt panel.
+  2) AMD — athletic woman, fiery red braided high ponytail, amber eyes, off-shoulder crimson-and-black cropped tactical jacket over a black crop top, gold buckles, chunky black cargo trousers with red accents, black-and-red headphones around her neck, fingerless gloves, heavy boots.
+  3) Nvidia — tall, broad-shouldered, powerful woman, thick long emerald-green braid, black goggles pushed up into her hair, piercing emerald eyes, black leather jacket-dress with glowing neon-green circuit seams and a wide belt, heavy boots.
+
+  One continuous shot, 5 seconds: the trio stands center stage in a V, then on the beat they step forward together and hit a sharp synchronized arm line, hair flips, and a confident holding pose, each singing into a handheld microphone. Intel composed and regal, AMD grinning and cocky, Nvidia smug and commanding.
+
+  Setting: enormous arena stage, giant LED wall glowing blue, crimson and emerald, laser beams, sweeping spotlights, drifting confetti, cyan stage smoke, glossy reflective floor, dark audience sea of glowing light sticks.
+
+  Cinematic anime, crisp cel-shaded rendering, rim light and lens flare, camera arcs slowly around the trio while pushing in slightly.
+
+  Constraints: exactly three performers, nobody else on stage; no on-screen text, captions or added logos beyond the costumes; no costume, hairstyle or hair-color changes; faces consistent and on-model; correct anatomy and hands.
+
+still:
+  status: accepted
+  path: characters/_ensemble/compute-triad-idol-stage/key-art.jpg
+  size: 2848x1600
+  tool: generate_image_seedream
+  inputs: text prompt only, no image reference
+  why_no_reference: >-
+    The image tool accepts a single reference image. Anchoring on one character's
+    crop risked copying her face across all three, so all three designs were
+    specified in text from the model sheets instead.
+  review:
+    holds:
+      - Intel light-blue wavy hair, sapphire crown, royal-blue coat, gold epaulettes, white gloves, Intel Inside hem badge
+      - AMD red braided ponytail with gold rings, headphones at neck, crimson-and-black cropped jacket, cargo trousers, chunky boots
+      - Nvidia emerald braid, goggles pushed up, black leather with green circuit seams, wide belt
+      - three distinct faces, correct hand count, no text or watermark
+    deviations:
+      - Intel's coat reads as a shortened stage dress with bare thighs, not the floor-sweeping coat of the sheet
+      - Nvidia is slimmer than her broad-shouldered sheet build and her jacket-dress is shorter
+      - Intel carries an extra gold aiguillette not present on the sheet
+    verdict: >-
+      Accepted as idol-stage key art. The costume deviations suit the stage premise,
+      but they are continuity breaks against the model sheets, so a corrected pass
+      would be needed before this frame is treated as canon.
+
+next_step:
+  - Re-run the video prompt with the three cropped refs once the video tool is confirmed working.
+  - A 10s cut needs the longer three-beat version: arc, per-performer push-ins, crane pull-back.
+  - Accept only if all three silhouettes read at thumbnail size and no hair color drifts.
+  - If this still is promoted to canon, lengthen Intel's coat and widen Nvidia's build first.

@@ -6,6 +6,7 @@
 |---|---|
 | Faction | AI Academy |
 | Age portrayal | Middle-school girl, about 12–13 |
+| Height | 151 cm, barefoot |
 | Hair color | chestnut brown |
 | Brand color motif | sunny yellow |
 
