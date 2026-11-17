@@ -420,11 +420,69 @@
                         }
                     ],
                     "thumbnail": "nvidia-hates-tacos/muse.webp"
+                },
+                {
+                    "id": "chatgpt",
+                    "model": "chatgpt",
+                    "label": "Boardroom refusal",
+                    "image": "nvidia-hates-tacos/chatgpt.png",
+                    "width": 1448,
+                    "height": 1086,
+                    "alt": "At an Nvidia boardroom table, Nvidia holds a taco with a disgusted scowl and pushes a stop hand toward a purple Taco Bell bag and box while saying \"NO!\".",
+                    "references": [
+                        {
+                            "path": "characters/nvidia/character_sheet.png",
+                            "label": "Nvidia model sheet"
+                        },
+                        {
+                            "path": "characters/nvidia/expressions.png",
+                            "label": "Nvidia expression sheet"
+                        }
+                    ],
+                    "thumbnail": "nvidia-hates-tacos/chatgpt.webp"
+                },
+                {
+                    "id": "gemini",
+                    "model": "gemini",
+                    "label": "Four-panel review",
+                    "image": "nvidia-hates-tacos/gemini.jpg",
+                    "width": 2400,
+                    "height": 1792,
+                    "alt": "A four-panel comic strip shows Nvidia scoffing outside a Taco Bell, complaining the taco looks unoptimized, struggling as it falls apart in a messy crunch, and declaring the food's performance a complete failure.",
+                    "references": [
+                        {
+                            "path": "characters/nvidia/character_sheet.png",
+                            "label": "Nvidia model sheet"
+                        },
+                        {
+                            "path": "characters/nvidia/expressions.png",
+                            "label": "Nvidia expression sheet"
+                        }
+                    ],
+                    "thumbnail": "nvidia-hates-tacos/gemini.webp"
+                },
+                {
+                    "id": "grok",
+                    "model": "grok",
+                    "label": "Storefront refusal",
+                    "image": "nvidia-hates-tacos/grok.jpg",
+                    "width": 1168,
+                    "height": 784,
+                    "alt": "Outside a purple Taco Bell storefront, Nvidia holds a dripping taco in one hand, thrusts her other palm forward in a stop gesture, and shouts \"NO TO TACO BELL!\".",
+                    "references": [
+                        {
+                            "path": "characters/nvidia/character_sheet.png",
+                            "label": "Nvidia model sheet"
+                        },
+                        {
+                            "path": "characters/nvidia/expressions.png",
+                            "label": "Nvidia expression sheet"
+                        }
+                    ],
+                    "thumbnail": "nvidia-hates-tacos/grok.webp"
                 }
             ]
-        }
-      ]
-    },
+        },
     {
       "id": "outlook-outage",
       "title": "Outlook Outage",

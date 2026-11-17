@@ -10,6 +10,8 @@
 
 A manga universe personifying technology, AI, and semiconductor companies. Fictional fan art unaffiliated with the companies.
 
+**Live site:** [hevangel.github.io/silicon_wars_anime_girls](https://hevangel.github.io/silicon_wars_anime_girls/) · [Season One Comics](https://hevangel.github.io/silicon_wars_anime_girls/website/comics/)
+
 | Folder | What lives there |
 | --- | --- |
 | [bible/](bible/README.md) | Series canon, story arcs, and visual continuity |
