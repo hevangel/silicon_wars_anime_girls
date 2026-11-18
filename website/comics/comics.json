@@ -663,6 +663,52 @@
           "thumbnail": "hello-new-york/muse.webp"
         }
       ]
+    },
+    {
+      "id": "starship-catch",
+      "title": "The Catch",
+      "defaultVariant": "muse",
+      "variants": [
+        {
+          "id": "muse",
+          "model": "muse",
+          "label": "Tower replacement",
+          "image": "starship-catch/muse.jpg",
+          "width": 2016,
+          "height": 1152,
+          "alt": "A giant xAI stands on the Starbase marshland holding the caught Starship upper stage in both hands where the launch tower used to be, under a webcast overlay reading STARSHIP FLIGHT 15.",
+          "references": [
+            {
+              "path": "characters/xai/character_sheet.png",
+              "label": "xAI model sheet"
+            }
+          ],
+          "thumbnail": "starship-catch/muse.webp"
+        }
+      ]
+    },
+    {
+      "id": "apple-outage",
+      "title": "Who Pushed That Update?!",
+      "defaultVariant": "muse",
+      "variants": [
+        {
+          "id": "muse",
+          "model": "muse",
+          "label": "Outage day",
+          "image": "apple-outage/muse.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Apple plugs a server cable back in beneath a blinking red LED status dashboard showing App Store, Apple Music and iCloud Mail in outage and AppleCare back online, shouting: Who pushed that update?!",
+          "references": [
+            {
+              "path": "characters/apple/character_sheet.png",
+              "label": "Apple model sheet"
+            }
+          ],
+          "thumbnail": "apple-outage/muse.webp"
+        }
+      ]
     }
   ]
 }
