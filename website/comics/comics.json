@@ -640,6 +640,29 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hello-new-york",
+      "title": "Hello, New York!",
+      "defaultVariant": "muse",
+      "variants": [
+        {
+          "id": "muse",
+          "model": "muse",
+          "label": "Nasdaq debut",
+          "image": "hello-new-york/muse.jpg",
+          "width": 1792,
+          "height": 1344,
+          "alt": "Anthropic waves from the giant curved Nasdaq LED screen over Times Square, next to the words Hello, New York!, while crowds and yellow taxis look up from the street.",
+          "references": [
+            {
+              "path": "characters/anthropic/character_sheet.png",
+              "label": "Anthropic model sheet"
+            }
+          ],
+          "thumbnail": "hello-new-york/muse.webp"
+        }
+      ]
     }
   ]
 }
