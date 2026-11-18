@@ -33,6 +33,12 @@
         "muse": "Muse",
         "gemini-3-8-flash": "Gemini 3.8 Flash"
     },
+    "routeAliases": {
+        "buried-under-mail": "outlook-outage/muse-mail-pile",
+        "buried-under-mail/muse": "outlook-outage/muse-mail-pile",
+        "stealing-the-ceo": "steal-the-ceo/muse-the-reach",
+        "stealing-the-ceo/muse": "steal-the-ceo/muse-the-reach"
+    },
     "comics": [
         {
             "id": "tug-of-war",
@@ -328,56 +334,6 @@
             ]
         },
         {
-            "id": "buried-under-mail",
-            "title": "Buried Under Mail",
-            "defaultVariant": "muse",
-            "variants": [
-                {
-                    "id": "muse",
-                    "model": "muse",
-                    "label": "Mail pile",
-                    "image": "buried-under-mail/muse.jpg",
-                    "width": 1792,
-                    "height": 1344,
-                    "alt": "Microsoft, in her blazer and glasses, sits buried to the chest in a drift of envelopes in an office while more mail rains down around her.",
-                    "references": [
-                        {
-                            "path": "characters/microsoft/character_sheet.png",
-                            "label": "Microsoft model sheet"
-                        }
-                    ],
-                    "thumbnail": "buried-under-mail/muse.webp"
-                }
-            ]
-        },
-        {
-            "id": "stealing-the-ceo",
-            "title": "Stealing the CEO",
-            "defaultVariant": "muse",
-            "variants": [
-                {
-                    "id": "muse",
-                    "model": "muse",
-                    "label": "The reach",
-                    "image": "stealing-the-ceo/muse.jpg",
-                    "width": 1824,
-                    "height": 1376,
-                    "alt": "In a dark workshop, Nvidia leans in with a guilty grin and reaches for the plush teddy bear in a CEO shirt that the sleeping Arm is hugging.",
-                    "references": [
-                        {
-                            "path": "characters/nvidia/character_sheet.png",
-                            "label": "Nvidia model sheet"
-                        },
-                        {
-                            "path": "characters/arm/character_sheet.png",
-                            "label": "Arm model sheet"
-                        }
-                    ],
-                    "thumbnail": "stealing-the-ceo/muse.webp"
-                }
-            ]
-        },
-        {
             "id": "it-exploded-in-the-sky",
             "title": "It Exploded in the Sky",
             "defaultVariant": "muse",
@@ -563,6 +519,22 @@
               "label": "Microsoft expression sheet"
             }
           ]
+        },
+        {
+          "id": "muse-mail-pile",
+          "model": "muse",
+          "label": "Mail pile",
+          "image": "buried-under-mail/muse.jpg",
+          "width": 1792,
+          "height": 1344,
+          "alt": "Microsoft, in her blazer and glasses, sits buried to the chest in a drift of envelopes in an office while more mail rains down around her.",
+          "references": [
+            {
+              "path": "characters/microsoft/character_sheet.png",
+              "label": "Microsoft model sheet"
+            }
+          ],
+          "thumbnail": "buried-under-mail/muse.webp"
         }
       ]
     },
@@ -638,6 +610,26 @@
               "label": "Arm model sheet"
             }
           ]
+        },
+        {
+          "id": "muse-the-reach",
+          "model": "muse",
+          "label": "The reach",
+          "image": "stealing-the-ceo/muse.jpg",
+          "width": 1824,
+          "height": 1376,
+          "alt": "In a dark workshop, Nvidia leans in with a guilty grin and reaches for the plush teddy bear in a CEO shirt that the sleeping Arm is hugging.",
+          "references": [
+            {
+              "path": "characters/nvidia/character_sheet.png",
+              "label": "Nvidia model sheet"
+            },
+            {
+              "path": "characters/arm/character_sheet.png",
+              "label": "Arm model sheet"
+            }
+          ],
+          "thumbnail": "stealing-the-ceo/muse.webp"
         }
       ]
     },

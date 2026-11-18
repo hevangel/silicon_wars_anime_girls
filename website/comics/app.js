@@ -46,7 +46,8 @@ function artworkLink({ href, image, label, alt = "", className, detail }) {
   return item;
 }
 
-function initialize({ meta, paths, copy, defaultComic, models, comics }) {
+function initialize({ meta, paths, copy, defaultComic, models, routeAliases = {}, comics }) {
+  const aliases = new Map(Object.entries(routeAliases));
   const comicRoutes = new Map(comics.map((comic, index) => [route(comic).split("/")[0], index]));
   const defaultIndex = comics.findIndex((comic) => comic.id === defaultComic);
   let activeComic;
@@ -66,10 +67,13 @@ function initialize({ meta, paths, copy, defaultComic, models, comics }) {
   picker.addEventListener("change", () => { location.hash = picker.value; });
 
   function render() {
-    const [comicHash] = location.hash.split("/");
+    const hash = location.hash;
+    const alias = aliases.get(hash.slice(1));
+    const comicRoute = alias ? `#${alias}` : hash;
+    const [comicHash] = comicRoute.split("/");
     const index = comicRoutes.get(comicHash) ?? defaultIndex;
     const comic = comics[index];
-    const variant = comic.variants.find((entry) => route(comic, entry.id) === location.hash)
+    const variant = comic.variants.find((entry) => route(comic, entry.id) === comicRoute)
       ?? comic.variants.find((entry) => entry.id === comic.defaultVariant);
     const comicChanged = activeComic !== comic;
     const focusedVariant = gallery.contains(document.activeElement);
