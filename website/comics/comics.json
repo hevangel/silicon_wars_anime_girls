@@ -661,6 +661,44 @@
             }
           ],
           "thumbnail": "hello-new-york/muse.webp"
+        },
+        {
+          "id": "chatgpt",
+          "model": "chatgpt",
+          "label": "Hello from Times Square",
+          "image": "hello-new-york/chatgpt.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Anthropic waves and says Hello, New York! from the orange curved Nasdaq screen as pedestrians look up at dusk.",
+          "references": [
+            {
+              "path": "characters/anthropic/character_sheet.png",
+              "label": "Anthropic model sheet"
+            }
+          ],
+          "thumbnail": "hello-new-york/chatgpt.webp"
+        },
+        {
+          "id": "grok",
+          "model": "grok",
+          "label": "Market wave",
+          "image": "hello-new-york/grok.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "Anthropic waves beside the word HELLO and a rising market chart on the blue Nasdaq billboard at night.",
+          "references": [],
+          "thumbnail": "hello-new-york/grok.webp"
+        },
+        {
+          "id": "gemini",
+          "model": "gemini",
+          "label": "Midnight billboard",
+          "image": "hello-new-york/gemini.jpg",
+          "width": 2528,
+          "height": 1684,
+          "alt": "Anthropic greets Times Square from a tall Nasdaq billboard above taxis on a rain-slick street.",
+          "references": [],
+          "thumbnail": "hello-new-york/gemini.webp"
         }
       ]
     },
@@ -684,6 +722,44 @@
             }
           ],
           "thumbnail": "starship-catch/muse.webp"
+        },
+        {
+          "id": "chatgpt",
+          "model": "chatgpt",
+          "label": "Proud catch",
+          "image": "starship-catch/chatgpt.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "A giant xAI smiles at the viewer while catching the upright Starship with both hands above the coastal launch site.",
+          "references": [
+            {
+              "path": "characters/xai/reference_card.jpg",
+              "label": "xAI reference card"
+            }
+          ],
+          "thumbnail": "starship-catch/chatgpt.webp"
+        },
+        {
+          "id": "grok",
+          "model": "grok",
+          "label": "Mechanical assist",
+          "image": "starship-catch/grok.jpg",
+          "width": 1168,
+          "height": 784,
+          "alt": "A giant xAI catches a firing Starship with help from mechanical arms at the launch site, with her Shiba peeking out behind her.",
+          "references": [],
+          "thumbnail": "starship-catch/grok.webp"
+        },
+        {
+          "id": "gemini",
+          "model": "gemini",
+          "label": "Catch complete",
+          "image": "starship-catch/gemini.jpg",
+          "width": 2528,
+          "height": 1684,
+          "alt": "xAI carries a silver Starship at an angle as dust swirls around her boots under an orange evening sky.",
+          "references": [],
+          "thumbnail": "starship-catch/gemini.webp"
         }
       ]
     },
@@ -707,6 +783,44 @@
             }
           ],
           "thumbnail": "apple-outage/muse.webp"
+        },
+        {
+          "id": "chatgpt",
+          "model": "chatgpt",
+          "label": "Working on the just",
+          "image": "apple-outage/chatgpt.png",
+          "width": 1448,
+          "height": 1086,
+          "alt": "Apple reconnects a server cable while the App Store, Apple Music, and iCloud Mail show red status lights.",
+          "references": [
+            {
+              "path": "characters/apple/character_sheet.png",
+              "label": "Apple model sheet"
+            }
+          ],
+          "thumbnail": "apple-outage/chatgpt.webp"
+        },
+        {
+          "id": "grok",
+          "model": "grok",
+          "label": "Outage dashboard",
+          "image": "apple-outage/grok.jpg",
+          "width": 1712,
+          "height": 1152,
+          "alt": "Apple rests a hand against her forehead as red outage alerts fill the display next to her laptop.",
+          "references": [],
+          "thumbnail": "apple-outage/grok.webp"
+        },
+        {
+          "id": "gemini",
+          "model": "gemini",
+          "label": "From update to recovery",
+          "image": "apple-outage/gemini.jpg",
+          "width": 2400,
+          "height": 1792,
+          "alt": "Four panels show Apple deploying an update, spotting service outages, patching the systems, and seeing them return online.",
+          "references": [],
+          "thumbnail": "apple-outage/gemini.webp"
         }
       ]
     }
