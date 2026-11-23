@@ -70,6 +70,13 @@ button:hover { background: #f4f2ec; }
   padding-top: 1.75rem;
   scroll-margin-top: 6rem;
 }
+.painting-styles-page .movement-studies > .style-family {
+  margin-top: 1.75rem;
+}
+.painting-styles-page .movement-studies h3 {
+  margin: 0;
+  font: 400 clamp(1.5rem, 3vw, 2.35rem)/1.15 Georgia, "Times New Roman", serif;
+}
 .painting-styles-page .style-intro { margin: .8rem 0 1.5rem; }
 .painting-styles-page .style-board, .painting-styles-page .style-board-notes { max-width: 48rem; }
 .painting-styles-page .style-board a { display: block; background: #fff; }
@@ -81,6 +88,153 @@ button:hover { background: #f4f2ec; }
 }
 .painting-styles-page .style-board-notes dt { font-weight: 700; }
 .painting-styles-page .style-board-notes dd { margin: .3rem 0 0; line-height: 1.5; }
+
+.painting-styles-page .style-group {
+  max-width: 48rem;
+  margin-top: 3rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid #c9c9bf;
+  scroll-margin-top: 6rem;
+}
+.painting-styles-page .style-tile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem clamp(.75rem, 3vw, 1.5rem);
+  margin-top: 1rem;
+}
+.painting-styles-page .style-tile { border: 0; padding: 0; margin: 0; }
+.painting-styles-page .style-tile h4 {
+  margin: .45rem 0 0;
+  font: 400 clamp(1.05rem, 2.4vw, 1.45rem)/1.2 Georgia, "Times New Roman", serif;
+}
+.painting-styles-page .style-tile .style-intro {
+  margin: .15rem 0 0;
+  line-height: 1.5;
+  font-size: .875rem;
+}
+.painting-styles-page .style-info-button {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  vertical-align: middle;
+}
+.painting-styles-page .style-info-button span {
+  display: grid;
+  place-items: center;
+  width: 1.375rem;
+  height: 1.375rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font: 700 .9rem/1 Georgia, "Times New Roman", serif;
+}
+.painting-styles-page .style-info-button:hover span { color: #fff; background: #252722; }
+
+.painting-styles-page .study-preview {
+  position: fixed;
+  z-index: 20;
+  box-sizing: border-box;
+  width: min(16rem, calc(100vw - 1rem), 43dvh);
+  aspect-ratio: 1;
+  overflow: hidden;
+  border: 1px solid #8c8e83;
+  border-radius: .35rem;
+  background: #f4f2ec;
+  box-shadow: 0 .4rem 1.1rem #080d1640;
+}
+.painting-styles-page .study-preview img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+.painting-styles-page .study-preview:not([data-crop="full"]) img { width: 200%; }
+.painting-styles-page .study-preview:is([data-crop="top-right"], [data-crop="bottom-right"]) img { left: -100%; }
+.painting-styles-page .study-preview:is([data-crop="bottom-left"], [data-crop="bottom-right"]) img { top: -100%; }
+
+.painting-styles-page .study-answer-button {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  vertical-align: middle;
+}
+.painting-styles-page .study-answer-button span {
+  display: grid;
+  place-items: center;
+  width: 1.375rem;
+  height: 1.375rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  font: 700 .85rem/1 Georgia, "Times New Roman", serif;
+}
+.painting-styles-page .study-answer-button:is(:hover, [aria-expanded="true"]) span {
+  color: #fff;
+  background: #252722;
+}
+.painting-styles-page .study-answer {
+  position: fixed;
+  z-index: 20;
+  box-sizing: border-box;
+  width: min(24rem, calc(100vw - 1rem));
+  max-height: calc(100dvh - 1rem);
+  overflow: auto;
+  padding: .9rem 1rem;
+  border: 1px solid #8c8e83;
+  border-radius: .35rem;
+  color: #252722;
+  background: #f4f2ec;
+  box-shadow: 0 .4rem 1.1rem #080d1640;
+  font-size: .95rem;
+  line-height: 1.55;
+}
+
+.painting-styles-page .style-dialog {
+  box-sizing: border-box;
+  width: min(36rem, calc(100% - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow: auto;
+  padding: clamp(1.1rem, 4vw, 2rem);
+  border: 1px solid #8c8e83;
+  border-radius: .5rem;
+  color: #252722;
+  background: #f4f2ec;
+}
+.painting-styles-page .style-dialog::backdrop { background: #080d16b8; }
+.painting-styles-page .style-dialog-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  gap: .75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #c9c9bf;
+}
+.painting-styles-page .style-dialog-header h2 {
+  flex: 1 1 12rem;
+  font-size: clamp(1.5rem, 5vw, 2.1rem);
+}
+.painting-styles-page .style-dialog-header button { min-height: 44px; }
+.painting-styles-page .style-dialog-header button:hover { background: #e4e1d7; }
+.painting-styles-page .style-dialog-content { display: grid; gap: 1rem; margin-top: 1rem; }
+.painting-styles-page .style-dialog-content h3 { margin: 0; font-size: 1rem; }
+.painting-styles-page .style-dialog-content p { margin: .3rem 0 0; line-height: 1.6; }
+.painting-styles-page .style-dialog-sources {
+  margin: .6rem 0 0;
+  padding-inline-start: 1.25rem;
+  line-height: 1.5;
+}
+.painting-styles-page .style-dialog-sources li + li { margin-top: .35rem; }
 
 @media (max-width: 420px) {
   .painting-styles-page .style-board-notes { grid-template-columns: 1fr; }
