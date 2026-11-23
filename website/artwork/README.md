@@ -6,6 +6,8 @@ Serve the repository root and open `/website/artwork/`. The index links to indep
 
 - `assets/ed-walk.webp`: web-sized derivative of `art/ed-walk/ed-walk-full.png`, resized to 10,000 × 935, WebP quality 88. The detail page also links to the untouched original.
 - `assets/key-art.jpg`: JPEG derivative of the regenerated [concert key art](../../art/key-art/key-art.png), matching the AMD, Intel, and Nvidia model sheets. [Prompt, provenance, and before/after review](../../art/key-art/reviews/REVIEW.md). The earlier `导出/key-art.jpg` remains preserved.
+- `microsoft-styles/images/`: 16 original 784 × 1168 JPEGs from `scratchpad/microsoft-painting-styles.zip`. These are the imported source portraits.
+- `microsoft-styles/images/*-studies.png`: Eight ChatGPT ImageGen comparison boards for the [style study](microsoft-styles/), with four variants each. All eight use the classic cel portrait from the ZIP as the pose and costume reference.
 
 The ED Walk was recomposited after the [height correction](../../art/ed-walk/reviews/height-correction/REVIEW.md); its source walkers, costumes, and lettering remain unchanged. The ED Walk index thumbnail intentionally shows a central excerpt; its detail page offers the complete panorama and an uncropped overview.
 
