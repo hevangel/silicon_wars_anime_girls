@@ -252,3 +252,71 @@ button:hover { background: #f4f2ec; }
   .piece-footer { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) { .work-image img { transition: none; } }
+
+
+.painting-styles-page .catalog-nav { font-weight: 600; }
+.painting-styles-page .catalog-track,
+.painting-styles-page .catalog-home,
+.painting-styles-page .earlier-comparisons [id] { scroll-margin-top: 6rem; }
+.painting-styles-page .catalog-track {
+  margin-top: 3rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid #c9c9bf;
+}
+.painting-styles-page .catalog-track > .style-jump { margin-top: 1rem; }
+.painting-styles-page .catalog-home { margin-top: 2.5rem; }
+.painting-styles-page .catalog-home h3 {
+  margin: 0;
+  font: 400 clamp(1.45rem, 3vw, 2.25rem)/1.15 Georgia, "Times New Roman", serif;
+}
+.painting-styles-page .catalog-home > .style-family { margin-top: 1.5rem; }
+.painting-styles-page .catalog-home > .style-family h4 {
+  margin: 0;
+  font: 400 clamp(1.3rem, 2.7vw, 1.85rem)/1.15 Georgia, "Times New Roman", serif;
+}
+.painting-styles-page .catalog-home .style-tile-grid { max-width: 48rem; }
+.painting-styles-page .earlier-comparisons dl { display: grid; gap: .85rem; }
+.painting-styles-page .earlier-comparisons dt { font-weight: 700; }
+.painting-styles-page .earlier-comparisons dd { margin: .2rem 0 0; }
+
+.painting-styles-page .catalog-search { margin-top: 1.5rem; max-width: 48rem; }
+.painting-styles-page .catalog-search label { display: block; font-weight: 700; }
+.painting-styles-page .catalog-search input {
+  box-sizing: border-box;
+  width: min(100%, 30rem);
+  padding: .75rem;
+  margin-top: .4rem;
+  font: inherit;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #8c8e83;
+}
+.painting-styles-page #catalog-results:empty,
+.painting-styles-page #catalog-matches:empty { display: none; }
+
+.painting-styles-page .print-comparison {
+  max-width: 48rem;
+  margin: 1.5rem 0;
+  scroll-margin-top: 6rem;
+}
+.painting-styles-page .print-comparison h4 {
+  margin: 0;
+  font: 400 clamp(1.3rem, 2.7vw, 1.85rem)/1.15 Georgia, "Times New Roman", serif;
+}
+.painting-styles-page .print-comparison-image {
+  display: block;
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+.painting-styles-page .print-comparison-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.painting-styles-page .print-comparison-crop img {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 200%;
+  max-width: none;
+}

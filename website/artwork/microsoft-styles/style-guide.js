@@ -1859,4 +1859,184 @@ const styleGuide = {
       { label: "The Reach of Faith Ringgold, Guggenheim", href: "https://www.guggenheim.org/audio/playlist/collection-in-focus-the-reach-of-faith-ringgold" },
     ],
   },
+  "acrylic": {
+    "history": "Acrylic paints became widely used in the twentieth century. Water-based artist acrylics generally dry quickly, which lets a painter stack passes and revise an edge soon after applying color.",
+    "effect": "The dense cobalt covers the color underneath. In a thinner passage, the earlier paint can remain visible. You can use both effects in a single picture.",
+    "use": "Use opaque layers to repair a silhouette or change a sign. Use thinner color to connect areas while keeping the earlier marks visible.",
+    "period": "Twentieth-century acrylic painting.",
+    "examples": [
+      {
+        "label": "Helen Frankenthaler, Mauve District (1966), MoMA",
+        "href": "https://www.moma.org/collection/works/80712"
+      }
+    ]
+  },
+  "graphite": {
+    "history": "Graphite pencils have long served for studies and finished drawings. Graphite can be laid down with ordered strokes, smoothed, or lifted to recover a light.",
+    "effect": "Changing stroke density creates value without color. Drawing the darkest tones around the badge gives the white edge somewhere to stand out.",
+    "use": "Use graphite when a drawing needs revisions or precise tonal changes. Plan the dark surroundings before adding a bright reflection.",
+    "period": "Graphite portrait drawing in nineteenth-century Europe.",
+    "examples": [
+      {
+        "label": "Ingres, Madame Alexandre Lethière and Her Daughter Letizia (ca. 1815), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/337431"
+      }
+    ]
+  },
+  "linocut": {
+    "history": "In a linocut, a maker removes parts of a linoleum block and inks the surface that remains. The cut areas leave the paper exposed. Picasso used the method for complex layered prints as well as bold shapes.",
+    "effect": "The pale lines act like gaps between dark shapes. A strong outer contour still explains the handoff when the image is small.",
+    "use": "Use it for posters or decisive comic gestures. Check whether the handoff makes sense before adding small cuts and texture.",
+    "period": "Twentieth-century relief printmaking, linoleum cut.",
+    "examples": [
+      {
+        "label": "Pablo Picasso, Woman at the Spring, state three (1962, published 1963), MoMA",
+        "href": "https://www.moma.org/collection/works/76616"
+      }
+    ]
+  },
+  "screenprinting": {
+    "history": "Screenprinting pushes ink through open parts of a mesh stencil. A multicolor print can use a different stencil for each color. Registration is how the printer keeps those layers aligned.",
+    "effect": "Red and cyan read as a limited palette, with a third look where the layers overlap. Offsets show how even small shifts alter an edge.",
+    "use": "Use repeated flat colors for a poster or edition. Decide which overlaps are intentional and which edges need precise alignment for the design to read.",
+    "period": "Twentieth-century screenprint editions and Pop Art.",
+    "examples": [
+      {
+        "label": "Andy Warhol, Marilyn Monroe (1967), MoMA",
+        "href": "https://www.moma.org/collection/works/61240/"
+      }
+    ]
+  },
+  "cyanotype": {
+    "history": "Cyanotype is a light-sensitive process known for its deep blue. A contact print can be made by placing objects directly against sensitized paper. Anna Atkins and Anne Dixon used the method to record ferns.",
+    "effect": "The same exposure can render an opaque object as a silhouette and a more translucent object as a pale blue form. Overlap changes which details are visible.",
+    "use": "Use the contact-print idea to draw attention to an object’s outline or transparency. Arrange items so a reader can tell which shapes overlap.",
+    "period": "Nineteenth-century cameraless photography, including British botanical cyanotypes.",
+    "examples": [
+      {
+        "label": "Anna Atkins and Anne Dixon, Cyanotypes of British and Foreign Ferns (1853), Getty",
+        "href": "https://www.getty.edu/art/collection/object/107QHX"
+      }
+    ]
+  },
+  "egg-tempera": {
+    "history": "Egg tempera typically binds pigment with egg yolk. It dries quickly and is often painted over a prepared surface in thin strokes. Andrew Wyeth used tempera for Christina’s World.",
+    "effect": "Small neighboring marks build color and light while retaining their edges. Compare the even, matte appearance with the much thicker strokes in the acrylic study.",
+    "use": "Use this look when a scene should feel precise and still. Build a transition by changing the density and tint of small strokes.",
+    "period": "Egg tempera on panel, from historical European practice to twentieth-century painting.",
+    "examples": [
+      {
+        "label": "Andrew Wyeth, Christina’s World (1948), MoMA",
+        "href": "https://www.moma.org/collection/works/78455/"
+      }
+    ]
+  },
+  "etching": {
+    "history": "In etching, a needle exposes metal through a protective coating. Acid bites the exposed lines, which then hold ink for printing. Rembrandt’s The Three Trees also uses engraving and drypoint, so it shows how several metal-plate techniques can work together.",
+    "effect": "Dark lines can remain fine and freely drawn. They accumulate into shade, while unprinted sections keep bright surfaces separate.",
+    "use": "Use etched line where machinery, branches, or architecture need fine detail. Save the densest hatching for places that need particular depth or weight.",
+    "period": "European intaglio printmaking, including seventeenth-century Dutch etching.",
+    "examples": [
+      {
+        "label": "Rembrandt, The Three Trees (1643), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/354633"
+      }
+    ]
+  },
+  "lithography": {
+    "history": "Traditional lithography uses a flat surface such as limestone. A greasy drawing attracts printing ink, and dampened blank areas repel it. Nineteenth-century artists such as Honoré Daumier used the medium to publish prints.",
+    "effect": "Broad black areas, grainy gray, and untouched paper can all appear in one impression. The gray can look rubbed or drawn rather than built up from individual lines.",
+    "use": "Use a crayon lithography look when you want a printed scene to preserve broad, soft marks. Reserve sharper edges for the places where the reader should look first.",
+    "period": "Lithography in nineteenth-century French print culture.",
+    "examples": [
+      {
+        "label": "Honoré Daumier, Rue Transnonain, April 15, 1834 (1834), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/359156"
+      }
+    ]
+  },
+  "buon-fresco": {
+    "history": "In buon fresco, the painter applies pigments to fresh lime plaster. As the plaster sets, it binds the pigments into the wall. Because the surface must stay wet, painters can plan the work in separate sections called giornate.",
+    "effect": "Large forms and matte colors remain legible on a wall. The order in which the painter applies plaster can also affect where shapes and edges meet.",
+    "use": "Use the fresco comparison for a scene designed around a particular wall. Plan large forms from a distance, then consider where you would divide the work into sections.",
+    "period": "Wall painting on wet lime plaster, including twentieth-century murals.",
+    "examples": [
+      {
+        "label": "Diego Rivera, Detroit Industry Murals (1932–33), Detroit Institute of Arts",
+        "href": "https://dia.org/collection/detroit-industry-murals/58537"
+      }
+    ]
+  },
+  "pen-and-ink": {
+    "history": "Pen and ink can range from fine lines made with a narrow pen to broader marks made with a reed pen or brush. Rembrandt’s ink drawings show how a few lines can carry both detail and movement.",
+    "effect": "Line thickness helps separate a figure from the background. Parallel or crossed strokes can add shadow without the dark patch swallowing the handoff.",
+    "use": "Use strong outlines for a prop or action that must read quickly. Reserve finer lines for fingertips and other details that would feel heavy in solid black.",
+    "period": "Pen and ink drawing across periods, with a seventeenth-century Dutch example.",
+    "examples": [
+      {
+        "label": "Rembrandt, Cottage among Trees (ca. 1650), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/337491"
+      }
+    ]
+  },
+  "ink-wash": {
+    "history": "Brush painters across East Asia used diluted ink to build a range of tones. Sesshū Tōyō studied painting in China and carried forward Japanese Muromachi ink traditions. In his 1495 landscape, pooled and broken marks suggest terrain with few enclosing outlines.",
+    "effect": "A dark wash anchors the figure. Paler washes let the window and distant buildings emerge gradually, and gaps in the brushwork let the paper supply light.",
+    "use": "Use wash when changes in light or distance should carry the mood. Keep the darkest ink near the gesture you want the reader to notice first.",
+    "period": "East Asian brush painting, with an example from Muromachi Japan, 1495.",
+    "examples": [
+      {
+        "label": "Sesshū Tōyō, Landscape in Broken Ink (1495), Tokyo National Museum",
+        "href": "https://www.tnm.jp/modules/r_collection/index.php?colid=A282&controller=dtl&lang=en&t=now"
+      }
+    ]
+  },
+  "documentary-photography": {
+    "history": "During the Great Depression, Dorothea Lange photographed agricultural workers for a U.S. government relief program. She moved closer across several exposures of Florence Owens Thompson and her children. Thompson later disputed parts of Lange’s account, showing how a caption can shape the meaning of a photograph.",
+    "effect": "A camera at bench height gives the tools and hands room in the frame. The people near its edges suggest a shared workspace. A caption can supply verified context that the photograph alone cannot establish.",
+    "use": "Use documentary photography when the conditions around an event matter to the story. Check who, where, and when for the caption, and label staged or generated studies clearly so readers can judge what the image establishes.",
+    "period": "Documentary practice across periods, with a U.S. Depression-era example from 1936.",
+    "examples": [
+      {
+        "label": "Dorothea Lange, Migrant Mother, Nipomo, California (1936), MoMA",
+        "href": "https://www.moma.org/collection/works/50989"
+      }
+    ]
+  },
+  "greek-vase-painting": {
+    "history": "Athenian vase painters worked with both techniques in the late sixth century BCE. Some vessels used both on opposite sides. The Boston amphora gives viewers two versions of the same scene, Achilles and Ajax playing a game.",
+    "effect": "Black figures make the handoff read as two dark silhouettes. The red-figure rendering leaves more room for interior brush lines to describe knees, fingers, and folds.",
+    "use": "Use this paired study to see what changes when you keep a gesture fixed and reverse where dark and light sit. A clear silhouette helps a small image read quickly, while interior lines help describe a complicated pose.",
+    "period": "Archaic Greek pottery, Athens, late sixth century BCE.",
+    "examples": [
+      {
+        "label": "Two-handled jar with Achilles and Ajax (ca. 525–520 BCE), Museum of Fine Arts, Boston",
+        "href": "https://collections.mfa.org/objects/153408"
+      }
+    ]
+  },
+  "mughal-album-painting": {
+    "history": "The Shah Jahan Album began under the Mughal emperor Jahangir and grew under Shah Jahan. Its folios brought together individual portraits, studies of plants and animals, and calligraphy. Nanha’s portrait of Maharaja Bhim Kanwar sets an identifiable profile amid delicate flowers.",
+    "effect": "The profile makes the sitter’s attention legible. The plain field gives the sprig space at the center, and the ornament draws the eye around the margins at a slower pace.",
+    "use": "Use an album-page composition for a portrait the reader should study at close range, especially when a specimen or personal object reveals what the sitter cares about.",
+    "period": "Mughal court culture in South Asia, early seventeenth century.",
+    "examples": [
+      {
+        "label": "Nanha, Portrait of Maharaja Bhim Kanwar (ca. 1615–29), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/451265"
+      }
+    ]
+  },
+  "french-realism": {
+    "history": "Mid-nineteenth-century French Realists made contemporary life and ordinary labor subjects for serious painting. Jean-François Millet showed three women gathering leftover grain in The Gleaners, exhibited at the Paris Salon in 1857.",
+    "effect": "Two bent figures and a crowded bench keep the viewer close to the work. The muted colors and rough textures make the chipped wall and worn sleeves part of the story.",
+    "use": "Use this approach when a character’s skill or effort should define the scene. Show the tools, gestures, and wear that tell the reader what the task costs in time or attention.",
+    "period": "French Realism, mid-nineteenth century.",
+    "examples": [
+      {
+        "label": "Jean-François Millet, The Gleaners (1857), Musée d’Orsay",
+        "href": "https://www.musee-orsay.fr/en/artworks/des-glaneuses-342"
+      }
+    ]
+  },
 };

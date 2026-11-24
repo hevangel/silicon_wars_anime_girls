@@ -4,13 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#080d16">
-  <meta name="description" content="Compare 48 technique studies and 140 compositions inspired by Microsoft across sixty-two artistic styles.">
+  <meta name="description" content="Explore 89 studies of Microsoft across media, movements, and visual traditions.">
   <title>Microsoft Art Style Index — Silicon Wars Artwork</title>
   <link rel="icon" href="../../comics/chip.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../style.css?v=guided-studies">
-  <script src="style-guide.js?v=art-you-move-around" defer></script>
+  <link rel="stylesheet" href="../style.css?v=print-comparison">
+  <script src="style-guide.js?v=media-15" defer></script>
   <script src="style-dialog.js?v=art-history" defer></script>
   <script src="study-preview.js" defer></script>
+  <script src="catalog-search.js" defer></script>
 </head>
 <body class="painting-styles-page">
   <a class="skip-link" href="#main">Skip to artwork</a>
@@ -23,59 +24,34 @@
     <header class="piece-header">
       <p class="kicker">03 / Style study</p>
       <h1>Microsoft Art Style Index.</h1>
-      <p>Compare 48 technique studies of the Matriarch of Office in one seated pose, then explore 140 compositions spanning sixty-two artistic styles. Select any image to view it full size, or open its info button to compare the study with examples from art history.</p>
+      <p>Explore 89 studies of Microsoft across drawing, printmaking, photography, design, and art history. Select any image to view it full size, or open its info button to compare the study with examples from art history.</p>
     </header>
-    <nav class="style-jump" aria-label="Jump to a painting style">
-      <a href="#cel">Anime cel shading</a>
-      <a href="#manga">Manga ink and screentone</a>
-      <a href="#watercolor">Watercolor</a>
-      <a href="#digital">Digital painting</a>
-      <a href="#oil">Oil painting</a>
-      <a href="#gouache">Gouache</a>
-      <a href="#pencil">Colored pencil</a>
-      <a href="#woodblock">Woodblock-inspired print</a>
-      <a href="#charcoal">Charcoal drawing</a>
-      <a href="#collage">Paper collage</a>
-      <a href="#pastel">Soft pastel</a>
-      <a href="#pixel">Pixel art</a>
-      <a href="#art-nouveau">Art Nouveau</a>
-      <a href="#art-deco">Art Deco</a>
-      <a href="#cubism">Cubism</a>
-      <a href="#pop-art">Pop Art</a>
-      <a href="#impressionism">Impressionism</a>
-      <a href="#fauvism">Fauvism</a>
-      <a href="#expressionism">Expressionism</a>
-      <a href="#surrealism">Surrealism</a>
-      <a href="#constructivism">Constructivism</a>
-      <a href="#baroque">Baroque</a>
-      <a href="#futurism">Futurism</a>
-      <a href="#symbolism">Symbolism</a>
-      <a href="#ukiyo-e">Ukiyo-e</a>
-      <a href="#neoclassicism">Neoclassicism</a>
-      <a href="#romanticism">Romanticism</a>
-      <a href="#op-art">Op Art</a>
-      <a href="#persian-manuscript">Persian manuscript painting</a>
-      <a href="#byzantine-mosaic">Byzantine-inspired mosaic</a>
-      <a href="#dada">Dada photomontage</a>
-      <a href="#abstract-expressionism">Abstract Expressionism</a>
-      <a href="#chinese-ink-landscape">Chinese ink landscape</a>
-      <a href="#mexican-muralism">Mexican muralism</a>
-      <a href="#stained-glass">Stained glass</a>
-      <a href="#trompe-loeil">Trompe-l’œil</a>
-      <a href="#bauhaus">Bauhaus graphic design</a>
-      <a href="#renaissance-perspective">Renaissance perspective</a>
-      <a href="#geometry-and-space">Geometry and space</a>
-      <a href="#playful-design-and-futures">Playful design and imagined futures</a>
-      <a href="#ornament-detail-and-light">Ornament, detail, and light</a>
-      <a href="#story-pattern-and-perception">Story, pattern, and perception</a>
-      <a href="#how-pictures-carry-meaning">How pictures carry meaning</a>
-      <a href="#objects-gesture-and-rhythm">Objects, gesture, and rhythm</a>
-      <a href="#work-craft-and-spectacle">Work, craft, and spectacle</a>
-      <a href="#space-atmosphere-and-action">Space, atmosphere, and action</a>
-      <a href="#art-you-move-around">Art you move around</a>
+    <nav class="style-jump catalog-nav" aria-label="Style index sections">
+        <a href="#make-a-manga-panel">Start here</a>
+        <a href="#materials-and-techniques">Materials and techniques</a>
+        <a href="#history-and-visual-cultures">History and visual cultures</a>
+        <a href="#design-space-and-performance">Design, space, and performance</a>
+        <a href="#earlier-comparison-boards">Earlier comparison boards</a>
+        <a href="#reading-title">Guided comparisons</a>
     </nav>
+    <div class="catalog-search" hidden>
+      <label for="catalog-query">Find a study</label>
+      <input type="search" id="catalog-query" placeholder="Try ink, 1920s, or shadow">
+      <p id="catalog-results" role="status"></p>
+      <ul id="catalog-matches"></ul>
+    </div>
+    <section class="catalog-track" id="materials-and-techniques" aria-labelledby="materials-and-techniques-title">
+      <h2 id="materials-and-techniques-title">Materials and techniques</h2>
+      <nav class="style-jump" aria-label="Materials and techniques topics">
+        <a href="#make-a-manga-panel">Make a manga panel</a>
+        <a href="#drawing-paint-and-paper">Drawing, paint, and paper</a>
+        <a href="#prints-photographs-and-camera-vision">Prints, photographs, and camera vision</a>
+      </nav>
+      <section class="catalog-home" id="make-a-manga-panel" aria-labelledby="make-a-manga-panel-title">
+        <h3 id="make-a-manga-panel-title">Make a manga panel</h3>
+        <p>The same character in cel, ink, canvas, and pixels.</p>
     <section class="style-family" id="cel" aria-labelledby="cel-title">
-      <h2 id="cel-title">Anime cel shading</h2>
+      <h4 id="cel-title">Anime cel shading</h4>
       <p class="style-intro">Cel-style shadows divide a form into clear bands of light and dark. Compare the jacket folds across these four portraits to see how much depth can come from a single shadow shape.</p>
       <figure class="style-board">
         <a href="images/cel-studies.png" aria-label="Open the Anime cel shading comparison board full size">
@@ -90,7 +66,7 @@
       </dl>
     </section>
     <section class="style-family" id="manga" aria-labelledby="manga-title">
-      <h2 id="manga-title">Manga ink and screentone</h2>
+      <h4 id="manga-title">Manga ink and screentone</h4>
       <p class="style-intro">Without color, line weight and value carry the likeness. Compare how each treatment separates the glasses, face, and dark suit.</p>
       <figure class="style-board">
         <a href="images/manga-studies.png" aria-label="Open the Manga ink and screentone comparison board full size">
@@ -104,23 +80,8 @@
           <div><dt>Bottom right: Noir lighting</dt><dd>Concentrating the highlights around the face and glasses can pull attention away from a suit painted largely in black.</dd></div>
       </dl>
     </section>
-    <section class="style-family" id="watercolor" aria-labelledby="watercolor-title">
-      <h2 id="watercolor-title">Watercolor</h2>
-      <p class="style-intro">Transparent washes let the paper supply much of the light. Real watercolor spreads on damp paper and holds a firmer edge on dry paper, so moisture helps painters decide what recedes and what stays sharp.</p>
-      <figure class="style-board">
-        <a href="images/watercolor-studies.png" aria-label="Open the Watercolor comparison board full size">
-          <img class="piece-image" src="images/watercolor-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four watercolor studies of Microsoft seated and adjusting her glasses.">
-        </a>
-      </figure>
-      <dl class="style-board-notes">
-          <div><dt>Top left: Loose watercolor</dt><dd>The broken marks carry the gesture without tracing every contour. Compare the relatively clear face with the dissolving brushwork around the chair.</dd></div>
-          <div><dt>Top right: Controlled watercolor</dt><dd>Layering washes after earlier passages dry builds darker values with more control. Reserved lights help the white seat stay luminous.</dd></div>
-          <div><dt>Bottom left: Ink and watercolor</dt><dd>The line establishes structure, while the wash supplies color and volume. Look how the glasses remain crisp even where the shading is light.</dd></div>
-          <div><dt>Bottom right: Wet-on-wet watercolor</dt><dd>Color spreading into a damp wash creates diffuse boundaries. The softer shoulders and lower figure draw attention back to the clearer face.</dd></div>
-      </dl>
-    </section>
     <section class="style-family" id="digital" aria-labelledby="digital-title">
-      <h2 id="digital-title">Digital painting</h2>
+      <h4 id="digital-title">Digital painting</h4>
       <p class="style-intro">Digital brushes can imitate a smooth glaze, a dry mark, or a textured surface. These variants use different combinations of edge sharpness, brush texture, and lighting.</p>
       <figure class="style-board">
         <a href="images/digital-studies.png" aria-label="Open the Digital painting comparison board full size">
@@ -134,8 +95,42 @@
           <div><dt>Bottom right: Cinematic digital</dt><dd>A dominant light source gives the portrait a clear focal point. A restrained accent along the hair or shoulder helps separate it from darker shapes.</dd></div>
       </dl>
     </section>
+    <section class="style-family" id="pixel" aria-labelledby="pixel-title">
+      <h4 id="pixel-title">Pixel art</h4>
+      <p class="style-intro">At small sizes, groups of pixels have to carry each shape. Look for the few marks that still read as glasses, lapels, and a raised hand.</p>
+      <figure class="style-board">
+        <a href="images/pixel-studies.png" aria-label="Open the Pixel art comparison board full size">
+          <img class="piece-image" src="images/pixel-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four pixel art studies of Microsoft seated and adjusting her glasses.">
+        </a>
+      </figure>
+      <dl class="style-board-notes">
+          <div><dt>Top left: One-bit silhouette</dt><dd>Use two values. Open gaps around the hand and glasses keep the gesture legible against the dark suit.</dd></div>
+          <div><dt>Top right: Four-color portrait</dt><dd>Give each palette color more than one job. A dark blue can define the contour and shade the suit, while cream can light both the face and the seat.</dd></div>
+          <div><dt>Bottom left: Dithered shading</dt><dd>Alternate neighboring light and dark pixels to suggest a middle tone. Compare the patterned shadows with the solid areas that keep the edges clear.</dd></div>
+          <div><dt>Bottom right: Arcade sprite</dt><dd>Use strong outlines, compact color clusters, and selective bright accents. Check what survives when you look at the figure from across the room.</dd></div>
+      </dl>
+    </section>
+      </section>
+      <section class="catalog-home" id="drawing-paint-and-paper" aria-labelledby="drawing-paint-and-paper-title">
+        <h3 id="drawing-paint-and-paper-title">Drawing, paint, and paper</h3>
+        <p>What a mark, surface, or layer does to the picture.</p>
+    <section class="style-family" id="watercolor" aria-labelledby="watercolor-title">
+      <h4 id="watercolor-title">Watercolor</h4>
+      <p class="style-intro">Transparent washes let the paper supply much of the light. Real watercolor spreads on damp paper and holds a firmer edge on dry paper, so moisture helps painters decide what recedes and what stays sharp.</p>
+      <figure class="style-board">
+        <a href="images/watercolor-studies.png" aria-label="Open the Watercolor comparison board full size">
+          <img class="piece-image" src="images/watercolor-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four watercolor studies of Microsoft seated and adjusting her glasses.">
+        </a>
+      </figure>
+      <dl class="style-board-notes">
+          <div><dt>Top left: Loose watercolor</dt><dd>The broken marks carry the gesture without tracing every contour. Compare the relatively clear face with the dissolving brushwork around the chair.</dd></div>
+          <div><dt>Top right: Controlled watercolor</dt><dd>Layering washes after earlier passages dry builds darker values with more control. Reserved lights help the white seat stay luminous.</dd></div>
+          <div><dt>Bottom left: Ink and watercolor</dt><dd>The line establishes structure, while the wash supplies color and volume. Look how the glasses remain crisp even where the shading is light.</dd></div>
+          <div><dt>Bottom right: Wet-on-wet watercolor</dt><dd>Color spreading into a damp wash creates diffuse boundaries. The softer shoulders and lower figure draw attention back to the clearer face.</dd></div>
+      </dl>
+    </section>
     <section class="style-family" id="oil" aria-labelledby="oil-title">
-      <h2 id="oil-title">Oil painting</h2>
+      <h4 id="oil-title">Oil painting</h4>
       <p class="style-intro">These digital studies emulate oil painting. Their labels describe different things: impasto is about paint thickness, alla prima about how paint is applied, and chiaroscuro about the arrangement of light and dark.</p>
       <figure class="style-board">
         <a href="images/oil-studies.png" aria-label="Open the Oil painting comparison board full size">
@@ -150,7 +145,7 @@
       </dl>
     </section>
     <section class="style-family" id="gouache" aria-labelledby="gouache-title">
-      <h2 id="gouache-title">Gouache</h2>
+      <h4 id="gouache-title">Gouache</h4>
       <p class="style-intro">Opaque paint can cover an earlier color. Compared with the watercolor portraits, look for solid, light paint sitting over darker shapes.</p>
       <figure class="style-board">
         <a href="images/gouache-studies.png" aria-label="Open the Gouache comparison board full size">
@@ -165,7 +160,7 @@
       </dl>
     </section>
     <section class="style-family" id="pencil" aria-labelledby="pencil-title">
-      <h2 id="pencil-title">Colored pencil</h2>
+      <h4 id="pencil-title">Colored pencil</h4>
       <p class="style-intro">Pencil marks can describe both a surface and its direction. Compare visible stroke layers with dense, smoothed areas and untouched paper.</p>
       <figure class="style-board">
         <a href="images/pencil-studies.png" aria-label="Open the Colored pencil comparison board full size">
@@ -179,23 +174,8 @@
           <div><dt>Bottom right: Open paper</dt><dd>Sparse strokes leave the paper visible through the light areas. A few concentrated marks around the glasses and lanyard establish the focal point.</dd></div>
       </dl>
     </section>
-    <section class="style-family" id="woodblock" aria-labelledby="woodblock-title">
-      <h2 id="woodblock-title">Woodblock-inspired print</h2>
-      <p class="style-intro">A small set of ink shapes has to carry the portrait. Compare which features survive when the emphasis shifts from contours to silhouettes or texture.</p>
-      <figure class="style-board">
-        <a href="images/woodblock-studies.png" aria-label="Open the Woodblock-inspired print comparison board full size">
-          <img class="piece-image" src="images/woodblock-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four woodblock-inspired print studies of Microsoft seated and adjusting her glasses.">
-        </a>
-      </figure>
-      <dl class="style-board-notes">
-          <div><dt>Top left: Four-ink contour</dt><dd>A dark contour anchors the image while broad blocks of color distinguish the suit, hair, skin, and accents.</dd></div>
-          <div><dt>Top right: Two inks and paper</dt><dd>Indigo and vermilion can divide the scene into cool and warm areas. The exposed paper does the work of a third value.</dd></div>
-          <div><dt>Bottom left: Interlocking shapes</dt><dd>Carved-looking light cuts break up dark masses. Watch how the cube and jacket meet where there is little interior detail.</dd></div>
-          <div><dt>Bottom right: Graded ink</dt><dd>A restrained gradient inspired by bokashi can place the figure in a softer space while the cut contours remain crisp.</dd></div>
-      </dl>
-    </section>
     <section class="style-family" id="charcoal" aria-labelledby="charcoal-title">
-      <h2 id="charcoal-title">Charcoal drawing</h2>
+      <h4 id="charcoal-title">Charcoal drawing</h4>
       <p class="style-intro">Compare this board with manga ink and screentone. Charcoal can move from a thin contour to a broad shadow with the same tool, so the edge of a shadow can carry as much information as a line.</p>
       <figure class="style-board">
         <a href="images/charcoal-studies.png" aria-label="Open the Charcoal drawing comparison board full size">
@@ -209,23 +189,8 @@
           <div><dt>Bottom right: Charcoal on toned paper</dt><dd>Let the paper serve as the middle value. Charcoal builds the dark shapes, and white chalk picks out the planes that catch the light.</dd></div>
       </dl>
     </section>
-    <section class="style-family" id="collage" aria-labelledby="collage-title">
-      <h2 id="collage-title">Paper collage</h2>
-      <p class="style-intro">Every visible piece of paper is a choice about shape and overlap. Look for the smallest set of pieces that still reads as the same seated character.</p>
-      <figure class="style-board">
-        <a href="images/collage-studies.png" aria-label="Open the Paper collage comparison board full size">
-          <img class="piece-image" src="images/collage-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four paper collage studies of Microsoft seated and adjusting her glasses.">
-        </a>
-      </figure>
-      <dl class="style-board-notes">
-          <div><dt>Top left: Hard cut paper</dt><dd>Clean cut edges make the lapels, shoes, and cube read as distinct shapes. Compare the result with the flat gouache study.</dd></div>
-          <div><dt>Top right: Torn paper</dt><dd>Fibrous, uneven edges soften the joins and give the clothing a textured outline. The large shapes still need to read through those irregularities.</dd></div>
-          <div><dt>Bottom left: Layered textures</dt><dd>Papers with different surfaces help separate the blazer, hair, and seat. Slight shadows at the overlaps make the order of the layers visible.</dd></div>
-          <div><dt>Bottom right: Two-color silhouette</dt><dd>Use navy for connected dark shapes and cream for the open spaces. The gap around the raised hand helps reveal the gesture with very little detail.</dd></div>
-      </dl>
-    </section>
     <section class="style-family" id="pastel" aria-labelledby="pastel-title">
-      <h2 id="pastel-title">Soft pastel</h2>
+      <h4 id="pastel-title">Soft pastel</h4>
       <p class="style-intro">Compare the soft edges of pastel with the firmer joins in gouache. These four studies use the same pose to show what changes when you blend pigment, leave marks separate, or let the paper show.</p>
       <figure class="style-board">
         <a href="images/pastel-studies.png" aria-label="Open the Soft pastel comparison board full size">
@@ -239,206 +204,132 @@
           <div><dt>Bottom right: Sharp focal accents</dt><dd>Keep most edges soft, then put the crispest marks around the glasses and lanyard. The change in edge sharpness helps direct the eye.</dd></div>
       </dl>
     </section>
-    <section class="style-family" id="pixel" aria-labelledby="pixel-title">
-      <h2 id="pixel-title">Pixel art</h2>
-      <p class="style-intro">At small sizes, groups of pixels have to carry each shape. Look for the few marks that still read as glasses, lapels, and a raised hand.</p>
+    <section class="style-family" id="collage" aria-labelledby="collage-title">
+      <h4 id="collage-title">Paper collage</h4>
+      <p class="style-intro">Every visible piece of paper is a choice about shape and overlap. Look for the smallest set of pieces that still reads as the same seated character.</p>
       <figure class="style-board">
-        <a href="images/pixel-studies.png" aria-label="Open the Pixel art comparison board full size">
-          <img class="piece-image" src="images/pixel-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four pixel art studies of Microsoft seated and adjusting her glasses.">
+        <a href="images/collage-studies.png" aria-label="Open the Paper collage comparison board full size">
+          <img class="piece-image" src="images/collage-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four paper collage studies of Microsoft seated and adjusting her glasses.">
         </a>
       </figure>
       <dl class="style-board-notes">
-          <div><dt>Top left: One-bit silhouette</dt><dd>Use two values. Open gaps around the hand and glasses keep the gesture legible against the dark suit.</dd></div>
-          <div><dt>Top right: Four-color portrait</dt><dd>Give each palette color more than one job. A dark blue can define the contour and shade the suit, while cream can light both the face and the seat.</dd></div>
-          <div><dt>Bottom left: Dithered shading</dt><dd>Alternate neighboring light and dark pixels to suggest a middle tone. Compare the patterned shadows with the solid areas that keep the edges clear.</dd></div>
-          <div><dt>Bottom right: Arcade sprite</dt><dd>Use strong outlines, compact color clusters, and selective bright accents. Check what survives when you look at the figure from across the room.</dd></div>
+          <div><dt>Top left: Hard cut paper</dt><dd>Clean cut edges make the lapels, shoes, and cube read as distinct shapes. Compare the result with the flat gouache study.</dd></div>
+          <div><dt>Top right: Torn paper</dt><dd>Fibrous, uneven edges soften the joins and give the clothing a textured outline. The large shapes still need to read through those irregularities.</dd></div>
+          <div><dt>Bottom left: Layered textures</dt><dd>Papers with different surfaces help separate the blazer, hair, and seat. Slight shadows at the overlaps make the order of the layers visible.</dd></div>
+          <div><dt>Bottom right: Two-color silhouette</dt><dd>Use navy for connected dark shapes and cream for the open spaces. The gap around the raised hand helps reveal the gesture with very little detail.</dd></div>
       </dl>
     </section>
-    <section class="style-family movement-studies" id="artistic-styles" aria-labelledby="artistic-styles-title">
-      <h2 id="artistic-styles-title">Artistic styles</h2>
-      <p class="style-intro">The technique studies share a seated pose. These compositions let the style shape the entire image, from the gesture and viewpoint to the way the frame is arranged.</p>
-      <section class="style-family" id="art-nouveau" aria-labelledby="art-nouveau-title">
-        <h3 id="art-nouveau-title">Art Nouveau</h3>
-        <p class="style-intro">Curves connect the figure to the ornament. In these posters, the frame, lanyard, and plants help determine where the eye travels.</p>
-        <figure class="style-board">
-          <a href="images/art-nouveau-studies.png" aria-label="Open the Art Nouveau comparison board full size">
-            <img class="piece-image" src="images/art-nouveau-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Art Nouveau poster compositions featuring Microsoft in different poses and framings.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-            <div><dt>Top left: Botanical arch</dt><dd>Vines and the arch frame a standing figure. Follow the curve from the ornament into the turn of her shoulders.</dd></div>
-            <div><dt>Top right: Ribbon at the desk</dt><dd>The lanyard becomes an S curve. It leads the eye through the desk scene and ties the working gesture to the surrounding design.</dd></div>
-            <div><dt>Bottom left: Ginkgo medallion</dt><dd>A circular crop gives the glasses gesture a focal point. Repeating leaf shapes link the portrait to the frame.</dd></div>
-            <div><dt>Bottom right: Iris and reverse portrait</dt><dd>An over-the-shoulder pose echoes the sweep of the iris stems. The asymmetrical arrangement leaves room for the eye to move.</dd></div>
-        </dl>
+    <section class="style-family" id="acrylic" aria-labelledby="acrylic-title" data-kind="medium" data-tags="paint acrylic polymer layering glaze opacity brush mural">
+      <h4 id="acrylic-title">Acrylic painting</h4>
+      <p class="style-intro">Compare the opaque cobalt stroke with the thinner violet passage, where orange still shows through.</p>
+      <figure class="style-board">
+        <a href="images/acrylic-studies.png">
+          <img class="piece-image" src="images/acrylic-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft paints a cobalt stroke over older colors on an outdoor sign.">
+        </a>
+        <figcaption>Generated study simulating acrylic painting.</figcaption>
+      </figure>
+    </section>
+        <section class="style-family" id="egg-tempera" aria-labelledby="egg-tempera-title" data-kind="medium" data-tags="egg yolk paint panel matte fine layered strokes">
+          <h4 id="egg-tempera-title">Egg tempera</h4>
+          <p class="style-intro">Look at the short, dry-looking strokes on the face and wood. Their direction and spacing build a gradual change in tone.</p>
+          <figure class="style-board">
+            <a href="images/egg-tempera-studies.png">
+              <img class="piece-image" src="images/egg-tempera-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft examines a patterned mug in a workroom rendered with muted matte color.">
+            </a>
+            <figcaption>Generated study simulating egg tempera.</figcaption>
+          </figure>
+        </section>
+        <section class="style-family" id="buon-fresco" aria-labelledby="buon-fresco-title" data-kind="medium" data-tags="wet plaster lime wall painting mural giornata giornate true fresco">
+          <h4 id="buon-fresco-title">Buon fresco</h4>
+          <p class="style-intro">Look for where the plaster surface shows through the image. On a real fresco, a subtle join can indicate where one day’s plaster meets the next.</p>
+          <figure class="style-board">
+            <a href="images/buon-fresco-studies.png">
+              <img class="piece-image" src="images/buon-fresco-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A painted plaster wall shows Microsoft and a maintenance crew in a large scene with broad matte colors.">
+            </a>
+            <figcaption>Generated study simulating buon fresco.</figcaption>
+          </figure>
+        </section>
+    <section class="style-family" id="graphite" aria-labelledby="graphite-title" data-kind="medium" data-tags="pencil graphite value shading erasing tonal mark">
+      <h4 id="graphite-title">Graphite drawing</h4>
+      <p class="style-intro">Look at the jacket’s closely spaced lines and the almost-white badge edge. The brightness depends on the grays around it.</p>
+      <figure class="style-board">
+        <a href="images/graphite-studies.png">
+          <img class="piece-image" src="images/graphite-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft sorts badges in graphite gray. Closely spaced lines darken her jacket and a small highlight catches the edge of a badge.">
+        </a>
+        <figcaption>Generated study simulating graphite drawing.</figcaption>
+      </figure>
+    </section>
+        <section class="style-family" id="pen-and-ink" aria-labelledby="pen-and-ink-title" data-kind="medium" data-tags="pen ink illustration line weight drawing contour crosshatch brush stipple">
+          <h4 id="pen-and-ink-title">Pen and ink illustration</h4>
+          <p class="style-intro">Compare the thin outline of the receiving fingers with the broad black coat. Each uses a different amount of ink to hold its place in the picture.</p>
+          <figure class="style-board">
+            <a href="images/pen-and-ink-studies.png">
+              <img class="piece-image" src="images/pen-and-ink-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds out an access badge to a coworker. The hands use fine ink lines against large areas of solid black.">
+            </a>
+            <figcaption>Generated study simulating pen and ink illustration.</figcaption>
+          </figure>
+        </section>
+        <section class="style-family" id="ink-wash" aria-labelledby="ink-wash-title" data-kind="medium" data-tags="ink brush wash tonal value paper sumi-e haboku muromachi">
+          <h4 id="ink-wash-title">Ink wash</h4>
+          <p class="style-intro">Follow the jacket from a nearly black shoulder to a gray edge that fades into the paper.</p>
+          <figure class="style-board">
+            <a href="images/ink-wash-studies.png" aria-label="Open the Ink wash study full size">
+              <img class="piece-image" src="images/ink-wash-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft reads a folded sheet beside a window. Pale gray washes soften the room around her dark jacket.">
+            </a>
+            <figcaption>Generated study simulating ink wash.</figcaption>
+          </figure>
+        </section>
       </section>
-      <section class="style-family" id="art-deco" aria-labelledby="art-deco-title">
-        <h3 id="art-deco-title">Art Deco</h3>
-        <p class="style-intro">Stepped shapes, symmetry, and strong diagonals organize these posters. The same character can feel commanding in a centered pose or quick and alert in profile.</p>
-        <figure class="style-board">
-          <a href="images/art-deco-studies.png" aria-label="Open the Art Deco comparison board full size">
-            <img class="piece-image" src="images/art-deco-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Art Deco poster compositions featuring Microsoft in different poses and framings.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-            <div><dt>Top left: Skyscraper sunburst</dt><dd>Center the standing figure on the building&#x27;s vertical axis. Stepped towers and rays emphasize height and presence.</dd></div>
-            <div><dt>Top right: Diagonal profile</dt><dd>A compact profile holds against broad diagonal bands. The angular background adds movement while the glasses anchor the likeness.</dd></div>
-            <div><dt>Bottom left: Boardroom symmetry</dt><dd>A low viewpoint and repeated vertical panels give her seated pose authority. The eye follows the central axis straight to her face.</dd></div>
-            <div><dt>Bottom right: Octagonal close-up</dt><dd>Use a tight, angular frame and simplify the face into planes. The glasses carry the portrait even when most of the costume is out of view.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="cubism" aria-labelledby="cubism-title">
-        <h3 id="cubism-title">Cubism</h3>
-        <p class="style-intro">The figure is built from overlapping planes and more than one viewpoint. Her glasses, badge, and pose give you clues for putting the portrait back together.</p>
-        <figure class="style-board">
-          <a href="images/cubism-studies.png" aria-label="Open the Cubism comparison board full size">
-            <img class="piece-image" src="images/cubism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Cubism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Front and profile</dt><dd>Compare the straight-on face with the overlapping profile to its right. The subdued palette helps you follow the shifts in viewpoint.</dd></div>
-          <div><dt>Top right: Glasses across planes</dt><dd>The frames cut across separate planes of color. Follow them through the composition to see how they hold the face together.</dd></div>
-          <div><dt>Bottom left: Cut-paper construction</dt><dd>A few broad pieces, a grid, and the four-square emblem suggest a whole figure. Compare this with the earlier paper collage study, which preserves the original pose.</dd></div>
-          <div><dt>Bottom right: Figure and desk</dt><dd>Look for surfaces seen from above alongside the figure seen from the front. The shared angles make the desk and figure part of one structure.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="pop-art" aria-labelledby="pop-art-title">
-        <h3 id="pop-art-title">Pop Art</h3>
-        <p class="style-intro">These posters borrow from comics, advertising, and commercial printing. Repetition, punchy color, and enlarged everyday objects turn the portrait into a graphic event.</p>
-        <figure class="style-board">
-          <a href="images/pop-art-studies.png" aria-label="Open the Pop Art comparison board full size">
-            <img class="piece-image" src="images/pop-art-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Pop Art compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Comic close-up</dt><dd>Bold ink outlines and dot patterns make the glasses adjustment read like a single beat in a comic.</dd></div>
-          <div><dt>Top right: Screenprint repetition</dt><dd>Colored silhouettes stack and shift. Compare edges where the colors align with edges where they separate.</dd></div>
-          <div><dt>Bottom left: Badge poster</dt><dd>Enlarging a familiar office badge changes the visual hierarchy. It becomes the first thing you see, with Microsoft giving it scale.</dd></div>
-          <div><dt>Bottom right: Office icons</dt><dd>The oversized glasses, mug, and laptop become a small visual vocabulary. Orange and blue color blocks tie the objects to the cropped portrait.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="impressionism" aria-labelledby="impressionism-title">
-        <h3 id="impressionism-title">Impressionism</h3>
-        <p class="style-intro">Light is the subject of these scenes. Compare how changes in time, weather, and reflected color alter the way Microsoft and her surroundings read.</p>
-        <figure class="style-board">
-          <a href="images/impressionism-studies.png" aria-label="Open the Impressionism comparison board full size">
-            <img class="piece-image" src="images/impressionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Impressionism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Dappled garden</dt><dd>Sunlight breaks the blazer into patches of warm light and cool shade. The scattered marks connect the figure to the garden around her.</dd></div>
-          <div><dt>Top right: Rain at blue hour</dt><dd>Wet pavement repeats the storefront lights. Their reflections link the foreground to the distant buildings and help the street feel deep.</dd></div>
-          <div><dt>Bottom left: Window light</dt><dd>Compare the warmer marks near the window with the cooler shadows on the face. The temperature shift makes the light source feel present.</dd></div>
-          <div><dt>Bottom right: Riverside dawn</dt><dd>Weaker contrast softens the distant skyline. The more distinct edges of the near figure make the space between her and the city feel larger.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="fauvism" aria-labelledby="fauvism-title">
-        <h3 id="fauvism-title">Fauvism</h3>
-        <p class="style-intro">Compare this board with Impressionism just above it. Here the palette sets the mood and organizes the picture, even when the colors depart from what you would see in the scene.</p>
-        <figure class="style-board">
-          <a href="images/fauvism-studies.png" aria-label="Open the Fauvism comparison board full size">
-            <img class="piece-image" src="images/fauvism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Fauvism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Green and pink portrait</dt><dd>Green and pink make the face and background feel more intense. The eyes and glasses stay legible because their value contrast holds.</dd></div>
-          <div><dt>Top right: Orange office</dt><dd>Broad orange shapes bind the room together. Violet and blue separate the figure and desk without relying on detailed shading.</dd></div>
-          <div><dt>Bottom left: Cobalt silhouette</dt><dd>A mostly unbroken cobalt shape makes the pose readable at a glance. The bright background gives that silhouette more weight.</dd></div>
-          <div><dt>Bottom right: Violet and yellow window</dt><dd>Strong yellow and violet carry the contrast across the window and face. Follow where the yellows repeat beyond the window.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="expressionism" aria-labelledby="expressionism-title">
-        <h3 id="expressionism-title">Expressionism</h3>
-        <p class="style-intro">The color and space follow the mood of the scene. Notice how shifting the viewpoint or exaggerating a line changes how the figure feels.</p>
-        <figure class="style-board">
-          <a href="images/expressionism-studies.png" aria-label="Open the Expressionism comparison board full size">
-            <img class="piece-image" src="images/expressionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Expressionism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Deadline pressure</dt><dd>Lines lean inward around the desk. The crowded shapes and red surroundings make the room feel tense.</dd></div>
-          <div><dt>Top right: Empty corridor</dt><dd>The stretched corridor dwarfs the figure. Cool violet pushes the scene toward isolation.</dd></div>
-          <div><dt>Bottom left: Defiance</dt><dd>A low viewpoint and forceful diagonal strokes give the figure weight. The hand on her hip makes the gesture read quickly.</dd></div>
-          <div><dt>Bottom right: End of the day</dt><dd>A bent pose and abrupt framing suggest fatigue. Uneven green and blue marks carry that feeling into the space around her.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="surrealism" aria-labelledby="surrealism-title">
-        <h3 id="surrealism-title">Surrealism</h3>
-        <p class="style-intro">Familiar office objects follow the logic of a dream. Recognizable details make the impossible relationships easier to notice.</p>
-        <figure class="style-board">
-          <a href="images/surrealism-studies.png" aria-label="Open the Surrealism comparison board full size">
-            <img class="piece-image" src="images/surrealism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Surrealism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Flooded office</dt><dd>The desk floats while Microsoft stands in shallow water. The everyday office setting makes the break with gravity feel stranger.</dd></div>
-          <div><dt>Top right: Two skies</dt><dd>The lenses become separate windows into day and night. The glasses still frame the face, but they also break the scene into incompatible times.</dd></div>
-          <div><dt>Bottom left: Desk staircase</dt><dd>Desks repeat like steps and pull the eye along their edges. Perspective makes the structure readable even though it could not work as a staircase.</dd></div>
-          <div><dt>Bottom right: Sea behind the wall</dt><dd>An ordinary opening in a cubicle reveals an immense horizon. The change in scale does most of the work.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="constructivism" aria-labelledby="constructivism-title">
-        <h3 id="constructivism-title">Constructivism</h3>
-        <p class="style-intro">These posters use figure fragments, geometric shapes, and a tight palette as parts of a single layout. Look for the axis that organizes each composition.</p>
-        <figure class="style-board">
-          <a href="images/constructivism-studies.png" aria-label="Open the Constructivism comparison board full size">
-            <img class="piece-image" src="images/constructivism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Constructivism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Diagonal ascent</dt><dd>The figure and stair-like bars share an upward diagonal. Repetition turns a series of steps into a single strong direction.</dd></div>
-          <div><dt>Top right: Profile and wedges</dt><dd>A circle crops the head while wedges push against its edge. The open cream field gives the profile room to register.</dd></div>
-          <div><dt>Bottom left: Desk photomontage</dt><dd>Photo-like cutouts meet flat red planes. The jump between textures and scales helps the stationery compete with the figure.</dd></div>
-          <div><dt>Bottom right: Modular portrait</dt><dd>Rectangular blocks hold the front-facing portrait in a grid. The gaps between blocks help set its rhythm.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="baroque" aria-labelledby="baroque-title">
-        <h3 id="baroque-title">Baroque</h3>
-        <p class="style-intro">The lighting and gestures stage a moment for the viewer. Follow the diagonals and look for where the brightest shapes draw attention.</p>
-        <figure class="style-board">
-          <a href="images/baroque-studies.png" aria-label="Open the Baroque comparison board full size">
-            <img class="piece-image" src="images/baroque-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Baroque compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Boardroom entrance</dt><dd>A shaft of light picks out the doorway and the entering figure. The surrounding dark makes the entrance feel like an event.</dd></div>
-          <div><dt>Top right: Sweeping briefing</dt><dd>The table draws the eye into the scene, and the gesture sends it back across the room. Highlights on the papers reinforce the motion.</dd></div>
-          <div><dt>Bottom left: Candlelit briefing</dt><dd>A small source of light limits what is visible. Warm reflections on the glasses bring attention to her face.</dd></div>
-          <div><dt>Bottom right: Staircase portrait</dt><dd>A low viewpoint makes the figure feel imposing. The railing leads the eye up toward her.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="futurism" aria-labelledby="futurism-title">
-        <h3 id="futurism-title">Futurism</h3>
-        <p class="style-intro">Repetition lets successive moments occupy the same image. Compare how a raised hand, a running figure, a chair, and typing hands produce different rhythms.</p>
-        <figure class="style-board">
-          <a href="images/futurism-studies.png" aria-label="Open the Futurism comparison board full size">
-            <img class="piece-image" src="images/futurism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Futurism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Glasses in motion</dt><dd>Overlapping contours show steps in one small gesture. Follow the hand from its first position to the glasses.</dd></div>
-          <div><dt>Top right: Station rush</dt><dd>Repeated figures and receding platform lines point the same way. The architecture carries the motion across the picture.</dd></div>
-          <div><dt>Bottom left: Spinning chair</dt><dd>The chair and figure repeat around a curved path. The movement seems to turn around a point instead of traveling across the frame.</dd></div>
-          <div><dt>Bottom right: Typing sequence</dt><dd>Echoes of the typing hands make a fast rhythm across the keyboard. The cropped view gives the gesture most of the space.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="symbolism" aria-labelledby="symbolism-title">
-        <h3 id="symbolism-title">Symbolism</h3>
-        <p class="style-intro">The office objects suggest ideas about work and responsibility. Each image leaves room for more than one reading.</p>
-        <figure class="style-board">
-          <a href="images/symbolism-studies.png" aria-label="Open the Symbolism comparison board full size">
-            <img class="piece-image" src="images/symbolism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Symbolism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: The chain of duty</dt><dd>Linked badges turn the lanyard into a metaphor. Their weight can suggest responsibility, status, or obligation.</dd></div>
-          <div><dt>Top right: Procedure and instinct</dt><dd>The two lenses frame an ordered grid and scattered shapes. Read them as two ways of seeing the same work.</dd></div>
-          <div><dt>Bottom left: A desk in the balance</dt><dd>Putting the desk on scales makes work something that can be weighed. The empty space gives the metaphor room to register.</dd></div>
-          <div><dt>Bottom right: The office after hours</dt><dd>The colored window gives the empty office its focal point. The small figure in the doorway makes the room feel larger than any one person.</dd></div>
-        </dl>
-      </section>
+      <section class="catalog-home" id="prints-photographs-and-camera-vision" aria-labelledby="prints-photographs-and-camera-vision-title">
+        <h3 id="prints-photographs-and-camera-vision-title">Prints, photographs, and camera vision</h3>
+        <p>How an image is transferred, reproduced, captured, or interpreted.</p>
+        <section class="print-comparison" id="four-ways-to-pull-an-impression" aria-labelledby="print-comparison-title">
+          <h4 id="print-comparison-title">Four ways to pull an impression</h4>
+          <p>Compare what makes the darkest marks and what leaves the paper exposed. Open any square to read about its process.</p>
+          <div class="style-tile-grid">
+            <figure>
+              <a href="#woodblock" class="print-comparison-image print-comparison-crop" aria-label="Read about Woodblock">
+                <img src="images/woodblock-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Flat blocks of color and a dark contour in the four-ink woodblock study.">
+              </a>
+              <figcaption><strong>Woodblock</strong> · Cut-away wood stays pale. The raised areas carry the ink.</figcaption>
+            </figure>
+            <figure>
+              <a href="#linocut" class="print-comparison-image" aria-label="Read about Linocut">
+                <img src="images/linocut-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Two figures exchange a folder in a high-contrast black-and-white print study.">
+              </a>
+              <figcaption><strong>Linocut</strong> · Cut relief in linoleum leaves bold white gaps in black ink.</figcaption>
+            </figure>
+            <figure>
+              <a href="#etching" class="print-comparison-image" aria-label="Read about Etching">
+                <img src="images/etching-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft passes machinery on a city street rendered with fine lines and densely hatched shadows.">
+              </a>
+              <figcaption><strong>Etching</strong> · Ink held in bitten grooves prints the fine dark lines.</figcaption>
+            </figure>
+            <figure>
+              <a href="#lithography" class="print-comparison-image" aria-label="Read about Lithography">
+                <img src="images/lithography-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands on a platform rendered in broad black, gray, and white marks with a visible crayon-like grain.">
+              </a>
+              <figcaption><strong>Lithography</strong> · A flat printing surface can carry broad marks and preserve a drawn crayon grain.</figcaption>
+            </figure>
+          </div>
+        </section>
+    <section class="style-family" id="woodblock" aria-labelledby="woodblock-title">
+      <h4 id="woodblock-title">Woodblock-inspired print</h4>
+      <p class="style-intro">A small set of ink shapes has to carry the portrait. Compare which features survive when the emphasis shifts from contours to silhouettes or texture.</p>
+      <figure class="style-board">
+        <a href="images/woodblock-studies.png" aria-label="Open the Woodblock-inspired print comparison board full size">
+          <img class="piece-image" src="images/woodblock-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four woodblock-inspired print studies of Microsoft seated and adjusting her glasses.">
+        </a>
+      </figure>
+      <dl class="style-board-notes">
+          <div><dt>Top left: Four-ink contour</dt><dd>A dark contour anchors the image while broad blocks of color distinguish the suit, hair, skin, and accents.</dd></div>
+          <div><dt>Top right: Two inks and paper</dt><dd>Indigo and vermilion can divide the scene into cool and warm areas. The exposed paper does the work of a third value.</dd></div>
+          <div><dt>Bottom left: Interlocking shapes</dt><dd>Carved-looking light cuts break up dark masses. Watch how the cube and jacket meet where there is little interior detail.</dd></div>
+          <div><dt>Bottom right: Graded ink</dt><dd>A restrained gradient inspired by bokashi can place the figure in a softer space while the cut contours remain crisp.</dd></div>
+      </dl>
+    </section>
       <section class="style-family" id="ukiyo-e" aria-labelledby="ukiyo-e-title">
-        <h3 id="ukiyo-e-title">Ukiyo-e</h3>
+        <h4 id="ukiyo-e-title">Ukiyo-e</h4>
         <p class="style-intro">The <a href="#woodblock">woodblock board</a> studies the look of printed ink. Here, bold crops, off-center figures, and overlapping shapes show what the composition can do.</p>
         <figure class="style-board">
           <a href="images/ukiyo-e-studies.png" aria-label="Open the Ukiyo-e comparison board full size">
@@ -452,53 +343,125 @@
           <div><dt>Bottom right: Balcony rooftops</dt><dd>Overlapping roofs create bands of distance. The rail and figure establish the foreground, and the smaller roofs lead the eye into the city.</dd></div>
         </dl>
       </section>
-      <section class="style-family" id="neoclassicism" aria-labelledby="neoclassicism-title">
-        <h3 id="neoclassicism-title">Neoclassicism</h3>
-        <p class="style-intro">Compare these with the <a href="#baroque">Baroque</a> board. Level sight lines, measured poses, and architectural order give these scenes a quieter kind of authority.</p>
-        <figure class="style-board">
-          <a href="images/neoclassicism-studies.png" aria-label="Open the Neoclassicism comparison board full size">
-            <img class="piece-image" src="images/neoclassicism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Neoclassicism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Formal address</dt><dd>The central architecture and matching rows of chairs make the speaker the natural focus. Her upright gesture repeats the verticals behind her.</dd></div>
-          <div><dt>Top right: Profile and column</dt><dd>The profile reads against the stone through its clear contour. The column gives the head a stable vertical reference.</dd></div>
-          <div><dt>Bottom left: Boardroom frieze</dt><dd>The three figures read as a lateral grouping. Follow their heads and gestures from one side of the frame to the other.</dd></div>
-          <div><dt>Bottom right: Portrait with ledger</dt><dd>The head, arms, and ledger make a stable arrangement. The restrained gesture keeps attention on the sitter and the object she holds.</dd></div>
-        </dl>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="pictorialism" aria-labelledby="pictorialism-title">
+            <figure class="style-board">
+              <a href="images/pictorialism-studies.png" aria-label="Open the Pictorialist photography illustration full size">
+                <img class="piece-image" src="images/pictorialism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft waits beneath an amber lamp on a rain-dark street, with blue-gray buildings, a passerby, and reflections disappearing into mist.">
+              </a>
+            </figure>
+            <h4 id="pictorialism-title">Pictorialist photography</h4>
+            <p class="style-intro">Look from the soft halo of the lamp to the faint windows across the street. Compare those dusk tones with <a href="#tonalism">Tonalism</a> and the off-center framing with <a href="#ukiyo-e">ukiyo-e</a>.</p>
+          </section>
+          <section class="style-family style-tile" id="photorealism" aria-labelledby="photorealism-title">
+            <figure class="style-board">
+              <a href="images/photorealism-studies.png" aria-label="Open the Photorealism illustration full size">
+                <img class="piece-image" src="images/photorealism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft is seen through an office window at dusk, with streetlights and opposite buildings reflected across the glass.">
+              </a>
+            </figure>
+            <h4 id="photorealism-title">Photorealism</h4>
+            <p class="style-intro">Look for one detail behind the glass and one reflected on it. Both occupy the same pane, so your eye has to work out where the street ends and the office begins.</p>
+          </section>
+          <section class="style-family" id="linocut" aria-labelledby="linocut-title" data-kind="medium" data-tags="printmaking lino linoleum block relief graphic cut silhouette">
+            <h4 id="linocut-title">Linocut</h4>
+            <p class="style-intro">Trace the pale cuts around the glasses and edges of the folder. They separate shapes in the same dark mass.</p>
+            <figure class="style-board">
+              <a href="images/linocut-studies.png">
+                <img class="piece-image" src="images/linocut-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft passes a folder across a high-contrast arrangement of black ink and carved-looking white lines.">
+              </a>
+              <figcaption>Generated study simulating linocut.</figcaption>
+            </figure>
+          </section>
+        <section class="style-family" id="etching" aria-labelledby="etching-title" data-kind="medium" data-tags="intaglio copper plate etch acid bitten needle fine line hatching">
+          <h4 id="etching-title">Copperplate etching</h4>
+          <p class="style-intro">Follow the thin lines around a machine housing. The gaps between the lines help the machinery read through the darks.</p>
+          <figure class="style-board">
+            <a href="images/etching-studies.png">
+              <img class="piece-image" src="images/etching-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft passes machinery on a city street rendered with fine lines and densely hatched shadows.">
+            </a>
+            <figcaption>Generated study simulating copperplate etching.</figcaption>
+          </figure>
+        </section>
+        <section class="style-family" id="lithography" aria-labelledby="lithography-title" data-kind="medium" data-tags="lithographic limestone stone crayon grease planographic stipple gray grain">
+          <h4 id="lithography-title">Lithography</h4>
+          <p class="style-intro">Look for a gray patch that breaks into little flecks. A drawn-looking tone can survive the printing process.</p>
+          <figure class="style-board">
+            <a href="images/lithography-studies.png">
+              <img class="piece-image" src="images/lithography-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands on a platform rendered in broad black, gray, and white marks with a visible crayon-like grain.">
+            </a>
+            <figcaption>Generated study simulating lithography.</figcaption>
+          </figure>
+        </section>
+          <section class="style-family" id="screenprinting" aria-labelledby="screenprinting-title" data-kind="medium" data-tags="printmaking serigraphy silk screen screenprint ink spot color overprint registration">
+            <h4 id="screenprinting-title">Screenprinting</h4>
+            <p class="style-intro">Find an edge with a thin offset of color. Then look for the darker area where the colors seem to overlap.</p>
+            <figure class="style-board">
+              <a href="images/screenprinting-studies.png">
+                <img class="piece-image" src="images/screenprinting-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft arranges a poster in a lobby rendered with flat red and cyan shapes and a darker overlap.">
+              </a>
+              <figcaption>Generated study simulating screenprinting.</figcaption>
+            </figure>
+          </section>
+          <section class="style-family" id="cyanotype" aria-labelledby="cyanotype-title" data-kind="medium" data-tags="cameraless photography contact print blueprint photogram cyanotype fern">
+            <h4 id="cyanotype-title">Cyanotype</h4>
+            <p class="style-intro">Compare the nearly white badge with the thinner blue fern leaves. In a contact print, shapes that block more light leave a paler mark.</p>
+            <figure class="style-board">
+              <a href="images/cyanotype-studies.png">
+                <img class="piece-image" src="images/cyanotype-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Ferns, glasses, a hairclip, and a badge appear in pale and blue shades on deep-blue paper.">
+              </a>
+              <figcaption>Generated study simulating cyanotype.</figcaption>
+            </figure>
+          </section>
+          <section class="style-family" id="documentary-photography" aria-labelledby="documentary-photography-title" data-kind="medium" data-tags="photography documentary black and white framing captions staging evidence dorothea lange">
+            <h4 id="documentary-photography-title">Documentary photography</h4>
+            <p class="style-intro">Look from the radio to the people at the edge of the frame. What can you tell about the repair from the image alone?</p>
+            <figure class="style-board">
+              <a href="images/documentary-photography-studies.png" aria-label="Open the Documentary photography study full size">
+                <img class="piece-image" src="images/documentary-photography-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A black-and-white scene at bench level shows Microsoft testing a radio among repair tools, with other people visible nearby.">
+              </a>
+              <figcaption>Generated, staged documentary-style study of a fictional repair shop.</figcaption>
+            </figure>
+          </section>
+        </div>
       </section>
-      <section class="style-family" id="romanticism" aria-labelledby="romanticism-title">
-        <h3 id="romanticism-title">Romanticism</h3>
-        <p class="style-intro">Weather and architecture change the scale of the story. Look at how much of each scene belongs to the surroundings and how little is needed to place Microsoft in it.</p>
-        <figure class="style-board">
-          <a href="images/romanticism-studies.png" aria-label="Open the Romanticism comparison board full size">
-            <img class="piece-image" src="images/romanticism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Romanticism compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Rooftop before the storm</dt><dd>The cloud mass is much larger than the figure. Her small outline gives the approaching storm a scale the sky could not show on its own.</dd></div>
-          <div><dt>Top right: Vast atrium</dt><dd>Repeated arches and floor lines carry the eye away from the figure. The distant light makes the interior feel larger still.</dd></div>
-          <div><dt>Bottom left: Windswept bridge</dt><dd>The long span leads into the dusk sky. Small signs of wind in her hair or clothing connect her to the larger weather.</dd></div>
-          <div><dt>Bottom right: Lone office window</dt><dd>One warm window interrupts the dark skyline. The contrast makes a tiny figure legible and turns the city into a setting for solitude.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="op-art" aria-labelledby="op-art-title">
-        <h3 id="op-art-title">Op Art</h3>
-        <p class="style-intro">Compare these with <a href="#futurism">Futurism</a>. Here the figure stays still while repeated lines, contrast, and changes in spacing make the space seem to move.</p>
-        <figure class="style-board">
-          <a href="images/op-art-studies.png" aria-label="Open the Op Art comparison board full size">
-            <img class="piece-image" src="images/op-art-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Op Art compositions featuring Microsoft.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Warped grid</dt><dd>Rectangles appear to stretch where the lines bend or crowd together. The still figure gives you something to measure the distortion against.</dd></div>
-          <div><dt>Top right: Vibrating stripes</dt><dd>Alternating light and dark bands seem to shift against one another. The solid areas on the figure offer a place for the eye to rest.</dd></div>
-          <div><dt>Bottom left: Concentric rings</dt><dd>Rings draw attention toward their center near the glasses. Spacing changes affect how tightly the pattern seems to pull inward.</dd></div>
-          <div><dt>Bottom right: Bending checkerboard</dt><dd>Changes in tile size and direction make a flat pattern look like a surface that curves. The seated pose helps anchor the illusion.</dd></div>
-        </dl>
-      </section>
+    </section>
+    <section class="catalog-track" id="history-and-visual-cultures" aria-labelledby="history-and-visual-cultures-title">
+      <h2 id="history-and-visual-cultures-title">History and visual cultures</h2>
+      <nav class="style-jump" aria-label="History and visual cultures topics">
+        <a href="#stories-on-walls-and-pages">Stories on walls and pages</a>
+        <a href="#pattern-craft-and-objects">Pattern, craft, and objects</a>
+        <a href="#stage-a-figure-or-a-room">Stage a figure or a room</a>
+        <a href="#work-and-public-life">Work and public life</a>
+        <a href="#light-weather-and-landscape">Light, weather, and landscape</a>
+        <a href="#emotion-dreams-and-metaphor">Emotion, dreams, and metaphor</a>
+        <a href="#abstraction-geometry-and-optical-motion">Abstraction, geometry, and optical motion</a>
+      </nav>
+      <section class="catalog-home" id="stories-on-walls-and-pages" aria-labelledby="stories-on-walls-and-pages-title">
+        <h3 id="stories-on-walls-and-pages-title">Stories on walls and pages</h3>
+        <p>How a picture orders events, figures, and text across a surface.</p>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="egyptian-wall-painting" aria-labelledby="egyptian-wall-painting-title">
+            <figure class="style-board">
+              <a href="images/egyptian-wall-painting-studies.png" aria-label="Open the Ancient Egyptian wall painting illustration full size">
+                <img class="piece-image" src="images/egyptian-wall-painting-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft arrives at work, compares tablets at her desk, and closes the office at sunset across three horizontal bands painted on ochre plaster.">
+              </a>
+            </figure>
+            <h4 id="egyptian-wall-painting-title">Ancient Egyptian wall painting</h4>
+            <p class="style-intro">Read the bands from arrival to closing time. The same person appears three times so the wall can describe a whole day.</p>
+          </section>
+          <section class="style-family style-tile" id="greek-vase-painting" aria-labelledby="greek-vase-painting-title" data-kind="tradition" data-tags="ancient greek pottery ceramic vase bottle attic black figure red figure positive negative painted slip">
+            <figure class="style-board">
+              <a href="images/greek-vase-painting-studies.png" aria-label="Open the Greek black-figure and red-figure vase painting study full size">
+                <img class="piece-image" src="images/greek-vase-painting-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Two matching scenes show Microsoft and a colleague passing a tablet. Black figures stand on orange clay at left, and orange figures stand against black at right.">
+              </a>
+              <figcaption>Generated side-by-side comparison of the two vase-painting techniques.</figcaption>
+            </figure>
+            <h4 id="greek-vase-painting-title">Greek black-figure and red-figure vase painting</h4>
+            <p class="style-intro">Compare the sleeves. In black-figure, lines were scratched through the dark slip. In red-figure, lines were painted onto the exposed clay.</p>
+          </section>
+        </div>
       <section class="style-family" id="persian-manuscript" aria-labelledby="persian-manuscript-title">
-        <h3 id="persian-manuscript-title">Persian manuscript painting</h3>
+        <h4 id="persian-manuscript-title">Persian manuscript painting</h4>
         <p class="style-intro">Look at how walls, terraces, and textiles divide the page into places where different things can happen. <a href="https://resources.metmuseum.org/resources/metpublications/pdf/Metropolitan_Museum_Journal_v_53_2018.pdf">The Met on architecture in Safavid paintings</a></p>
         <figure class="style-board">
           <a href="images/persian-manuscript-studies.png" aria-label="Open the Persian manuscript painting comparison board full size">
@@ -512,8 +475,29 @@
           <div><dt>Bottom right: Patterned reading room</dt><dd>The open ledger and the quieter shape of the figure hold their own against patterned walls and textiles. Compare where the detail is concentrated.</dd></div>
         </dl>
       </section>
+        <section class="style-family" id="mughal-album-painting" aria-labelledby="mughal-album-painting-title" data-kind="tradition" data-tags="mughal india south asia shah jahan album folio opaque watercolor profile botanical floral border">
+          <h4 id="mughal-album-painting-title">Mughal album painting</h4>
+          <p class="style-intro">Notice how the narrow profile leaves room to examine the sprig, while the border invites a slower look around the page.</p>
+          <figure class="style-board">
+            <a href="images/mughal-album-painting-studies.png" aria-label="Open the Mughal album painting study full size">
+              <img class="piece-image" src="images/mughal-album-painting-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft studies a sprig in profile, with carefully painted plants below and a floral border around the page.">
+            </a>
+            <figcaption>Generated study inspired by Mughal album painting.</figcaption>
+          </figure>
+        </section>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="manuscript-illumination" aria-labelledby="manuscript-illumination-title">
+            <figure class="style-board">
+              <a href="images/manuscript-illumination-studies.png" aria-label="Open the Medieval European manuscript illumination illustration full size">
+                <img class="piece-image" src="images/manuscript-illumination-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft unlocks an office inside a large gold M on parchment, with a bubbling coffee pot and a spilled cup in the decorative margin.">
+              </a>
+            </figure>
+            <h4 id="manuscript-illumination-title">Medieval European manuscript illumination</h4>
+            <p class="style-intro">The gold M frames the office opening. Follow the vine to the lower right to find a second event already under way.</p>
+          </section>
+        </div>
       <section class="style-family" id="byzantine-mosaic" aria-labelledby="byzantine-mosaic-title">
-        <h3 id="byzantine-mosaic-title">Byzantine-inspired mosaic</h3>
+        <h4 id="byzantine-mosaic-title">Byzantine-inspired mosaic</h4>
         <p class="style-intro">Think of each small tile as a mark. Repeated colors make larger shapes, and changes in the direction of the rows can guide the eye around a form. <a href="https://www.metmuseum.org/art/collection/search/708074">Byzantine tesserae at The Met</a></p>
         <figure class="style-board">
           <a href="images/byzantine-mosaic-studies.png" aria-label="Open the Byzantine-inspired mosaic comparison board full size">
@@ -527,68 +511,8 @@
           <div><dt>Bottom right: Face in tesserae</dt><dd>Look at how the tile rows bend around the face and meet at the glasses. Their placement supplies detail where a painted portrait could use blending.</dd></div>
         </dl>
       </section>
-      <section class="style-family" id="dada" aria-labelledby="dada-title">
-        <h3 id="dada-title">Dada photomontage</h3>
-        <p class="style-intro">Office fragments change meaning when they are cut out, enlarged, and combined in surprising ways. Look for the visual joke each arrangement sets up. <a href="https://www.moma.org/collection/terms/dada">MoMA on Dada</a></p>
-        <figure class="style-board">
-          <a href="images/dada-studies.png" aria-label="Open the Dada photomontage comparison board full size">
-            <img class="piece-image" src="images/dada-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Dada photomontage compositions interpreting the Microsoft character.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Calendar head</dt><dd>The calendar takes the place of a face. The glasses and hair still suggest a person, while the grid makes a joke about life organized around appointments.</dd></div>
-          <div><dt>Top right: Circular org chart</dt><dd>Follow the arrows around the composition. The arrows loop around a cast that includes a cat, a robot, and a duck, making the chart feel like a system that explains itself.</dd></div>
-          <div><dt>Bottom left: Stamp of approval</dt><dd>The stamp gains power by taking up more space than Microsoft or her desk. The imbalance turns a routine approval into a visual gag.</dd></div>
-          <div><dt>Bottom right: Office-scrap portrait</dt><dd>Stationery and photo fragments do double duty as office objects and facial features. Compare it with the paper collage board, where the pieces mainly preserve the likeness.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="abstract-expressionism" aria-labelledby="abstract-expressionism-title">
-        <h3 id="abstract-expressionism-title">Abstract Expressionism</h3>
-        <p class="style-intro">Here Microsoft is a starting point for an abstraction. See how much the marks and color can express when the figure is reduced to a few visual cues. <a href="https://www.moma.org/collection/terms/abstract-expressionism">MoMA on Abstract Expressionism</a></p>
-        <figure class="style-board">
-          <a href="images/abstract-expressionism-studies.png" aria-label="Open the Abstract Expressionism comparison board full size">
-            <img class="piece-image" src="images/abstract-expressionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Abstract Expressionism compositions interpreting the Microsoft character.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Swept ink gesture</dt><dd>A broad stroke gives the panel direction. Look for the paired marks that hint at glasses amid the faster movement.</dd></div>
-          <div><dt>Top right: Navy color field</dt><dd>A large area of color makes a narrow band and a small warm accent feel significant. Soft edges keep the field from reading as a flat diagram.</dd></div>
-          <div><dt>Bottom left: All-over marks</dt><dd>Drips and crossings spread attention across the picture. A trace of glasses can emerge briefly before your eye moves on.</dd></div>
-          <div><dt>Bottom right: Four-color pressure</dt><dd>The familiar four colors meet a scraped dark mass. Their spacing and size make the rectangles feel pressed together.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="chinese-ink-landscape" aria-labelledby="chinese-ink-landscape-title">
-        <h3 id="chinese-ink-landscape-title">Chinese ink landscape</h3>
-        <p class="style-intro">Compare these with <a href="#romanticism">Romanticism</a>. Here pale ink and open paper suggest distance, while a few dark strokes establish the foreground. <a href="https://www.metmuseum.org/exhibitions/listings/2008/anatomy-of-a-masterpiece/photo-gallery">The Met on Chinese landscape composition</a></p>
-        <figure class="style-board">
-          <a href="images/chinese-ink-landscape-studies.png" aria-label="Open the Chinese ink landscape comparison board full size">
-            <img class="piece-image" src="images/chinese-ink-landscape-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Chinese ink landscape compositions inspired by the Microsoft character.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: River commute</dt><dd>The ferry gives scale to an otherwise open expanse. Pale washes let the opposite bank fade into mist.</dd></div>
-          <div><dt>Top right: Mountain data center</dt><dd>The small building and figure tell you how tall the peaks are. Darker marks on the near path make the paler mountain layers recede.</dd></div>
-          <div><dt>Bottom left: Rain from a pavilion</dt><dd>The dark pavilion holds the foreground while pale slopes show through the rain. Compare the edges of the roof with those of the distant mountains.</dd></div>
-          <div><dt>Bottom right: Riverside handscroll</dt><dd>Follow the bank, bridge, and figure across the horizontal composition. The changing clusters of trees and open water give the eye places to pause.</dd></div>
-        </dl>
-      </section>
-      <section class="style-family" id="mexican-muralism" aria-labelledby="mexican-muralism-title">
-        <h3 id="mexican-muralism-title">Mexican muralism</h3>
-        <p class="style-intro">These studies borrow the movement’s emphasis on public storytelling and collective work. Follow the people and the tasks that connect them across the wall. <a href="https://www.moma.org/collection/terms/mexican-muralism">MoMA on Mexican muralism</a></p>
-        <figure class="style-board">
-          <a href="images/mexican-muralism-studies.png" aria-label="Open the Mexican muralism comparison board full size">
-            <img class="piece-image" src="images/mexican-muralism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Mexican muralism compositions inspired by the Microsoft character.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Building the network</dt><dd>The workers, tools, and cable form a connected group. Microsoft’s plan gives her a role in the work the others are doing.</dd></div>
-          <div><dt>Top right: Night-shift repair</dt><dd>Arms and tools point toward the equipment. Repeated gestures make the repair visible as a shared task.</dd></div>
-          <div><dt>Bottom left: Library lesson</dt><dd>Books and screens create a path between the people teaching and learning. The composition lets the viewer discover more than one exchange.</dd></div>
-          <div><dt>Bottom right: Four generations of work</dt><dd>A shared horizontal arrangement connects the scenes. The tools change from one generation to the next, giving the wall a way to show time.</dd></div>
-        </dl>
-      </section>
       <section class="style-family" id="stained-glass" aria-labelledby="stained-glass-title">
-        <h3 id="stained-glass-title">Stained glass</h3>
+        <h4 id="stained-glass-title">Stained glass</h4>
         <p class="style-intro">Compare this with <a href="#byzantine-mosaic">Byzantine-inspired mosaic</a>. Dark lead lines define pieces of colored glass, and transmitted light brings the larger shapes to life. <a href="https://www.metmuseum.org/art/collection/search/701086">The Met on leaded glass</a></p>
         <figure class="style-board">
           <a href="images/stained-glass-studies.png" aria-label="Open the Stained glass comparison board full size">
@@ -602,38 +526,96 @@
           <div><dt>Bottom right: Light across an empty desk</dt><dd>The window is suggested through the color it projects onto the desk. The glasses and badge identify the absent sitter.</dd></div>
         </dl>
       </section>
-      <section class="style-family" id="trompe-loeil" aria-labelledby="trompe-loeil-title">
-        <h3 id="trompe-loeil-title">Trompe-l’œil</h3>
-        <p class="style-intro">Each scene sets up an edge that an object appears to cross. Look at how overlap, shadows, and perspective make the object seem to occupy the viewer’s space. <a href="https://www.nga.gov/exhibitions/deceptions-and-illusions">National Gallery of Art on trompe-l’œil</a></p>
+      </section>
+      <section class="catalog-home" id="pattern-craft-and-objects" aria-labelledby="pattern-craft-and-objects-title">
+        <h3 id="pattern-craft-and-objects-title">Pattern, craft, and objects</h3>
+        <p>What a repeat, the objects on a shelf, or a handmade frame can communicate.</p>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="mithila" aria-labelledby="mithila-title">
+            <figure class="style-board">
+              <a href="images/mithila-studies.png" aria-label="Open the Mithila painting illustration full size">
+                <img class="piece-image" src="images/mithila-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and coworkers sit around a meal drawn with intricate lines and flat colors inside a patterned border that echoes the dishes.">
+              </a>
+            </figure>
+            <h4 id="mithila-title">Mithila painting</h4>
+            <p class="style-intro">Start at the shared meal, then see where the border repeats shapes from the dishes. The precise linework gives the people and the food equal attention.</p>
+          </section>
+          <section class="style-family style-tile" id="rinpa" aria-labelledby="rinpa-title">
+            <figure class="style-board">
+              <a href="images/rinpa-studies.png" aria-label="Open the Rinpa illustration full size">
+                <img class="piece-image" src="images/rinpa-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft walks to the right across a gold folding-screen design, with groups of indigo irises and green leaves along the lower edge.">
+              </a>
+            </figure>
+            <h4 id="rinpa-title">Rinpa</h4>
+            <p class="style-intro">Follow the irises along the lower edge. The open gold gives each cluster a pause and leaves room for Microsoft’s next step.</p>
+          </section>
+          <section class="style-family style-tile" id="chaekgeori" aria-labelledby="chaekgeori-title">
+            <figure class="style-board">
+              <a href="images/chaekgeori-studies.png" aria-label="Open the Korean chaekgeori illustration full size">
+                <img class="piece-image" src="images/chaekgeori-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft reaches for a worn blue notebook amid painted shelves of books, ceramics, software boxes, and a globe.">
+              </a>
+            </figure>
+            <h4 id="chaekgeori-title">Korean chaekgeori</h4>
+            <p class="style-intro">Start with the notebook Microsoft reaches for. Then scan the compartments for objects that suggest what she studies, uses, and keeps.</p>
+          </section>
+          <section class="style-family style-tile" id="ayacucho-retablo" aria-labelledby="ayacucho-retablo-title">
+            <figure class="style-board">
+              <a href="images/ayacucho-retablo-studies.png" aria-label="Open the Ayacucho retablo illustration full size">
+                <img class="piece-image" src="images/ayacucho-retablo-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="An open wooden box with flower-painted doors contains two miniature scenes. Microsoft helps set up a computer fair above and welcomes visitors below.">
+              </a>
+            </figure>
+            <h4 id="ayacucho-retablo-title">Ayacucho retablo</h4>
+            <p class="style-intro">The same computer appears on both levels. Upstairs the organizers set it up, and downstairs visitors gather around it. The painted doors frame both scenes as one event.</p>
+          </section>
+          <section class="style-family style-tile" id="story-quilt" aria-labelledby="story-quilt-title">
+            <figure class="style-board">
+              <a href="images/story-quilt-studies.png" aria-label="Open the Narrative story quilts illustration full size">
+                <img class="piece-image" src="images/story-quilt-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A stitched patchwork border frames a rooftop meal with Microsoft and her coworkers. Four small corner scenes show moments from her week.">
+              </a>
+            </figure>
+            <h4 id="story-quilt-title">Narrative story quilts</h4>
+            <p class="style-intro">The rooftop meal reads first. Look closer at the four corners to see Microsoft walking to work, fixing a computer, buying food, and setting a plate.</p>
+          </section>
+          <section class="style-family style-tile" id="rococo" aria-labelledby="rococo-title">
+            <figure class="style-board">
+            <a href="images/rococo-studies.png" aria-label="Open the Rococo illustration full size">
+              <img class="piece-image" src="images/rococo-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft sits in a rose-pink chair beside a porcelain cup in a pastel salon with gilded shell ornament.">
+            </a>
+            </figure>
+            <h4 id="rococo-title">Rococo</h4>
+            <p class="style-intro">Trace the shell relief, chair back, and gilt table legs. Their curves echo one another, drawing the eye around the salon and down to the porcelain cup. <a href="https://www.metmuseum.org/essays/french-furniture-in-the-eighteenth-century-seat-furniture">The Met on French Rococo furniture</a></p>
+          </section>
+          <section class="style-family style-tile" id="arts-and-crafts" aria-labelledby="arts-and-crafts-title">
+            <figure class="style-board">
+              <a href="images/arts-and-crafts-studies.png" aria-label="Open the Arts and Crafts illustration full size">
+                <img class="piece-image" src="images/arts-and-crafts-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft reads in an oak chair in front of a repeating wallpaper pattern of pink roses, small birds, and climbing vines.">
+              </a>
+            </figure>
+            <h4 id="arts-and-crafts-title">Arts and Crafts</h4>
+            <p class="style-intro">Trace one vine until you see where its shape repeats. Look for the same colors and plant forms in the book, cushion, and lamp.</p>
+          </section>
+        </div>
+      <section class="style-family" id="art-nouveau" aria-labelledby="art-nouveau-title">
+        <h4 id="art-nouveau-title">Art Nouveau</h4>
+        <p class="style-intro">Curves connect the figure to the ornament. In these posters, the frame, lanyard, and plants help determine where the eye travels.</p>
         <figure class="style-board">
-          <a href="images/trompe-loeil-studies.png" aria-label="Open the Trompe-l’œil comparison board full size">
-            <img class="piece-image" src="images/trompe-loeil-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Trompe-l’œil compositions inspired by the Microsoft character.">
+          <a href="images/art-nouveau-studies.png" aria-label="Open the Art Nouveau comparison board full size">
+            <img class="piece-image" src="images/art-nouveau-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Art Nouveau poster compositions featuring Microsoft in different poses and framings.">
           </a>
         </figure>
         <dl class="style-board-notes">
-          <div><dt>Top left: Glasses across the frame</dt><dd>The spectacles appear to sit in front of the portrait. Their overlap and small cast shadow tell you which surface is closer.</dd></div>
-          <div><dt>Top right: Badge off the page</dt><dd>The badge seems to hang over the illustration. Follow the shadow to see where the paper ends and the object appears to lift away.</dd></div>
-          <div><dt>Bottom left: Shallow office cabinet</dt><dd>The cabinet only needs a little depth for the tools to feel reachable. Edges and contact shadows explain how each object sits.</dd></div>
-          <div><dt>Bottom right: Hand through the doorway</dt><dd>The file and hand reach past the painted opening. The doorway gives your eye a boundary to compare with the projecting gesture.</dd></div>
+            <div><dt>Top left: Botanical arch</dt><dd>Vines and the arch frame a standing figure. Follow the curve from the ornament into the turn of her shoulders.</dd></div>
+            <div><dt>Top right: Ribbon at the desk</dt><dd>The lanyard becomes an S curve. It leads the eye through the desk scene and ties the working gesture to the surrounding design.</dd></div>
+            <div><dt>Bottom left: Ginkgo medallion</dt><dd>A circular crop gives the glasses gesture a focal point. Repeating leaf shapes link the portrait to the frame.</dd></div>
+            <div><dt>Bottom right: Iris and reverse portrait</dt><dd>An over-the-shoulder pose echoes the sweep of the iris stems. The asymmetrical arrangement leaves room for the eye to move.</dd></div>
         </dl>
       </section>
-      <section class="style-family" id="bauhaus" aria-labelledby="bauhaus-title">
-        <h3 id="bauhaus-title">Bauhaus graphic design</h3>
-        <p class="style-intro">Compare the geometry with <a href="#constructivism">Constructivism</a>. Here the shapes and type are arranged to tell you what to read first and what to do next. <a href="https://www.moma.org/artists/399">MoMA on Herbert Bayer</a></p>
-        <figure class="style-board">
-          <a href="images/bauhaus-studies.png" aria-label="Open the Bauhaus graphic design comparison board full size">
-            <img class="piece-image" src="images/bauhaus-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A lecture poster, a library sign, a magazine cover, and a training poster combine type with geometric shapes.">
-          </a>
-        </figure>
-        <dl class="style-board-notes">
-          <div><dt>Top left: Lecture poster</dt><dd>The large title establishes the reading order. The gray portrait and the red circle carry different amounts of visual weight.</dd></div>
-          <div><dt>Top right: Library wayfinding</dt><dd>The word and arrow work together. Open space around them lets the direction register quickly.</dd></div>
-          <div><dt>Bottom left: Magazine cover</dt><dd>The profile crop and the title divide the space at different scales. Look at which edges line up across the two.</dd></div>
-          <div><dt>Bottom right: Training poster</dt><dd>The title tells you what to look for. The diagrams and the pointing gesture give you a place to begin.</dd></div>
-        </dl>
       </section>
+      <section class="catalog-home" id="stage-a-figure-or-a-room" aria-labelledby="stage-a-figure-or-a-room-title">
+        <h3 id="stage-a-figure-or-a-room-title">Stage a figure or a room</h3>
+        <p>Where the viewer stands, what light reveals, and how a gesture gains importance.</p>
       <section class="style-family" id="renaissance-perspective" aria-labelledby="renaissance-perspective-title">
-        <h3 id="renaissance-perspective-title">Renaissance perspective</h3>
+        <h4 id="renaissance-perspective-title">Renaissance perspective</h4>
         <p class="style-intro">Follow the receding lines to see where the pictures direct your attention. Compare the approach with the layered rooms of the <a href="#persian-manuscript">Persian manuscript board</a>. <a href="https://resources.metmuseum.org/resources/metpublications/pdf/looking_to_connect_with_european_paintings_visual_approaches_for_teaching_in_the_galleries.pdf">The Met’s guide to spatial depth</a></p>
         <figure class="style-board">
           <a href="images/renaissance-perspective-studies.png" aria-label="Open the Renaissance perspective comparison board full size">
@@ -647,109 +629,164 @@
           <div><dt>Bottom right: Open window</dt><dd>The sill marks a near edge, and the city beyond supplies the distant lines. The window acts as a frame within the scene.</dd></div>
         </dl>
       </section>
-      <section class="style-group" id="geometry-and-space" aria-labelledby="geometry-and-space-title">
-        <h3 id="geometry-and-space-title">Geometry and space</h3>
+      <section class="style-family" id="baroque" aria-labelledby="baroque-title">
+        <h4 id="baroque-title">Baroque</h4>
+        <p class="style-intro">The lighting and gestures stage a moment for the viewer. Follow the diagonals and look for where the brightest shapes draw attention.</p>
+        <figure class="style-board">
+          <a href="images/baroque-studies.png" aria-label="Open the Baroque comparison board full size">
+            <img class="piece-image" src="images/baroque-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Baroque compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Boardroom entrance</dt><dd>A shaft of light picks out the doorway and the entering figure. The surrounding dark makes the entrance feel like an event.</dd></div>
+          <div><dt>Top right: Sweeping briefing</dt><dd>The table draws the eye into the scene, and the gesture sends it back across the room. Highlights on the papers reinforce the motion.</dd></div>
+          <div><dt>Bottom left: Candlelit briefing</dt><dd>A small source of light limits what is visible. Warm reflections on the glasses bring attention to her face.</dd></div>
+          <div><dt>Bottom right: Staircase portrait</dt><dd>A low viewpoint makes the figure feel imposing. The railing leads the eye up toward her.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="neoclassicism" aria-labelledby="neoclassicism-title">
+        <h4 id="neoclassicism-title">Neoclassicism</h4>
+        <p class="style-intro">Compare these with the <a href="#baroque">Baroque</a> board. Level sight lines, measured poses, and architectural order give these scenes a quieter kind of authority.</p>
+        <figure class="style-board">
+          <a href="images/neoclassicism-studies.png" aria-label="Open the Neoclassicism comparison board full size">
+            <img class="piece-image" src="images/neoclassicism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Neoclassicism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Formal address</dt><dd>The central architecture and matching rows of chairs make the speaker the natural focus. Her upright gesture repeats the verticals behind her.</dd></div>
+          <div><dt>Top right: Profile and column</dt><dd>The profile reads against the stone through its clear contour. The column gives the head a stable vertical reference.</dd></div>
+          <div><dt>Bottom left: Boardroom frieze</dt><dd>The three figures read as a lateral grouping. Follow their heads and gestures from one side of the frame to the other.</dd></div>
+          <div><dt>Bottom right: Portrait with ledger</dt><dd>The head, arms, and ledger make a stable arrangement. The restrained gesture keeps attention on the sitter and the object she holds.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="trompe-loeil" aria-labelledby="trompe-loeil-title">
+        <h4 id="trompe-loeil-title">Trompe-l’œil</h4>
+        <p class="style-intro">Each scene sets up an edge that an object appears to cross. Look at how overlap, shadows, and perspective make the object seem to occupy the viewer’s space. <a href="https://www.nga.gov/exhibitions/deceptions-and-illusions">National Gallery of Art on trompe-l’œil</a></p>
+        <figure class="style-board">
+          <a href="images/trompe-loeil-studies.png" aria-label="Open the Trompe-l’œil comparison board full size">
+            <img class="piece-image" src="images/trompe-loeil-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Trompe-l’œil compositions inspired by the Microsoft character.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Glasses across the frame</dt><dd>The spectacles appear to sit in front of the portrait. Their overlap and small cast shadow tell you which surface is closer.</dd></div>
+          <div><dt>Top right: Badge off the page</dt><dd>The badge seems to hang over the illustration. Follow the shadow to see where the paper ends and the object appears to lift away.</dd></div>
+          <div><dt>Bottom left: Shallow office cabinet</dt><dd>The cabinet only needs a little depth for the tools to feel reachable. Edges and contact shadows explain how each object sits.</dd></div>
+          <div><dt>Bottom right: Hand through the doorway</dt><dd>The file and hand reach past the painted opening. The doorway gives your eye a boundary to compare with the projecting gesture.</dd></div>
+        </dl>
+      </section>
+      </section>
+      <section class="catalog-home" id="work-and-public-life" aria-labelledby="work-and-public-life-title">
+        <h3 id="work-and-public-life-title">Work and public life</h3>
+        <p>Who gets to act, who is the subject, and whose version of events fills the picture.</p>
         <div class="style-tile-grid">
-          <section class="style-family style-tile" id="de-stijl" aria-labelledby="de-stijl-title">
+          <section class="style-family style-tile" id="kalighat" aria-labelledby="kalighat-title">
             <figure class="style-board">
-            <a href="images/de-stijl-studies.png" aria-label="Open the De Stijl illustration full size">
-              <img class="piece-image" src="images/de-stijl-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft’s glasses and silhouette emerge from a grid of black lines and primary-color rectangles.">
-            </a>
+              <a href="images/kalighat-studies.png" aria-label="Open the Kalighat painting illustration full size">
+                <img class="piece-image" src="images/kalighat-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft sips coffee while a coworker bows deeply toward an empty red executive chair on a plain paper ground.">
+              </a>
             </figure>
-            <h4 id="de-stijl-title">De Stijl</h4>
-            <p class="style-intro">The grid does double duty as portrait and composition. Look for the glasses in the black bars and the clip and lanyard in the primary colors. Unequal rectangles keep the layout from feeling centered. <a href="https://www.moma.org/calendar/events/270">MoMA on De Stijl</a></p>
+            <h4 id="kalighat-title">Kalighat painting</h4>
+            <p class="style-intro">Look at the coworker’s deep bow, the empty chair, and Microsoft’s sideways glance. Three shapes give you the setup and the punch line.</p>
           </section>
-          <section class="style-family style-tile" id="precisionism" aria-labelledby="precisionism-title">
+          <section class="style-family style-tile" id="french-realism" aria-labelledby="french-realism-title" data-kind="movement" data-tags="french realism nineteenth century labor painting workshop millet courbet radio repair">
             <figure class="style-board">
-            <a href="images/precisionism-studies.png" aria-label="Open the Precisionism illustration full size">
-              <img class="piece-image" src="images/precisionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands below a data center facade and curved silver cooling pipes in slanting sunlight.">
-            </a>
+              <a href="images/french-realism-studies.png" aria-label="Open the French Realism study full size">
+                <img class="piece-image" src="images/french-realism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and another repair worker bend over the open back of a wooden radio in a worn workshop.">
+              </a>
+              <figcaption>Generated study inspired by nineteenth-century French Realism.</figcaption>
             </figure>
-            <h4 id="precisionism-title">Precisionism</h4>
-            <p class="style-intro">Follow the sharp transitions between light and shadow. The concrete facade reads as a set of broad planes, while the cooling pipes introduce a contrasting curve. Microsoft’s figure shows the scale of the machinery. <a href="https://americanart.si.edu/artist/charles-sheeler-4409">Smithsonian American Art Museum on Charles Sheeler</a></p>
+            <h4 id="french-realism-title">French Realism</h4>
+            <p class="style-intro">Start with the workers’ hands and follow their bent shoulders. Their concentration gives an ordinary repair the weight of a major event.</p>
           </section>
-          <section class="style-family style-tile" id="brutalism" aria-labelledby="brutalism-title">
+        </div>
+      <section class="style-family" id="mexican-muralism" aria-labelledby="mexican-muralism-title">
+        <h4 id="mexican-muralism-title">Mexican muralism</h4>
+        <p class="style-intro">These studies borrow the movement’s emphasis on public storytelling and collective work. Follow the people and the tasks that connect them across the wall. <a href="https://www.moma.org/collection/terms/mexican-muralism">MoMA on Mexican muralism</a></p>
+        <figure class="style-board">
+          <a href="images/mexican-muralism-studies.png" aria-label="Open the Mexican muralism comparison board full size">
+            <img class="piece-image" src="images/mexican-muralism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Mexican muralism compositions inspired by the Microsoft character.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Building the network</dt><dd>The workers, tools, and cable form a connected group. Microsoft’s plan gives her a role in the work the others are doing.</dd></div>
+          <div><dt>Top right: Night-shift repair</dt><dd>Arms and tools point toward the equipment. Repeated gestures make the repair visible as a shared task.</dd></div>
+          <div><dt>Bottom left: Library lesson</dt><dd>Books and screens create a path between the people teaching and learning. The composition lets the viewer discover more than one exchange.</dd></div>
+          <div><dt>Bottom right: Four generations of work</dt><dd>A shared horizontal arrangement connects the scenes. The tools change from one generation to the next, giving the wall a way to show time.</dd></div>
+        </dl>
+      </section>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="harlem-renaissance" aria-labelledby="harlem-renaissance-title">
             <figure class="style-board">
-            <a href="images/brutalism-studies.png" aria-label="Open the Brutalist illustration full size">
-              <img class="piece-image" src="images/brutalism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands below a monumental exposed concrete stairwell in sharply angled daylight.">
-            </a>
+              <a href="images/harlem-renaissance-studies.png" aria-label="Open the Harlem Renaissance mural and illustration illustration full size">
+                <img class="piece-image" src="images/harlem-renaissance-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A Black librarian shares an open book with a young reader while arcs of amber light connect students, a trumpet player, and Microsoft shelving books.">
+              </a>
             </figure>
-            <h4 id="brutalism-title">Brutalist architecture</h4>
-            <p class="style-intro">The heavy flights, exposed structure, and rough concrete make the stairwell feel substantial. Microsoft gives the building a sense of scale. Compare the surface texture with the smooth planes of <a href="#precisionism">Precisionism</a>. <a href="https://www.moma.org/collection/terms/brutalist-architecture">MoMA on Brutalist architecture</a></p>
+            <h4 id="harlem-renaissance-title">Harlem Renaissance mural and illustration</h4>
+            <p class="style-intro">Start at the open book, then follow the bands of light to the students and the trumpet player. Compare the profile silhouettes with the <a href="#egyptian-wall-painting">Egyptian wall-painting study</a>.</p>
           </section>
-          <section class="style-family style-tile" id="minimalism" aria-labelledby="minimalism-title">
+          <section class="style-family style-tile" id="new-objectivity" aria-labelledby="new-objectivity-title">
             <figure class="style-board">
-            <a href="images/minimalism-studies.png" aria-label="Open the Minimalism illustration full size">
-              <img class="piece-image" src="images/minimalism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands alongside a receding row of low brushed-metal blocks in a nearly empty gallery.">
-            </a>
+              <a href="images/new-objectivity-studies.png" aria-label="Open the New Objectivity illustration full size">
+                <img class="piece-image" src="images/new-objectivity-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft props her head on one hand beside a coffee mug and marked-up papers at a red conference table, with an empty chair next to her.">
+              </a>
             </figure>
-            <h4 id="minimalism-title">Minimalism</h4>
-            <p class="style-intro">Follow the evenly spaced metal blocks across the floor. The broad blank wall gives the repeated forms room, and Microsoft’s figure shows their scale. <a href="https://www.moma.org/collection/works/81324">MoMA on Donald Judd’s Untitled</a></p>
+            <h4 id="new-objectivity-title">New Objectivity</h4>
+            <p class="style-intro">Read the hand propping up her head, the coffee, and the empty chair. The portrait gives you enough clues to imagine the meeting that just ended.</p>
+          </section>
+          <section class="style-family style-tile" id="american-regionalism" aria-labelledby="american-regionalism-title">
+            <figure class="style-board">
+              <a href="images/american-regionalism-studies.png" aria-label="Open the American Regionalism illustration full size">
+                <img class="piece-image" src="images/american-regionalism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds a coiled cable and screwdriver beside a tabletop radio outside a clapboard repair shop on a small-town street.">
+              </a>
+            </figure>
+            <h4 id="american-regionalism-title">American Regionalism</h4>
+            <p class="style-intro">The screwdriver, radio, and shop window tell you what Microsoft does. The telephone lines and small houses connect that work to a particular town.</p>
+          </section>
+          <section class="style-family style-tile" id="socialist-realism" aria-labelledby="socialist-realism-title">
+            <figure class="style-board">
+              <a href="images/socialist-realism-studies.png" aria-label="Open the Soviet Socialist Realism illustration full size">
+                <img class="piece-image" src="images/socialist-realism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and data-center technicians work among tall server racks as bright golden light picks out their coordinated poses from a low viewpoint.">
+              </a>
+            </figure>
+            <h4 id="socialist-realism-title">Soviet Socialist Realism</h4>
+            <p class="style-intro">Look up from the cable to the pointing arm and bright windows. The scene presents labor as assured and coordinated. What parts of the job are missing from that view?</p>
           </section>
         </div>
       </section>
-      <section class="style-group" id="playful-design-and-futures" aria-labelledby="playful-design-and-futures-title">
-        <h3 id="playful-design-and-futures-title">Playful design and imagined futures</h3>
-        <div class="style-tile-grid">
-          <section class="style-family style-tile" id="psychedelic-poster" aria-labelledby="psychedelic-poster-title">
-            <figure class="style-board">
-            <a href="images/psychedelic-poster-studies.png" aria-label="Open the psychedelic illustration full size">
-              <img class="piece-image" src="images/psychedelic-poster-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="The words Office Hours bend around Microsoft’s face amid swirling magenta, orange, and blue shapes.">
-            </a>
-            </figure>
-            <h4 id="psychedelic-poster-title">Psychedelic poster art</h4>
-            <p class="style-intro">Compare this with the <a href="#bauhaus">Bauhaus Office Hours poster</a>. Here the letters bend around the portrait, and saturated colors meet along the curves to give the edges a vibrating quality. <a href="https://www.cooperhewitt.org/2013/01/29/good-vibrations/">Cooper Hewitt on psychedelic posters</a></p>
-          </section>
-          <section class="style-family style-tile" id="memphis" aria-labelledby="memphis-title">
-            <figure class="style-board">
-            <a href="images/memphis-studies.png" aria-label="Open the Memphis design illustration full size">
-              <img class="piece-image" src="images/memphis-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds a coffee mug at a pink zigzag desk with a turquoise stepped base and a tilted yellow lamp.">
-            </a>
-            </figure>
-            <h4 id="memphis-title">Memphis design</h4>
-            <p class="style-intro">The zigzag desk and tilted lamp make the furniture the focal point. Speckled laminate and bold color blocks treat the surfaces as part of the composition. <a href="https://www.metmuseum.org/exhibitions/listings/2017/ettore-sottsass/exhibition-galleries">The Met on Ettore Sottsass</a></p>
-          </section>
-          <section class="style-family style-tile" id="afrofuturism" aria-labelledby="afrofuturism-title">
-            <figure class="style-board">
-            <a href="images/afrofuturism-studies.png" aria-label="Open the Afrofuturism illustration full size">
-              <img class="piece-image" src="images/afrofuturism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A Black librarian leads a team planning an orbital library with Earth visible through the window. Microsoft listens beside the blueprint.">
-            </a>
-            </figure>
-            <h4 id="afrofuturism-title">Afrofuturism</h4>
-            <p class="style-intro">A Black librarian leads the planning of a public orbital library. The team, shared blueprint, and library shelves show whose knowledge and intentions shape this future. Microsoft listens alongside them. <a href="https://nmaahc.si.edu/explore/exhibitions/afrofuturism">Smithsonian’s A History of Black Futures</a></p>
-          </section>
-          <section class="style-family style-tile" id="space-age" aria-labelledby="space-age-title">
-            <figure class="style-board">
-            <a href="images/space-age-studies.png" aria-label="Open the Space Age design illustration full size">
-              <img class="piece-image" src="images/space-age-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft works at a rounded cream console with orange controls and a view of Earth through an oval window.">
-            </a>
-            </figure>
-            <h4 id="space-age-title">Space Age design</h4>
-            <p class="style-intro">The orange lamp, curved console, and dials bring the shapes of space travel into an everyday workspace. <a href="https://www.cooperhewitt.org/2016/07/07/design-and-the-space-age/">Cooper Hewitt on Space Age design</a></p>
-          </section>
-        </div>
+      <section class="catalog-home" id="light-weather-and-landscape" aria-labelledby="light-weather-and-landscape-title">
+        <h3 id="light-weather-and-landscape-title">Light, weather, and landscape</h3>
+        <p>How light sets the mood and place sets the scale.</p>
+      <section class="style-family" id="chinese-ink-landscape" aria-labelledby="chinese-ink-landscape-title">
+        <h4 id="chinese-ink-landscape-title">Chinese ink landscape</h4>
+        <p class="style-intro">Compare these with <a href="#romanticism">Romanticism</a>. Here pale ink and open paper suggest distance, while a few dark strokes establish the foreground. <a href="https://www.metmuseum.org/exhibitions/listings/2008/anatomy-of-a-masterpiece/photo-gallery">The Met on Chinese landscape composition</a></p>
+        <figure class="style-board">
+          <a href="images/chinese-ink-landscape-studies.png" aria-label="Open the Chinese ink landscape comparison board full size">
+            <img class="piece-image" src="images/chinese-ink-landscape-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Chinese ink landscape compositions inspired by the Microsoft character.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: River commute</dt><dd>The ferry gives scale to an otherwise open expanse. Pale washes let the opposite bank fade into mist.</dd></div>
+          <div><dt>Top right: Mountain data center</dt><dd>The small building and figure tell you how tall the peaks are. Darker marks on the near path make the paler mountain layers recede.</dd></div>
+          <div><dt>Bottom left: Rain from a pavilion</dt><dd>The dark pavilion holds the foreground while pale slopes show through the rain. Compare the edges of the roof with those of the distant mountains.</dd></div>
+          <div><dt>Bottom right: Riverside handscroll</dt><dd>Follow the bank, bridge, and figure across the horizontal composition. The changing clusters of trees and open water give the eye places to pause.</dd></div>
+        </dl>
       </section>
-      <section class="style-group" id="ornament-detail-and-light" aria-labelledby="ornament-detail-and-light-title">
-        <h3 id="ornament-detail-and-light-title">Ornament, detail, and light</h3>
+      <section class="style-family" id="impressionism" aria-labelledby="impressionism-title">
+        <h4 id="impressionism-title">Impressionism</h4>
+        <p class="style-intro">Light is the subject of these scenes. Compare how changes in time, weather, and reflected color alter the way Microsoft and her surroundings read.</p>
+        <figure class="style-board">
+          <a href="images/impressionism-studies.png" aria-label="Open the Impressionism comparison board full size">
+            <img class="piece-image" src="images/impressionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Impressionism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Dappled garden</dt><dd>Sunlight breaks the blazer into patches of warm light and cool shade. The scattered marks connect the figure to the garden around her.</dd></div>
+          <div><dt>Top right: Rain at blue hour</dt><dd>Wet pavement repeats the storefront lights. Their reflections link the foreground to the distant buildings and help the street feel deep.</dd></div>
+          <div><dt>Bottom left: Window light</dt><dd>Compare the warmer marks near the window with the cooler shadows on the face. The temperature shift makes the light source feel present.</dd></div>
+          <div><dt>Bottom right: Riverside dawn</dt><dd>Weaker contrast softens the distant skyline. The more distinct edges of the near figure make the space between her and the city feel larger.</dd></div>
+        </dl>
+      </section>
         <div class="style-tile-grid">
-          <section class="style-family style-tile" id="rococo" aria-labelledby="rococo-title">
-            <figure class="style-board">
-            <a href="images/rococo-studies.png" aria-label="Open the Rococo illustration full size">
-              <img class="piece-image" src="images/rococo-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft sits in a rose-pink chair beside a porcelain cup in a pastel salon with gilded shell ornament.">
-            </a>
-            </figure>
-            <h4 id="rococo-title">Rococo</h4>
-            <p class="style-intro">Trace the shell relief, chair back, and gilt table legs. Their curves echo one another, drawing the eye around the salon and down to the porcelain cup. <a href="https://www.metmuseum.org/essays/french-furniture-in-the-eighteenth-century-seat-furniture">The Met on French Rococo furniture</a></p>
-          </section>
-          <section class="style-family style-tile" id="pre-raphaelite" aria-labelledby="pre-raphaelite-title">
-            <figure class="style-board">
-            <a href="images/pre-raphaelite-studies.png" aria-label="Open the Pre-Raphaelite illustration full size">
-              <img class="piece-image" src="images/pre-raphaelite-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds a sealed letter while sitting in a detailed garden with ivy and a fallen rose.">
-            </a>
-            </figure>
-            <h4 id="pre-raphaelite-title">Pre-Raphaelite painting</h4>
-            <p class="style-intro">Start with the sealed letter in Microsoft’s hand. The carefully observed plants, fabric, and fallen flower give you details to read like clues in a story. <a href="https://www.metmuseum.org/it/essays/the-pre-raphaelites">The Met on the Pre-Raphaelites</a></p>
-          </section>
           <section class="style-family style-tile" id="pointillism" aria-labelledby="pointillism-title">
             <figure class="style-board">
             <a href="images/pointillism-studies.png" aria-label="Open the Pointillism illustration full size">
@@ -769,68 +806,94 @@
             <p class="style-intro">Follow the faint strip of sunset through the water and mist. The small shift from cool gray to warm light gives the otherwise quiet scene a focal point. <a href="https://americanart.si.edu/artwork/sundown-11100">Smithsonian American Art Museum on George Inness</a></p>
           </section>
         </div>
+      <section class="style-family" id="romanticism" aria-labelledby="romanticism-title">
+        <h4 id="romanticism-title">Romanticism</h4>
+        <p class="style-intro">Weather and architecture change the scale of the story. Look at how much of each scene belongs to the surroundings and how little is needed to place Microsoft in it.</p>
+        <figure class="style-board">
+          <a href="images/romanticism-studies.png" aria-label="Open the Romanticism comparison board full size">
+            <img class="piece-image" src="images/romanticism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Romanticism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Rooftop before the storm</dt><dd>The cloud mass is much larger than the figure. Her small outline gives the approaching storm a scale the sky could not show on its own.</dd></div>
+          <div><dt>Top right: Vast atrium</dt><dd>Repeated arches and floor lines carry the eye away from the figure. The distant light makes the interior feel larger still.</dd></div>
+          <div><dt>Bottom left: Windswept bridge</dt><dd>The long span leads into the dusk sky. Small signs of wind in her hair or clothing connect her to the larger weather.</dd></div>
+          <div><dt>Bottom right: Lone office window</dt><dd>One warm window interrupts the dark skyline. The contrast makes a tiny figure legible and turns the city into a setting for solitude.</dd></div>
+        </dl>
       </section>
-      <section class="style-group" id="story-pattern-and-perception" aria-labelledby="story-pattern-and-perception-title">
-        <h3 id="story-pattern-and-perception-title">Story, pattern, and perception</h3>
-        <div class="style-tile-grid">
-          <section class="style-family style-tile" id="egyptian-wall-painting" aria-labelledby="egyptian-wall-painting-title">
-            <figure class="style-board">
-              <a href="images/egyptian-wall-painting-studies.png" aria-label="Open the Ancient Egyptian wall painting illustration full size">
-                <img class="piece-image" src="images/egyptian-wall-painting-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft arrives at work, compares tablets at her desk, and closes the office at sunset across three horizontal bands painted on ochre plaster.">
-              </a>
-            </figure>
-            <h4 id="egyptian-wall-painting-title">Ancient Egyptian wall painting</h4>
-            <p class="style-intro">Read the bands from arrival to closing time. The same person appears three times so the wall can describe a whole day.</p>
-          </section>
-          <section class="style-family style-tile" id="mithila" aria-labelledby="mithila-title">
-            <figure class="style-board">
-              <a href="images/mithila-studies.png" aria-label="Open the Mithila painting illustration full size">
-                <img class="piece-image" src="images/mithila-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and coworkers sit around a meal drawn with intricate lines and flat colors inside a patterned border that echoes the dishes.">
-              </a>
-            </figure>
-            <h4 id="mithila-title">Mithila painting</h4>
-            <p class="style-intro">Start at the shared meal, then see where the border repeats shapes from the dishes. The precise linework gives the people and the food equal attention.</p>
-          </section>
-          <section class="style-family style-tile" id="rinpa" aria-labelledby="rinpa-title">
-            <figure class="style-board">
-              <a href="images/rinpa-studies.png" aria-label="Open the Rinpa illustration full size">
-                <img class="piece-image" src="images/rinpa-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft walks to the right across a gold folding-screen design, with groups of indigo irises and green leaves along the lower edge.">
-              </a>
-            </figure>
-            <h4 id="rinpa-title">Rinpa</h4>
-            <p class="style-intro">Follow the irises along the lower edge. The open gold gives each cluster a pause and leaves room for Microsoft’s next step.</p>
-          </section>
-          <section class="style-family style-tile" id="photorealism" aria-labelledby="photorealism-title">
-            <figure class="style-board">
-              <a href="images/photorealism-studies.png" aria-label="Open the Photorealism illustration full size">
-                <img class="piece-image" src="images/photorealism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft is seen through an office window at dusk, with streetlights and opposite buildings reflected across the glass.">
-              </a>
-            </figure>
-            <h4 id="photorealism-title">Photorealism</h4>
-            <p class="style-intro">Look for one detail behind the glass and one reflected on it. Both occupy the same pane, so your eye has to work out where the street ends and the office begins.</p>
-          </section>
-        </div>
       </section>
-      <section class="style-group" id="how-pictures-carry-meaning" aria-labelledby="how-pictures-carry-meaning-title">
-        <h3 id="how-pictures-carry-meaning-title">How pictures carry meaning</h3>
+      <section class="catalog-home" id="emotion-dreams-and-metaphor" aria-labelledby="emotion-dreams-and-metaphor-title">
+        <h3 id="emotion-dreams-and-metaphor-title">Emotion, dreams, and metaphor</h3>
+        <p>How objects, color, or distortions tell an inner or imaginary story.</p>
+      <section class="style-family" id="symbolism" aria-labelledby="symbolism-title">
+        <h4 id="symbolism-title">Symbolism</h4>
+        <p class="style-intro">The office objects suggest ideas about work and responsibility. Each image leaves room for more than one reading.</p>
+        <figure class="style-board">
+          <a href="images/symbolism-studies.png" aria-label="Open the Symbolism comparison board full size">
+            <img class="piece-image" src="images/symbolism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Symbolism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: The chain of duty</dt><dd>Linked badges turn the lanyard into a metaphor. Their weight can suggest responsibility, status, or obligation.</dd></div>
+          <div><dt>Top right: Procedure and instinct</dt><dd>The two lenses frame an ordered grid and scattered shapes. Read them as two ways of seeing the same work.</dd></div>
+          <div><dt>Bottom left: A desk in the balance</dt><dd>Putting the desk on scales makes work something that can be weighed. The empty space gives the metaphor room to register.</dd></div>
+          <div><dt>Bottom right: The office after hours</dt><dd>The colored window gives the empty office its focal point. The small figure in the doorway makes the room feel larger than any one person.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="expressionism" aria-labelledby="expressionism-title">
+        <h4 id="expressionism-title">Expressionism</h4>
+        <p class="style-intro">The color and space follow the mood of the scene. Notice how shifting the viewpoint or exaggerating a line changes how the figure feels.</p>
+        <figure class="style-board">
+          <a href="images/expressionism-studies.png" aria-label="Open the Expressionism comparison board full size">
+            <img class="piece-image" src="images/expressionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Expressionism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Deadline pressure</dt><dd>Lines lean inward around the desk. The crowded shapes and red surroundings make the room feel tense.</dd></div>
+          <div><dt>Top right: Empty corridor</dt><dd>The stretched corridor dwarfs the figure. Cool violet pushes the scene toward isolation.</dd></div>
+          <div><dt>Bottom left: Defiance</dt><dd>A low viewpoint and forceful diagonal strokes give the figure weight. The hand on her hip makes the gesture read quickly.</dd></div>
+          <div><dt>Bottom right: End of the day</dt><dd>A bent pose and abrupt framing suggest fatigue. Uneven green and blue marks carry that feeling into the space around her.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="surrealism" aria-labelledby="surrealism-title">
+        <h4 id="surrealism-title">Surrealism</h4>
+        <p class="style-intro">Familiar office objects follow the logic of a dream. Recognizable details make the impossible relationships easier to notice.</p>
+        <figure class="style-board">
+          <a href="images/surrealism-studies.png" aria-label="Open the Surrealism comparison board full size">
+            <img class="piece-image" src="images/surrealism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Surrealism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Flooded office</dt><dd>The desk floats while Microsoft stands in shallow water. The everyday office setting makes the break with gravity feel stranger.</dd></div>
+          <div><dt>Top right: Two skies</dt><dd>The lenses become separate windows into day and night. The glasses still frame the face, but they also break the scene into incompatible times.</dd></div>
+          <div><dt>Bottom left: Desk staircase</dt><dd>Desks repeat like steps and pull the eye along their edges. Perspective makes the structure readable even though it could not work as a staircase.</dd></div>
+          <div><dt>Bottom right: Sea behind the wall</dt><dd>An ordinary opening in a cubicle reveals an immense horizon. The change in scale does most of the work.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="fauvism" aria-labelledby="fauvism-title">
+        <h4 id="fauvism-title">Fauvism</h4>
+        <p class="style-intro">Compare this board with Impressionism just above it. Here the palette sets the mood and organizes the picture, even when the colors depart from what you would see in the scene.</p>
+        <figure class="style-board">
+          <a href="images/fauvism-studies.png" aria-label="Open the Fauvism comparison board full size">
+            <img class="piece-image" src="images/fauvism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Fauvism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Green and pink portrait</dt><dd>Green and pink make the face and background feel more intense. The eyes and glasses stay legible because their value contrast holds.</dd></div>
+          <div><dt>Top right: Orange office</dt><dd>Broad orange shapes bind the room together. Violet and blue separate the figure and desk without relying on detailed shading.</dd></div>
+          <div><dt>Bottom left: Cobalt silhouette</dt><dd>A mostly unbroken cobalt shape makes the pose readable at a glance. The bright background gives that silhouette more weight.</dd></div>
+          <div><dt>Bottom right: Violet and yellow window</dt><dd>Strong yellow and violet carry the contrast across the window and face. Follow where the yellows repeat beyond the window.</dd></div>
+        </dl>
+      </section>
         <div class="style-tile-grid">
-          <section class="style-family style-tile" id="harlem-renaissance" aria-labelledby="harlem-renaissance-title">
+          <section class="style-family style-tile" id="pre-raphaelite" aria-labelledby="pre-raphaelite-title">
             <figure class="style-board">
-              <a href="images/harlem-renaissance-studies.png" aria-label="Open the Harlem Renaissance mural and illustration illustration full size">
-                <img class="piece-image" src="images/harlem-renaissance-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A Black librarian shares an open book with a young reader while arcs of amber light connect students, a trumpet player, and Microsoft shelving books.">
-              </a>
+            <a href="images/pre-raphaelite-studies.png" aria-label="Open the Pre-Raphaelite illustration full size">
+              <img class="piece-image" src="images/pre-raphaelite-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds a sealed letter while sitting in a detailed garden with ivy and a fallen rose.">
+            </a>
             </figure>
-            <h4 id="harlem-renaissance-title">Harlem Renaissance mural and illustration</h4>
-            <p class="style-intro">Start at the open book, then follow the bands of light to the students and the trumpet player. Compare the profile silhouettes with the <a href="#egyptian-wall-painting">Egyptian wall-painting study</a>.</p>
-          </section>
-          <section class="style-family style-tile" id="manuscript-illumination" aria-labelledby="manuscript-illumination-title">
-            <figure class="style-board">
-              <a href="images/manuscript-illumination-studies.png" aria-label="Open the Medieval European manuscript illumination illustration full size">
-                <img class="piece-image" src="images/manuscript-illumination-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft unlocks an office inside a large gold M on parchment, with a bubbling coffee pot and a spilled cup in the decorative margin.">
-              </a>
-            </figure>
-            <h4 id="manuscript-illumination-title">Medieval European manuscript illumination</h4>
-            <p class="style-intro">The gold M frames the office opening. Follow the vine to the lower right to find a second event already under way.</p>
+            <h4 id="pre-raphaelite-title">Pre-Raphaelite painting</h4>
+            <p class="style-intro">Start with the sealed letter in Microsoft’s hand. The carefully observed plants, fabric, and fallen flower give you details to read like clues in a story. <a href="https://www.metmuseum.org/it/essays/the-pre-raphaelites">The Met on the Pre-Raphaelites</a></p>
           </section>
           <section class="style-family style-tile" id="vanitas" aria-labelledby="vanitas-title">
             <figure class="style-board">
@@ -841,47 +904,72 @@
             <h4 id="vanitas-title">Dutch vanitas still life</h4>
             <p class="style-intro">Follow the hourglass, drooping flower, and closed laptop across the desk. Each gives you a different way to read the end of the day.</p>
           </section>
-          <section class="style-family style-tile" id="kalighat" aria-labelledby="kalighat-title">
-            <figure class="style-board">
-              <a href="images/kalighat-studies.png" aria-label="Open the Kalighat painting illustration full size">
-                <img class="piece-image" src="images/kalighat-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft sips coffee while a coworker bows deeply toward an empty red executive chair on a plain paper ground.">
-              </a>
-            </figure>
-            <h4 id="kalighat-title">Kalighat painting</h4>
-            <p class="style-intro">Look at the coworker’s deep bow, the empty chair, and Microsoft’s sideways glance. Three shapes give you the setup and the punch line.</p>
-          </section>
         </div>
+      <section class="style-family" id="dada" aria-labelledby="dada-title">
+        <h4 id="dada-title">Dada photomontage</h4>
+        <p class="style-intro">Office fragments change meaning when they are cut out, enlarged, and combined in surprising ways. Look for the visual joke each arrangement sets up. <a href="https://www.moma.org/collection/terms/dada">MoMA on Dada</a></p>
+        <figure class="style-board">
+          <a href="images/dada-studies.png" aria-label="Open the Dada photomontage comparison board full size">
+            <img class="piece-image" src="images/dada-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Dada photomontage compositions interpreting the Microsoft character.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Calendar head</dt><dd>The calendar takes the place of a face. The glasses and hair still suggest a person, while the grid makes a joke about life organized around appointments.</dd></div>
+          <div><dt>Top right: Circular org chart</dt><dd>Follow the arrows around the composition. The arrows loop around a cast that includes a cat, a robot, and a duck, making the chart feel like a system that explains itself.</dd></div>
+          <div><dt>Bottom left: Stamp of approval</dt><dd>The stamp gains power by taking up more space than Microsoft or her desk. The imbalance turns a routine approval into a visual gag.</dd></div>
+          <div><dt>Bottom right: Office-scrap portrait</dt><dd>Stationery and photo fragments do double duty as office objects and facial features. Compare it with the paper collage board, where the pieces mainly preserve the likeness.</dd></div>
+        </dl>
       </section>
-      <section class="style-group" id="objects-gesture-and-rhythm" aria-labelledby="objects-gesture-and-rhythm-title">
-        <h3 id="objects-gesture-and-rhythm-title">Objects, gesture, and rhythm</h3>
+      </section>
+      <section class="catalog-home" id="abstraction-geometry-and-optical-motion" aria-labelledby="abstraction-geometry-and-optical-motion-title">
+        <h3 id="abstraction-geometry-and-optical-motion-title">Abstraction, geometry, and optical motion</h3>
+        <p>How forms and colors make rhythm, ambiguity, or deliberate order.</p>
+      <section class="style-family" id="cubism" aria-labelledby="cubism-title">
+        <h4 id="cubism-title">Cubism</h4>
+        <p class="style-intro">The figure is built from overlapping planes and more than one viewpoint. Her glasses, badge, and pose give you clues for putting the portrait back together.</p>
+        <figure class="style-board">
+          <a href="images/cubism-studies.png" aria-label="Open the Cubism comparison board full size">
+            <img class="piece-image" src="images/cubism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Cubism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Front and profile</dt><dd>Compare the straight-on face with the overlapping profile to its right. The subdued palette helps you follow the shifts in viewpoint.</dd></div>
+          <div><dt>Top right: Glasses across planes</dt><dd>The frames cut across separate planes of color. Follow them through the composition to see how they hold the face together.</dd></div>
+          <div><dt>Bottom left: Cut-paper construction</dt><dd>A few broad pieces, a grid, and the four-square emblem suggest a whole figure. Compare this with the earlier paper collage study, which preserves the original pose.</dd></div>
+          <div><dt>Bottom right: Figure and desk</dt><dd>Look for surfaces seen from above alongside the figure seen from the front. The shared angles make the desk and figure part of one structure.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="futurism" aria-labelledby="futurism-title">
+        <h4 id="futurism-title">Futurism</h4>
+        <p class="style-intro">Repetition lets successive moments occupy the same image. Compare how a raised hand, a running figure, a chair, and typing hands produce different rhythms.</p>
+        <figure class="style-board">
+          <a href="images/futurism-studies.png" aria-label="Open the Futurism comparison board full size">
+            <img class="piece-image" src="images/futurism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Futurism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Glasses in motion</dt><dd>Overlapping contours show steps in one small gesture. Follow the hand from its first position to the glasses.</dd></div>
+          <div><dt>Top right: Station rush</dt><dd>Repeated figures and receding platform lines point the same way. The architecture carries the motion across the picture.</dd></div>
+          <div><dt>Bottom left: Spinning chair</dt><dd>The chair and figure repeat around a curved path. The movement seems to turn around a point instead of traveling across the frame.</dd></div>
+          <div><dt>Bottom right: Typing sequence</dt><dd>Echoes of the typing hands make a fast rhythm across the keyboard. The cropped view gives the gesture most of the space.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="abstract-expressionism" aria-labelledby="abstract-expressionism-title">
+        <h4 id="abstract-expressionism-title">Abstract Expressionism</h4>
+        <p class="style-intro">Here Microsoft is a starting point for an abstraction. See how much the marks and color can express when the figure is reduced to a few visual cues. <a href="https://www.moma.org/collection/terms/abstract-expressionism">MoMA on Abstract Expressionism</a></p>
+        <figure class="style-board">
+          <a href="images/abstract-expressionism-studies.png" aria-label="Open the Abstract Expressionism comparison board full size">
+            <img class="piece-image" src="images/abstract-expressionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Abstract Expressionism compositions interpreting the Microsoft character.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Swept ink gesture</dt><dd>A broad stroke gives the panel direction. Look for the paired marks that hint at glasses amid the faster movement.</dd></div>
+          <div><dt>Top right: Navy color field</dt><dd>A large area of color makes a narrow band and a small warm accent feel significant. Soft edges keep the field from reading as a flat diagram.</dd></div>
+          <div><dt>Bottom left: All-over marks</dt><dd>Drips and crossings spread attention across the picture. A trace of glasses can emerge briefly before your eye moves on.</dd></div>
+          <div><dt>Bottom right: Four-color pressure</dt><dd>The familiar four colors meet a scraped dark mass. Their spacing and size make the rectangles feel pressed together.</dd></div>
+        </dl>
+      </section>
         <div class="style-tile-grid">
-          <section class="style-family style-tile" id="chaekgeori" aria-labelledby="chaekgeori-title">
-            <figure class="style-board">
-              <a href="images/chaekgeori-studies.png" aria-label="Open the Korean chaekgeori illustration full size">
-                <img class="piece-image" src="images/chaekgeori-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft reaches for a worn blue notebook amid painted shelves of books, ceramics, software boxes, and a globe.">
-              </a>
-            </figure>
-            <h4 id="chaekgeori-title">Korean chaekgeori</h4>
-            <p class="style-intro">Start with the notebook Microsoft reaches for. Then scan the compartments for objects that suggest what she studies, uses, and keeps.</p>
-          </section>
-          <section class="style-family style-tile" id="new-objectivity" aria-labelledby="new-objectivity-title">
-            <figure class="style-board">
-              <a href="images/new-objectivity-studies.png" aria-label="Open the New Objectivity illustration full size">
-                <img class="piece-image" src="images/new-objectivity-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft props her head on one hand beside a coffee mug and marked-up papers at a red conference table, with an empty chair next to her.">
-              </a>
-            </figure>
-            <h4 id="new-objectivity-title">New Objectivity</h4>
-            <p class="style-intro">Read the hand propping up her head, the coffee, and the empty chair. The portrait gives you enough clues to imagine the meeting that just ended.</p>
-          </section>
-          <section class="style-family style-tile" id="wayang-kulit" aria-labelledby="wayang-kulit-title">
-            <figure class="style-board">
-              <a href="images/wayang-kulit-studies.png" aria-label="Open the Wayang kulit illustration full size">
-                <img class="piece-image" src="images/wayang-kulit-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Two perforated leather shadow puppets, including Microsoft with her glasses and low bun, reach toward the same folder on an amber screen.">
-              </a>
-            </figure>
-            <h4 id="wayang-kulit-title">Wayang kulit</h4>
-            <p class="style-intro">Follow the two arms to the folder. The punched patterns bring light through the leather, and the rods show how the figures would move.</p>
-          </section>
           <section class="style-family style-tile" id="orphism" aria-labelledby="orphism-title">
             <figure class="style-board">
               <a href="images/orphism-studies.png" aria-label="Open the Orphism illustration full size">
@@ -892,59 +980,180 @@
             <p class="style-intro">Follow the warm circles from the street lamps into the puddles. The cool shapes between them give the bright colors a beat.</p>
           </section>
         </div>
+      <section class="style-family" id="op-art" aria-labelledby="op-art-title">
+        <h4 id="op-art-title">Op Art</h4>
+        <p class="style-intro">Compare these with <a href="#futurism">Futurism</a>. Here the figure stays still while repeated lines, contrast, and changes in spacing make the space seem to move.</p>
+        <figure class="style-board">
+          <a href="images/op-art-studies.png" aria-label="Open the Op Art comparison board full size">
+            <img class="piece-image" src="images/op-art-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Op Art compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Warped grid</dt><dd>Rectangles appear to stretch where the lines bend or crowd together. The still figure gives you something to measure the distortion against.</dd></div>
+          <div><dt>Top right: Vibrating stripes</dt><dd>Alternating light and dark bands seem to shift against one another. The solid areas on the figure offer a place for the eye to rest.</dd></div>
+          <div><dt>Bottom left: Concentric rings</dt><dd>Rings draw attention toward their center near the glasses. Spacing changes affect how tightly the pattern seems to pull inward.</dd></div>
+          <div><dt>Bottom right: Bending checkerboard</dt><dd>Changes in tile size and direction make a flat pattern look like a surface that curves. The seated pose helps anchor the illusion.</dd></div>
+        </dl>
       </section>
-      <section class="style-group" id="work-craft-and-spectacle" aria-labelledby="work-craft-and-spectacle-title">
-        <h3 id="work-craft-and-spectacle-title">Work, craft, and spectacle</h3>
         <div class="style-tile-grid">
-          <section class="style-family style-tile" id="american-regionalism" aria-labelledby="american-regionalism-title">
+          <section class="style-family style-tile" id="de-stijl" aria-labelledby="de-stijl-title">
             <figure class="style-board">
-              <a href="images/american-regionalism-studies.png" aria-label="Open the American Regionalism illustration full size">
-                <img class="piece-image" src="images/american-regionalism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds a coiled cable and screwdriver beside a tabletop radio outside a clapboard repair shop on a small-town street.">
-              </a>
+            <a href="images/de-stijl-studies.png" aria-label="Open the De Stijl illustration full size">
+              <img class="piece-image" src="images/de-stijl-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft’s glasses and silhouette emerge from a grid of black lines and primary-color rectangles.">
+            </a>
             </figure>
-            <h4 id="american-regionalism-title">American Regionalism</h4>
-            <p class="style-intro">The screwdriver, radio, and shop window tell you what Microsoft does. The telephone lines and small houses connect that work to a particular town.</p>
+            <h4 id="de-stijl-title">De Stijl</h4>
+            <p class="style-intro">The grid does double duty as portrait and composition. Look for the glasses in the black bars and the clip and lanyard in the primary colors. Unequal rectangles keep the layout from feeling centered. <a href="https://www.moma.org/calendar/events/270">MoMA on De Stijl</a></p>
           </section>
-          <section class="style-family style-tile" id="arts-and-crafts" aria-labelledby="arts-and-crafts-title">
+          <section class="style-family style-tile" id="minimalism" aria-labelledby="minimalism-title">
             <figure class="style-board">
-              <a href="images/arts-and-crafts-studies.png" aria-label="Open the Arts and Crafts illustration full size">
-                <img class="piece-image" src="images/arts-and-crafts-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft reads in an oak chair in front of a repeating wallpaper pattern of pink roses, small birds, and climbing vines.">
-              </a>
+            <a href="images/minimalism-studies.png" aria-label="Open the Minimalism illustration full size">
+              <img class="piece-image" src="images/minimalism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands alongside a receding row of low brushed-metal blocks in a nearly empty gallery.">
+            </a>
             </figure>
-            <h4 id="arts-and-crafts-title">Arts and Crafts</h4>
-            <p class="style-intro">Trace one vine until you see where its shape repeats. Look for the same colors and plant forms in the book, cushion, and lamp.</p>
-          </section>
-          <section class="style-family style-tile" id="ballets-russes" aria-labelledby="ballets-russes-title">
-            <figure class="style-board">
-              <a href="images/ballets-russes-studies.png" aria-label="Open the Ballets Russes stage design illustration full size">
-                <img class="piece-image" src="images/ballets-russes-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and another dancer exchange a red folder between angular blue and green stage scenery, under a row of footlights.">
-              </a>
-            </figure>
-            <h4 id="ballets-russes-title">Ballets Russes stage design</h4>
-            <p class="style-intro">The dancers’ raised arms frame the red folder. The oversize door and the angles in their costumes help the handoff read across the stage.</p>
-          </section>
-          <section class="style-family style-tile" id="socialist-realism" aria-labelledby="socialist-realism-title">
-            <figure class="style-board">
-              <a href="images/socialist-realism-studies.png" aria-label="Open the Soviet Socialist Realism illustration full size">
-                <img class="piece-image" src="images/socialist-realism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and data-center technicians work among tall server racks as bright golden light picks out their coordinated poses from a low viewpoint.">
-              </a>
-            </figure>
-            <h4 id="socialist-realism-title">Soviet Socialist Realism</h4>
-            <p class="style-intro">Look up from the cable to the pointing arm and bright windows. The scene presents labor as assured and coordinated. What parts of the job are missing from that view?</p>
+            <h4 id="minimalism-title">Minimalism</h4>
+            <p class="style-intro">Follow the evenly spaced metal blocks across the floor. The broad blank wall gives the repeated forms room, and Microsoft’s figure shows their scale. <a href="https://www.moma.org/collection/works/81324">MoMA on Donald Judd’s Untitled</a></p>
           </section>
         </div>
       </section>
-      <section class="style-group" id="space-atmosphere-and-action" aria-labelledby="space-atmosphere-and-action-title">
-        <h3 id="space-atmosphere-and-action-title">Space, atmosphere, and action</h3>
+    </section>
+    <section class="catalog-track" id="design-space-and-performance" aria-labelledby="design-space-and-performance-title">
+      <h2 id="design-space-and-performance-title">Design, space, and performance</h2>
+      <nav class="style-jump" aria-label="Design, space, and performance topics">
+        <a href="#graphic-design-and-public-messages">Graphic design and public messages</a>
+        <a href="#objects-and-imagined-futures">Objects and imagined futures</a>
+        <a href="#buildings-sites-and-installations">Buildings, sites, and installations</a>
+        <a href="#performance-puppetry-and-kinetic-art">Performance, puppetry, and kinetic art</a>
+      </nav>
+      <section class="catalog-home" id="graphic-design-and-public-messages" aria-labelledby="graphic-design-and-public-messages-title">
+        <h3 id="graphic-design-and-public-messages-title">Graphic design and public messages</h3>
+        <p>How typography, symbols, images, and scale shape a public message.</p>
+      <section class="style-family" id="constructivism" aria-labelledby="constructivism-title">
+        <h4 id="constructivism-title">Constructivism</h4>
+        <p class="style-intro">These posters use figure fragments, geometric shapes, and a tight palette as parts of a single layout. Look for the axis that organizes each composition.</p>
+        <figure class="style-board">
+          <a href="images/constructivism-studies.png" aria-label="Open the Constructivism comparison board full size">
+            <img class="piece-image" src="images/constructivism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Constructivism compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Diagonal ascent</dt><dd>The figure and stair-like bars share an upward diagonal. Repetition turns a series of steps into a single strong direction.</dd></div>
+          <div><dt>Top right: Profile and wedges</dt><dd>A circle crops the head while wedges push against its edge. The open cream field gives the profile room to register.</dd></div>
+          <div><dt>Bottom left: Desk photomontage</dt><dd>Photo-like cutouts meet flat red planes. The jump between textures and scales helps the stationery compete with the figure.</dd></div>
+          <div><dt>Bottom right: Modular portrait</dt><dd>Rectangular blocks hold the front-facing portrait in a grid. The gaps between blocks help set its rhythm.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="art-deco" aria-labelledby="art-deco-title">
+        <h4 id="art-deco-title">Art Deco</h4>
+        <p class="style-intro">Stepped shapes, symmetry, and strong diagonals organize these posters. The same character can feel commanding in a centered pose or quick and alert in profile.</p>
+        <figure class="style-board">
+          <a href="images/art-deco-studies.png" aria-label="Open the Art Deco comparison board full size">
+            <img class="piece-image" src="images/art-deco-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Art Deco poster compositions featuring Microsoft in different poses and framings.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+            <div><dt>Top left: Skyscraper sunburst</dt><dd>Center the standing figure on the building&#x27;s vertical axis. Stepped towers and rays emphasize height and presence.</dd></div>
+            <div><dt>Top right: Diagonal profile</dt><dd>A compact profile holds against broad diagonal bands. The angular background adds movement while the glasses anchor the likeness.</dd></div>
+            <div><dt>Bottom left: Boardroom symmetry</dt><dd>A low viewpoint and repeated vertical panels give her seated pose authority. The eye follows the central axis straight to her face.</dd></div>
+            <div><dt>Bottom right: Octagonal close-up</dt><dd>Use a tight, angular frame and simplify the face into planes. The glasses carry the portrait even when most of the costume is out of view.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="bauhaus" aria-labelledby="bauhaus-title">
+        <h4 id="bauhaus-title">Bauhaus graphic design</h4>
+        <p class="style-intro">Compare the geometry with <a href="#constructivism">Constructivism</a>. Here the shapes and type are arranged to tell you what to read first and what to do next. <a href="https://www.moma.org/artists/399">MoMA on Herbert Bayer</a></p>
+        <figure class="style-board">
+          <a href="images/bauhaus-studies.png" aria-label="Open the Bauhaus graphic design comparison board full size">
+            <img class="piece-image" src="images/bauhaus-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A lecture poster, a library sign, a magazine cover, and a training poster combine type with geometric shapes.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Lecture poster</dt><dd>The large title establishes the reading order. The gray portrait and the red circle carry different amounts of visual weight.</dd></div>
+          <div><dt>Top right: Library wayfinding</dt><dd>The word and arrow work together. Open space around them lets the direction register quickly.</dd></div>
+          <div><dt>Bottom left: Magazine cover</dt><dd>The profile crop and the title divide the space at different scales. Look at which edges line up across the two.</dd></div>
+          <div><dt>Bottom right: Training poster</dt><dd>The title tells you what to look for. The diagrams and the pointing gesture give you a place to begin.</dd></div>
+        </dl>
+      </section>
+      <section class="style-family" id="pop-art" aria-labelledby="pop-art-title">
+        <h4 id="pop-art-title">Pop Art</h4>
+        <p class="style-intro">These posters borrow from comics, advertising, and commercial printing. Repetition, punchy color, and enlarged everyday objects turn the portrait into a graphic event.</p>
+        <figure class="style-board">
+          <a href="images/pop-art-studies.png" aria-label="Open the Pop Art comparison board full size">
+            <img class="piece-image" src="images/pop-art-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Four Pop Art compositions featuring Microsoft.">
+          </a>
+        </figure>
+        <dl class="style-board-notes">
+          <div><dt>Top left: Comic close-up</dt><dd>Bold ink outlines and dot patterns make the glasses adjustment read like a single beat in a comic.</dd></div>
+          <div><dt>Top right: Screenprint repetition</dt><dd>Colored silhouettes stack and shift. Compare edges where the colors align with edges where they separate.</dd></div>
+          <div><dt>Bottom left: Badge poster</dt><dd>Enlarging a familiar office badge changes the visual hierarchy. It becomes the first thing you see, with Microsoft giving it scale.</dd></div>
+          <div><dt>Bottom right: Office icons</dt><dd>The oversized glasses, mug, and laptop become a small visual vocabulary. Orange and blue color blocks tie the objects to the cropped portrait.</dd></div>
+        </dl>
+      </section>
         <div class="style-tile-grid">
-          <section class="style-family style-tile" id="pictorialism" aria-labelledby="pictorialism-title">
+          <section class="style-family style-tile" id="psychedelic-poster" aria-labelledby="psychedelic-poster-title">
             <figure class="style-board">
-              <a href="images/pictorialism-studies.png" aria-label="Open the Pictorialist photography illustration full size">
-                <img class="piece-image" src="images/pictorialism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft waits beneath an amber lamp on a rain-dark street, with blue-gray buildings, a passerby, and reflections disappearing into mist.">
-              </a>
+            <a href="images/psychedelic-poster-studies.png" aria-label="Open the psychedelic illustration full size">
+              <img class="piece-image" src="images/psychedelic-poster-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="The words Office Hours bend around Microsoft’s face amid swirling magenta, orange, and blue shapes.">
+            </a>
             </figure>
-            <h4 id="pictorialism-title">Pictorialist photography</h4>
-            <p class="style-intro">Look from the soft halo of the lamp to the faint windows across the street. Compare those dusk tones with <a href="#tonalism">Tonalism</a> and the off-center framing with <a href="#ukiyo-e">ukiyo-e</a>.</p>
+            <h4 id="psychedelic-poster-title">Psychedelic poster art</h4>
+            <p class="style-intro">Compare this with the <a href="#bauhaus">Bauhaus Office Hours poster</a>. Here the letters bend around the portrait, and saturated colors meet along the curves to give the edges a vibrating quality. <a href="https://www.cooperhewitt.org/2013/01/29/good-vibrations/">Cooper Hewitt on psychedelic posters</a></p>
+          </section>
+        </div>
+      </section>
+      <section class="catalog-home" id="objects-and-imagined-futures" aria-labelledby="objects-and-imagined-futures-title">
+        <h3 id="objects-and-imagined-futures-title">Objects and imagined futures</h3>
+        <p>How goods and design express ideas about the future and who shapes it.</p>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="memphis" aria-labelledby="memphis-title">
+            <figure class="style-board">
+            <a href="images/memphis-studies.png" aria-label="Open the Memphis design illustration full size">
+              <img class="piece-image" src="images/memphis-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft holds a coffee mug at a pink zigzag desk with a turquoise stepped base and a tilted yellow lamp.">
+            </a>
+            </figure>
+            <h4 id="memphis-title">Memphis design</h4>
+            <p class="style-intro">The zigzag desk and tilted lamp make the furniture the focal point. Speckled laminate and bold color blocks treat the surfaces as part of the composition. <a href="https://www.metmuseum.org/exhibitions/listings/2017/ettore-sottsass/exhibition-galleries">The Met on Ettore Sottsass</a></p>
+          </section>
+          <section class="style-family style-tile" id="space-age" aria-labelledby="space-age-title">
+            <figure class="style-board">
+            <a href="images/space-age-studies.png" aria-label="Open the Space Age design illustration full size">
+              <img class="piece-image" src="images/space-age-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft works at a rounded cream console with orange controls and a view of Earth through an oval window.">
+            </a>
+            </figure>
+            <h4 id="space-age-title">Space Age design</h4>
+            <p class="style-intro">The orange lamp, curved console, and dials bring the shapes of space travel into an everyday workspace. <a href="https://www.cooperhewitt.org/2016/07/07/design-and-the-space-age/">Cooper Hewitt on Space Age design</a></p>
+          </section>
+          <section class="style-family style-tile" id="afrofuturism" aria-labelledby="afrofuturism-title">
+            <figure class="style-board">
+            <a href="images/afrofuturism-studies.png" aria-label="Open the Afrofuturism illustration full size">
+              <img class="piece-image" src="images/afrofuturism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A Black librarian leads a team planning an orbital library with Earth visible through the window. Microsoft listens beside the blueprint.">
+            </a>
+            </figure>
+            <h4 id="afrofuturism-title">Afrofuturism</h4>
+            <p class="style-intro">A Black librarian leads the planning of a public orbital library. The team, shared blueprint, and library shelves show whose knowledge and intentions shape this future. Microsoft listens alongside them. <a href="https://nmaahc.si.edu/explore/exhibitions/afrofuturism">Smithsonian’s A History of Black Futures</a></p>
+          </section>
+        </div>
+      </section>
+      <section class="catalog-home" id="buildings-sites-and-installations" aria-labelledby="buildings-sites-and-installations-title">
+        <h3 id="buildings-sites-and-installations-title">Buildings, sites, and installations</h3>
+        <p>How the viewer’s body, a place, and a particular light affect the experience.</p>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="precisionism" aria-labelledby="precisionism-title">
+            <figure class="style-board">
+            <a href="images/precisionism-studies.png" aria-label="Open the Precisionism illustration full size">
+              <img class="piece-image" src="images/precisionism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands below a data center facade and curved silver cooling pipes in slanting sunlight.">
+            </a>
+            </figure>
+            <h4 id="precisionism-title">Precisionism</h4>
+            <p class="style-intro">Follow the sharp transitions between light and shadow. The concrete facade reads as a set of broad planes, while the cooling pipes introduce a contrasting curve. Microsoft’s figure shows the scale of the machinery. <a href="https://americanart.si.edu/artist/charles-sheeler-4409">Smithsonian American Art Museum on Charles Sheeler</a></p>
+          </section>
+          <section class="style-family style-tile" id="brutalism" aria-labelledby="brutalism-title">
+            <figure class="style-board">
+            <a href="images/brutalism-studies.png" aria-label="Open the Brutalist illustration full size">
+              <img class="piece-image" src="images/brutalism-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft stands below a monumental exposed concrete stairwell in sharply angled daylight.">
+            </a>
+            </figure>
+            <h4 id="brutalism-title">Brutalist architecture</h4>
+            <p class="style-intro">The heavy flights, exposed structure, and rough concrete make the stairwell feel substantial. Microsoft gives the building a sense of scale. Compare the surface texture with the smooth planes of <a href="#precisionism">Precisionism</a>. <a href="https://www.moma.org/collection/terms/brutalist-architecture">MoMA on Brutalist architecture</a></p>
           </section>
           <section class="style-family style-tile" id="deconstructivist-architecture" aria-labelledby="deconstructivist-architecture-title">
             <figure class="style-board">
@@ -954,38 +1163,6 @@
             </figure>
             <h4 id="deconstructivist-architecture-title">Deconstructivist architecture</h4>
             <p class="style-intro">Set Microsoft’s upright figure against the leaning steel braces. The red handrail bends across the lobby and gives the eye a route through the competing angles.</p>
-          </section>
-          <section class="style-family style-tile" id="gutai" aria-labelledby="gutai-title">
-            <figure class="style-board">
-              <a href="images/gutai-studies.png" aria-label="Open the Gutai illustration full size">
-                <img class="piece-image" src="images/gutai-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft steps through a torn paper screen in a wooden frame, parting the opening with her hands as scraps fall near her shoes.">
-              </a>
-            </figure>
-            <h4 id="gutai-title">Gutai</h4>
-            <p class="style-intro">The tears radiate from the opening, and scraps sit near her feet. Look for what the paper tells you about the movement that just happened.</p>
-          </section>
-          <section class="style-family style-tile" id="ayacucho-retablo" aria-labelledby="ayacucho-retablo-title">
-            <figure class="style-board">
-              <a href="images/ayacucho-retablo-studies.png" aria-label="Open the Ayacucho retablo illustration full size">
-                <img class="piece-image" src="images/ayacucho-retablo-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="An open wooden box with flower-painted doors contains two miniature scenes. Microsoft helps set up a computer fair above and welcomes visitors below.">
-              </a>
-            </figure>
-            <h4 id="ayacucho-retablo-title">Ayacucho retablo</h4>
-            <p class="style-intro">The same computer appears on both levels. Upstairs the organizers set it up, and downstairs visitors gather around it. The painted doors frame both scenes as one event.</p>
-          </section>
-        </div>
-      </section>
-      <section class="style-group" id="art-you-move-around" aria-labelledby="art-you-move-around-title">
-        <h3 id="art-you-move-around-title">Art you move around</h3>
-        <div class="style-tile-grid">
-          <section class="style-family style-tile" id="kinetic-sculpture" aria-labelledby="kinetic-sculpture-title">
-            <figure class="style-board">
-              <a href="images/kinetic-sculpture-studies.png" aria-label="Open the Kinetic sculpture illustration full size">
-                <img class="piece-image" src="images/kinetic-sculpture-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft looks up at a hanging mobile of slender black rods and red, blue, cream, and black shapes in a sunlit atrium.">
-              </a>
-            </figure>
-            <h4 id="kinetic-sculpture-title">Kinetic sculpture</h4>
-            <p class="style-intro">Find the pivot above each arm and follow what hangs from either side. The thin rods, colored shapes, and shadows would change position as the mobile turned.</p>
           </section>
           <section class="style-family style-tile" id="land-art" aria-labelledby="land-art-title">
             <figure class="style-board">
@@ -1005,17 +1182,65 @@
             <h4 id="light-and-space-title">Light and Space</h4>
             <p class="style-intro">The doorway has a firm edge. The violet glow at the far end has a much softer one. Compare how certain you are about where each surface is.</p>
           </section>
-          <section class="style-family style-tile" id="story-quilt" aria-labelledby="story-quilt-title">
+        </div>
+      </section>
+      <section class="catalog-home" id="performance-puppetry-and-kinetic-art" aria-labelledby="performance-puppetry-and-kinetic-art-title">
+        <h3 id="performance-puppetry-and-kinetic-art-title">Performance, puppetry, and kinetic art</h3>
+        <p>What the body, time, and motion contribute.</p>
+        <div class="style-tile-grid">
+          <section class="style-family style-tile" id="wayang-kulit" aria-labelledby="wayang-kulit-title">
             <figure class="style-board">
-              <a href="images/story-quilt-studies.png" aria-label="Open the Narrative story quilts illustration full size">
-                <img class="piece-image" src="images/story-quilt-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="A stitched patchwork border frames a rooftop meal with Microsoft and her coworkers. Four small corner scenes show moments from her week.">
+              <a href="images/wayang-kulit-studies.png" aria-label="Open the Wayang kulit illustration full size">
+                <img class="piece-image" src="images/wayang-kulit-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Two perforated leather shadow puppets, including Microsoft with her glasses and low bun, reach toward the same folder on an amber screen.">
               </a>
             </figure>
-            <h4 id="story-quilt-title">Narrative story quilts</h4>
-            <p class="style-intro">The rooftop meal reads first. Look closer at the four corners to see Microsoft walking to work, fixing a computer, buying food, and setting a plate.</p>
+            <h4 id="wayang-kulit-title">Wayang kulit</h4>
+            <p class="style-intro">Follow the two arms to the folder. The punched patterns bring light through the leather, and the rods show how the figures would move.</p>
+          </section>
+          <section class="style-family style-tile" id="ballets-russes" aria-labelledby="ballets-russes-title">
+            <figure class="style-board">
+              <a href="images/ballets-russes-studies.png" aria-label="Open the Ballets Russes stage design illustration full size">
+                <img class="piece-image" src="images/ballets-russes-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft and another dancer exchange a red folder between angular blue and green stage scenery, under a row of footlights.">
+              </a>
+            </figure>
+            <h4 id="ballets-russes-title">Ballets Russes stage design</h4>
+            <p class="style-intro">The dancers’ raised arms frame the red folder. The oversize door and the angles in their costumes help the handoff read across the stage.</p>
+          </section>
+          <section class="style-family style-tile" id="gutai" aria-labelledby="gutai-title">
+            <figure class="style-board">
+              <a href="images/gutai-studies.png" aria-label="Open the Gutai illustration full size">
+                <img class="piece-image" src="images/gutai-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft steps through a torn paper screen in a wooden frame, parting the opening with her hands as scraps fall near her shoes.">
+              </a>
+            </figure>
+            <h4 id="gutai-title">Gutai</h4>
+            <p class="style-intro">The tears radiate from the opening, and scraps sit near her feet. Look for what the paper tells you about the movement that just happened.</p>
+          </section>
+          <section class="style-family style-tile" id="kinetic-sculpture" aria-labelledby="kinetic-sculpture-title">
+            <figure class="style-board">
+              <a href="images/kinetic-sculpture-studies.png" aria-label="Open the Kinetic sculpture illustration full size">
+                <img class="piece-image" src="images/kinetic-sculpture-studies.png" width="1254" height="1254" loading="lazy" decoding="async" alt="Microsoft looks up at a hanging mobile of slender black rods and red, blue, cream, and black shapes in a sunlit atrium.">
+              </a>
+            </figure>
+            <h4 id="kinetic-sculpture-title">Kinetic sculpture</h4>
+            <p class="style-intro">Find the pivot above each arm and follow what hangs from either side. The thin rods, colored shapes, and shadows would change position as the mobile turned.</p>
           </section>
         </div>
       </section>
+    </section>
+    <section class="style-reading earlier-comparisons" id="earlier-comparison-boards" aria-labelledby="earlier-comparison-title">
+      <h2 id="earlier-comparison-title">Earlier comparison boards</h2>
+      <dl>
+        <div id="artistic-styles"><dt id="artistic-styles-title">Artistic styles</dt><dd><a href="#history-and-visual-cultures">History and visual cultures</a> · <a href="#design-space-and-performance">Design, space, and performance</a></dd></div>
+        <div id="geometry-and-space"><dt id="geometry-and-space-title">Geometry and space</dt><dd><a href="#de-stijl">De Stijl</a> · <a href="#precisionism">Precisionism</a> · <a href="#brutalism">Brutalist architecture</a> · <a href="#minimalism">Minimalism</a></dd></div>
+        <div id="playful-design-and-futures"><dt id="playful-design-and-futures-title">Playful design and imagined futures</dt><dd><a href="#psychedelic-poster">Psychedelic poster art</a> · <a href="#memphis">Memphis design</a> · <a href="#afrofuturism">Afrofuturism</a> · <a href="#space-age">Space Age design</a></dd></div>
+        <div id="ornament-detail-and-light"><dt id="ornament-detail-and-light-title">Ornament, detail, and light</dt><dd><a href="#rococo">Rococo</a> · <a href="#pre-raphaelite">Pre-Raphaelite painting</a> · <a href="#pointillism">Pointillism</a> · <a href="#tonalism">Tonalism</a></dd></div>
+        <div id="story-pattern-and-perception"><dt id="story-pattern-and-perception-title">Story, pattern, and perception</dt><dd><a href="#egyptian-wall-painting">Ancient Egyptian wall painting</a> · <a href="#mithila">Mithila painting</a> · <a href="#rinpa">Rinpa</a> · <a href="#photorealism">Photorealism</a></dd></div>
+        <div id="how-pictures-carry-meaning"><dt id="how-pictures-carry-meaning-title">How pictures carry meaning</dt><dd><a href="#harlem-renaissance">Harlem Renaissance mural and illustration</a> · <a href="#manuscript-illumination">Medieval European manuscript illumination</a> · <a href="#vanitas">Dutch vanitas still life</a> · <a href="#kalighat">Kalighat painting</a></dd></div>
+        <div id="objects-gesture-and-rhythm"><dt id="objects-gesture-and-rhythm-title">Objects, gesture, and rhythm</dt><dd><a href="#chaekgeori">Korean chaekgeori</a> · <a href="#new-objectivity">New Objectivity</a> · <a href="#wayang-kulit">Wayang kulit</a> · <a href="#orphism">Orphism</a></dd></div>
+        <div id="work-craft-and-spectacle"><dt id="work-craft-and-spectacle-title">Work, craft, and spectacle</dt><dd><a href="#american-regionalism">American Regionalism</a> · <a href="#arts-and-crafts">Arts and Crafts</a> · <a href="#ballets-russes">Ballets Russes stage design</a> · <a href="#socialist-realism">Soviet Socialist Realism</a></dd></div>
+        <div id="space-atmosphere-and-action"><dt id="space-atmosphere-and-action-title">Space, atmosphere, and action</dt><dd><a href="#pictorialism">Pictorialist photography</a> · <a href="#deconstructivist-architecture">Deconstructivist architecture</a> · <a href="#gutai">Gutai</a> · <a href="#ayacucho-retablo">Ayacucho retablo</a></dd></div>
+        <div id="art-you-move-around"><dt id="art-you-move-around-title">Art you move around</dt><dd><a href="#kinetic-sculpture">Kinetic sculpture</a> · <a href="#land-art">Land Art</a> · <a href="#light-and-space">Light and Space</a> · <a href="#story-quilt">Narrative story quilts</a></dd></div>
+      </dl>
     </section>
     <section class="style-reading" aria-labelledby="reading-title">
       <h2 id="reading-title">How to read the style index</h2>
