@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The TSMC Style Course — One Model, 105 Ways to Make a Picture</title>
+<meta name="description" content="A beginner-friendly art course built on a controlled experiment: the same character in the same café pose, rendered in 105 art styles across 240 pictures, grouped into 12 lessons.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top">The TSMC Style Course</a>
+    <div class="progress-wrap" title="Lessons completed">
+      <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+      <span id="progressText" class="progress-text">0 / 12 lessons</span>
+    </div>
+    <input id="search" type="search" placeholder="Search styles… (e.g. mosaic, cubism, NES)" aria-label="Search styles">
+  </div>
+  <nav id="lessonNav" class="lesson-nav" aria-label="Lessons"></nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <h1>One model. One café.<br>105 ways to make a picture.</h1>
+    <p class="hero-lede">This is an art course built like a science experiment. In almost every picture,
+      the same character — <strong>TSMC</strong>, the wafer artisan of <em>Silicon Wars</em> — sits in the
+      <strong>same café pose</strong>: same chair, same cup, same crossed legs. Only one thing changes:
+      the <strong>style</strong>. When everything else is held still, style itself becomes visible —
+      and learning to see it is learning art history.</p>
+    <div class="hero-cards">
+      <div class="hero-card"><h3>No experience needed</h3><p>Written for college students who have never taken an art class. Every style gets a plain-language explanation and a short “what to look for” list.</p></div>
+      <div class="hero-card"><h3>Work through the lessons</h3><p>Twelve lessons walk from raw materials (pencil, ink, plaster) through world traditions and modernism, ending inside video-game graphics. Each ends with a two-minute looking exercise.</p></div>
+      <div class="hero-card"><h3>Click any picture</h3><p>Pictures open full-size. Styles with four variants are four executions of one idea — compare them; the differences are the lesson.</p></div>
+    </div>
+    <p class="hero-note">A note on the pictures: every image in this course is an <strong>AI-generated study</strong> of a fictional character, made to demonstrate a historical style. They are teaching illustrations, not works by the artists and cultures discussed — each style card links out so you can meet the real thing.</p>
+  </section>
+
+  <div id="lessons"></div>
+  <p id="noResults" class="no-results" hidden>No styles match that search. Try a medium (“ink”), a movement (“cubism”) or an era (“PS1”).</p>
+</main>
+
+<footer class="footer">
+  <h2>Keep learning</h2>
+  <ul class="resource-list">
+    <li><a href="https://smarthistory.org" target="_blank" rel="noopener">Smarthistory</a> — the best free art-history textbook on the web, written for beginners.</li>
+    <li><a href="https://www.metmuseum.org/toah" target="_blank" rel="noopener">The Met Heilbrunn Timeline of Art History</a> — essays and timelines from the Metropolitan Museum.</li>
+    <li><a href="https://www.khanacademy.org/humanities/art-history" target="_blank" rel="noopener">Khan Academy: Art History</a> — structured courses with quizzes.</li>
+    <li><a href="https://en.wikipedia.org/wiki/History_of_art" target="_blank" rel="noopener">Wikipedia: History of Art</a> — the map that every style card in this course links into.</li>
+  </ul>
+  <p class="footer-fine">The TSMC Style Course · part of the Silicon Wars artwork collection. Character © the Silicon Wars project; study images AI-generated for education.</p>
+</footer>
+
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lb-close" id="lbClose" aria-label="Close">×</button>
+  <button class="lb-prev" id="lbPrev" aria-label="Previous image">‹</button>
+  <figure class="lb-figure">
+    <img id="lbImg" alt="">
+    <figcaption id="lbCaption"></figcaption>
+  </figure>
+  <button class="lb-next" id="lbNext" aria-label="Next image">›</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

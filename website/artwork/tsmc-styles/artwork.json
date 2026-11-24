@@ -1,0 +1,3270 @@
+{
+ "meta": {
+  "title": "The TSMC Style Course",
+  "subtitle": "One model. One café. 105 ways to make a picture.",
+  "model": "TSMC — 'The Quiet Queenmaker' of Silicon Wars — drawn from her character sheet in every picture.",
+  "totalStyles": 105,
+  "totalImages": 240,
+  "totalLessons": 12
+ },
+ "lessons": [
+  {
+   "id": "media",
+   "title": "Made of What? Drawing and Painting Media",
+   "bigIdea": "Before style comes stuff. Every picture is made of a material, and the material leaves fingerprints.",
+   "intro": "Our model sits in the same café pose for every picture in this lesson. Only the medium changes: pencil, ink, chalk, water, oil, pixels. Watch how each material pushes the same scene toward a different mood — soft, sharp, glowing, flat. Learning to name the medium is the first skill of looking at art.",
+   "exercise": "Pick two pictures of the same pose and list three things that changed besides color. Edges? Texture? How dark the darkest dark is?",
+   "styles": [
+    {
+     "slug": "graphite-drawing",
+     "name": "Graphite Drawing",
+     "tag": "Pencil on paper",
+     "blurb": "The humblest medium: a pencil. Everything is built from gray — light grays for silk and skin, deep grays for shadow — with no color to hide behind.",
+     "look": [
+      "Shading is blended smoothly, like breath on glass",
+      "Edges are soft where light wraps around the figure",
+      "The whole scene fits in one family of grays"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Drawing",
+     "images": [
+      {
+       "src": "art/graphite-drawing/1.webp",
+       "thumb": "art/graphite-drawing/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "pen-and-ink",
+     "name": "Pen and Ink",
+     "tag": "Nib and black ink",
+     "blurb": "A pen cannot erase and cannot do gray directly — grays are faked with hatching, thousands of tiny parallel lines. The result is crisp, decisive and a little nervous.",
+     "look": [
+      "Look for cross-hatched shadows on the skirt and chair",
+      "Lines get denser where things get darker",
+      "Highlights are just paper left empty"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pen_and_ink",
+     "images": [
+      {
+       "src": "art/pen-and-ink/1.webp",
+       "thumb": "art/pen-and-ink/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "ink-wash",
+     "name": "Ink Wash",
+     "tag": "Diluted ink, East Asian manner",
+     "blurb": "Ink thinned with water into a ladder of grays, laid down in flowing washes. One brushstroke must do the work of a whole shadow — there is no going back.",
+     "look": [
+      "Big soft pools of gray form the background",
+      "A few dry-brush strokes snap the details into focus",
+      "The mood is quiet, like the moment before rain"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Ink_wash_painting",
+     "images": [
+      {
+       "src": "art/ink-wash/1.webp",
+       "thumb": "art/ink-wash/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "charcoal",
+     "name": "Charcoal Drawing",
+     "tag": "Charcoal on paper",
+     "blurb": "Burnt willow ground into sticks: charcoal gives the blackest blacks and the smudgiest edges of any drawing medium. Artists smear it with fingers and lift it with erasers.",
+     "look": [
+      "Deep velvety darks behind the figure",
+      "Edges dissolve where the artist smudged",
+      "Bright highlights were erased back into the paper"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Charcoal_(art)",
+     "images": [
+      {
+       "src": "art/charcoal/1.webp",
+       "thumb": "art/charcoal/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/charcoal/2.webp",
+       "thumb": "art/charcoal/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/charcoal/3.webp",
+       "thumb": "art/charcoal/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/charcoal/4.webp",
+       "thumb": "art/charcoal/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "colored-pencil",
+     "name": "Colored Pencil",
+     "tag": "Layered pencil pigment",
+     "blurb": "Color built from dozens of transparent layers of pencil. Slower than paint, more controlled than pastel — every hair and thread can be placed exactly.",
+     "look": [
+      "Fine grain from the paper shows through the color",
+      "Colors are mixed by layering, not on a palette",
+      "Edges stay sharp and deliberate everywhere"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Colored_pencil",
+     "images": [
+      {
+       "src": "art/colored-pencil/1.webp",
+       "thumb": "art/colored-pencil/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/colored-pencil/2.webp",
+       "thumb": "art/colored-pencil/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/colored-pencil/3.webp",
+       "thumb": "art/colored-pencil/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/colored-pencil/4.webp",
+       "thumb": "art/colored-pencil/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "soft-pastel",
+     "name": "Soft Pastel",
+     "tag": "Pure pigment sticks",
+     "blurb": "Pastel sticks are almost pure pigment, so colors glow with a powdery, light-scattering softness. It is drawing and painting at the same time.",
+     "look": [
+      "A velvety bloom softens every surface",
+      "Colors sit on top of each other like dust",
+      "Skin and cloth share the same chalky light"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pastel",
+     "images": [
+      {
+       "src": "art/soft-pastel/1.webp",
+       "thumb": "art/soft-pastel/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/soft-pastel/2.webp",
+       "thumb": "art/soft-pastel/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/soft-pastel/3.webp",
+       "thumb": "art/soft-pastel/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/soft-pastel/4.webp",
+       "thumb": "art/soft-pastel/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "watercolor",
+     "name": "Watercolor",
+     "tag": "Transparent pigment in water",
+     "blurb": "Water does half the work. Pigment pools, blooms and dries lighter than it looks wet, and the white of the paper becomes the light in the picture.",
+     "look": [
+      "Transparent washes let the paper shine through",
+      "Edges bloom where wet paint met wet paper",
+      "Nothing is fully opaque — even shadows glow"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Watercolor_painting",
+     "images": [
+      {
+       "src": "art/watercolor/1.webp",
+       "thumb": "art/watercolor/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/watercolor/2.webp",
+       "thumb": "art/watercolor/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/watercolor/3.webp",
+       "thumb": "art/watercolor/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/watercolor/4.webp",
+       "thumb": "art/watercolor/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "gouache",
+     "name": "Gouache",
+     "tag": "Opaque watercolor",
+     "blurb": "Watercolor's matte, opaque cousin — designers loved it because it photographs flat and covers mistakes. Colors dry chalky, even and poster-like.",
+     "look": [
+      "Flat, even color areas with little shine",
+      "Light colors sit cleanly on top of dark ones",
+      "The finish looks like a printed illustration"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Gouache",
+     "images": [
+      {
+       "src": "art/gouache/1.webp",
+       "thumb": "art/gouache/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/gouache/2.webp",
+       "thumb": "art/gouache/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/gouache/3.webp",
+       "thumb": "art/gouache/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/gouache/4.webp",
+       "thumb": "art/gouache/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "acrylic-painting",
+     "name": "Acrylic Painting",
+     "tag": "Modern polymer paint",
+     "blurb": "Invented in the 20th century, acrylic dries in minutes and can imitate oil, watercolor or plastic-smooth flatness. The café scene gets crisp edges and a modern, satin finish.",
+     "look": [
+      "Clean edges mixed with smoothly blended passages",
+      "Colors stay bright and slightly synthetic",
+      "No canvas glow — the surface is calm and matte-satin"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Acrylic_paint",
+     "images": [
+      {
+       "src": "art/acrylic-painting/1.webp",
+       "thumb": "art/acrylic-painting/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "oil-painting",
+     "name": "Oil Painting",
+     "tag": "Pigment in linseed oil",
+     "blurb": "The prestige medium of European art for 500 years: slow-drying, blendable, and capable of glowing translucent layers called glazes. Skin and silk were its specialties.",
+     "look": [
+      "Soft, seamless blending on the face and hands",
+      "Deep colors glow as if lit from inside",
+      "Brushwork disappears into polished finish"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Oil_painting",
+     "images": [
+      {
+       "src": "art/oil-painting/1.webp",
+       "thumb": "art/oil-painting/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/oil-painting/2.webp",
+       "thumb": "art/oil-painting/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/oil-painting/3.webp",
+       "thumb": "art/oil-painting/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/oil-painting/4.webp",
+       "thumb": "art/oil-painting/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "egg-tempera",
+     "name": "Egg Tempera",
+     "tag": "Pigment bound with egg yolk",
+     "blurb": "The panel painter's medium before oil: fast, matte and precise, built from thousands of tiny hatched strokes. It gives the scene a pale, luminous, early-Renaissance stillness.",
+     "look": [
+      "Fine hatched strokes model every form",
+      "Colors are pale, dry and luminous",
+      "A faint gold warmth hangs over the scene"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Tempera",
+     "images": [
+      {
+       "src": "art/egg-tempera/1.webp",
+       "thumb": "art/egg-tempera/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "buon-fresco",
+     "name": "Buon Fresco",
+     "tag": "Painting into wet plaster",
+     "blurb": "True fresco is painted into wet lime plaster, so the image becomes part of the wall itself — which is why Giotto's work survives 700 years later. Our version even has the cracks.",
+     "look": [
+      "Matte, mineral colors with no shine at all",
+      "Hairline cracks cross the surface",
+      "It reads as a wall, not a page — flat and architectural"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Fresco",
+     "images": [
+      {
+       "src": "art/buon-fresco/1.webp",
+       "thumb": "art/buon-fresco/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "digital-painting",
+     "name": "Digital Painting",
+     "tag": "Pixels and pressure-sensitive brushes",
+     "blurb": "Painting with software: infinite undo, perfect gradients, brushes that imitate everything in this lesson. The challenge flips — with no material resistance, the artist must invent their own limits.",
+     "look": [
+      "Airbrush-smooth gradients with painterly accents",
+      "Lighting is polished and cinematic",
+      "No paper grain, no cracks — a surface that never existed physically"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Digital_painting",
+     "images": [
+      {
+       "src": "art/digital-painting/1.webp",
+       "thumb": "art/digital-painting/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/digital-painting/2.webp",
+       "thumb": "art/digital-painting/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/digital-painting/3.webp",
+       "thumb": "art/digital-painting/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/digital-painting/4.webp",
+       "thumb": "art/digital-painting/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "vector-illustration",
+     "name": "Vector Illustration",
+     "tag": "Mathematical curves",
+     "blurb": "Not pixels but equations: every shape is a clean curve that can scale forever without blurring. The café becomes a diagram of itself — all signal, no texture.",
+     "look": [
+      "Perfectly smooth edges at any size",
+      "Flat color shapes with a few clean gradients",
+      "Details are simplified into symbols"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Vector_graphics",
+     "images": [
+      {
+       "src": "art/vector-illustration/1.webp",
+       "thumb": "art/vector-illustration/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "manga-ink",
+     "name": "Manga Ink and Screentone",
+     "tag": "Japanese comics technique",
+     "blurb": "Black ink plus screentone — printed dot patterns that fake gray. Manga artists turn economy into style: a few tones, bold blacks, and speed of reading above all.",
+     "look": [
+      "Dot-pattern tones shade the skirt and background",
+      "Solid blacks anchor hair, chair and shadows",
+      "The drawing stays light and quick to read"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Manga",
+     "images": [
+      {
+       "src": "art/manga-ink/1.webp",
+       "thumb": "art/manga-ink/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/manga-ink/2.webp",
+       "thumb": "art/manga-ink/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/manga-ink/3.webp",
+       "thumb": "art/manga-ink/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/manga-ink/4.webp",
+       "thumb": "art/manga-ink/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "anime-cel",
+     "name": "Anime Cel Shading",
+     "tag": "Animation cel style",
+     "blurb": "Classic TV animation painted characters on clear cels: flat color, one shadow tone, bold outlines. Zero blending — every form is a decision about where light stops.",
+     "look": [
+      "Exactly two tones per surface: lit and shadow",
+      "Thick, confident outlines",
+      "The background is softer than the character, so she pops forward"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Traditional_animation",
+     "images": [
+      {
+       "src": "art/anime-cel/1.webp",
+       "thumb": "art/anime-cel/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/anime-cel/2.webp",
+       "thumb": "art/anime-cel/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/anime-cel/3.webp",
+       "thumb": "art/anime-cel/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/anime-cel/4.webp",
+       "thumb": "art/anime-cel/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "print",
+   "title": "Copies: Printmaking and Reproduction",
+   "bigIdea": "A print is a picture made by transfer — carve it, ink it, press it, and you can make it again.",
+   "intro": "Printmaking turned images into multiples centuries before photography. Each technique here — carving wood, cutting lino, etching copper, exposing a cyanotype — forces the artist to think in reversed images, layers and limited marks. Notice how the café scene survives being squeezed through each process.",
+   "exercise": "Find the picture where white lines do the drawing instead of black ones. Why does carving flip the usual logic of drawing?",
+   "styles": [
+    {
+     "slug": "woodblock",
+     "name": "Woodblock Print",
+     "tag": "Carved wood, relief printing",
+     "blurb": "The image is carved into wood in reverse; what is not carved prints black. Bold shapes and knife marks are not flaws — they are the medium thinking out loud.",
+     "look": [
+      "Thick black shapes carry the composition",
+      "White lines are carved, not drawn",
+      "The texture of the wood grain peeks through"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Woodblock_printing",
+     "images": [
+      {
+       "src": "art/woodblock/1.webp",
+       "thumb": "art/woodblock/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/woodblock/2.webp",
+       "thumb": "art/woodblock/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/woodblock/3.webp",
+       "thumb": "art/woodblock/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/woodblock/4.webp",
+       "thumb": "art/woodblock/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "ukiyo-e",
+     "name": "Ukiyo-e",
+     "tag": "Japanese woodblock, Edo period",
+     "blurb": "Japan's 'pictures of the floating world': separate carved blocks for each color, printed in perfect registration. Flat color, elegant line, and design sense that later stunned Paris.",
+     "look": [
+      "Flat color areas bounded by a key-block line",
+      "Patterned textiles and screens fill the background",
+      "Four variants show different print moods — dark mica, pattern, actor-print boldness"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Ukiyo-e",
+     "images": [
+      {
+       "src": "art/ukiyo-e/1.webp",
+       "thumb": "art/ukiyo-e/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/ukiyo-e/2.webp",
+       "thumb": "art/ukiyo-e/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/ukiyo-e/3.webp",
+       "thumb": "art/ukiyo-e/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/ukiyo-e/4.webp",
+       "thumb": "art/ukiyo-e/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "linocut",
+     "name": "Linocut",
+     "tag": "Carved linoleum",
+     "blurb": "Linoleum is softer than wood, so lines swing in bold curves. The 20th-century favorite for posters and protest art: cheap, fast, unmistakable.",
+     "look": [
+      "Sweeping carved curves instead of fine detail",
+      "High black-and-white contrast",
+      "One accent color — wine red — does the storytelling"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Linocut",
+     "images": [
+      {
+       "src": "art/linocut/1.webp",
+       "thumb": "art/linocut/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "copperplate-etching",
+     "name": "Copperplate Etching",
+     "tag": "Acid-bitten copper lines",
+     "blurb": "The artist draws through wax on copper; acid bites the lines; ink hides in the grooves. Rembrandt's medium — capable of spiderweb delicacy and deep, warm darks.",
+     "look": [
+      "Everything is built from fine line networks",
+      "Tones are warm and antique, like old book plates",
+      "The longer you look, the more lines you find"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Etching",
+     "images": [
+      {
+       "src": "art/copperplate-etching/1.webp",
+       "thumb": "art/copperplate-etching/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "lithography",
+     "name": "Lithography",
+     "tag": "Drawing on stone",
+     "blurb": "A greasy crayon draws on limestone; water and ink do the rest. Uniquely among print methods, it preserves the exact feel of a crayon or brush stroke.",
+     "look": [
+      "Soft, grainy crayon texture in the shading",
+      "Tones feel drawn, not carved or etched",
+      "The mood is of a 19th-century Paris poster"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Lithography",
+     "images": [
+      {
+       "src": "art/lithography/1.webp",
+       "thumb": "art/lithography/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "screenprinting",
+     "name": "Screenprinting",
+     "tag": "Ink through mesh stencils",
+     "blurb": "Each color is pushed through its own stenciled screen, so images arrive in flat, separable layers — the technique of Warhol and of every band T-shirt since.",
+     "look": [
+      "Color arrives in flat, even layers",
+      "Slight misregistration charm at the edges",
+      "It looks printed, bold and reproducible"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Screen_printing",
+     "images": [
+      {
+       "src": "art/screenprinting/1.webp",
+       "thumb": "art/screenprinting/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "cyanotype",
+     "name": "Cyanotype",
+     "tag": "Sun-printed blueprint blue",
+     "blurb": "Iron salts and sunlight: expose, rinse, and everything turns Prussian blue. Anna Atkins used it for the first photographically illustrated book in 1843.",
+     "look": [
+      "Only blue and white exist in this world",
+      "Edges are soft, like shadows of real objects",
+      "The café feels like a blueprint of a memory"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Cyanotype",
+     "images": [
+      {
+       "src": "art/cyanotype/1.webp",
+       "thumb": "art/cyanotype/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "generative-plotter",
+     "name": "Generative and Plotter Art",
+     "tag": "Algorithm-drawn pen lines",
+     "blurb": "A computer writes the rules; a pen plotter draws them — thousands of precise lines whose density becomes shading. The artist's hand moves from drawing to designing the system that draws.",
+     "look": [
+      "Shading is made only of line density",
+      "Lines are perfectly regular, faintly mechanical",
+      "A single wine-red ink breaks the monochrome"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Generative_art",
+     "images": [
+      {
+       "src": "art/generative-plotter/1.webp",
+       "thumb": "art/generative-plotter/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "camera",
+   "title": "Fooling the Eye: Photography and Illusion",
+   "bigIdea": "A picture can pretend to be a window. Photography made that pretence cheap — and artists started asking what 'real' even means.",
+   "intro": "Pictorialists made photographs look like paintings; documentary photographers chased unposed truth; photorealists painted photographs by hand; trompe-l'œil painters tried to make you reach for painted objects. Same café, four different claims about reality.",
+   "exercise": "Cover the labels and sort the four pictures from 'most like a dream' to 'most like evidence'. What visual clues did you use?",
+   "styles": [
+    {
+     "slug": "pictorialist-photography",
+     "name": "Pictorialist Photography",
+     "tag": "Soft-focus photography, c. 1900",
+     "blurb": "Early art photographers fought for photography's status by making it dreamy: soft focus, hand-worked prints, painterly haze. Proof, they argued, that a camera could make art.",
+     "look": [
+      "Focus melts at the edges of the frame",
+      "Sepia-platinum tones, like an old photograph",
+      "Mood matters more than information"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pictorialism",
+     "images": [
+      {
+       "src": "art/pictorialist-photography/1.webp",
+       "thumb": "art/pictorialist-photography/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "documentary-photography",
+     "name": "Documentary Photography",
+     "tag": "Reportage, black and white",
+     "blurb": "The opposite claim: the camera tells the truth. Grain, available light, an unposed instant — the café as evidence of a real afternoon.",
+     "look": [
+      "Grain and imperfect light feel honest",
+      "Nothing seems arranged for your benefit",
+      "Black and white strips the scene to fact"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Documentary_photography",
+     "images": [
+      {
+       "src": "art/documentary-photography/1.webp",
+       "thumb": "art/documentary-photography/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "photorealism",
+     "name": "Photorealism",
+     "tag": "Painting that imitates photographs",
+     "blurb": "Painters in the 1970s copied photographs so exactly that the painting disappears into the photo — including the photo's blur, glare and accidents. It asks: if it looks identical, what is the difference?",
+     "look": [
+      "Every reflection and texture is accounted for",
+      "Even the camera's depth-of-field blur is painted",
+      "You keep forgetting it is not a photograph"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Photorealism",
+     "images": [
+      {
+       "src": "art/photorealism/1.webp",
+       "thumb": "art/photorealism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "trompe-loeil",
+     "name": "Trompe-l'œil",
+     "tag": "French: 'fools the eye'",
+     "blurb": "Painting that tries to escape its own frame: painted flies, peeling corners, objects that beg to be touched. The four variants stage different tricks — a letter board, a marble ledge, a pinned note.",
+     "look": [
+      "Painted shadows make objects seem to lift off the surface",
+      "One detail (a fly, a peeling corner) sells the illusion",
+      "The frame itself becomes part of the joke"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Trompe-l'œil",
+     "images": [
+      {
+       "src": "art/trompe-loeil/1.webp",
+       "thumb": "art/trompe-loeil/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/trompe-loeil/2.webp",
+       "thumb": "art/trompe-loeil/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/trompe-loeil/3.webp",
+       "thumb": "art/trompe-loeil/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/trompe-loeil/4.webp",
+       "thumb": "art/trompe-loeil/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "craft",
+   "title": "The Decorated Surface: Craft, Pattern and Material",
+   "bigIdea": "Not every picture hangs in a frame. Some are built from stone, glass, cloth and clay — and pattern is their language.",
+   "intro": "Mosaics, stained glass, batik cloth, quilts, carved stone and glazed porcelain: these arts decorate useful or sacred surfaces, and their materials dictate their geometry. Edges become lead lines, grout lines, seams and glazes. Compare how each craft breaks the café scene into pieces — and why.",
+   "exercise": "Choose one craft picture and imagine touching it. Where is it rough, smooth, heavy, fragile? How did the material decide the shapes?",
+   "styles": [
+    {
+     "slug": "byzantine-mosaic",
+     "name": "Byzantine-Inspired Mosaic",
+     "tag": "Stone and glass tesserae",
+     "blurb": "Thousands of small cubes — tesserae — set into mortar, often against gold. Byzantine mosaics flatten figures on purpose: these are icons, not windows, meant to glow by candlelight.",
+     "look": [
+      "You can see the individual cubes up close",
+      "Gold or deep color fills the background, not air",
+      "Four variants run from jewel-fine to rustic and aged"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Byzantine_art",
+     "images": [
+      {
+       "src": "art/byzantine-mosaic/1.webp",
+       "thumb": "art/byzantine-mosaic/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/byzantine-mosaic/2.webp",
+       "thumb": "art/byzantine-mosaic/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/byzantine-mosaic/3.webp",
+       "thumb": "art/byzantine-mosaic/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/byzantine-mosaic/4.webp",
+       "thumb": "art/byzantine-mosaic/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "stained-glass",
+     "name": "Stained Glass",
+     "tag": "Colored glass and lead",
+     "blurb": "A picture made of light itself: pieces of colored glass held by lead strips, designed to be read from inside a dark building with the sun behind it.",
+     "look": [
+      "Black lead lines are the drawing",
+      "Colors glow instead of reflecting",
+      "Variants range from Gothic jewel tones to a minimal modern window"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Stained_glass",
+     "images": [
+      {
+       "src": "art/stained-glass/1.webp",
+       "thumb": "art/stained-glass/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/stained-glass/2.webp",
+       "thumb": "art/stained-glass/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/stained-glass/3.webp",
+       "thumb": "art/stained-glass/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/stained-glass/4.webp",
+       "thumb": "art/stained-glass/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "paper-collage",
+     "name": "Paper Collage",
+     "tag": "Cut and pasted paper",
+     "blurb": "Scissors as a drawing tool. Matisse, too ill to paint late in life, called it 'drawing with scissors' — shapes are cut first and arranged until they sing.",
+     "look": [
+      "Every shape has a cut edge, not a drawn one",
+      "Flat papers overlap like leaves",
+      "The composition feels playful and movable"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Collage",
+     "images": [
+      {
+       "src": "art/paper-collage/1.webp",
+       "thumb": "art/paper-collage/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/paper-collage/2.webp",
+       "thumb": "art/paper-collage/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/paper-collage/3.webp",
+       "thumb": "art/paper-collage/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/paper-collage/4.webp",
+       "thumb": "art/paper-collage/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "batik",
+     "name": "Batik",
+     "tag": "Wax-resist dyed cloth, Indonesia",
+     "blurb": "Hot wax is drawn onto cloth to resist dye; crack the wax and the dye bleeds into fine veins. Repeat for every color. The café becomes cloth — pattern is not decoration here, it is structure.",
+     "look": [
+      "Fine crackle lines vein the colored areas",
+      "Indigo, wine and brown dominate the dye palette",
+      "Motifs repeat the way cloth patterns do"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Batik",
+     "images": [
+      {
+       "src": "art/batik/1.webp",
+       "thumb": "art/batik/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "narrative-story-quilts",
+     "name": "Narrative Story Quilts",
+     "tag": "Appliqué fabric storytelling",
+     "blurb": "Cloth pieces stitched into scenes — a tradition carried to brilliance by African American quilters like Harriet Powers and Faith Ringgold. Seams are the outlines; patterned fabrics do the shading.",
+     "look": [
+      "Visible stitches outline every shape",
+      "Different cloth patterns stand in for light and shade",
+      "The surface feels warm, soft and handmade"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Quilt",
+     "images": [
+      {
+       "src": "art/narrative-story-quilts/1.webp",
+       "thumb": "art/narrative-story-quilts/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "carved-relief",
+     "name": "Carved Relief",
+     "tag": "Stone carving",
+     "blurb": "The scene is not drawn but excavated: figures rise a few centimeters from a stone panel, and raking light does the modeling. All color is gone — only depth remains.",
+     "look": [
+      "One gray material makes the whole world",
+      "Shadows in the carving create the shading",
+      "Chisel texture survives in the background"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Relief",
+     "images": [
+      {
+       "src": "art/carved-relief/1.webp",
+       "thumb": "art/carved-relief/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "ceramic-vessel",
+     "name": "Ceramic Vessel and Glazing",
+     "tag": "Painted porcelain",
+     "blurb": "The picture wraps around a vase, bending with its belly. Glaze painting must predict the kiln: colors go in dull and come out glossy and transformed.",
+     "look": [
+      "The scene curves around the vessel's body",
+      "Cobalt blue and enamel colors shine under glaze",
+      "The vase itself is part of the artwork, not a frame"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Ceramic_art",
+     "images": [
+      {
+       "src": "art/ceramic-vessel/1.webp",
+       "thumb": "art/ceramic-vessel/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "world",
+   "title": "World Traditions: Many Ways to Make a Picture",
+   "bigIdea": "Realistic perspective is one culture's choice, not a law. Every tradition in this lesson solves 'how to show a person' differently.",
+   "intro": "Egyptian painters combined profile heads with frontal eyes; Maya artists painted stories around vases; Persian and Mughal miniaturists packed gardens into pages; Korean chaekgeori painters celebrated books themselves. As you compare, ask what each culture valued enough to draw carefully — and what it happily flattened or ignored.",
+   "exercise": "Find a picture where space is shown by stacking things upward instead of shrinking them with distance. Which tradition is it, and what does that choice make clearer?",
+   "styles": [
+    {
+     "slug": "egyptian-wall-painting",
+     "name": "Ancient Egyptian Wall Painting",
+     "tag": "Tomb and temple walls",
+     "blurb": "Egyptian figures combine the most recognizable view of each body part: head in profile, eye frontal, shoulders frontal, legs in profile. Not a mistake — a 3,000-year information system.",
+     "look": [
+      "Profile head with a frontal eye",
+      "Flat mineral colors inside firm outlines",
+      "Hieroglyph-like signs and register lines organize the wall"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Ancient_Egyptian_art",
+     "images": [
+      {
+       "src": "art/egyptian-wall-painting/1.webp",
+       "thumb": "art/egyptian-wall-painting/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "greek-vase-painting",
+     "name": "Greek Vase Painting",
+     "tag": "Black-figure and red-figure pottery",
+     "blurb": "Athenian painters told myths on wine vessels: first as black silhouettes with scratched details, later reversed — red figures reserved against a black ground, allowing painted interior lines.",
+     "look": [
+      "Figures wrap around the curve of an amphora",
+      "Black silhouettes carry incised detail",
+      "The red of the clay is one of the 'colors'"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pottery_of_ancient_Greece",
+     "images": [
+      {
+       "src": "art/greek-vase-painting/1.webp",
+       "thumb": "art/greek-vase-painting/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "maya-painted-ceramics",
+     "name": "Classic Maya Painted Ceramics",
+     "tag": "Codex-style vase painting",
+     "blurb": "Maya artists painted palace scenes and myths around cylindrical vases in a calligraphic line, with glyph blocks that actually write names and events — pictures and text in one band.",
+     "look": [
+      "The scene unrolls like a scroll around the pot",
+      "Cream, red and black carry the palette",
+      "Glyph blocks sit inside the picture as captions"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Maya_ceramics",
+     "images": [
+      {
+       "src": "art/maya-painted-ceramics/1.webp",
+       "thumb": "art/maya-painted-ceramics/t1.webp",
+       "w": 1100,
+       "h": 367,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "medieval-illumination",
+     "name": "Medieval Manuscript Illumination",
+     "tag": "Gold leaf on parchment",
+     "blurb": "Monks and court artists lit up books with gold: miniature paintings inside decorated letters and margins crawling with vines, beasts and jokes. The page, not the wall, was Europe's picture gallery for centuries.",
+     "look": [
+      "Real gold areas catch the light first",
+      "Borders teem with plants and tiny creatures",
+      "Decorative script lines complete the page"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Illuminated_manuscript",
+     "images": [
+      {
+       "src": "art/medieval-illumination/1.webp",
+       "thumb": "art/medieval-illumination/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "persian-manuscript",
+     "name": "Persian Manuscript Painting",
+     "tag": "Miniatures for epic poetry",
+     "blurb": "Illustrations for the Shahnameh and court poetry: jewel colors, gold skies, architecture cut open like a dollhouse, and gardens in eternal spring. Space stacks upward in tiers instead of receding.",
+     "look": [
+      "A gold or midnight sky ignores natural light",
+      "Figures are small, refined and numerous",
+      "Pattern covers every surface — tile, textile, garden"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Persian_miniature",
+     "images": [
+      {
+       "src": "art/persian-manuscript/1.webp",
+       "thumb": "art/persian-manuscript/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/persian-manuscript/2.webp",
+       "thumb": "art/persian-manuscript/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/persian-manuscript/3.webp",
+       "thumb": "art/persian-manuscript/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/persian-manuscript/4.webp",
+       "thumb": "art/persian-manuscript/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "mughal-album",
+     "name": "Mughal Album Painting",
+     "tag": "Court miniature, India",
+     "blurb": "Persian technique meets Indian observation at the Mughal court: exquisitely fine miniatures, mounted in albums with floral borders, recording court life, hunts and nature with jewelers' precision.",
+     "look": [
+      "Hair-thin lines model faces and fabrics",
+      "A wide floral margin frames the scene",
+      "Colors are soft jewels — refined, never loud"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Mughal_painting",
+     "images": [
+      {
+       "src": "art/mughal-album/1.webp",
+       "thumb": "art/mughal-album/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "mithila",
+     "name": "Mithila Painting",
+     "tag": "Madhubani folk art, India and Nepal",
+     "blurb": "Painted by women of Mithila on walls and paper for weddings and festivals: double outlines, hatched color fills, and no empty space anywhere — nature abhors a vacuum here.",
+     "look": [
+      "Every area is filled with pattern or creatures",
+      "Double outlines give shapes a stitched energy",
+      "Faces often appear in profile with one large eye"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Madhubani_art",
+     "images": [
+      {
+       "src": "art/mithila/1.webp",
+       "thumb": "art/mithila/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "rinpa",
+     "name": "Rinpa",
+     "tag": "Japanese decorative school",
+     "blurb": "Rinpa artists distilled nature into design: gold-leaf grounds, bold silhouettes of plum, maple and waves, and tarashikomi — pigments pooled wet into each other for soft, lucky edges.",
+     "look": [
+      "Gold ground replaces sky and air",
+      "Natural motifs are simplified into emblems",
+      "Pooled pigment blurs some edges on purpose"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Rinpa_school",
+     "images": [
+      {
+       "src": "art/rinpa/1.webp",
+       "thumb": "art/rinpa/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "chinese-ink-landscape",
+     "name": "Chinese Ink Landscape",
+     "tag": "Shan shui tradition",
+     "blurb": "For a thousand years, China's scholar-painters held landscape — shan shui, 'mountain-water' — as the highest art. Our model keeps a seat, but the café becomes a pavilion among cliffs, mist and waterfalls: humans are guests in nature, not its owners.",
+     "look": [
+      "Mist and empty paper do as much work as ink",
+      "Mountains stack in receding veils",
+      "The figure is small inside a vast world"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Shan_shui",
+     "images": [
+      {
+       "src": "art/chinese-ink-landscape/1.webp",
+       "thumb": "art/chinese-ink-landscape/t1.webp",
+       "w": 550,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/chinese-ink-landscape/2.webp",
+       "thumb": "art/chinese-ink-landscape/t2.webp",
+       "w": 1100,
+       "h": 367,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/chinese-ink-landscape/3.webp",
+       "thumb": "art/chinese-ink-landscape/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/chinese-ink-landscape/4.webp",
+       "thumb": "art/chinese-ink-landscape/t4.webp",
+       "w": 550,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "chaekgeori",
+     "name": "Chaekgeori",
+     "tag": "Korean books-and-objects painting",
+     "blurb": "Joseon-dynasty screens celebrating scholarship: books, brushes, ceramics and curios stacked on shelves in playful near-trompe-l'œil. A still life that is really a portrait of a mind.",
+     "look": [
+      "Shelves of books and objects fill the picture",
+      "Objects are painted with loving, slightly impossible precision",
+      "Our model sits inside the library like one of its treasures"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Chaekgeori",
+     "images": [
+      {
+       "src": "art/chaekgeori/1.webp",
+       "thumb": "art/chaekgeori/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "kalighat",
+     "name": "Kalighat Painting",
+     "tag": "Bazaar art, 19th-century Kolkata",
+     "blurb": "Painters outside Kolkata's Kalighat temple sold quick, bold watercolors to pilgrims: sweeping single-stroke outlines, flat washes, figures modeled with a few confident shadows. A souvenir that became a school.",
+     "look": [
+      "One sweeping brush line defines each form",
+      "Flat washes with minimal shading",
+      "The figure feels sculptural despite the flatness"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Kalighat_painting",
+     "images": [
+      {
+       "src": "art/kalighat/1.webp",
+       "thumb": "art/kalighat/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "wayang-kulit",
+     "name": "Wayang Kulit",
+     "tag": "Indonesian shadow theatre",
+     "blurb": "The picture is a shadow: a perforated leather puppet, gilded and painted, performed behind a lit screen with rods at its joints. You are seeing the puppet itself — profile is not a style here, it is physics.",
+     "look": [
+      "The figure is a flat silhouette with pierced patterns",
+      "Articulated rods attach at the joints",
+      "Warm flame-light glows behind the screen"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Wayang",
+     "images": [
+      {
+       "src": "art/wayang-kulit/1.webp",
+       "thumb": "art/wayang-kulit/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "ayacucho-retablo",
+     "name": "Ayacucho Retablo",
+     "tag": "Peruvian portable altar box",
+     "blurb": "Andean artists pack whole worlds into wooden boxes: tiers of small painted figures acting out festivals, markets and daily life behind opening doors. Our café joins a fab scene inside the box.",
+     "look": [
+      "The scene lives inside an open wooden box",
+      "Small modeled figures, brightly painted",
+      "Multiple tiers tell several stories at once"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Retablo",
+     "images": [
+      {
+       "src": "art/ayacucho-retablo/1.webp",
+       "thumb": "art/ayacucho-retablo/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "canon",
+   "title": "The Western Canon: Order, Drama and Feeling",
+   "bigIdea": "From 1400 to 1900, European painting swung like a pendulum: reason, then emotion, then reason again — each swing reacting to the last.",
+   "intro": "Renaissance artists built space with geometry. Baroque artists flooded it with drama. Neoclassicists demanded noble order, Romantics answered with storms and feelings, and Realists pointed at ordinary workers. Walk the pendulum swing by swing and you can read most museum walls in Europe.",
+   "exercise": "Stand back from the nine pictures and sort them into 'calm and ordered' versus 'stormy and emotional'. Does the historical order alternate?",
+   "styles": [
+    {
+     "slug": "renaissance-perspective",
+     "name": "Renaissance Perspective",
+     "tag": "Italy, 1400s",
+     "blurb": "Brunelleschi and Alberti turned space into mathematics: one vanishing point, receding floor tiles, architecture like a proof. The four variants place our model in loggias, halls and piazzas built by the rule.",
+     "look": [
+      "Floor lines and arches converge to one point",
+      "Space feels measurable and calm",
+      "Figures are placed like pieces in the geometry"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Perspective_(graphical)",
+     "images": [
+      {
+       "src": "art/renaissance-perspective/1.webp",
+       "thumb": "art/renaissance-perspective/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/renaissance-perspective/2.webp",
+       "thumb": "art/renaissance-perspective/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/renaissance-perspective/3.webp",
+       "thumb": "art/renaissance-perspective/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/renaissance-perspective/4.webp",
+       "thumb": "art/renaissance-perspective/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "baroque",
+     "name": "Baroque",
+     "tag": "Europe, 1600s",
+     "blurb": "The Renaissance room explodes: candlelight, swirling drapery, diagonals, drama. Baroque art is theatre that refuses to sit still — Caravaggio's spotlight, Rubens' motion.",
+     "look": [
+      "Strong light-dark contrast (chiaroscuro)",
+      "Diagonals and billowing cloth create motion",
+      "Everything feels one second before climax"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Baroque",
+     "images": [
+      {
+       "src": "art/baroque/1.webp",
+       "thumb": "art/baroque/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/baroque/2.webp",
+       "thumb": "art/baroque/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/baroque/3.webp",
+       "thumb": "art/baroque/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/baroque/4.webp",
+       "thumb": "art/baroque/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "neoclassicism",
+     "name": "Neoclassicism",
+     "tag": "Late 1700s, after David",
+     "blurb": "A stern correction to Baroque excess: clean outlines, marble surfaces, Roman virtue. Our variants include an oath-taking scene that turns cleanroom engineers into Roman citizens.",
+     "look": [
+      "Sculptural figures with crisp contours",
+      "Marble, columns and restrained color",
+      "Poses quote Roman statues and reliefs"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Neoclassicism",
+     "images": [
+      {
+       "src": "art/neoclassicism/1.webp",
+       "thumb": "art/neoclassicism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/neoclassicism/2.webp",
+       "thumb": "art/neoclassicism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/neoclassicism/3.webp",
+       "thumb": "art/neoclassicism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/neoclassicism/4.webp",
+       "thumb": "art/neoclassicism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "rococo",
+     "name": "Rococo",
+     "tag": "France, early 1700s",
+     "blurb": "The aristocracy at play: pastel silk, shell curves, garden swings and flirtation. Fragonard's swing hangs in this lesson's DNA — froth with world-class technique underneath.",
+     "look": [
+      "Powdery pastels and golden light",
+      "Curves everywhere — no straight line survives",
+      "The mood is a garden party, slightly unreal"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Rococo",
+     "images": [
+      {
+       "src": "art/rococo/1.webp",
+       "thumb": "art/rococo/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "romanticism",
+     "name": "Romanticism",
+     "tag": "Early 1800s",
+     "blurb": "Feeling against reason: lone figures before fog, storms, ruins and the sublime — nature big enough to make humans tremble. Friedrich's wanderer and Turner's tempests lead the variants.",
+     "look": [
+      "Vast weather dwarfs the figure",
+      "Light breaks through cloud like revelation",
+      "Ruins and cliffs stand for time and fate"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Romanticism",
+     "images": [
+      {
+       "src": "art/romanticism/1.webp",
+       "thumb": "art/romanticism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/romanticism/2.webp",
+       "thumb": "art/romanticism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/romanticism/3.webp",
+       "thumb": "art/romanticism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/romanticism/4.webp",
+       "thumb": "art/romanticism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "pre-raphaelite",
+     "name": "Pre-Raphaelite Painting",
+     "tag": "England, from 1848",
+     "blurb": "Young rebels painted with jeweler's detail and jewel color: every leaf counted, literary heroines in real landscapes, intensity bordering on obsession.",
+     "look": [
+      "Botanical, almost photographic detail",
+      "Saturated jewel colors in sharp focus",
+      "A melancholy, storybook stillness"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pre-Raphaelite_Brotherhood",
+     "images": [
+      {
+       "src": "art/pre-raphaelite/1.webp",
+       "thumb": "art/pre-raphaelite/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "tonalism",
+     "name": "Tonalism",
+     "tag": "America, late 1800s",
+     "blurb": "Nearly one color: dusk, mist and hush. Tonalists traded detail for mood, painting the moment when the world goes quiet and forms melt into a single chord.",
+     "look": [
+      "One dominant tone veils the whole scene",
+      "Details dissolve into mist",
+      "It feels like a memory, not a view"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Tonalism",
+     "images": [
+      {
+       "src": "art/tonalism/1.webp",
+       "thumb": "art/tonalism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "dutch-vanitas",
+     "name": "Dutch Vanitas Still Life",
+     "tag": "Netherlands, 1600s",
+     "blurb": "Beautiful objects with a warning label: wilting flowers, hourglasses, snuffed candles — worldly pleasures are brief. Our café table is restaged as a memento mori, the wafer as a golden disc among the props.",
+     "look": [
+      "Deep darkness with a single raking light",
+      "Every object is a symbol of time passing",
+      "Rich textures: glass, petal, metal, crumb"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Vanitas",
+     "images": [
+      {
+       "src": "art/dutch-vanitas/1.webp",
+       "thumb": "art/dutch-vanitas/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "french-realism",
+     "name": "French Realism",
+     "tag": "Courbet and Millet, mid-1800s",
+     "blurb": "Paint what you see, at life size, without mythology: workers, stone-breakers, gleaners. Scandalous in 1850, it is now the ancestor of documentary everything. Our model joins fab workers at shift change.",
+     "look": [
+      "Earthy, unglamorous palette",
+      "Labor is shown with dignity, not pity",
+      "No halos, no costumes — the present day"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Realism_(arts)",
+     "images": [
+      {
+       "src": "art/french-realism/1.webp",
+       "thumb": "art/french-realism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "public",
+   "title": "Art in Public: Walls, Nations and Movements",
+   "bigIdea": "Some art is made to persuade crowds, not decorate rooms — it gets big, legible and ideological.",
+   "intro": "Mexican muralists painted national history on public walls; Harlem Renaissance artists forged a visual identity; Soviet Socialist Realism glorified the worker; the New Objectivity stared at Weimar Germany without blinking. Ask of every picture here: who paid for it, who was meant to see it, and what were they supposed to feel?",
+   "exercise": "Pick the picture you would put on a public building to make people proud, and the one you would put in a newspaper to make them think. Defend both choices.",
+   "styles": [
+    {
+     "slug": "mexican-muralism",
+     "name": "Mexican Muralism",
+     "tag": "Rivera, Orozco, Siqueiros, 1920s-40s",
+     "blurb": "After the Mexican Revolution, the state handed its walls to painters: history, labor and identity at architectural scale, readable by a crowd that might not read words. The variants channel Rivera's registers, Orozco's fire and Siqueiros' dynamism.",
+     "look": [
+      "Figures are monumental, bigger than life",
+      "Stories unfold in stacked registers",
+      "Workers and machines are the heroes"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Mexican_muralism",
+     "images": [
+      {
+       "src": "art/mexican-muralism/1.webp",
+       "thumb": "art/mexican-muralism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/mexican-muralism/2.webp",
+       "thumb": "art/mexican-muralism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/mexican-muralism/3.webp",
+       "thumb": "art/mexican-muralism/t3.webp",
+       "w": 1100,
+       "h": 367,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/mexican-muralism/4.webp",
+       "thumb": "art/mexican-muralism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "harlem-renaissance",
+     "name": "Harlem Renaissance",
+     "tag": "New York, 1920s-30s",
+     "blurb": "Aaron Douglas's silhouettes and murals gave the Harlem Renaissance its graphic voice: flat forms, radiating light, African motifs and jazz-age rhythm, asserting identity and modernity at once.",
+     "look": [
+      "Flattened, silhouette-like figures",
+      "Radiating arcs and rhythmic pattern",
+      "Gold, black and earth tones carry pride and energy"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Harlem_Renaissance",
+     "images": [
+      {
+       "src": "art/harlem-renaissance/1.webp",
+       "thumb": "art/harlem-renaissance/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "american-regionalism",
+     "name": "American Regionalism",
+     "tag": "Grant Wood's America, 1930s",
+     "blurb": "Midwestern painters answered European modernism with rolling farmland, small towns and curved, rhythmic clarity — our fab rises from the prairie like a grain elevator.",
+     "look": [
+      "Rolling, rhythmic landscape curves",
+      "Clean modeling with a storybook clarity",
+      "Local pride as subject matter"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Regionalism_(art)",
+     "images": [
+      {
+       "src": "art/american-regionalism/1.webp",
+       "thumb": "art/american-regionalism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "soviet-socialist-realism",
+     "name": "Soviet Socialist Realism",
+     "tag": "USSR, from 1934",
+     "blurb": "The mandated style of the Soviet state: academic realism put to heroic optimism — workers, engineers and collective triumphs, idealized and sunlit. Study it as both painting and persuasion. (Our version keeps the banners wordless.)",
+     "look": [
+      "Heroic scale and confident poses",
+      "Bright, optimistic academic realism",
+      "Machinery and banners stage the message"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Socialist_realism",
+     "images": [
+      {
+       "src": "art/soviet-socialist-realism/1.webp",
+       "thumb": "art/soviet-socialist-realism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "new-objectivity",
+     "name": "New Objectivity",
+     "tag": "Neue Sachlichkeit, Weimar Germany",
+     "blurb": "After Expressionism's fever, a cold eye: Dix and Schad painted cafés, portraits and streets with crystalline precision and quiet irony. Nothing is exaggerated, and that is what stings.",
+     "look": [
+      "Razor-sharp, almost photographic detail",
+      "Cool, detached emotional temperature",
+      "Modern life observed without comfort"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/New_Objectivity",
+     "images": [
+      {
+       "src": "art/new-objectivity/1.webp",
+       "thumb": "art/new-objectivity/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "arts-and-crafts",
+     "name": "Arts and Crafts",
+     "tag": "William Morris and the movement, from 1860s",
+     "blurb": "A rebellion against factory goods: honest materials, visible handwork, medieval-revival pattern. Morris's workshops wove, printed and built the café around our model — art you live inside.",
+     "look": [
+      "Pattern drawn from plants, honestly stylized",
+      "Wood, textile and print textures everywhere",
+      "Nothing pretends to be another material"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Arts_and_Crafts_movement",
+     "images": [
+      {
+       "src": "art/arts-and-crafts/1.webp",
+       "thumb": "art/arts-and-crafts/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modernism",
+   "title": "Modernism Breaks the Picture",
+   "bigIdea": "Between 1870 and 1940 artists dismantled the window-illusion piece by piece: light, color, form, then reality itself.",
+   "intro": "Impressionists painted light instead of things. Fauvists freed color from nature. Cubists showed several viewpoints at once. Surrealists and Dada artists attacked logic itself. Each style in this lesson breaks one rule the canon lessons taught you — see if you can name the rule being broken in each picture.",
+   "exercise": "For each picture, complete the sentence: 'This artist cares more about ___ than about making it look real.' Compare your answers with a partner's.",
+   "styles": [
+    {
+     "slug": "impressionism",
+     "name": "Impressionism",
+     "tag": "France, 1870s",
+     "blurb": "Paint the light, not the thing: broken brushstrokes of pure color that fuse in the viewer's eye. The variants quote Renoir's terraces, Monet's riverbanks and Pissarro's boulevards — afternoons you can almost feel.",
+     "look": [
+      "Visible, broken brushstrokes",
+      "Shadows are blue and violet, never black",
+      "The scene sparkles and breathes"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Impressionism",
+     "images": [
+      {
+       "src": "art/impressionism/1.webp",
+       "thumb": "art/impressionism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/impressionism/2.webp",
+       "thumb": "art/impressionism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/impressionism/3.webp",
+       "thumb": "art/impressionism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/impressionism/4.webp",
+       "thumb": "art/impressionism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "pointillism",
+     "name": "Pointillism",
+     "tag": "Seurat's dots, 1880s",
+     "blurb": "Impressionism made systematic: thousands of distinct dots of pure color, mixed by your eye, not the palette. Stand close — confetti. Stand back — a sunny café.",
+     "look": [
+      "The image is built only from dots",
+      "Colors vibrate where complements touch",
+      "Stillness and order beneath the shimmer"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pointillism",
+     "images": [
+      {
+       "src": "art/pointillism/1.webp",
+       "thumb": "art/pointillism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "symbolism",
+     "name": "Symbolism",
+     "tag": "Dream and myth, 1880s-1900s",
+     "blurb": "Against realism, a art of suggestion: jeweled palaces, crescent moons, peacocks and beautiful melancholy. Moreau, Klimt and Redon haunt the four variants — pictures that behave like dreams and poems.",
+     "look": [
+      "Gold, jewel tones and moonlight",
+      "Ornament swallows the figure into pattern",
+      "Everything feels symbolic of something unnamed"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Symbolism_(arts)",
+     "images": [
+      {
+       "src": "art/symbolism/1.webp",
+       "thumb": "art/symbolism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/symbolism/2.webp",
+       "thumb": "art/symbolism/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/symbolism/3.webp",
+       "thumb": "art/symbolism/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/symbolism/4.webp",
+       "thumb": "art/symbolism/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "fauvism",
+     "name": "Fauvism",
+     "tag": "'Wild beasts' of color, 1905",
+     "blurb": "Matisse and Derain let color off the leash: green skies, orange floors, pink light — chosen for feeling and harmony, not description. Critics called them fauves, wild beasts; they kept the name.",
+     "look": [
+      "Colors are arbitrary and high-key",
+      "Forms simplify so color can lead",
+      "Even a cleanroom turns into a sunflower field"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Fauvism",
+     "images": [
+      {
+       "src": "art/fauvism/1.webp",
+       "thumb": "art/fauvism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/fauvism/2.webp",
+       "thumb": "art/fauvism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/fauvism/3.webp",
+       "thumb": "art/fauvism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/fauvism/4.webp",
+       "thumb": "art/fauvism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "expressionism",
+     "name": "Expressionism",
+     "tag": "Germany, 1905-1920s",
+     "blurb": "Distort the world to match the feeling: jagged streets, acid color, anxious crowds. Kirchner's tilted Berlin and Munch's unease drive these variants — the café as a state of mind.",
+     "look": [
+      "Forms tilt, stretch and sharpen",
+      "Colors clash on purpose — acid green, blood red",
+      "Brushwork is agitated, never calm"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Expressionism",
+     "images": [
+      {
+       "src": "art/expressionism/1.webp",
+       "thumb": "art/expressionism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/expressionism/2.webp",
+       "thumb": "art/expressionism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/expressionism/3.webp",
+       "thumb": "art/expressionism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/expressionism/4.webp",
+       "thumb": "art/expressionism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "cubism",
+     "name": "Cubism",
+     "tag": "Picasso and Braque, from 1907",
+     "blurb": "Break the object into facets and show several viewpoints at once. The café table, cup and sitter shatter into interlocking planes — then, in the synthetic variant, reassemble as bright flat shapes.",
+     "look": [
+      "One object, several viewpoints, same canvas",
+      "Ochre and gray dominate the analytic variant",
+      "Glasses become twin circles; planes overlap like glass shards"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Cubism",
+     "images": [
+      {
+       "src": "art/cubism/1.webp",
+       "thumb": "art/cubism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/cubism/2.webp",
+       "thumb": "art/cubism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/cubism/3.webp",
+       "thumb": "art/cubism/t3.webp",
+       "w": 1100,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/cubism/4.webp",
+       "thumb": "art/cubism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "futurism",
+     "name": "Futurism",
+     "tag": "Italy, from 1909",
+     "blurb": "Speed as beauty: repeated limbs, motion echoes, city light streaking past. Boccioni and Balla painted what a photograph of movement feels like — our model multiplied across the boulevard.",
+     "look": [
+      "The figure repeats in motion phases",
+      "Diagonal speed lines cut the scene",
+      "Machines and lights share the stage as equals"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Futurism",
+     "images": [
+      {
+       "src": "art/futurism/1.webp",
+       "thumb": "art/futurism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/futurism/2.webp",
+       "thumb": "art/futurism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/futurism/3.webp",
+       "thumb": "art/futurism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/futurism/4.webp",
+       "thumb": "art/futurism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "orphism",
+     "name": "Orphism",
+     "tag": "Delaunay's color discs, 1910s",
+     "blurb": "Abstraction you can dance to: concentric discs and arcs of simultaneous color, named for Orpheus and music. Our model is woven into the swirl — present, but rhythm first.",
+     "look": [
+      "Color arrives in discs and arcs",
+      "Complements vibrate against each other",
+      "The figure emerges from pure rhythm"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Orphism_(art)",
+     "images": [
+      {
+       "src": "art/orphism/1.webp",
+       "thumb": "art/orphism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "surrealism",
+     "name": "Surrealism",
+     "tag": "Dream logic, from 1924",
+     "blurb": "Paint the unconscious: melting wafers in a desert, cups orbiting a dream room, a sea inside a teacup. Dalí's precision, Magritte's calm absurdity and Ernst's forests animate the variants — impossible things, rendered believably.",
+     "look": [
+      "Impossible events painted with total conviction",
+      "Familiar objects misbehave quietly",
+      "Horizons and skies feel too clear, like dreams"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Surrealism",
+     "images": [
+      {
+       "src": "art/surrealism/1.webp",
+       "thumb": "art/surrealism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/surrealism/2.webp",
+       "thumb": "art/surrealism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/surrealism/3.webp",
+       "thumb": "art/surrealism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/surrealism/4.webp",
+       "thumb": "art/surrealism/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "dada-photomontage",
+     "name": "Dada Photomontage",
+     "tag": "Berlin Dada, 1918-1920s",
+     "blurb": "Hannah Höch and John Heartfield weaponized scissors and newspapers: photographs cut apart and recombined into absurd, satirical machines. Our model is quite literally assembled from clippings.",
+     "look": [
+      "Visible scissor edges and halftone textures",
+      "Newspaper, gears and advertisements collide",
+      "Scale makes no sense, deliberately"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Dada",
+     "images": [
+      {
+       "src": "art/dada-photomontage/1.webp",
+       "thumb": "art/dada-photomontage/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/dada-photomontage/2.webp",
+       "thumb": "art/dada-photomontage/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/dada-photomontage/3.webp",
+       "thumb": "art/dada-photomontage/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/dada-photomontage/4.webp",
+       "thumb": "art/dada-photomontage/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "systems",
+   "title": "Systems and Geometry: Art as Design",
+   "bigIdea": "Twentieth-century artists and designers tried to build pictures from systems: grids, pure shapes, primary colors, optical laws.",
+   "intro": "The Bauhaus, De Stijl and the Constructivists wanted a universal visual language. Op artists weaponized optical illusion; Abstract Expressionists did the opposite — huge, unsystematic gesture. Art Nouveau and Art Deco remind us that 'design' also means ornament, luxury and the curve. Notice how many of these styles still shape the apps and posters around you.",
+   "exercise": "Find the picture with the fewest elements that still reads as 'TSMC at a café'. What is the minimum a picture needs?",
+   "styles": [
+    {
+     "slug": "art-nouveau",
+     "name": "Art Nouveau",
+     "tag": "1890s-1910s",
+     "blurb": "The whiplash line: Mucha's posters turned hair, stems and smoke into one flowing system of ornament. The variants give our model the full treatment — halo, café terrace, allegory panel, theatre poster.",
+     "look": [
+      "Sinuous, plant-like curves organize everything",
+      "A circular halo frames the figure like a jewel",
+      "Muted gold, sage and peach harmonize"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Art_Nouveau",
+     "images": [
+      {
+       "src": "art/art-nouveau/1.webp",
+       "thumb": "art/art-nouveau/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/art-nouveau/2.webp",
+       "thumb": "art/art-nouveau/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/art-nouveau/3.webp",
+       "thumb": "art/art-nouveau/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/art-nouveau/4.webp",
+       "thumb": "art/art-nouveau/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "art-deco",
+     "name": "Art Deco",
+     "tag": "1920s-30s glamour",
+     "blurb": "Nouveau's curves grow up into geometry: sunbursts, chevrons, symmetry, gold on black. The style of skyscrapers, ocean liners and movie palaces — our model's natural habitat, honestly.",
+     "look": [
+      "Strict symmetry and stepped forms",
+      "Gold, black and emerald luxury",
+      "Everything looks engineered and elegant"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Art_Deco",
+     "images": [
+      {
+       "src": "art/art-deco/1.webp",
+       "thumb": "art/art-deco/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/art-deco/2.webp",
+       "thumb": "art/art-deco/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/art-deco/3.webp",
+       "thumb": "art/art-deco/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/art-deco/4.webp",
+       "thumb": "art/art-deco/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "bauhaus",
+     "name": "Bauhaus Graphic Design",
+     "tag": "Germany, 1919-1933",
+     "blurb": "A school that redesigned the world from first shapes: circle, triangle, square; red, yellow, blue. The variants build our model from pure geometry, Kandinsky's circles, Klee's play and Schmidt's typographic grids.",
+     "look": [
+      "Primary shapes and colors do the drawing",
+      "Composition follows a visible grid or diagonal",
+      "Playfulness survives inside the system"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Bauhaus",
+     "images": [
+      {
+       "src": "art/bauhaus/1.webp",
+       "thumb": "art/bauhaus/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/bauhaus/2.webp",
+       "thumb": "art/bauhaus/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/bauhaus/3.webp",
+       "thumb": "art/bauhaus/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/bauhaus/4.webp",
+       "thumb": "art/bauhaus/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "constructivism",
+     "name": "Constructivism",
+     "tag": "Rodchenko and Lissitzky, 1920s",
+     "blurb": "Art as engineering for a new society: bold diagonals, red-black-cream photomontage, figures thrust forward like pistons. Text is banished in our variants — wafer discs carry the message instead.",
+     "look": [
+      "Diagonals dominate; nothing sits level",
+      "Red, black and cream only",
+      "Photomontage scale shifts: giant profile, small figure"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Constructivism_(art)",
+     "images": [
+      {
+       "src": "art/constructivism/1.webp",
+       "thumb": "art/constructivism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/constructivism/2.webp",
+       "thumb": "art/constructivism/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/constructivism/3.webp",
+       "thumb": "art/constructivism/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/constructivism/4.webp",
+       "thumb": "art/constructivism/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "de-stijl",
+     "name": "De Stijl",
+     "tag": "Mondrian's grid, 1917-1930s",
+     "blurb": "The strictest system of all: black lines, white ground, red-yellow-blue rectangles — and, hidden in our study, a seated figure. Proof that a person can survive total abstraction, barely.",
+     "look": [
+      "Only horizontals, verticals and primaries",
+      "Balance is achieved without symmetry",
+      "The figure is a guest inside the grid"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/De_Stijl",
+     "images": [
+      {
+       "src": "art/de-stijl/1.webp",
+       "thumb": "art/de-stijl/t1.webp",
+       "w": 1100,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "op-art",
+     "name": "Op Art",
+     "tag": "Optical painting, 1960s",
+     "blurb": "Bridget Riley and Victor Vasarely turned retinal physics into art: stripes that bend, grids that swell, moiré that hums. Our model's profile appears as a shift in the pattern in one variant — find her in all four.",
+     "look": [
+      "Patterns vibrate, warp or bulge",
+      "Black-and-white does most of the work",
+      "Your eyes feel the picture before your mind does"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Op_art",
+     "images": [
+      {
+       "src": "art/op-art/1.webp",
+       "thumb": "art/op-art/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/op-art/2.webp",
+       "thumb": "art/op-art/t2.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/op-art/3.webp",
+       "thumb": "art/op-art/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/op-art/4.webp",
+       "thumb": "art/op-art/t4.webp",
+       "w": 1100,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "abstract-expressionism",
+     "name": "Abstract Expressionism",
+     "tag": "New York, 1940s-50s",
+     "blurb": "Painting as event: Pollock's dripped webs, de Kooning's fierce women, Rothko's glowing fields, Kline's black architecture. Our figure emerges from, dissolves into, and finally becomes four giant brushstrokes.",
+     "look": [
+      "Gesture and scale replace description",
+      "The figure is found inside the paint, not under it",
+      "Each variant quotes a different giant of the movement"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Abstract_expressionism",
+     "images": [
+      {
+       "src": "art/abstract-expressionism/1.webp",
+       "thumb": "art/abstract-expressionism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/abstract-expressionism/2.webp",
+       "thumb": "art/abstract-expressionism/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/abstract-expressionism/3.webp",
+       "thumb": "art/abstract-expressionism/t3.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/abstract-expressionism/4.webp",
+       "thumb": "art/abstract-expressionism/t4.webp",
+       "w": 1100,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "minimalism",
+     "name": "Minimalism",
+     "tag": "1960s, reduction as meaning",
+     "blurb": "What remains when you remove almost everything? One figure, immense quiet, space doing the talking. Minimalism trusts the viewer to complete the work.",
+     "look": [
+      "Vast emptiness is the main element",
+      "A single quiet figure anchors the void",
+      "Nothing decorative survives"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Minimalism",
+     "images": [
+      {
+       "src": "art/minimalism/1.webp",
+       "thumb": "art/minimalism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "swiss-style",
+     "name": "Swiss Style",
+     "tag": "International Typographic Style, 1950s",
+     "blurb": "Grids, sans-serif type, asymmetry and objectivity: the design language that still runs every transit map and app. Our poster folds the café into red-black-white order, words replaced by pure shapes.",
+     "look": [
+      "A strict grid organizes the layout",
+      "Red, black and white only",
+      "Asymmetry feels balanced and inevitable"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/International_Typographic_Style",
+     "images": [
+      {
+       "src": "art/swiss-style/1.webp",
+       "thumb": "art/swiss-style/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "precisionism",
+     "name": "Precisionism",
+     "tag": "Machine-age America, 1920s-30s",
+     "blurb": "Sheeler and Demuth painted factories like cathedrals: immaculate geometry, sharp light, no people, no dirt. Our fab machinery gets the same reverent, crystalline treatment.",
+     "look": [
+      "Industrial forms simplified to pure geometry",
+      "Immaculate surfaces and hard light",
+      "Stillness — the machines seem to be holding their breath"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Precisionism",
+     "images": [
+      {
+       "src": "art/precisionism/1.webp",
+       "thumb": "art/precisionism/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pop",
+   "title": "Pop and After: Art in the Age of Mass Media",
+   "bigIdea": "After 1960, art absorbed advertising, television, comics and consumer products — and started designing futures of its own.",
+   "intro": "Pop Art held a mirror to supermarket culture. Psychedelic posters melted lettering into pure sensation. Memphis designers made furniture deliberately silly, Space Age designers sold tomorrow, and Afrofuturism claimed the future for Black imagination. The café scene keeps up with every one of these costumes.",
+   "exercise": "Which picture here could be an advertisement, and what would it be selling? What makes the others resist being ads?",
+   "styles": [
+    {
+     "slug": "pop-art",
+     "name": "Pop Art",
+     "tag": "1950s-60s, Britain and America",
+     "blurb": "Soup cans, comics and advertisements, enlarged until they become icons. Lichtenstein's Ben-Day dots and Warhol's repeated portraits lead the variants — our model as comic heroine and as silkscreen grid.",
+     "look": [
+      "Dots, flat ink and commercial color",
+      "Repetition turns a portrait into a brand",
+      "Speech balloons and product shots invade fine art"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pop_art",
+     "images": [
+      {
+       "src": "art/pop-art/1.webp",
+       "thumb": "art/pop-art/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/pop-art/2.webp",
+       "thumb": "art/pop-art/t2.webp",
+       "w": 1100,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/pop-art/3.webp",
+       "thumb": "art/pop-art/t3.webp",
+       "w": 1100,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/pop-art/4.webp",
+       "thumb": "art/pop-art/t4.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "psychedelic-poster",
+     "name": "Psychedelic Poster Art",
+     "tag": "San Francisco, 1966-1970s",
+     "blurb": "Fillmore concert posters melted Art Nouveau lettering into liquid, vibrating color — legibility sacrificed to sensation. Letterforms survive in our version as pure shapes inside the swirl.",
+     "look": [
+      "Complementary colors vibrate at maximum volume",
+      "Shapes flow like liquid or smoke",
+      "The figure dissolves into the trip"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Psychedelic_art",
+     "images": [
+      {
+       "src": "art/psychedelic-poster/1.webp",
+       "thumb": "art/psychedelic-poster/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "memphis-design",
+     "name": "Memphis Design",
+     "tag": "Milan, 1981 onwards",
+     "blurb": "Ettore Sottsass's Memphis Group declared war on good taste: squiggles, terrazzo, pastel clashes, shapes that refuse to behave. Design as a joke that turned out to be liberation.",
+     "look": [
+      "Squiggles, zigzags and terrazzo patterns",
+      "Pastel collides with black and primary brights",
+      "Nothing matches, on purpose, joyfully"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Memphis_Group",
+     "images": [
+      {
+       "src": "art/memphis-design/1.webp",
+       "thumb": "art/memphis-design/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "space-age-design",
+     "name": "Space Age Design",
+     "tag": "Atomic-age futurism, 1950s-60s",
+     "blurb": "Starbursts, boomerangs and orbital rings: the future as imagined from a 1962 kitchen. Our café becomes a retro-future lounge, glossy white and orange under a ringed planet.",
+     "look": [
+      "Atomic starbursts and boomerang shapes",
+      "Glossy white, orange and teal optimism",
+      "Everything looks like a toy rocket's interior"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Space_Age",
+     "images": [
+      {
+       "src": "art/space-age-design/1.webp",
+       "thumb": "art/space-age-design/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "afrofuturism",
+     "name": "Afrofuturism",
+     "tag": "Black futures, from the 1970s",
+     "blurb": "African heritage projected into cosmic technology: regal gold, adinkra-like motifs, starfields and advanced cities — a corrective to futures that left Black people out. Our model takes the throne under the stars.",
+     "look": [
+      "Gold regality meets high technology",
+      "Starfields and cosmic scale",
+      "Traditional motifs redesigned as future insignia"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Afrofuturism",
+     "images": [
+      {
+       "src": "art/afrofuturism/1.webp",
+       "thumb": "art/afrofuturism/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beyond",
+   "title": "Beyond the Frame: Space, Light and Performance",
+   "bigIdea": "Eventually artists left the rectangle entirely: art became landscape, architecture, light, movement and action.",
+   "intro": "Land artists rearranged deserts. Light and Space artists made perception itself the artwork. Gutai painters attacked canvas with their bodies; kinetic sculptors set art spinning; stage designers and stop-motion animators built worlds that exist only in time. Our model still poses — but the 'picture' now surrounds her.",
+   "exercise": "For each work, answer: if you stood inside it, where would you be and what would move? Which work would change most if you visited on a windy day?",
+   "styles": [
+    {
+     "slug": "land-art",
+     "name": "Land Art",
+     "tag": "Earthworks, from the late 1960s",
+     "blurb": "Robert Smithson spiraled a jetty into the Great Salt Lake; our version spirals stones and wafers across a desert flat, with the artist tiny inside her own drawing. The landscape is the canvas, and weather is a collaborator.",
+     "look": [
+      "The artwork is visible fully only from the air",
+      "Materials come from the site itself",
+      "The human figure is a speck in the work"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Land_art",
+     "images": [
+      {
+       "src": "art/land-art/1.webp",
+       "thumb": "art/land-art/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "light-and-space",
+     "name": "Light and Space",
+     "tag": "Perceptual installation, California 1960s-",
+     "blurb": "Turrell and Irwin made light itself the material: rooms of haze and color where edges vanish and your own perception becomes the exhibit. Our model softens into wine-red and amber atmosphere.",
+     "look": [
+      "Color has no visible source or edge",
+      "The figure dissolves into atmosphere",
+      "Seeing itself is the subject"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Light_and_Space",
+     "images": [
+      {
+       "src": "art/light-and-space/1.webp",
+       "thumb": "art/light-and-space/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "brutalist-architecture",
+     "name": "Brutalist Architecture",
+     "tag": "Raw concrete, 1950s-70s",
+     "blurb": "Béton brut — raw concrete — raised into monumental, shadow-carved masses. Our fab complex looms like a fortress, and the café table shrinks to a human footnote.",
+     "look": [
+      "Board-formed concrete texture everywhere",
+      "Huge masses, deep shadow reveals",
+      "The person is small; the building is the portrait"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Brutalist_architecture",
+     "images": [
+      {
+       "src": "art/brutalist-architecture/1.webp",
+       "thumb": "art/brutalist-architecture/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "deconstructivist-architecture",
+     "name": "Deconstructivist Architecture",
+     "tag": "Fragmented form, from the 1980s",
+     "blurb": "Gehry and Hadid broke the box: titanium shards, tilted walls, colliding geometries that look mid-explosion, frozen. Our model sits calmly inside the beautiful wreckage.",
+     "look": [
+      "Forms tilt, fracture and collide",
+      "No wall agrees with another",
+      "Calm figure, chaotic space"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Deconstructivism",
+     "images": [
+      {
+       "src": "art/deconstructivist-architecture/1.webp",
+       "thumb": "art/deconstructivist-architecture/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "kinetic-sculpture",
+     "name": "Kinetic Sculpture",
+     "tag": "Art that moves",
+     "blurb": "Calder's mobiles turned sculpture into slow weather: balanced discs and rods rotating on air currents. Ours hangs wafer discs above our model, who has become part of the mechanism.",
+     "look": [
+      "Balance and rotation are the composition",
+      "Shadows move as the piece moves",
+      "Engineering and poetry are the same act"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Kinetic_art",
+     "images": [
+      {
+       "src": "art/kinetic-sculpture/1.webp",
+       "thumb": "art/kinetic-sculpture/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "gutai",
+     "name": "Gutai",
+     "tag": "Japanese avant-garde, 1954-1972",
+     "blurb": "'Concreteness': Gutai artists wrestled paint itself — flinging, pouring, breaking through paper — letting material act. Our model is mid-performance, wine-red paint in flight across raw canvas.",
+     "look": [
+      "Paint is thrown, not brushed",
+      "Raw canvas and splashes are the image",
+      "The body of the artist is a tool"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Gutai_group",
+     "images": [
+      {
+       "src": "art/gutai/1.webp",
+       "thumb": "art/gutai/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "ballets-russes",
+     "name": "Ballets Russes Stage Design",
+     "tag": "Bakst and Diaghilev, 1909-1929",
+     "blurb": "Diaghilev's company fused painting, music and dance into total theatre, and Bakst's sets — exotic, ornate, drenched in color — redesigned European taste. Our model takes the principal's bow.",
+     "look": [
+      "The whole stage is one ornamental painting",
+      "Costume and set share the same patterns",
+      "Color is theatrical: emerald, gold, flame"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Ballets_Russes",
+     "images": [
+      {
+       "src": "art/ballets-russes/1.webp",
+       "thumb": "art/ballets-russes/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Study"
+      }
+     ]
+    },
+    {
+     "slug": "stop-motion",
+     "name": "Stop-Motion",
+     "tag": "Frame-by-frame puppet animation",
+     "blurb": "A handmade world photographed one frame at a time: clay, felt and miniature furniture, with the maker's fingerprints left in. Our café set is a tiny stage, charm included.",
+     "look": [
+      "Visible clay and felt textures",
+      "Miniature furniture, slightly imperfect",
+      "It looks photographed, because the set 'exists'"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Stop_motion",
+     "images": [
+      {
+       "src": "art/stop-motion/1.webp",
+       "thumb": "art/stop-motion/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "games",
+   "title": "The Pixel Ladder: Video Game Graphics",
+   "bigIdea": "Game graphics are art styles dictated by hardware. Every era's look is a negotiation between imagination and memory chips.",
+   "intro": "Climb the ladder one console at a time. The NES could show only a handful of colors per sprite; the SNES multiplied them; the PlayStation split into lush 2D and wobbly low-polygon 3D; each generation since added polygons, light and physics. Because the pose never changes, you can watch pure rendering evolve — the same lesson as Lesson 1, played on machines.",
+   "exercise": "Cover the labels and arrange the nine pictures oldest to newest by look alone. Then check: which single visual cue (pixels? polygons? reflections?) was most reliable?",
+   "styles": [
+    {
+     "slug": "pixel-art",
+     "name": "Pixel Art",
+     "tag": "The digital mosaic",
+     "blurb": "Every pixel placed on purpose. Born from hardware limits, kept as a discipline: limited palettes, readable silhouettes, dithering for gradients. Compare the sunset variant's dithered sky with the watercolor in Lesson 1 — same problem, opposite tools.",
+     "look": [
+      "A strict grid underlies every curve",
+      "Dithering fakes extra colors",
+      "Silhouette stays readable at tiny size"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Pixel_art",
+     "images": [
+      {
+       "src": "art/pixel-art/1.webp",
+       "thumb": "art/pixel-art/t1.webp",
+       "w": 1100,
+       "h": 733,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/pixel-art/2.webp",
+       "thumb": "art/pixel-art/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/pixel-art/3.webp",
+       "thumb": "art/pixel-art/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/pixel-art/4.webp",
+       "thumb": "art/pixel-art/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "nes-8bit",
+     "name": "NES 8-Bit",
+     "tag": "Nintendo Entertainment System, 1985",
+     "blurb": "The NES palette held 54 colors, and each sprite could use only a few — so artists became economists. Our café runs on chunky pixels, flat color and hard outlines: charm extracted from scarcity. (Rendered a little finer than real hardware sprites, honestly.)",
+     "look": [
+      "Huge, visible pixels",
+      "Flat colors with black outlines",
+      "Backgrounds simplify into tiles and shapes"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System",
+     "images": [
+      {
+       "src": "art/nes-8bit/1.webp",
+       "thumb": "art/nes-8bit/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/nes-8bit/2.webp",
+       "thumb": "art/nes-8bit/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/nes-8bit/3.webp",
+       "thumb": "art/nes-8bit/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/nes-8bit/4.webp",
+       "thumb": "art/nes-8bit/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "snes-16bit",
+     "name": "SNES 16-Bit",
+     "tag": "Super Nintendo, 1991",
+     "blurb": "Thousands of colors on screen, finer pixels, real shading: the 16-bit generation could finally do atmosphere. The same café gains dusk, glow and detail the NES could only imply.",
+     "look": [
+      "Finer pixels, smoother curves",
+      "Dithered gradients and richer palettes",
+      "Backgrounds become places, not tiles"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+     "images": [
+      {
+       "src": "art/snes-16bit/1.webp",
+       "thumb": "art/snes-16bit/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/snes-16bit/2.webp",
+       "thumb": "art/snes-16bit/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/snes-16bit/3.webp",
+       "thumb": "art/snes-16bit/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/snes-16bit/4.webp",
+       "thumb": "art/snes-16bit/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "ps1-2d",
+     "name": "PS1 2D Sprites",
+     "tag": "PlayStation, late 1990s",
+     "blurb": "While 3D grabbed headlines, 2D quietly peaked: high-resolution hand-drawn sprites over painted, pre-rendered backgrounds in games like Legend of Mana. Our café is lush, crisp and faintly soft with CRT warmth.",
+     "look": [
+      "Hand-drawn sprite over a painted world",
+      "Background detail exceeds the character's",
+      "A slight softness, like a good CRT"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Sprite_(computer_graphics)",
+     "images": [
+      {
+       "src": "art/ps1-2d/1.webp",
+       "thumb": "art/ps1-2d/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/ps1-2d/2.webp",
+       "thumb": "art/ps1-2d/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/ps1-2d/3.webp",
+       "thumb": "art/ps1-2d/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/ps1-2d/4.webp",
+       "thumb": "art/ps1-2d/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "ps1-3d-lowpoly",
+     "name": "PS1 3D Low-Poly (FF7 Era)",
+     "tag": "PlayStation, 1997",
+     "blurb": "First-generation 3D: a few hundred polygons per character, flat Gouraud shading, textures that swim and warp. Final Fantasy VII's field screens paired these blocky figures with gorgeous pre-rendered backgrounds — the contrast is the era's signature.",
+     "look": [
+      "Angular, faceted models with chunky hands",
+      "The background is far prettier than the model",
+      "Textures wobble if you imagine it moving"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Low_poly",
+     "images": [
+      {
+       "src": "art/ps1-3d-lowpoly/1.webp",
+       "thumb": "art/ps1-3d-lowpoly/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/ps1-3d-lowpoly/2.webp",
+       "thumb": "art/ps1-3d-lowpoly/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/ps1-3d-lowpoly/3.webp",
+       "thumb": "art/ps1-3d-lowpoly/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/ps1-3d-lowpoly/4.webp",
+       "thumb": "art/ps1-3d-lowpoly/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "ps1-3d-refined",
+     "name": "PS1 3D Refined (DOA Era)",
+     "tag": "Late PlayStation, 1997-2000",
+     "blurb": "By the original Dead or Alive, PS1 models had multiplied their polygons: rounded joints, texture-mapped faces, cleaner shading — still low-res and wobbly at heart, but unmistakably smoother. The ladder's middle rung.",
+     "look": [
+      "Rounded, smoother silhouettes than the FF7 rung",
+      "Faces are textures, not geometry",
+      "Low-res softness lingers over everything"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Dead_or_Alive_(video_game)",
+     "images": [
+      {
+       "src": "art/ps1-3d-refined/1.webp",
+       "thumb": "art/ps1-3d-refined/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/ps1-3d-refined/2.webp",
+       "thumb": "art/ps1-3d-refined/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/ps1-3d-refined/3.webp",
+       "thumb": "art/ps1-3d-refined/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/ps1-3d-refined/4.webp",
+       "thumb": "art/ps1-3d-refined/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "ps3-ps4-3d",
+     "name": "PS3 / PS4 HD 3D",
+     "tag": "High-definition era, 2006-2020",
+     "blurb": "HD real-time rendering: high-polygon models, normal maps faking fine detail, soft shadows and cinematic depth of field. The café is now a cutscene — polished CGI that still, visibly, comes from a game engine.",
+     "look": [
+      "Soft shadows and shallow focus",
+      "Fabric and skin have surface detail",
+      "Clean, cinematic, but not yet photographic"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/PlayStation_4",
+     "images": [
+      {
+       "src": "art/ps3-ps4-3d/1.webp",
+       "thumb": "art/ps3-ps4-3d/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/ps3-ps4-3d/2.webp",
+       "thumb": "art/ps3-ps4-3d/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/ps3-ps4-3d/3.webp",
+       "thumb": "art/ps3-ps4-3d/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/ps3-ps4-3d/4.webp",
+       "thumb": "art/ps3-ps4-3d/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "ps5-raytraced",
+     "name": "PS5 Ray-Traced",
+     "tag": "Current generation, 2020-",
+     "blurb": "Ray tracing simulates light itself: true reflections in the window and cup, soft global illumination, skin that scatters light. The ladder tops out near photography — compare with Lesson 3's photorealism and ask what, if anything, still gives the game away.",
+     "look": [
+      "Reflections behave physically correctly",
+      "Individual hair strands and skin pores",
+      "Light bounces the way it does in rooms"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Ray_tracing_(graphics)",
+     "images": [
+      {
+       "src": "art/ps5-raytraced/1.webp",
+       "thumb": "art/ps5-raytraced/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 1"
+      },
+      {
+       "src": "art/ps5-raytraced/2.webp",
+       "thumb": "art/ps5-raytraced/t2.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 2"
+      },
+      {
+       "src": "art/ps5-raytraced/3.webp",
+       "thumb": "art/ps5-raytraced/t3.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 3"
+      },
+      {
+       "src": "art/ps5-raytraced/4.webp",
+       "thumb": "art/ps5-raytraced/t4.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Variant 4"
+      }
+     ]
+    },
+    {
+     "slug": "stylized-3d",
+     "name": "Stylized 3D Rendering",
+     "tag": "Non-photorealistic 3D",
+     "blurb": "Not every modern game chases realism: stylized rendering keeps 3D's freedom but paints its surfaces — soft studio light, smooth materials, a game-cinematic look that ages gracefully because it never pretended to be a photo.",
+     "look": [
+      "Smooth, toy-like material perfection",
+      "Lighting is soft and designed, not simulated",
+      "It reads as '3D illustration', proudly"
+     ],
+     "wiki": "https://en.wikipedia.org/wiki/Non-photorealistic_rendering",
+     "images": [
+      {
+       "src": "art/stylized-3d/1.webp",
+       "thumb": "art/stylized-3d/t1.webp",
+       "w": 733,
+       "h": 1100,
+       "label": "Study"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
