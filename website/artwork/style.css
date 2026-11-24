@@ -28,7 +28,7 @@ p { max-width: 40rem; }
 .work-image { overflow: hidden; background: #fff; }
 .work-image img { display: block; width: 100%; height: auto; transition: transform .4s; }
 .work-image--walk { height: clamp(13rem, 30vw, 28rem); display: flex; align-items: center; justify-content: center; }
-.work-image--walk img { width: auto; max-width: none; height: 100%; }
+.work-image--walk img { width: 100%; max-width: none; height: 100%; object-fit: cover; object-position: center; }
 .work-link:hover .work-image img { transform: scale(1.015); }
 .work-caption { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 1.2rem; }
 .work-type { color: #62645d; margin: 0 0 .5rem; }
@@ -61,6 +61,7 @@ button:hover { background: #f4f2ec; }
 .stage-page .piece-footer, .stage-page footer { border-color: #3c314e; }
 .stage-page .piece-image { box-shadow: 0 1rem 6rem #a63cff15; }
 .work--painting-styles { max-width: 38rem; }
+.work--tsmc-styles { max-width: 38rem; }
 .work-image--painting-styles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .painting-styles-page { --style-column-gap: clamp(.75rem, 3vw, 1.5rem); }
 .painting-styles-page .piece-header { max-width: 65rem; }
