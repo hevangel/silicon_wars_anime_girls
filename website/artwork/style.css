@@ -62,6 +62,7 @@ button:hover { background: #f4f2ec; }
 .stage-page .piece-image { box-shadow: 0 1rem 6rem #a63cff15; }
 .work--painting-styles { max-width: 38rem; }
 .work-image--painting-styles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.painting-styles-page { --style-column-gap: clamp(.75rem, 3vw, 1.5rem); }
 .painting-styles-page .piece-header { max-width: 65rem; }
 .painting-styles-page .style-jump { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; font-size: .9rem; }
 .painting-styles-page .style-family, .painting-styles-page .style-reading {
@@ -78,7 +79,10 @@ button:hover { background: #f4f2ec; }
   font: 400 clamp(1.5rem, 3vw, 2.35rem)/1.15 Georgia, "Times New Roman", serif;
 }
 .painting-styles-page .style-intro { margin: .8rem 0 1.5rem; }
-.painting-styles-page .style-board, .painting-styles-page .style-board-notes { max-width: 48rem; }
+.painting-styles-page .style-board { width: calc((min(100%, 48rem) - var(--style-column-gap)) / 2); }
+.painting-styles-page .style-tile-grid > .style-family .style-board { width: 100%; }
+.painting-styles-page .style-board:has(+ .style-board-notes) { width: min(100%, 48rem); }
+.painting-styles-page .style-board-notes { max-width: 48rem; }
 .painting-styles-page .style-board a { display: block; background: #fff; }
 .painting-styles-page .style-board-notes {
   display: grid;
@@ -99,7 +103,7 @@ button:hover { background: #f4f2ec; }
 .painting-styles-page .style-tile-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.5rem clamp(.75rem, 3vw, 1.5rem);
+  gap: 1.5rem var(--style-column-gap);
   margin-top: 1rem;
 }
 .painting-styles-page .style-tile { border: 0; padding: 0; margin: 0; }
@@ -257,7 +261,7 @@ button:hover { background: #f4f2ec; }
 .painting-styles-page .catalog-nav { font-weight: 600; }
 .painting-styles-page .catalog-track,
 .painting-styles-page .catalog-home,
-.painting-styles-page .earlier-comparisons [id] { scroll-margin-top: 6rem; }
+.painting-styles-page .guided-lesson { scroll-margin-top: 6rem; }
 .painting-styles-page .catalog-track {
   margin-top: 3rem;
   padding-top: 1.75rem;
@@ -275,9 +279,10 @@ button:hover { background: #f4f2ec; }
   font: 400 clamp(1.3rem, 2.7vw, 1.85rem)/1.15 Georgia, "Times New Roman", serif;
 }
 .painting-styles-page .catalog-home .style-tile-grid { max-width: 48rem; }
-.painting-styles-page .earlier-comparisons dl { display: grid; gap: .85rem; }
-.painting-styles-page .earlier-comparisons dt { font-weight: 700; }
-.painting-styles-page .earlier-comparisons dd { margin: .2rem 0 0; }
+.painting-styles-page .guided-lesson { margin-top: 2rem; max-width: 48rem; }
+.painting-styles-page .guided-lesson h3 { padding-bottom: .35rem; border-bottom: 1px solid #c9c9bf; }
+.painting-styles-page .guided-lesson h4 { margin: 1.1rem 0 .2rem; }
+.painting-styles-page .guided-lesson p { margin: 0; }
 
 .painting-styles-page .catalog-search { margin-top: 1.5rem; max-width: 48rem; }
 .painting-styles-page .catalog-search label { display: block; font-weight: 700; }

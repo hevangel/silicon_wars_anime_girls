@@ -5,6 +5,7 @@ const styleGuide = {
     history: "Animation studios spent much of the twentieth century painting moving figures on transparent sheets called cels, laid over reusable backgrounds. Digital cel shading keeps the look of that process.",
     effect: "A few separate patches of light and dark make a figure easy to read in motion. Hard shadow edges can make a scene feel crisp and decisive.",
     use: "Use it for animated action or recurring comic characters. Keep the shadows simple enough for the outfit and expression to read even in a small panel.",
+    why: "The same shadow shapes can be repeated from panel to panel, so the reader can follow motion without having to decipher a new lighting scheme each time.",
     period: "Studio cel animation and Japanese television anime, 1930s–1960s",
     examples: [
       { label: "Disney studio cel for Snow White and the Seven Dwarfs (1937), Library of Congress", href: "https://www.loc.gov/item/2001698003/" },
@@ -45,6 +46,7 @@ const styleGuide = {
     history: "Japanese manga grew from print culture into a major twentieth-century publishing industry. Ink and adhesive patterns called screentone let artists create a wide range of effects on black-and-white pages.",
     effect: "Solid ink gives a panel force, while patterns and pen strokes add gray, texture, and atmosphere. The same character can feel funny, ordinary, or threatening through the balance of black and white.",
     use: "Use it when a story needs to read quickly, reproduce clearly in monochrome, or shift tone without changing the color palette.",
+    why: "A limited range of darks and lights lets you shift from clarity to suspense while keeping the page readable in monochrome.",
     period: "Postwar Japanese manga and monochrome print, from the 1950s",
     examples: [
       { label: "Osamu Tezuka, Mighty Atom manga (1952), Tezuka Productions", href: "https://tezukaosamu.net/en/manga/291.html" },
@@ -85,6 +87,7 @@ const styleGuide = {
     history: "Water-based color has a long history across many cultures. Transparent watercolor became especially important in European travel sketches and landscape painting in the eighteenth and nineteenth centuries.",
     effect: "Light reflects back through thin color from the paper. Soft edges can make a scene feel fleeting, while deliberately crisp edges tell you where to look.",
     use: "Use it for changing weather, a travel diary, or a quiet memory. Leave the paper showing where you want light to seem to come through.",
+    why: "A wash can make changing weather or a passing impression feel fleeting, with a few crisp edges to hold the viewer’s attention.",
     period: "British watercolor tradition, early to mid-nineteenth century",
     examples: [
       { label: "J. M. W. Turner, The Lake of Zug (1843), The Met", href: "https://www.metmuseum.org/art/collection/search/337499" },
@@ -125,6 +128,7 @@ const styleGuide = {
     history: "Digital painting developed alongside computer graphics and drawing tablets. Layers, undo, and brushes that respond to pressure expanded what artists could change while working.",
     effect: "Digital painting can look soft, graphic, textured, or photographic. Its signature strength is how readily you can adjust the color, light, and layout independently.",
     use: "Use it for concept art or a comic that needs several lighting passes. Decide how sharp or tactile the image should feel before choosing brushes.",
+    why: "Separate layers let you revise the lighting or color while keeping a pose consistent across related illustrations.",
     period: "Desktop image editing and digital illustration, from the 1980s–1990s",
     examples: [
       { label: "Adobe Photoshop, launched in 1990, Computer History Museum", href: "https://www.computerhistory.org/makesoftware/exhibit/photoshop/" },
@@ -164,6 +168,7 @@ const styleGuide = {
     history: "Artists in Europe used oil-bound pigments long before the fifteenth century. Early Netherlandish painters showed how far slow-drying layers could take rich color and fine detail.",
     effect: "Oil can hold a smoothly blended face, deep transparent shadows, or raised brush marks. Those choices can convey stillness, solidity, or the energy of the painter’s hand.",
     use: "Use this look for a portrait with physical presence, or for a scene where the surface of the paint should be part of the experience.",
+    why: "Oil’s workable time gives an artist room to blend gently, keep strokes distinct, or build up a surface the viewer can almost feel.",
     period: "Early Netherlandish oil painting, Baroque lighting, and nineteenth-century brushwork",
     examples: [
       { label: "Jan van Eyck, The Arnolfini Portrait (1434), National Gallery", href: "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait" },
@@ -205,6 +210,7 @@ const styleGuide = {
     history: "Gouache is opaque water-based paint, sometimes called bodycolor. It has a long history in illustration and became a practical choice for twentieth-century posters and design artwork.",
     effect: "Its matte color covers the surface, so one shape can sit cleanly over another. It can make an image feel direct, carefully arranged, and handmade at the same time.",
     use: "Use it for a book cover, poster, or graphic character study where broad shapes need to read before fine shading.",
+    why: "Light shapes can be placed late in the painting. That makes it easier to adjust a graphic silhouette without starting over.",
     period: "Opaque watercolor and twentieth-century design",
     examples: [
       { label: "Henri Matisse, Jazz (1947), The Met", href: "https://www.metmuseum.org/art/collection/search/353770" },
@@ -245,6 +251,7 @@ const styleGuide = {
     history: "Colored pencils became common in commercial art and classrooms in the twentieth century. Their colored cores let artists draw thin lines and build up broad areas with repeated strokes.",
     effect: "The marks show how the artist moved around a form. A light touch feels tentative or intimate, while densely layered color makes an object feel solid.",
     use: "Use it for a sketchbook, costume study, or close observation where seeing the marks helps the reader share the artist’s attention.",
+    why: "You can use mark direction to explain form while leaving separate colors visible in the same shadow.",
     period: "Colored-pencil drawing and twentieth-century architectural presentation",
     examples: [
       { label: "Frank Lloyd Wright, Designs for an American Landscape, 1922–1932, Library of Congress", href: "https://www.loc.gov/exhibits/flw/" },
@@ -284,6 +291,7 @@ const styleGuide = {
     history: "Woodblock printing has a long history across East Asia and Europe. A carved block prints from the raised surface, and multicolor prints can use separate blocks aligned on the page.",
     effect: "Carved edges and broad ink shapes give the image a clear silhouette. Repeated cuts can feel rhythmic, while small irregularities suggest a print made by hand.",
     use: "Use this look for a strong emblem, a limited-palette illustration, or an image where silhouettes matter more than smooth modeling.",
+    why: "Planning the dark and light shapes before cutting gives the print a silhouette that stays legible across repeated impressions.",
     period: "East Asian relief printing and Edo-period color woodcuts",
     examples: [
       { label: "Utagawa Hiroshige, Sudden Shower at Shōno (1834–35), The Met", href: "https://www.metmuseum.org/art/collection/search/36521" },
@@ -323,6 +331,7 @@ const styleGuide = {
     history: "Charcoal is one of the oldest drawing materials. Artists have used it for both preparatory studies and finished drawings because the powder can be smudged, lifted, or laid down in deep blacks.",
     effect: "A stick can make a fast, fragile line or a dense shadow. That range gives a portrait an immediate quality, as though you can see the decisions being made.",
     use: "Use it to study lighting and pose, or for a finished scene that should feel raw, atmospheric, or tactile.",
+    why: "Broad marks let you test the basic light and dark arrangement quickly while the drawing is easy to revise.",
     period: "European drawing practice and nineteenth-century tonal studies",
     examples: [
       { label: "The Met’s charcoal guide, including Odilon Redon’s Armor (1891)", href: "https://www.metmuseum.org/pt/perspectives/materials-and-techniques-drawing-charcoal" },
@@ -363,6 +372,7 @@ const styleGuide = {
     history: "People have assembled pictures from paper for centuries. In the 1910s, artists including Georges Braque and Pablo Picasso made pasted paper part of modern painting.",
     effect: "A fragment brings its own texture and associations. Put it next to an unexpected piece and the join can feel playful, handmade, or unsettling.",
     use: "Use collage when a story is assembled from scraps of evidence, memories, or found objects, or when bold cut shapes should lead the eye.",
+    why: "Paper edges give you a fast way to test what belongs together and which pieces of a scene deserve emphasis.",
     period: "Cubist pasted paper, modernist cut-outs, and twentieth-century photomontage",
     examples: [
       { label: "Picasso: Guitars, 1912–1914, MoMA", href: "https://www.moma.org/calendar/exhibitions/1088" },
@@ -404,6 +414,7 @@ const styleGuide = {
     history: "Dry pastel sticks hold pigment with little binder. They became popular for eighteenth-century portraits and later let artists such as Edgar Degas combine drawing and painting in the same work.",
     effect: "Pastel can leave velvety color, dusty transitions, or sharp little marks. Its surface often makes light feel close and touchable.",
     use: "Use it for a quiet portrait or a light study where small changes in warmth and edge matter more than a clean outline.",
+    why: "Visible touches keep the image lively up close, while softer areas can suggest distance or give an expressive detail more attention.",
     period: "Eighteenth-century pastel portraiture and nineteenth-century French modernism",
     examples: [
       { label: "The Met’s pastel guide, including Maurice Quentin de La Tour’s Louis XV portrait study (ca. 1745)", href: "https://www.metmuseum.org/ko/perspectives/materials-and-techniques-drawing-pastel" },
@@ -444,6 +455,7 @@ const styleGuide = {
     history: "Early video games and home computers had tight limits on resolution and colors. Artists turned those limits into a language that is still used by choice in contemporary games.",
     effect: "Each visible square does work. A handful of pixels can imply an eye or a hand, creating an economical look that can feel playful, nostalgic, or sharply modern.",
     use: "Use it for sprites, icons, or a game-like comic. Check the image at its intended size because a tiny adjustment can change the whole gesture.",
+    why: "A readable pose at small scale gives the viewer a visual anchor while a game screen or comic panel gets busier.",
     period: "Arcade and graphical interface design, late 1970s–1980s",
     examples: [
       { label: "Susan Kare, Graphic icon sketch (1982–83), MoMA", href: "https://www.moma.org/collection/works/188393" },
@@ -484,6 +496,7 @@ const styleGuide = {
     history: "Around 1890–1910, artists in Europe and elsewhere applied Art Nouveau to posters, furniture, architecture, and everyday objects. They sought a design language suited to modern life.",
     effect: "Long curves often seem to grow from plants, hair, or fabric into the frame. The line links the subject and decoration into one flowing design.",
     use: "Use it for a decorative portrait or invitation when you want elegance and a slow, continuous path for the eye.",
+    why: "A continuous curve can guide attention through a poster, linking an ordinary gesture to the design around it.",
     period: "Art Nouveau and the Paris illustrated poster, 1890s–1900s",
     examples: [
       { label: "Alphonse Mucha, Gismonda poster (1894), Mucha Foundation timeline", href: "https://muchafoundation.org/en/timeline/alphonse-mucha-timeline" },
@@ -524,6 +537,7 @@ const styleGuide = {
     history: "Art Deco took shape in the 1910s and 1920s. A major Paris exhibition in 1925 helped bring related approaches to luxury objects, interiors, and buildings to international attention.",
     effect: "Stepped forms, symmetry, and polished surfaces turn the shapes of the machine age into glamour. The result can convey confidence, authority, and spectacle.",
     use: "Use it for a grand entrance, a formal invitation, or a character poster that should feel sophisticated and commanding.",
+    why: "Stylized geometry can make a poster feel polished and monumental while keeping even a cropped figure recognizable.",
     period: "International Art Deco in 1920s–1930s design and architecture",
     examples: [
       { label: "William Van Alen’s Chrysler Building (1930), NYC Landmarks Preservation Commission", href: "https://s-media.nyc.gov/agencies/lpc/lp/0992.pdf" },
@@ -564,6 +578,7 @@ const styleGuide = {
     history: "Pablo Picasso and Georges Braque developed Cubism in the years before World War I. They broke familiar subjects into overlapping flat shapes and experimented with pasted paper.",
     effect: "A face or table can show several views in the same picture. The viewer has to reconstruct the subject, which can suggest complexity or competing perspectives.",
     use: "Use it for a character with several sides, a puzzle about perception, or an environment where figure and furniture should feel built from the same forms.",
+    why: "Several viewpoints let a still image show what you normally discover by looking at an object from different angles.",
     period: "Analytic and Synthetic Cubism, Paris, ca. 1907–1914",
     examples: [
       { label: "Pablo Picasso, Ma Jolie (winter 1911–12), MoMA", href: "https://www.moma.org/collection/works/79051" },
@@ -604,6 +619,7 @@ const styleGuide = {
     history: "Pop Art emerged in Britain in the 1950s and took distinct forms in the United States in the 1960s. Artists borrowed from advertising, comics, packaging, and celebrity photography.",
     effect: "Enlarging or repeating something familiar makes it newly visible. Bright colors can feel celebratory while the repetition raises questions about how mass media sells images to us.",
     use: "Use it for satire about brands, products, or public image, or for a bold graphic that should register immediately.",
+    why: "Taking a familiar sign out of ordinary scale can make a viewer think about why commercial images are so memorable.",
     period: "British and American Pop Art, 1950s–1960s",
     examples: [
       { label: "Roy Lichtenstein, Drowning Girl (1963), MoMA", href: "https://www.moma.org/collection/works/80249" },
@@ -644,6 +660,7 @@ const styleGuide = {
     history: "In the 1870s, French artists including Claude Monet and Berthe Morisot exhibited outside the official Salon. They painted modern life and the way light changes across a scene.",
     effect: "Separate touches of color make a surface feel alive. A scene can feel like a particular moment you caught just before the weather or light changed.",
     use: "Use it when a time of day, a season, or the air of a place tells more of the story than the details of its furniture.",
+    why: "Making light part of the subject helps a reader feel the time of day or weather before the story states it.",
     period: "French Impressionist exhibitions and modern life, 1870s–1880s",
     examples: [
       { label: "Claude Monet, Woman with a Parasol (1875), National Gallery of Art", href: "https://www.nga.gov/artworks/61379-woman-parasol-madame-monet-and-her-son" },
@@ -684,6 +701,7 @@ const styleGuide = {
     history: "Henri Matisse, André Derain, and others drew attention in Paris in 1905 for their bold use of color. A critic’s nickname for them, wild beasts, gave the movement its name.",
     effect: "Color follows the needs of the picture. An orange room or green face can convey warmth, excitement, or unease through the way colors react to one another.",
     use: "Use it when a mood should be unmistakable from across the room. Keep a few clear light and dark shapes so the color still has structure.",
+    why: "Strong color relationships can quickly set an emotional temperature and separate shapes without elaborate shading.",
     period: "Fauvism and the 1905 Salon d’Automne",
     examples: [
       { label: "Henri Matisse, Woman with a Hat (1905), SFMOMA", href: "https://www.sfmoma.org/artwork/91.161/" },
@@ -723,6 +741,7 @@ const styleGuide = {
     history: "Expressionist approaches flourished in early twentieth-century Europe, including in German groups such as Die Brücke and Der Blaue Reiter. The artists used distortion in different ways to express felt experience.",
     effect: "Jagged edges, compressed spaces, and strained colors can make the whole room seem to share the character’s emotion.",
     use: "Use it when anxiety, alienation, defiance, or exhaustion should reach viewers before they have time to read the expression.",
+    why: "Distorting a recognizable setting can make pressure or isolation feel present even before the reader sees a face.",
     period: "Early twentieth-century German Expressionism and Die Brücke",
     examples: [
       { label: "Ernst Ludwig Kirchner, Street, Dresden (1908, reworked 1919), MoMA", href: "https://www.moma.org/collection/works/78426" },
@@ -762,6 +781,7 @@ const styleGuide = {
     history: "Surrealism took shape in the 1920s around writers and artists exploring dreams, chance, and the unconscious. It grew into an international movement.",
     effect: "Careful rendering can make impossible events feel momentarily believable. Familiar objects in strange relationships can produce comedy, unease, or a sense of discovery.",
     use: "Use it to make readers experience a dream or an absurd rule. Anchor the impossible event in enough ordinary detail for the contradiction to register.",
+    why: "Familiar objects give the reader a starting point for imagining a dream, contradiction, or impossible workplace rule.",
     period: "Interwar European Surrealism, 1920s–1930s",
     examples: [
       { label: "Salvador Dalí, The Persistence of Memory (1931), MoMA", href: "https://www.moma.org/momaorg/shared/flattened_pages/moma_learning/salvador-dali-the-persistence-of-memory-1931/" },
@@ -802,6 +822,7 @@ const styleGuide = {
     history: "Russian Constructivism developed around the 1917 revolution. Artists approached work as something to build for a social purpose, and related approaches spread through posters, books, and design.",
     effect: "Strong diagonals, blocks of type, and cut photographs can organize information and make it feel like a call to act.",
     use: "Use it for a campaign, a public message, or a story about institutions and collective energy. Give the reading order a strong direction.",
+    why: "A clear organizing axis gives a public message a direction that a reader can feel before reading the words.",
     period: "Russian avant-garde and Constructivist design, ca. 1917–1920s",
     examples: [
       { label: "El Lissitzky, Proun 19D (1920 or 1921), MoMA", href: "https://www.moma.org/collection/works/79040" },
@@ -842,6 +863,7 @@ const styleGuide = {
     history: "From around 1600, Baroque approaches developed across Europe and spread through trade, religion, and empire. Churches and courts used dramatic art and architecture to draw viewers into public experiences.",
     effect: "Directional light, sweeping movement, and gestures bring a moment to a climax. They can make it feel urgent, intimate, or grand.",
     use: "Use it to stage a revelation, arrival, or shift in power. Decide where the strongest light and gestures should lead the audience.",
+    why: "A dramatic arrangement gives one arrival or gesture the feeling of a turning point and makes the viewer wonder what follows.",
     period: "Seventeenth-century Baroque painting in Italy and the Dutch Republic",
     examples: [
       { label: "Caravaggio, The Supper at Emmaus (1601), National Gallery", href: "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus" },
@@ -882,6 +904,7 @@ const styleGuide = {
     history: "Italian Futurism announced itself in a 1909 manifesto. It glorified speed and modern machinery and also embraced violence and nationalism, a troubling part of its history.",
     effect: "Repeated outlines and fragmented shapes fit different instants into a single image. The results can feel exhilarating, relentless, or both.",
     use: "Use its visual methods for motion, mechanical pace, or an overstimulating city. Repeating the direction of movement helps readers sense the speed.",
+    why: "Repeating a pose communicates direction and speed in one image, which can make a still scene feel hurried.",
     period: "Italian Futurism, launched in 1909",
     examples: [
       { label: "Giacomo Balla, Dynamism of a Dog on a Leash (1912), Buffalo AKG Art Museum", href: "https://buffaloakg.org/artworks/196416-dinamismo-di-un-cane-al-guinzaglio-dynamism-dog-leash" },
@@ -922,6 +945,7 @@ const styleGuide = {
     history: "Late nineteenth-century Symbolist painters and writers used myths, dreams, and charged objects to suggest inner experiences. They often left the meaning open to the audience.",
     effect: "A badge, flower, or window can carry an idea beyond its everyday use. A single recurring image can invite readers to consider duty, desire, or fear.",
     use: "Use it when you want a theme to surface through an object or setting. Build meaning through context so readers have something to interpret.",
+    why: "A familiar prop gives an abstract question a shape that a reader can remember and interpret in more than one way.",
     period: "Late nineteenth-century Symbolism (1880s–1890s) and its French precursors",
     examples: [
       { label: "Gustave Moreau, Oedipus and the Sphinx (1864), The Met", href: "https://www.metmuseum.org/art/collection/search/437153" },
@@ -962,6 +986,7 @@ const styleGuide = {
     history: "Ukiyo-e flourished in Japan’s Edo period and continued into the nineteenth century. Paintings and collaboratively made woodblock prints depicted actors, city life, and famous landscapes.",
     effect: "Flat colors, cropped forms, and layered views give an ordinary gesture or slice of weather a striking presence. A strong near edge can suggest depth without realistic shading.",
     use: "Use its compositional methods for an everyday encounter, a journey, or a city view that should feel carefully framed.",
+    why: "A decisive crop lets the reader feel like a passerby who has arrived at a particular place and moment.",
     period: "Edo-period ukiyo-e print culture, including nineteenth-century landscape series",
     examples: [
       { label: "Utagawa Hiroshige, Sudden Shower at Shōno (1834–35), The Met", href: "https://www.metmuseum.org/art/collection/search/36521" },
@@ -1002,6 +1027,7 @@ const styleGuide = {
     history: "In the late eighteenth century, finds at sites such as Pompeii and renewed study of Greece and Rome encouraged Neoclassical art. Artists adapted ancient forms to express modern civic and moral ideals.",
     effect: "Clear contours, balanced groups, and restrained gestures can communicate deliberation, duty, or public authority.",
     use: "Use it for a formal debate, declaration, or portrait of responsibility. Give each gesture enough space to be read clearly.",
+    why: "A stable arrangement can convey ceremony and self-control. It helps an audience see who holds authority and how that role is performed.",
     period: "European Neoclassicism, late 1700s to early 1800s",
     examples: [
       { label: "Jacques-Louis David, Oath of the Horatii (1784, exhibited 1785), Louvre", href: "https://collections.louvre.fr/en/ark%3A/53355/cl010062239" },
@@ -1041,6 +1067,7 @@ const styleGuide = {
     history: "Around the late eighteenth and early nineteenth centuries, Romantic artists gave strong feeling, imagination, and the power of nature a central role. They worked across many national traditions.",
     effect: "A small person against a storm, mountain, or vast interior can suggest awe, vulnerability, or longing. This mixture of wonder and fear is often called the sublime.",
     use: "Use it when the setting should feel larger than the character’s ability to control it, or when solitude matters more than action.",
+    why: "A strong change in scale can communicate awe, isolation, or uncertainty even when a face is too far away to read.",
     period: "European Romanticism and the sublime, early nineteenth century",
     examples: [
       { label: "Caspar David Friedrich, Wanderer Above the Sea of Fog (ca. 1817), Hamburger Kunsthalle", href: "https://www.hamburger-kunsthalle.de/en/news/wanderer-above-sea-fog-caspar-david-friedrich" },
@@ -1080,6 +1107,7 @@ const styleGuide = {
     history: "Op Art gained wide attention in the 1960s, including through MoMA’s 1965 exhibition The Responsive Eye. Artists such as Bridget Riley explored the way repeated marks affect vision.",
     effect: "Precise stripes and grids can seem to pulse, tilt, or bend even when the image is still. The viewer’s own perception completes the effect.",
     use: "Use it to suggest instability or draw attention to the act of looking. Test strong patterns at their final display size.",
+    why: "Repeated contrasts can describe an apparent curve or pulse without drawing an object that actually moves.",
     period: "Op Art, particularly MoMA’s The Responsive Eye exhibition (1965)",
     examples: [
       { label: "Bridget Riley, Current (1964), MoMA", href: "https://www.moma.org/collection/works/79998" },
@@ -1120,6 +1148,7 @@ const styleGuide = {
     history: "From the medieval period onward, workshops in Iran and elsewhere in the Persianate world made illustrated books of poetry, epic, and history. Calligraphers, painters, and other artisans worked together on these pages.",
     effect: "Layered rooms, clear outlines, and dense pattern can show several people or events in one scene. The eye travels through the page and discovers connections.",
     use: "Use this approach for a layered ensemble or a building with several activities visible at once. Give each area a clear center of attention.",
+    why: "Showing multiple places clearly at once gives readers room to explore an event and follow relationships between people.",
     period: "Persianate book arts and Safavid manuscript painting, early sixteenth century",
     examples: [
       { label: "Attributed to Sultan Muhammad, The Court of Kayumars (ca. 1524–25), Aga Khan Museum", href: "https://collections.agakhanmuseum.org/collection/artifact/court-of-kayumars-akm165" },
@@ -1160,6 +1189,7 @@ const styleGuide = {
     history: "Many churches in the Eastern Roman Empire and its cultural sphere used mosaics. Artists set small pieces of colored stone and glass, called tesserae, into walls, vaults, and floors.",
     effect: "Light changes as it strikes different pieces. Gold can make a wall seem luminous, while aligned rows of tiles give portraits a strong, formal presence.",
     use: "Use the visual language to evoke ceremony, endurance, or a light-filled interior. Let the scale and direction of the pieces do some of the drawing.",
+    why: "Placing individual tiles by color and direction makes a recognizable form at a distance and varied light close up.",
     period: "Early Byzantine monumental and domestic mosaic, fifth to sixth centuries",
     examples: [
       { label: "San Vitale imperial mosaics, Ravenna (consecrated in 547), Smarthistory", href: "https://smarthistory.org/san-vitale/" },
@@ -1200,6 +1230,7 @@ const styleGuide = {
     history: "Dada took shape during World War I in Zurich and other cities. Artists questioned cultural authority and used absurdity, chance, and ordinary materials. Berlin Dadaists became known for photomontage.",
     effect: "Cut-up photographs and labels retain traces of their old meanings. Their new arrangement can turn official language or familiar pictures into a joke or a critique.",
     use: "Use it for institutional satire, or to show that a news image, chart, or rule can be taken apart and made to say something else.",
+    why: "Rearranging everyday images can make routine rules seem strange enough to question.",
     period: "World War I and Weimar-era Dada photomontage, 1910s–1920s",
     examples: [
       { label: "Hannah Höch, Indian Dancer: From an Ethnographic Museum (1930), MoMA", href: "https://www.moma.org/collection/works/37360" },
@@ -1239,6 +1270,7 @@ const styleGuide = {
     history: "Abstract Expressionism took shape in the United States in the 1940s and 1950s. Its artists explored approaches ranging from visible physical gestures to broad fields of color.",
     effect: "A stroke can feel quick or forceful, and a large unbroken color can feel absorbing or tense. Paint itself carries the mood with only a few clues to recognizable objects.",
     use: "Use it when an emotional state, a rhythm, or a sense of scale should come through before the viewer identifies a scene.",
+    why: "Scale and physical-looking marks can communicate force or duration even when the subject becomes hard to identify.",
     period: "Postwar American Abstract Expressionism, 1940s–1950s",
     examples: [
       { label: "Jackson Pollock, One: Number 31, 1950 (1950), MoMA", href: "https://www.moma.org/collection/works/78386" },
@@ -1279,6 +1311,7 @@ const styleGuide = {
     history: "Landscape developed into an independent painting genre in China by the late Tang dynasty. Song painters and later scholar-artists used mountains, water, and paths to explore ideas about nature and human life.",
     effect: "Diluted ink makes mist and distance, and open paper gives the eye places to rest. Tiny figures and structures can make a landscape feel spacious and contemplative.",
     use: "Use it for a retreat, journey, or quiet interval. Let the scenery set the pace and use a small human detail to establish scale.",
+    why: "A small landmark gives viewers a measure of distance. Open areas also let the eye move at a slower pace through a landscape.",
     period: "Northern Song landscape painting and the Chinese handscroll tradition",
     examples: [
       { label: "Attributed to Qu Ding, Summer Mountains (ca. 1050), The Met", href: "https://www.metmuseum.org/art/collection/search/39915" },
@@ -1319,6 +1352,7 @@ const styleGuide = {
     history: "In the 1920s, after the Mexican Revolution, public commissions gave muralists such as Diego Rivera, José Clemente Orozco, and David Alfaro Siqueiros large walls for political and historical storytelling.",
     effect: "Strong gestures and broad groups help people read a wall from a distance. Shared work becomes visible through the relationship among figures, tools, and setting.",
     use: "Use it to tell a public story about labor, contested history, or collective action. Give several people meaningful roles in the composition.",
+    why: "Enlarging collective work for a public audience makes the relationship between people and tasks readable across a room.",
     period: "Post-revolutionary Mexican Muralism, from the early 1920s",
     examples: [
       { label: "Diego Rivera, Detroit Industry Murals (1932–33), Detroit Institute of Arts", href: "https://dia.org/collection/detroit-industry-murals/58537" },
@@ -1359,6 +1393,7 @@ const styleGuide = {
     history: "Colored glass windows became a major part of medieval European church architecture, especially in the Gothic period. Strips of lead joined the pieces and helped define the image.",
     effect: "Light passes through the picture, so color changes with the time of day and can fall onto the surrounding walls and floor. The effect can feel ceremonial or intimate.",
     use: "Use it when light should change a room’s atmosphere or turn an emblem into part of the architecture. Think about where the colored light will land.",
+    why: "A window can organize a picture on the wall and tint the room people are standing in, giving light a role in the whole space.",
     period: "Medieval Gothic glazing, especially the 1100s–1200s",
     examples: [
       { label: "Chartres Cathedral and its medieval windows (rebuilt from 1194), cathedral archive", href: "https://www.cathedrale-chartres.org/en/visite/decouvrir/la-cathedrale/" },
@@ -1399,6 +1434,7 @@ const styleGuide = {
     history: "Trompe-l’œil is French for deceive the eye. Painters have used convincing shallow depth and painted architecture for centuries, including in seventeenth-century European still lifes and interiors.",
     effect: "A painted object appears to occupy the viewer’s space for a moment. The pleasure comes from testing the illusion against the frame and shadows.",
     use: "Use it for a playful reveal, a convincing prop, or a scene about what can be trusted. Small shadows and believable edges make the illusion work.",
+    why: "A shallow illusion can make a viewer look twice at the boundary of a page, cabinet, or doorway.",
     period: "European illusionistic painting and nineteenth-century American trompe-l’œil",
     examples: [
       { label: "William Michael Harnett, The Old Violin (1886), National Gallery of Art", href: "https://www.nga.gov/artworks/79531-old-violin" },
@@ -1439,6 +1475,7 @@ const styleGuide = {
     history: "The Bauhaus was a German school active from 1919 to 1933. It brought art, craft, and industry together, and its designers explored how type, images, and simple shapes could serve everyday communication.",
     effect: "Clear alignment and strong differences in size let viewers decide where to start. Geometry can feel orderly while still leaving room for an unexpected accent.",
     use: "Use it for wayfinding, instruction, or a poster where a viewer needs to find the message quickly. Give visual order to the information itself.",
+    why: "A clear hierarchy helps a viewer decide what matters and where to go while moving through a building or page.",
     period: "Bauhaus school in Germany, 1919–1933",
     examples: [
       { label: "Joost Schmidt, Staatliches Bauhaus Ausstellung poster (1923), MoMA", href: "https://www.moma.org/collection/works/6235" },
@@ -1479,6 +1516,7 @@ const styleGuide = {
     history: "In fifteenth-century Italy, artists and architects including Brunelleschi and Alberti demonstrated or described ways to represent depth consistently on a flat surface.",
     effect: "Lines that are parallel in the room can appear to meet at a point in the picture. That meeting place can send the eye to a figure or carry it past them into the distance.",
     use: "Use it to stage a formal room, make a space easy to navigate, or aim attention at a reveal. Choose the viewer’s position before drawing the room.",
+    why: "A shared vanishing point can steer attention toward a character while making the room’s distances convincing.",
     period: "Italian Early Renaissance linear perspective, 1400s",
     examples: [
       { label: "Masaccio, Holy Trinity (ca. 1427), Smarthistory", href: "https://smarthistory.org/masaccio-holy-trinity/" },
@@ -1519,6 +1557,7 @@ const styleGuide = {
     history: "De Stijl formed in the Netherlands in 1917 around a journal and a group including Theo van Doesburg and Piet Mondrian. Members pursued a common visual language in art, architecture, and design.",
     effect: "Straight bars, open areas, and primary colors can create balance with deliberately unequal shapes. This study lets a few pieces of the figure emerge from that order.",
     use: "Use it for a compact identity or a scene about order and relationships. Move a single block and notice how it changes the balance.",
+    why: "Reducing a scene to rectangles helps you see how proportion and spacing alone can guide the eye.",
     period: "Dutch De Stijl, founded in 1917, and Mondrian’s later development",
     examples: [
       { label: "Piet Mondrian, Broadway Boogie Woogie (1942–43), MoMA", href: "https://www.moma.org/collection/works/78682" },
@@ -1528,6 +1567,7 @@ const styleGuide = {
     history: "Precisionism appeared in the United States in the 1910s and 1920s. Artists including Charles Sheeler organized factories, silos, and city views into clearly edged forms.",
     effect: "Smooth planes and sharp transitions make industry look designed and legible. The order can seem impressive, eerily quiet, or indifferent to people.",
     use: "Use it when infrastructure should be the subject. Let one recognizable figure establish the scale of the machinery or architecture.",
+    why: "Simplifying industrial shapes lets a viewer see how they fit together and feel their scale against a small figure.",
     period: "American Precisionism and industrial imagery, 1910s–1930s",
     examples: [
       { label: "Charles Sheeler, American Landscape (1930), MoMA", href: "https://www.moma.org/collection/works/79032" },
@@ -1537,6 +1577,7 @@ const styleGuide = {
     history: "Brutalism grew in postwar architecture, especially from the 1950s onward. Many examples use exposed concrete, though the wider approach also emphasizes visible structure and materials.",
     effect: "Thick forms and rough surfaces make a building’s weight feel immediate. A small person can make the space feel civic and monumental or severe and imposing.",
     use: "Use it for a public complex or infrastructure scene where the building should have a strong physical presence. Show a stair, joint, or surface that explains how it is built.",
+    why: "Showing the structure openly makes weight and construction part of the experience of entering a building.",
     period: "Postwar architecture and early precedents for Brutalism, 1940s–1960s",
     examples: [
       { label: "Le Corbusier, Unité d’Habitation, Marseille (1945–52), Fondation Le Corbusier", href: "https://www.fondationlecorbusier.fr/oeuvre-architecture/realisations-unite-dhabitation-marseille-france-1945-1952/" },
@@ -1546,6 +1587,7 @@ const styleGuide = {
     history: "In the 1960s, American artists including Donald Judd explored simple objects, industrial materials, and regular repetition. The room, the objects, and the person looking at them were all part of the experience.",
     effect: "Gaps and surface changes become noticeable when there are few objects. Repetition can suggest calm, strict order, or distance.",
     use: "Use it when placement, scale, or material should hold attention. Keep enough empty room for each interval to register.",
+    why: "Removing extra variation makes small changes in interval or height visible and gives the viewer time to notice their own position.",
     period: "American Minimalism and serial sculpture, 1960s",
     examples: [
       { label: "Donald Judd, Untitled (1967), MoMA", href: "https://www.moma.org/collection/works/81324" },
@@ -1555,6 +1597,7 @@ const styleGuide = {
     history: "In the 1960s, psychedelic concert posters flourished in places such as San Francisco. Designers borrowed decorative curves and made lettering stretch, curl, and nearly vanish into the image.",
     effect: "Saturated colors and difficult-to-read letters make the eye work and can give a still surface a sense of motion. The poster offers an experience alongside the announcement.",
     use: "Use it for a gig poster or a scene about sensory overload. Keep essential event details easy to find if the poster has a practical job.",
+    why: "Lettering that takes time to untangle can make a poster feel immersive and share the mood of a music or performance scene.",
     period: "San Francisco psychedelic concert posters, 1960s",
     examples: [
       { label: "Wes Wilson, Wonderland concert poster (1966), Smithsonian American Art Museum", href: "https://americanart.si.edu/artwork/wonderland-grass-roots-daily-flash-avalon-ballroom-san-francisco-california-7166-7366-76545" },
@@ -1564,6 +1607,7 @@ const styleGuide = {
     history: "The Memphis group began in Milan in 1981 around designers including Ettore Sottsass. Its furniture and objects played with pattern, color, and materials such as decorative laminate.",
     effect: "Jumpy silhouettes and clashing surfaces make an ordinary lamp or desk feel mischievous. The room can tell you that someone is willing to break decor rules.",
     use: "Use it when furniture should carry visual humor or personality. Choose a few strong objects with distinct shapes and let them interact.",
+    why: "Playful colors and uneven angles can give furniture a strong personality and make a room memorable without a grand scale.",
     period: "Italian postmodern design and the Memphis group, founded in 1981",
     examples: [
       { label: "Ettore Sottsass, Carlton Room Divider (1981), The Met", href: "https://www.metmuseum.org/art/collection/search/486989" },
@@ -1573,6 +1617,7 @@ const styleGuide = {
     history: "Afrofuturism brings together a long history of Black speculative work in music, literature, film, design, and art. Writers, musicians, and artists have used it to imagine Black agency and freedom across past, present, and future.",
     effect: "The visual language varies. In this study, the orbital setting asks who designs the future, and the Black librarian leads a project centered on public knowledge.",
     use: "Use the approach to explore futures shaped by Black people and cultures. Show who makes decisions and who benefits so that technology has a human purpose.",
+    why: "Placing community knowledge at the center makes the future a story about people and priorities, with technology serving that story.",
     period: "Black speculative arts, including 1970s space jazz and film",
     examples: [
       { label: "Poster for Sun Ra’s Space Is the Place (1974), Smithsonian", href: "https://www.si.edu/object/space-place%3Anmaahc_2012.46.59" },
@@ -1582,6 +1627,7 @@ const styleGuide = {
     history: "During the late 1950s and 1960s, the Space Race influenced furniture, product design, advertising, and buildings. Designers brought spacecraft-like curves and new materials into familiar objects.",
     effect: "Rounded plastic shells, chrome, and visible analog controls make space travel look sleek and knowable. The look can convey optimism or nostalgia for an earlier idea of the future.",
     use: "Use it for an inviting station or a scene about what the future once promised. Put an object viewers recognize beside the futuristic hardware to make the idea accessible.",
+    why: "Borrowing shapes from engineering can make an everyday object express optimism about a possible future.",
     period: "Space Race–era furniture and product design, late 1950s–1960s",
     examples: [
       { label: "Eero Aarnio, Ball Chair (designed 1963), LACMA", href: "https://collections.lacma.org/object/286614" },
@@ -1591,6 +1637,7 @@ const styleGuide = {
     history: "Rococo flourished in eighteenth-century Europe, especially in French interiors and decorative arts. Shell-like ornament, gilded curves, and asymmetrical arrangements appeared in furniture and rooms designed for social life.",
     effect: "Curves carry the eye around an intimate room, and pale colors soften its richness. The effect can feel gracious, playful, or indulgent.",
     use: "Use it for salon conversation, flirtation, or a gentle satire of luxury. Let the ornament lead to a person or an object that matters to the scene.",
+    why: "Curving ornament can make an interior feel playful and intimate while directing attention to a person or small object.",
     period: "French Rococo interiors and furniture, eighteenth century",
     examples: [
       { label: "Boiserie from the Hôtel de Varengeville (ca. 1736–52), The Met", href: "https://www.metmuseum.org/art/collection/search/202996" },
@@ -1600,6 +1647,7 @@ const styleGuide = {
     history: "The Pre-Raphaelite Brotherhood formed in Britain in 1848. Its artists looked to earlier European painting, close study of nature, and literature to challenge the conventions they were taught.",
     effect: "Sharp plants, fabrics, and small objects reward slow looking. A flower or letter can carry part of the story, giving a scene emotional tension beneath a calm pose.",
     use: "Use it for a literary moment, a portrait with clues, or a scene where the smallest prop should change how viewers understand the character.",
+    why: "Specific details can make a reader linger and piece together the emotional stakes of a quiet scene.",
     period: "British Pre-Raphaelite Brotherhood, founded in 1848",
     examples: [
       { label: "John Everett Millais, Ophelia (1851–52), Tate", href: "https://www.tate.org.uk/art/artworks/millais-ophelia-n01506" },
@@ -1609,6 +1657,7 @@ const styleGuide = {
     history: "In the 1880s, French Neo-Impressionists such as Georges Seurat experimented with building images from separate touches of color. Pointillism names the dot-based technique associated with that work.",
     effect: "Up close, neighboring dots stay separate. Farther back, they combine into a color impression that can feel luminous or gently vibrating.",
     use: "Use it when the act of seeing color is part of the idea. Side-by-side warm and cool dots are particularly effective in a bright landscape or park scene.",
+    why: "Placing marks side by side keeps color varied where a single blended stroke might feel too uniform.",
     period: "French Neo-Impressionism and optical color mixing, 1880s",
     examples: [
       { label: "Georges Seurat, A Sunday on La Grande Jatte — 1884 (1884–86), Art Institute of Chicago", href: "https://www.artic.edu/artworks/27992/a-sunday-on-la-grande-jatte-1884" },
@@ -1618,6 +1667,7 @@ const styleGuide = {
     history: "American Tonalism flourished in the late nineteenth and early twentieth centuries. Painters such as George Inness and James McNeill Whistler made quiet scenes from closely related colors and values.",
     effect: "Soft edges and a narrow range of light and dark let the scene gather around a single mood. A small warm reflection matters because its surroundings are so restrained.",
     use: "Use it for dusk, fog, remembrance, or a pause after a busy scene. Keep one shape or light distinct enough to give viewers a place to begin.",
+    why: "A narrow range of tones makes a quiet scene feel unified and gives a small interruption the power to hold the eye.",
     period: "American Tonalism, late nineteenth to early twentieth century",
     examples: [
       { label: "George Inness, Sundown (1884), Smithsonian American Art Museum", href: "https://americanart.si.edu/artwork/sundown-11100" },
@@ -1627,6 +1677,7 @@ const styleGuide = {
     history: "New Kingdom tomb chapels used wall painting to show offerings, rituals, and work. Artists often placed scenes in horizontal bands called registers. In Nakht’s chapel, one wall shows several stages of farming, from preparing the soil to separating the grain. The scenes were connected to the offerings that would sustain Nakht in the afterlife.",
     effect: "Each band gives the figures a shared ground line. A profile head and forward-facing eye can be combined so both are legible. The office study uses the bands to let one person recur at three different moments without confusing the order.",
     use: "Use registers to show a routine or work that happens in stages. Repeat a recognizable figure or object and give each band a distinct change, such as an open door becoming a closed one.",
+    why: "Repeating one character in separate registers lets a single surface organize several moments of a story.",
     period: "Ancient Egyptian New Kingdom, late Eighteenth Dynasty. Nakht’s chapel dates to ca. 1410–1370 BCE.",
     examples: [
       { label: "East wall of Nakht’s offering chapel (ca. 1410–1370 BCE), recorded in a 1908–10 facsimile, The Met", href: "https://www.metmuseum.org/art/collection/search/548438" },
@@ -1636,6 +1687,7 @@ const styleGuide = {
     history: "Mithila painting, often called Madhubani painting, is a living tradition from the Mithila region of present-day India and Nepal. It was traditionally painted by women on the walls of homes for occasions such as weddings. In the 1960s many artists began working on paper for sale, and artists including Pushpa Kumari have used the tradition to address contemporary life.",
     effect: "Patterned borders, fine lines, and symbolic details can make several parts of a story readable at once. In the meal scene, repeating food shapes in the border sends the eye back to the table and makes sharing feel central to the image.",
     use: "Use patterns that carry information about a gathering, place, or set of relationships. Choose a few objects from the scene to repeat so the viewer can discover their connection to the subject.",
+    why: "Pattern can bind a community scene together and make the relationships around a shared action feel as important as any single face.",
     period: "Mithila and Madhubani painting, historic domestic wall painting and twentieth- and twenty-first-century work on paper and textiles.",
     examples: [
       { label: "Pushpa Kumari and Pradyumna Kumar, Village Life (2015), QAGOMA", href: "https://collection.qagoma.qld.gov.au/objects/22104" },
@@ -1646,6 +1698,7 @@ const styleGuide = {
     history: "Rinpa is a Japanese tradition in painting and decorative arts that arose in the early seventeenth century. It takes its name from Ogata Kōrin, a later artist who painted flowers and other natural forms in boldly simplified shapes. His iris screens use mineral colors and gold leaf and refer to a classical Japanese tale about a traveler.",
     effect: "A small number of strong natural shapes can feel expansive against an open metal-leaf ground. In this study the iris clusters mark a rhythm along the lower edge, while the open gold lets you imagine a garden beyond the few visible flowers.",
     use: "Use a repeated natural shape for a quiet passage, a seasonal transition, or a pause in a story. The gaps between clusters can slow the eye down and leave a character room to move.",
+    why: "The gaps make the repeated plants feel deliberate and give a viewer a way to follow the figure across a broad surface.",
     period: "Rinpa in Japan, from the early 1600s. Ogata Kōrin worked during the Edo period.",
     examples: [
       { label: "Ogata Kōrin, Irises at Yatsuhashi (Eight Bridges), after 1709, The Met", href: "https://www.metmuseum.org/art/collection/search/39664" },
@@ -1656,6 +1709,7 @@ const styleGuide = {
     history: "American Photorealism took shape in the late 1960s and 1970s. Artists such as Richard Estes used photographs to plan carefully rendered paintings of everyday urban scenes. Shop windows interested Estes because a camera could record the objects inside and the reflection of the street at the same time.",
     effect: "Crisp details reward sorting out the scene slowly. Reflections can hold several layers of space in one spot, turning an ordinary office window into a puzzle about who is looking at whom and from where.",
     use: "Use this approach when an ordinary place should feel observed closely. A window or mirror can show an interior and its surroundings in one frame, or suggest distance between a character and the street.",
+    why: "Carefully layered reflections make a viewer inspect how a scene is seen, which can be as interesting as the objects themselves.",
     period: "American Photorealism, late 1960s and 1970s.",
     examples: [
       { label: "Richard Estes, Double Self-Portrait (1976), MoMA", href: "https://www.moma.org/collection/works/80047" },
@@ -1666,6 +1720,7 @@ const styleGuide = {
     history: "The Harlem Renaissance was a flourishing of Black art, writing, music, and intellectual life in the 1920s and 1930s. Aaron Douglas became known for murals and book illustrations that used silhouettes, layered bands of color, and references to African history, including ancient Egypt. His art is one approach within a much wider movement.",
     effect: "Overlapping arcs of light connect people who are doing different things. In the reading-room study, the open book anchors the composition. As the light reaches the students and the musician, learning starts to feel like something the whole neighborhood makes together.",
     use: "Use repeated silhouettes and a connected band of color for a scene about collective action. Give each person a distinct gesture so the audience can see both the group and its individual contributions.",
+    why: "Linking scenes of study and performance can make creative life feel like a shared activity rooted in a community.",
     period: "The Harlem Renaissance, especially New York’s Black cultural life in the 1920s and 1930s.",
     examples: [
       { label: "Aaron Douglas, Let My People Go (ca. 1935–39), The Met", href: "https://www.metmuseum.org/art/collection/search/676458" },
@@ -1676,6 +1731,7 @@ const styleGuide = {
     history: "Medieval European book makers used paint, ink, and sometimes gold leaf to decorate handwritten pages. An opening letter with a scene inside is called a historiated initial. A law book made around 1290–1310, now at the Getty, opens one section with a courtroom inside the letter D and a playful musician in the surrounding decoration.",
     effect: "The large letter tells you where to start and gives the main scene a frame. The coffee pot sits along the margin, so it can reward a closer look. The page can carry two story beats at different levels of importance.",
     use: "Use a picture inside a letter for a chapter opening or an illustration that also has to mark the start of a text. A small incident in the margin gives readers a second discovery after they understand the main scene.",
+    why: "An illustrated initial can establish the hierarchy of a page and make its border part of the story.",
     period: "Medieval European manuscript arts, with the Getty example from around 1300.",
     examples: [
       { label: "Initial D: Three Men before a Judge (ca. 1290–1310), Getty", href: "https://www.getty.edu/art/collection/object/103SAP" },
@@ -1686,6 +1742,7 @@ const styleGuide = {
     history: "Seventeenth-century Dutch painters developed vanitas as a kind of still life that invited reflection on mortality and the limits of possessions and achievement. Objects that measure time or visibly decay could carry the idea. Pieter Claesz paired a skull with objects including a watch and an extinguished lamp in his 1630 example.",
     effect: "The desk objects are larger and closer than the person, so you meet the hourglass and wilted flower first. The closed laptop and removed badge bring the theme into a modern office. Together the objects invite you to think about the time spent working and what remains when work stops.",
     use: "Use a small group of objects to slow down the end of a scene and give it a second meaning. Choose one object that shows time passing and another that tells the reader what mattered to the character.",
+    why: "Arranging meaningful objects can make a reader feel the end of a day or an obligation through evidence left on a table.",
     period: "Dutch still-life painting in the seventeenth century, especially vanitas.",
     examples: [
       { label: "Pieter Claesz, Vanitas Still Life (1630), Mauritshuis", href: "https://www.mauritshuis.nl/en/our-collection/artworks/943-vanitas-still-life" },
@@ -1696,6 +1753,7 @@ const styleGuide = {
     history: "Kalighat painters worked near the Kali temple in nineteenth-century Kolkata, where workshops sold paintings on paper. Their subjects included religious imagery as well as scenes of fashion, scandal, and social life. In the V&A’s example of a fashionable Bengali babu playing a sitar, a single seated pose carries much of the figure’s character.",
     effect: "The brush line around the bowed back gives the gesture weight. The unoccupied seat stays clear against the bare ground, and Microsoft’s calm pose gives viewers a second reaction to compare. The joke is about the deference given to a position of power.",
     use: "Use an open background and a few expressive poses when a social joke needs to read in one panel. Cover any dialogue and check that the poses and one shared prop still tell you what happened.",
+    why: "A clear gesture and an oversized prop can make a social observation land quickly, like one panel of a comic.",
     period: "Kalighat painting in Kolkata, with surviving examples from the 1830s through the early twentieth century.",
     examples: [
       { label: "A babu seated on a chair, playing the sitar (ca. 1870), featured in the V&A’s Kalighat collection guide", href: "https://www.vam.ac.uk/articles/kalighat-painting" },
@@ -1705,6 +1763,7 @@ const styleGuide = {
     history: "In late eighteenth-century Joseon Korea, a still-life genre called munbangdo developed around books and objects associated with scholarly life. Chaekgeori is a term for the bookshelf type, in which a painted case can continue across a folding screen. Books could share the shelves with ceramics, writing tools, or objects brought from elsewhere.",
     effect: "The compartments make it easy to read many small objects in one view. The shelf edges tilt enough to show what rests on them. In this study the worn notebook suggests frequent use, while the ceramics and boxed software give clues to different kinds of collecting.",
     use: "Use a shelf or cabinet to introduce a character through belongings. Give each compartment a visual job and make one object look handled or worn so readers can tell what the person uses most.",
+    why: "A carefully chosen object can tell a reader about someone’s interests without a line of speech or a facial close-up.",
     period: "Late Joseon Korea. Scholar’s study painting was established by the 1780s and continued through the nineteenth century.",
     examples: [
       { label: "Books and Scholarly Accoutrements (nineteenth century), The Met", href: "https://www.metmuseum.org/art/collection/search/853896" },
@@ -1715,6 +1774,7 @@ const styleGuide = {
     history: "New Objectivity, or Neue Sachlichkeit, emerged in Germany in the 1920s. The name came from a 1925 exhibition in Mannheim. Painters such as Otto Dix made direct, often unsentimental portraits in which a sitter’s clothes, work, habits, and surroundings offered clues about city life in the Weimar Republic.",
     effect: "Clear contours make the clutter and the sitter equally available to inspect. Microsoft’s gaze still meets yours, but the weight on her hand and the left-behind papers suggest fatigue. The surrounding details let you infer what it costs to look composed at work.",
     use: "Use an exact, restrained portrait when the setting should help tell the truth about a character’s day. Put one detail of posture beside one telling object, then let readers work out what happened.",
+    why: "Clear observation and everyday props allow a portrait to register fatigue or tension without a dramatic pose.",
     period: "Weimar-era Germany, especially the 1920s. The New Objectivity exhibition opened in Mannheim in 1925.",
     examples: [
       { label: "Otto Dix, Portrait of the Journalist Sylvia von Harden (1926), Centre Pompidou", href: "https://www.centrepompidou.fr/en/ressources/oeuvre/cjyXKB7" },
@@ -1725,6 +1785,7 @@ const styleGuide = {
     history: "Wayang is a living Indonesian theatre tradition with several forms. In wayang kulit, a puppeteer moves flat leather figures using rods against a lit screen. Music and storytelling are part of the performance. The British Museum’s twentieth-century example shows the kind of detailed leatherwork a figure can carry.",
     effect: "With the figures reduced to profiles, the position of an arm or a hand becomes easy to read. Small cutouts let light pass through the dark shapes. The folder joins the puppets in the middle so you can understand the handoff from the overall gesture.",
     use: "Use a clear outline and visible gaps to test a comic gesture. Give each figure a distinct profile, then check that the shared object and position of the hands explain the action when the figures are seen only in shadow.",
+    why: "A strong outline and a readable prop help a gesture carry across a screen, while tiny holes add decoration inside the shadow.",
     period: "Indonesian wayang shadow theatre is a living tradition. The collection example dates to the 1970s.",
     examples: [
       { label: "Shadow puppet (1970s), British Museum", href: "https://islamicworld.britishmuseum.org/collection/RRM186551" },
@@ -1735,6 +1796,7 @@ const styleGuide = {
     history: "In the 1910s, artists associated with Orphism in Paris explored how color and form could make a still painting feel alive. Sonia Delaunay’s Electric Prisms (1914) takes electric light as a starting point and builds movement from arcs and neighboring colors.",
     effect: "Bright warm colors keep reappearing between cooler passages, which lets your eye feel a rhythm across the square. The street and figure remain recognizable, but the view is organized by what the light feels like as it repeats in the puddles.",
     use: "Use recurring shapes and deliberately spaced color changes when a panel should convey the pace of walking, music, or city light. Keep a few recognizable cues so the reader has an entry point into the more abstract parts.",
+    why: "Repeating colors and shapes can suggest movement while the objects they came from recede into the composition.",
     period: "Orphism and related experiments with simultaneous color contrasts in Paris, especially the 1910s.",
     examples: [
       { label: "Sonia Delaunay, Electric Prisms (1914), Centre Pompidou", href: "https://www.centrepompidou.fr/fr/ressources/oeuvre/zS28bfR" },
@@ -1745,6 +1807,7 @@ const styleGuide = {
     history: "American Regionalism gained prominence in the 1930s, when painters including Grant Wood portrayed rural and small-town life, particularly in the Midwest. They often used clearly ordered compositions and recognizable local details. In American Gothic, the house, clothing, and pitchfork help define the people and the place together.",
     effect: "The repair bench and tools make the sitter legible as someone who does a specific job. The houses, telephone poles, and grain elevators connect that job to the town. Hard outlines and repeating shapes give the scene a deliberate, slightly formal quality.",
     use: "Use a local building and a few work objects when place should shape how we understand a character. Choose details the person actually uses or sees every day, then let a wider view show who shares the place.",
+    why: "Giving a task a recognizable setting can show how work and community depend on one another.",
     period: "American Regionalism, especially Depression-era painting of the 1930s.",
     examples: [
       { label: "Grant Wood, American Gothic (1930), exhibited at the Whitney Museum of American Art", href: "https://whitney.org/exhibitions/grant-wood" },
@@ -1755,6 +1818,7 @@ const styleGuide = {
     history: "The Arts and Crafts movement took shape in Britain in the later nineteenth century. Designers and makers including William Morris wanted well-made useful objects and valued the skills and labor involved in making them. Morris conceived his first wallpaper, Trellis, in 1862 after a climbing rose in his garden. The printed pattern joins plants and birds to a repeating wooden framework.",
     effect: "The lattice gives the eye a route across the room, while the vines bend and link one repeat to the next. Woods, textiles, and book decoration carry nearby colors and forms. These repeated choices make separate ordinary objects feel as though they belong together.",
     use: "Use a handmade-looking repeating pattern when the way a room is furnished says something about the people who live there. Draw one repeat that can extend past the frame and echo just part of it on a smaller object.",
+    why: "A coordinated repeat can make a room feel planned by a maker and connect objects that have different functions.",
     period: "British Arts and Crafts, late nineteenth century, with William Morris’s Trellis conceived in 1862.",
     examples: [
       { label: "William Morris, Trellis wallpaper design (conceived 1862), The Met", href: "https://www.metmuseum.org/art/collection/search/384020" },
@@ -1765,6 +1829,7 @@ const styleGuide = {
     history: "Serge Diaghilev launched his Paris ballet season in 1909. The Ballets Russes brought choreographers, composers, and visual artists together, and the clothes and painted scenery helped tell the story along with the dancing. For Parade (1917), Pablo Picasso designed costumes that brought experimental visual art onto the stage.",
     effect: "The opposing poses carry your eye to where the dancers meet. Strong shapes in the costumes echo shapes in the set, while the red folder remains distinct from both. The layout gives a small office task the clarity and excitement of a stage event.",
     use: "Use a clear stage picture when a comic moment needs to read at a distance or in a small panel. Design the costume, backdrop, and prop together, then check whether a reader can still recognize the gesture if the faces are too small to see.",
+    why: "Bold stage forms help spectators far from the performers follow a movement as quickly as those near the stage.",
     period: "Ballets Russes design, 1909–1929, including the experimental production Parade in 1917.",
     examples: [
       { label: "Diaghilev and the Ballets Russes, including Picasso’s costume design for Parade (1917), V&A", href: "https://www.vam.ac.uk/articles/diaghilev-and-the-ballets-russes" },
@@ -1775,6 +1840,7 @@ const styleGuide = {
     history: "Socialist Realism became the official artistic doctrine of the Soviet Union in the 1930s. It used recognizable figures and settings to present an idealized account of society, with workers and collective effort often placed at the center. Vera Mukhina’s Worker and Collective Farm Woman was created for the Soviet pavilion at the 1937 Paris exhibition.",
     effect: "The low viewpoint, large figures, and warm light give routine work a heroic scale. Gestures lead viewers along the racks and imply that everyone is working toward the same end. The composition gives little space to uncertainty, fatigue, or disagreement, which is part of how an idealized image persuades.",
     use: "Use this approach to depict how an institution wants work to be seen, such as a public mural within a story. Compare it with a later scene of the same work from the workers’ viewpoint and ask what the public image selected or left out.",
+    why: "A shared direction makes a public message feel assured, which is also a clue that the image emphasizes an ideal.",
     period: "Soviet Socialist Realism after its adoption as official doctrine in the 1930s.",
     examples: [
       { label: "Vera Mukhina, model for Worker and Collective Farm Woman (1937, cast 1965), State Russian Museum", href: "https://rusmuseumvrm.ru/data/collections/sculpture/20/so-797/index.php?lang=en" },
@@ -1785,6 +1851,7 @@ const styleGuide = {
     history: "Around the turn of the twentieth century, Pictorialist photographers argued that a photograph could be shaped as deliberately as a painting or print. In The Flatiron, Edward Steichen worked color into the print in layers. The Met connects its composition to Japanese woodcuts and its twilight color to Whistler’s Nocturnes.",
     effect: "The lamp and the edge of Microsoft’s profile stay readable, while rain and soft focus let the buildings recede. The restricted amber and blue-gray palette makes waiting feel quiet and suspended. This generated study evokes the look of an early photographic print.",
     use: "Use selective softness and tint when a photograph or photo-like scene should convey the quality of a memory or time of day. Keep one edge clear enough to anchor the viewer as the rest of the scene fades.",
+    why: "Soft focus can draw attention to the feeling of a place and make small background distractions recede.",
     period: "Pictorialist photography, especially the late nineteenth and early twentieth centuries.",
     examples: [
       { label: "Edward Steichen, The Flatiron (1904, printed 1909), The Met", href: "https://www.metmuseum.org/art/collection/search/267803" },
@@ -1794,6 +1861,7 @@ const styleGuide = {
     history: "The 1988 Deconstructivist Architecture exhibition at MoMA brought several architects together around experiments with breaking, shifting, and overlapping familiar building forms. Frank Gehry’s Vitra Design Museum, completed in 1989, gives a built example of a silhouette made from intersecting sculptural forms.",
     effect: "The angled walls, braces, and glass give the lobby several directions at once. Microsoft’s upright stance helps you judge how much the architecture departs from that vertical. A winding red rail gives the otherwise unsettled space a legible path through it.",
     use: "Use competing directions when a room should feel restless, unfamiliar, or challenging to navigate. Give readers a reliable point of reference, such as a person or a continuous railing, so they can still understand the space.",
+    why: "Changing the expected angles can turn walking through a lobby into an experience of movement and uncertainty.",
     period: "Deconstructivist architecture in the late twentieth century, including MoMA’s 1988 exhibition.",
     examples: [
       { label: "Deconstructivist Architecture exhibition (1988), MoMA", href: "https://www.moma.org/calendar/exhibitions/1813" },
@@ -1804,6 +1872,7 @@ const styleGuide = {
     history: "Gutai formed in Japan in 1954. Artists in the group explored what happens when bodies, materials, and chance shape the finished work together. At a 1956 Gutai exhibition, Saburō Murakami ran through a series of wooden frames covered with paper. The encounter included the motion, the sound of tearing, and the marks it left behind.",
     effect: "The stretched paper records where the body passed through. Its creases and loose edges keep the action visible even in a still image. The intact wood frame makes the change in the paper easier to see.",
     use: "Use a changed material to tell readers about an action they may not see directly. A torn screen, broken surface, or dragged mark can show where a body went and how forcefully it moved.",
+    why: "A change left behind by an action can let a viewer reconstruct an event that is already over.",
     period: "The Gutai Art Association in postwar Japan, active from 1954 to 1972.",
     examples: [
       { label: "Saburō Murakami’s paper-breaking performance (1956), documented in the Artcourt Gallery exhibition guide", href: "https://www.artcourtgallery.com/eng/wp-content/uploads/sites/2/Murakami_Press_en_ss.pdf" },
@@ -1814,6 +1883,7 @@ const styleGuide = {
     history: "Ayacucho retablos are painted wooden boxes with modeled figures. The tradition grew from portable devotional boxes in the Peruvian Andes. Twentieth-century makers such as Joaquín López Antay became known for retablos that also depict work, celebrations, and everyday life.",
     effect: "The shelves set two moments apart without breaking the link between them. Repeating the computers and the organizer helps the eye recognize that one scene follows the other. The decorated doors turn looking into the box into part of the experience.",
     use: "Use stacked spaces to tell a two-part story in one image. Repeat a person, object, or color across the compartments so viewers can infer what changed without a caption.",
+    why: "A box with compartments can hold separate moments that the viewer connects by noticing a recurring prop.",
     period: "Ayacucho retablo making in the Peruvian Andes, including twentieth-century scenes of community life.",
     examples: [
       { label: "Joaquín López Antay, Retablo (ca. 1965–75), Museo de Arte de Lima auction archive", href: "https://lotes.subasta.mali.pe/en/online-auctions/mali--museo-de-arte-de-lima/joaqu-n-l-pez-antay-retablo-ca-1965---1975-8826214" },
@@ -1824,6 +1894,7 @@ const styleGuide = {
     history: "Kinetic sculpture uses actual motion as part of the artwork. In the 1930s Alexander Calder began making mobiles, including works that turn with air currents. His large Untitled (1976) hangs in the National Gallery of Art’s East Building, where people can see it from several levels.",
     effect: "A hanging arm balances around its pivot. A lighter piece farther from that point can balance a heavier piece closer to it. Because the parts can turn, the spaces and overlaps between them change as you watch. The wall shadow offers a second pattern.",
     use: "Use a mobile when a quiet scene needs a small sign of movement. Draw the pivot and what hangs from each arm so viewers can imagine the object turning. In a comic, show its shadow shifting across two panels to make the motion visible.",
+    why: "A movable sculpture gives viewers a different arrangement each time they return or change their position.",
     period: "Twentieth-century kinetic sculpture, including Calder’s mobiles from the 1930s onward.",
     examples: [
       { label: "Alexander Calder, Untitled (1976), National Gallery of Art", href: "https://www.nga.gov/artworks/56517-untitled" },
@@ -1834,6 +1905,7 @@ const styleGuide = {
     history: "Land Art emerged as a prominent approach in the late 1960s and 1970s. Artists made works whose location and surroundings helped determine how they were experienced. Nancy Holt’s Sun Tunnels uses four concrete cylinders in the Utah desert. The tunnels are aligned with sunrise and sunset at the solstices.",
     effect: "The stone walkway and low horizon guide the view toward the illuminated opening. The effect depends on where the viewer stands and where the sun is. At another hour, the alignment and the shape of the light on the ground would change.",
     use: "Use a site-specific composition when a location itself should tell the story. Choose one event, such as a shadow crossing a threshold, that could only occur at that spot and time.",
+    why: "Using a site’s own light or terrain creates an artwork that a viewer experiences through movement and changing conditions.",
     period: "Land Art in the late 1960s and 1970s, with Nancy Holt’s Sun Tunnels completed in 1976.",
     examples: [
       { label: "Nancy Holt, Sun Tunnels (1973–76), Dia Art Foundation", href: "https://www.diaart.org/exhibition/exhibitions-projects/nancy-holt-sun-tunnels-site" },
@@ -1843,6 +1915,7 @@ const styleGuide = {
     history: "Light and Space artists working in Southern California in the 1960s and later used light, surfaces, and enclosed rooms to study perception. James Turrell’s early projection Afrum (White) uses light in a corner to create the appearance of a solid white form.",
     effect: "The doorway and floor provide familiar edges that help the viewer gauge nearby space. At the far wall, the violet light softens the joins and makes its apparent depth less certain. The central event is the viewer trying to decide what the light is doing to the room.",
     use: "Use soft light and a few firm edges when a room should feel deeper, calmer, or less measurable. Anchor the near space with something familiar and let the distant edges fade so the audience experiences the difference.",
+    why: "When a room gives you few stable edges, noticing how you judge distance can become the subject of the work.",
     period: "Southern California Light and Space art from the 1960s onward.",
     examples: [
       { label: "James Turrell, Afrum (White) (1966), LACMA", href: "https://collections.lacma.org/object/140816" },
@@ -1853,6 +1926,7 @@ const styleGuide = {
     history: "Quilts have long carried family and community histories through fabric and pattern. In the 1980s, Faith Ringgold developed story quilts that brought painting, cloth, and written narrative together. Tar Beach (1988) places a story about a Black family’s rooftop gathering and a child’s flight within a patterned fabric border.",
     effect: "The large center gives viewers the shared meal at a glance. The small scenes in the border show the week that led up to it. Stitches and repeated star shapes connect moments that otherwise happen in separate places.",
     use: "Use a central image and a narrative border when one event matters most but gains meaning from earlier moments. Repeat a fabric color or small shape to link the side scenes, so readers can recognize a single story even as they look around the edges.",
+    why: "A large central scene makes the main event legible while the border can hold smaller stories and memories.",
     period: "Narrative quilting and Faith Ringgold’s painted story quilts of the 1980s onward.",
     examples: [
       { label: "Faith Ringgold, Tar Beach (1988), Guggenheim", href: "https://www.guggenheim.org/learning-through-art/art-investigation/community" },
@@ -1863,6 +1937,7 @@ const styleGuide = {
     "history": "Acrylic paints became widely used in the twentieth century. Water-based artist acrylics generally dry quickly, which lets a painter stack passes and revise an edge soon after applying color.",
     "effect": "The dense cobalt covers the color underneath. In a thinner passage, the earlier paint can remain visible. You can use both effects in a single picture.",
     "use": "Use opaque layers to repair a silhouette or change a sign. Use thinner color to connect areas while keeping the earlier marks visible.",
+    "why": "Fast-drying layers let an artist alternate between building bold shapes and adjusting their colors with thinner paint.",
     "period": "Twentieth-century acrylic painting.",
     "examples": [
       {
@@ -1875,6 +1950,7 @@ const styleGuide = {
     "history": "Graphite pencils have long served for studies and finished drawings. Graphite can be laid down with ordered strokes, smoothed, or lifted to recover a light.",
     "effect": "Changing stroke density creates value without color. Drawing the darkest tones around the badge gives the white edge somewhere to stand out.",
     "use": "Use graphite when a drawing needs revisions or precise tonal changes. Plan the dark surroundings before adding a bright reflection.",
+    "why": "Controlling values lets the same pencil suggest both a dark jacket and a bright object that needs to stand out.",
     "period": "Graphite portrait drawing in nineteenth-century Europe.",
     "examples": [
       {
@@ -1887,6 +1963,7 @@ const styleGuide = {
     "history": "In a linocut, a maker removes parts of a linoleum block and inks the surface that remains. The cut areas leave the paper exposed. Picasso used the method for complex layered prints as well as bold shapes.",
     "effect": "The pale lines act like gaps between dark shapes. A strong outer contour still explains the handoff when the image is small.",
     "use": "Use it for posters or decisive comic gestures. Check whether the handoff makes sense before adding small cuts and texture.",
+    "why": "A bold carve makes hand gestures and edges easy to read without relying on fine shading.",
     "period": "Twentieth-century relief printmaking, linoleum cut.",
     "examples": [
       {
@@ -1899,6 +1976,7 @@ const styleGuide = {
     "history": "Screenprinting pushes ink through open parts of a mesh stencil. A multicolor print can use a different stencil for each color. Registration is how the printer keeps those layers aligned.",
     "effect": "Red and cyan read as a limited palette, with a third look where the layers overlap. Offsets show how even small shifts alter an edge.",
     "use": "Use repeated flat colors for a poster or edition. Decide which overlaps are intentional and which edges need precise alignment for the design to read.",
+    "why": "Separate passes make a restrained palette go further. Overlapping two inks can create a third visual accent.",
     "period": "Twentieth-century screenprint editions and Pop Art.",
     "examples": [
       {
@@ -1911,6 +1989,7 @@ const styleGuide = {
     "history": "Cyanotype is a light-sensitive process known for its deep blue. A contact print can be made by placing objects directly against sensitized paper. Anna Atkins and Anne Dixon used the method to record ferns.",
     "effect": "The same exposure can render an opaque object as a silhouette and a more translucent object as a pale blue form. Overlap changes which details are visible.",
     "use": "Use the contact-print idea to draw attention to an object’s outline or transparency. Arrange items so a reader can tell which shapes overlap.",
+    "why": "A contact print records a thing’s outline and translucency together, which can make a small object feel like a specimen.",
     "period": "Nineteenth-century cameraless photography, including British botanical cyanotypes.",
     "examples": [
       {
@@ -1923,6 +2002,7 @@ const styleGuide = {
     "history": "Egg tempera typically binds pigment with egg yolk. It dries quickly and is often painted over a prepared surface in thin strokes. Andrew Wyeth used tempera for Christina’s World.",
     "effect": "Small neighboring marks build color and light while retaining their edges. Compare the even, matte appearance with the much thicker strokes in the acrylic study.",
     "use": "Use this look when a scene should feel precise and still. Build a transition by changing the density and tint of small strokes.",
+    "why": "Separate small marks give a painter close control over changes in tone, which helps when tiny details matter.",
     "period": "Egg tempera on panel, from historical European practice to twentieth-century painting.",
     "examples": [
       {
@@ -1935,6 +2015,7 @@ const styleGuide = {
     "history": "In etching, a needle exposes metal through a protective coating. Acid bites the exposed lines, which then hold ink for printing. Rembrandt’s The Three Trees also uses engraving and drypoint, so it shows how several metal-plate techniques can work together.",
     "effect": "Dark lines can remain fine and freely drawn. They accumulate into shade, while unprinted sections keep bright surfaces separate.",
     "use": "Use etched line where machinery, branches, or architecture need fine detail. Save the densest hatching for places that need particular depth or weight.",
+    "why": "Thin grooves can give a print the precision of a drawing, with enough independent marks to describe machinery or cloth.",
     "period": "European intaglio printmaking, including seventeenth-century Dutch etching.",
     "examples": [
       {
@@ -1947,6 +2028,7 @@ const styleGuide = {
     "history": "Traditional lithography uses a flat surface such as limestone. A greasy drawing attracts printing ink, and dampened blank areas repel it. Nineteenth-century artists such as Honoré Daumier used the medium to publish prints.",
     "effect": "Broad black areas, grainy gray, and untouched paper can all appear in one impression. The gray can look rubbed or drawn rather than built up from individual lines.",
     "use": "Use a crayon lithography look when you want a printed scene to preserve broad, soft marks. Reserve sharper edges for the places where the reader should look first.",
+    "why": "It keeps subtle drawn textures visible across an edition of prints, which is useful when an even gray would feel too flat.",
     "period": "Lithography in nineteenth-century French print culture.",
     "examples": [
       {
@@ -1959,6 +2041,7 @@ const styleGuide = {
     "history": "In buon fresco, the painter applies pigments to fresh lime plaster. As the plaster sets, it binds the pigments into the wall. Because the surface must stay wet, painters can plan the work in separate sections called giornate.",
     "effect": "Large forms and matte colors remain legible on a wall. The order in which the painter applies plaster can also affect where shapes and edges meet.",
     "use": "Use the fresco comparison for a scene designed around a particular wall. Plan large forms from a distance, then consider where you would divide the work into sections.",
+    "why": "Planning one wet area at a time helps an artist coordinate a large scene that will be read at a distance.",
     "period": "Wall painting on wet lime plaster, including twentieth-century murals.",
     "examples": [
       {
@@ -1971,6 +2054,7 @@ const styleGuide = {
     "history": "Pen and ink can range from fine lines made with a narrow pen to broader marks made with a reed pen or brush. Rembrandt’s ink drawings show how a few lines can carry both detail and movement.",
     "effect": "Line thickness helps separate a figure from the background. Parallel or crossed strokes can add shadow without the dark patch swallowing the handoff.",
     "use": "Use strong outlines for a prop or action that must read quickly. Reserve finer lines for fingertips and other details that would feel heavy in solid black.",
+    "why": "A few heavy marks establish the action quickly, leaving fine marks available to show touch, texture, or detail.",
     "period": "Pen and ink drawing across periods, with a seventeenth-century Dutch example.",
     "examples": [
       {
@@ -1983,6 +2067,7 @@ const styleGuide = {
     "history": "Brush painters across East Asia used diluted ink to build a range of tones. Sesshū Tōyō studied painting in China and carried forward Japanese Muromachi ink traditions. In his 1495 landscape, pooled and broken marks suggest terrain with few enclosing outlines.",
     "effect": "A dark wash anchors the figure. Paler washes let the window and distant buildings emerge gradually, and gaps in the brushwork let the paper supply light.",
     "use": "Use wash when changes in light or distance should carry the mood. Keep the darkest ink near the gesture you want the reader to notice first.",
+    "why": "A small change in the amount of water lets one ink suggest weight, translucency, and distance.",
     "period": "East Asian brush painting, with an example from Muromachi Japan, 1495.",
     "examples": [
       {
@@ -1995,6 +2080,7 @@ const styleGuide = {
     "history": "During the Great Depression, Dorothea Lange photographed agricultural workers for a U.S. government relief program. She moved closer across several exposures of Florence Owens Thompson and her children. Thompson later disputed parts of Lange’s account, showing how a caption can shape the meaning of a photograph.",
     "effect": "A camera at bench height gives the tools and hands room in the frame. The people near its edges suggest a shared workspace. A caption can supply verified context that the photograph alone cannot establish.",
     "use": "Use documentary photography when the conditions around an event matter to the story. Check who, where, and when for the caption, and label staged or generated studies clearly so readers can judge what the image establishes.",
+    "why": "A carefully chosen frame can show how work happens, while a verified caption supplies the time, place, and circumstances a viewer cannot infer.",
     "period": "Documentary practice across periods, with a U.S. Depression-era example from 1936.",
     "examples": [
       {
@@ -2007,6 +2093,7 @@ const styleGuide = {
     "history": "Athenian vase painters worked with both techniques in the late sixth century BCE. Some vessels used both on opposite sides. The Boston amphora gives viewers two versions of the same scene, Achilles and Ajax playing a game.",
     "effect": "Black figures make the handoff read as two dark silhouettes. The red-figure rendering leaves more room for interior brush lines to describe knees, fingers, and folds.",
     "use": "Use this paired study to see what changes when you keep a gesture fixed and reverse where dark and light sit. A clear silhouette helps a small image read quickly, while interior lines help describe a complicated pose.",
+    "why": "Reversing which shapes are dark changes what a viewer sees first. It also changes how easily the artist can show a bend in fabric or a small gesture.",
     "period": "Archaic Greek pottery, Athens, late sixth century BCE.",
     "examples": [
       {
@@ -2019,6 +2106,7 @@ const styleGuide = {
     "history": "The Shah Jahan Album began under the Mughal emperor Jahangir and grew under Shah Jahan. Its folios brought together individual portraits, studies of plants and animals, and calligraphy. Nanha’s portrait of Maharaja Bhim Kanwar sets an identifiable profile amid delicate flowers.",
     "effect": "The profile makes the sitter’s attention legible. The plain field gives the sprig space at the center, and the ornament draws the eye around the margins at a slower pace.",
     "use": "Use an album-page composition for a portrait the reader should study at close range, especially when a specimen or personal object reveals what the sitter cares about.",
+    "why": "A small held object can characterize a sitter, while the border gives the portrait a slower rhythm.",
     "period": "Mughal court culture in South Asia, early seventeenth century.",
     "examples": [
       {
@@ -2031,11 +2119,232 @@ const styleGuide = {
     "history": "Mid-nineteenth-century French Realists made contemporary life and ordinary labor subjects for serious painting. Jean-François Millet showed three women gathering leftover grain in The Gleaners, exhibited at the Paris Salon in 1857.",
     "effect": "Two bent figures and a crowded bench keep the viewer close to the work. The muted colors and rough textures make the chipped wall and worn sleeves part of the story.",
     "use": "Use this approach when a character’s skill or effort should define the scene. Show the tools, gestures, and wear that tell the reader what the task costs in time or attention.",
+    "why": "Putting ordinary labor at the center gives skill and physical effort the attention a formal portrait might give rank.",
     "period": "French Realism, mid-nineteenth century.",
     "examples": [
       {
         "label": "Jean-François Millet, The Gleaners (1857), Musée d’Orsay",
         "href": "https://www.musee-orsay.fr/en/artworks/des-glaneuses-342"
+      }
+    ]
+  },
+  "swiss-style": {
+    "history": "The International Typographic Style took shape in mid-century Switzerland. Designers such as Josef Müller-Brockmann and Armin Hofmann used grids, sans serif lettering, and photography. In Der Film, Müller-Brockmann makes scale and the crop of the title carry the poster.",
+    "effect": "A shared alignment connects pieces that sit far apart. Large type tells you what the event is, while smaller type gives you the details to act on it.",
+    "use": "Use the grid for a public notice, map, or schedule people need to scan. Assign a size and position to each level of information so a glance can tell readers where to start.",
+    "why": "A common alignment helps unfamiliar readers scan a schedule or notice and quickly decide what to do next.",
+    "period": "International Typographic Style, Switzerland, 1950s–60s.",
+    "examples": [
+      {
+        "label": "Josef Müller-Brockmann, Der Film (1960), MoMA",
+        "href": "https://www.moma.org/collection/works/4882"
+      }
+    ]
+  },
+  "carved-relief": {
+    "history": "Carved relief appears across many cultures. Sculptors at the Northwest Palace at Nimrud cut figures into gypsum alabaster panels and incised tiny details in their clothing. The Met notes that the panels originally carried paint, very little of which survives.",
+    "effect": "Shallow edges catch bright light on one side and cast short shadows on the other. A groove can suggest a fold or finger without needing the whole form to project.",
+    "use": "Use low relief for a scene that should read across a wall or object while preserving its surface. Try lighting the panel from the side to make slight changes of depth easier to see.",
+    "why": "Shallow carving lets a scene belong to a wall or object. Side lighting can make even a small step in depth readable.",
+    "period": "Sculptural method with a Neo-Assyrian example from ninth-century BCE Nimrud.",
+    "examples": [
+      {
+        "label": "Northwest Palace relief panel (ca. 883–859 BCE), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/321613"
+      }
+    ]
+  },
+  "ceramic-glazing": {
+    "history": "Korean Goryeo potters developed refined blue-green celadon glazes and used them over incised and carved decoration. The Met’s twelfth-century stoneware jar shows how a pattern can remain visible beneath a translucent glaze.",
+    "effect": "Glaze is a coating that fuses to the clay in firing. A translucent glaze can emphasize a groove where it gathers more thickly, while the broad reflection on the shoulder reveals the vessel’s curve.",
+    "use": "Use a translucent glaze when you want a vessel’s surface to reveal small carved details as it turns. Plan the lip, shoulder, and foot alongside the pattern because each draws light differently.",
+    "why": "A translucent glaze lets the shape of the vessel and the depth of its carved lines both contribute to the finished color.",
+    "period": "Glazed ceramics across periods, with a twelfth-century Korean Goryeo example.",
+    "examples": [
+      {
+        "label": "Incised stoneware jar with celadon glaze (first half of the 12th century), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/57405"
+      }
+    ]
+  },
+  "vector-illustration": {
+    "history": "Commercial tools such as Adobe Illustrator, released publicly in 1987, helped bring scalable digital paths into everyday design and illustration. In a vector file, points and curves define a shape so it can be redrawn at different sizes.",
+    "effect": "Crisp joins and flat fills separate the figure and tools. Reusing a curve or circle makes shapes feel related even when they represent different things.",
+    "use": "Choose vectors when a drawing needs reusable parts or must work at several sizes, such as a comic’s recurring props or a set of icons. Reusing paths keeps the edges and proportions consistent.",
+    "why": "A motif built from reusable curves stays clear at several sizes, which helps icons, props, and lettering stay consistent.",
+    "period": "Digital illustration, with a desktop publishing milestone in 1987.",
+    "examples": [
+      {
+        "label": "Adobe Illustrator public release (1987), Adobe",
+        "href": "https://blog.adobe.com/en/publish/2015/03/23/adobe-explains-it-all-illustrator"
+      }
+    ]
+  },
+  "stylized-3d": {
+    "history": "Computer animation separates the model, the camera, surfaces, and lighting. Pixar’s Luxo Jr., shown at SIGGRAPH in 1986, used modeled desk lamps and light to make a simple cast read as characters.",
+    "effect": "Rounded geometry makes the forms easy to read from an angle. Highlights suggest what each surface is made of, and contact shadows help objects feel as though they have weight.",
+    "use": "Use stylized 3D when you want to revisit a set from several angles or show the same objects under different light. A consistent model helps readers recognize the objects from shot to shot.",
+    "why": "The same model and props can stay recognizable across camera angles while the light changes the mood of a scene.",
+    "period": "Computer graphics and animation, with a 1986 example from early Pixar.",
+    "examples": [
+      {
+        "label": "Pixar, Luxo Jr. (1986)",
+        "href": "https://www.pixar.com/luxo-jr/"
+      }
+    ]
+  },
+  "batik": {
+    "history": "In Indonesian batik, makers apply hot wax to reserve areas of cloth from dye and repeat the process for additional colors. Patterns have different uses and meanings across communities and occasions. UNESCO inscribed Indonesian Batik in 2009.",
+    "effect": "Tiny reserved marks let the pattern flow across larger color fields. The repeat makes the cloth readable even when a garment folds or partly covers the design.",
+    "use": "Use wax resist when you want the cloth itself to shape the design, for example when a repeat should stay recognizable as the fabric moves. For an Indonesian reference, look at a specific textile and its context before interpreting its pattern.",
+    "why": "A repeated pattern can remain recognizable as fabric folds or moves, while fine reserved marks reward a closer look.",
+    "period": "Living Indonesian textile tradition. The linked cloth is from Java, nineteenth to early twentieth century.",
+    "examples": [
+      {
+        "label": "Javanese batik cloth (19th to early 20th century), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/771332"
+      },
+      {
+        "label": "Indonesian Batik (inscribed 2009), UNESCO",
+        "href": "https://ich.unesco.org/en/RL/indonesian-batik-00170"
+      }
+    ]
+  },
+  "maya-painted-ceramics": {
+    "history": "Classic Maya potters painted drinking vessels with figures and ornaments in colored slip, a mixture based on clay. A Chamá-style vessel at The Met shows a court scene framed by bands and was made in what is now Guatemala. Such vessels took part in feasting, gift exchange, and burial.",
+    "effect": "A shared baseline joins the figures, while a glance or reaching hand pulls your eye into the next part of the scene. An unwrapped view lets you follow those connections across the surface.",
+    "use": "Use a wraparound layout when turning an object should reveal the story in stages. Give the end and the beginning a shared line or repeated shape so the join reads smoothly.",
+    "why": "A wraparound design can let a viewer discover a story physically, one exchange at a time.",
+    "period": "Classic Maya, with a Chamá-style example from ca. 600–900 CE.",
+    "examples": [
+      {
+        "label": "Chamá artist(s), Vessel with throne scene (600–900 CE), The Met",
+        "href": "https://www.metmuseum.org/art/collection/search/318662"
+      }
+    ]
+  },
+  "stop-motion": {
+    "history": "Stop-motion animators move a physical puppet or object in small steps and photograph the result one frame at a time. For Coraline, LAIKA used different-sized puppets and printed replaceable faces to get a range of poses and expressions.",
+    "effect": "A fixed view keeps attention on what moved. Small pose changes suggest continuous motion, while repeating a pose over several frames makes a pause feel intentional.",
+    "use": "Use stop-motion when a puppet’s fabric, tools, or surroundings should feel tangible. Plan the spacing between poses to control whether a reach feels hesitant, quick, or deliberate.",
+    "why": "Controlling the spacing between poses, and choosing when to hold one, gives a small movement a sense of hesitation or purpose.",
+    "period": "Frame-by-frame puppet animation, with an American feature-film example from 2009.",
+    "examples": [
+      {
+        "label": "LAIKA, Coraline production materials (2009)",
+        "href": "https://www.laikahiddenworlds.com/coraline"
+      }
+    ]
+  },
+  "plotter-art": {
+    "history": "Early computer artists such as Vera Molnár used rules and controlled changes to explore visual order. A plotter follows commands to move a real pen across paper. Molnár’s Molndrian is a plotter drawing from 1974.",
+    "effect": "Lines close together appear darker and accentuate the curve of a face or a lens. Repeated paths make small deviations clear because you have a pattern to compare them with.",
+    "use": "Use a repeatable drawing rule when you want to explore how a single change alters the whole image. Adjust one input, such as the distance between lines, to see where the effect is strongest.",
+    "why": "A repeatable rule lets you change spacing or direction in a controlled way and see exactly what it does to the image.",
+    "period": "Algorithmic drawing and early computer art, with a 1974 pen plotter example.",
+    "examples": [
+      {
+        "label": "Vera Molnár, Molndrian (1974), MoMA",
+        "href": "https://www.moma.org/collection/works/417832"
+      }
+    ]
+  },
+  "game-nes": {
+    "history": "Nintendo’s Famicom arrived in Japan in 1983, and the NES reached North America in 1985. Artists composed worlds from repeating tiles and built characters from small movable images called sprites. A single hardware sprite had three visible colors, with layering available to add more.",
+    "effect": "A few contrasting pixel clusters make the bun, jacket, and hands legible at a glance. Repeated tiles and sparse color give the room a strong rhythm.",
+    "use": "Use an 8-bit approach for tiny characters or a deliberately spare arcade look. Test the sprite at its intended size. A distinctive outline survives when facial details disappear.",
+    "why": "A small sprite with a clear outline can keep its identity even when it has very little screen space.",
+    "period": "1980s home consoles. Nintendo’s Super Mario Bros. was part of the North American NES launch in 1985.",
+    "examples": [
+      {
+        "label": "Nintendo of America, NES launch history",
+        "href": "https://press.nintendo.com/CompanyHistory"
+      }
+    ]
+  },
+  "game-snes": {
+    "history": "The Super Famicom launched in Japan in 1990 and the Super NES in North America in 1991. Its richer palette and multiple background layers gave artists more ways to separate scenery, characters, and effects.",
+    "effect": "Steps from dark blue to mid-blue and pale highlights round off a sleeve while keeping the pixel grid visible. A quieter palette on distant scenery gives the foreground more contrast.",
+    "use": "Use this look for a side-view scene where the eye should pick out detailed props and characters quickly. Keep the strongest color contrast around the action.",
+    "why": "Extra shades let a designer show more of a place while keeping the controls, character, and path visible at a glance.",
+    "period": "Early to mid-1990s console pixel art. Super Mario World was bundled with the North American Super NES in 1991.",
+    "examples": [
+      {
+        "label": "Nintendo of America, Super NES launch history",
+        "href": "https://press.nintendo.com/CompanyHistory"
+      }
+    ]
+  },
+  "game-playstation-2d": {
+    "history": "2D sprite games continued on the original PlayStation even as the console made real-time 3D common. Konami’s Castlevania: Symphony of the Night (1997) is a prominent example of detailed 2D character art and atmospheric environments from that period.",
+    "effect": "A larger sprite can show a clearer expression and more specific hand gestures. Separate foreground and background layers create depth and provide room for lighting effects.",
+    "use": "Use this look when drawn poses and carefully composed backgrounds matter, especially in a side-scrolling game where you want the character to read against busy scenery.",
+    "why": "Detailed drawn poses can make small movements and expressions readable while keeping the view of a game world easy to follow.",
+    "period": "Original PlayStation, mid-to-late 1990s. Castlevania: Symphony of the Night was released in 1997.",
+    "examples": [
+      {
+        "label": "Konami, Castlevania: Symphony of the Night (1997)",
+        "href": "https://www.konami.com/games/castlevania/us/en-us/page/history_1997_ps"
+      }
+    ]
+  },
+  "game-playstation-low-poly": {
+    "history": "Final Fantasy VII (1997) paired simple real-time character models with detailed pre-rendered backgrounds in many exploration scenes. A pre-rendered background is an image made ahead of time and displayed behind the moving model.",
+    "effect": "Big geometric shapes make elbows, hair, and boots readable from a distance. The backdrop can establish the place with more detail because the camera angle is fixed.",
+    "use": "Use this look for a fixed-camera adventure where a small cast moves through carefully composed rooms. Put visual detail in the places the player needs to notice.",
+    "why": "A fixed view lets artists put detail into scenery and guide a player’s eye while keeping the moving figure economical to render.",
+    "period": "Original PlayStation role-playing games, late 1990s.",
+    "examples": [
+      {
+        "label": "PlayStation, Final Fantasy VII (1997) and the original PlayStation",
+        "href": "https://www.playstation.com/en-us/playstation-history/1994-ps-one/"
+      },
+      {
+        "label": "Hironobu Sakaguchi on pre-rendered backgrounds in Final Fantasy VII (2023 interview)",
+        "href": "https://fullfrontal.moe/hironobu-sakaguchi-magic/"
+      }
+    ]
+  },
+  "game-fighting-3d": {
+    "history": "Tecmo’s original Dead or Alive debuted in arcades in 1996 and came to PlayStation in 1998. Fighting games gave full-body poses and readable motion a large share of the screen.",
+    "effect": "Full-body framing makes weight shifts visible. Smooth shading softens the surfaces between polygon vertices, while angular outlines still show how the figure is built.",
+    "use": "Use this look when stance, timing, and spacing tell the story. Favor clear silhouettes and keep both feet visible at key moments so a pose is easy to read.",
+    "why": "When action depends on stance and timing, the viewer needs a clear view of limbs and balance as much as detail in the face.",
+    "period": "Mid-to-late 1990s arcade and console 3D. This branch of game art overlapped with low-poly RPGs.",
+    "examples": [
+      {
+        "label": "Koei Tecmo, history of the original Dead or Alive (1996 arcade debut)",
+        "href": "https://www.koeitecmo.co.jp/e/ir/docs/ird1_20250212e.pdf"
+      }
+    ]
+  },
+  "game-ps3-ps4": {
+    "history": "PlayStation 3 launched in 2006. Across the PS3 and PS4 generations, artists could make denser models and layer more surface information into textures. Normal maps are one common way to make small bumps and scratches respond to light without modeling each one.",
+    "effect": "More geometry helps round the face, hands, and upholstery. Painted or mapped details help materials read at close range, while lighting baked into a scene can preserve its atmosphere at lower rendering cost.",
+    "use": "Use this approach when the character must hold up in medium shots and the environment needs to run smoothly. Put geometry into the silhouette and finer detail into surface maps.",
+    "why": "Modeling a clear outline and mapping smaller marks onto surfaces can give a scene detail while leaving more resources for the action.",
+    "period": "HD console 3D from the PS3 and PS4 generations, beginning in 2006 and 2013.",
+    "examples": [
+      {
+        "label": "PlayStation, PlayStation 3 and the HD console era",
+        "href": "https://www.playstation.com/en-us/playstation-history/2007-ps3-ps-vita/"
+      },
+      {
+        "label": "PlayStation, PlayStation 4 (2013)",
+        "href": "https://www.playstation.com/en-us/playstation-history/2013-ps4-ps-vr/"
+      }
+    ]
+  },
+  "game-ps5-ray-tracing": {
+    "history": "PlayStation 5 launched in 2020. Some games used ray tracing to calculate particular light effects. For Marvel’s Spider-Man Remastered, Insomniac highlighted ray-traced reflections and ambient shadows.",
+    "effect": "Tracing rays through a scene can account for objects beyond the camera frame when they appear in a reflection. Rough surfaces spread the reflection, while smooth surfaces keep it sharper.",
+    "use": "Use this look when reflected objects, metal, glass, or changing light carry information about the scene. Compare what the reflection reveals with what the camera can see directly.",
+    "why": "Reflections help players judge what objects are made of and can reveal parts of a space outside the camera’s current view.",
+    "period": "2020s console graphics. Insomniac documented ray-traced effects for its 2020 PS5 remaster.",
+    "examples": [
+      {
+        "label": "Insomniac Games, Marvel’s Spider-Man Remastered graphics (2020)",
+        "href": "https://blog.playstation.com/2020/09/30/marvels-spider-man-remastered-detailed/"
       }
     ]
   },

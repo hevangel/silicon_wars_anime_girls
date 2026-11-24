@@ -76,6 +76,7 @@
       ["Background", guide.history],
       ["What makes it distinctive", guide.effect],
       ["When to use it", guide.use],
+      ["Why use it", guide.why],
     ], guide);
 
     const labels = family.querySelectorAll(".style-board-notes dt");
