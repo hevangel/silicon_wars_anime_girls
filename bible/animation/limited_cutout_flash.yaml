@@ -1,0 +1,10 @@
+id: limited_cutout_flash
+classification: animation_technique
+status: proof_of_concept_not_approved
+description: "Reusable mouth, eye, head and arm symbols with held poses"
+compatible_art_styles: [default_manga, chibi, cel_shaded_3d]
+required_inputs: [layered_source_art, overpainted_occlusion, recorded_dialogue, frame_timings]
+controls: [mouth_symbol, blink, pivot, arm_angle, pose_hold]
+outputs: [browser_preview, editable_scene_json, original_review_board_svg]
+identity_contract: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+qa: {visual_human_review: mandatory, source_media_rights: mandatory, export_validation: pending}
