@@ -1,0 +1,16 @@
+{
+  "plate": "anime-cel-shading-v03",
+  "style": "Anime cel shading",
+  "family": "Manga panel",
+  "variant": "3/4 re-framed",
+  "mode": "pose",
+  "provider": "autoglm/seedream",
+  "rendered_utc": "2026-11-24T22:46:42+00:00",
+  "reference": "characters/arm/character_sheet.png",
+  "reference_sha256": "eb3e3a143e4bdba20dbe37d65fd6d69959afe80c6715f373b9061c12882afaa2",
+  "prompt": "Task category: Illustration, Concept Art, and Narrative Visuals\nIntended use: one plate in a cross-era art-style study sheet of the Silicon Wars character Arm; a technique reference for the project, not a story panel\nCore request: redraw Arm, in the reference pose, as a study in Anime cel shading\nCharacter, identity must not drift: Arm, the Pocket Architect: a petite 19-year-old British engineering apprentice, cool blue eyes, a long wavy silver ash-blonde high side ponytail tied with a blue-teal ribbon, layered bangs, a brass mechanical pencil tucked behind her right ear beside the ponytail, one eyebrow slightly raised and a wry half-smile. She wears a cropped blue-teal workshop jacket with brass hardware, stitched chest pockets and rolled cream cuffs, a small cream patch above her right chest pocket, a cream button-front shirt, a charcoal knee-length pleated skirt with a brass-buckled belt, and dark ankle-height lace-up work boots.\nSubject, pose and staging: Seen from behind at a three-quarter back angle, mid-stride, walking away from the viewer along a pale stone footpath between black iron railings; her head is turned back over her right shoulder so she looks at the viewer, her right hand carries a folded black umbrella low at her side, a tan shoulder bag hangs from her left shoulder, her left arm is lifted slightly. Beyond her: pale European stone roofs with chimneys and a small domed tower, autumn trees in orange and ochre, a broad pale sky. Tall thin vertical accents frame both edges.\nStyle or medium: Japanese animation cel art: clean tapered ink line art, flat matte colour fills, hard two-tone cel shadows with crisp boundaries, small white specular highlights on hair and boots, painted background in a slightly softer hand than the figure.\nVariant 3 of 4 — re-framed: the same medium and mood, re-framed three-quarter from the waist up so the street compresses behind her and the surface handling can be read closely\nComposition and orientation: portrait plate, one single figure, full figure except where the variant calls for a closer crop\nMust preserve: Arm's identity: silver ash-blonde side ponytail and blue-teal ribbon, cool blue eyes, brass pencil behind the ear, blue-teal cropped jacket with the cream chest patch, cream shirt, charcoal pleated skirt, dark lace-up boots.\nMust not include: no other characters, no speech balloons, no caption or panel text, no signature, no watermark, no gallery frame, no colour swatch strip, no character-sheet turnaround or multiple views of the figure",
+  "prompt_sha256": "ac95b9759b90b2b79a77e09c64ad6660d90bd6ecdb048effb7a497b83eb45df5",
+  "file": "art/style-study/renders/anime-cel-shading-v03.png",
+  "image_sha256": "6ecb992306da9601d354d242eeaf7c3a05972f3a430a8bb67a5c9e7b94411390",
+  "bytes": 3401603
+}

@@ -1,0 +1,16 @@
+{
+  "plate": "manga-ink-and-screentone-v01",
+  "style": "Manga ink and screentone",
+  "family": "Manga panel",
+  "variant": "1/4 canonical",
+  "mode": "pose",
+  "provider": "autoglm/seedream",
+  "rendered_utc": "2026-11-24T22:48:45+00:00",
+  "reference": "characters/arm/character_sheet.png",
+  "reference_sha256": "eb3e3a143e4bdba20dbe37d65fd6d69959afe80c6715f373b9061c12882afaa2",
+  "prompt": "Task category: Illustration, Concept Art, and Narrative Visuals\nIntended use: one plate in a cross-era art-style study sheet of the Silicon Wars character Arm; a technique reference for the project, not a story panel\nCore request: redraw Arm, in the reference pose, as a study in Manga ink and screentone\nCharacter, identity must not drift: Arm, the Pocket Architect: a petite 19-year-old British engineering apprentice, cool blue eyes, a long wavy silver ash-blonde high side ponytail tied with a blue-teal ribbon, layered bangs, a brass mechanical pencil tucked behind her right ear beside the ponytail, one eyebrow slightly raised and a wry half-smile. She wears a cropped blue-teal workshop jacket with brass hardware, stitched chest pockets and rolled cream cuffs, a small cream patch above her right chest pocket, a cream button-front shirt, a charcoal knee-length pleated skirt with a brass-buckled belt, and dark ankle-height lace-up work boots.\nSubject, pose and staging: Her back is to the viewer: she is walking away down the path, seen entirely from behind at a three-quarter back angle, so the viewer sees her back, the back of her head and one cheek as she turns to look over her right shoulder toward the viewer. She is mid-stride on a pale stone footpath between black iron railings; her right hand carries a folded black umbrella low at her side, a tan shoulder bag hangs from her left shoulder, her left arm is lifted slightly. Beyond her: pale European stone roofs with chimneys and a small domed tower, autumn trees in orange and ochre, a broad pale sky. Tall thin vertical accents frame both edges. Do not turn her to face the camera.\nStyle or medium: Black-and-white manga: brush-and-pen line art with varying line weight, hatching for shadow, dot screentone and tone-on-tone gradient screen for the skirt, sky and stonework; pure black solids, no colour, white paper ground.\nVariant 1 of 4 — canonical: straight, textbook application of the medium; clear daylight, full figure, the reference staging held intact\nComposition and orientation: portrait plate, one single figure, full figure except where the variant calls for a closer crop\nMust preserve: Arm's identity: silver ash-blonde side ponytail and blue-teal ribbon, cool blue eyes, brass pencil behind the ear, blue-teal cropped jacket with the cream chest patch, cream shirt, charcoal pleated skirt, dark lace-up boots.\nMust not include: no other characters, no speech balloons, no caption or panel text, no signature, no watermark, no gallery frame, no colour swatch strip, no character-sheet turnaround or multiple views of the figure",
+  "prompt_sha256": "d488c8fd7564638021f4e70bb4056d4431e3da9b348916a780171245d7fdf26f",
+  "file": "art/style-study/renders/manga-ink-and-screentone-v01.png",
+  "image_sha256": "ecd87465eb7e948b7d569934c3e3e058b25d4b259ee3ffe5251a61c3a7e7fd80",
+  "bytes": 6074148
+}
