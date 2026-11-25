@@ -1,0 +1,7 @@
+id: pilot-001-traditional_frame_by_frame
+visual: {art_style: default_manga}
+animation: {technique: traditional_frame_by_frame}
+delivery: {format: browser_preview, fps: 24}
+source: chapters/pilot-001/video/traditional_frame_by_frame/scene.json
+entrypoint: chapters/pilot-001/video/traditional_frame_by_frame/preview.html
+production_status: exploratory

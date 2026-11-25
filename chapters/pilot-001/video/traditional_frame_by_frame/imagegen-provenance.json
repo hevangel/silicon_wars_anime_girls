@@ -1,0 +1,18 @@
+{
+  "issue": 74,
+  "kind": "AI-generated traditional animation key pose concept board",
+  "generation_id": "fd68c6f7-4b05-4341-859c-264183f26932",
+  "original_png": "traditional_frame_by_frame_citadel_showdown.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "committed_preview": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "9d949e69d7c3a87a7fdf8a9889a5814eac46efa7440faba8e6602805bd03da00",
+  "status": "not_exposure_sheet_source_or_finished_video",
+  "human_review": "pending"
+}
