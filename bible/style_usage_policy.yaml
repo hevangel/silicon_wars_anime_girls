@@ -19,3 +19,21 @@ style_usage_policy:
     avoid_in:
       - serious dramatic climaxes
       - lore-critical reveal scenes
+
+  loose_ink_fashion:
+    allowed_in:
+      - fashion editorials and seasonal illustrations
+      - slice-of-life bonus art
+      - alternate-style portraits and comparative studies
+    avoid_in:
+      - lore-critical character model sheets
+      - main story panels without explicit art-direction approval
+
+  polished_anime_key_art:
+    allowed_in:
+      - promotional key art and posters
+      - alternate-style portraits and comparative studies
+      - high-finish chapter covers
+    avoid_in:
+      - replacing canonical default manga or model sheets
+      - sequential panels without explicit art-direction approval
