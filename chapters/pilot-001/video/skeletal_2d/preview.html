@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Silicon Wars #70 — 2D skeletal rig</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#081020;color:#f4f7ff;font:16px system-ui,Arial}main{max-width:1150px;margin:20px auto;padding:12px}h1{margin:0 0 7px}.sub{color:#a9bfdf}canvas{width:100%;aspect-ratio:16/9;border:1px solid #58719e;border-radius:12px;background:#0e1930;display:block}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:13px}button{background:#214e81;color:#fff;border:1px solid #5f9dd2;border-radius:7px;padding:10px;cursor:pointer}input[type=range]{flex:1;min-width:110px}a{color:#a4d9ff}.hint{padding:10px 15px;border-left:3px solid #b9b1d7;background:#121d34}.reference{display:flex;gap:15px;align-items:start;flex-wrap:wrap}.reference img{height:170px;border-radius:8px;border:1px solid #42577b}.reference small{display:block;color:#bbcee8}code{color:#b6e5fc}</style>
+<main><h1>2D skeletal rig</h1><p class="sub">Issue #70 · interactive original-vector technique study · NOT final character art or approved animation</p>
+<canvas id="stage" width="960" height="540" aria-label="Animated technique demonstration"></canvas>
+<div class="toolbar"><button id="play">Pause</button><button id="prev">◀ Beat</button><button id="next">Beat ▶</button><input id="seek" type="range" min="0" max="287" value="0" aria-label="Scrub frame"><span id="time">0.00s</span></div>
+<div class="toolbar"><label for="amount">Technique intensity / camera</label><input id="amount" type="range" min="-100" max="100" value="0"><output id="readout">0%</output></div>
+<p id="status" class="hint"></p><p class="sub"><strong>Mechanism:</strong> relative shoulder/elbow pivot rotation and pose limits. <a href="scene.json">Editable beat source</a> · <a href="reference-board.svg">Generated art board</a></p>
+<div class="reference"><figure><img src="../../../../characters/intel/reference_card.jpg" alt="Existing Intel reference card"><figcaption>Intel: canon reference (unchanged)</figcaption></figure><figure><img src="../../../../characters/amd/reference_card.jpg" alt="Existing AMD reference card"><figcaption>AMD: canon reference (unchanged)</figcaption></figure></div>
+<p class="hint"><strong>Not yet production-ready:</strong> Schematic pivot animation only. Godot skeletal/mesh scene and 30-second render remain outstanding.</p>
+<script>
+"use strict";
+const MODE=70,canvas=document.getElementById("stage"),ctx=canvas.getContext("2d"),seek=document.getElementById("seek"),amount=document.getElementById("amount"),status=document.getElementById("status"),time=document.getElementById("time");
+let scene=null,frame=0,playing=true,last=0,acc=0;
+function clamp(x,a,b){return Math.max(a,Math.min(b,x))}
+function oval(x,y,rx,ry,col){ctx.beginPath();ctx.ellipse(x,y,rx,ry,0,0,Math.PI*2);ctx.fillStyle=col;ctx.fill()}
+function line(p,w,col){ctx.beginPath();ctx.moveTo(...p[0]);for(let i=1;i<p.length;i++)ctx.lineTo(...p[i]);ctx.lineWidth=w;ctx.strokeStyle=col;ctx.lineCap="round";ctx.stroke()}
+function r(x,y,w,h,col,rad=0){ctx.fillStyle=col;ctx.beginPath();ctx.roundRect(x,y,w,h,rad);ctx.fill()}
+function txt(t,x,y,size=18,col="#e7f1ff",weight="400"){ctx.fillStyle=col;ctx.font=weight+" "+size+"px system-ui";ctx.fillText(t,x,y)}
+function figure(id,x,y,s,pose,mouth,blink,angle){ctx.save();ctx.translate(x,y);ctx.scale(s,s);ctx.rotate(angle*.18);const amd=id==="amd";const hair=amd?"#cc3c55":"#8dc8ef",co=amd?"#6b243f":"#274f88",accent=amd?"#f7aa61":"#edcd82";
+oval(0,122,108,110,"#101d34");oval(0,95,100,106,co);
+ctx.save();ctx.translate(amd?80:-78,30);ctx.rotate(pose*.6);line([[0,0],[amd?47:-45,65],[amd?68:-61,8]],23,co);oval(amd?68:-61,8,23,14,accent);ctx.restore();
+ctx.save();ctx.translate(amd?-87:90,35);ctx.rotate(-pose*.4);line([[0,0],[amd?-35:34,80]],25,co);ctx.restore();
+oval(0,-61,80,93,hair);
+if(amd){oval(73,-108,26,32,hair);line([[84,-122],[120,-105],[145,-79],[154,-35]],22,hair);for(let i=0;i<4;i++)oval(112+i*12,-98+i*20,9,7,"#a82e42")}else{line([[-70,-112],[-87,-11],[-62,78]],27,hair);line([[70,-108],[86,-7],[59,65]],25,hair);line([[-46,-148],[-19,-169],[0,-151],[21,-171],[45,-148]],8,"#e8cc87");oval(0,-154,10,13,"#3da0de")}
+oval(0,-73,63,77,"#ffe0ce");
+ctx.fillStyle=hair;ctx.beginPath();ctx.moveTo(-68,-92);ctx.quadraticCurveTo(-54,-161,10,-155);ctx.quadraticCurveTo(70,-148,72,-91);ctx.quadraticCurveTo(30,-118,-11,-112);ctx.quadraticCurveTo(-44,-100,-68,-92);ctx.fill();
+if(amd){ctx.strokeStyle="#d9e4f8";ctx.lineWidth=8;ctx.beginPath();ctx.arc(0,-77,66,Math.PI*1.04,Math.PI*1.96);ctx.stroke();oval(-62,-70,9,20,"#27344f");oval(62,-70,9,20,"#27344f");r(-41,21,82,17,"#222b3f",8)}
+for(let eye of [-27,27]){if(blink)line([[eye-10,-73],[eye+11,-73]],3,"#362b3e");else{oval(eye,-77,10,8,"white");oval(eye,-76,5,7,amd?"#8a4d26":"#2f80ba");oval(eye+1,-79,2,3,"#fff")}}
+line([[-10,-43],[0,-40],[11,-44]],2,"#ad8178");
+if(mouth==="X"||mouth==="A"){line([[-13,-19],[12,-19]],3,"#a54562")}else if(mouth==="C"||mouth==="E"){oval(0,-16,10,mouth==="E"?14:8,"#6c2739");oval(0,-10,7,3,"#ed899d")}else if(mouth==="F"){line([[-14,-17],[0,-12],[15,-17]],3,"#aa4860")}else{oval(0,-16,17,6,"#793345");line([[-13,-19],[14,-19]],2,"#fff")}
+r(-52,38,104,23,accent,7);if(amd){r(-26,54,52,22,"#1c2339",5);for(let q=0;q<3;q++)r(-21+q*17,59,12,12,"#f47c61",2)}else{r(-17,49,34,35,"#f7ede0",5);txt("◆",-8,74,19,"#438cc1")}
+ctx.restore()}
+function background(t,p){const g=ctx.createLinearGradient(0,0,960,540);g.addColorStop(0,"#132b55");g.addColorStop(1,"#211b35");r(0,0,960,540,g);for(let i=0;i<7;i++){let x=55+i*155;line([[x,100],[x,446]],2,"#405578");r(x-30,85,65,17,"#334461",4)};r(0,445,960,95,"#0a1427");if(MODE===76){let ax=p*80;for(let i=0;i<3;i++){let shift=(.22+i*.36)*ax;ctx.strokeStyle=["#425c86","#5878a3","#e5c78d"][i];ctx.lineWidth=3+i*2;ctx.strokeRect(65+i*74+shift,75+i*42,760-i*148,385-i*75)}}}
+function beatAt(f){let z=0;for(let i=0;i<scene.shots.length;i++){const sh=scene.shots[i];if(f<z+sh.duration_frames)return {index:i,shot:sh,local:f-z};z+=sh.duration_frames}return {index:scene.shots.length-1,shot:scene.shots.at(-1),local:0}}
+function draw(){if(!scene)return;const z=beatAt(frame),beat=z.index,t=frame/24,level=Number(amount.value)/100,p=clamp(z.local/z.shot.duration_frames,0,1);background(t,level);
+const pose=Math.sin(t*2)*.17+(beat===1?.45:0)+level*.45;
+let mouth=MODE===69?["A","C","E","F","X"][Math.floor(t*5)%5]:["A","C","F"][beat],blink=Math.floor(t*3)%15===0;
+if(MODE===74||MODE===83)mouth=["A","C","F"][Math.floor(frame/6)%3];
+const angle=MODE===71||MODE===72?level*.8:Math.sin(t)*.10;
+figure("intel",295,303,1,MODE===70?pose*.6:pose*.28,MODE===68?mouth:"A",blink,angle*.5);
+figure("amd",670,306,1,pose,mouth,blink,angle);
+if(MODE===69){r(50,411,860,24,"#10172a",9);for(let i=0;i<9;i++){const x=65+i*94;txt("ABCDEF GHX"[i].trim(),x,431,15,i===Math.floor(t*5)%9?"#ffd992":"#9eb7cf")}txt("Synthetic viseme guide — no speech audio",55,463,15,"#ffcbb4")}
+if(MODE===70){ctx.setLineDash([5,6]);line([[670,327],[754+pose*25,378],[788+pose*40,305]],3,"#e8d17c");ctx.setLineDash([]);for(let q of [[670,327],[754+pose*25,378],[788+pose*40,305]])oval(q[0],q[1],7,7,"#ffe5ac")}
+if(MODE===71||MODE===72||MODE===73){r(24,120,179,165,"#101b31",10);let inputs=MODE===71?["ParamAngleX","EyeLOpen","MouthOpenY"]:MODE===72?["headYaw","gazeX","expression"]:["browInnerUp","jawOpen","keyLight"];inputs.forEach((x,i)=>{txt(x,37,155+i*43,13,"#e8eefa");r(38,165+i*43,135,8,"#31425e",4);r(38,165+i*43,55+beat*24,8,"#62a9dc",4)})}
+if(MODE===73||MODE===78){let x=530+level*145;const rad=ctx.createRadialGradient(x,125,9,x,125,210);rad.addColorStop(0,"#f8e6ab66");rad.addColorStop(1,"#f8e6ab00");r(0,0,960,540,rad)}
+if(MODE===75){line([[96,193],[101,280],[78+beat*26,345]],8,"#e8d6a9");line([[101,279],[148+beat*27,320]],7,"#e8d6a9");oval(96,159,24,26,"#e8d6a9");txt("synthetic driver",38,393,14,"#ffcba5")}
+if(MODE===76){txt("Depth: far 0.22   |   mid 0.58   |   near 1.00",24,77,17,"#fff3d5")}
+if(MODE===68){txt("mouth symbol "+mouth+" · pivot and hold",25,408,20,"#ffdea4")}
+if(MODE===74){txt("Key "+(Math.floor(frame/6)%6+1)+" · exposure 6 frames",27,410,18,"#ffe4c0")}
+r(0,0,960,55,"#060d20bb");txt("#"+MODE+"   "+scene.label,24,36,21,"#f4f6fc","700");
+r(0,473,960,67,"#081125dd");txt("SHOT "+(beat+1)+" / "+scene.shots.length+"   "+z.shot.description,24,507,18,"#eaf2ff");
+txt("preview only",794,35,15,"#ebba8b");time.textContent=(frame/24).toFixed(2)+"s";seek.value=frame;status.textContent=z.shot.description+" — "+scene.review_status}
+function tick(ts){if(playing&&scene&&last){acc+=Math.min(80,ts-last);const advance=Math.floor(acc/(1000/scene.delivery.fps));if(advance){frame=(frame+advance)%(Number(seek.max)+1);acc-=advance*(1000/scene.delivery.fps)}}last=ts;draw();requestAnimationFrame(tick)}
+fetch("scene.json").then(r=>{if(!r.ok)throw Error("HTTP "+r.status);return r.json()}).then(x=>{if(!x.shots||x.shots.some(s=>!Number.isInteger(s.duration_frames)||s.duration_frames<1))throw Error("Invalid beat frames");scene=x;seek.max=x.shots.reduce((a,b)=>a+b.duration_frames,0)-1;requestAnimationFrame(tick)}).catch(e=>status.textContent="Cannot load scene.json — serve repo root using python -m http.server. "+e.message);
+document.getElementById("play").onclick=()=>{playing=!playing;document.getElementById("play").textContent=playing?"Pause":"Play"};seek.oninput=()=>{playing=false;frame=Number(seek.value);draw()};amount.oninput=()=>{document.getElementById("readout").textContent=amount.value+"%";draw()};
+function jump(d){if(!scene)return;let z=beatAt(frame),idx=clamp(z.index+d,0,scene.shots.length-1);frame=scene.shots.slice(0,idx).reduce((a,b)=>a+b.duration_frames,0);draw()}
+document.getElementById("prev").onclick=()=>jump(-1);document.getElementById("next").onclick=()=>jump(1);
+</script></main></html>
