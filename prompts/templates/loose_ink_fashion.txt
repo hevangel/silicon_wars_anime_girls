@@ -1,0 +1,17 @@
+Silicon Wars prompt template — style variant: loose_ink_fashion
+
+Assemble from identity, style and scene blocks. Load the canonical character continuity.yaml and model sheet first; reference images for the style must not override identity.
+
+[BASE IDENTITY BLOCK]
+Draw {{NAME}} from Silicon Wars. Preserve {{IDENTITY}} (persona: {{PERSONALITY}}; signature prop / power: {{SIGNATURE_PROP}}).
+
+[STYLE BLOCK — loose_ink_fashion]
+Japanese editorial fashion illustration; loose gestural black ink linework, thin variable pen strokes, overlapping and incomplete contours, delicate minimalist anime faces, elegant fashion proportions appropriate to canonical age and physique, expressive folds, irregular watercolor-like color blocking, selective coloring with small gaps and occasional color outside outlines, unpainted white paper, muted neutrals and signature accent colors, minimal shading, ample negative space, sparse abstract shapes or suggestive café/urban scenery, intentionally unfinished sketchbook appearance.
+
+[NEGATIVE STYLE BLOCK]
+Photorealism, 3D rendering, polished cel shading, thick uniform outlines, clean vector art, heavy gradients, excess detail, glossy digital painting, fully rendered background, perfectly filled color regions, rigid symmetrical poses.
+
+[SCENE BLOCK]
+{{POSE, EXPRESSION, CAMERA, ENVIRONMENT for this panel or asset}}
+
+For a paired comparison, reuse the exact identity, outfit, pose, framing, expression and scene content across the two styles. Change only rendering and environment detail, not the underlying scene. Keep lettering separate. No invented logos or accessories that replace canonical anchors.
