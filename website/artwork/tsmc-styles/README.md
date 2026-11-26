@@ -2,11 +2,12 @@
 
 A single-page art course for college students with no previous art training,
 built from the TSMC art-style study: one character (TSMC from Silicon Wars) in
-one café pose, rendered in **105 styles / 240 pictures**, grouped into
-**12 lessons** that walk from raw media (graphite, fresco, ink) through print,
-photography, craft, world traditions, the Western canon, public art,
-modernism, design systems, pop, installation — and finally the video-game
-graphics ladder from NES 8-bit to PS5 ray tracing.
+one café pose, rendered in **419 styles / 554 pictures**, grouped into
+**15 lessons** that walk from raw media (graphite, fresco, ink) through print,
+photography, craft, three world-traditions lessons, the Western canon, public
+art, modernism, design systems and architecture, pop, installation, comics
+and illustration — and finally the video-game graphics ladder from vector
+arcade and Game Boy to PS5 ray tracing.
 
 Pedagogy: because the pose and character are held constant, style itself is
 the only variable — students learn to see medium, composition and cultural
