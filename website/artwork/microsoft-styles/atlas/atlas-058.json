@@ -1,0 +1,54 @@
+{
+  "intro": "Posters have only a moment to catch someone passing by. These fictional studies strip away the lettering to make the four approaches to color, shape and attention easy to compare.",
+  "alt": "Microsoft appears in four invented posters using a book, a supply train, farm-equipment workers and an orange sunburst.",
+  "image": "atlas-058.webp",
+  "variants": [
+    {
+      "name": "New Deal poster",
+      "look": "An open book and a reading lamp become bold silhouettes in a few flat colors.",
+      "history": "The U.S. Works Progress Administration commissioned posters to publicize services and events in the 1930s and early 1940s. Many were produced by screen printing.",
+      "when": "Study the shape and color contrast when practical information needs to attract a passerby.",
+      "why": "A few printable colors and simple forms make the subject recognizable from several steps away.",
+      "source": {
+        "label": "Library of Congress",
+        "href": "https://www.loc.gov/item/prn-00-140/"
+      }
+    },
+    {
+      "name": "wartime propaganda poster",
+      "look": "An emphatic gesture and diagonals pull attention toward the train.",
+      "history": "During major twentieth-century wars, governments enlisted commercial artists to produce posters encouraging support for official efforts, mobilization and rationing.",
+      "when": "Analyze the visual instructions a poster gives before reading its official wording.",
+      "why": "Extreme contrast and direct spatial cues pull the viewer into a message with a sense of urgency.",
+      "source": {
+        "label": "U.S. National Archives",
+        "href": "https://www.archives.gov/files/exhibits/propaganda.pdf"
+      }
+    },
+    {
+      "name": "Chinese revolutionary poster",
+      "look": "Red rays, upward expressions and smoothly modeled figures direct attention toward cooperative work.",
+      "history": "Chinese state publishers circulated political posters in many styles after 1949. Cultural Revolution posters often idealized collective labor and political commitment.",
+      "when": "Study the relationship between pose, color and rhetorical optimism in a period print.",
+      "why": "Faces, gestures and converging lines can make an official message feel collective and forward-moving.",
+      "source": {
+        "label": "Johns Hopkins University Libraries",
+        "href": "https://aspace.library.jhu.edu/repositories/3/resources/663"
+      }
+    },
+    {
+      "name": "Cuban OSPAAAL poster",
+      "look": "Hands and a sunburst fit together as a single bold visual idea in flat color.",
+      "history": "Beginning in the 1960s, OSPAAAL published Cuban-designed posters about international solidarity and anti-colonial causes.",
+      "when": "Study how an economical visual metaphor can communicate across language barriers.",
+      "why": "The image stays memorable at a glance. Many historical designs also included text in several languages.",
+      "source": {
+        "label": "Victoria and Albert Museum",
+        "href": "https://www.vam.ac.uk/exhibitions/ospaaal-solidarity-and-design"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create four original, fictional, history-inspired graphic print studies in a perfect square 2×2 grid with thin straight dividers. Each panel absolutely contains the same adult office visitor with blonde hair in a low bun, black rectangular eyeglasses, blue lanyard, four-color square hair clip, charcoal dress and white coffee mug, used as a drawn component of the design. No lettering, logos, campaigns, leaders or military insignia. Upper left imaginary public library poster, the character holds an open book and a table lamp looms behind, indigo and cream flat dry screenprinted cut shapes. Upper right 1940s historic-format graphic of the character pointing toward a supply train, sweeping diagonal, severe lighting and silhouette, sepia and muted scarlet. Lower left historical revolutionary poster format, character in a diagonal queue of people putting machinery together, warm sun rays that converge against fresh pale blue and red, faces flatter and more optimistic. Lower right wide flat bold solidarity-poster composition in black cream and orange, a set of giant uplifted hands ringing a blazing orange sun against a simple matte black field, the woman MUST be visibly drawn below the sun on bottom left, beside the hands, in graphic flat silhouette with recognizable glasses and coffee mug. High visual distinction between the four panels. These are concept images expressly fictional and have no copy at all."
+}

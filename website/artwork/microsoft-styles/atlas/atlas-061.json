@@ -1,0 +1,54 @@
+{
+  "intro": "Landscapes can become shorthand for a nation. Compare what each scene chooses to see and how a painter's brushwork or viewpoint can make that choice feel natural.",
+  "alt": "Four regional landscape studies show a northern lake, an Australian bush track, colorful Brazilian hills and an Andean scene with figures.",
+  "image": "atlas-061.webp",
+  "variants": [
+    {
+      "name": "Group of Seven",
+      "look": "Bright orange foliage and rugged rock stand out against a deep blue northern lake.",
+      "history": "The Group of Seven formed in Canada in 1920. Its members made distinctive landscapes and took part in debates about national art.",
+      "when": "Study how close colors and bold brush marks can distill a large rocky view.",
+      "why": "Strong simplification makes an individual site easy to recognize and adapt into a broader story about a region.",
+      "source": {
+        "label": "Art Canada Institute",
+        "href": "https://artcanada.com/glossary"
+      }
+    },
+    {
+      "name": "Heidelberg School",
+      "look": "Sunlit grasses and eucalypts are described with broken dabs and light shadows along the path.",
+      "history": "Late nineteenth-century Australian artists associated with the Heidelberg School worked outdoors and developed styles also described as Australian Impressionism.",
+      "when": "Study how quick brush marks record the distinctive light on a local landscape.",
+      "why": "Broken color and pale values can suggest bright sun without describing every leaf or blade of grass.",
+      "source": {
+        "label": "National Gallery of Victoria",
+        "href": "https://www.ngv.vic.gov.au/exhibition/australian-impressionism/"
+      }
+    },
+    {
+      "name": "Brazilian Modernism",
+      "look": "Rounded blocks and bold colors simplify a landscape of urban hills and tropical plants.",
+      "history": "Brazilian modernism took many forms. São Paulo's Modern Art Week of 1922 was a watershed, and artists such as Tarsila do Amaral developed distinctive modern compositions from Brazilian places and imagery.",
+      "when": "Study the way specific vegetation, city forms and colors retain a local character as shapes become more abstract.",
+      "why": "Simplification lets the subject support new formal invention while keeping a strong sense of place.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/calendar/exhibitions/3871"
+      }
+    },
+    {
+      "name": "Indigenismo",
+      "look": "People, buildings and the slope of the land share an earth-toned structure in the Andes-inspired scene.",
+      "history": "Twentieth-century Indigenismo in Latin America encompassed distinct movements. In Peru, José Sabogal made Indigenous subjects central to a national art debate, raising questions about who could represent whose experience.",
+      "when": "Study who painted the work, its audience and the position of the people depicted.",
+      "why": "An image can give a public role to people and places previously ignored while still carrying the maker's viewpoint.",
+      "source": {
+        "label": "ICAA at the Museum of Fine Arts, Houston",
+        "href": "https://icaa.mfah.org/s/es/item/1140669"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Group of Seven north-country scene of bold blue-shadowed rock, autumn orange pine and dark lake; Heidelberg School sunlit Australian bush path with freely dabbed pale eucalypts and warm dry grasses; Brazilian Modernism original painting of simplified urban hills, tropical foliage and curved candy colors; Indigenismo historical-current gallery study of public collective figures and earth-tone mountains, modern recurring woman present as observer only, no generic costume embellishment. No lettering, captions, watermark or ornamental frame."
+}

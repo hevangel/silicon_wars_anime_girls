@@ -1,0 +1,43 @@
+{
+  "intro": "Early modern schools and contemporary artists have reworked ink through contact with new audiences, other kinds of painting and today’s materials.",
+  "alt": "Three ink-based portraits in strong scarlet color, luminous wet blossoms and enlarged black brush marks with a rose-colored accent.",
+  "image": "atlas-034.webp",
+  "variants": [
+    {
+      "name": "Shanghai School",
+      "look": "Strong dark accents work against bright scarlet and floral color.",
+      "history": "The Shanghai School took shape in a growing urban art market in the late Qing. Ren Yi, also called Ren Bonian, worked across figure and bird-and-flower painting.",
+      "when": "Make a brush painting that can catch attention at a quick glance.",
+      "why": "Strong wet and dry brush accents can carry the picture even when bright color competes for attention.",
+      "source": {
+        "label": "The Met | Ren Yi in the collection",
+        "href": "https://www.metmuseum.org/art/collection/search/36166"
+      }
+    },
+    {
+      "name": "Lingnan School",
+      "look": "Color gathers where moist strokes meet softly edged leaves and blossoms.",
+      "history": "The Lingnan School developed in southern China in the early 20th century. Gao Jianfu and other artists explored reform through new subjects and a synthesis of brush traditions.",
+      "when": "Paint a figure or flower with clear contours and soft changes of atmosphere.",
+      "why": "Wet wash and carefully placed color can distinguish a crisp detail from surrounding air.",
+      "source": {
+        "label": "Hong Kong Museum of Art | Chinese painting and calligraphy",
+        "href": "https://hkmoa.org/en/collections/chinese-painting-and-calligraphy"
+      }
+    },
+    {
+      "name": "contemporary Chinese ink",
+      "look": "A few enlarged ink marks take over the page and meet a sharp modern block of color.",
+      "history": "Contemporary artists have used ink and its histories across painting, installation, photography and video. Some play with the scale and legibility of a single mark.",
+      "when": "Keep a familiar brush mark visible while making an unfamiliar composition.",
+      "why": "An enlarged stroke exposes its texture and can become a subject in its own right.",
+      "source": {
+        "label": "The Met | Ink Art: Past as Present in Contemporary China",
+        "href": "https://www.metmuseum.org/exhibitions/listings/2013/ink-art"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Make one wide image composed of three separate equal-width vertical artworks side by side with precise splits at thirds, full bleed with no gutters. Create three distinctly different Chinese ink-based images of the fictional recognizable heroine with glasses and bun and coffee mug.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. left: Shanghai School-inspired colorful brush painting on paper, rich scarlet and magenta contrasting full dark assertive brush line, urban flower or fruit vendor's setting. center: Lingnan School-inspired ink and pale-color portrait guide, damp wash and unusual edge bleeds, delicate light and realistic blossom background of warm yellow green, intense gaze. right: Contemporary Chinese ink inspired artwork, lively hybrid of enlarged gestural black ink stains across empty white with tiny off-register modern rose color blocks, eye glasses and low-bun silhouette held as graphic forms."
+}

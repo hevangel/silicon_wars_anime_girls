@@ -1,0 +1,54 @@
+{
+  "intro": "A single design can move from a printed sheet to a polished panel, plaster wall or cast vessel. Look for the process in the edges, reflections and relief.",
+  "alt": "Vietnamese woodblock color, glossy dark Vietnamese lacquer, a weathered Dunhuang-style painting and a dark carved-looking bronze vessel.",
+  "image": "atlas-032.webp",
+  "variants": [
+    {
+      "name": "Đông Hồ print",
+      "look": "Bold leaf-green and red shapes sit on bright pearly paper.",
+      "history": "Đông Hồ’s Vietnamese folk prints are made from carved wooden blocks and traditionally use colors and papers prepared with natural materials, including shell powder in the paper coat.",
+      "when": "Create a festive print designed for circulation.",
+      "why": "A strong outline and a separate color for each printing block keep the design legible.",
+      "source": {
+        "label": "UNESCO | Đông Hồ folk woodblock printing",
+        "href": "https://ich.unesco.org/en/USL/art-of-dong-ho-folk-woodblock-printing-01737"
+      }
+    },
+    {
+      "name": "Vietnamese lacquer painting",
+      "look": "Glossy red and black layers show flecks of gold and white eggshell.",
+      "history": "Twentieth-century Vietnamese artists developed lacquer painting into a modern fine-art medium, building on local lacquer craft. Layers are sanded and polished to bring out their colors and inserts.",
+      "when": "Show fine fragments inside a dark reflective surface.",
+      "why": "The polishing process can expose multiple depths and let eggshell add variations within a light shape.",
+      "source": {
+        "label": "Vietnam National Fine Arts Museum | Lacquer painting",
+        "href": "https://vnfam.vn/en/collections/5a7d06029ec3f10141609062"
+      }
+    },
+    {
+      "name": "Dunhuang Buddhist murals",
+      "look": "Ribbon-like figures curl around the portrait on worn turquoise and ochre plaster.",
+      "history": "The Mogao caves at Dunhuang contain Buddhist murals and sculptures produced over many centuries along routes connecting China and Central Asia.",
+      "when": "Study how a repeated painted form can bring motion to a wall or vault.",
+      "why": "Long curves and rhythmic color changes lead the eye through an expansive surface.",
+      "source": {
+        "label": "UNESCO | Mogao Caves",
+        "href": "https://whc.unesco.org/en/list/440/"
+      }
+    },
+    {
+      "name": "Chinese ritual bronze",
+      "look": "A symmetrical relief pattern repeats around the dark bronze vessel.",
+      "history": "Early Chinese bronze vessels were made for ritual offerings and other uses. During the Shang and Zhou periods, many vessels bore complex repeating relief patterns.",
+      "when": "Shape a vessel whose design can be read from several sides.",
+      "why": "Shallow relief uses the changing angle of light to emphasize the contours and ornament.",
+      "source": {
+        "label": "The Met | Chinese ritual bronze in the collection",
+        "href": "https://www.metmuseum.org/art/collection/search?q=shang%20ritual%20bronze"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Four kinds of real-looking art objects, each adapting the same fictional character, with fully recognizable glasses and neat low bun.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Vietnamese Đông Hồ woodblock print under red and leaf-green ink fields on warm pearlescent paper, flat bold curved strokes. top right: Vietnamese lacquer painting, shiny dark red and black with a few gold leaf accents and pearl-white eggshell crackle in shirt highlights. bottom left: Dunhuang cave mural inspired, opaque mineral turquoise, faded orange and indigo on worn plaster, billowing ribbons around portrait and detailed border. bottom right: Shang-inspired bronze ritual vessel, near-black olive patina with ornate low relief, broad symmetrical prominent square eyeglasses and low bun as simplified repeating heraldic figure on the central panel above geometric spirals."
+}

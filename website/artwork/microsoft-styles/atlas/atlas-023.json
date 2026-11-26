@@ -1,0 +1,54 @@
+{
+  "intro": "Each example adapts a different tradition of devotional painting to the same fictional figure. Compare how frontality, line, color and framing direct attention.",
+  "alt": "The heroine appears on a gold-ground panel, a worn dark icon, a bright Ethiopian-style panel and a framed Armenian-style manuscript miniature.",
+  "image": "atlas-023.webp",
+  "variants": [
+    {
+      "name": "Byzantine icon",
+      "look": "A frontal gaze and gently modeled face stand against luminous gold.",
+      "history": "Byzantine icons were devotional images made in several materials. Painted icons often use a gold ground and follow established holy types.",
+      "when": "Give a central figure the still presence of a panel intended for sustained viewing.",
+      "why": "The frontal pose and reduced spatial cues keep attention on the eyes and hand gestures.",
+      "source": {
+        "label": "The Met | Icons and Iconoclasm in Byzantium",
+        "href": "https://www.metmuseum.org/de/essays/icons-and-iconoclasm-in-byzantium"
+      }
+    },
+    {
+      "name": "Russian icon painting",
+      "look": "Long forms, lean pale strokes and dark vermilion make the figure formal and slightly tilted.",
+      "history": "Russian icon painting combined Byzantine imagery with local workshops and conventions. Andrei Rublev is associated with an influential medieval tradition.",
+      "when": "Compose a quiet panel with a narrow palette and carefully weighted gestures.",
+      "why": "Fine light strokes bring out folds and hands without breaking the larger silhouette.",
+      "source": {
+        "label": "The Met | Russian icon paintings",
+        "href": "https://www.metmuseum.org/art/collection/search?q=andrei%20rublev%20icon"
+      }
+    },
+    {
+      "name": "Ethiopian Christian painting",
+      "look": "Strong red fields and large outlined eyes set an emphatic frontal presence.",
+      "history": "Ethiopian Christian art includes manuscript illuminations, wall paintings and painted devotional panels. Regional styles changed over centuries and through contact with other traditions.",
+      "when": "Center a portrait around the eyes and clear, repeated outlines.",
+      "why": "Broad colors and bold contours remain legible inside a small panel.",
+      "source": {
+        "label": "The Met | Africa and Byzantium",
+        "href": "https://www.metmuseum.org/ru/exhibitions/africa-byzantium/visiting-guide"
+      }
+    },
+    {
+      "name": "Armenian manuscript illumination",
+      "look": "Small ornamental arches and red, blue and gold borders contain the figure.",
+      "history": "Armenian manuscript illuminators decorated Gospel books with images and rich ornamental frames. T‘oros Roslin worked in the Armenian Kingdom of Cilicia in the 13th century.",
+      "when": "Make the act of turning to an illustrated page feel deliberate and ceremonial.",
+      "why": "The decorated frame controls where the eye enters and dwells on the page.",
+      "source": {
+        "label": "The Met | Armenia exhibition catalogue",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Armenia_Art_Religion_and_Trade_in_the_Middle_Ages.pdf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Four panel portraits of a modern woman reimagined in historical devotional media; individual panel looks distinct. Keep portrait non-liturgical. No letters, captions or inscriptions.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: Byzantine framed egg-tempera gold-ground icon, severe frontal gaze and subtle modeling in greenish ochre and burnt red. top right: Russian icon painting on weathered panel, elegant elongated tilted form, thin striated light-colored strokes over dark vermilion and olive. bottom left: Ethiopian Christian panel painting with almond eyes, frontal head, florid broad color fields in lime gold and strong brick red, repeated outlines. bottom right: Armenian manuscript illumination miniature small figure in bordered paper panel with very richly patterned red, gold and blue ornamented arches, thin lively line."
+}

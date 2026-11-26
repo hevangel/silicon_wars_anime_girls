@@ -1,0 +1,58 @@
+{
+  "intro": "These examples give the human figure very different jobs to do.",
+  "alt": "Four figures appear in gestural paint, a glass display, an intimate portrait and a bright caricature.",
+  "image": "atlas-081.webp",
+  "variants": [
+    {
+      "name": "Neo-Expressionism",
+      "look": "Dark edges and raw strokes make the pose feel physically strained.",
+      "history": "In the late 1970s and 1980s, Neo-Expressionist painters in several countries revived forceful, often figurative large-scale painting.",
+      "when": "Let the speed and density of the mark amplify bodily emotion.",
+      "why": "Fierce marks can make the pose feel strained before the story is clear.",
+      "source": {
+        "label": "Tate · Neo-Expressionism",
+        "href": "https://www.tate.org.uk/art/art-terms/n/neo-expressionism"
+      },
+      "period": "Late 1970s–1980s"
+    },
+    {
+      "name": "Young British Artists",
+      "look": "The vitrine makes ordinary objects appear clinical and invites the visitor to inspect the staging.",
+      "history": "The Young British Artists became prominent around the 1988 Freeze exhibition and subsequent exhibitions in the 1990s.",
+      "when": "Use museum display conventions to change how a viewer reads an ordinary object.",
+      "why": "A vitrine positions the viewer as an observer and makes staging part of what they inspect.",
+      "source": {
+        "label": "Tate · Young British Artists",
+        "href": "https://www.tate.org.uk/art/art-terms/y/young-british-artists-ybas"
+      },
+      "period": "Late 1980s–1990s"
+    },
+    {
+      "name": "contemporary figuration",
+      "look": "Her expression and the color of the room carry an intimate narrative.",
+      "history": "Contemporary figurative artists work across portraiture, observation and invention, with widely varying techniques and lineages.",
+      "when": "Use bodily presence and setting to suggest a person’s life or interior state.",
+      "why": "Room color and a sitter’s gestures can carry feeling while leaving the narrative open.",
+      "source": {
+        "label": "Whitechapel Gallery · Radical Figures",
+        "href": "https://www.whitechapelgallery.org/exhibitions/radical-figures-painting-in-the-new-millennium/"
+      },
+      "period": "Late 20th century through today"
+    },
+    {
+      "name": "Chicago Imagists",
+      "look": "Bright contours and unlikely patterns exaggerate familiar features without losing the likeness.",
+      "history": "Chicago Imagists drew on comics, vernacular art and everyday culture, and exhibited in distinct groups in the late 1960s.",
+      "when": "Distort silhouette and pattern to build an unmistakably individual character.",
+      "why": "Selective distortion exaggerates characteristics that tell figures apart.",
+      "source": {
+        "label": "Art Institute of Chicago · Chicago Imagism",
+        "href": "https://www.artic.edu/highlights/31/chicago-imagism"
+      },
+      "period": "Late 1960s–1970s"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, Neo-Expressionism: drippy thick sticky paint and orange/black brutal gestural silhouette against teal; Young British Artists: staged glossy mixed media installation, actual executive displayed behind a clear vitrine with white cups in rows, uncanny clinical light; contemporary figuration: loosely brushed realist portrait with a sharply observed intimate expression framed in cool mauve-and-moss interior; Chicago Imagists: visceral violet, yellow and acid lime caricature, decorative texture and fine cartoon contours, witty distortion. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

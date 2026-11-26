@@ -1,0 +1,54 @@
+{
+  "intro": "Compare the continuous glass with surfaces built from beads, strips and feathers. Reflections, weave and alignment tell you how each object was made.",
+  "alt": "Four portraits made from transparent glass, seed beads, pale woven willow and iridescent feathers.",
+  "image": "atlas-017.webp",
+  "variants": [
+    {
+      "name": "blown glass",
+      "look": "Thick clear and teal areas bend the light and magnify the contours.",
+      "history": "Glassblowing spread through the Roman world around the turn of the first century, enabling artisans to give molten glass many new shapes.",
+      "when": "Make a vessel or figure in which transparency should emphasize the curves.",
+      "why": "Air and gravity shape the glass while its varying thickness changes how light passes through it.",
+      "source": {
+        "label": "Corning Museum of Glass | Roman-period glassblowing",
+        "href": "https://info.cmog.org/publication/techniques-roman-period-glassblowing"
+      }
+    },
+    {
+      "name": "beadwork",
+      "look": "Rows of separate seed beads organize the edges and color.",
+      "history": "Beadwork is practiced in many cultures. Indigenous North American artists developed distinct techniques and designs with traded glass beads.",
+      "when": "Make an ornament whose pattern should sparkle and remain readable along a garment.",
+      "why": "Color is built from individual units that can follow a curve or fill a block.",
+      "source": {
+        "label": "National Museum of the American Indian | Collections",
+        "href": "https://americanindian.si.edu/collections-search/"
+      }
+    },
+    {
+      "name": "basketry",
+      "look": "Light and dark willow strips cross to outline the sitter’s glasses and mug.",
+      "history": "Basket makers across many cultures use local plant materials and techniques such as plaiting, coiling and twining to make shaped containers.",
+      "when": "Build a light three-dimensional form with visible structure.",
+      "why": "Tension and overlapping strips let the pattern and the structure emerge together.",
+      "source": {
+        "label": "The Met | Basketry in the collection",
+        "href": "https://www.metmuseum.org/art/collection/search?q=basketry"
+      }
+    },
+    {
+      "name": "featherwork",
+      "look": "Overlapping feathers reflect gold and green at different angles.",
+      "history": "Featherwork has been used in many cultures, including Hawaiʻi and pre-Columbian Mesoamerica, where feathered garments and objects could convey rank.",
+      "when": "Make a surface whose color should shift as the viewer moves.",
+      "why": "The direction and overlap of the plumes can change both color and sheen.",
+      "source": {
+        "label": "National Gallery of Art | Art of the Pacific Islands",
+        "href": "https://www.nga.gov/sites/default/files/migrate_images/content/dam/ngaweb/research/publications/pdfs/art-of-the-pacific-islands.pdf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Four separate curated well-lit craftsmanship object photographs, artifacts each depicting same figure with mug.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: transparent handblown glass statuette with molten glass-swirled optical contours, thick clear-to-aquamarine and golden hints, visible bubbles. top right: seed beadwork on black felt, portrait in individually stitched jewel red, gold and blue glass beads, careful parallel rows. bottom left: large bust in undyed woven willow basketry with contrasting pale strips outlining glasses and mug, physically possible basket weave. bottom right: featherwork relief portrait on deep black woven backing, neatly layered naturally iridescent feather strips angled in changing directions, gold and green beside charcoal."
+}

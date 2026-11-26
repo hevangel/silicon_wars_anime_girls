@@ -1,0 +1,54 @@
+{
+  "intro": "European colonization changed who commissioned pictures and what they pictured. These examples span colonial genres and later regional practices, with very different reasons to make an image.",
+  "alt": "A fibrous bark-paper picture, a gilded devotional painting, a colonial-style family scene and a bright market painting.",
+  "image": "atlas-049.webp",
+  "variants": [
+    {
+      "name": "amate",
+      "look": "The warm brown paper and its rough edge remain visible between brightly painted birds or plants.",
+      "history": "Bark paper has a long history in Mexico. In modern amate painting, Otomí makers of paper and Nahua painters are both central to the story of the medium.",
+      "when": "Study a painted sheet alongside information about the people who made the paper and the picture.",
+      "why": "A fibrous ground adds a visible texture beneath even the flattest painted color.",
+      "source": {
+        "label": "National Museum of Mexican Art",
+        "href": "https://nationalmuseumofmexicanart.org/events/the-amate-tradition"
+      }
+    },
+    {
+      "name": "Cuzco School",
+      "look": "A dark devotional image stands out against gilded decoration and a richly colored surface.",
+      "history": "Colonial painters in and around Cusco adapted European religious imagery and developed distinctive workshop practices, including painting richly decorated garments.",
+      "when": "Study the meeting of local techniques and imported religious imagery in a surviving painting.",
+      "why": "Attention to the painted surface reveals choices that a broad label like colonial painting can conceal.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/es/perspectives/conservation-stories-cuzco-school-paintings"
+      }
+    },
+    {
+      "name": "casta painting",
+      "look": "A carefully staged family occupies a domestic scene with small details of clothing and objects.",
+      "history": "Many eighteenth-century paintings from New Spain classified people of mixed ancestry within a colonial racial hierarchy. Series commonly used family groupings and inscriptions.",
+      "when": "Study how picture placement and domestic detail were used to manufacture categories and hierarchy.",
+      "why": "A scene that looks ordinary at first can give a constructed political classification the appearance of common sense.",
+      "source": {
+        "label": "Los Angeles County Museum of Art",
+        "href": "https://collections.lacma.org/object/271573"
+      }
+    },
+    {
+      "name": "Haitian painting",
+      "look": "Small repeated forms, bright color and high viewpoints draw the eye through an imagined market.",
+      "history": "Haitian painting encompasses many practices. Artists associated with Le Centre d'Art in twentieth-century Port-au-Prince helped make diverse Haitian approaches widely known.",
+      "when": "Start with a named painter's work when studying the arrangement of a crowded everyday scene.",
+      "why": "Repeated shapes can guide viewers across a large gathering while preserving differentiated encounters.",
+      "source": {
+        "label": "Le Centre d'Art",
+        "href": "https://www.lecentredart.org/en/artists/benoit-rigaud/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Mexican amate paper contemporary painting, brightly colored birds and flowers across a handmade brown bark sheet with a fibrous deckle edge; Cuzco School colonial Andean devotional image, gilded tracery and deep pigments in an ornate gallery frame; casta painting shown critically in a museum as a framed fictional colonial family group in a domestic setting, no racial labels or readable writing; Haitian popular painting fictional market garden, dense saturated flat color, repeated stepped trees and perspectives. No lettering, captions, watermark or ornamental frame."
+}

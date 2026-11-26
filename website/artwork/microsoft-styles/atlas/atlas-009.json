@@ -1,0 +1,54 @@
+{
+  "intro": "Look for the surface that carries the image. These processes leave a portrait on polished silver, printed paper, dark metal or light-sensitive paper exposed directly.",
+  "alt": "Four early photographic looks, from silvery portraits through a dark metal print to white object silhouettes.",
+  "image": "atlas-009.webp",
+  "variants": [
+    {
+      "name": "daguerreotype",
+      "look": "A reflective, finely detailed face is set inside a silvery plate.",
+      "history": "Introduced in France in 1839, the daguerreotype forms a single direct image on silver-coated copper. Portraits were a common subject.",
+      "when": "Make a portrait that feels like a small, precious object.",
+      "why": "The reflective plate changes as it catches light, so viewing becomes part of the experience.",
+      "source": {
+        "label": "Library of Congress | Daguerreotypes",
+        "href": "https://www.loc.gov/collections/daguerreotypes/articles-and-essays/the-daguerreotype-medium/"
+      }
+    },
+    {
+      "name": "wet-plate photography",
+      "look": "A long range of gray values appears on paper, with uneven edges.",
+      "history": "In the 1850s, wet collodion allowed photographers to make detailed glass negatives that could be printed multiple times.",
+      "when": "Give a portrait the visual character of a large nineteenth-century negative.",
+      "why": "The glass supports fine detail, and the paper print brings out subtle middle tones.",
+      "source": {
+        "label": "Library of Congress | Wet collodion",
+        "href": "https://www.loc.gov/classroom-materials/civil-war-photographs-new-technologies-and-new-uses/"
+      }
+    },
+    {
+      "name": "tintype",
+      "look": "The plate has a dark warm-gray image, scuffs and soft corners.",
+      "history": "Tintypes form an apparently positive image on darkened iron. They were inexpensive and popular with traveling photographers and portrait studios.",
+      "when": "Present a portrait as a small hand-held keepsake.",
+      "why": "The dark coated metal supplies a ground and keeps the image self-contained.",
+      "source": {
+        "label": "Library of Congress | Tintypes",
+        "href": "https://www.loc.gov/classroom-materials/civil-war-photographs-new-technologies-and-new-uses/"
+      }
+    },
+    {
+      "name": "photogram",
+      "look": "The glasses and mug leave light silhouettes on dark paper.",
+      "history": "Artists including Man Ray and László Moholy-Nagy experimented with camera-less photographs that record objects placed between a light source and sensitized paper.",
+      "when": "Show the outlines and opacity of familiar objects in a more abstract way.",
+      "why": "An object blocks or filters exposure, so its shadow becomes the image.",
+      "source": {
+        "label": "Getty | Experimental photography",
+        "href": "https://www.getty.edu/exhibitions/abstracted-light-experimental-photography/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Stage the same woman with mug for four photographic variations. Realistic analogue photographic style. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: a silvery mirror-like daguerreotype portrait, extremely fine warm gray detail, short vignette and silver plate corners. TOP RIGHT: wet-plate collodion glass negative printed on warm cream, many subtle gray tones, old lens and black edge from pooled chemistry. BOTTOM LEFT: tintype direct-positive on iron, dark molasses gray low-contrast print on thin dark metal with rounded corners and scuffs. BOTTOM RIGHT: camera-less photogram, actual glowing negative silhouettes on nearly black paper made by pressing outlines of her glasses, curled bun and cup silhouette against light-sensitive paper, no ordinary photograph or modeled face."
+}

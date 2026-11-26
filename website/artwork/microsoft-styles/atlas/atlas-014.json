@@ -1,0 +1,54 @@
+{
+  "intro": "Inspect the joins as well as the motifs. Each tile tradition makes a different relationship between an individual piece and the whole wall.",
+  "alt": "Four tile portraits framed in turquoise stars, Iznik florals, cut Moroccan tesserae and a blue-and-white Portuguese tiled scene.",
+  "image": "atlas-014.webp",
+  "variants": [
+    {
+      "name": "Islamic tilework",
+      "look": "Turquoise and indigo interlace forms a repeating architectural frame.",
+      "history": "Tilework spans varied traditions across the Islamic world, including cut-tile mosaic, painted ceramics and lusterware on architectural surfaces.",
+      "when": "Design a durable wall surface where repeated geometry will carry the eye along it.",
+      "why": "Glazed repeated pieces maintain a strong pattern at room scale.",
+      "source": {
+        "label": "LACMA | Islamic art collection",
+        "href": "https://www.lacma.org/islamic-art-collection-lacma"
+      }
+    },
+    {
+      "name": "Iznik tilework",
+      "look": "Cobalt lines and vivid red tulips are painted against a white ground.",
+      "history": "Iznik workshops supplied richly decorated ceramics and tiles for the Ottoman court. Vines and blossoms became a characteristic part of mosque interiors.",
+      "when": "Add a legible floral rhythm and bright color to an architectural panel.",
+      "why": "The bright ground gives sharp outlines and translucent glazes room to stand out.",
+      "source": {
+        "label": "The Met | Ottoman tilework",
+        "href": "https://www.metmuseum.org/es/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-five/chapter-two/featured-works-of-art/image-26"
+      }
+    },
+    {
+      "name": "zellige",
+      "look": "A mosaic of tiny cut pieces builds the face and surrounding geometry together.",
+      "history": "Moroccan zellige uses glazed tiles cut to precise shapes and assembled into larger geometric compositions. It appears in courtyards, fountains and interiors.",
+      "when": "Build a repeating pattern whose small irregular edges stay visible.",
+      "why": "Each separately colored piece locks into a stable pattern with a distinct surface rhythm.",
+      "source": {
+        "label": "Met Museum | Islamic geometric design",
+        "href": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/islamic_art_and_geometric_design.pdf"
+      }
+    },
+    {
+      "name": "azulejo",
+      "look": "A blue narrative scene continues across a regular grid of white tiles.",
+      "history": "Azulejo denotes glazed tiles used on the Iberian Peninsula. Blue-and-white narrative panels became especially prominent in Portugal from the late 17th century.",
+      "when": "Wrap a durable picture around a stair, corridor or outdoor wall.",
+      "why": "Square pieces can carry parts of a larger painted scene, so the image continues across their joints.",
+      "source": {
+        "label": "Museu Nacional do Azulejo · the collection and its techniques",
+        "href": "https://mnazulejo.gov.pt/en/museu"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Four separate architectural tile murals of the figure with mug. Keep anatomy stylized into patterns.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: glazed Islamic architecture tilework with eight-point turquoise stars, indigo and creamy interlace around simplified figural tile cartouche. top right: Ottoman Iznik tile painting with clean large cobalt outlines, rusty sealing-red tulips, turquoise leaves on white. bottom left: Moroccan zellige built strictly of little hand-cut irregular pieces in charcoal, ochre, cream and teal; geometric mosaic silhouette of her recognizable glasses and hair, not a painted image. bottom right: Portuguese azulejo narrative picture made of visible grid of hand-glazed square tiles, blue over white, illustrated architecture and the heroine as center."
+}

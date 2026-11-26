@@ -1,0 +1,58 @@
+{
+  "intro": "The crucial part of each work happens in a different place: in a score, in an idea, in a body or among participants.",
+  "alt": "Four settings stage a small event, a gallery display, a solo gesture and a crowded participatory action.",
+  "image": "atlas-079.webp",
+  "variants": [
+    {
+      "name": "Fluxus",
+      "look": "A cup, a bell and a small card suggest a small repeatable task.",
+      "history": "Fluxus circulated economical event scores through an international network of artists, performers and composers.",
+      "when": "Use a simple instruction to invite many distinct performances.",
+      "why": "An economical score leaves room for different people to realize it with their own timing and objects.",
+      "source": {
+        "label": "MoMA · Fluxus",
+        "href": "https://www.moma.org/collection/terms/fluxus"
+      },
+      "period": "1960s–1970s"
+    },
+    {
+      "name": "Conceptual art",
+      "look": "An object, its image and its schematic representation share one display.",
+      "history": "Conceptual artists made an idea or instruction the organizing work, often presenting documentary or linguistic material.",
+      "when": "Ask viewers to compare the different ways an idea can be represented.",
+      "why": "Presenting the same subject in several forms clarifies the idea tying them together.",
+      "source": {
+        "label": "MoMA · Conceptual art",
+        "href": "https://www.moma.org/collection/terms/conceptual-art"
+      },
+      "period": "1960s–1970s"
+    },
+    {
+      "name": "performance art",
+      "look": "A lit body poised in a bare room makes a small gesture visible.",
+      "history": "Performance art foregrounds actions and their duration, with broad precedents and increasing institutional recognition in the 1960s and 1970s.",
+      "when": "Use a body in space to make the passage of time palpable.",
+      "why": "Focusing attention on the body makes an ordinary gesture visible as something that unfolds.",
+      "source": {
+        "label": "Tate · Performance art",
+        "href": "https://www.tate.org.uk/art/art-terms/p/performance-art"
+      },
+      "period": "Especially 1960s onward"
+    },
+    {
+      "name": "Happening",
+      "look": "Many actions overlap as visitors occupy the same space as the performer.",
+      "history": "Allan Kaprow’s Happenings shifted attention to the environment and the involvement of the audience in loosely scored actions.",
+      "when": "Invite participants to shape an event that has several centers of attention.",
+      "why": "Multiple locations and participant choices keep attention shifting around the room.",
+      "source": {
+        "label": "Tate · Happening",
+        "href": "https://www.tate.org.uk/art/art-terms/h/happening"
+      },
+      "period": "Late 1950s–1960s"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, Fluxus: minimal chamber action with the executive responding to a simple pictorial event-score card containing only icons, tipped cup and a bell; Conceptual art: gallery comparison of a physical mug, a photo of it and a simplified pictorial diagram on pale display wall, executive quietly observing; performance art: executive stands still on bare floor making studied formal gestures holding the cup, illuminated by a lone light, sense of duration; Happening: rough warehouse full of overlapping entrances, audience figures crossing paths while the executive upends her mug over an empty bowl, spontaneous and immersive. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

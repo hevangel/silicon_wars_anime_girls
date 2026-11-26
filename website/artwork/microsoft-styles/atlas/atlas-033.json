@@ -1,0 +1,54 @@
+{
+  "intro": "Brushwork can record a gesture, define each edge, describe living things or let a landscape take over the page. Each picture puts the black line and empty paper to a different use.",
+  "alt": "Four reinterpretations with large black brush gestures, meticulous color washes, birds and flowers, and a small figure in a mostly empty landscape.",
+  "image": "atlas-033.webp",
+  "variants": [
+    {
+      "name": "Chinese calligraphy",
+      "look": "Ink sweeps and dry edges draw a portrait through gesture alone.",
+      "history": "Chinese calligraphy encompasses distinct scripts and histories. In works like the calligraphy surrounding landscape paintings, variation in ink, pressure and speed is visible in actual written characters.",
+      "when": "Work with a calligrapher when written words and physical brush movement both matter.",
+      "why": "Pressure, direction and ink load make the movement of the brush visible.",
+      "source": {
+        "label": "The Met | Chinese calligraphy",
+        "href": "https://www.metmuseum.org/essays/chinese-calligraphy"
+      }
+    },
+    {
+      "name": "gongbi painting",
+      "look": "Fine outlines and thin washes define every fold and strand.",
+      "history": "Gongbi refers to painstaking brushwork. It has been used to achieve close description in figures, court painting and bird-and-flower subjects.",
+      "when": "Paint a close subject with details small enough to reward repeated viewing.",
+      "why": "A steady contour can keep the smallest forms clear beneath several transparent layers.",
+      "source": {
+        "label": "Tsinghua University Art Museum | Chinese painting exhibition",
+        "href": "https://www.artmuseum.tsinghua.edu.cn/en/cpsj_english/zlxx/zlhg/201806/t20180611_3158.shtml"
+      }
+    },
+    {
+      "name": "bird-and-flower painting",
+      "look": "Birds and flowering branches fill the composition around a small portrait.",
+      "history": "Bird-and-flower painting became an established subject by the Song period. Plants, birds and insects can show close observation and also carry seasonal or symbolic associations.",
+      "when": "Give a portrait a clear season through plants and animal behavior.",
+      "why": "Accurately chosen species and colored forms add meaning while retaining an observational scale.",
+      "source": {
+        "label": "Museum of Asian Art, Berlin | Ducks in the Lotus Pond",
+        "href": "https://www.smb.museum/en/museums-institutions/museum-fuer-asiatische-kunst/exhibitions/detail/ducks-in-the-lotus-pond/"
+      }
+    },
+    {
+      "name": "literati painting",
+      "look": "A small outline figure sits under faint mountains on an open expanse of paper.",
+      "history": "Chinese scholar-artists developed painting practices in which brushwork, poetry and landscape expressed personal cultivation. Chinese literati landscape often uses emptiness to suggest distance.",
+      "when": "Set the figure into a landscape where the weather and distance must carry the mood.",
+      "why": "Sparse marks let apparently empty paper read as air, water or a pause in the picture.",
+      "source": {
+        "label": "The Met | Landscape painting in Chinese art",
+        "href": "https://www.metmuseum.org/essays/landscape-painting-in-chinese-art"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Four artworks, each uses brush stylistically in a different way. The heroine with glasses, low bun and mug should be present in each.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Forceful abstract Chinese brushwork, calligraphic broad central gesture without letters, calligraphic energy resolved into expressive sparse silhouette, monochrome blacks and ink splashes on creamy white plain paper. top right: Meticulous gongbi brush painting, measured fine ink contours, layered thin color washes and delicate detail in hair, skin and crisp dress pleats. bottom left: Bird-and-flower brush painting with meticulous luminous peonies, blossoms, and jewel-colored small birds occupying most of the composition, and a small recognizable bust of executive centered amidst the foliage. bottom right: Chinese literati ink landscape with very small outline figure holding cup in a vast airy ink landscape, dry strokes and choppy distant mountain wash, minimal colors and large blank areas."
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "Light and paint change how an ordinary activity is recorded. Notice where solid shapes, broken spots of color or a sustained narrative put you in relation to the people.",
+  "alt": "Microsoft works at a desk, stands in patterned shade, meets people on a road and pauses in a quiet kitchen.",
+  "image": "atlas-056.webp",
+  "variants": [
+    {
+      "name": "American Realism",
+      "look": "Specific posture, furniture and working light locate the figure at a recognizable desk.",
+      "history": "American realism takes many forms. Late nineteenth-century painter Thomas Eakins brought close study of anatomy and contemporary subjects into his work.",
+      "when": "Study it when you need a precise account of ordinary posture or a familiar working place.",
+      "why": "Distinctive tools and gestures show what a person is doing without relying on explanation.",
+      "source": {
+        "label": "Philadelphia Museum of Art",
+        "href": "https://www.philamuseum.org/exhibitions/thomas-eakins-american-realist"
+      }
+    },
+    {
+      "name": "Macchiaioli",
+      "look": "Broad patches of sun and shadow meet sharply under the shelter.",
+      "history": "The Macchiaioli were painters from nineteenth-century Italy who gathered in Florence. They used distinct contrasting patches, or macchie, to build scenes.",
+      "when": "Study these patches when trying to simplify a visually complicated view into distinct lights and darks.",
+      "why": "The larger masses do much of the work of describing form and distance.",
+      "source": {
+        "label": "Uffizi Galleries",
+        "href": "https://www.uffizi.it/en/artworks/the-cloister-of-santa-croce"
+      }
+    },
+    {
+      "name": "Peredvizhniki",
+      "look": "Figures and weathered land form a clear social scene. Body language does as much as the setting to tell the story.",
+      "history": "The Peredvizhniki, also called the Wanderers, organized traveling exhibitions in the late Russian Empire. Their artists pursued varied approaches to landscape, social life and history.",
+      "when": "Study it when particular people and circumstances need to tell a legible story together.",
+      "why": "The readable scene leaves room for a viewer to think about the people and conditions it depicts.",
+      "source": {
+        "label": "The Tretyakov Gallery Magazine",
+        "href": "https://www.tretyakovgallerymagazine.com/articles/2-2006-11/pavel-tretyakov-and-his-gallery"
+      }
+    },
+    {
+      "name": "Naturalism",
+      "look": "Subdued light and carefully observed objects give the kitchen an ordinary time of day and a sensible scale.",
+      "history": "Naturalism is a broad label for close observation. Late nineteenth-century French naturalists such as Jules Bastien-Lepage applied it to ordinary people and settings.",
+      "when": "Study it when the surface, mood and small particulars of a real place need to stay convincing.",
+      "why": "Even and consistent observation makes a quiet social scene feel inhabited.",
+      "source": {
+        "label": "Nationalmuseum",
+        "href": "https://nationalmuseum.diva-portal.org/smash/get/diva2%3A1169128/FULLTEXT01.pdf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: American Realism: woman at a working desk by high-window glare, poised anatomy and direct detail; Macchiaioli: strong patchwork of large dark shade and warm sunlight under outdoor arbor, no smooth gradients; Peredvizhniki: measured narrative composition of woman in dark dress among workers on a road, weathered textures and earthy light; Naturalism: ordinary standing kitchen scene represented with considered close observation, convincing objects, overcast light and understated palette. Modern office woman as recurring focal character. No lettering, captions, watermark or ornamental frame."
+}

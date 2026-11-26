@@ -1,0 +1,54 @@
+{
+  "intro": "These living and historical art traditions come from different communities. The comparison focuses on how a line can connect, describe or transform a figure.",
+  "alt": "Microsoft sees a formline study, horses on ledger paper, an Inuit print study and a brightly outlined Woodlands-influenced fish study.",
+  "image": "atlas-047.webp",
+  "variants": [
+    {
+      "name": "Northwest Coast formline",
+      "look": "Follow the thick line around the bent inner shapes and smaller colored areas.",
+      "history": "The term formline describes design principles used in a number of Northwest Coast art traditions. Haida artists and artists of other nations use distinct repertoires and conventions.",
+      "when": "Study attributed public examples to understand how a line's thickness guides the eye between connected forms.",
+      "why": "Changing line weight helps neighboring shapes read as part of the same design.",
+      "source": {
+        "label": "Canadian Museum of History",
+        "href": "https://www.historymuseum.ca/teachers-zone/haida-arts-and-technologies/formline-design/"
+      }
+    },
+    {
+      "name": "Plains ledger art",
+      "look": "The horses and riders are built from flat outline shapes, with the ledger's ruling still visible.",
+      "history": "From the nineteenth century, many Plains artists made narrative drawings on ledger paper as one of several available surfaces. Artists continue the practice today.",
+      "when": "Study the position and detail of a figure as a way to tell an event in a small space.",
+      "why": "Selective detail keeps the focus on the actors and movements that matter to the story.",
+      "source": {
+        "label": "Smithsonian National Museum of American History",
+        "href": "https://americanhistory.si.edu/explore/exhibitions/keeping-history-plains-indian-ledger-drawings/online/ledger-drawings"
+      }
+    },
+    {
+      "name": "Kinngait print",
+      "look": "The open paper makes the strong animal silhouette and small patches of blue easy to read.",
+      "history": "Inuit artists and printmakers in Kinngait, Nunavut, developed a print studio practice in the late 1950s and continue to publish and innovate.",
+      "when": "Study a documented edition to see how drawing and printmaking can be collaborative steps.",
+      "why": "A print's contours and areas of color convey the decisions of both the designer and the person making the edition.",
+      "source": {
+        "label": "McMichael Canadian Art Collection",
+        "href": "https://mcmichael.com/wp-content/uploads/Cape-Dorset-Release-_Final2.pdf"
+      }
+    },
+    {
+      "name": "Woodlands School",
+      "look": "A strong outline holds the fish shape together, while interior lines link small colored sections.",
+      "history": "Anishinaabe artist Norval Morrisseau helped establish a modern school of painting in Canada. Many artists developed distinct work through it.",
+      "when": "Study an original artist's work to see how internal and connecting lines express relationships inside a picture.",
+      "why": "A clear outer silhouette can coexist with complex interior relationships.",
+      "source": {
+        "label": "Art Canada Institute",
+        "href": "https://artbooks.artcanada.com/norval-morrisseau/biography"
+      }
+    }
+  ],
+  "width": 1261,
+  "height": 1247,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Northwest Coast formline contemporary public study, bold black flowing lines building red and black ovoid and U-shape figures, on a clean mounted study surface; Plains ledger art facsimile as a page of ruled ledger paper with original modern study of horses in thin outline and flat wash, no readable writing; Kinngait print study use clean reduction-like black and blue animal silhouettes and paper, contemporary original motif; Woodlands School print study, outlined fish with colored interior line structure, contemporary illustration techniques on clean mount. No lettering, captions, watermark or ornamental frame."
+}

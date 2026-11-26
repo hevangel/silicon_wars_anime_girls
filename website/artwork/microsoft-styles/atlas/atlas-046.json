@@ -1,0 +1,54 @@
+{
+  "intro": "Compare how a design changes with the way a material is worked. A woven panel holds a repeat differently from an embroidered edge, a ceramic relief or painted clay.",
+  "alt": "Four Andean art studies in a museum showing two textiles, a portrait vessel and a painted bowl.",
+  "image": "atlas-046.webp",
+  "variants": [
+    {
+      "name": "Paracas textile",
+      "look": "Small, repeated color figures run along the embroidered edge of a darker cloth.",
+      "history": "Paracas makers on Peru's south coast produced textiles including embroidered mantles. Burial conditions helped preserve many surviving textiles.",
+      "when": "Look for details where embroidery changes against the weave underneath.",
+      "why": "Stitches create small independent shapes that can be varied one by one within a repeating border.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/315049"
+      }
+    },
+    {
+      "name": "Inca textile",
+      "look": "Small squares of intricate pattern create a larger checkerboard across the fabric.",
+      "history": "Inca authorities gave finely woven garments social and political significance. Rectangular designs known as tocapu appear on surviving textiles.",
+      "when": "Study how skill and a regular pattern make a garment readable from a distance.",
+      "why": "The repeated squares unite many detailed units without making the textile feel visually uniform.",
+      "source": {
+        "label": "Museo de América",
+        "href": "https://www.cultura.gob.es/museodeamerica/en/coleccion/america-prehispanica/tejido-tocapus-inca.html"
+      }
+    },
+    {
+      "name": "Moche ceramic",
+      "look": "A modeled face fills the vessel while the loop and tube of the stirrup spout remain visible above it.",
+      "history": "Moche potters of Peru's north coast produced stirrup-spout vessels and sometimes used molds to make multiple vessels with the same modeled portrait.",
+      "when": "Study how a pot can carry a recognizable face and still retain the structure of a vessel.",
+      "why": "The volume gives the cheeks, eyes and profile dimensional expression as the vessel turns.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/308528"
+      }
+    },
+    {
+      "name": "Nazca ceramic",
+      "look": "Strong dark outlines separate warm orange, cream and violet designs around the bowl.",
+      "history": "Nasca artists in southern Peru used varied slips to paint ceramics. Much surviving pottery combines natural forms with complex imagery, including figures whose meanings remain subjects of study.",
+      "when": "Look for the relation between the painted band's rhythm and the increasing curve of a bowl.",
+      "why": "The rounded surface keeps some motifs out of sight until the viewer turns the vessel.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/310356"
+      }
+    }
+  ],
+  "width": 1265,
+  "height": 1243,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Paracas textile detail, warmly colored embroidered border against a dark woven field, repeating small figures; Inca textile display of a fragment of tightly woven checkerboard tocapu blocks in reds and ochre; Moche ceramic modeled portrait vessel with a clearly visible stirrup spout; Nazca polychrome ceramic bowl with strong black-bordered orange, cream and violet painted forms against a burnished slip. No lettering, captions, watermark or ornamental frame."
+}

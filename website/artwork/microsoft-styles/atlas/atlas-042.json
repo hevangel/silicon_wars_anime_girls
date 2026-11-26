@@ -1,0 +1,43 @@
+{
+  "intro": "A painted animal, a textile and a suspended metal surface offer three different ways to build a lively picture from repeated elements.",
+  "alt": "Microsoft views a colorful animal painting, a rhythmic textile study and a large hanging made of linked colored metal.",
+  "image": "atlas-042.webp",
+  "variants": [
+    {
+      "name": "Tinga Tinga",
+      "look": "Bright enamel color and bold contours frame the animal against repeating leaves.",
+      "history": "Edward Saidi Tingatinga developed a practice in Dar es Salaam in the late 1960s. Relatives and other painters carried it forward in new directions.",
+      "when": "Study it when bold silhouettes and pattern need to fill a scene with energy.",
+      "why": "Opaque color keeps every shape distinct and makes repetition easy to see.",
+      "source": {
+        "label": "Fowler Museum at UCLA",
+        "href": "https://fowler.ucla.edu/exhibitions/tingatinga/"
+      }
+    },
+    {
+      "name": "Oshogbo School",
+      "look": "Plants and animal-like shapes bend in repeated arcs across the textile study.",
+      "history": "Workshops that grew around Mbari Mbayo in 1960s Oshogbo, now also spelled Osogbo, brought artists together across print, textile, painting and performance.",
+      "when": "Study the workshops as a way to understand how artists develop individually through shared experimentation.",
+      "why": "A familiar design can change character when its line moves to cloth, paint or another medium.",
+      "source": {
+        "label": "Smithsonian National Museum of African Art",
+        "href": "https://africa.si.edu/archives/object/sova-eepa-2021-004-ref12"
+      }
+    },
+    {
+      "name": "El Anatsui-style metal tapestry",
+      "look": "Hundreds of small reflective pieces take on the flow and folds of a hanging cloth.",
+      "history": "El Anatsui, born in Ghana and long based in Nigeria, developed large flexible works from linked aluminum liquor-bottle material and copper wire.",
+      "when": "Study the artist's work when considering what happens to used material at radically different scales.",
+      "why": "Near the surface each piece has its own history and sheen. Across a room the pieces read as one field.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/495553"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Educational art style comparison board. Exactly 3 equally wide scenes side by side in stated order in a wide 3:1 montage, separations only at vertical boundaries. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Tanzania Tinga Tinga playful enamel study of an elephant under patterned leaves and bright solid color, bold contours; Nigerian Oshogbo workshop-inspired study, rhythmic curving plant and animal shapes in deep dye colors on textile; El Anatsui-inspired process study showing a hanging cloth-like surface assembled from hundreds of differently-colored folded metal pieces connected with copper wire, a small process sample with distinct red-gold-silver geometry, not a copy of an artwork. No lettering, captions, watermark or ornamental frame."
+}

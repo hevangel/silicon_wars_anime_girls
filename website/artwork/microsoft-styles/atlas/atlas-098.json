@@ -1,0 +1,58 @@
+{
+  "intro": "The same drawing skills can identify a specimen, explain a system, show a garment or propose an environment.",
+  "alt": "Four illustrations examine a coffee sprig, explain a mug section, extend a clothing silhouette and propose an imagined office.",
+  "image": "atlas-098.webp",
+  "variants": [
+    {
+      "name": "botanical illustration",
+      "look": "Leaves, flowers and berries are shown cleanly and in enough detail to compare.",
+      "history": "Botanical artists have long documented recognizable plants, often gathering different growth stages in one plate.",
+      "when": "Keep the plant’s diagnostic features clear enough for someone to identify it.",
+      "why": "A plant may bear flowers and fruit at different times, so a drawing can bring them together for inspection.",
+      "source": {
+        "label": "Kew · Botanical illustration",
+        "href": "https://www.kew.org/read-and-watch/botanical-illustration"
+      },
+      "period": "Long tradition, with major printed works in the 17th–19th centuries"
+    },
+    {
+      "name": "scientific illustration",
+      "look": "The mug section brings its inside edge and steam into the same field.",
+      "history": "Scientific illustrators select structure, scale and perspective to make a phenomenon intelligible for a particular audience.",
+      "when": "Reveal relationships a photograph of the uncut object would hide.",
+      "why": "A cutaway and selective emphasis make hidden or competing information visible at the same time.",
+      "source": {
+        "label": "Smithsonian · Drawing Insects",
+        "href": "https://www.si.edu/spotlight/buginfo/drawing-insects"
+      },
+      "period": "Historical and ongoing"
+    },
+    {
+      "name": "fashion illustration",
+      "look": "An elongated figure directs attention to the fall and cut of the clothes.",
+      "history": "Fashion illustration has served design, promotion and editorial storytelling, with artists often using deliberate exaggeration.",
+      "when": "Shape the pose to show how the garment hangs and moves.",
+      "why": "Exaggeration clarifies garment proportions and the way fabric falls around the moving body.",
+      "source": {
+        "label": "V&A · Fashion illustration",
+        "href": "https://www.vam.ac.uk/articles/fashion-illustration"
+      },
+      "period": "Especially visible in printed fashion imagery from the 19th century onward"
+    },
+    {
+      "name": "concept art",
+      "look": "Perspective and light establish the look of an office that has yet to be built.",
+      "history": "Concept art helps film, animation and game teams develop the visual form of an idea early in production.",
+      "when": "Use a quick, coherent visual proposal to let a team imagine the same space.",
+      "why": "A whole-scene view gives different production teams a shared reference for scale, light and materials.",
+      "source": {
+        "label": "Academy Museum · Collections",
+        "href": "https://www.academymuseum.org/en/collection"
+      },
+      "period": "20th century onward"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: botanical illustration: exquisite precise ink and colored watercolor plate of a sprig of the coffee plant showing leaves flowers and berries, executive at the edge inspecting it with magnifier; scientific illustration: nearly monochrome careful diagram of a mug interior cross-section and steam effects, executive holding instrument for scale, no labels; fashion illustration: fluid marker line and exaggerated vertical full-body pose to showcase blazer and dress silhouette, fabric swatch strip; concept art: richly painted full environment proposal, three-quarter perspective into an imagined future boardroom with her standing in foreground. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1254,
+  "height": 1254
+}

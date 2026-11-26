@@ -1,0 +1,54 @@
+{
+  "intro": "Compare the surfaces around the figure. Ridges catch the light, gray values model a face, spray leaves a haze, and collage sets papers against one another.",
+  "alt": "The same glasses-and-bun character in thick marine paint, gray modeling, a purple-green stencil and textured paper collage.",
+  "image": "atlas-004.webp",
+  "variants": [
+    {
+      "name": "palette knife painting",
+      "look": "Blunt raised ridges register where a palette knife pressed or dragged paint.",
+      "history": "Modern oil painters including Gustave Courbet used palette knives to spread paint broadly in expressive passages.",
+      "when": "Show the roughness of stone, fabric or a city wall with actual raised marks.",
+      "why": "A knife deposits broad dense paint while leaving the edges of individual strokes readable.",
+      "source": {
+        "label": "MFA Boston | Palette knife",
+        "href": "https://cameo.mfa.org/wiki/Palette_knife"
+      }
+    },
+    {
+      "name": "grisaille",
+      "look": "Neutral grays make the face and clothing read as modeled relief.",
+      "history": "European painters used grisaille for independent works, underpainting and painted simulations of sculpture.",
+      "when": "Study volume or design an image to read in black and white.",
+      "why": "Restricting the palette puts emphasis on how one value moves into another.",
+      "source": {
+        "label": "Tate | Grisaille",
+        "href": "https://www.tate.org.uk/art/art-terms/g/grisaille"
+      }
+    },
+    {
+      "name": "spray paint",
+      "look": "Violet and lime collect in stencil shapes with an aerosol halo.",
+      "history": "Twentieth-century artists used aerosol paint for both direct painting and stencils. Street artists used it for marks that could be made quickly on walls.",
+      "when": "Make a bold wall piece that can be read across a street.",
+      "why": "Spray turns a gesture into a broad mark and a stencil gives the edges greater control.",
+      "source": {
+        "label": "Tate | Street art",
+        "href": "https://www.tate.org.uk/art/art-terms/s/street-art"
+      }
+    },
+    {
+      "name": "mixed media",
+      "look": "Paper, fabric and painted marks keep their different edges and textures.",
+      "history": "Collage expanded the range of materials painters used in the early 20th century. Works by Picasso and Braque added papers and other fragments to painted surfaces.",
+      "when": "Combine documents, patterns and drawing marks in one scene.",
+      "why": "Each material brings its own texture and associations into the composition.",
+      "source": {
+        "label": "Tate | Mixed media",
+        "href": "https://www.tate.org.uk/art/art-terms/m/mixed-media"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Show the figure with her coffee during a pause at a tall window. The light on her face should have the same origin. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: palette knife oil painting, chunky blunt impasto ridges in marine blue and golden yellow. TOP RIGHT: grisaille, brush-painted sculpture illusion in only neutral grays and very carefully modeled light and shade. BOTTOM LEFT: spray paint stencil portrait on concrete, high contrast violet and lime street mural with spray edges and overspray flecks. BOTTOM RIGHT: mixed media, collage from torn patterned paper cutouts and ink outlines with fabric scraps and acrylic in red and teal."
+}

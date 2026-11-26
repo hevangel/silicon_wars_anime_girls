@@ -1,0 +1,58 @@
+{
+  "intro": "Four buildings invite the body to follow four different routes.",
+  "alt": "Four entrances show curved masonry, a ceremonial stair, a glass volume and timber ledges in woodland.",
+  "image": "atlas-076.webp",
+  "variants": [
+    {
+      "name": "Baroque architecture",
+      "look": "Curved masonry guides the eye around the approach and into deep shadow.",
+      "history": "Seventeenth-century Baroque designers in Rome used curved plans, dramatic light and rhythmic architectural forms.",
+      "when": "Make entry dynamic by changing what is visible with each step.",
+      "why": "Curvature and alternating light change the appearance of the approach as you move.",
+      "source": {
+        "label": "The Met · Baroque Rome",
+        "href": "https://www.metmuseum.org/essays/baroque-rome"
+      },
+      "period": "17th–early 18th centuries"
+    },
+    {
+      "name": "Beaux-Arts architecture",
+      "look": "The monumental stairs and matching wings pull the visitor toward a single threshold.",
+      "history": "Design training at the École des Beaux-Arts in Paris emphasized formal composition, the architectural axis and classical precedent.",
+      "when": "Use grandeur and symmetry to turn an approach into a public ceremony.",
+      "why": "A centered axis and successive layers establish threshold and rank from a distance.",
+      "source": {
+        "label": "The Met · The Architecture of The Met",
+        "href": "https://www.metmuseum.org/about-the-met/history"
+      },
+      "period": "19th–early 20th centuries"
+    },
+    {
+      "name": "International Style architecture",
+      "look": "Rectangular surfaces and glass dissolve some boundaries between interior and exterior.",
+      "history": "The International Style label was popularized by Henry-Russell Hitchcock and Philip Johnson in connection with MoMA’s 1932 architecture exhibition.",
+      "when": "Show the building as adjoining volumes with lightweight surfaces.",
+      "why": "Regular thin supports and transparent planes let the viewer compare interior and exterior at once.",
+      "source": {
+        "label": "MoMA · Modern Architecture International Exhibition",
+        "href": "https://www.moma.org/calendar/exhibitions/2044"
+      },
+      "period": "Named in 1932"
+    },
+    {
+      "name": "organic architecture",
+      "look": "Broad horizontal terraces and timber echo the rock ledges and trees.",
+      "history": "Frank Lloyd Wright developed his idea of organic architecture around the relationship among building, landscape, furnishings and inhabitants.",
+      "when": "Let the site suggest how rooms project, shelter and open.",
+      "why": "Materials and projecting planes echo the features and scale of the original landscape.",
+      "source": {
+        "label": "Fallingwater · Architecture",
+        "href": "https://fallingwater.org/history/about-fallingwater/architecture/"
+      },
+      "period": "Early to mid-20th century, with later practice"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is exactly four square cells in 2x2, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: Baroque: convex and concave folds, shadowed colonnade, dramatic clouds and oval space; Beaux-Arts: monumental marble steps, heroic symmetry, pediment and carefully symmetrical axial entrance; International Style: sharp orthogonal glass volumes, narrow steel supports and outside/inside transparency; organic architecture: layered rock ledges and timber roof planes extending into a forest ravine. Each scene shows same executive holding mug as a human scale cue. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1247,
+  "height": 1261
+}

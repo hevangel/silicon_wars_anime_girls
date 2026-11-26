@@ -1,0 +1,34 @@
+{
+  "intro": "One treatment paints light onto surfaces. The other lights a small pixel character inside a dimensional stage.",
+  "alt": "A painterly 3D office beside a sharply pixelated figure in a dramatically lit environment.",
+  "image": "atlas-095.webp",
+  "variants": [
+    {
+      "name": "hand-painted textures",
+      "look": "Floor, wall and furniture carry visible painted highlights and broad hue shifts.",
+      "history": "Game artists have long painted texture images mapped to 3D geometry, sometimes painting shading and wear directly into the surface.",
+      "when": "Use painted texture to control the placement of wear, hue and local detail.",
+      "why": "Texture can place an effect precisely even when nearby geometry shares the same material settings.",
+      "source": {
+        "label": "Blender · Texture Paint",
+        "href": "https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html"
+      },
+      "period": "Established in 1990s real-time 3D, with continuing use"
+    },
+    {
+      "name": "HD-2D",
+      "look": "A crisp pixel figure stands inside an environment with depth of field and directional lighting.",
+      "history": "Square Enix introduced its HD-2D presentation with Octopath Traveler, combining pixel-like sprites and dimensional environments.",
+      "when": "Keep sprite pixels crisp against the soft dimensional lighting of the scene.",
+      "why": "Their edge contrast separates the old-style sprite from the contemporary depth treatment.",
+      "source": {
+        "label": "Square Enix · Octopath Traveler I and II",
+        "href": "https://www.square-enix-games.com/en_US/news/octopath-traveler-i-and-ii-now-available-current-console-platforms"
+      },
+      "period": "First released in 2018"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly 2 equally wide vertical cells side by side, with a landscape canvas, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: hand-painted textures: 3D office scene with standing stylized executive and mug; blocks are visibly hand-brushed with painted highlight and simplified warm and cool hue shifts, steep painterly walls and floor; HD-2D: genuine low-resolution pixel executive sprite and mug in a rich physically lit isometric office, dramatic depth of field and shafts of yellow light, soft 3D environment and sharply pixelated sprite. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1774,
+  "height": 887
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "Look across the four landscape studies and note where the light gathers. Each approach makes a different scale of place and weather visible.",
+  "alt": "Four landscapes show a clouded English field, an American mountain river, a woodland edge and a still river beneath a pale horizon.",
+  "image": "atlas-055.webp",
+  "variants": [
+    {
+      "name": "English landscape painting",
+      "look": "Thick-moving clouds hang over a relatively close view of paths, fields and hedges.",
+      "history": "English landscape painting encompasses many approaches. John Constable's early nineteenth-century pictures made familiar rural places and observed weather prominent subjects.",
+      "when": "Study a particular Constable painting when shape and movement in the sky need to make a place feel lived in.",
+      "why": "Changing patches of light tie the weather to the land beneath rather than making it a distant background.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/paintings/john-constable-the-hay-wain/"
+      }
+    },
+    {
+      "name": "Hudson River School",
+      "look": "A distant opening of light pulls the eye up from darker foreground slopes and along the river.",
+      "history": "Nineteenth-century American painters including Thomas Cole created ambitious landscapes. Their views of land and nature circulated alongside national expansion and its exclusions.",
+      "when": "Study how layered masses and directional light can convey a vast region in a single view.",
+      "why": "The changing scale of detail leads viewers from a particular foreground into an immense distance.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/essays/the-hudson-river-school"
+      }
+    },
+    {
+      "name": "Barbizon School",
+      "look": "Soft tree edges, dull greens and opening patches of daylight keep attention near the woodland floor.",
+      "history": "Nineteenth-century painters associated with Barbizon worked in and around France's Fontainebleau forest and developed attentive approaches to everyday landscape.",
+      "when": "Study this when a modest scene needs detail and atmosphere without a monumental view.",
+      "why": "A close viewpoint makes the forms, shade and textures of ordinary ground worth studying.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/ja/essays/the-barbizon-school-french-painters-of-nature"
+      }
+    },
+    {
+      "name": "Luminism",
+      "look": "The long river horizon and smooth bands of reflected light leave the boats tiny against the sky.",
+      "history": "Luminism is a later label for part of nineteenth-century American painting, commonly associated with clear atmosphere, quiet water and controlled finish.",
+      "when": "Study it when you want to make subtle light conditions the main subject.",
+      "why": "Smooth transitions and a steady horizon keep viewers attentive to minute changes in light.",
+      "source": {
+        "label": "National Gallery of Art",
+        "href": "https://www.nga.gov/research/publications/american-light-luminist-movement-1850-1875"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: English landscape painting: stippled fresh summer hedges, big mobile cumulus, rutted path and distant study of farmland; Hudson River School: panoramic romantic American mountain and river, dramatic break of radiant light over deep foreground; Barbizon School: modest woodland edge and patient seated figure painted in browns and soft greens near the ground; Luminism: smooth cool low river horizon and tiny points of boats, pale bands of reflected light and almost invisible strokes. Show repeat character as a tiny modern visitor in artwork alone. No lettering, captions, watermark or ornamental frame."
+}

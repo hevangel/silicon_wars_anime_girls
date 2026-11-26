@@ -1,0 +1,54 @@
+{
+  "intro": "The same portrait can be printed as a solid impression, a grid of dots or a set of overlapping ink layers. Look closely at the color edges and paper texture.",
+  "alt": "Four printed portraits, one in solid navy, one in regular black dots, one in full color and one with offset magenta and blue grain.",
+  "image": "atlas-007.webp",
+  "variants": [
+    {
+      "name": "letterpress",
+      "look": "Solid navy ink follows a crisp relief shape on toothy paper.",
+      "history": "Letterpress was the standard way to reproduce much European printing after the introduction of movable metal type, and it could print relief images alongside type.",
+      "when": "Print a short run of invitations with one dark, solid motif.",
+      "why": "Raised forms transfer ink directly to the sheet and can leave a tactile impression.",
+      "source": {
+        "label": "Library of Congress | Printing techniques",
+        "href": "https://www.loc.gov/preservation/resources/rt/illbk/index.html"
+      }
+    },
+    {
+      "name": "halftone printing",
+      "look": "The light and dark passages resolve into regular dots of different sizes.",
+      "history": "Halftone screens made photographs reproducible in mass-market newspapers and magazines from the late 19th century.",
+      "when": "Translate a continuous-tone photograph into a one-color print.",
+      "why": "Bigger dots cover more white paper and read as darker to the eye.",
+      "source": {
+        "label": "Getty Conservation Institute | Halftone",
+        "href": "https://www.getty.edu/conservation/publications_resources/pdf_publications/pdf/atlas_halftone.pdf"
+      }
+    },
+    {
+      "name": "CMYK offset printing",
+      "look": "Tiny cyan, magenta, yellow and black marks produce a full range of colors.",
+      "history": "Offset printing transfers ink from a printing plate to a rubber blanket before it reaches paper. Four-color offset has been widely used in illustrated books and magazines.",
+      "when": "Print full-color editorial images across many copies.",
+      "why": "The four process inks mix visually, giving consistent color at publication scale.",
+      "source": {
+        "label": "Yale University Art Gallery | Planographic printing",
+        "href": "https://printedpicture.artgallery.yale.edu/the-book/photography-in-ink-planographic-printing"
+      }
+    },
+    {
+      "name": "risograph",
+      "look": "Fluorescent pink and blue ink meet in grainy violet where the layers overlap.",
+      "history": "The Riso duplicator was designed for office copying. Independent publishers and artists adopted it for zines and inexpensive short runs.",
+      "when": "Make a small poster edition with strongly contrasting colors.",
+      "why": "One ink color per pass gives a lively overlap where transparent inks or slightly shifted passes meet.",
+      "source": {
+        "label": "MoMA | Riso printing event",
+        "href": "https://www.moma.org/calendar/events/9527"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Identical bold bust holding mug, centered. No text even though these are print methods. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: letterpress impression of broad navy shapes as one-color relief print on warm thick toothy paper, subtle channel embossing along motif. TOP RIGHT: black halftone only; portrait tone physically resolves into regular visible round printed dot sizes like a mid-century newspaper. BOTTOM LEFT: CMYK offset print; full process color like a glossy magazine, closely visible orderly cyan magenta yellow black tiny rosettes. BOTTOM RIGHT: risograph, coarse grain fluorescent pink and bright blue only, lively obvious offset registration and violet overlap."
+}

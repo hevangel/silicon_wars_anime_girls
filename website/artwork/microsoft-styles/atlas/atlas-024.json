@@ -1,0 +1,54 @@
+{
+  "intro": "A page can command attention through interlace, quick-moving ink lines or a large figure against gold. The pictures keep the margins visible as part of the design.",
+  "alt": "Four manuscript-style illustrations with Insular interlace, dense colorful knots, lively Carolingian line and broad Ottonian gold.",
+  "image": "atlas-024.webp",
+  "variants": [
+    {
+      "name": "Insular art",
+      "look": "Angular outlines and interwoven creatures connect the figure to the border.",
+      "history": "Insular manuscript art developed around Ireland and Britain in the early Middle Ages. Gospel books such as the Lindisfarne Gospels reflect a variety of traditions.",
+      "when": "Design a frame that rewards a reader who pauses to trace its details.",
+      "why": "Interlace guides the eye and gives repeated elements their own rhythm.",
+      "source": {
+        "label": "Trinity College Dublin | Insular art research",
+        "href": "https://www.tcd.ie/History_of_Art/research/manuscript_art.php"
+      }
+    },
+    {
+      "name": "Book of Kells style",
+      "look": "Spiraling knots and densely colored creatures partially hide a small figure.",
+      "history": "The Book of Kells is an illustrated Gospel manuscript made around the year 800. Trinity College Dublin holds the book and shows details of its decorated pages.",
+      "when": "Make ornament almost as important to a page as the subject it surrounds.",
+      "why": "Tight repetition and surprise details invite the viewer to keep looking.",
+      "source": {
+        "label": "Trinity College Dublin | Book of Kells",
+        "href": "https://www.tcd.ie/library/research-collections/book-of-kells.php"
+      }
+    },
+    {
+      "name": "Carolingian art",
+      "look": "Fast ink lines make the mantle and figure seem to move.",
+      "history": "Carolingian manuscripts revived classical figure and architecture conventions, sometimes in very lively ink. The Utrecht Psalter is an example of animated line applied to narrative.",
+      "when": "Tell a story through small movements on a page.",
+      "why": "Quick changes in line direction make hair, fabric and gesture energetic.",
+      "source": {
+        "label": "Utrecht University Library | Utrecht Psalter",
+        "href": "https://www.uu.nl/en/special-collections/collections/manuscripts/medieval-manuscripts/utrecht-psalter"
+      }
+    },
+    {
+      "name": "Ottonian art",
+      "look": "A large, deliberately still figure stands out from a gold and vermilion ground.",
+      "history": "Ottonian workshops produced lavish Gospel and liturgical books. The Gospels of Otto III feature monumental figures and richly colored backgrounds.",
+      "when": "Use scale and broad fields of color to establish an important moment.",
+      "why": "The strong hierarchy tells the reader where to look before smaller details become clear.",
+      "source": {
+        "label": "Bavarian State Library | Gospels of Otto III",
+        "href": "https://www.digitale-sammlungen.de/en/view/bsb00001629"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Four **different** period manuscript-style pages featuring the office character seated and holding a mug. Completely free of lettering and glyphs.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: Insular early medieval vellum, angular frontal elongated figure with copper and blue borders, spiky interlace and animal terminals. top right: Book of Kells particularly dense whorls of intricate spiral knots and colorful interwoven stylized creatures surround a tiny figure, jewel greens and oranges. bottom left: Carolingian illumination with vigorous windswept gestural ink strokes, rapid little folds on figure on creamy parchment, purple green classical architectural details. bottom right: Ottonian illumination, grand monumental still figure and immense hands, luminous broad gold ground, rich purple and vermilion hierarchical composition."
+}

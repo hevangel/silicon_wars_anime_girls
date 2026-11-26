@@ -1,0 +1,54 @@
+{
+  "intro": "Trace a line around the glasses in each material. Thread can weave the image into a surface, embroider it onto cloth, build it as pile or raise it in gold.",
+  "alt": "Four textile portraits representing woven tapestry, embroidery on linen, knotted carpet and raised gold thread.",
+  "image": "atlas-013.webp",
+  "variants": [
+    {
+      "name": "tapestry",
+      "look": "Large wool stitches give the surrounding foliage a soft, woven surface.",
+      "history": "European tapestry workshops wove detailed pictorial hangings in colored wefts. The Unicorn Tapestries are examples of large-scale narrative work.",
+      "when": "Design a wall hanging whose image will be read from across a room.",
+      "why": "The weft can form both picture and fabric while maintaining broad color zones.",
+      "source": {
+        "label": "The Met | Tapestry in the Renaissance",
+        "href": "https://www.metmuseum.org/exhibitions/listings/2002/tapestry-in-the-renaissance"
+      }
+    },
+    {
+      "name": "Bayeux-style embroidery",
+      "look": "Muted lines and filled stitch shapes sit on an exposed linen ground.",
+      "history": "The Bayeux Tapestry was embroidered with wool on linen in the 11th century. Its continuous imagery recounts the Norman Conquest.",
+      "when": "Make a long stitched scene with recognizable profiles and repeated gestures.",
+      "why": "Outline stitches clarify the figures, while laid stitches fill larger shapes efficiently.",
+      "source": {
+        "label": "Bayeux Museum | The Bayeux Tapestry",
+        "href": "https://www.bayeuxmuseum.com/en/the-bayeux-tapestry/"
+      }
+    },
+    {
+      "name": "Persian carpet",
+      "look": "A densely patterned pile fills vines and an enclosing medallion.",
+      "history": "Safavid-era Iranian luxury carpets include courtly examples with central medallions, garden patterns and figural imagery.",
+      "when": "Make an image that reads both as a pattern from afar and as small detail up close.",
+      "why": "Dense rows of colored knots let complex motifs sit inside a durable surface.",
+      "source": {
+        "label": "The Met | Carpets for Kings",
+        "href": "https://www.metmuseum.org/exhibitions/listings/2017/carpets-for-kings"
+      }
+    },
+    {
+      "name": "goldwork",
+      "look": "Raised gold outlines shine against dark blue cloth.",
+      "history": "Metal threads ornamented luxury and ceremonial textiles. English medieval opus anglicanum often used couching to secure precious metal threads.",
+      "when": "Draw attention to a badge, garment edge or emblem in directional light.",
+      "why": "Metallic threads lift the design from the cloth and flash as the viewing angle changes.",
+      "source": {
+        "label": "V&A | Opus anglicanum",
+        "href": "https://www.vam.ac.uk/articles/opus-anglicanum"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Object photographs of four independent textile artworks depicting executive and mug. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: large-scale wool tapestry with chunky weft and muted maroon-blue foliage framing the image. top right: Bayeux embroidery, chain and laid-work stitches on bare beige linen with simple long narrative register, black outlined profile. bottom left: Persian carpet with central medallion, deep madder/indigo and floral vines, figure holding cup in central figural scene made of tightly knotted pile. bottom right: goldwork embroidery, raised gilded metal threads on royal blue velvet tracing the same figure, sparkling compact knots."
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "These traditions organize attention through painted gestures, layers of imagery, a central diagram or a radiant frame. Each study adapts those choices to a fictional figure.",
+  "alt": "Four portraits in warm Ajanta-style plaster, a layered Tibetan-style cloth painting, a centered diagram and a bright gold Tanjore-style panel.",
+  "image": "atlas-028.webp",
+  "variants": [
+    {
+      "name": "Ajanta mural",
+      "look": "Soft bent figures and warm brown pigments follow the wall’s texture.",
+      "history": "Ajanta’s rock-cut Buddhist caves in India preserve painted scenes made over several centuries, including finely modeled figures and stories from the Buddha’s lives.",
+      "when": "Give an extended wall narrative a sense of humane gestures and continuous movement.",
+      "why": "The curved bodies and warm color transitions help nearby figures feel connected.",
+      "source": {
+        "label": "UNESCO | Ajanta Caves",
+        "href": "https://whc.unesco.org/en/list/242"
+      }
+    },
+    {
+      "name": "Tibetan thangka",
+      "look": "Precise blue-green shapes, cloud motifs and tiered figures surround the central sitter.",
+      "history": "A thangka is a portable painted or appliquéd textile image used in Tibetan Buddhist contexts. Painters often follow specific iconographic proportions.",
+      "when": "Study how a portable picture can organize many small figures around a clear center.",
+      "why": "Crisp borders, tiers and a central image give the eye a stable path through detail.",
+      "source": {
+        "label": "Rubin Museum | Thangka collection",
+        "href": "https://rubinmuseum.org/classification/thangka/"
+      }
+    },
+    {
+      "name": "Tibetan mandala",
+      "look": "Concentric zones surround a center, with paths divided by gates on four sides.",
+      "history": "Tibetan Buddhist mandalas can depict the architecture of a sacred space. Painted and sand mandalas serve different purposes within religious practices.",
+      "when": "Make an explicitly fictional diagram that leads attention from an edge toward a center.",
+      "why": "Repeating rings and cardinal positions make a complex design easy to navigate.",
+      "source": {
+        "label": "Rubin Museum | Mandala of Chakrasamvara",
+        "href": "https://rubinmuseum.org/projecthimalayanart/exhibition/living-practices/religious-goals/mandala-of-chakrasamvara/"
+      }
+    },
+    {
+      "name": "Tanjore painting",
+      "look": "Gilded decoration and inset ornament rise around a dark central silhouette.",
+      "history": "Tanjore painting developed around Thanjavur in southern India. Rich relief decoration, foil and inset stones are common in images made for devotional settings.",
+      "when": "Build a small frontal panel with a brilliant surround or architectural frame.",
+      "why": "The gold and relief give a clear distinction between the frame and the painted figure.",
+      "source": {
+        "label": "National Gallery of Modern Art | Tanjore painting",
+        "href": "https://museumsofindia.gov.in/repository/record/ngma_del-ngma-01329-13249"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Compare art surfaces only, respectfully adapt non-sacred contemporary heroine into these formats as a character. In every panel her low bun and distinct modern glasses are visible.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Ajanta-inspired mural fragment on rock plaster, warm brown pigments, supple and naturalistic bent figure framed by attendant figures and pale dry lines.. top right: Tibetan thangka-inspired figure painting on flat cloth, suspended background with mineral blue, green cloud motifs and crisply outlined tiers; the contemporary character holds mug as central figure.. bottom left: Tibetan mandala-inspired colored geometric palace diagram, from directly overhead concentric bands and four elaborate cardinal gates; a small clearly visible bust of glasses-and-bun figure in exact central circle.. bottom right: Tanjore panel painting-inspired, elaborate foil ornament and inset stones surrounding a centrally framed glassed woman in charcoal suit with mug, heavy lustrous gold against warm red.."
+}

@@ -1,0 +1,34 @@
+{
+  "intro": "Two print idioms use typography as visual material.",
+  "alt": "A bright, tilted graphic layout beside a scuffed photocopy-like composition.",
+  "image": "atlas-074.webp",
+  "variants": [
+    {
+      "name": "New Wave typography",
+      "look": "Tilted axes and abrupt changes of scale disrupt the expected reading order.",
+      "history": "Wolfgang Weingart and designers influenced by him expanded Swiss typography through experiments in spacing, layering and offset printing.",
+      "when": "Break a rational grid to produce tension while keeping a focal point.",
+      "why": "Overlaps and contrasting scales create several possible routes through the visual field.",
+      "source": {
+        "label": "Macao Cultural Affairs Bureau · Weingart Typography",
+        "href": "https://www.icm.gov.mo/en/News/detail/13439"
+      },
+      "period": "Late 1960s–1980s"
+    },
+    {
+      "name": "grunge typography",
+      "look": "Ragged patches and distressed texture make the composition look reproduced and handled.",
+      "history": "In the 1990s, publications such as Ray Gun popularized distorted, layered and deliberately difficult typography.",
+      "when": "Give a layout the roughness and urgency of an ephemeral printed artifact.",
+      "why": "Distress patterns interrupt the visual uniformity associated with mechanical mass printing.",
+      "source": {
+        "label": "AIGA · David Carson",
+        "href": "https://www.aiga.org/medalist-davidcarson"
+      },
+      "period": "Early to mid-1990s"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is two evenly split side-by-side cells, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: New Wave typography: electric pink and black asymmetrical deconstructed Swiss grid with generic illegible letter-shaped blocks at abrupt scales and diagonals crossing the photo portrait; grunge typography: xerox-distressed dry black stamp-shaped blocks, spills, ragged paper fragments, muddy olive and a grainy executive portrait. No readable words. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1774,
+  "height": 887
+}

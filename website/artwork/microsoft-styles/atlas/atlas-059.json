@@ -1,0 +1,54 @@
+{
+  "intro": "A hand, an eye or a group of figures can carry a public message. Notice how much of that message depends on the image and how much depends on knowing its setting.",
+  "alt": "Four examples of political print styles with a painted eye, an open hand, a black-and-cream march and a brightly colored group.",
+  "image": "atlas-059.webp",
+  "variants": [
+    {
+      "name": "Polish Poster School",
+      "look": "The eye and folded paper combine into one compact, ambiguous image with a brushy edge.",
+      "history": "Postwar Polish poster artists developed inventive approaches to film, theater and cultural promotion, often using visual metaphor and expressive drawing.",
+      "when": "Study it when you need a design that hints at a story without illustrating the whole story.",
+      "why": "A surprising pairing rewards the first glance and gives a viewer something to puzzle over.",
+      "source": {
+        "label": "National Museum in Warsaw",
+        "href": "https://mnw.pl/en/temporary-exhibitions/current/en-polish-posters-the-collection"
+      }
+    },
+    {
+      "name": "May '68 poster",
+      "look": "The open hand reads as a single rough-edged shape in sharply contrasting ink.",
+      "history": "Print workshops such as the Atelier Populaire produced quickly circulated posters during the May 1968 protests and general strike in France.",
+      "when": "Study how a mark can be direct enough to read immediately and simple enough to reproduce quickly.",
+      "why": "An active shape and spare colors make a design work across many copies and viewing conditions.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/artists/29437-atelier-populaire"
+      }
+    },
+    {
+      "name": "Taller de Gráfica Popular",
+      "look": "Black shapes and rough cut marks bring people and their movement forward in relief-print contrast.",
+      "history": "Taller de Gráfica Popular began in Mexico City in 1937. Its members made prints for broad audiences and engaged with social and political life.",
+      "when": "Study how an inexpensive edition can sustain visible texture and clearly organized figures.",
+      "why": "Cut highlights make a high-contrast black ink image lively without asking for a second color.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/ja/research-centers/leonard-a-lauder-research-center/research-resources/modern-art-index-project/taller-de-grafica-popular"
+      }
+    },
+    {
+      "name": "AfriCOBRA",
+      "look": "Luminous color moves around interlocking figures, making the group read as a shared composition.",
+      "history": "Founded in Chicago in 1968, AfriCOBRA artists combined images, color and often lettering in work made for and about Black communities.",
+      "when": "Study the members' attributed works for the relationship between repeated bright colors and a broad public audience.",
+      "why": "Related vivid hues keep individual shapes distinct while binding the whole group into a rhythm.",
+      "source": {
+        "label": "Museum of Contemporary Art North Miami",
+        "href": "https://www.mocanomi.org/posts/africobra-messages-to-the-people"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Polish Poster School painted graphic featuring an eye emerging from folded paper, expressive brushy symbolic economy, no text; May 1968 poster conventions featuring a single black raised open hand in scratchy vital red/black screenprint, no text; Taller de Gráfica Popular technique study broad-cut black and cream relief print with several people stepping together, modern visitor observes; AfriCOBRA graphic study of confident modern group in luminous rhythmic citrus color, densely interlocked decorative shapes, no legible text and no artist-copy. Modern woman visible beside each original study. No lettering, captions, watermark or ornamental frame."
+}

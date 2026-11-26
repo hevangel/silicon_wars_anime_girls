@@ -1,0 +1,54 @@
+{
+  "intro": "A wall has a site and an audience before an image arrives. Compare marking a place, working with the site and using public images to bring community concerns into view.",
+  "alt": "Four contemporary studies show interlocked spray-painted shapes, a sidewalk stencil, a photo collage and a Black community arts display.",
+  "image": "atlas-060.webp",
+  "variants": [
+    {
+      "name": "graffiti",
+      "look": "Large interlocking lines catch the eye against the wall. Look for the soft overspray outside an otherwise firm edge.",
+      "history": "Modern graffiti writing developed distinctive communities and techniques in cities including Philadelphia and New York, particularly from the late 1960s.",
+      "when": "Study signatures and letterforms as graphic choices within the contexts that developed them.",
+      "why": "An outline can remain recognizable even when lettering stretches, overlaps or becomes highly stylized.",
+      "source": {
+        "label": "Museum of the City of New York",
+        "href": "https://www.mcny.org/exhibition/above-ground-art-martin-wong-graffiti-collection"
+      }
+    },
+    {
+      "name": "street art",
+      "look": "A small stencil works with a crack and the surrounding sidewalk to create a single visual moment.",
+      "history": "Street art spans many public practices, including stencils, pasted images and installations, with overlapping histories and communities with graffiti.",
+      "when": "Study the setting when a design makes an architectural feature or everyday surface look different.",
+      "why": "A familiar street detail becomes part of the image, giving it a scale, direction and immediate audience.",
+      "source": {
+        "label": "Tate",
+        "href": "https://www.tate.org.uk/art/art-terms/s/street-art"
+      }
+    },
+    {
+      "name": "feminist art",
+      "look": "Repeated domestic objects and hands invite viewers to read the collage as a question about labor.",
+      "history": "From the 1960s onward, many feminist artists used pictures, performance, protest and publishing to challenge assumptions about gender and power.",
+      "when": "Name the question the art asks before studying its imagery or media.",
+      "why": "Putting an ordinary task into a public image changes who sees the work and who is asked to value it.",
+      "source": {
+        "label": "Getty",
+        "href": "https://www.getty.edu/exhibitions/how-to-be-a-guerrilla-girl/"
+      }
+    },
+    {
+      "name": "Black Arts Movement",
+      "look": "Strong gestures and bright color bring a community ensemble into focus.",
+      "history": "During the 1960s and 1970s, the Black Arts Movement developed institutions and work across the visual arts, theater, literature, music and other media.",
+      "when": "Study the image beside the community programs or public gatherings that gave it an audience.",
+      "why": "A shared place and a familiar visual language can turn an artwork into part of community dialogue.",
+      "source": {
+        "label": "Smithsonian National Museum of African American History and Culture",
+        "href": "https://nmaahc.si.edu/sites/default/files/2024-01/EHS_The%20Black%20Arts%20Movement_0.pdf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: graffiti style study of a fictional curving interlocked outline piece as abstract forms, aerosol overspray visible and no readable word; street art style cardboard stencil of a small bird and streetlight interacting with a sidewalk crack, no artist-copy; feminist art fictional gallery study photo-collaged household tools, repeated hands and red ribbon raising questions about unpaid labor; Black Arts Movement fictional neighborhood cultural center graphic study of a community ensemble with saturated colors and strong uplifted gestures, no quotes, slogans or artists' work. Recurring woman walks by in each. No lettering, captions, watermark or ornamental frame."
+}

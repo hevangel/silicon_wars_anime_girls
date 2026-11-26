@@ -1,0 +1,54 @@
+{
+  "intro": "Watch how the binder affects the paint. Wax can catch light in translucent layers, while paint mixed with milk protein or glue can dry to a flat surface.",
+  "alt": "Four portraits with translucent wax, opaque casein, chalky distemper and worn blue and red paint on plaster.",
+  "image": "atlas-003.webp",
+  "variants": [
+    {
+      "name": "encaustic",
+      "look": "Yellow wax catches light over cloudy blue-green layers.",
+      "history": "Wax-bound paint was used on some Roman Egyptian mummy portraits, where the modeling of a face can still look remarkably fresh.",
+      "when": "Paint a face or surface with translucent layers and visible depth.",
+      "why": "Wax can hold both clear glazes and opaque deposits that catch the light differently.",
+      "source": {
+        "label": "MFA Boston | Encaustic",
+        "href": "https://cameo.mfa.org/wiki/Encaustic"
+      }
+    },
+    {
+      "name": "casein painting",
+      "look": "Crisp, flat shapes sit in an opaque, muted palette.",
+      "history": "Casein is a milk protein historically used as a paint binder. It dries to a matte surface and has been used for murals and commercial art.",
+      "when": "Paint a study with crisp edges that you will view under bright light.",
+      "why": "The relatively matte surface reduces glare and gives color shapes a clean edge.",
+      "source": {
+        "label": "MFA Boston | Casein paint",
+        "href": "https://cameo.mfa.org/wiki/Casein_paint"
+      }
+    },
+    {
+      "name": "distemper",
+      "look": "Earth colors read as dry, powdery planes.",
+      "history": "Distemper generally uses a water-based binder such as animal glue with pigment, often with chalk. It appears in historical interiors and on theatrical scenery.",
+      "when": "Block in broad matte areas for a backdrop or decorative wall.",
+      "why": "Its flat color keeps reflected light from breaking up the design.",
+      "source": {
+        "label": "MFA Boston | Distemper",
+        "href": "https://cameo.mfa.org/wiki/Distemper"
+      }
+    },
+    {
+      "name": "fresco secco",
+      "look": "Blue and red color catches on worn patches of a dry cream wall.",
+      "history": "Fresco secco applies paint to dried plaster. Painters have used it both on its own and to add detail to frescoes executed on wet plaster.",
+      "when": "Add details to a wall painting after the plaster has set.",
+      "why": "The dry surface gives the painter time for finishing touches in specific areas.",
+      "source": {
+        "label": "MFA Boston | Fresco",
+        "href": "https://cameo.mfa.org/wiki/Fresco"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Same waist-up figure and mug at a minimal desk. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: thick encaustic, honey-colored translucent wax strata and cloudy blue-green highlights. TOP RIGHT: casein painting on board, flat dry milk-paint matte opacity in muted coral and olive, sharp shapes. BOTTOM LEFT: chalky earth-toned distemper painting, powdery flat maroon, ochre, sage and deliberately simple design. BOTTOM RIGHT: fresco secco, figure on dried mottled wall with cream plaster, dusty blue and red appearing rubbed away at edges."
+}

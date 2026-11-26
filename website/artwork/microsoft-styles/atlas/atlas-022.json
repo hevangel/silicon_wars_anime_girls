@@ -1,0 +1,43 @@
+{
+  "intro": "Think about where the viewer stands. A painted room can offer an imaginary view, a floor image unfolds at your feet, and a shallow burial chamber keeps its marks close.",
+  "alt": "An architectural wall painting in Pompeian red, a stone mosaic seen from above and a sparse lunette on pale plaster.",
+  "image": "atlas-022.webp",
+  "variants": [
+    {
+      "name": "Roman wall painting",
+      "look": "Deep red painted architecture frames a scene as though seen through a window.",
+      "history": "Roman painted rooms at Pompeii and surrounding villas preserve several decorative systems. Second Style painters used perspective to create illusions of space beyond the wall.",
+      "when": "Give a painted interior an opening into an imagined room or landscape.",
+      "why": "Repeated architectural lines lend believable depth to an otherwise flat wall.",
+      "source": {
+        "label": "The Met | Roman Painting",
+        "href": "https://www.metmuseum.org/ja/essays/roman-painting"
+      }
+    },
+    {
+      "name": "Roman mosaic",
+      "look": "Small light and dark stones form a continuous figure under a patterned border.",
+      "history": "Roman mosaicists used stone, glass and other materials in repeated small pieces called tesserae. Many floor mosaics combine figures, ornament and borders.",
+      "when": "Make a durable floor with enough contrast to read from standing height.",
+      "why": "Separate colored pieces maintain a rhythm at close range while resolving into a picture at a distance.",
+      "source": {
+        "label": "The Met | Roman art educator guide",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Roman_Art_A_Resource_for_Educators.pdf"
+      }
+    },
+    {
+      "name": "catacomb painting",
+      "look": "Very few red and green lines define a small figure on pale worn plaster.",
+      "history": "Early Christian catacombs in Rome preserve painted spaces with imagery including the Good Shepherd and episodes from scripture.",
+      "when": "Work inside a shallow architectural niche where a few simple forms should carry.",
+      "why": "A restrained curved composition can fit the actual arch and read in modest light.",
+      "source": {
+        "label": "Vatican Museums patrons | Roman catacomb paintings",
+        "href": "https://www.patronsvaticanmuseums.org/restoration/projects/restoration-copies-paintings-roman-catacomb"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Make one wide triptych split into three equally wide vertical rectangles, hard division at thirds, full bleed no gutter. Small authentic-looking surfaces in three panels are each the leading subject, convincing archaeological setting, each portrays same fictional character in dress and glasses with mug. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. left: Roman wall painting, Pompeian illusionistic architectural framework, rich red painted interior with cups and character in a framed central opening. center: Roman mosaic, overhead direct photograph of ancient black and white with dull olive small stone tesserae tessellating the glasses and cup, alternating borders. right: early Christian underground catacomb painting, restrained red-green linear compositions in shallow lunette on worn cream plaster, single simple figure and plants spatially distant."
+}

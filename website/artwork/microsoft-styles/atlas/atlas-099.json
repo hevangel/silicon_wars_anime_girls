@@ -1,0 +1,34 @@
+{
+  "intro": "Read the first drawing across views and the second through a building’s section.",
+  "alt": "Measured views of a mug and a cutaway building section with a small standing figure for scale.",
+  "image": "atlas-099.webp",
+  "variants": [
+    {
+      "name": "technical drawing",
+      "look": "Aligned views reveal dimensions and the relationship of the handle to the body.",
+      "history": "Technical drawings developed standardized conventions for representing dimensions, parts and assemblies in manufacturing and engineering.",
+      "when": "Show the same part from aligned directions so its shape can be reconstructed.",
+      "why": "Aligned views make measurable relationships reproducible without distortions of perspective.",
+      "source": {
+        "label": "ASME · Engineering Drawing Practices",
+        "href": "https://www.asme.org/codes-standards/find-codes-standards/y14-100-engineering-drawing-practices"
+      },
+      "period": "Modern standards established through the 19th and 20th centuries"
+    },
+    {
+      "name": "architectural drawing",
+      "look": "A vertical cut shows the levels, surfaces and depth of circulation in a building.",
+      "history": "Architects use plans, elevations and sections alongside perspective views to develop and communicate a building design.",
+      "when": "Use a section to reveal how spaces connect vertically and place a human figure for scale.",
+      "why": "A vertical cut places connections, levels and an implied human viewpoint in a common plane.",
+      "source": {
+        "label": "Canadian Centre for Architecture · Collection",
+        "href": "https://www.cca.qc.ca/en/collection"
+      },
+      "period": "Long tradition, codified in modern practice"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly 2 equally wide vertical cells side by side, with a landscape canvas, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: technical drawing: engineering work sheet with exact precise orthographic views and section of the white mug, hard graphite line weight on ivory, blank arrows and dimensions without numerals, executive lightly drawn beside it; architectural drawing: beautiful grayscale ink architectural entry section with selective brick hatching and enough building structure to show offices across levels, a small full-bodied silhouette of this executive holding mug marks scale without any letters. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1774,
+  "height": 887
+}

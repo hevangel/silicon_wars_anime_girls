@@ -1,0 +1,43 @@
+{
+  "intro": "Watch how each treatment carries a figure across its surface. Dense stone shapes, a tall window and an illuminated page ask for different lines and poses.",
+  "alt": "Three medieval treatments of the heroine in gray relief, jewel-colored stained glass and delicate gold manuscript illumination.",
+  "image": "atlas-025.webp",
+  "variants": [
+    {
+      "name": "Romanesque art",
+      "look": "Broad carved folds hold the figure inside a shallow arch.",
+      "history": "Romanesque sculptors worked on church portals and capitals in medieval Europe. Large tympana made room for tightly arranged figure scenes.",
+      "when": "Fit a detailed story into a stone arch or other bounded space.",
+      "why": "Deep ridges, large gestures and compressed figures read from below.",
+      "source": {
+        "label": "The Met | Medieval art educator guide",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Medieval_Art_A_Resource_for_Educators.pdf"
+      }
+    },
+    {
+      "name": "Gothic art",
+      "look": "Colored pieces and dark leading show the body at the scale of a tall window.",
+      "history": "Gothic churches used tall, increasingly elaborate stained glass. Lead strips joined small pieces into luminous figures and scenes.",
+      "when": "Use colored light to create a focal figure in a room.",
+      "why": "The same thick lines hold the glass together and make the drawing readable.",
+      "source": {
+        "label": "V&A | Gothic collection",
+        "href": "https://www.vam.ac.uk/collections/gothic"
+      }
+    },
+    {
+      "name": "International Gothic",
+      "look": "A curved stance and fine line stand against gold and elaborate fabric.",
+      "history": "International Gothic painting flourished around European courts around 1400. Manuscripts and panels often emphasize sumptuous surfaces and graceful figures.",
+      "when": "Suggest refinement through small gestures, pattern and dressed figures.",
+      "why": "Long lines carry the gesture while reflective gold and ornament slow the eye.",
+      "source": {
+        "label": "The Met | Medieval art educator guide",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Medieval_Art_A_Resource_for_Educators.pdf"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Make one wide image composed of three separate equal-width vertical artworks side by side with precise splits at thirds, full bleed with no gutters. Make three distinctive medieval art objects each portraying the same character. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. left: Romanesque tympanum magnified fragment in weathered gray limestone. Blocky elongated figure and broad nested concave ridges, heavy line and shallow folds.. center: Gothic stained-glass lancet, figure with more flowing naturalistic folds and dark leading in cobalt, ruby, and jewel green against tall tracery.. right: International Gothic manuscript illustration, graceful S-curve pose, extremely thin energetic line, golden brocade effect, light blue and coral colors on gilded pink field.."
+}

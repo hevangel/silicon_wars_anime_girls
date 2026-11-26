@@ -37,7 +37,7 @@
     section.append(links);
   }
 
-  function addInfoButton(label, accessibleTitle, sections, history) {
+  function addDialogButton(label, accessibleTitle, renderContent) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "style-info-button";
@@ -55,15 +55,28 @@
       title.textContent = accessibleTitle;
       content.replaceChildren();
 
-      for (const [heading, explanation] of sections) {
-        appendSection(heading, explanation);
-      }
-      appendHistory(history.period, history.examples, history.connection);
+      renderContent();
 
       dialog.showModal();
       dialog.scrollTop = 0;
       dialog.addEventListener("close", () => button.focus({ preventScroll: true }), { once: true });
     });
+  }
+
+  function addInfoButton(label, accessibleTitle, sections, history) {
+    addDialogButton(label, accessibleTitle, () => {
+      for (const [heading, explanation] of sections) appendSection(heading, explanation);
+      appendHistory(history.period, history.examples, history.connection);
+    });
+  }
+
+  for (const entry of document.querySelectorAll("[data-atlas-entry]")) {
+    const label = entry.querySelector("dt");
+    const details = entry.querySelector("details");
+    addDialogButton(label, entry.dataset.atlasEntry, () => {
+      content.append(details.querySelector(".atlas-context").cloneNode(true));
+    });
+    details.hidden = true;
   }
 
   for (const family of document.querySelectorAll(".style-family")) {

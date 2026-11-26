@@ -1,0 +1,54 @@
+{
+  "intro": "The board compares surfaces and methods through contemporary exhibits. The traditions connect to custodians, places and histories that a small visual sample can only begin to introduce.",
+  "alt": "Museum studies of painted bark, a dot-painted panel, a curved rafter design and patterned barkcloth.",
+  "image": "atlas-043.webp",
+  "variants": [
+    {
+      "name": "Aboriginal bark painting",
+      "look": "The bark's uneven edge remains visible beside earthy paint and crosshatched lines.",
+      "history": "Bark painting has long and varied histories. In Arnhem Land, artists in different communities paint on prepared eucalyptus bark and have distinctive responsibilities for designs and stories.",
+      "when": "Look at artist- or community-approved examples to study the relationship between a surface, paint and particular place.",
+      "why": "Bark changes the size and shape of the available surface, and patterns can have meanings held by specific people.",
+      "source": {
+        "label": "National Museum of Australia",
+        "href": "https://www.nma.gov.au/exhibitions/old-masters"
+      }
+    },
+    {
+      "name": "Western Desert dot painting",
+      "look": "Separate touches of pigment form visible clusters and seams across the practice panel.",
+      "history": "Beginning in the early 1970s, artists at Papunya used commercial paints and portable supports. Western Desert artists continue to develop distinct ways to paint Country.",
+      "when": "Use public examples and their artist statements to study the movement within a painted field.",
+      "why": "Densely and loosely spaced dots can guide the eye. Their presence alone says little about who made a work or what it means.",
+      "source": {
+        "label": "National Gallery of Australia",
+        "href": "https://nga.gov.au/exhibitions/my-country-my-story-my-painting/"
+      }
+    },
+    {
+      "name": "kōwhaiwhai",
+      "look": "Red, black and white curves bend and repeat along a beam.",
+      "history": "Māori kōwhaiwhai is painted ornament often found on rafters in meeting houses. Particular designs can carry associations with ancestry or place.",
+      "when": "Study documented examples when thinking about shape that follows an architectural length.",
+      "why": "A repeat along a beam lets a curve pull the viewer's eye through space.",
+      "source": {
+        "label": "Museum of New Zealand Te Papa Tongarewa",
+        "href": "https://collections.tepapa.govt.nz/object/54625"
+      }
+    },
+    {
+      "name": "tapa cloth",
+      "look": "The brown repeat lies on a large sheet whose thin raw edge still shows its fibrous construction.",
+      "history": "Pacific barkcloth has many names and local techniques. Artisans beat prepared inner bark and may rub, stencil or paint patterns onto it.",
+      "when": "Look at public examples to compare where a pattern follows joins and where it runs across them.",
+      "why": "Beaten bark makes a wide, flexible surface without weaving individual threads.",
+      "source": {
+        "label": "Museum of New Zealand Te Papa Tongarewa",
+        "href": "https://www.tepapa.govt.nz/qanda-with-the-authors-of-tapa-pacific-histories-in-cloth"
+      }
+    }
+  ],
+  "width": 1261,
+  "height": 1247,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: public museum exhibit of northern Australian Aboriginal bark-painting technique, long visible eucalyptus bark edge and earth pigment crosshatching on a nonfigurative publicly shareable surface sample; Western Desert acrylic dot-painting technique neutral materials display with irregular colored dot marks only on a small abstract study, no sacred patterns; Māori kōwhaiwhai study of black, red and white painted curving forms on a timber beam, decorative public example; Pacific tapa barkcloth study with stenciled brown repeat pattern and unmistakable thin beaten bark edge. No invented ceremonies, sacred symbols, or person-as-maker. No lettering, captions, watermark or ornamental frame."
+}

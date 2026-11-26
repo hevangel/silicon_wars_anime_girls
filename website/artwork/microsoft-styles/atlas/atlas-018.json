@@ -1,0 +1,43 @@
+{
+  "intro": "How much of a picture can come from a cut edge, a carved surface or a floating current? Each of these methods starts with a different physical gesture.",
+  "alt": "Three craft versions of the heroine in red cut paper, carved cream-colored material and swirling marbled paper.",
+  "image": "atlas-018.webp",
+  "variants": [
+    {
+      "name": "papercutting",
+      "look": "A continuous red sheet forms an open network of details.",
+      "history": "Chinese papercutting traditions developed a repertoire of festive and symbolic images. Artists cut connected shapes with scissors or knives.",
+      "when": "Create a window ornament that should read as a strong silhouette.",
+      "why": "The open spaces count as much as the paper left behind.",
+      "source": {
+        "label": "UNESCO | Chinese paper-cut",
+        "href": "https://ich.unesco.org/en/RL/chinese-paper-cut-00219"
+      }
+    },
+    {
+      "name": "ivory carving",
+      "look": "Fine grooves and polished curves stand out in a small historic ivory-like statuette.",
+      "history": "Historic ivory objects appear in traditions across Europe, Asia and Africa. Museum collections document the material’s historical use in compact carving.",
+      "when": "Study fine figures on a museum object or use an alternative material for a new miniature.",
+      "why": "Selective light catches tiny carved details at close viewing distance.",
+      "source": {
+        "label": "The Met | Ivory and bone objects",
+        "href": "https://www.metmuseum.org/art/collection/search?q=ivory%20carving"
+      }
+    },
+    {
+      "name": "paper marbling",
+      "look": "Gold, green and rust channels swirl across the sheet.",
+      "history": "Paper marblers float color on liquid and transfer the pattern to paper. The Turkish ebru tradition is one such practice.",
+      "when": "Make endpapers or a background with a flowing, nonrepeating pattern.",
+      "why": "The movement of color on liquid preserves small changes in force and direction.",
+      "source": {
+        "label": "UNESCO | Ebru, Turkish art of marbling",
+        "href": "https://ich.unesco.org/en/RL/ebru-turkish-art-of-marbling-00644"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Make one wide triptych split into three equally wide vertical rectangles, hard division at thirds, full bleed no gutter. Create tactile studio photos of three independent artworks, all portraying character with glasses and mug. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. left: Chinese red papercutting, continuous intricate red sheet cut into connected lacy floral and portrait joints over white. center: historic ivory miniature carving as a museum object in honey-colored aged ivory, small sculpted bust with mug, blank dark dark-blue velvet underneath. right: paper marbling, actual floating swirled ink with green, auburn and gold veins, the portrait discernible as a simple negative stencil emerging within the sheet."
+}

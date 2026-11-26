@@ -1,0 +1,58 @@
+{
+  "intro": "The same kind of object gains four different meanings through selection, combination, repetition and material.",
+  "alt": "The executive’s mug appears on a pedestal, embedded in a relief, in an accumulation and among raw materials.",
+  "image": "atlas-078.webp",
+  "variants": [
+    {
+      "name": "Dada readymade",
+      "look": "A familiar manufactured cup sits apart on a gallery pedestal.",
+      "history": "Marcel Duchamp used the term readymade for selected ordinary objects recontextualized as art.",
+      "when": "Change the context in which people encounter a familiar object.",
+      "why": "The contrast between functional familiarity and isolated presentation changes the object’s status.",
+      "source": {
+        "label": "MoMA · Readymade",
+        "href": "https://www.moma.org/collection/terms/readymade"
+      },
+      "period": "From the 1910s"
+    },
+    {
+      "name": "Neo-Dada",
+      "look": "Fragments of ordinary objects interrupt the surface as part of a collage.",
+      "history": "Artists including Robert Rauschenberg and Jasper Johns reintroduced everyday objects and signs into postwar American art.",
+      "when": "Let an objects’ physical presence interrupt painting’s illusion.",
+      "why": "Objects interrupt the painted surface with recognizable weight and texture.",
+      "source": {
+        "label": "Tate · Neo-Dada",
+        "href": "https://www.tate.org.uk/art/art-terms/n/neo-dada"
+      },
+      "period": "1950s–early 1960s"
+    },
+    {
+      "name": "Nouveau Réalisme",
+      "look": "Many similar pieces are gathered until they become an unwieldy mass.",
+      "history": "Pierre Restany and artists including Arman formed Nouveau Réalisme, treating contemporary objects and processes as artistic materials.",
+      "when": "Repeat a common item until it becomes evidence of everyday consumption.",
+      "why": "Accumulation defamiliarizes a single ordinary object and makes the quantity impossible to ignore.",
+      "source": {
+        "label": "Tate · Nouveau Réalisme",
+        "href": "https://www.tate.org.uk/art/art-terms/n/nouveau-realisme"
+      },
+      "period": "Founded in 1960"
+    },
+    {
+      "name": "Arte Povera",
+      "look": "Earth, rope and wood surround a plain cup.",
+      "history": "Critic Germano Celant associated Arte Povera with Italian artists working with materials including stone, cloth and soil.",
+      "when": "Give humble materials enough space for their weight and texture to register.",
+      "why": "Weight and texture matter more when the objects retain visible traces of their ordinary state.",
+      "source": {
+        "label": "Tate · Arte Povera",
+        "href": "https://www.tate.org.uk/art/art-terms/a/arte-povera"
+      },
+      "period": "Named in 1967"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, Dada readymade: plain actual white coffee mug positioned unaltered on white gallery pedestal with the executive standing behind; Neo-Dada: grayish wax-like painted collage with a genuine white mug embedded into a collage of blank fragments and ordinary fabrics; Nouveau Réalisme: tightly compressed accumulation of countless used crockery bits and one four-color mug glimpsed through the stage pile with the executive; Arte Povera: a plain room with pale rope, a mound of raw earth, unruly wool and a rough wood shelf displaying her mug. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

@@ -1,0 +1,46 @@
+{
+  "intro": "Compare visual flatness, cartoon irreverence and an eerily polished impossible scene.",
+  "alt": "Three portraits feature colorful flat contours, hot-rod-influenced exaggeration and a floating oversized cup.",
+  "image": "atlas-082.webp",
+  "variants": [
+    {
+      "name": "Superflat",
+      "look": "Clean outlines and repeating shapes flatten the figure into the surrounding pattern.",
+      "history": "Takashi Murakami organized the Superflat exhibition in 2000 and drew connections among historical Japanese imagery, animation and consumer culture.",
+      "when": "Let recurring flat shapes connect the subject to a broader image field.",
+      "why": "Repeated contour and color prevent depth cues from separating the subject from its field.",
+      "source": {
+        "label": "MoMA · Takashi Murakami",
+        "href": "https://www.moma.org/collection/artists/8480"
+      },
+      "period": "Named around 2000"
+    },
+    {
+      "name": "Lowbrow",
+      "look": "Cartoon exaggeration and hot-rod details turn a corporate mug into a joke.",
+      "history": "Lowbrow emerged in Southern California around underground comics, custom-car culture and related forms of popular illustration.",
+      "when": "Borrow visual wit from subcultures that circulate outside formal art institutions.",
+      "why": "Bright humor can make a polished institutional scene feel visibly irreverent.",
+      "source": {
+        "label": "Juxtapoz · Robert Williams",
+        "href": "https://www.juxtapoz.com/tag/robert-williams/"
+      },
+      "period": "1970s onward"
+    },
+    {
+      "name": "Pop Surrealism",
+      "look": "Careful rendering makes the wildly oversized mug look as though it could float.",
+      "history": "Pop Surrealism is a loose label for contemporary art that combines popular imagery with fantastic scenes, often through meticulously painted surfaces.",
+      "when": "Use convincing light and modeling to stage an impossible premise.",
+      "why": "Consistent light makes the impossible object seem to occupy the same space as the figure.",
+      "source": {
+        "label": "LSU Museum of Art · Robert Williams: Slang Aesthetics",
+        "href": "https://www.lsumoa.org/robert-williams"
+      },
+      "period": "1990s–2000s onward"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly 3 equal side-by-side vertical cells using a broad landscape triptych canvas, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, Superflat: uniform, polished outlines and graphic planar unshaded forms with repeating bright bubble shapes fuse figure and surrounding pattern; Lowbrow: cartoon-influenced oddball woman with hot-rod detailing on mug, neon green and candy scarlet, hand-painted and irreverent; Pop Surrealism: uncanny polished miniature, an oversized floating white mug and classically painted childlike-doll proportions, ornate atmospheric teal colors, adult figure. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1774,
+  "height": 887
+}

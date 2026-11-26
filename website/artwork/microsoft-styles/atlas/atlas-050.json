@@ -1,0 +1,21 @@
+{
+  "intro": "Follow the colored edges one by one to see what each cloth layer contributes to the pattern. The technique study uses an invented design.",
+  "alt": "Microsoft looks into a display case at a multilayer cloth study with red, yellow, pink and dark channels.",
+  "image": "atlas-050.webp",
+  "variants": [
+    {
+      "name": "mola",
+      "look": "Colored channels appear where upper cloth layers are cut back. Fine stitches hold down their edges.",
+      "history": "Guna makers, particularly women in present-day Panama and Colombia, developed mola panels for garments. Reverse appliqué often works alongside other stitches and applied details.",
+      "when": "Study a documented panel when you want to understand how a design can be built by revealing material from underneath.",
+      "why": "A single cut reveals a new color and makes the depth of the fabric itself part of the image.",
+      "source": {
+        "label": "Smithsonian National Museum of the American Indian",
+        "href": "https://www.si.edu/object/mola-panel%3ANMAI_394257"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. A single square panel with no dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Guna mola textile technique modern museum case: close-up angled overhead detail of multilayer cloth, carved-out cloth channels exposing red, black, yellow and magenta layers, tidy hand-stitched borders, non-sacred fictional abstract spiral pattern. Contemporary visitor small in the foreground looking at study. Single square panel, no dividers. No lettering, captions, watermark or ornamental frame."
+}

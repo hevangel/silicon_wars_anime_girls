@@ -1,0 +1,58 @@
+{
+  "intro": "Geometry and pattern can build a room, imitate a system or reveal where digital circulation breaks down.",
+  "alt": "Four images use ornate textile-like pattern, industrial geometry, glossy digital objects and broken RGB bands.",
+  "image": "atlas-083.webp",
+  "variants": [
+    {
+      "name": "Pattern and Decoration",
+      "look": "Interwoven motifs flatten the figure into a luxurious patterned field.",
+      "history": "Pattern and Decoration artists in the United States valued decorative practices and traditions marginalized by modernist criticism.",
+      "when": "Let ornamental repetition define how the whole picture hangs together.",
+      "why": "Repetition creates connections among figure, fabric and border even when their outlines differ.",
+      "source": {
+        "label": "MOCA · With Pleasure",
+        "href": "https://www.moca.org/exhibition/with-pleasure-pattern-and-decoration-in-american-art-1972-1985"
+      },
+      "period": "Mid-1970s–1980s"
+    },
+    {
+      "name": "Neo-Geo",
+      "look": "Red, gray and black forms put the executive into a regular module.",
+      "history": "Neo-Geo linked geometric abstraction to an increasingly mediated consumer culture in the 1980s.",
+      "when": "Use impersonal geometry to make a familiar system visible.",
+      "why": "A modular layout brings regularity and repetition to the front of the image.",
+      "source": {
+        "label": "Tate · Neo-Geo",
+        "href": "https://www.tate.org.uk/art/art-terms/n/neo-geo"
+      },
+      "period": "Mid-to-late 1980s"
+    },
+    {
+      "name": "post-internet art",
+      "look": "Objects pose like images designed to be photographed, shared and re-used.",
+      "history": "Post-internet art developed around the premise that the internet’s effects extended to how ordinary physical things are produced and encountered.",
+      "when": "Treat an object and the circulating image of the object as parts of the same work.",
+      "why": "Staging reflective, polished imagery makes the prospective photo or screen view part of the design.",
+      "source": {
+        "label": "UCCA · Art Post-Internet",
+        "href": "https://ucca.org.cn/en/exhibition/art-post-internet/"
+      },
+      "period": "Late 2000s–2010s"
+    },
+    {
+      "name": "glitch art",
+      "look": "Colored channels separate and broken strips interrupt the image mid-face.",
+      "history": "Glitch artists highlight the errors and disruptions inherent to digital media systems, sometimes creating the errors deliberately.",
+      "when": "Use failure patterns to expose the normally hidden structure of an image.",
+      "why": "Separated channels and misaligned strips reveal that the visual image has underlying components.",
+      "source": {
+        "label": "Rhizome · The Glitch Moment(um)",
+        "href": "https://rhizome.org/editorial/2011/jan/31/the-glitch-momentum/"
+      },
+      "period": "Visible from the early digital era, with a named scene by the 2000s"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, Pattern and Decoration: dense repeated interlaced floral borders and multiple ornate textile-derived gold/teal motifs overtake figure and wall; Neo-Geo: cold centered industrial geometry in black, pale gray and lipstick red, executive reduced to faceless modular pattern; post-internet art: polished CGI studio still, a staged tablet and chrome mug reflected in liquid pastel forms, routine circulation of digital images; glitch art: broken cobalt and magenta RGB separation, corrupted scanline tearing and pixel blocks interrupt executive. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

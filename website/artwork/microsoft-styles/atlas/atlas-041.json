@@ -1,0 +1,43 @@
+{
+  "intro": "A painted curve, a graphic system and a cloth flag can all communicate in a shared setting. Each example needs its own history and audience.",
+  "alt": "Microsoft examines a spare curving line study, an archive case holding blank papers and a brightly stitched flag.",
+  "image": "atlas-041.webp",
+  "variants": [
+    {
+      "name": "uli",
+      "look": "Slender and thicker curves create rhythm across a mostly open surface.",
+      "history": "Igbo women in southeastern Nigeria made uli body and wall painting. Later Nigerian artists drew on its graphic language in other media.",
+      "when": "Study widely shared examples to see where shifting line weight can make a simple composition breathe.",
+      "why": "The open spaces keep each curve distinct, so even a few lines can carry the design.",
+      "source": {
+        "label": "Smithsonian National Museum of African Art",
+        "href": "https://africa.si.edu/collection/selected-artwork/2078"
+      }
+    },
+    {
+      "name": "nsibidi",
+      "look": "A closed archive folder and blank samples stand in for a graphic system whose signs are shared according to context.",
+      "history": "Communities of the Cross River region in present-day Nigeria and Cameroon have used nsibidi signs in varied settings. Some knowledge is restricted to particular users or associations.",
+      "when": "Study its publicly documented history when asking how a sign's meaning travels with its audience.",
+      "why": "Familiar forms can convey shared knowledge because viewers have learned how and when to read them.",
+      "source": {
+        "label": "Smithsonian National Museum of African Art",
+        "href": "https://africa.si.edu/exhibitions/inscribing-meaning-writing-and-graphic-systems-africa-art"
+      }
+    },
+    {
+      "name": "Asafo flag",
+      "look": "Contrasting cloth silhouettes and appliquéd edges make figures readable across a vivid field.",
+      "history": "Fante Asafo companies on Ghana's coast have commissioned flags that carry company history, proverbs and messages of rivalry.",
+      "when": "Study how a flag can tell an audience about the group that flies it.",
+      "why": "Strong silhouettes survive movement and distance, and familiar stories make the image more memorable.",
+      "source": {
+        "label": "Birmingham Museum of Art",
+        "href": "https://www.artsbma.org/collection/asafo-flag/"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Contemporary educational museum website three equal square panels arranged left to right in a wide 3:1 image, thin pale separators. In each panel the same ash-blonde woman in dark fitted blazer and knee-length charcoal sheath dress, blue lanyard and white mug with four squares, black rectangular glasses and low bun with colored clip. Each panel's artwork is much larger than the visitor. Left panel a sparse Igbo uli-inspired contemporary NON-ceremonial technique study exploring long curved rhythmic ink lines on a plain clay-colored wall, no culturally specific copied designs. Middle panel a closed archive display folder of warm brown paper and archived unmarked paper samples with plain ties and a glass cover, distinct exhibit case, art visitor close by looking in. The visible paper in the case is intentionally completely blank, reflecting that the display is about the idea of access to graphics and does not share any documented signs. No scribbles, ink marks or illustrations in the middle panel. Right panel contemporary imagined Fante Asafo flag study showing sewn red and yellow cut silhouettes of a tree, birds, and small figures on teal woven cloth, photography emphasizing visible seams, completely fictional simple motif. Recurring woman in every panel, a modern visitor. Nothing written, no screens, text or letters, no symbols on the middle papers."
+}

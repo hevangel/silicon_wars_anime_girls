@@ -1,0 +1,54 @@
+{
+  "intro": "Compare what each medium keeps of the body. A figure can be reduced to flat forms, balanced in stone, painted as a lifelike face or placed in a group scene.",
+  "alt": "Four ancient Mediterranean interpretations in folded-arm white marble, balanced stone sculpture, warm wax portrait and a tomb fresco banquet.",
+  "image": "atlas-021.webp",
+  "variants": [
+    {
+      "name": "Cycladic sculpture",
+      "look": "An elongated flat face and folded arms simplify the figure into clear shapes.",
+      "history": "Early Bronze Age Cycladic marble figures often take a folded-arm form. Traces on some objects indicate that their surfaces once carried painted detail.",
+      "when": "Make a small figure that remains recognizable through a few decisive planes.",
+      "why": "The reduced surface directs attention to the silhouette and balance of parts.",
+      "source": {
+        "label": "Museum of Cycladic Art | Cycladic Art collection",
+        "href": "https://cycladic.gr/en/ektheseis/kykladiki-techni/visiting-guide/"
+      }
+    },
+    {
+      "name": "Classical Greek sculpture",
+      "look": "Despite the still pose, the shoulders and hips tilt as weight settles into one leg.",
+      "history": "Fifth- and fourth-century BCE Greek sculptors worked out ways to convey standing balance and anatomical movement. Later copies help preserve lost bronze originals.",
+      "when": "Give a standing figure calm weight and an implication of motion.",
+      "why": "Shifts in the legs and pelvis make a still pose feel physically possible.",
+      "source": {
+        "label": "The Met | Art of Classical Greece",
+        "href": "https://www.metmuseum.org/fr/essays/the-art-of-classical-greece-ca-480-323-b-c"
+      }
+    },
+    {
+      "name": "Fayum mummy portraits",
+      "look": "Warm paint catches the eyes and models the face against an aged wooden ground.",
+      "history": "In Roman Egypt, painted likenesses were attached to mummified individuals. Examples from the Fayum and other sites include wax-based and tempera paint on wood.",
+      "when": "Make a close portrait that feels like it belongs on a small physical panel.",
+      "why": "Layered light and a direct gaze keep attention on the living features of the sitter.",
+      "source": {
+        "label": "The Met | Fayum funerary portraits",
+        "href": "https://www.metmuseum.org/it/perspectives/from-the-vaults-fayum-funerary-portraits"
+      }
+    },
+    {
+      "name": "Etruscan tomb painting",
+      "look": "A profile at a banquet sits amid curling vines and ochre plaster.",
+      "history": "Etruscan painted tombs at Tarquinia preserve banquet, dance and game scenes. Pictures are arranged around the chambers where visitors would encounter them.",
+      "when": "Tell a story through a wall-length group of dancers or guests.",
+      "why": "Profile gestures, figures and repeated borders can carry the scene around the room.",
+      "source": {
+        "label": "UNESCO | Etruscan Necropolises",
+        "href": "https://whc.unesco.org/en/list/1158/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Show same invented modern office character as separate convincing stylized historical Mediterranean artifacts, always glasses and low bun, keep style appropriate.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: folded arm Cycladic geometric white marble figure with elongated triangular face and simplifiedly incised glasses, cup set at folded forearms. top right: Classical Greek sculpture, white marble freestanding balanced contrapposto with sculpted draped knee-length garments and subtle face modeling, faint sculpted rectangular eyeglasses. bottom left: Fayum mummy portrait, waist-up warm naturalistic encaustic portrait on cracked dark wooden panel with direct eye contact and deep brown-yellow light. bottom right: Etruscan tomb fresco, anatomically lively profile of a banquet companion with mug on red ochre and brown stone wall, olive vine and birds in upper band."
+}

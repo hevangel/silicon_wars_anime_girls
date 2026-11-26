@@ -1,0 +1,58 @@
+{
+  "intro": "Each panel makes the character legible under a different display or storage constraint.",
+  "alt": "Four game illustrations use glowing outlines, olive pixels, an isometric pixel room and a crunchy rendered sprite.",
+  "image": "atlas-092.webp",
+  "variants": [
+    {
+      "name": "vector arcade graphics",
+      "look": "Bright, thin strokes on black describe everything from glasses to furniture.",
+      "history": "Some early arcade systems moved a CRT beam between coordinates to draw lines, producing especially crisp outlines for the period.",
+      "when": "Use an economical outline when the screen technology excels at sharply drawn lines.",
+      "why": "A sparse array of vector segments plays to the display’s capacity for exceptionally crisp line.",
+      "source": {
+        "label": "The Strong · Asteroids",
+        "href": "https://www.museumofplay.org/games/asteroids/"
+      },
+      "period": "Late 1970s–early 1980s arcade games"
+    },
+    {
+      "name": "Game Boy four-shade graphics",
+      "look": "Four olive values and pixel dithering describe a mug, a face and a silhouette.",
+      "history": "The original Game Boy LCD displayed four shades. Artists used spacing and patterned pixels to preserve contrast on the small screen.",
+      "when": "Choose values first so the important shapes read on a small monochrome display.",
+      "why": "A few discrete values require bold silhouettes and deliberately placed tones.",
+      "source": {
+        "label": "Nintendo · History",
+        "href": "https://www.nintendo.co.uk/Corporate/Nintendo-History/Nintendo-History-625945.html"
+      },
+      "period": "From the 1989 Game Boy release"
+    },
+    {
+      "name": "isometric pixel art",
+      "look": "A diamond-shaped room reads as depth while furniture steps evenly along two axes.",
+      "history": "Isometric or near-isometric pixel art made three-dimensional arrangements legible on screens built from fixed two-dimensional grids.",
+      "when": "Align repeated tile edges so sprites and objects share the same spatial grid.",
+      "why": "Paired sets of diagonal lines establish consistent depth without changing the size of each tile.",
+      "source": {
+        "label": "The Strong · Video Game History",
+        "href": "https://www.museumofplay.org/exhibits/level-up/"
+      },
+      "period": "Especially 1980s–1990s, with continuing practice"
+    },
+    {
+      "name": "pre-rendered CG sprites",
+      "look": "Rounded highlights and shadows are visible inside a sharply rasterized sprite edge.",
+      "history": "In the 1990s, some teams rendered models on workstations beforehand, then converted those views into sprites for commodity game hardware.",
+      "when": "Put the visual impact of rendering into small, repeatable flat assets.",
+      "why": "A small image can retain convincing rounded lighting computed on a separate machine.",
+      "source": {
+        "label": "The Strong · Donkey Kong Country",
+        "href": "https://www.museumofplay.org/games/donkey-kong-country/"
+      },
+      "period": "Especially mid-1990s"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: vector arcade graphics: luminous thin lime vector strokes on pure black tracing figure and simple arcade room, no filled facets; Game Boy four-shade graphics: readable dithered low-resolution pixel edges, exactly four olive green brightness shades and a chunky formal executive sprite; isometric pixel art: genuine hard pixel edges, overhead 3/4 room with 2:1 axis step and clearly rendered block furniture, colors tan turquoise graphite; pre-rendered CG sprites: 16-bit-era crunchy raster sprite of executive with rounded pre-rendered 3D chiaroscuro, diffuse plastic materials and a simple game stage. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1254,
+  "height": 1254
+}

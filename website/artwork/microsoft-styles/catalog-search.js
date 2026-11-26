@@ -6,8 +6,8 @@
   const normalize = value => value.normalize("NFD").replace(/\p{Mark}/gu, "").toLowerCase()
     .replace(/[’']/g, "").replace(/[^\p{Letter}\p{Number}]+/gu, " ").trim();
 
-  const studies = [...document.querySelectorAll(".catalog-home .style-family")].map(study => {
-    const title = document.getElementById(study.getAttribute("aria-labelledby")).textContent.trim();
+  const studies = [...document.querySelectorAll(".catalog-home .style-family:not(.atlas-board)")].map(study => {
+    const title = document.getElementById(study.getAttribute("aria-labelledby")).firstChild.textContent.trim();
     const home = study.closest(".catalog-home");
     const guide = styleGuide[study.id];
     return {
@@ -19,6 +19,31 @@
         guide?.history, guide?.effect, guide?.use, home.querySelector("h3").textContent].join(" ")),
     };
   });
+
+  for (const entry of document.querySelectorAll("[data-atlas-entry], [data-search-alias]")) {
+    const title = entry.dataset.atlasEntry || entry.dataset.searchAlias;
+    const board = entry.closest(".style-family");
+    const home = document.getElementById(board.getAttribute("aria-labelledby")).firstChild.textContent.trim();
+    studies.push({
+      id: entry.id,
+      title,
+      home,
+      titleKey: normalize(title),
+      searchText: normalize([title, home, entry.dataset.tags, entry.textContent].join(" ")),
+    });
+  }
+
+  function revealStudy() {
+    const target = document.getElementById(location.hash.slice(1));
+    const collection = target?.closest("details.atlas-collection");
+    if (collection && !collection.open) {
+      collection.open = true;
+      target.scrollIntoView();
+    }
+  }
+
+  window.addEventListener("hashchange", revealStudy);
+  revealStudy();
 
   form.hidden = false;
   query.addEventListener("input", () => {

@@ -1,0 +1,46 @@
+{
+  "intro": "A still can show the apparatus, materials and traces of an event that takes time.",
+  "alt": "Three views show CRT screens, a relief made from discarded materials and a pigment trail accumulating on felt.",
+  "image": "atlas-087.webp",
+  "variants": [
+    {
+      "name": "video art",
+      "look": "Several screens hold different moments of a similar gesture.",
+      "history": "Portable video equipment made time-based electronic images accessible to artists such as Nam June Paik in the 1960s.",
+      "when": "Play several phases at once to draw attention to the timing of a gesture.",
+      "why": "Several phases on view at once make a viewer compare the path of a gesture directly.",
+      "source": {
+        "label": "Tate · Video art",
+        "href": "https://www.tate.org.uk/art/art-terms/v/video-art"
+      },
+      "period": "Mid-1960s onward"
+    },
+    {
+      "name": "assemblage",
+      "look": "Springs, cloth and ceramic fragments form a face on a support.",
+      "history": "Assemblage has early modernist precedents, and MoMA’s 1961 Art of Assemblage exhibition surveyed the practice.",
+      "when": "Build form by joining three-dimensional objects with distinct histories and textures.",
+      "why": "Familiar debris asks viewers to move between recognizing its source and seeing a new image.",
+      "source": {
+        "label": "MoMA · The Art of Assemblage",
+        "href": "https://www.moma.org/calendar/exhibitions/1880"
+      },
+      "period": "20th century onward"
+    },
+    {
+      "name": "process art",
+      "look": "Pigment flowing downward leaves a permanent record on the pale cloth.",
+      "history": "Process art foregrounded the conditions of making, such as gravity, time or the handling of unstable materials.",
+      "when": "Give materials time to change and make the evidence of that change visible.",
+      "why": "The final drip line records the movement and resistance of materials over time.",
+      "source": {
+        "label": "Tate · Process art",
+        "href": "https://www.tate.org.uk/art/art-terms/p/process-art"
+      },
+      "period": "Late 1960s–1970s"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly 3 equally wide vertical cells side by side, with a landscape canvas, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: video art: black gallery, bank of CRT display panels each shows her mug-lifting in asynchronous phases with subtle CRT glow; assemblage: a recognizable executive relief built from actual eyelet, springs, receipts with no marks, dark cloth scraps and cracked porcelain fixed on stained wood; process art: turquoise pigment trickles from a tilted mug through dripping cloth to stain felt, captured as the same executive watches its evolution with mug in hand. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1774,
+  "height": 887
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "Ask which parts of the tool carry the ink. Blocks leave repeatable traces, a stencil keeps color in a defined shape, and a painted plate yields one strong pull.",
+  "alt": "Four figure prints in sharp black and white, streaky washes, layered muted tones and bright clean stencil colors.",
+  "image": "atlas-006.webp",
+  "variants": [
+    {
+      "name": "wood engraving",
+      "look": "Fine white cuts and dots stand out against the paper’s dark printed areas.",
+      "history": "Thomas Bewick popularized fine end-grain engraving in British books in the late 18th century, including A History of British Birds.",
+      "when": "Build a small high-contrast illustration with crisp texture.",
+      "why": "A hard end-grain surface supports tiny cuts that stay readable in print.",
+      "source": {
+        "label": "The Met | How Prints Look",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/How_Prints_Look.pdf"
+      }
+    },
+    {
+      "name": "monotype",
+      "look": "Blue, pink and yellow patches show streaks and irregularities from the pull.",
+      "history": "Edgar Degas drew and wiped ink on plates to produce monotypes in the 19th century, sometimes revisiting the faint second impression with pastel.",
+      "when": "Capture a gesture or brushy atmosphere in a unique print.",
+      "why": "With no cut image locking in the marks, the wet pigment can move and drag on the plate.",
+      "source": {
+        "label": "MoMA | Monotype",
+        "href": "https://mobile-api.moma.org/collection/terms/monotype"
+      }
+    },
+    {
+      "name": "chiaroscuro woodcut",
+      "look": "Dark outlines and several broad midtone blocks organize the highlights.",
+      "history": "Renaissance printmakers including Ugo da Carpi used multiple blocks to make prints that recalled drawings on colored paper.",
+      "when": "Make an edition with a small number of carefully chosen tones.",
+      "why": "Each block can carry one distinct level of light and dark.",
+      "source": {
+        "label": "The Met | The Woodcut",
+        "href": "https://www.metmuseum.org/essays/the-printed-image-in-the-west-woodcut"
+      }
+    },
+    {
+      "name": "pochoir stencil",
+      "look": "Jade, orange and pink color sit in sharply bounded shapes.",
+      "history": "French publishers and designers used hand-coloring with stencils for luxury fashion albums and art books in the early 20th century.",
+      "when": "Repeat clean, bright shapes across a small edition.",
+      "why": "Brush-applied color can stay vivid and thick inside each cut opening.",
+      "source": {
+        "label": "MoMA | Pochoir",
+        "href": "https://www.moma.org/collection/terms/pochoir"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Shared pose of profile portrait turned towards viewer holding mug at waist with window beyond. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: wood engraving, white tiny parallel dashes carved into dense black end-grain relief, highly detailed stark black and white. TOP RIGHT: monotype, free painterly streaks and thumb wipes with cloudy ultramarine, rose and yellow fields and soft edges as on a unique pull. BOTTOM LEFT: chiaroscuro woodcut with only black key line, brown, muted olive and bare paper as a few distinct flat tone blocks. BOTTOM RIGHT: pochoir stencil with richly opaque hand-applied pink-orange, jade and blue angular color fields on warm white stock, neat cut edges."
+}

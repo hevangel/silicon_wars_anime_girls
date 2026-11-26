@@ -1,0 +1,58 @@
+{
+  "intro": "The drawing can build action, clarify space, exaggerate a likeness or make a visual argument.",
+  "alt": "Four comic approaches use energetic ink, clear even contour, exaggerated glasses and a satirical giant mug.",
+  "image": "atlas-096.webp",
+  "variants": [
+    {
+      "name": "American comic book",
+      "look": "Variable black strokes and slanted perspective pull the figure into action.",
+      "history": "American comic books developed distinct narrative and print conventions from the 1930s, across genres including superhero, humor, horror and romance.",
+      "when": "Use line weight and framing to guide the reader through action within a panel.",
+      "why": "Thick foreground contours and diagonals make a dynamic path through a crowded panel.",
+      "source": {
+        "label": "Library of Congress · Comic Book Collection",
+        "href": "https://www.loc.gov/rr/print/coll/comic.html"
+      },
+      "period": "From the 1930s onward"
+    },
+    {
+      "name": "ligne claire",
+      "look": "Nearly uniform contour and solid color clarify every overlap.",
+      "history": "Ligne claire is associated with Hergé and Franco-Belgian comics, where even contours and orderly spaces help the reader navigate scenes.",
+      "when": "Make foreground and background equally readable through a consistent line.",
+      "why": "Even line weight separates adjacent shapes without relying on light or deep shadow.",
+      "source": {
+        "label": "Musée Hergé",
+        "href": "https://museeherge.be/en"
+      },
+      "period": "Especially mid-20th century onward"
+    },
+    {
+      "name": "caricature",
+      "look": "Oversized glasses and a reduced body give the figure a recognizable exaggeration.",
+      "history": "Caricature developed as portrait exaggeration and became an enduring practice in illustrated print culture.",
+      "when": "Exaggerate the feature the audience will still recognize at a glance.",
+      "why": "Departures from ordinary proportion let a few distinctive features stand in for exact likeness.",
+      "source": {
+        "label": "Library of Congress · Cartoon Drawings",
+        "href": "https://www.loc.gov/pictures/collection/acd/"
+      },
+      "period": "European print traditions especially from the 17th–18th century onward"
+    },
+    {
+      "name": "editorial cartoon",
+      "look": "A giant coffee mug blocking the office door makes the argument visible without a caption.",
+      "history": "Editorial cartoonists have used exaggeration, analogy and visual shorthand to comment on public affairs.",
+      "when": "Build the central argument around a single visual metaphor.",
+      "why": "A single impossible object renders a point of view legible immediately.",
+      "source": {
+        "label": "Library of Congress · Herblock",
+        "href": "https://www.loc.gov/exhibits/herblock/"
+      },
+      "period": "Widely circulated in illustrated periodicals from the 19th century onward"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: American comic book: explosive angled perspective and firm variable nib strokes, ink contrast and rich cyan print shading; ligne claire: even weight ink contour without hatching, solid sky blue and pale salmon color blocks, clear figure on carefully defined uncluttered background; caricature: big, exaggerated glasses and lanyard shape with tiny angular body and a knowing expression in delicate pencil and watercolor; editorial cartoon: big satirical visual metaphor of a coffee cup blocking a meeting room door and executive squeezed to one side, black ink and single red accent. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1254,
+  "height": 1254
+}

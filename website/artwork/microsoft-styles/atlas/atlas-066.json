@@ -1,0 +1,54 @@
+{
+  "intro": "Compare four ways an image can depart from familiar appearances. The strangeness can come from urban space, brushwork, spontaneous marks or the details of an individual life.",
+  "alt": "An arcade with long shadows, a rough café scene, a field of floating marks and a direct portrait of Microsoft among symbolic objects.",
+  "image": "atlas-066.webp",
+  "variants": [
+    {
+      "name": "Metaphysical painting",
+      "look": "The nearly empty arcade and unnaturally long shadows turn a recognizable space into an uneasy one.",
+      "history": "In the 1910s, Giorgio de Chirico and others used empty piazzas and unexpected objects to give scenes an enigmatic atmosphere.",
+      "when": "Study how a recognizable place becomes strange when light, scale or familiar objects feel disconnected.",
+      "why": "An open space draws attention to every isolated object and shadow as possible clues.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/collection/works/80419"
+      }
+    },
+    {
+      "name": "School of Paris",
+      "look": "The café figure has strongly colored contours and a rough surface against an oddly colored room.",
+      "history": "School of Paris is a loose label that has been applied to international artists who worked in Paris. Their many media and styles cannot be reduced to a common formula.",
+      "when": "Start with a named artist when using this label to orient your research.",
+      "why": "Knowing where artists worked can explain contact and exchange even when their pictures look very different.",
+      "source": {
+        "label": "Centre Pompidou",
+        "href": "https://www.centrepompidou.fr/en/collection/visual-arts"
+      }
+    },
+    {
+      "name": "Abstract Surrealism",
+      "look": "Thin wandering marks and biomorphic shapes gather and disperse across the field.",
+      "history": "Surrealists experimented with automatic drawing and other processes that loosened deliberate control. Some of these works approach abstraction while others retain recognizable figures.",
+      "when": "Study how a mark or texture can start a sequence before the image's subject has been settled.",
+      "why": "The process allows visual associations to emerge gradually from placements, accidents and alterations.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/collection/terms/surrealism"
+      }
+    },
+    {
+      "name": "Kahlo and Mexican modernism",
+      "look": "A direct gaze and carefully selected objects make the portrait feel both literal and symbolic.",
+      "history": "Frida Kahlo made personal images within the diverse setting of Mexican modernism. Her work drew on specific experiences and Mexican visual practices, including small devotional paintings.",
+      "when": "Study particular works when you want to see how objects gain meaning through their relation to an individual's life.",
+      "why": "A steady portrait composition gives the viewer time to notice, and question, the meaning of the objects around the person.",
+      "source": {
+        "label": "Madison Museum of Contemporary Art",
+        "href": "https://www.mmoca.org/art/mexican-modernists/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Metaphysical painting: half-empty urban arcade, sharp late light, extended shadows and mannequinesque silhouette with modern woman; School of Paris: expressionist urban café painting with rough paint touch and colored contours of modern woman, unusual ghost-blue ground; Abstract Surrealism: automatic drifting marks, biomorphic shapes and thin stringlike brushlines in floating field, modern woman as viewer; Kahlo and Mexican modernism: contemporary fictional artist-study portrait of unchanged modern ash-blonde woman before quiet leafy arch, direct gaze and personal symbolic office objects, no Kahlo facial traits and no copied composition. No lettering, captions, watermark or ornamental frame."
+}

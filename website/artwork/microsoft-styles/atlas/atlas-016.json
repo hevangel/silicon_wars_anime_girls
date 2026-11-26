@@ -1,0 +1,54 @@
+{
+  "intro": "Each statuette occupies space, but its material changes the character of every fold, edge and reflection.",
+  "alt": "Four freestanding figures wearing glasses, in white marble, dark bronze, amber wood and red-orange terracotta.",
+  "image": "atlas-016.webp",
+  "variants": [
+    {
+      "name": "freestanding marble sculpture",
+      "look": "Light slides across the smooth white stone and sits inside carved folds.",
+      "history": "Carrara marble was prized by European sculptors. Renaissance artists such as Michelangelo carved large figures from single blocks.",
+      "when": "Make a durable figure with gradual modeling and precise planes.",
+      "why": "Stone can retain smooth, light-reflecting surfaces and crisp cut details.",
+      "source": {
+        "label": "V&A | Sculpture techniques",
+        "href": "https://www.vam.ac.uk/articles/sculpture-techniques"
+      }
+    },
+    {
+      "name": "cast bronze sculpture",
+      "look": "The dark figure reflects light on the edges, with patches of patina.",
+      "history": "Lost-wax bronze casting was used for ancient statues and flourished again in Renaissance workshops, including Donatello's.",
+      "when": "Choose a material for thin elements that project beyond the main figure.",
+      "why": "Bronze can take small detail from the model and support shapes that would be fragile in some stone.",
+      "source": {
+        "label": "V&A | Sculpture techniques",
+        "href": "https://www.vam.ac.uk/articles/sculpture-techniques"
+      }
+    },
+    {
+      "name": "wood sculpture",
+      "look": "Grain follows the contours, interrupted by sharp chisel marks.",
+      "history": "Wood has served carving traditions throughout the world. Late medieval German altarpieces often include intricate figures carved from limewood.",
+      "when": "Shape a figure whose natural material stays visible after finishing.",
+      "why": "Grain adds directional texture; the carver can follow or interrupt it to define a form.",
+      "source": {
+        "label": "The Met | Late medieval German sculpture",
+        "href": "https://www.metmuseum.org/ru/essays/late-medieval-german-sculpture-materials-and-techniques"
+      }
+    },
+    {
+      "name": "terracotta sculpture",
+      "look": "The warm clay retains soft transitions, shallow tool marks and a porous surface.",
+      "history": "Unassisted or molded modeling in fired clay has produced figures for millennia, from ancient votive objects to artists’ studies for works in stone.",
+      "when": "Create a small portrait with direct hand marks and broad volumes.",
+      "why": "Soft clay records additions, compression and tool pressure before firing.",
+      "source": {
+        "label": "V&A | Sculpture techniques",
+        "href": "https://www.vam.ac.uk/articles/sculpture-techniques"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Photograph four freestanding gallery statuettes of the original character in same body posture and studio relative camera angle. Repeat the sculpted rectangular glasses and low bun and dress and cup in each; no painted eyes or modern person. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: Carved white Carrara marble with fine satin finish, subtle veining and directly modeled folds with stone sheen. top right: dark brown lost-wax bronze, seams subtle, a little blue-green patina at crevices, finely cast thin geometries. bottom left: polished dark amber wood carving, concentric natural grain striations and chisel facets, earthy irregular cavities. bottom right: warm orange handmodeled terracotta with thumb marks, rough porous texture and substantial broad volumes."
+}

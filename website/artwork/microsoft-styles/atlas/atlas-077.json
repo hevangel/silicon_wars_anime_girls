@@ -1,0 +1,58 @@
+{
+  "intro": "Each site advertises a different idea of how buildings work.",
+  "alt": "Four built settings feature an oversized pediment, exposed bracing, modular capsules and a spiraling pavilion.",
+  "image": "atlas-077.webp",
+  "variants": [
+    {
+      "name": "postmodern architecture",
+      "look": "An oversized classical reference turns the façade into a joke about architectural convention.",
+      "history": "Postmodern architects such as Robert Venturi used historical references, ambiguity and decoration to question modernist orthodoxy.",
+      "when": "Let the façade communicate through multiple recognizable references.",
+      "why": "A familiar form placed at an unexpected scale invites interpretation as well as recognition.",
+      "source": {
+        "label": "MoMA · Robert Venturi",
+        "href": "https://www.moma.org/collection/artists/6147"
+      },
+      "period": "From the 1960s, especially the 1970s–1980s"
+    },
+    {
+      "name": "high-tech architecture",
+      "look": "External braces and exposed services draw the structure as a colored diagram.",
+      "history": "High-tech architecture made industrial construction visible, as at the Centre Pompidou designed by Renzo Piano and Richard Rogers.",
+      "when": "Expose structure or mechanical systems when they can explain the building.",
+      "why": "Visible braces and services reveal connections that a conventional skin would conceal.",
+      "source": {
+        "label": "Centre Pompidou · The building",
+        "href": "https://www.centrepompidou.fr/en/collection/our-building"
+      },
+      "period": "From the 1970s"
+    },
+    {
+      "name": "Metabolism",
+      "look": "Identical projecting units make a tower read as a collection of capsules.",
+      "history": "Japanese Metabolists proposed that cities and buildings could grow by replacing or adding standardized parts.",
+      "when": "Use a fixed core and replaceable units to imagine change over time.",
+      "why": "A standardized unit makes the relationship between individual dwelling and whole tower legible.",
+      "source": {
+        "label": "MoMA · The Many Lives of the Nakagin Capsule Tower",
+        "href": "https://www.moma.org/calendar/exhibitions/5830"
+      },
+      "period": "From the 1960 Tokyo manifesto"
+    },
+    {
+      "name": "parametric architecture",
+      "look": "Related curved ribs vary incrementally as they wrap upward.",
+      "history": "Architects use computational models to link geometric parameters so that changes propagate through many interdependent parts.",
+      "when": "Coordinate a family of related forms without treating every piece as identical.",
+      "why": "A linked set of rules makes complex variation consistent across many distinct pieces.",
+      "source": {
+        "label": "AA School · Design Research Laboratory",
+        "href": "https://www.aaschool.ac.uk/academicprogrammes/postgraduate/design-research-laboratory"
+      },
+      "period": "Especially since the 1990s"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, postmodern building: bold pink pediment and anthropomorphic column capitals, deliberate contrast of old and new forms; high-tech building: precise visible stainless cross bracing, yellow services, glass and trusses; Metabolism: towers with individual light-colored prefabricated capsule pods stacked on a dark central core; parametric architecture: curving ribbed pavilion spirals up like a shell, repeated ribs change spacing and depth. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

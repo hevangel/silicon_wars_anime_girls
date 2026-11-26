@@ -1,0 +1,34 @@
+{
+  "intro": "Follow the edge as it goes from a painted boundary to an object in the room.",
+  "alt": "A crisp geometric painting sits beside an angular folded gallery sculpture.",
+  "image": "atlas-071.webp",
+  "variants": [
+    {
+      "name": "hard-edge painting",
+      "look": "Cobalt, red and pale shapes meet on perfectly uniform borders.",
+      "history": "Jules Langsner coined the term for disciplined abstract painting by artists associated with the 1959 California exhibition Four Abstract Classicists.",
+      "when": "Make the exact boundary between two colors do the compositional work.",
+      "why": "With surface detail pared back, small changes in proportion and adjacency become easier to read.",
+      "source": {
+        "label": "Tate · Hard-edge painting",
+        "href": "https://www.tate.org.uk/art/art-terms/h/hard-edge-painting"
+      },
+      "period": "Late 1950s–1960s"
+    },
+    {
+      "name": "Neo-Concrete",
+      "look": "Folded planes, changing shadows and floating joints invite a walk around the work.",
+      "history": "The 1959 Neo-Concrete Manifesto in Brazil emphasized experienced form and became associated with artists such as Lygia Clark and Hélio Oiticica.",
+      "when": "Give geometric form a relationship to an active viewer.",
+      "why": "Shadows and overlapping facets change as the viewer or object moves.",
+      "source": {
+        "label": "MoMA · Neo-concrete art",
+        "href": "https://www.moma.org/collection/terms/neo-concrete-art"
+      },
+      "period": "Late 1950s–early 1960s"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is two evenly split side-by-side cells, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: hard-edge painting: flat cobalt, vermilion and ivory with razor-precise interlocking painted planes, no texture; Neo-Concrete: the same character and mug constructed as a white folded metal gallery object with hinged planes spiraling into open space, shadow and perspective expose how viewers could move around it. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1774,
+  "height": 887
+}

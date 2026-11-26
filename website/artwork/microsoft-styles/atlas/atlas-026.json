@@ -1,0 +1,43 @@
+{
+  "intro": "These three design traditions often share a surface. Compare the pace of a pen stroke, the rotation of a star and the unfurling of a stem.",
+  "alt": "The figure sits in three different frames based on flowing non-letter brush marks, white and blue geometric stars, and winding carved leaves.",
+  "image": "atlas-026.webp",
+  "variants": [
+    {
+      "name": "Islamic calligraphy",
+      "look": "Broad and narrow marks imitate the cadence of a pen, without representing words.",
+      "history": "Islamic calligraphic traditions use scripts including Arabic, Persian and Ottoman Turkish in manuscripts, inscriptions and objects. Actual calligraphy carries language and meaning.",
+      "when": "Work with a calligrapher when text and letterform should both shape an object.",
+      "why": "A differentiated pen stroke turns the rhythm of reading into a visual structure.",
+      "source": {
+        "label": "The Met | Islamic calligraphy",
+        "href": "https://www.metmuseum.org/exhibitions/listings/2019/decorated-word-islamic-calligraphy"
+      }
+    },
+    {
+      "name": "geometric pattern",
+      "look": "Repeated point stars and polygons interlock across the surface.",
+      "history": "Geometry appears in many Islamic art traditions, including tiles, carved surfaces and manuscript borders. Straightedge-and-compass constructions can generate repeating layouts.",
+      "when": "Make a pattern that can extend across a wall or page in every direction.",
+      "why": "The same rules organize detail at different scales and keep adjoining sections aligned.",
+      "source": {
+        "label": "The Met | Islamic art and geometric design",
+        "href": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/islamic_art_and_geometric_design.pdf"
+      }
+    },
+    {
+      "name": "arabesque",
+      "look": "Thin stems spiral and branch into curling leaves around a small portrait.",
+      "history": "Vegetal motifs developed across centuries and media in Islamic art. An arabesque often combines stylized leaves, tendrils and repeated branching.",
+      "when": "Fill a band or panel with ornament that feels continuous and alive.",
+      "why": "The branches make a dense pattern while guiding the eye from one curve to the next.",
+      "source": {
+        "label": "The Met | Vegetal patterns in Islamic art",
+        "href": "https://www.metmuseum.org/ko/essays/vegetal-patterns-in-islamic-art"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Make one wide image composed of three separate equal-width vertical artworks side by side with precise splits at thirds, full bleed with no gutters. Reveal three distinctive decorative languages framing a discreet portrait of the fictional office character. Plain badge and mug mark only, no actual text on portrait or frame.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. left: Flowing broad ink strokes interweave around central restrained wash silhouette of woman with glasses on ivory paper, calligraphic shapes drawn as abstract non-letter marks inspired by the pacing and thick-and-thin pen movement of Islamic calligraphy.. center: Rigorous interlocking ten-point white and indigo geometric star polygons, no tendrils, the same recognizable woman as a small dark cameo surrounded by latticed star webs.. right: Branching leafy arabesque in warm olive and ochre with continuous serpentine stems across a rich brown carved wood panel, small elliptical cameo portrait of character nested in negative space.."
+}

@@ -1,0 +1,43 @@
+{
+  "intro": "One panel starts from a place, another from a devotional image, and a third from the repeated acts of making a painting.",
+  "alt": "Microsoft compares three Korean-art studies of mountains, an ornate Buddhist image and a ridged pale canvas.",
+  "image": "atlas-037.webp",
+  "variants": [
+    {
+      "name": "true-view landscape",
+      "look": "Dark pines stand out against layered ridges and washes that make the far hills look cool and distant.",
+      "history": "In late Joseon Korea, Jeong Seon and others developed an approach grounded in recognizable Korean sites.",
+      "when": "Study it when a landscape needs the recognizable structure of a real place and the painter's own emphasis.",
+      "why": "Observation locates the viewer, while choices of ink and viewpoint direct attention to what makes the site particular.",
+      "source": {
+        "label": "Smithsonian National Museum of Asian Art",
+        "href": "https://asia.si.edu/accessibility/accessible-exhibition-text-korean-treasures/"
+      }
+    },
+    {
+      "name": "Goryeo Buddhist painting",
+      "look": "Follow the fine gold contours and the translucent layers of red fabric around the devotional figure.",
+      "history": "Surviving Goryeo Buddhist paintings from thirteenth- and fourteenth-century Korea use ink, pigments and often gold on silk to convey Buddhist figures and teachings.",
+      "when": "Look here for the coordination of ornamental detail, devotional hierarchy and carefully controlled color.",
+      "why": "Outline and sheen give a devotional image clarity and presence at different viewing distances.",
+      "source": {
+        "label": "Smithsonian National Museum of Asian Art",
+        "href": "https://publications.asia.si.edu/publications/goryeo/en/default.php"
+      }
+    },
+    {
+      "name": "Dansaekhwa",
+      "look": "Pale parallel grooves and ridges become conspicuous as light travels across the surface.",
+      "history": "During the 1970s, Korean artists gathered around approaches later described as Dansaekhwa, using repeated processes that differ substantially from painter to painter.",
+      "when": "Study it when the painting's making and surface are the main event.",
+      "why": "With a narrow range of color, small changes in pressure, light and texture have more visual room.",
+      "source": {
+        "label": "National Museum of Modern and Contemporary Art, Korea",
+        "href": "https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201203200000055&menuId=1030000000"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Educational museum style comparison board. Exactly 3 equally wide scenes side by side in stated order in a horizontal 3:1 montage, thin vertical dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn in every scene, black blazer and knee-length black sheath dress, blue lanyard and blank badge, white coffee mug with four colored squares. As specified she may be an exhibit visitor or the artwork subject. Prioritize obvious historical differences. Individual examples: true-view Korean landscape painting of recognizable folded Seoul mountains with dry dark pine marks and atmospheric ink washes; Goryeo Buddhist painting behind glass of an elegantly outlined devotional figure draped in sheer red fabric and fine gold ornament, respectful exhibit; Dansaekhwa study of white ridges and fine parallel grooves in scraped and painted canvas. Keep panels instantly distinguishable, artwork fills most of each panel. No lettering, captions, watermark or ornamental frame."
+}

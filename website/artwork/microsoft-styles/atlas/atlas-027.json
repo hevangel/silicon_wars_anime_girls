@@ -1,0 +1,54 @@
+{
+  "intro": "Look from the foreground figure to the edges of each picture. These courtly examples use different ways to arrange architecture, color and landscape around a person.",
+  "alt": "Four court-inspired portrayals in an Ottoman audience, a formal Qajar portrait, a Rajput terrace and a gently shaded Pahari garden.",
+  "image": "atlas-027.webp",
+  "variants": [
+    {
+      "name": "Ottoman miniature",
+      "look": "An ornamental courtyard stacks architecture and figures upward in the page.",
+      "history": "Ottoman court workshops illustrated histories, royal ceremonies and literary works. The Sürname-i Hümayun manuscript records festivities in stylized scenes.",
+      "when": "Fit a crowded formal occasion and its architecture onto a small page.",
+      "why": "Raising the background makes many figures visible without naturalistic perspective hiding them.",
+      "source": {
+        "label": "The Met | Turkish Miniature Paintings and Manuscripts",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Turkish_Miniature_Paintings_and_Manuscripts_from_the_Collection_of_Edwin_Binney_3rd.pdf"
+      }
+    },
+    {
+      "name": "Qajar painting",
+      "look": "A frontal figure, arched eyebrows and deep jewel colors create a formal presence.",
+      "history": "Qajar art in Iran includes imposing oil portraits of rulers and courtiers. Fath Ali Shah used highly recognizable portraits to project his authority.",
+      "when": "Build a tightly controlled portrait with strong posture and costume detail.",
+      "why": "Symmetry and large patches of saturated color concentrate attention on the sitter.",
+      "source": {
+        "label": "The Met | Nineteenth-century Iranian art",
+        "href": "https://www.metmuseum.org/de/essays/nineteenth-century-iran-art-and-the-advent-of-modernity"
+      }
+    },
+    {
+      "name": "Rajput miniature",
+      "look": "Flat saturated colors separate figure, courtyard and sky into distinct planes.",
+      "history": "Rajput court workshops in Rajasthan painted courtly life, religious stories and poetry on paper. Different centers developed their own visual conventions.",
+      "when": "Narrate a brief event using a character, a terrace and a clearly colored sky.",
+      "why": "The flat fields separate events and settings without hiding the small figure.",
+      "source": {
+        "label": "The Met | Indian Skies",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Indian_Skies_Hodgkin_Collection.pdf"
+      }
+    },
+    {
+      "name": "Pahari miniature",
+      "look": "A finely outlined figure sits among softly rounded hills and restrained color.",
+      "history": "Pahari paintings developed in hill kingdoms of northern India. Artists such as Manaku and Nainsukh worked in distinct workshop traditions.",
+      "when": "Set a small intimate encounter into a landscape that will reward close viewing.",
+      "why": "Picked-out details and soft distances let emotion and atmosphere share the surface.",
+      "source": {
+        "label": "The Met | Manaku and Pahari painting",
+        "href": "https://www.metmuseum.org/perspectives/seeing-the-divine-creative-process-manaku-pahari-painting"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Show heroine as the main person in four court illustration artworks, use distinct visual methods. Mug in hand, dress and glasses in every scene.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Ottoman illuminated miniature, ultra-fine ink, sharply flat red and green ornamental courtyard and spaces stacked vertically behind royal audience.. top right: Qajar oil portrait on canvas, stately regal frontal pose holding cup, strongly arched eyebrows, black and vermilion, deep dark outlines and lacquerlike jewel richness.. bottom left: Rajput miniature on opaque watercolor paper, saturated yellow/red sky, flat color silhouettes in a profile terrace scene, neat white borders, canonical strong plane design.. bottom right: Pahari miniature with softly brushed gray mist, lush and gently rounded hill garden, delicate rhythmic leaves, very fine precise line and muted spring-green palette.."
+}

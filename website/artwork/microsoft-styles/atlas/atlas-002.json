@@ -1,0 +1,54 @@
+{
+  "intro": "Look at the edges around the glasses and mug. Some tools make broad fields of color, while others reveal a picture one narrow line at a time.",
+  "alt": "Four portraits in thick oil pastel, soft airbrush color, white scratchboard lines and blue-gray markers.",
+  "image": "atlas-002.webp",
+  "variants": [
+    {
+      "name": "oil pastel",
+      "look": "Thick violet and coral strokes catch on the paper, leaving bright crumbs of color.",
+      "history": "Pigment held in wax and nondrying oil forms a pastel that can be blended and layered.",
+      "when": "Make a close portrait where you want an emphatic record of pressure and gesture.",
+      "why": "Its oily binder helps strong colors layer and smear into one another.",
+      "source": {
+        "label": "MFA Boston | Oil pastel",
+        "href": "https://cameo.mfa.org/wiki/Oil_pastel"
+      }
+    },
+    {
+      "name": "airbrush art",
+      "look": "Smooth cyan and magenta gradients soften nearly every edge.",
+      "history": "Compressed-air paint sprayers became common tools in commercial illustration and retouching during the 20th century.",
+      "when": "Render a glowing surface or a soft shadow around a hard object.",
+      "why": "Fine droplets can build an even gradient without brush marks.",
+      "source": {
+        "label": "MFA Boston | Airbrush",
+        "href": "https://cameo.mfa.org/wiki/Airbrush"
+      }
+    },
+    {
+      "name": "scratchboard",
+      "look": "Thin pale scratches stand out against a black ground.",
+      "history": "Commercial illustrators used prepared boards with a light layer under black ink, scratching the top layer away for white marks.",
+      "when": "Make a black-and-white image with strongly lit threads, hair or fabric.",
+      "why": "Carving highlights out of the ground leaves a powerful silhouette and a crisp white line.",
+      "source": {
+        "label": "Georgia Museum of Art | Scratchboard art",
+        "href": "https://georgiamuseum.org/art-at-home/art-at-home-scratchboard-art/"
+      }
+    },
+    {
+      "name": "marker rendering",
+      "look": "Broad parallel chisel-tip marks overlap in the jacket and background.",
+      "history": "Felt-tip pens became widely available in the 20th century and color markers found a place in design studios and architectural rendering.",
+      "when": "Sketch a product, room or costume quickly with a small set of colors.",
+      "why": "Transparent strokes make it easy to build up a darker value without waiting for paint to dry.",
+      "source": {
+        "label": "MFA Boston | Felt-tip pen",
+        "href": "https://cameo.mfa.org/wiki/Felt_tip_pen"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Show the framed character holding her coffee at an easel, identical waist-up composition. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: crumbly thick oil pastel in violet/coral/ochre on grainy paper, short visible strokes and painterly clumps. TOP RIGHT: airbrushed illustration with glowing turquoise-magenta seamless transitions and soft shadows. BOTTOM LEFT: scratchboard with only white scraped parallel lines revealing form in an almost completely black field, bold cut highlights. BOTTOM RIGHT: architect's marker rendering on white with translucent parallel warm gray and blue overlapping chisel-tip strokes."
+}

@@ -1,0 +1,58 @@
+{
+  "intro": "The shapes of hands, joints and silhouettes suggest how they might move between drawings.",
+  "alt": "Four animation looks move from rounded drawn forms through flexible limbs and graphic economy to cut-paper silhouettes.",
+  "image": "atlas-089.webp",
+  "variants": [
+    {
+      "name": "classic hand-drawn animation",
+      "look": "Rounded forms and carefully drawn overlaps imply weight in the body.",
+      "history": "Studio cel animation layered hand-drawn figures over painted backgrounds, often with many drawings and carefully planned timing.",
+      "when": "Define the character in turns and weight shifts as well as in a single outline.",
+      "why": "Overlapping volumes and solid construction help a figure maintain weight as it turns.",
+      "source": {
+        "label": "Walt Disney Family Museum · inking and painting animation cels",
+        "href": "https://www.waltdisney.org/blog/open-studio-try-home"
+      },
+      "period": "Especially 1920s through the late 20th century"
+    },
+    {
+      "name": "1930s rubber-hose animation",
+      "look": "Limbs curve like hose and emphasize the mug-lifting gesture.",
+      "history": "Many late silent and early sound cartoons used pliable limbs and rhythmic motion as a distinctive style.",
+      "when": "Treat the body as an elastic shape to make an everyday action feel musical.",
+      "why": "Continuously flexible contours let the silhouette register rhythm even without hinges or elbows.",
+      "source": {
+        "label": "Library of Congress · The Origins of American Animation",
+        "href": "https://www.loc.gov/collections/origins-of-american-animation/about-this-collection/"
+      },
+      "period": "Late 1920s–1930s"
+    },
+    {
+      "name": "mid-century limited animation",
+      "look": "Sparse geometric areas, angular poses and a small palette define a graphic frame.",
+      "history": "Mid-century studios such as UPA developed stylized designs that could work with fewer new drawings and selective movement.",
+      "when": "Place the effort in memorable poses and deliberate changes between them.",
+      "why": "Simple shapes are easy to hold still, reuse and change in selective parts of a shot.",
+      "source": {
+        "label": "Academy Museum · Animation",
+        "href": "https://www.academymuseum.org/en"
+      },
+      "period": "1940s–1960s"
+    },
+    {
+      "name": "silhouette cut-out animation",
+      "look": "Hair, glasses and the mug remain legible in edge-lit paper profiles.",
+      "history": "Lotte Reiniger used articulated silhouettes to produce animated films, including The Adventures of Prince Achmed.",
+      "when": "Test what profile and prop silhouette can carry before adding detail.",
+      "why": "A silhouette has so few internal cues that the profile and prop carry most of the recognition.",
+      "source": {
+        "label": "BFI · Lotte Reiniger’s paper cut-outs",
+        "href": "https://www.bfi.org.uk/inside-the-archive/features/object-week-lotte-reiniger-cut-out-figures-backgrounds-cinderella"
+      },
+      "period": "1910s onward, with Prince Achmed in 1926"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: classic hand-drawn animation: rounded full-animation character with space and weight, clean contours and warm gouache environment; 1930s rubber-hose animation: black and white film grain, coil-like flexible limbs and rhythmic glove-and-mug gesture; mid-century limited animation: sparse sloping fields, angular graphic simplified shapes, small flat color palette and graphic office; silhouette cut-out animation: black paper articulated executive profile survives through glasses cutout, the hair bun and handled mug, translucent cream background. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1254,
+  "height": 1254
+}

@@ -1,0 +1,58 @@
+{
+  "intro": "These contemporary scenes show period tendencies in modeling, texture and lighting. Individual games varied widely across each system.",
+  "alt": "Four real-time console-inspired views show a foggy courtyard, a muted office, a saturated kiosk and a rounded lounge.",
+  "image": "atlas-093.webp",
+  "variants": [
+    {
+      "name": "N64-era 3D",
+      "look": "Simple angled meshes stand out against a foggy distance and softened patterns.",
+      "history": "Nintendo launched the Nintendo 64 in 1996. Many games from this generation worked with small textures and relatively simple geometry.",
+      "when": "Let the most important edges read clearly against a simplified distant backdrop.",
+      "why": "Large silhouette changes remain visible when fine texture is blurred or geometry scarce.",
+      "source": {
+        "label": "Nintendo · History",
+        "href": "https://www.nintendo.co.uk/Corporate/Nintendo-History/Nintendo-History-625945.html"
+      },
+      "period": "From 1996"
+    },
+    {
+      "name": "PS2-era 3D",
+      "look": "A more detailed environment uses subdued hues and painted-looking wear.",
+      "history": "Sony launched PlayStation 2 in 2000. Games of the era explored denser 3D environments and increasingly ambitious lighting and effects.",
+      "when": "Set a clear atmosphere through texture detail and broad light-dark contrasts.",
+      "why": "Gradients and surface variation can indicate wear, depth and mood without adding objects.",
+      "source": {
+        "label": "PlayStation · 30 years",
+        "href": "https://www.playstation.com/en-us/playstation-history/"
+      },
+      "period": "From 2000"
+    },
+    {
+      "name": "Dreamcast-era 3D",
+      "look": "Bright color and bold textured shapes keep the scene easy to read.",
+      "history": "Sega launched Dreamcast in Japan in 1998. Arcade development was an important source of games and design for the system.",
+      "when": "Make silhouettes legible quickly with a restricted set of saturated cues.",
+      "why": "Distinct color regions help a fast-moving player parse the stage and figure quickly.",
+      "source": {
+        "label": "SEGA · Dreamcast hardware history",
+        "href": "https://www.sega.jp/history/hard/dreamcast/"
+      },
+      "period": "From 1998"
+    },
+    {
+      "name": "GameCube-era 3D",
+      "look": "Rounded models and soft color changes separate objects in a busy lounge.",
+      "history": "Nintendo introduced GameCube in 2001, with hardware capable of layered textures and varied shading used for many different game looks.",
+      "when": "Use softly separated values to keep a richly colored scene readable.",
+      "why": "Rounded volumes and soft shading separate layered forms within a detailed environment.",
+      "source": {
+        "label": "Nintendo · History",
+        "href": "https://www.nintendo.co.uk/Corporate/Nintendo-History/Nintendo-History-625945.html"
+      },
+      "period": "From 2001"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: N64-era 3D: low triangulated character with blurred textures and distance fog, angular sparse stone courtyard; PS2-era 3D: more elaborate urban office environment, muted color grading, strong shadow blur, scuffed material textures; Dreamcast-era 3D: clean bright saturated kiosk, crisp high-contrast texture decals, simple glossy arcade-like shapes and strongly readable silhouette; GameCube-era 3D: dense colorful cozy modernist lounge, varied soft gradients, stylized rounder detailed models and clean saturated light. Original worlds only, each genuinely reads as historical real-time 3D screenshot. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1254,
+  "height": 1254
+}

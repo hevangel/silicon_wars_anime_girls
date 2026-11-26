@@ -1,0 +1,54 @@
+{
+  "intro": "Painters gave figures and objects a sense of place through changes in light, weight, receding space and surface detail. These four treatments include overlapping categories.",
+  "alt": "Four Renaissance-inspired painting studies. A figure appears on a gold ground, in detailed oil interiors and among a pyramidal group.",
+  "image": "atlas-051.webp",
+  "variants": [
+    {
+      "name": "Proto-Renaissance",
+      "look": "A weighty figure and a ledge suggest shallow space against a field of gold.",
+      "history": "Italian painters around 1300, including Giotto, explored ways to give figures volume and make narrative scenes spatially clear.",
+      "when": "Look here when you need to show a figure that can carry an object or lean into another figure while retaining a stylized setting.",
+      "why": "A few coherent changes of light and weight are enough for the viewer to imagine a body under cloth.",
+      "source": {
+        "label": "National Gallery of Art",
+        "href": "https://www.nga.gov/sites/default/files/2025-09/an_eye_for_art_opt.pdf"
+      }
+    },
+    {
+      "name": "Early Netherlandish painting",
+      "look": "Oil-painted highlights pick out the edges of objects and the sheen of a polished vessel.",
+      "history": "In the fifteenth-century Low Countries, painters refined layered oil techniques for works that included portraits, altarpieces and devotional panels.",
+      "when": "Study how a small reflected highlight can set the scale and material of an object.",
+      "why": "Thin paint layers can give a small image dark depth and sharp surface detail at the same time.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/de/essays/early-netherlandish-painting"
+      }
+    },
+    {
+      "name": "Northern Renaissance",
+      "look": "The eye can move from carefully depicted objects in an indoor setting to the brighter landscape beyond.",
+      "history": "Renaissance art north of the Alps varied across regions and overlapped with Early Netherlandish painting. Its artists developed sophisticated work in oils, drawing and prints.",
+      "when": "Study the way a single view can reward close inspection and still suggest a world outside the room.",
+      "why": "Specific textures help establish the foreground, while light and distance pull the eye farther through the picture.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/media/15643/methods_and_materials1997.pdf"
+      }
+    },
+    {
+      "name": "High Renaissance",
+      "look": "The people and the landscape are held in a balanced composition with overlapping forms and softened distance.",
+      "history": "The High Renaissance usually refers to a period of Italian Renaissance art around the turn of the sixteenth century, associated with artists including Leonardo, Raphael and Michelangelo.",
+      "when": "Study a many-figure composition when gestures need to lead toward a shared visual center.",
+      "why": "Grouping the biggest shapes into a simple structure makes individual faces and actions easier to locate.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/paintings/glossary/high-renaissance"
+      }
+    }
+  ],
+  "width": 1246,
+  "height": 1263,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Italian Proto-Renaissance figure study: panel painting with gilded ground, weighty draped seated figure and shallow spatial platform, compare conventions transparently; Early Netherlandish: tiny oil-glazed portrait by a polished brass vessel and sharp lace texture in shadowed room; Northern Renaissance: room adjoining an open luminous landscape, finely delineated woven textile, crystal and small cut flowers; High Renaissance: unified pyramidal grouping of figures in calm and atmospheric idealized landscape with softened edges. Repaint the recurring woman in the idiom where possible, never as a real past person. No lettering, captions, watermark or ornamental frame."
+}

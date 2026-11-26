@@ -1,0 +1,58 @@
+{
+  "intro": "Compare how a physical object or a digital interface presents its purpose.",
+  "alt": "Four product studies show rounded chrome, warm bent plywood, flat graphic blocks and tactile controls.",
+  "image": "atlas-073.webp",
+  "variants": [
+    {
+      "name": "Streamline Moderne",
+      "look": "A rounded appliance shell and chrome lines convey imagined speed.",
+      "history": "Streamlining moved from aerodynamic engineering into Depression-era design for trains, products and buildings.",
+      "when": "Let horizontal lines and a softened profile suggest movement in a stationary object.",
+      "why": "Horizontal bands suggest a flow continuing beyond the object’s front and rear.",
+      "source": {
+        "label": "Cooper Hewitt · Streamlining",
+        "href": "https://www.cooperhewitt.org/2017/01/22/streamlined/"
+      },
+      "period": "1930s–1940s"
+    },
+    {
+      "name": "mid-century modern",
+      "look": "Bent plywood, tapered legs and open floor area lighten the workspace.",
+      "history": "Mid-century designers used forms and materials such as molded plywood to make modern furniture suitable for everyday life.",
+      "when": "Use thin supports and shaped surfaces to make furniture feel light and practical.",
+      "why": "Curved plywood can serve as a seat, backrest or shell with relatively little visual bulk.",
+      "source": {
+        "label": "MoMA · Design for a New World",
+        "href": "https://www.moma.org/calendar/exhibitions/3867"
+      },
+      "period": "Mid-1940s–1960s"
+    },
+    {
+      "name": "flat design",
+      "look": "Broad flat areas and pictograms mark separate levels of information.",
+      "history": "Digital interfaces in the early 2010s increasingly used graphic color, spacing and simple icon outlines to establish hierarchy.",
+      "when": "Use simple shapes and spacing when the interface must scale clearly.",
+      "why": "Without material simulation, color and spacing signal grouping and sequence directly.",
+      "source": {
+        "label": "Microsoft · Windows 8",
+        "href": "https://news.microsoft.com/2012/10/25/microsoft-launches-windows-8/"
+      },
+      "period": "Early 2010s onward"
+    },
+    {
+      "name": "skeuomorphism",
+      "look": "Reflections, stitching and raised controls evoke a physical instrument.",
+      "history": "Early consumer interfaces often borrowed cues from familiar things such as address books, calculators and audio controls.",
+      "when": "Borrow material cues when a known object can explain how a control works.",
+      "why": "Familiar textures and raised shapes carry expectations about where to touch.",
+      "source": {
+        "label": "Apple · iOS 7 announcement",
+        "href": "https://www.apple.com/newsroom/2013/06/10Apple-Unveils-iOS-7/"
+      },
+      "period": "Especially visible in the 2000s–early 2010s"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is exactly four square cells in 2x2, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: Streamline Moderne: executive reviewing a bakelite desk appliance with rounded cream shell, horizontal cobalt speed lines and chrome trim; mid-century modern product design: warm bent plywood chair and a tapered-leg workspace, mustard and teal; flat design: figure as simple navy, blue and pink vector-like blocks and monoline interface pictograms with zero shading; skeuomorphism: embossed leather panel, chrome controls, real material reflections, stitched seams, raised buttons framing a photoreal portrait of the executive. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1254,
+  "height": 1254
+}

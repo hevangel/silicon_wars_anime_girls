@@ -1,0 +1,43 @@
+{
+  "intro": "Compare a Japanese approach to painting, a Japanese movement for everyday craft and a Korean folk painting tradition through the painted surface, the work of the hand and the choice of subject.",
+  "alt": "Microsoft views a heron painting, a display of handmade wares and a colorful tiger-and-magpie picture.",
+  "image": "atlas-036.webp",
+  "variants": [
+    {
+      "name": "Nihonga",
+      "look": "The light birds and reeds have finely controlled edges and a matte, finely layered surface.",
+      "history": "Nihonga took shape as a category in Meiji-era Japan, as artists and institutions reconsidered local painting traditions alongside imported European techniques.",
+      "when": "Study it when researching how modern painters worked with pigments and supports like paper and silk.",
+      "why": "Fine color adjustments can give a quiet motif more presence than strong light or shadow would.",
+      "source": {
+        "label": "Yamatane Museum of Art",
+        "href": "https://www.yamatane-museum.jp/en/nihonga/"
+      }
+    },
+    {
+      "name": "Mingei",
+      "look": "Look for how the lip of a pot feels in the hand, or how a textile bends and shows its weave.",
+      "history": "Yanagi Sōetsu and fellow craft advocates formed Japan's twentieth-century folk craft movement to champion beauty in useful handmade objects.",
+      "when": "Use it when thinking about how an object will be made, handled and used regularly.",
+      "why": "Handling brings the object's workmanship, durability and visual appeal into the same conversation.",
+      "source": {
+        "label": "SFO Museum",
+        "href": "https://www.sfomuseum.org/exhibitions/mingei-traditional-japanese-arts"
+      }
+    },
+    {
+      "name": "minhwa",
+      "look": "A tiger and magpie share a boldly outlined space, with lively shapes and vivid patches of color.",
+      "history": "Late Joseon examples of Korean folk painting circulated in domestic and decorative settings, often with auspicious themes. The term covers a wide range of subjects and makers.",
+      "when": "Study how a familiar animal or object can carry a wish, a joke or a social association.",
+      "why": "A memorable subject and strong silhouette let a picture communicate across a room.",
+      "source": {
+        "label": "Korea Foundation Koreana",
+        "href": "https://www.koreana.or.kr/koreana/na/ntt/selectNttInfo.do?bbsId=1114&nttSn=52800"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Educational museum style comparison board. Exactly 3 equally wide scenes side by side in stated order in a horizontal 3:1 montage, thin vertical dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn in every scene, black blazer and knee-length black sheath dress, blue lanyard and blank badge, white coffee mug with four colored squares. As specified she may be an exhibit visitor or the artwork subject. Prioritize obvious historical differences. Individual examples: Nihonga modern Japanese painting with mineral-pigment white herons and pale reeds on paper, close enough to see fine matte pigment; Mingei display of anonymous everyday brown slipware bowls, indigo cotton and woven bamboo with signs of hand work; Korean minhwa painting of a tiger and magpie on a crooked pine, bold flat colors and playful expression. Keep panels instantly distinguishable, artwork fills most of each panel. No lettering, captions, watermark or ornamental frame."
+}

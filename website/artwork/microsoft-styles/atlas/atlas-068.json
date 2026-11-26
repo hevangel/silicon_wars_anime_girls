@@ -1,0 +1,58 @@
+{
+  "intro": "Watch the planes converge, fragment, scatter and settle.",
+  "alt": "Four portraits in jagged black zigzags, luminous blue rays, repeated ochre planes and rounded cream geometry.",
+  "image": "atlas-068.webp",
+  "variants": [
+    {
+      "name": "Vorticism",
+      "look": "Black and brick-red angles pull the eye into a tight spiral behind her.",
+      "history": "Vorticism coalesced in London around Wyndham Lewis and the journal BLAST shortly before World War I.",
+      "when": "Use converging planes to give a still portrait the force of a machine.",
+      "why": "Converging diagonals give the background and face a shared angular direction.",
+      "source": {
+        "label": "Tate · Vorticism",
+        "href": "https://www.tate.org.uk/art/art-terms/v/vorticism"
+      },
+      "period": "1914–1915"
+    },
+    {
+      "name": "Rayonism",
+      "look": "Blue and gold diagonals pass through the face and mug.",
+      "history": "Mikhail Larionov and Natalia Goncharova developed Rayonism in Russia, treating rays and reflections as the building material of a painting.",
+      "when": "Choose intersecting bands of light when the subject should seem to dissolve.",
+      "why": "Crossing color streaks replace solid contours with apparent reflections.",
+      "source": {
+        "label": "MoMA · Rayonism",
+        "href": "https://www.moma.org/collection/terms/rayonism"
+      },
+      "period": "Early 1910s"
+    },
+    {
+      "name": "Cubo-Futurism",
+      "look": "Successive ochre mug silhouettes turn one small gesture into a sequence.",
+      "history": "Russian avant-garde artists combined fragmented Cubist forms with Futurist experiments in how to suggest movement.",
+      "when": "Repeat and displace a silhouette to imply several moments at once.",
+      "why": "A repeated outline lets the eye compare successive positions without moving the image.",
+      "source": {
+        "label": "MoMA · Revolution: Russian Avant-Garde",
+        "href": "https://www.moma.org/documents/moma_catalogue_1859_300062569.pdf"
+      },
+      "period": "Early to mid-1910s"
+    },
+    {
+      "name": "Purism",
+      "look": "The hair, backdrop and mug resolve into broad ovals and cylinders.",
+      "history": "Amédée Ozenfant and Charles-Édouard Jeanneret introduced Purism as a disciplined approach to form after Cubism.",
+      "when": "Reduce everyday objects to balanced, readily identifiable solids.",
+      "why": "Shared curves and restrained colors make each object feel part of a measured arrangement.",
+      "source": {
+        "label": "Tate · Purism",
+        "href": "https://www.tate.org.uk/art/art-terms/p/purism"
+      },
+      "period": "From 1918"
+    }
+  ],
+  "prompt": "Generate a square raster comparison board for a historical art reference, exactly 4 square panels in a precise 2x2 edge to edge, sharply divided at exact midpoint in each direction. Entire board no text, lettering or frames. Paint four entirely different fine art treatments of the same female executive, shoulders and hands with white coffee mug. Character reference describes a 30-year-old with ash-blonde neat low bun and small four-color windowpane hair clip, blue eyes with rectangular black-rimmed glasses, fitted charcoal blazer over charcoal sheath dress, azure pocket square, blue lanyard with blank white badge; mug has a small four-color square mark. Center the same repeated pose in each fully separate panel. Style should transform character herself. TOP LEFT Vorticism, an angular, jagged prismatic portrait with black zigzags converging into a vortex, white, brick and ochre. TOP RIGHT Rayonism, portrait partially dissolved into bright intersecting diagonal rays of blue, ochre and white on indigo. BOTTOM LEFT Cubo-Futurism, ochre-green fractured face and repeated angular shifting mug forms evoke motion, scaffold of hard planes. BOTTOM RIGHT Purism, a poised deliberately static acrylic-like arrangement of overlapping flat ovals and precisely contoured solids with muted ivory, sage, buff. Each panel completely distinct in colors, picture marks and composition; professional editorial museum publication. No legible text anywhere.",
+  "width": 1254,
+  "height": 1254
+}

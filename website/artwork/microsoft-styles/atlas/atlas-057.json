@@ -1,0 +1,54 @@
+{
+  "intro": "Each panel asks where ordinary people belong in a public picture. Compare the distance between the viewer and the crowd, the gesture and the wall.",
+  "alt": "Microsoft moves through a busy city, a scene of labor, a civic mural and a bright neighborhood mural.",
+  "image": "atlas-057.webp",
+  "variants": [
+    {
+      "name": "Ashcan School",
+      "look": "Broad dark brushwork, slanting forms and small accents make a bustling street feel in motion.",
+      "history": "The early twentieth-century American painters later known as the Ashcan School gave sustained attention to ordinary urban life, especially in New York.",
+      "when": "Study which details make a city feel busy without describing each person or building.",
+      "why": "Loose handling and stark contrasts register fleeting movement like a glance at the street.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/pt/essays/the-ashcan-school"
+      }
+    },
+    {
+      "name": "Social Realism",
+      "look": "Clearly seen hands, faces and shared gestures focus the scene on people at work.",
+      "history": "Social realism has emphasized social and economic conditions, often including workers and the effects of inequality. Artists used it in many settings, including Depression-era America.",
+      "when": "Study how the work itself changes the bodies and gestures of the people represented.",
+      "why": "Labor shown at large scale becomes integral to the picture's subject.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/collection/terms/social-realism"
+      }
+    },
+    {
+      "name": "New Deal mural",
+      "look": "Large connected figures and shapes repeat across a public interior.",
+      "history": "In the 1930s and early 1940s, U.S. federal programs supported artists and commissioned murals for post offices, schools and other public buildings.",
+      "when": "Study how a mural fits the purpose and traffic of a public building.",
+      "why": "A broad theme, repeated shapes and tall figures can be read by people who pass through at different speeds.",
+      "source": {
+        "label": "University of Kentucky Libraries",
+        "href": "https://libguides.uky.edu/AnnRiceOHanlon/NewDeal"
+      }
+    },
+    {
+      "name": "Chicano muralism",
+      "look": "Large contours and saturated colors join neighbors and historical subjects on a shared outdoor wall.",
+      "history": "Chicano muralists have brought Mexican American histories and community priorities into public space, especially since the late 1960s. Projects such as Judy Baca's Great Wall of Los Angeles continue to involve collaborative work.",
+      "when": "Study named projects to understand decisions about public histories, sites and participants.",
+      "why": "A shared wall gives people a sustained place to explore histories often missing from official displays.",
+      "source": {
+        "label": "Social and Public Art Resource Center",
+        "href": "https://sparcinla.org/programs/greatwallinstitute/painting-in-the-river-of-angels-judy-baca-and-the-great-wall/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Ashcan School bustling city shop and elevated rail in broad dark oil strokes; Social Realism big cropped hands of ordinary workers with readable exertion, clear expressions and forceful color around assembly bench; New Deal mural rhythm of public building lobby mural, recurring community labor from field to rail with large block shapes; Chicano muralism contemporary fictional public wall with collective history and neighborhood figures, saturated color large contours, no borrowed motifs and no readable text. Modern woman passes through or looks at each. No lettering, captions, watermark or ornamental frame."
+}

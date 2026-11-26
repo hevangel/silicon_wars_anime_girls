@@ -1,0 +1,54 @@
+{
+  "intro": "Each method works ink into a recessed part of a metal plate. The differences show up in the width of a line, the grain in a shadow and the depth of the black.",
+  "alt": "Four monochrome prints of the seated figure, from fine incised curves through soft dark lines, sepia grain and a velvet-black ground.",
+  "image": "atlas-005.webp",
+  "variants": [
+    {
+      "name": "engraving",
+      "look": "Tapered, precisely spaced lines define the jacket and face.",
+      "history": "Renaissance engravers such as Albrecht Dürer used a burin to cut fine lines into metal and print them on paper.",
+      "when": "Describe folds, textures and volumes with exact linework.",
+      "why": "Changes in the width, angle and density of cut lines produce sharp detail.",
+      "source": {
+        "label": "The Met | Engraving",
+        "href": "https://www.metmuseum.org/fr/perspectives/materials-and-techniques-printmaking-engraving"
+      }
+    },
+    {
+      "name": "drypoint",
+      "look": "Dark edges have a soft fringe from the metal pushed up beside the cut.",
+      "history": "Rembrandt used drypoint alongside etching. A sharp needle raises a burr that catches ink and wears down during printing.",
+      "when": "Print a small edition of a close portrait with velvety outlines.",
+      "why": "Ink caught by the raised metal gives the edge a touch of softness.",
+      "source": {
+        "label": "The Met | History and Techniques",
+        "href": "https://www.metmuseum.org/zh/essays/the-printed-image-in-the-west-history-and-techniques"
+      }
+    },
+    {
+      "name": "aquatint",
+      "look": "Sepia areas look like fine grain suspended in a wash.",
+      "history": "Aquatint came into wider use in the 18th century. Goya used it for dramatic shadows in print series including Los Caprichos.",
+      "when": "Print a scene that depends on large zones of light and dark.",
+      "why": "The granular ground holds ink across whole areas and can create wash-like tone.",
+      "source": {
+        "label": "The Met | Aquatint",
+        "href": "https://www.metmuseum.org/fr/essays/the-printed-image-in-the-west-aquatint"
+      }
+    },
+    {
+      "name": "mezzotint",
+      "look": "The sitter slowly emerges from an unusually deep black.",
+      "history": "Mezzotint developed in the 17th century and became widely used for reproductions of portraits in 18th-century Britain.",
+      "when": "Make a print with continuous-looking shade and selective light.",
+      "why": "Smoothing the roughened plate gradually lifts tones out of a deeply inked ground.",
+      "source": {
+        "label": "The Met | Mezzotint",
+        "href": "https://www.metmuseum.org/it/essays/the-printed-image-in-the-west-mezzotint"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Print identical seated dark blazer and glasses figure composition on four sheets. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: traditional engraving, precisely tapered carved line trails, overlapping crisp parallel curves shade the sitter and mug against cream. TOP RIGHT: drypoint, fuzzy dark burr lines on warm ivory and simple broad soft-edged hatching. BOTTOM LEFT: aquatint, sepia pools of peppered tonal washes with extremely few lines and sharply bounded planes of tone. BOTTOM RIGHT: mezzotint, velvet black background and ghostly figure emerging from dark with smoky graded pools of white light, very dark."
+}

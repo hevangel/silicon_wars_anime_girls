@@ -1,0 +1,58 @@
+{
+  "intro": "Four imagined timelines start from different memories of technology.",
+  "alt": "A virtual pastel showroom, neon alley, sunset grid and translucent plastic surround the executive.",
+  "image": "atlas-084.webp",
+  "variants": [
+    {
+      "name": "vaporwave",
+      "look": "A pastel virtual showroom combines simulated marble with older-looking computer geometry.",
+      "history": "Vaporwave emerged in online music communities, recycling corporate music, early digital culture and mall imagery into uncanny nostalgia.",
+      "when": "Use dated consumer imagery to make a future feel like an imperfect memory.",
+      "why": "An outdated virtual finish places imagery between remembered reality and deliberate imitation.",
+      "source": {
+        "label": "Bandcamp Daily · Vaporwave",
+        "href": "https://daily.bandcamp.com/lists/vaporwave-list"
+      },
+      "period": "Early 2010s"
+    },
+    {
+      "name": "cyberpunk",
+      "look": "Cyan light reflects across a dense, wet street.",
+      "history": "Cyberpunk took shape in 1980s science fiction and imagined advanced technology within unequal, corporate-dominated worlds.",
+      "when": "Let visible technology and signs of urban inequality occupy the same frame.",
+      "why": "Dramatic contrasts between advanced illumination and worn infrastructure imply an unequal future.",
+      "source": {
+        "label": "Academy Museum · Cyberpunk: Envisioning Possible Futures Through Cinema",
+        "href": "https://www.academymuseum.org/en/exhibitions/cyberpunk"
+      },
+      "period": "1980s onward"
+    },
+    {
+      "name": "synthwave",
+      "look": "A sunset and receding neon grid stage a firmly 1980s-coded horizon.",
+      "history": "Synthwave developed as electronic music shaped by an imagined memory of 1980s scores and media, with related visual conventions.",
+      "when": "Use simple horizon motifs and saturated contrast to give an image the feel of a retro soundtrack.",
+      "why": "A grid and luminous horizon efficiently establish distance and the era being evoked.",
+      "source": {
+        "label": "Bandcamp Daily · Synthwave",
+        "href": "https://daily.bandcamp.com/lists/synthwave-music-list"
+      },
+      "period": "Mid-2000s onward"
+    },
+    {
+      "name": "Y2K",
+      "look": "Translucent plastic and chrome give the scene a turn-of-the-millennium feel.",
+      "history": "Design around the millennium emphasized glossy screens, translucent materials and new forms for consumer electronics. The aesthetic was later identified with the Y2K era.",
+      "when": "Use optimistic synthetic materials to convey the novelty of consumer technology.",
+      "why": "Shiny, partially transparent shells draw attention to materials that were promoted as newly possible.",
+      "source": {
+        "label": "V&A · The iMac",
+        "href": "https://www.vam.ac.uk/articles/the-imac"
+      },
+      "period": "Late 1990s–early 2000s"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, vaporwave: lilac early-Internet virtual showroom with faux-marble bust of executive and white cup hovering over checker tile; cyberpunk: wet alley, smog, billowing charcoal coat over dress, glowing cyan implant-reflection and vertical lighting, dark dystopian density; synthwave: executive against neon sunset circle, magenta horizon grid and deep purple shadows, retro electronic mood; Y2K: icy translucent plastic, shiny chrome curves, bubbly shapes and lens star highlight, optimistic turn-of-the-millennium gadget design. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

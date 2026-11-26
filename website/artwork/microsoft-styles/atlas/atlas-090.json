@@ -1,0 +1,46 @@
+{
+  "intro": "Compare where movement, lighting and distortion come from in the frame.",
+  "alt": "A softly outlined figure is followed by a skewed high-contrast cinema set and an office with hard striped shadow.",
+  "image": "atlas-090.webp",
+  "variants": [
+    {
+      "name": "rotoscope",
+      "look": "Naturalistic weight and posture survive inside the drawn outline.",
+      "history": "Max Fleischer patented a device for tracing sequential live-action frames, establishing an influential approach to rotoscoping.",
+      "when": "Use live-action motion as the basis for line, color and exaggeration.",
+      "why": "Traced position changes retain useful details about balance and timing.",
+      "source": {
+        "label": "Fleischer Studios · Rotoscope",
+        "href": "https://fleischerstudios.com/rotoscope/"
+      },
+      "period": "Patented in 1917"
+    },
+    {
+      "name": "German Expressionist cinema",
+      "look": "Angular sets and slashed shadows make the whole scene look unsettled.",
+      "history": "German Expressionist cinema used distorted design and theatrical lighting to convey psychological conditions.",
+      "when": "Build fear or instability into the angles of the set itself.",
+      "why": "Sets with sloped geometry give psychological subjects a physical form.",
+      "source": {
+        "label": "BFI · German Expressionism",
+        "href": "https://www.bfi.org.uk/lists/10-great-german-expressionist-films"
+      },
+      "period": "Especially 1919–mid-1920s"
+    },
+    {
+      "name": "film noir",
+      "look": "Hard light through a blind cuts across a plausible office.",
+      "history": "The label film noir came to describe a cycle of American crime dramas and thrillers that often used low-key lighting, strong shadows and moral ambiguity.",
+      "when": "Use selective hard light to make an ordinary place feel uncertain.",
+      "why": "A convincing room made strange by selective light creates uncertainty while retaining a recognizable setting.",
+      "source": {
+        "label": "BFI · Film noir",
+        "href": "https://www.bfi.org.uk/lists/10-great-american-film-noirs"
+      },
+      "period": "Especially 1940s–1950s"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly 3 equally wide vertical cells side by side, with a landscape canvas, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: rotoscope: realistic underlying live-action bodily posture translated into flowing drawn outlines and flat soft colors on a hand-painted ground; German Expressionist cinema: skewed dark painted streets, theatrical black wedge shadows, perspective distorted and face strongly made up, high contrast black-and-white silent film; film noir: venetian blinds stripe believable office set and realistically lit live-action executive with hard shadows, dark expressive black and white film grain. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1774,
+  "height": 887
+}

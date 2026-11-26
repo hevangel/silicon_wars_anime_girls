@@ -1,0 +1,54 @@
+{
+  "intro": "Look at how each tradition fills space between figures. The pictures use joined outlines, loops of people, internal dots and lines, or borders that spread like a plant.",
+  "alt": "Four portraits in Pattachitra outlines, white Warli figures, colorful Gond marks and warm red-and-blue Kalamkari cloth.",
+  "image": "atlas-030.webp",
+  "variants": [
+    {
+      "name": "Pattachitra",
+      "look": "Cream outlines and a vermilion border hold clean shapes on a painted ground.",
+      "history": "Pattachitra traditions in eastern India include Odisha painted cloth or prepared canvas with religious and narrative subjects, including stories tied to Jagannath.",
+      "when": "Tell a small story in a framed area with clear poses and consistent outlines.",
+      "why": "Separated color areas make the figures readable next to an intricate border.",
+      "source": {
+        "label": "IGNCA | A painted narrative on cloth",
+        "href": "https://ignca.gov.in/a-painted-narrative-on-cloth/"
+      }
+    },
+    {
+      "name": "Warli",
+      "look": "White lines and paired triangles form figures across a red-brown ground.",
+      "history": "Warli painters in western India traditionally decorate walls for ceremonies. Artists including Jivya Soma Mashe also developed new compositions for portable surfaces.",
+      "when": "Show how several people relate within a ceremony or shared task.",
+      "why": "Repeated triangle bodies make direction and movement readable from simple gestures.",
+      "source": {
+        "label": "IGNCA | Warli paintings",
+        "href": "https://ignca.gov.in/hi/from-wall-to-walls-the-warll-paintings/"
+      }
+    },
+    {
+      "name": "Gond",
+      "look": "Dense dots and curved marks fill large figure and plant silhouettes.",
+      "history": "Contemporary Gond paintings build on storytelling and regional traditions of central India. Jangarh Singh Shyam helped develop a celebrated modern painting practice.",
+      "when": "Give the interior of a large silhouette the energy of a detailed pattern.",
+      "why": "Different mark rhythms suggest form, texture and movement without conventional shadows.",
+      "source": {
+        "label": "IGNCA | Ethnographic collections",
+        "href": "https://ignca.gov.in/divisionss/janapada-sampada/ethnographic-collection/"
+      }
+    },
+    {
+      "name": "Kalamkari",
+      "look": "Indigo and red settle into fine cotton, framed by floral repeats.",
+      "history": "Kalamkari includes painted and block-printed Indian cottons, often using mordants and dyes. Srikalahasti is associated with drawn narrative works, while Machilipatnam is known for block printing.",
+      "when": "Print or draw a rich border on a flexible hanging or garment.",
+      "why": "Color works with the weave of the cloth, so the pattern and its support read together.",
+      "source": {
+        "label": "V&A | Indian textiles",
+        "href": "https://www.vam.ac.uk/articles/indian-textiles"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Heroine and mug interpreted as contemporary subjects in four visibly different painted folk media. Keep her glasses and low bun in every picture.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Odisha Pattachitra painted cloth, intricate vermilion lotus border, flat pigments and precise cream outlining, bold profile eye.. top right: Warli wall picture, spare white-on-russet village-scale composition of stick figures made of two touching triangles, glasses clearly two connected squares, central figure amidst circling smaller dancers.. bottom left: Gond expressive painting-inspired modern sheet, vibrant large figure composed of dense rhythmic internal stipples, little curved lines and forest motifs in green, saffron and indigo.. bottom right: Kalamkari textile, indigo and madder ink design on fine creamy cotton, slightly bleeding hand-drawn outline, tree of life and repeating red botanical ornament.."
+}

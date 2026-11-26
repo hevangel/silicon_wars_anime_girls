@@ -1,0 +1,58 @@
+{
+  "intro": "Compare what happens as a figure is modeled, simplified, stretched and opened.",
+  "alt": "Four sculptures have agitated bronze texture, compact polished form, an elongated upright silhouette and a broad pierced stone mass.",
+  "image": "atlas-088.webp",
+  "variants": [
+    {
+      "name": "Rodin-style sculpture",
+      "look": "Shadows pool in deep bronze ridges around the body.",
+      "history": "Auguste Rodin built expressive bodies through vigorously modeled clay or plaster and cast a number in bronze.",
+      "when": "Keep an active surface to bring gesture into the changing light.",
+      "why": "Irregular surfaces register different shadows as light or the viewer moves.",
+      "source": {
+        "label": "Musée Rodin · The collections",
+        "href": "https://www.musee-rodin.fr/en/musee/collections"
+      },
+      "period": "Late 19th–early 20th centuries"
+    },
+    {
+      "name": "Brâncuși-style sculpture",
+      "look": "A compact polished mass preserves only a few cues to hair, face and glasses.",
+      "history": "Constantin Brâncuși worked through recurring subjects such as heads and birds, distilling them into simple, highly controlled volumes.",
+      "when": "Test how few changes in contour can keep a subject recognizable.",
+      "why": "A few carefully chosen planes allow the viewer to recognize the form from several directions.",
+      "source": {
+        "label": "MoMA · Constantin Brâncuși",
+        "href": "https://www.moma.org/collection/artists/738"
+      },
+      "period": "Early to mid-20th century"
+    },
+    {
+      "name": "Giacometti-style sculpture",
+      "look": "The narrow upright body has a pitted skin and delicate projecting limbs.",
+      "history": "Alberto Giacometti became known for his attenuated, roughly worked postwar figures.",
+      "when": "Use thinning and rough texture to put presence and distance in tension.",
+      "why": "An attenuated volume heightens awareness of the gap between the body and its surroundings.",
+      "source": {
+        "label": "Fondation Giacometti · Alberto Giacometti",
+        "href": "https://www.fondation-giacometti.fr/en/"
+      },
+      "period": "Especially late 1940s–1960s"
+    },
+    {
+      "name": "Moore-style sculpture",
+      "look": "A broad opening makes the space through the figure as important as its surface.",
+      "history": "Henry Moore developed sculptural themes of reclining figures and internal openings across wood, stone, plaster and bronze.",
+      "when": "Treat a void as a shape that changes as you walk around it.",
+      "why": "Negative space provides openings and silhouettes that change with viewpoint.",
+      "source": {
+        "label": "Henry Moore Foundation · Henry Moore",
+        "href": "https://henry-moore.org/about-henry-moore/"
+      },
+      "period": "Especially 1930s–1980s"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: Rodin-style sculpture: dark brown expressive deep-furrowed clay modeled then cast into bronze, gestural force in the posture; Brâncuși-style sculpture: pale polish substantial compact egg-like form, facial features and glasses reduced into cut lines with hair bun reduced into perfect crescent; Giacometti-style sculpture: exceedingly thin upright blackened bronze silhouette with pitted scratched facture, neck and limbs elongated, oval mug; Moore-style sculpture: broad pale limestone organic reclining mass with large intentional cut-through opening in torso: the figure still reads by glasses, hair and mug held against one shoulder. Each cell is realistic museum photography of its own sculpture of the same executive. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1254,
+  "height": 1254
+}

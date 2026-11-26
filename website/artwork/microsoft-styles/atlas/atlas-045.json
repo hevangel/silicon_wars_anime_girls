@@ -1,0 +1,54 @@
+{
+  "intro": "Sculptures occupied public space, murals spread across walls, and painted books organized information into smaller fields. Each was made for a different kind of encounter.",
+  "alt": "A stone head, a red wall painting, an open tribute manuscript and a folding pictorial book viewed by Microsoft.",
+  "image": "atlas-045.webp",
+  "variants": [
+    {
+      "name": "Olmec sculpture",
+      "look": "The stone head has solid rounded cheeks and a deeply defined band around the helmet.",
+      "history": "Olmec communities of the Gulf Coast of present-day Mexico made colossal basalt heads during the first millennium BCE and earlier. The heads are commonly interpreted as portraits of rulers.",
+      "when": "Study the head when a large sculpture must have a strong profile from multiple angles.",
+      "why": "Wide volumes and deep changes of plane make facial features legible at monument scale.",
+      "source": {
+        "label": "Universidad Veracruzana archaeological collection",
+        "href": "https://sapp.uv.mx/catalogomax/en-US/Sala/ToPDF/582"
+      }
+    },
+    {
+      "name": "Teotihuacan mural",
+      "look": "The red field holds broad ornamental bands that stay readable across a large wall.",
+      "history": "Teotihuacan flourished in central Mexico in the first millennium CE. Painters ornamented public and residential buildings with murals, many surviving only as fragments.",
+      "when": "Study the relationship between a large pattern and the architectural surface that carries it.",
+      "why": "Bands help a design continue across a wall even when the viewer is moving.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/it/perspectives/teotihuacan"
+      }
+    },
+    {
+      "name": "Aztec codex",
+      "look": "Pictures are grouped into rows across an open book, with each cluster easy to find again.",
+      "history": "Central Mexican manuscripts recorded histories, tribute and other knowledge. The Codex Mendoza is a painted record made after the Spanish conquest, bringing Indigenous and European forms of record together.",
+      "when": "Study how the picture organizes repeated quantities and categories for someone consulting a page.",
+      "why": "Images and their spatial grouping let readers scan a record and revisit individual entries.",
+      "source": {
+        "label": "University of Texas at San Antonio Libraries",
+        "href": "https://libguides.utsa.edu/ancient_mesoamerica/codexmendoza"
+      }
+    },
+    {
+      "name": "Mixtec codex",
+      "look": "On the folding pages, a colored pathway draws the eye between small figures and places.",
+      "history": "Mixtec manuscripts from present-day southern Mexico use pictorial systems to record lineages, histories and places. Some survive on folded animal hide.",
+      "when": "Study how a path can link people, places and events without locking the story into a rectangular grid.",
+      "why": "A route through the picture gives the reader a way to track a dense history as the book unfolds.",
+      "source": {
+        "label": "British Museum on Google Arts & Culture",
+        "href": "https://artsandculture.google.com/asset/codex-zouche-nuttall/pwE84y1jATj0zw?hl=en"
+      }
+    }
+  ],
+  "width": 1263,
+  "height": 1246,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Olmec colossal stone head with distinct helmet band and powerful rounded cheeks shown in exhibit courtyard; Teotihuacan wall-painting fragment with red iron-rich ground and broad bands of painted feathers; Aztec-era painted manuscript facsimile open to a scene of tribute goods organized in separated rows; Mixtec folding deerskin book facsimile seen at a low oblique angle, vivid red route, richly dressed small figures and architecture, no readable writing. No lettering, captions, watermark or ornamental frame."
+}

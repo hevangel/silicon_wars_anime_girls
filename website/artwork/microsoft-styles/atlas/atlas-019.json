@@ -1,0 +1,54 @@
+{
+  "intro": "Rock and plaster surfaces already have shape, color and texture. Each example uses the wall differently, from the uneven texture of a cave to a prepared plaster surface.",
+  "alt": "Four wall paintings with rough ochre cave texture, Saharan red sandstone, slender southern African figures and flowing Minoan outlines.",
+  "image": "atlas-019.webp",
+  "variants": [
+    {
+      "name": "Paleolithic cave painting",
+      "look": "Ochre and dark marks follow irregular rock. Animal figures overlap around the invented portrait.",
+      "history": "The Paleolithic cave at Lascaux preserves paintings and engravings including large animals. Some images respond to natural changes in the rock surface.",
+      "when": "Place a small human figure inside an artwork focused on animals and terrain.",
+      "why": "The wall’s texture and contours become part of the mark and can suggest volume.",
+      "source": {
+        "label": "French Ministry of Culture | Lascaux",
+        "href": "https://archeologie.culture.gouv.fr/lascaux/en"
+      }
+    },
+    {
+      "name": "Saharan rock art",
+      "look": "Slender figures and herd shapes are painted in dry ochre on open sandstone.",
+      "history": "Tassili n’Ajjer in Algeria preserves thousands of painted and engraved rock images from different periods, including scenes with livestock.",
+      "when": "Study how small figures and animals can span a large exposed surface.",
+      "why": "Simple outlines and earth colors remain legible against uneven rock.",
+      "source": {
+        "label": "UNESCO | Tassili n’Ajjer",
+        "href": "https://whc.unesco.org/en/list/179"
+      }
+    },
+    {
+      "name": "San rock art",
+      "look": "Fine red and white figures and references to eland animate the stone.",
+      "history": "San rock art traditions in southern Africa include carefully drawn animals and people. The figures at uKhahlamba-Drakensberg are among many examples.",
+      "when": "Study how small articulated figures suggest movement along a wall.",
+      "why": "Thin brush marks hold the weight and direction of gestures at a tiny scale.",
+      "source": {
+        "label": "UNESCO | Maloti-Drakensberg Park",
+        "href": "https://whc.unesco.org/en/list/985/"
+      }
+    },
+    {
+      "name": "Minoan fresco",
+      "look": "Swelling black lines and flat blue and red color sit on prepared plaster.",
+      "history": "Bronze Age wall paintings at Minoan sites on Crete include lively profiles and curling natural motifs. Akrotiri on Thera preserves related Aegean fresco traditions.",
+      "when": "Set a figure into a decorative room while keeping the image bright and dynamic.",
+      "why": "Areas of strong color separate the wall into rhythms the eye can follow.",
+      "source": {
+        "label": "The Met | Minoan Crete",
+        "href": "https://www.metmuseum.org/essays/minoan-crete"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Simulate four visibly different wall surfaces in which the same modern glasses-and-bun woman appears as an invented figure according to each visual vocabulary.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: Paleolithic cave painting with charcoal outline and ochre blow spray on ochre cave texture, figure tiny amid overlapping bison shapes and hand impressions. top right: Saharan rock art, rich flat red ochre painting on open sunlit rough sandstone, small gathered herd suggested behind slender lively silhouette in shoulder-length composition. bottom left: southern African San rock painting, tiny fine brush red-and-white ochre animated profile figure with thin limbs amid outlines of eland on dark slate texture. bottom right: Minoan fresco with bold flowing black contours against pastel flat bands, profile face and eye stylized, vivid blue, rusty red and pale white plaster, small curling landscape motifs."
+}

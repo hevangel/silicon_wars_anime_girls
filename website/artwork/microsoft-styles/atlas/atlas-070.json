@@ -1,0 +1,58 @@
+{
+  "intro": "Compare marks left by a gesture with color that spreads and saturates.",
+  "alt": "A grid of four painterly treatments with rough pigment, spills, broad color zones and stains in raw canvas.",
+  "image": "atlas-070.webp",
+  "variants": [
+    {
+      "name": "Art Informel",
+      "look": "An earthy, crusted surface nearly swallows the bust.",
+      "history": "Art Informel encompassed varied European approaches to spontaneous, materially expressive abstraction after World War II.",
+      "when": "Let the pressure and weight of the paint carry the picture.",
+      "why": "Scrapes and ridges register the palette knife’s pressure in every patch.",
+      "source": {
+        "label": "Tate · Art Informel",
+        "href": "https://www.tate.org.uk/art/art-terms/a/art-informel"
+      },
+      "period": "Late 1940s–1950s"
+    },
+    {
+      "name": "Tachisme",
+      "look": "Ink-like patches break up the face on a pale ground.",
+      "history": "Tachisme takes its name from the French tache, meaning a stain or blot, and emphasizes spontaneous marks.",
+      "when": "Build an image from irregular marks that retain the energy of their placement.",
+      "why": "Separated marks preserve the individual direction and edge of a gesture.",
+      "source": {
+        "label": "Tate · Tachisme",
+        "href": "https://www.tate.org.uk/art/art-terms/t/tachisme"
+      },
+      "period": "1940s–1950s"
+    },
+    {
+      "name": "Color Field painting",
+      "look": "Broad zones of related colors sustain a slowly emerging silhouette.",
+      "history": "American Color Field painters used expansive areas of color to organize the whole surface.",
+      "when": "Use scale and neighboring hues to shape how a viewer feels color.",
+      "why": "Broad neighboring colors register as an enveloping atmosphere rather than local shading.",
+      "source": {
+        "label": "Tate · Colour Field painting",
+        "href": "https://www.tate.org.uk/art/art-terms/c/colour-field-painting"
+      },
+      "period": "From the late 1940s"
+    },
+    {
+      "name": "stain painting",
+      "look": "Diluted color feathers along the fabric instead of sitting in a crest.",
+      "history": "Helen Frankenthaler’s soak-stain method sent thinned pigment into unprimed canvas and influenced Morris Louis and Kenneth Noland.",
+      "when": "Let the weave and liquid determine a boundary together.",
+      "why": "Absorbent fibers allow dilution and capillary action to shape the mark.",
+      "source": {
+        "label": "National Gallery of Art · Mountains and Sea",
+        "href": "https://www.nga.gov/node/856101"
+      },
+      "period": "1950s onward"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is exactly four square cells in 2x2, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: Art Informel: coarse, scraped ochre and asphalt-like relief almost obliterates figure; Tachisme: impulsive dark ink patches and splashes on bone-white retain fragments of glasses and hair; Color Field painting: large quiet rectangular zones of glowing magenta and rust frame the figure as a vast hovering soft-edged silhouette; stain painting: dilute pink and turquoise pigment feathers directly into the weave of raw pale canvas around the contour. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1254,
+  "height": 1254
+}

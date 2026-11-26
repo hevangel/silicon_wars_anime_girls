@@ -1,0 +1,58 @@
+{
+  "intro": "Each illustration anticipates a different kind of reader and a different moment of attention.",
+  "alt": "A decorative story illustration, a bright child-friendly scene, a rough black-and-white comic and an urgent painted cover.",
+  "image": "atlas-097.webp",
+  "variants": [
+    {
+      "name": "Golden Age illustration",
+      "look": "Delicate ink textures, natural ornament and restrained washes give the scene a storybook pace.",
+      "history": "A period often called the Golden Age of Illustration coincided with commercial advances in printing and the rise of illustrated books and magazines.",
+      "when": "Set a literary mood through detail, decorative framing and the placement of a figure.",
+      "why": "Ornament and handwork invite a reader to pause and look across the whole page.",
+      "source": {
+        "label": "Norman Rockwell Museum · Harvey Dunn exhibition catalogue",
+        "href": "https://www.illustrationhistory.org/images/uploads/Harvey_Dunn_Catalogue_Interior_Final.pdf"
+      },
+      "period": "Late 19th–early 20th century"
+    },
+    {
+      "name": "children's picture book",
+      "look": "Clear shapes, inviting colors and a small number of props support a simple story beat.",
+      "history": "Picture books pair an ordered sequence of images with narrative or verbal rhythm. Their materials and design have taken many forms.",
+      "when": "Leave room for a young reader to discover the action in the picture.",
+      "why": "Simple shapes remain legible to children who have yet to learn the associated written words.",
+      "source": {
+        "label": "V&A · Beatrix Potter's The Tale of Peter Rabbit",
+        "href": "https://www.vam.ac.uk/articles/peter-rabbit-the-tale-of-the-tale"
+      },
+      "period": "Long history, with major growth in the 19th–20th centuries"
+    },
+    {
+      "name": "underground comix",
+      "look": "Heavy black ink and crowded hatching produce an intentionally raw print texture.",
+      "history": "Underground comix circulated outside conventional American comics publishing, often through small presses and countercultural shops.",
+      "when": "Use densely personal drawing to give a printed image an independent voice.",
+      "why": "Highly individual strokes register the artist’s hand and give a small edition an unmistakable look.",
+      "source": {
+        "label": "Library of Congress · Comic Art",
+        "href": "https://www.loc.gov/exhibits/comic-art/"
+      },
+      "period": "Especially late 1960s–1970s"
+    },
+    {
+      "name": "pulp cover",
+      "look": "A sharp diagonal and lurid color make the mug’s safety seem absurdly urgent.",
+      "history": "Pulp magazines used inexpensive paper and vivid painted covers to sell genre fiction, often from newsstands.",
+      "when": "Choose the moment and light that make a story legible from across the room.",
+      "why": "High stakes can be communicated in one distant view through lurid contrast and a strong diagonal.",
+      "source": {
+        "label": "Library of Congress · Pulp Fiction",
+        "href": "https://www.loc.gov/collections/pulp-fiction/"
+      },
+      "period": "Especially 1890s–1950s"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: Golden Age illustration: detailed soft pen cross-hatching and muted autumn washes, elegant storybook framing in foliage and black ink arabesques; children's picture book: sunny warm gouache, approachable full-figure silhouette and cozy layered construction-paper plants; underground comix: black-and-cream independent comic print with dense gritty hatching, unrefined expressive heavy black pen, knowing gaze; pulp cover: lurid high-stakes lighting in golden yellow and tilted violet shadows, bold hand-painted narrative of executive protecting the steaming mug. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1254,
+  "height": 1254
+}

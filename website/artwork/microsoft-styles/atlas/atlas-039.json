@@ -1,0 +1,43 @@
+{
+  "intro": "A gallery mount makes carving and surface easy to see. The makers and the performances that gave each mask meaning belong to different communities and histories.",
+  "alt": "Three separate carved masks in museum mounts beside the modern visitor.",
+  "image": "atlas-039.webp",
+  "variants": [
+    {
+      "name": "Dan mask",
+      "look": "The smooth, dark surface highlights the mask's oval face and the restrained shaping around its eyes and mouth.",
+      "history": "Dan communities live in present-day Liberia and Côte d’Ivoire. Different masks belong to different performance roles.",
+      "when": "Study the smooth planes when considering what makes a face expressive with very few details.",
+      "why": "The dark surface and fine transitions encourage close looking and make the features feel deliberate.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/314801"
+      }
+    },
+    {
+      "name": "Fang mask",
+      "look": "The light face stretches into a long oval, with high arched brows and a pronounced nose.",
+      "history": "Certain Fang masks from regions including present-day Gabon are associated with the Ngil society. Fang masks also take other forms and served other functions.",
+      "when": "Compare face length, brow and color to see which formal choices make the example distinctive.",
+      "why": "A long uninterrupted face gives greater emphasis to the brow and central ridge.",
+      "source": {
+        "label": "Denver Art Museum",
+        "href": "https://www.denverartmuseum.org/en/object/1942.443"
+      }
+    },
+    {
+      "name": "Pende mask",
+      "look": "Pigmented planes and sharply shaped facial features stand out from the wood.",
+      "history": "Pende masquerades in what is now the Democratic Republic of the Congo have included a wide range of characters, occasions and mask types.",
+      "when": "Look for the way carved angles make a face readable in a performance setting.",
+      "why": "Pronounced planes can register changes of movement and light across the face.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/311039"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Create a triptych of THREE separate equally sized square frames in a single 3:1 horizontal row (two clearly visible thin white dividers between the frames). For an arts learning site about differences between three culturally distinct historical woodcarving traditions. In each square, place a foreground profile portrait of the same adult female modern visitor in the near lower left corner: ash-blonde hair low bun, colored square clip, black rectangular glasses, elegant charcoal suit jacket over black knee-length dress, bright blue lanyard badge, white coffee mug with small four-color squares. Show full upright museum display of a SINGLE distinct mask on the right in each square with separate exhibit lighting and backdrops. Left black smooth oval Dan mask with subtle face planes in a neutral gray exhibit; center tall elongated pale heart-faced Fang mask with pronounced vertical nose ridge in warmer brown exhibit; right angular triangular red and cream Pende mask in a cool gray-blue exhibit. One clear instance of woman and one clear mask per square. Gallery visitors only, no costumes or reenactment, no text or titles or captions."
+}

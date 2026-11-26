@@ -1,0 +1,46 @@
+{
+  "intro": "The designs move from a sheet of choices to a single emblem and then across the curves of the body.",
+  "alt": "A sheet of sample motifs, an outlined tattoo-like emblem and a shoulder design of interlocking waves and flowers.",
+  "image": "atlas-100.webp",
+  "variants": [
+    {
+      "name": "tattoo flash",
+      "look": "Small separate motifs can be selected and transferred individually.",
+      "history": "Tattooists used flash sheets to display designs available in a studio, and exchanged or circulated sheets in print.",
+      "when": "Give each motif a strong silhouette so it can be placed in a number of positions.",
+      "why": "Individual silhouettes can be presented, chosen and placed without reading each option as part of a large scene.",
+      "source": {
+        "label": "The Mariners’ Museum · Designs of the Tattooers Art (1936)",
+        "href": "https://catalogs.marinersmuseum.org/object/CL15542"
+      },
+      "period": "Especially documented in the 19th–20th centuries"
+    },
+    {
+      "name": "American traditional tattoo",
+      "look": "Heavy contours enclose a small set of flat colors and black shadows.",
+      "history": "American traditional tattooing drew on itinerant and port-city artists, with bold motifs suited to the materials and practices of the time.",
+      "when": "Choose a few readable colors and stable contours that hold together at small sizes.",
+      "why": "Thick contours and stable color blocks retain shape across curved and changing surfaces.",
+      "source": {
+        "label": "American Institute for Conservation · Preserving the Legacy of Norman Sailor Jerry Collins",
+        "href": "https://cool.culturalheritage.org/coolaic/sg/bpg/annual/v31/bpga31-12.pdf"
+      },
+      "period": "Especially late 19th–mid-20th centuries"
+    },
+    {
+      "name": "irezumi",
+      "look": "Wave curves and flowers turn with the shoulder as a continuous composition.",
+      "history": "Japanese decorative tattoo traditions include large pictorial compositions with parallels to Edo-period prints. Their practitioners, meanings and social contexts are varied.",
+      "when": "Plan how a background pattern continues around a curve and connects major motifs.",
+      "why": "A connected pattern can continue over the shoulder and link focal motifs from multiple viewpoints.",
+      "source": {
+        "label": "Museum of Fine Arts Boston · Tattoos in Japanese Prints",
+        "href": "https://www.mfa.org/exhibition/tattoos-in-japanese-prints-from-the-museum-of-fine-arts-boston"
+      },
+      "period": "Especially from the Edo period into the present"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly 3 equally wide vertical cells side by side, with a landscape canvas, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: tattoo flash: cream printed flash sheet of separately arranged and untitled repeatable motifs, one winged mug and one oval executive portrait with glasses and distinct bun, print blemishes; American traditional tattoo: crisp heavy black outline on ivory, restrained red, mustard and green solid areas with black drop shade, one dominant stylized executive-and-mug emblem with a foliate circle; irezumi: traditional swirling waves and chrysanthemums designed to wrap across the upper back and shoulder curve with integrated illustration of the executive profile and mug, detailed Japanese tattoo composition with warm muted vintage pigments. For skin panels show only shoulders upper back and arms with modest professional opaque garment, adult subject. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 2172,
+  "height": 724
+}

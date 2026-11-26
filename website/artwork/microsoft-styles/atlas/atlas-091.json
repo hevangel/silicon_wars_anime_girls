@@ -1,0 +1,46 @@
+{
+  "intro": "Stage conventions carry meaning across the room before a performer speaks.",
+  "alt": "Three stages feature a spare pine backdrop, a red theatrical setting and rich red-and-jade performance dress.",
+  "image": "atlas-091.webp",
+  "variants": [
+    {
+      "name": "Noh",
+      "look": "A spare cypress setting and economical gesture concentrate attention on the performer.",
+      "history": "Noh developed into a major Japanese theater form in the medieval period, combining chant, music and highly codified movement.",
+      "when": "Look for how a small shift in angle or pace changes a performance.",
+      "why": "With few competing details, spectators can attend to subtle gesture and sound.",
+      "source": {
+        "label": "UNESCO · Nôgaku theatre",
+        "href": "https://ich.unesco.org/en/RL/nogaku-theatre-00012"
+      },
+      "period": "Established in the 14th–15th centuries"
+    },
+    {
+      "name": "Kabuki",
+      "look": "A forceful held pose and vivid stage makeup project across the stage.",
+      "history": "Kabuki developed in the Edo period and uses striking makeup, staging and movement. A held mie accentuates a dramatic moment.",
+      "when": "Use a sharply defined posture to hold the audience’s attention at a turning point.",
+      "why": "A fixed posture punctuates the flow of performance and makes a dramatic peak readable.",
+      "source": {
+        "label": "UNESCO · Kabuki theatre",
+        "href": "https://ich.unesco.org/en/RL/kabuki-theatre-00163"
+      },
+      "period": "From the early 17th century"
+    },
+    {
+      "name": "Chinese opera",
+      "look": "Costume shapes and articulated hand poses make the gesture visible.",
+      "history": "Chinese opera spans many regional traditions. Peking opera, one influential form, combines vocal, musical and athletic skills with intricate codes of costume and makeup.",
+      "when": "Look for how costume, gesture and role convey action within limited staging.",
+      "why": "Repeatedly learned visual cues let audiences recognize a role and follow its actions from afar.",
+      "source": {
+        "label": "UNESCO · Peking opera",
+        "href": "https://ich.unesco.org/en/RL/peking-opera-00418"
+      },
+      "period": "Many centuries of regional forms; Peking opera developed in the Qing period"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly 3 equally wide vertical cells side by side, with a landscape canvas, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: Noh: executive holding mug with quiet economy of pose on spare cypress stage, roof and painted pine backdrop, minimal symbolic setting; Kabuki: boldly posed as in a held mie, crisp cardinal red stage and black diagonal backdrop, theatrical white makeup with bold red accents, expressive intense eyes; Chinese opera: stylized curved hand gestures and balanced staging, elaborately patterned red-and-jade sleeve accents over recognizable graphite dress, precise role-inspired stage makeup, stage table and vivid color. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1774,
+  "height": 887
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "Four surfaces store the memory of their making. Compare how a pile of fiber, a join between woven strips, a brushstroke and an indigo resist each influence the pattern.",
+  "alt": "Microsoft examines Kuba raffia, colorful kente strips, a painted geometric wall and indigo resist-dyed cotton.",
+  "image": "atlas-040.webp",
+  "variants": [
+    {
+      "name": "Kuba cloth",
+      "look": "The light catches the short raised pile while darker interlocking shapes change direction across the raffia.",
+      "history": "Kuba textile artists in the Democratic Republic of the Congo use raffia and techniques including embroidery, appliqué and cut pile.",
+      "when": "Study it when the touch and height of thread could make a repeat more interesting.",
+      "why": "Cut pile changes the way the natural fiber reflects light, so the design can stand out by texture.",
+      "source": {
+        "label": "Textile Museum of Canada",
+        "href": "https://collections.textilemuseum.ca/collection/12579"
+      }
+    },
+    {
+      "name": "kente",
+      "look": "Colorful blocks and stripes line up across bands joined into a larger cloth.",
+      "history": "Asante and Ewe weavers in Ghana and neighboring areas have distinct strip-weaving traditions. Kente continues to be worn and made today.",
+      "when": "Look at the seams to understand the relation between a single narrow loom width and the full cloth.",
+      "why": "Joining strips lets makers vary the scale and order of motifs across a larger surface.",
+      "source": {
+        "label": "Victoria and Albert Museum",
+        "href": "https://www.vam.ac.uk/articles/cloth-of-a-continent-africa-fashion"
+      }
+    },
+    {
+      "name": "Ndebele house painting",
+      "look": "Black outlines hold saturated angular fields against the building's flat wall.",
+      "history": "Southern Ndebele women in South Africa developed distinctive mural traditions. Esther Mahlangu took the imagery onto canvases and publicly commissioned surfaces.",
+      "when": "Study how a pattern interacts with the wall or openings of a building.",
+      "why": "Large contrasts keep shapes distinct from across a yard or along a street.",
+      "source": {
+        "label": "La Biennale di Venezia",
+        "href": "https://www.labiennale.org/en/art/2024/abstractions/esther-mahlangu"
+      }
+    },
+    {
+      "name": "adire",
+      "look": "The pale areas are places where the cotton resisted the indigo. Look for slight variations where the dye met the edge.",
+      "history": "Yoruba makers in southwestern Nigeria have used methods including tying, stitching and cassava-paste resist to pattern indigo-dyed cloth.",
+      "when": "Study it when you want to understand how reserving areas of a surface can build the image.",
+      "why": "The resist makes a lighter design part of the fiber's color rather than simply adding a dark line to the surface.",
+      "source": {
+        "label": "Victoria and Albert Museum",
+        "href": "https://www.vam.ac.uk/articles/adire-tied-and-dyed-indigo-textiles"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational museum style comparison board. Wide enough to make exactly four equal-size square panels, arranged as a square 2×2 grid in stated reading order, thin neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn in every scene, black blazer and knee-length black sheath dress, blue lanyard and blank badge, white coffee mug with four colored squares. As specified she may be an exhibit visitor or the artwork subject. Prioritize obvious historical differences. Individual examples: Kuba raffia textile open on table showing cut pile, plush brown interlocking embroidery; kente garment fragment with narrow bands of golden red green strip-woven blocks, folded to show joins; southern African Ndebele house-painting study large angular black-edged saturated fields on an exterior wall; Yoruba adire cotton resist-dyed in indigo showing irregular pale grids and waves, folded at edge. Keep panels instantly distinguishable, artwork fills most of each panel. No lettering, captions, watermark or ornamental frame."
+}

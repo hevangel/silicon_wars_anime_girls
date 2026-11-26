@@ -1,0 +1,1664 @@
+[
+  {
+    "id": "atlas-001",
+    "home": "drawing-paint-and-paper",
+    "title": "How four drawing tools leave a line",
+    "indices": [
+      1,
+      2,
+      3,
+      14
+    ],
+    "terms": [
+      "silverpoint",
+      "red chalk",
+      "conté",
+      "ballpoint drawing"
+    ]
+  },
+  {
+    "id": "atlas-002",
+    "home": "drawing-paint-and-paper",
+    "title": "Covering and uncovering a surface",
+    "indices": [
+      4,
+      9,
+      12,
+      13
+    ],
+    "terms": [
+      "oil pastel",
+      "airbrush art",
+      "scratchboard",
+      "marker rendering"
+    ]
+  },
+  {
+    "id": "atlas-003",
+    "home": "drawing-paint-and-paper",
+    "title": "What holds pigment in place",
+    "indices": [
+      5,
+      15,
+      16,
+      17
+    ],
+    "terms": [
+      "encaustic",
+      "casein painting",
+      "distemper",
+      "fresco secco"
+    ]
+  },
+  {
+    "id": "atlas-004",
+    "home": "drawing-paint-and-paper",
+    "title": "Building a painted surface",
+    "indices": [
+      7,
+      8,
+      10,
+      11
+    ],
+    "terms": [
+      "palette knife painting",
+      "grisaille",
+      "spray paint",
+      "mixed media"
+    ]
+  },
+  {
+    "id": "atlas-005",
+    "home": "prints-photographs-and-camera-vision",
+    "title": "Four ways to ink a metal plate",
+    "indices": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "terms": [
+      "engraving",
+      "drypoint",
+      "aquatint",
+      "mezzotint"
+    ]
+  },
+  {
+    "id": "atlas-006",
+    "home": "prints-photographs-and-camera-vision",
+    "title": "Block, stencil and single impression",
+    "indices": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "terms": [
+      "wood engraving",
+      "monotype",
+      "chiaroscuro woodcut",
+      "pochoir stencil"
+    ]
+  },
+  {
+    "id": "atlas-007",
+    "home": "prints-photographs-and-camera-vision",
+    "title": "Making editions for many readers",
+    "indices": [
+      28,
+      29,
+      30,
+      31
+    ],
+    "terms": [
+      "letterpress",
+      "halftone printing",
+      "CMYK offset printing",
+      "risograph"
+    ]
+  },
+  {
+    "id": "atlas-008",
+    "home": "prints-photographs-and-camera-vision",
+    "title": "Pictures circulated on paper",
+    "indices": [
+      32,
+      33,
+      34,
+      137
+    ],
+    "terms": [
+      "shin-hanga",
+      "Chinese New Year prints",
+      "calavera prints",
+      "sōsaku-hanga"
+    ]
+  },
+  {
+    "id": "atlas-009",
+    "home": "camera-and-evidence",
+    "title": "An image made by light and chemistry",
+    "indices": [
+      35,
+      36,
+      37,
+      40
+    ],
+    "terms": [
+      "daguerreotype",
+      "wet-plate photography",
+      "tintype",
+      "photogram"
+    ]
+  },
+  {
+    "id": "atlas-010",
+    "home": "camera-and-evidence",
+    "title": "Choosing what a camera records",
+    "indices": [
+      38,
+      39,
+      44,
+      46
+    ],
+    "terms": [
+      "straight photography",
+      "street photography",
+      "color photography",
+      "Düsseldorf School photography"
+    ]
+  },
+  {
+    "id": "atlas-011",
+    "home": "camera-and-evidence",
+    "title": "Directing a photograph",
+    "indices": [
+      45,
+      47,
+      48
+    ],
+    "terms": [
+      "staged photography",
+      "fashion photography",
+      "double exposure"
+    ]
+  },
+  {
+    "id": "atlas-012",
+    "home": "stage-a-figure-or-a-room",
+    "title": "Tricking the eye and the lens",
+    "indices": [
+      41,
+      42,
+      43,
+      19
+    ],
+    "terms": [
+      "hyperrealism",
+      "illusionistic ceiling painting",
+      "anamorphosis",
+      "matte painting"
+    ]
+  },
+  {
+    "id": "atlas-013",
+    "home": "pattern-craft-and-objects",
+    "title": "Pattern built with thread",
+    "indices": [
+      49,
+      50,
+      51,
+      68
+    ],
+    "terms": [
+      "tapestry",
+      "Bayeux-style embroidery",
+      "Persian carpet",
+      "goldwork"
+    ],
+    "gallery": "Build a design from fiber and cloth"
+  },
+  {
+    "id": "atlas-014",
+    "home": "pattern-craft-and-objects",
+    "title": "Assembling a tiled surface",
+    "indices": [
+      52,
+      53,
+      54,
+      71
+    ],
+    "terms": [
+      "Islamic tilework",
+      "Iznik tilework",
+      "zellige",
+      "azulejo"
+    ],
+    "gallery": "Assemble, cut and decorate a surface"
+  },
+  {
+    "id": "atlas-015",
+    "home": "pattern-craft-and-objects",
+    "title": "Inlay, enamel and polished layers",
+    "indices": [
+      55,
+      56,
+      62,
+      63
+    ],
+    "terms": [
+      "lacquerware",
+      "cloisonné enamel",
+      "pietra dura",
+      "marquetry"
+    ],
+    "gallery": "Assemble, cut and decorate a surface"
+  },
+  {
+    "id": "atlas-016",
+    "home": "pattern-craft-and-objects",
+    "title": "Sculpture in the round",
+    "indices": [
+      58,
+      59,
+      60,
+      61
+    ],
+    "terms": [
+      "freestanding marble sculpture",
+      "cast bronze sculpture",
+      "wood sculpture",
+      "terracotta sculpture"
+    ],
+    "gallery": "Look around a carved or cast figure"
+  },
+  {
+    "id": "atlas-017",
+    "home": "pattern-craft-and-objects",
+    "title": "Constructing a surface from units",
+    "indices": [
+      64,
+      65,
+      66,
+      67
+    ],
+    "terms": [
+      "blown glass",
+      "beadwork",
+      "basketry",
+      "featherwork"
+    ],
+    "gallery": "Assemble, cut and decorate a surface"
+  },
+  {
+    "id": "atlas-018",
+    "home": "pattern-craft-and-objects",
+    "title": "Cut, carve and float a design",
+    "indices": [
+      57,
+      69,
+      70
+    ],
+    "terms": [
+      "papercutting",
+      "ivory carving",
+      "paper marbling"
+    ],
+    "gallery": "Assemble, cut and decorate a surface"
+  },
+  {
+    "id": "atlas-019",
+    "home": "stories-on-walls-and-pages",
+    "title": "Figures across rock, plaster and time",
+    "indices": [
+      72,
+      80,
+      81,
+      76
+    ],
+    "terms": [
+      "Paleolithic cave painting",
+      "Saharan rock art",
+      "San rock art",
+      "Minoan fresco"
+    ],
+    "gallery": "Follow figures across a wall"
+  },
+  {
+    "id": "atlas-020",
+    "home": "stories-on-walls-and-pages",
+    "title": "Power along a processional route",
+    "indices": [
+      73,
+      74,
+      75,
+      85
+    ],
+    "terms": [
+      "Mesopotamian art",
+      "Assyrian relief",
+      "Ishtar Gate",
+      "Achaemenid relief"
+    ],
+    "gallery": "Follow figures across a wall"
+  },
+  {
+    "id": "atlas-021",
+    "home": "stories-on-walls-and-pages",
+    "title": "Bodies in the ancient Mediterranean",
+    "indices": [
+      82,
+      77,
+      79,
+      83
+    ],
+    "terms": [
+      "Cycladic sculpture",
+      "Classical Greek sculpture",
+      "Fayum mummy portraits",
+      "Etruscan tomb painting"
+    ],
+    "gallery": "Follow figures across a wall"
+  },
+  {
+    "id": "atlas-022",
+    "home": "stories-on-walls-and-pages",
+    "title": "Rooms, floors and early Christian walls",
+    "indices": [
+      78,
+      84,
+      92
+    ],
+    "terms": [
+      "Roman wall painting",
+      "Roman mosaic",
+      "catacomb painting"
+    ],
+    "gallery": "Follow figures across a wall"
+  },
+  {
+    "id": "atlas-023",
+    "home": "stories-on-walls-and-pages",
+    "title": "Painting for devotion",
+    "indices": [
+      86,
+      95,
+      96,
+      97
+    ],
+    "terms": [
+      "Byzantine icon",
+      "Russian icon painting",
+      "Ethiopian Christian painting",
+      "Armenian manuscript illumination"
+    ],
+    "gallery": "Read a figure made for devotion"
+  },
+  {
+    "id": "atlas-024",
+    "home": "stories-on-walls-and-pages",
+    "title": "How a manuscript commands attention",
+    "indices": [
+      87,
+      88,
+      93,
+      94
+    ],
+    "terms": [
+      "Insular art",
+      "Book of Kells style",
+      "Carolingian art",
+      "Ottonian art"
+    ],
+    "gallery": "Read a figure made for devotion"
+  },
+  {
+    "id": "atlas-025",
+    "home": "stories-on-walls-and-pages",
+    "title": "Medieval figures and courtly gestures",
+    "indices": [
+      89,
+      90,
+      91
+    ],
+    "terms": [
+      "Romanesque art",
+      "Gothic art",
+      "International Gothic"
+    ],
+    "gallery": "Read a figure made for devotion"
+  },
+  {
+    "id": "atlas-026",
+    "home": "pattern-craft-and-objects",
+    "title": "Writing, geometry and branching ornament",
+    "indices": [
+      98,
+      99,
+      100
+    ],
+    "terms": [
+      "Islamic calligraphy",
+      "geometric pattern",
+      "arabesque"
+    ],
+    "gallery": "Assemble, cut and decorate a surface"
+  },
+  {
+    "id": "atlas-027",
+    "home": "stories-on-walls-and-pages",
+    "title": "Court portraits and painted stories",
+    "indices": [
+      101,
+      102,
+      104,
+      105
+    ],
+    "terms": [
+      "Ottoman miniature",
+      "Qajar painting",
+      "Rajput miniature",
+      "Pahari miniature"
+    ],
+    "gallery": "Follow a story across places and pages"
+  },
+  {
+    "id": "atlas-028",
+    "home": "stories-on-walls-and-pages",
+    "title": "Painting devotion across South Asia",
+    "indices": [
+      103,
+      106,
+      107,
+      113
+    ],
+    "terms": [
+      "Ajanta mural",
+      "Tibetan thangka",
+      "Tibetan mandala",
+      "Tanjore painting"
+    ],
+    "gallery": "Read a figure made for devotion"
+  },
+  {
+    "id": "atlas-029",
+    "home": "pattern-craft-and-objects",
+    "title": "Figures made for a place",
+    "indices": [
+      108,
+      109,
+      117,
+      118
+    ],
+    "terms": [
+      "Chola bronze",
+      "South Asian temple sculpture",
+      "Khmer relief",
+      "Angkor art"
+    ],
+    "gallery": "Look around a carved or cast figure"
+  },
+  {
+    "id": "atlas-030",
+    "home": "pattern-craft-and-objects",
+    "title": "Line, rhythm and the painted cloth",
+    "indices": [
+      110,
+      111,
+      112,
+      114
+    ],
+    "terms": [
+      "Pattachitra",
+      "Warli",
+      "Gond",
+      "Kalamkari"
+    ],
+    "gallery": "Build a design from fiber and cloth"
+  },
+  {
+    "id": "atlas-031",
+    "home": "stories-on-walls-and-pages",
+    "title": "Schools and settings in southern Asia",
+    "indices": [
+      115,
+      116,
+      119,
+      120
+    ],
+    "terms": [
+      "Company painting",
+      "Bengal School",
+      "Thai temple mural",
+      "Balinese Kamasan painting"
+    ],
+    "gallery": "Follow a story across places and pages"
+  },
+  {
+    "id": "atlas-032",
+    "home": "pattern-craft-and-objects",
+    "title": "Print, lacquer, mural and cast vessel",
+    "indices": [
+      121,
+      122,
+      127,
+      128
+    ],
+    "terms": [
+      "Đông Hồ print",
+      "Vietnamese lacquer painting",
+      "Dunhuang Buddhist murals",
+      "Chinese ritual bronze"
+    ],
+    "gallery": "Read a design in everyday use"
+  },
+  {
+    "id": "atlas-033",
+    "home": "light-weather-and-landscape",
+    "title": "Four uses of a Chinese brush",
+    "indices": [
+      123,
+      124,
+      125,
+      126
+    ],
+    "terms": [
+      "Chinese calligraphy",
+      "gongbi painting",
+      "bird-and-flower painting",
+      "literati painting"
+    ]
+  },
+  {
+    "id": "atlas-034",
+    "home": "light-weather-and-landscape",
+    "title": "Reworking the ink tradition",
+    "indices": [
+      129,
+      130,
+      131
+    ],
+    "terms": [
+      "Shanghai School",
+      "Lingnan School",
+      "contemporary Chinese ink"
+    ]
+  },
+  {
+    "id": "atlas-035",
+    "home": "light-weather-and-landscape",
+    "title": "Japanese pictures for rooms and readers",
+    "indices": [
+      132,
+      133,
+      134,
+      136
+    ],
+    "terms": [
+      "Yamato-e",
+      "Kanō school",
+      "Zen ink painting",
+      "Nanga"
+    ]
+  },
+  {
+    "id": "atlas-036",
+    "home": "pattern-craft-and-objects",
+    "title": "Painting, folk craft and everyday wishes",
+    "indices": [
+      135,
+      138,
+      139
+    ],
+    "terms": [
+      "Nihonga",
+      "Mingei",
+      "minhwa"
+    ],
+    "gallery": "Read a design in everyday use"
+  },
+  {
+    "id": "atlas-037",
+    "home": "light-weather-and-landscape",
+    "title": "Three approaches in Korean art",
+    "indices": [
+      140,
+      141,
+      142
+    ],
+    "terms": [
+      "true-view landscape",
+      "Goryeo Buddhist painting",
+      "Dansaekhwa"
+    ]
+  },
+  {
+    "id": "atlas-038",
+    "home": "pattern-craft-and-objects",
+    "title": "Heads and figures in metal and clay",
+    "indices": [
+      143,
+      144,
+      151
+    ],
+    "terms": [
+      "Ife bronze",
+      "Benin bronze",
+      "Nok terracotta"
+    ],
+    "gallery": "Look around a carved or cast figure"
+  },
+  {
+    "id": "atlas-039",
+    "home": "performance-puppetry-and-kinetic-art",
+    "title": "Carving and performance in context",
+    "indices": [
+      145,
+      146,
+      147
+    ],
+    "terms": [
+      "Dan mask",
+      "Fang mask",
+      "Pende mask"
+    ]
+  },
+  {
+    "id": "atlas-040",
+    "home": "pattern-craft-and-objects",
+    "title": "Woven, painted and resisted pattern",
+    "indices": [
+      148,
+      149,
+      150,
+      152
+    ],
+    "terms": [
+      "Kuba cloth",
+      "kente",
+      "Ndebele house painting",
+      "adire"
+    ],
+    "gallery": "Build a design from fiber and cloth"
+  },
+  {
+    "id": "atlas-041",
+    "home": "graphic-design-and-public-messages",
+    "title": "Marks and collective identity",
+    "indices": [
+      153,
+      154,
+      155
+    ],
+    "terms": [
+      "uli",
+      "nsibidi",
+      "Asafo flag"
+    ]
+  },
+  {
+    "id": "atlas-042",
+    "home": "work-and-public-life",
+    "title": "Workshops and reused materials",
+    "indices": [
+      156,
+      157,
+      158
+    ],
+    "terms": [
+      "Tinga Tinga",
+      "Oshogbo School",
+      "El Anatsui-style metal tapestry"
+    ]
+  },
+  {
+    "id": "atlas-043",
+    "home": "pattern-craft-and-objects",
+    "title": "Painting place and tracing a curve",
+    "indices": [
+      159,
+      160,
+      162,
+      163
+    ],
+    "terms": [
+      "Aboriginal bark painting",
+      "Western Desert dot painting",
+      "kōwhaiwhai",
+      "tapa cloth"
+    ],
+    "gallery": "Read a design in everyday use"
+  },
+  {
+    "id": "atlas-044",
+    "home": "pattern-craft-and-objects",
+    "title": "Carved and assembled Pacific forms",
+    "indices": [
+      161,
+      164,
+      165,
+      166
+    ],
+    "terms": [
+      "Māori carving",
+      "Sepik carving",
+      "Rapa Nui art",
+      "Hawaiian featherwork"
+    ],
+    "gallery": "Look around a carved or cast figure"
+  },
+  {
+    "id": "atlas-045",
+    "home": "stories-on-walls-and-pages",
+    "title": "Mesoamerican monuments and painted books",
+    "indices": [
+      167,
+      168,
+      169,
+      170
+    ],
+    "terms": [
+      "Olmec sculpture",
+      "Teotihuacan mural",
+      "Aztec codex",
+      "Mixtec codex"
+    ],
+    "gallery": "Follow a story across places and pages"
+  },
+  {
+    "id": "atlas-046",
+    "home": "pattern-craft-and-objects",
+    "title": "Andean textiles and painted vessels",
+    "indices": [
+      171,
+      172,
+      173,
+      174
+    ],
+    "terms": [
+      "Paracas textile",
+      "Inca textile",
+      "Moche ceramic",
+      "Nazca ceramic"
+    ],
+    "gallery": "Build a design from fiber and cloth"
+  },
+  {
+    "id": "atlas-047",
+    "home": "stories-on-walls-and-pages",
+    "title": "Four ways of recording a living world",
+    "indices": [
+      175,
+      176,
+      179,
+      181
+    ],
+    "terms": [
+      "Northwest Coast formline",
+      "Plains ledger art",
+      "Kinngait print",
+      "Woodlands School"
+    ],
+    "gallery": "Follow a story across places and pages"
+  },
+  {
+    "id": "atlas-048",
+    "home": "pattern-craft-and-objects",
+    "title": "Building pattern in the Americas",
+    "indices": [
+      177,
+      178,
+      180,
+      182
+    ],
+    "terms": [
+      "Mimbres pottery",
+      "Pueblo pottery",
+      "Navajo weaving",
+      "Huichol yarn painting"
+    ],
+    "gallery": "Build a design from fiber and cloth"
+  },
+  {
+    "id": "atlas-049",
+    "home": "work-and-public-life",
+    "title": "Pictures under colonial rule and after",
+    "indices": [
+      183,
+      184,
+      185,
+      186
+    ],
+    "terms": [
+      "amate",
+      "Cuzco School",
+      "casta painting",
+      "Haitian painting"
+    ]
+  },
+  {
+    "id": "atlas-050",
+    "home": "pattern-craft-and-objects",
+    "title": "Layers of cut cloth",
+    "indices": [
+      187
+    ],
+    "terms": [
+      "mola"
+    ],
+    "gallery": "Build a design from fiber and cloth"
+  },
+  {
+    "id": "atlas-051",
+    "home": "stage-a-figure-or-a-room",
+    "title": "Making sacred figures inhabit space",
+    "indices": [
+      188,
+      189,
+      190,
+      191
+    ],
+    "terms": [
+      "Proto-Renaissance",
+      "Early Netherlandish painting",
+      "Northern Renaissance",
+      "High Renaissance"
+    ]
+  },
+  {
+    "id": "atlas-052",
+    "home": "stage-a-figure-or-a-room",
+    "title": "Color, gesture and staged light",
+    "indices": [
+      192,
+      193,
+      194,
+      195
+    ],
+    "terms": [
+      "Venetian colorism",
+      "Mannerism",
+      "Dutch Golden Age painting",
+      "Spanish Golden Age painting"
+    ]
+  },
+  {
+    "id": "atlas-053",
+    "home": "stage-a-figure-or-a-room",
+    "title": "Composing status and civic space",
+    "indices": [
+      196,
+      201,
+      203,
+      204
+    ],
+    "terms": [
+      "French classicism",
+      "Academic art",
+      "vedute",
+      "Grand Manner portrait"
+    ]
+  },
+  {
+    "id": "atlas-054",
+    "home": "emotion-dreams-and-metaphor",
+    "title": "Intimacy, invention and the imagined past",
+    "indices": [
+      197,
+      205,
+      206,
+      207
+    ],
+    "terms": [
+      "Goya's art",
+      "Chardin's art",
+      "Orientalism",
+      "Nazarenes"
+    ]
+  },
+  {
+    "id": "atlas-055",
+    "home": "light-weather-and-landscape",
+    "title": "What a landscape emphasizes",
+    "indices": [
+      198,
+      199,
+      200,
+      208
+    ],
+    "terms": [
+      "English landscape painting",
+      "Hudson River School",
+      "Barbizon School",
+      "Luminism"
+    ]
+  },
+  {
+    "id": "atlas-056",
+    "home": "work-and-public-life",
+    "title": "Painting observed life",
+    "indices": [
+      202,
+      209,
+      210,
+      211
+    ],
+    "terms": [
+      "American Realism",
+      "Macchiaioli",
+      "Peredvizhniki",
+      "Naturalism"
+    ]
+  },
+  {
+    "id": "atlas-057",
+    "home": "work-and-public-life",
+    "title": "Whose work fills the city?",
+    "indices": [
+      213,
+      214,
+      215,
+      220
+    ],
+    "terms": [
+      "Ashcan School",
+      "Social Realism",
+      "New Deal mural",
+      "Chicano muralism"
+    ]
+  },
+  {
+    "id": "atlas-058",
+    "home": "graphic-design-and-public-messages",
+    "title": "Posters competing for public attention",
+    "indices": [
+      216,
+      217,
+      224,
+      225
+    ],
+    "terms": [
+      "New Deal poster",
+      "wartime propaganda poster",
+      "Chinese revolutionary poster",
+      "Cuban OSPAAAL poster"
+    ]
+  },
+  {
+    "id": "atlas-059",
+    "home": "graphic-design-and-public-messages",
+    "title": "Print collectives and political messages",
+    "indices": [
+      226,
+      227,
+      228,
+      223
+    ],
+    "terms": [
+      "Polish Poster School",
+      "May '68 poster",
+      "Taller de Gráfica Popular",
+      "AfriCOBRA"
+    ]
+  },
+  {
+    "id": "atlas-060",
+    "home": "graphic-design-and-public-messages",
+    "title": "Who gets to speak on a wall?",
+    "indices": [
+      218,
+      219,
+      221,
+      222
+    ],
+    "terms": [
+      "graffiti",
+      "street art",
+      "feminist art",
+      "Black Arts Movement"
+    ]
+  },
+  {
+    "id": "atlas-061",
+    "home": "light-weather-and-landscape",
+    "title": "Landscape and national narratives",
+    "indices": [
+      229,
+      230,
+      231,
+      232
+    ],
+    "terms": [
+      "Group of Seven",
+      "Heidelberg School",
+      "Brazilian Modernism",
+      "Indigenismo"
+    ]
+  },
+  {
+    "id": "atlas-062",
+    "home": "work-and-public-life",
+    "title": "Art schools and independent voices",
+    "indices": [
+      233,
+      234
+    ],
+    "terms": [
+      "Nigerian modernism",
+      "Zaria Art Society"
+    ]
+  },
+  {
+    "id": "atlas-063",
+    "home": "emotion-dreams-and-metaphor",
+    "title": "Brushwork, structure and the flat print",
+    "indices": [
+      235,
+      236,
+      237,
+      212
+    ],
+    "terms": [
+      "Cézanne's art",
+      "Van Gogh's art",
+      "Synthetism",
+      "Japonisme"
+    ]
+  },
+  {
+    "id": "atlas-064",
+    "home": "graphic-design-and-public-messages",
+    "title": "Line across a poster, room and painting",
+    "indices": [
+      238,
+      239,
+      240
+    ],
+    "terms": [
+      "Toulouse-Lautrec poster",
+      "Les Nabis",
+      "Vienna Secession"
+    ]
+  },
+  {
+    "id": "atlas-065",
+    "home": "abstraction-geometry-and-optical-motion",
+    "title": "From a motif toward abstraction",
+    "indices": [
+      241,
+      243,
+      244,
+      256
+    ],
+    "terms": [
+      "Der Blaue Reiter",
+      "Suprematism",
+      "early pure abstraction",
+      "Synchromism"
+    ]
+  },
+  {
+    "id": "atlas-066",
+    "home": "emotion-dreams-and-metaphor",
+    "title": "Four approaches to an imagined scene",
+    "indices": [
+      245,
+      246,
+      248,
+      249
+    ],
+    "terms": [
+      "Metaphysical painting",
+      "School of Paris",
+      "Abstract Surrealism",
+      "Kahlo and Mexican modernism"
+    ]
+  },
+  {
+    "id": "atlas-067",
+    "home": "emotion-dreams-and-metaphor",
+    "title": "Who decides what counts as art?",
+    "indices": [
+      242,
+      250,
+      251
+    ],
+    "terms": [
+      "Naïve art",
+      "Art Brut",
+      "outsider art"
+    ]
+  },
+  {
+    "id": "atlas-068",
+    "home": "abstraction-geometry-and-optical-motion",
+    "title": "Fracturing the machine age",
+    "indices": [
+      252,
+      253,
+      254,
+      255
+    ],
+    "terms": [
+      "Vorticism",
+      "Rayonism",
+      "Cubo-Futurism",
+      "Purism"
+    ]
+  },
+  {
+    "id": "atlas-069",
+    "home": "emotion-dreams-and-metaphor",
+    "title": "Figuration after upheaval",
+    "indices": [
+      257,
+      258,
+      261
+    ],
+    "terms": [
+      "Magic Realism",
+      "CoBrA",
+      "School of London"
+    ]
+  },
+  {
+    "id": "atlas-070",
+    "home": "abstraction-geometry-and-optical-motion",
+    "title": "Painting as a physical event",
+    "indices": [
+      259,
+      260,
+      262,
+      263
+    ],
+    "terms": [
+      "Art Informel",
+      "Tachisme",
+      "Color Field painting",
+      "stain painting"
+    ]
+  },
+  {
+    "id": "atlas-071",
+    "home": "abstraction-geometry-and-optical-motion",
+    "title": "Edges and the viewer in space",
+    "indices": [
+      264,
+      265
+    ],
+    "terms": [
+      "hard-edge painting",
+      "Neo-Concrete"
+    ]
+  },
+  {
+    "id": "atlas-072",
+    "home": "graphic-design-and-public-messages",
+    "title": "Designing an immediately legible sign",
+    "indices": [
+      266,
+      273,
+      274,
+      275
+    ],
+    "terms": [
+      "Plakatstil",
+      "Isotype pictograms",
+      "Wiener Werkstätte",
+      "Japanese postwar graphic design"
+    ]
+  },
+  {
+    "id": "atlas-073",
+    "home": "objects-and-imagined-futures",
+    "title": "Products and their interfaces",
+    "indices": [
+      267,
+      268,
+      271,
+      272
+    ],
+    "terms": [
+      "Streamline Moderne",
+      "mid-century modern",
+      "flat design",
+      "skeuomorphism"
+    ]
+  },
+  {
+    "id": "atlas-074",
+    "home": "graphic-design-and-public-messages",
+    "title": "Type as a visual voice",
+    "indices": [
+      269,
+      270
+    ],
+    "terms": [
+      "New Wave typography",
+      "grunge typography"
+    ]
+  },
+  {
+    "id": "atlas-075",
+    "home": "buildings-sites-and-installations",
+    "title": "A building teaches you how to enter",
+    "indices": [
+      276,
+      277,
+      278,
+      279
+    ],
+    "terms": [
+      "Classical orders",
+      "Gothic cathedral architecture",
+      "Islamic architecture",
+      "muqarnas"
+    ]
+  },
+  {
+    "id": "atlas-076",
+    "home": "buildings-sites-and-installations",
+    "title": "Planning a building around a body",
+    "indices": [
+      280,
+      281,
+      282,
+      283
+    ],
+    "terms": [
+      "Baroque architecture",
+      "Beaux-Arts architecture",
+      "International Style architecture",
+      "organic architecture"
+    ]
+  },
+  {
+    "id": "atlas-077",
+    "home": "buildings-sites-and-installations",
+    "title": "Structure as a public statement",
+    "indices": [
+      284,
+      285,
+      286,
+      287
+    ],
+    "terms": [
+      "postmodern architecture",
+      "high-tech architecture",
+      "Metabolism",
+      "parametric architecture"
+    ]
+  },
+  {
+    "id": "atlas-078",
+    "home": "objects-and-imagined-futures",
+    "title": "An ordinary object becomes an artwork",
+    "indices": [
+      247,
+      288,
+      289,
+      292
+    ],
+    "terms": [
+      "Dada readymade",
+      "Neo-Dada",
+      "Nouveau Réalisme",
+      "Arte Povera"
+    ]
+  },
+  {
+    "id": "atlas-079",
+    "home": "performance-puppetry-and-kinetic-art",
+    "title": "An artwork as an instruction or an action",
+    "indices": [
+      290,
+      291,
+      315,
+      316
+    ],
+    "terms": [
+      "Fluxus",
+      "Conceptual art",
+      "performance art",
+      "Happening"
+    ]
+  },
+  {
+    "id": "atlas-080",
+    "home": "work-and-public-life",
+    "title": "Looking at consumer societies",
+    "indices": [
+      293,
+      295,
+      304,
+      305
+    ],
+    "terms": [
+      "Capitalist Realism",
+      "Pictures Generation",
+      "Sots Art",
+      "Chinese Political Pop"
+    ]
+  },
+  {
+    "id": "atlas-081",
+    "home": "emotion-dreams-and-metaphor",
+    "title": "Reinventing the figure",
+    "indices": [
+      294,
+      296,
+      300,
+      301
+    ],
+    "terms": [
+      "Neo-Expressionism",
+      "Young British Artists",
+      "contemporary figuration",
+      "Chicago Imagists"
+    ]
+  },
+  {
+    "id": "atlas-082",
+    "home": "objects-and-imagined-futures",
+    "title": "Pictures from popular culture",
+    "indices": [
+      297,
+      298,
+      299
+    ],
+    "terms": [
+      "Superflat",
+      "Lowbrow",
+      "Pop Surrealism"
+    ]
+  },
+  {
+    "id": "atlas-083",
+    "home": "abstraction-geometry-and-optical-motion",
+    "title": "Decoration, geometry and the screen",
+    "indices": [
+      302,
+      303,
+      306,
+      308
+    ],
+    "terms": [
+      "Pattern and Decoration",
+      "Neo-Geo",
+      "post-internet art",
+      "glitch art"
+    ]
+  },
+  {
+    "id": "atlas-084",
+    "home": "objects-and-imagined-futures",
+    "title": "Invented futures and remembered screens",
+    "indices": [
+      307,
+      309,
+      310,
+      313
+    ],
+    "terms": [
+      "vaporwave",
+      "cyberpunk",
+      "synthwave",
+      "Y2K"
+    ]
+  },
+  {
+    "id": "atlas-085",
+    "home": "objects-and-imagined-futures",
+    "title": "Two alternatives for tomorrow",
+    "indices": [
+      311,
+      312
+    ],
+    "terms": [
+      "steampunk",
+      "solarpunk"
+    ]
+  },
+  {
+    "id": "atlas-086",
+    "home": "buildings-sites-and-installations",
+    "title": "A room or site becomes the work",
+    "indices": [
+      314,
+      319,
+      321,
+      322
+    ],
+    "terms": [
+      "installation art",
+      "site-specific wrapping",
+      "Mono-ha",
+      "immersive projection"
+    ]
+  },
+  {
+    "id": "atlas-087",
+    "home": "performance-puppetry-and-kinetic-art",
+    "title": "Duration, matter and accumulation",
+    "indices": [
+      317,
+      318,
+      320
+    ],
+    "terms": [
+      "video art",
+      "assemblage",
+      "process art"
+    ]
+  },
+  {
+    "id": "atlas-088",
+    "home": "pattern-craft-and-objects",
+    "title": "Four ways to model a body in space",
+    "indices": [
+      323,
+      324,
+      325,
+      326
+    ],
+    "terms": [
+      "Rodin-style sculpture",
+      "Brâncuși-style sculpture",
+      "Giacometti-style sculpture",
+      "Moore-style sculpture"
+    ],
+    "gallery": "Look around a carved or cast figure"
+  },
+  {
+    "id": "atlas-089",
+    "home": "performance-puppetry-and-kinetic-art",
+    "title": "How a drawn figure moves",
+    "indices": [
+      327,
+      328,
+      329,
+      330
+    ],
+    "terms": [
+      "classic hand-drawn animation",
+      "1930s rubber-hose animation",
+      "mid-century limited animation",
+      "silhouette cut-out animation"
+    ]
+  },
+  {
+    "id": "atlas-090",
+    "home": "performance-puppetry-and-kinetic-art",
+    "title": "From photographed movement to cinematic shadow",
+    "indices": [
+      331,
+      332,
+      333
+    ],
+    "terms": [
+      "rotoscope",
+      "German Expressionist cinema",
+      "film noir"
+    ]
+  },
+  {
+    "id": "atlas-091",
+    "home": "performance-puppetry-and-kinetic-art",
+    "title": "Reading an actor from a distance",
+    "indices": [
+      334,
+      335,
+      336
+    ],
+    "terms": [
+      "Noh",
+      "Kabuki",
+      "Chinese opera"
+    ]
+  },
+  {
+    "id": "atlas-092",
+    "home": "console-graphics-timeline",
+    "title": "Arcade lines, handheld pixels and sprites",
+    "indices": [
+      337,
+      338,
+      339,
+      340
+    ],
+    "terms": [
+      "vector arcade graphics",
+      "Game Boy four-shade graphics",
+      "isometric pixel art",
+      "pre-rendered CG sprites"
+    ]
+  },
+  {
+    "id": "atlas-093",
+    "home": "console-graphics-timeline",
+    "title": "Four real-time console looks",
+    "indices": [
+      341,
+      342,
+      343,
+      344
+    ],
+    "terms": [
+      "N64-era 3D",
+      "PS2-era 3D",
+      "Dreamcast-era 3D",
+      "GameCube-era 3D"
+    ]
+  },
+  {
+    "id": "atlas-094",
+    "home": "console-graphics-timeline",
+    "title": "Choosing a visual constraint",
+    "indices": [
+      345,
+      346,
+      347,
+      349
+    ],
+    "terms": [
+      "cel-shaded 3D",
+      "voxel art",
+      "ASCII art",
+      "modern low-poly indie"
+    ]
+  },
+  {
+    "id": "atlas-095",
+    "home": "console-graphics-timeline",
+    "title": "Giving digital worlds depth",
+    "indices": [
+      350,
+      351
+    ],
+    "terms": [
+      "hand-painted textures",
+      "HD-2D"
+    ]
+  },
+  {
+    "id": "atlas-096",
+    "home": "make-a-manga-panel",
+    "title": "Four graphic voices on the page",
+    "indices": [
+      352,
+      353,
+      354,
+      355
+    ],
+    "terms": [
+      "American comic book",
+      "ligne claire",
+      "caricature",
+      "editorial cartoon"
+    ]
+  },
+  {
+    "id": "atlas-097",
+    "home": "make-a-manga-panel",
+    "title": "Who is the illustration for?",
+    "indices": [
+      356,
+      357,
+      361,
+      362
+    ],
+    "terms": [
+      "Golden Age illustration",
+      "children's picture book",
+      "underground comix",
+      "pulp cover"
+    ]
+  },
+  {
+    "id": "atlas-098",
+    "home": "drawing-paint-and-paper",
+    "title": "Drawing to explain or propose",
+    "indices": [
+      358,
+      359,
+      360,
+      368
+    ],
+    "terms": [
+      "botanical illustration",
+      "scientific illustration",
+      "fashion illustration",
+      "concept art"
+    ]
+  },
+  {
+    "id": "atlas-099",
+    "home": "drawing-paint-and-paper",
+    "title": "Two kinds of working drawing",
+    "indices": [
+      363,
+      364
+    ],
+    "terms": [
+      "technical drawing",
+      "architectural drawing"
+    ]
+  },
+  {
+    "id": "atlas-100",
+    "home": "pattern-craft-and-objects",
+    "title": "A design that follows the body",
+    "indices": [
+      365,
+      366,
+      367
+    ],
+    "terms": [
+      "tattoo flash",
+      "American traditional tattoo",
+      "irezumi"
+    ],
+    "gallery": "Read a design in everyday use"
+  }
+]

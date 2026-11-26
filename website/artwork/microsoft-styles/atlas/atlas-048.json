@@ -1,0 +1,54 @@
+{
+  "intro": "Each panel makes a different kind of pattern visible at an edge, a seam, or a turn in the surface. These are distinct regional practices with living makers and communities.",
+  "alt": "Microsoft views a black-and-white Mimbres bowl, a black Pueblo pot, a stepped Diné weaving and a bright yarn study.",
+  "image": "atlas-048.webp",
+  "variants": [
+    {
+      "name": "Mimbres pottery",
+      "look": "A black creature and angular divisions fit within the white interior of a round bowl.",
+      "history": "Artists of the Mimbres region made distinctive painted pottery in present-day New Mexico. The best-known black-on-white bowls date mainly to about 1000–1150 CE.",
+      "when": "Study the relation between the bottom of the bowl and the design that reaches toward its rim.",
+      "why": "A simple high-contrast figure remains clear across the changes of perspective caused by a curved surface.",
+      "source": {
+        "label": "Los Angeles County Museum of Art",
+        "href": "https://www.lacma.org/art/exhibition/decoding-mimbres-painting-ancient-ceramics-american-southwest"
+      }
+    },
+    {
+      "name": "Pueblo pottery",
+      "look": "On the dark pot, the reflected light makes the shiny and matte bands stand apart.",
+      "history": "Many Pueblo communities have distinctive pottery traditions. The black-on-black example refers to work developed by Maria and Julian Martinez of San Ildefonso Pueblo in the twentieth century.",
+      "when": "Study published examples to see how polishing and firing can carry a pattern within a single color.",
+      "why": "Changes in sheen make the design emerge and recede as the pot or viewer moves.",
+      "source": {
+        "label": "Smithsonian American Art Museum",
+        "href": "https://americanart.si.edu/artist/maria-martinez-3142"
+      }
+    },
+    {
+      "name": "Navajo weaving",
+      "look": "Colors make a stepped band across tightly woven wool, and the side shows the cloth's edge.",
+      "history": "Diné weaving developed over centuries and continues today. Wool, trade, shifting markets and family practice have shaped changes in its materials and designs.",
+      "when": "Look at both a documented textile and its edges when studying how the loom shapes a design.",
+      "why": "The stepped motif builds on the intersections of threads and makes structure visible.",
+      "source": {
+        "label": "RISD Museum",
+        "href": "https://risdmuseum.org/exhibitions-events/exhibitions/dine-textiles"
+      }
+    },
+    {
+      "name": "Huichol yarn painting",
+      "look": "Small colored yarn lines turn and stack around a simple motif.",
+      "history": "Wixárika artists in Mexico have used yarn and related materials to make images and objects. Modern commercial and fine-art yarn pictures have their own histories alongside ceremonial practices.",
+      "when": "Use artist-attributed public examples when studying how colored yarn follows the contours of an image.",
+      "why": "Closely laid lines give the surface a tactile rhythm and can distinguish adjacent areas even when their colors are similar.",
+      "source": {
+        "label": "Smithsonian National Museum of the American Indian",
+        "href": "https://americanindian.si.edu/collections-search/object/NMAI_393987"
+      }
+    }
+  ],
+  "width": 1261,
+  "height": 1247,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Mimbres black-on-white pottery bowl, large geometric divisions with angular black animal in interior, show both rim and image; Pueblo pottery showcase of living craft, burnished black-on-black geometric band on rounded pot, visually distinctive reflected light; Diné (Navajo) weaving textile detail made of tightly spun wool with stepped stripes in muted red, gray and white, show the edge; Wixárika (Huichol) yarn painting technique on a small contemporary study panel of blue and pink yarn loops making a simple nonreligious abstract blossom. Modern visitor only as viewer. No lettering, captions, watermark or ornamental frame."
+}

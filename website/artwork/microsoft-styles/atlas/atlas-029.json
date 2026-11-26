@@ -1,0 +1,54 @@
+{
+  "intro": "These sculptures look different because they belong in different spaces. Follow the bend of a bronze figure, the shadow inside a niche and the story carved along a wall.",
+  "alt": "Four sculptural versions in bronze, deeply carved red sandstone, shallow narrative stone and a carved Angkor-style pier.",
+  "image": "atlas-029.webp",
+  "variants": [
+    {
+      "name": "Chola bronze",
+      "look": "Curved limbs and a polished metal surface give the pose a sense of motion.",
+      "history": "Under the Chola dynasty, southern Indian workshops created bronze processional images. Sculptures of Shiva as Nataraja are especially well-known examples.",
+      "when": "Make a freestanding figure whose silhouette changes meaningfully as you walk around it.",
+      "why": "Cast bronze supports elegant projections and makes small changes in pose clear from multiple sides.",
+      "source": {
+        "label": "The Met | South and Southeast Asian art resource",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_South_and_Southeast_Asia_A_Resource_for_Educators.pdf"
+      }
+    },
+    {
+      "name": "South Asian temple sculpture",
+      "look": "Deep sandstone relief connects the figure to carved columns and foliage.",
+      "history": "Hindu, Buddhist and Jain temples throughout South Asia have varied sculptural programs. Figures can articulate entrances, niches and the exterior elevations.",
+      "when": "Fit a figure into the weight and proportions of an actual architectural niche.",
+      "why": "Deep cuts create shadows that make the form readable against a dense backdrop.",
+      "source": {
+        "label": "The Met | South and Southeast Asian art resource",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_South_and_Southeast_Asia_A_Resource_for_Educators.pdf"
+      }
+    },
+    {
+      "name": "Khmer relief",
+      "look": "Close-packed profiles and repeating gestures carry a shallow band of figures around the portrait.",
+      "history": "Khmer reliefs at Angkor include long carved narratives. Some depict court processions and everyday scenes, while others draw on epic tales.",
+      "when": "Make an episode that can be read while walking past a wall.",
+      "why": "Shallow carving keeps the surface continuous and lets repeated gestures carry the story.",
+      "source": {
+        "label": "Smithsonian National Museum of Asian Art | Angkor",
+        "href": "https://asia.si.edu/explore-art-culture/collections/collections-areas/southeast-asian/sacred-sites-in-southeast-asia/angkor-archaeological-area/"
+      }
+    },
+    {
+      "name": "Angkor art",
+      "look": "Floral borders and repeated tower forms organize the slab around the figure.",
+      "history": "Angkor encompasses centuries of Khmer building and art. Sandstone towers, gate figures and reliefs work together across temples such as Angkor Wat and the Bayon.",
+      "when": "Design a figure or emblem to guide a viewer from approach to doorway.",
+      "why": "Repeating carved forms connect close details to the larger building rhythm.",
+      "source": {
+        "label": "Smithsonian National Museum of Asian Art | Angkor",
+        "href": "https://asia.si.edu/explore-art-culture/collections/collections-areas/southeast-asian/sacred-sites-in-southeast-asia/angkor-archaeological-area/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Each artwork shows a museum-style historic sculpture morphology applied to this fictional character. She has glasses and low bun and small coffee cup in a business dress.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Chola-inspired cast bronze statuette, lustrous bronze, dynamic leg bent and elegantly curved figure balanced on a lotus plinth. top right: South Asian temple architectural carving in sandstone, high relief figure framed by carved pilasters, red sandstone flecks and intertwined foliage. bottom left: Khmer shallow stone narrative relief across a gallery wall showing heroine speaking with cup amid a file of small overlapping profiles; dense visual rhythm. bottom right: Angkor art-inspired freestanding gray sandstone architectural pillar, carved figure framed by carved stone tower layers and deeply cut stylized floral motifs."
+}

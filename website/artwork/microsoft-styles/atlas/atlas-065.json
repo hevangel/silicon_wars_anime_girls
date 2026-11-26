@@ -1,0 +1,54 @@
+{
+  "intro": "The landscape starts to dissolve, then lines and color begin to carry the composition themselves. Each example treats abstraction as a distinct sequence of choices.",
+  "alt": "Four studies show an intensely colored mountain scene, floating geometry, open rhythmic marks and thick bands of spectral color.",
+  "image": "atlas-065.webp",
+  "variants": [
+    {
+      "name": "Der Blaue Reiter",
+      "look": "Hills remain barely recognizable as simplified outlines filled with non-naturalistic colors.",
+      "history": "Der Blaue Reiter was an informal group around Munich in the early 1910s. Its artists pursued different ways to explore expression, color and spirituality.",
+      "when": "Study the point where a color can suggest a feeling while a landscape remains recognizable.",
+      "why": "Simplification frees the relationships between shapes and colors to do more expressive work.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://production-gcp.moma.org/s/ge/curated_ge/styles/blaue_reiter.html"
+      }
+    },
+    {
+      "name": "Suprematism",
+      "look": "Slanted blocks float against a pale ground. Their size, direction and distance distinguish them.",
+      "history": "Kazimir Malevich presented Suprematism publicly in Russia in 1915. The movement made arrangements of geometric forms central to the image.",
+      "when": "Study a few elementary shapes when you want placement and pressure between them to become the subject.",
+      "why": "The limited set of ingredients makes a small shift in balance easy to see.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/collection/terms/suprematism"
+      }
+    },
+    {
+      "name": "early pure abstraction",
+      "look": "Open areas, loops and small weighted shapes occupy different parts of the same field.",
+      "history": "In the early twentieth century, artists in many settings developed nonrepresentational art in parallel. They reached it by distinct paths through music, geometric experiment, color and more.",
+      "when": "Study whether a few areas of line or color can organize a whole image without depending on recognizable objects.",
+      "why": "The eye builds relationships from timing, balance and repeated intervals.",
+      "source": {
+        "label": "Museum of Modern Art",
+        "href": "https://www.moma.org/calendar/exhibitions/1273?locale=en"
+      }
+    },
+    {
+      "name": "Synchromism",
+      "look": "Curving bands of intense color seem to turn like pieces of a volume.",
+      "history": "American artists Morgan Russell and Stanton Macdonald-Wright developed Synchromism in the 1910s, using color relationships to organize abstract compositions.",
+      "when": "Study it when you want color itself to make passages come forward or send them back.",
+      "why": "Sequences of related colors can suggest that a single mass bends, expands or turns.",
+      "source": {
+        "label": "Smithsonian Archives of American Art",
+        "href": "https://www.aaa.si.edu/collections/morgan-russell-sketches-and-notes-22105"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Der Blaue Reiter: modern woman within a still-recognizable mountain motif dissolved in electric non-natural color and energetic outlines; Suprematism: sparse study of diagonally tilted black red and ochre geometries floating on white, woman is observer by edge of canvas; early pure abstraction: balanced nonfigurative composition of rhythmic and weighted loops, tiny geometric forms and washy fields, woman as visible observer; Synchromism: curving stepped bands of spectral color like a spiral staircase with color-value tension, character again viewing from lower corner. No lettering, captions, watermark or ornamental frame."
+}

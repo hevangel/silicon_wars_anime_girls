@@ -1,0 +1,46 @@
+{
+  "intro": "Three kinds of unease survive in the painted figure.",
+  "alt": "Three differently painted portraits with uncanny stillness, playful distorted marks and a scraped interior.",
+  "image": "atlas-069.webp",
+  "variants": [
+    {
+      "name": "Magic Realism",
+      "look": "The crisp face and suspended steam feel strangely deliberate.",
+      "history": "Franz Roh coined the term in 1925 for a strand of European painting that found mystery in precise everyday scenes.",
+      "when": "Make an ordinary room unsettling through lighting, scale and stillness.",
+      "why": "Precisely observed surfaces make a single improbable detail stand out.",
+      "source": {
+        "label": "Tate · Magic Realism",
+        "href": "https://www.tate.org.uk/art/art-terms/m/magic-realism"
+      },
+      "period": "1920s–1930s in its early European usage"
+    },
+    {
+      "name": "CoBrA",
+      "look": "Thick bursts of red and blue and playful outlines warp the portrait.",
+      "history": "CoBrA took its name from Copenhagen, Brussels and Amsterdam and embraced experimental, spontaneous image-making.",
+      "when": "Let paint and gesture loosen an otherwise formal pose.",
+      "why": "Uneven contours and thick strokes hold the energy of spontaneous invention.",
+      "source": {
+        "label": "Tate · CoBrA",
+        "href": "https://www.tate.org.uk/art/art-terms/c/cobra"
+      },
+      "period": "1948–1951"
+    },
+    {
+      "name": "School of London",
+      "look": "Worked and scraped paint presses the figure into an intimate interior.",
+      "history": "R. B. Kitaj gave the name to a loose grouping of London-based, figurative painters in 1976.",
+      "when": "Let the material build-up register the time spent looking at a sitter.",
+      "why": "Layers and erasures make prolonged observation physically visible.",
+      "source": {
+        "label": "Tate · School of London",
+        "href": "https://www.tate.org.uk/art/art-terms/s/school-of-london"
+      },
+      "period": "Postwar decades, named in 1976"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is three equally wide vertical rectangular triptych cells, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: Magic Realism: eerily crisp, muted figurative office, anatomically precise, uncannily long shadows and a perfectly suspended steam curl; CoBrA: unruly childlike black contours, thick scarlet and cobalt paint, playful asymmetrical face and animal-like signs; School of London: heavy fleshy impasto, brush-scraped face and dark sienna seated figure held in a cramped room. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 2172,
+  "height": 724
+}

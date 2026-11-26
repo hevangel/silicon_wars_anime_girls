@@ -1,0 +1,54 @@
+{
+  "intro": "Color can blend the figure into its setting, while a sharply staged gesture or pocket of light can bring the figure forward. These approaches developed across distinct European painting settings.",
+  "alt": "Four renderings of Microsoft amid rich Venetian color, a stretched pose, a daylight interior and a dark directional-light study.",
+  "image": "atlas-052.webp",
+  "variants": [
+    {
+      "name": "Venetian colorism",
+      "look": "Red cloth, warm shadows and blended edges create a continuous colored atmosphere.",
+      "history": "In Renaissance Venice, painters including Titian became associated with colorito, the building of form through the handling and relations of colors.",
+      "when": "Study the effect when the atmosphere needs to connect the figure to its surroundings.",
+      "why": "Related warm and cool hues can make a transition feel rounded even when an outline is soft.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/paintings/glossary/colorito"
+      }
+    },
+    {
+      "name": "Mannerism",
+      "look": "Notice the length of the pose, its twisting line, and the unusual color choices around it.",
+      "history": "Sixteenth-century Mannerists built on High Renaissance achievements while experimenting with proportions, compressed spaces and elaborate poses.",
+      "when": "Study it when graceful or unstable movement matters more than bodily ease.",
+      "why": "A stretched gesture makes the viewer feel the pressure of the pose and compressed space together.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/it/essays/mannerism-bronzino-1503-1572-and-his-contemporaries"
+      }
+    },
+    {
+      "name": "Dutch Golden Age painting",
+      "look": "Side light catches the floor, faces and everyday objects in a carefully measured room.",
+      "history": "In the seventeenth-century Dutch Republic, painters found buyers for genre pictures, portraits, landscapes, still lifes and many other subjects.",
+      "when": "Study an interior by an artist such as Vermeer when the architecture and small objects need to direct attention.",
+      "why": "A few highlights can establish the time of day and the order in which the viewer looks around the room.",
+      "source": {
+        "label": "Rijksmuseum",
+        "href": "https://www.rijksmuseum.nl/en/stories/dutch-masters/story/10-things-about-johannes-vermeer"
+      }
+    },
+    {
+      "name": "Spanish Golden Age painting",
+      "look": "Directional light picks out the face and costume against almost uninterrupted shadow.",
+      "history": "Seventeenth-century Spanish painting included court portraiture and religious works. The strong directional lighting in this study represents one option among many.",
+      "when": "Study how a painter can make an expression or an object stand out with a very narrow source of light.",
+      "why": "The short range of visible detail concentrates attention on the lit features.",
+      "source": {
+        "label": "El Museo del Barrio",
+        "href": "https://www.elmuseo.org/wp-content/uploads/2023/01/1981_emdb_exh-cat_golden-age-spain.pdf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Venetian colorism: radiant red velvet, translucent golden-brown glaze, blended dusk sky and figure edges; Mannerism: stretched angular pose, spiraling gesture, compressed space and cool pink-green palette; Dutch Golden Age genre painting: quiet window-lit room with muted tile floor, cloth reflection and tiny light glints; Spanish Golden Age: full dark inward-looking figure, tenebrist side light and plain earthen backdrop. The modern woman is painted in each idiom, with her office outfit and mug intact. No lettering, captions, watermark or ornamental frame."
+}

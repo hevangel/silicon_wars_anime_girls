@@ -1,0 +1,54 @@
+{
+  "intro": "Each object begins with a different material and skill. The modern visitor makes the carved surfaces and featherwork easier to compare at human scale.",
+  "alt": "Microsoft looks at carved Māori wood, a Sepik carved fragment, a Rapa Nui stone sculpture study and a red-and-yellow Hawaiian feather cloak.",
+  "image": "atlas-044.webp",
+  "variants": [
+    {
+      "name": "Māori carving",
+      "look": "Curving ridges throw fine shadows, and small areas of shell reflect light against the reddish wood.",
+      "history": "Māori whakairo includes practices of carving wood and other materials. Carved figures on meeting houses and objects can express connections with particular ancestors and communities.",
+      "when": "Study attributed examples for the way a carved piece relates to its place in a larger structure.",
+      "why": "Depth and repeated curves let an architectural design carry across a wall or a room.",
+      "source": {
+        "label": "Museum of New Zealand Te Papa Tongarewa",
+        "href": "https://www.tepapa.govt.nz/visit/exhibitions/he-toi-whakairo"
+      }
+    },
+    {
+      "name": "Sepik carving",
+      "look": "Elongated lines and incised surfaces make the wooden fragment visually distinct from its display mount.",
+      "history": "Many different peoples live along Papua New Guinea's Sepik River and have distinct carving traditions. Some forms belong to ceremonial houses or other community settings.",
+      "when": "Study an identified carving alongside details about its use and original setting.",
+      "why": "An object that seems narrow or abstract in a case may have made sense as part of architecture or performance.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/art/collection/search/311159"
+      }
+    },
+    {
+      "name": "Rapa Nui art",
+      "look": "A heavy brow, long nose and broad shoulders stand out in the stone profile.",
+      "history": "Rapa Nui communities carved moai from stone and set many on ceremonial platforms. The island's art also includes wood carving and other forms.",
+      "when": "Study a documented moai when you want to understand how very large sculpture works in relation to land and ancestry.",
+      "why": "Simplified features hold their place against the horizon and remain distinct at a distance.",
+      "source": {
+        "label": "American Museum of Natural History",
+        "href": "https://www.amnh.org/exhibitions/permanent/pacific-peoples/easter-island-moai-cast"
+      }
+    },
+    {
+      "name": "Hawaiian featherwork",
+      "look": "Fine red and yellow feathers make broad crescents that stay bright across the cloak's curved surface.",
+      "history": "Specialists made Hawaiian feather cloaks called ʻahu ʻula by attaching bundles of feathers to netting. The garments signaled high rank and held political and ceremonial significance.",
+      "when": "Look at how tiny units of material make a clear form both near the body and from afar.",
+      "why": "Light catches many overlapping feathers while the large color bands preserve the outline of the design.",
+      "source": {
+        "label": "Bishop Museum",
+        "href": "https://news.bishopmuseum.org/releases/feather-cloak-and-helmet-gifted-to-captain-cook-to-return-permanently-to-hawaii"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. She is a visiting museumgoer, visibly present in a corner of each frame. Artwork gets most of the visual space. Scene list in exact order: Māori carving exhibit, warmly lit reddish carved wood structural fragment with clear curving ridges and inset shell detail; Sepik carving exhibit long slender crocodile-inspired carved wooden architectural fragment without sacred design; Rapa Nui public sculpture study, isolated stone head and shoulders profile in a clean exhibit environment with no archaeological staging; ʻahu ʻula Hawaiian featherwork study, crescents and layers of fine yellow and red feathers in glass case, no wearer. No lettering, captions, watermark or ornamental frame."
+}

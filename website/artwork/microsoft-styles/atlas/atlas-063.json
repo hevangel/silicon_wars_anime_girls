@@ -1,0 +1,54 @@
+{
+  "intro": "A mug, a figure and a tabletop become distinct images when the painter changes what a mark, contour or empty space is asked to do.",
+  "alt": "Four studies turn Microsoft and her mug into angled brush planes, thick moving strokes, flat colors and a sharply cropped composition.",
+  "image": "atlas-063.webp",
+  "variants": [
+    {
+      "name": "Cézanne's art",
+      "look": "Small changes of warm and cool brush planes build the body and table. The desktop appears tilted toward the viewer.",
+      "history": "Paul Cézanne developed repeated studies of portraits, ordinary objects and landscapes in late nineteenth- and early twentieth-century France. His handling of structure influenced later modernists.",
+      "when": "Study how a form can stay solid when its contours and viewpoint seem to shift.",
+      "why": "Related patches of color construct the form while making each decision of the brush visible.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/artists/paul-cezanne"
+      }
+    },
+    {
+      "name": "Van Gogh's art",
+      "look": "Strong color and thick swept strokes curve around the figure and mug and continue into the surrounding space.",
+      "history": "Vincent van Gogh experimented with brushwork and intense color in the late 1880s and 1890. His approaches varied with subject and place.",
+      "when": "Study a specific painting when a visible brushstroke needs to describe texture or carry movement.",
+      "why": "A series of related strokes can connect objects and surroundings even when the colors are very different.",
+      "source": {
+        "label": "Van Gogh Museum",
+        "href": "https://www.vangoghmuseum.nl/en/japanese-prints/collection/s0066V1962"
+      }
+    },
+    {
+      "name": "Synthetism",
+      "look": "Dark edges hold large, simplified islands of color together in an angled scene.",
+      "history": "In late 1880s France, artists associated with Pont-Aven, including Paul Gauguin and Émile Bernard, pursued flat color and simplified forms, combining observation with feeling and design.",
+      "when": "Study it when you need to decide which features remain essential after simplifying a scene.",
+      "why": "Distinct flat shapes can compress a personal impression into a clear visual order.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/paintings/paul-gauguin-harvest-le-pouldu"
+      }
+    },
+    {
+      "name": "Japonisme",
+      "look": "A crop cuts into the figure and leaves an off-center interval between the table and the edge.",
+      "history": "Japonisme names the nineteenth-century European and American engagement with Japanese art. Imported prints influenced composition, color and decorative design.",
+      "when": "Compare an example with the particular Japanese works or printing conventions that informed it.",
+      "why": "An off-center view or abrupt crop can make a familiar object feel newly positioned in space.",
+      "source": {
+        "label": "RISD Museum",
+        "href": "https://risdmuseum.org/exhibitions-events/exhibitions/japonisme-1"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create an educational board of four original contemporary paintings in a perfect square 2×2 grid, thin full-height/full-width dividers on exact midpoints. Every panel contains the same modestly dressed adult office worker with a charcoal knee-length dress and blazer, blue lanyard with blank badge, light ash blonde low bun, black rectangle glasses, and a white coffee cup on the same office desk, interpreted by each original technique. Top left: translucent geometric planes in cool and warm brush marks with substantially tilted table. Top right: visible dense ridges of blue and white impasto paint curling around the sitter and orange lamp, tactile brush marks and simple distinct contours. Bottom left: figures and objects reduced to walled, flat areas of unusually saturated color and bold dark dividing lines, with a high point of view. Bottom right: coarse paper color print with desk and chair cropped sharply by the side and lower edges, asymmetric arrangement of flat colors and silhouettes. Everyday work scene, no anatomy exaggeration. Each painting's technique is easy to recognize and visually different from the others. No lettering, numbers, captions, text, photo frames, borders, artist signatures or watermark."
+}

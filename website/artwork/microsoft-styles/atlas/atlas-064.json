@@ -1,0 +1,43 @@
+{
+  "intro": "The line across a nightclub poster has a different audience from the line across a domestic painting or exhibition interior. Compare where the figure disappears into pattern.",
+  "alt": "Three views of Microsoft in a limited-color nightclub poster, a pattern-filled room and a gold geometric portrait.",
+  "image": "atlas-064.webp",
+  "variants": [
+    {
+      "name": "Toulouse-Lautrec poster",
+      "look": "A dark figure and a strong diagonal angle stand out in very few ink colors.",
+      "history": "Henri de Toulouse-Lautrec made color lithographic posters for venues and performers in 1890s Paris.",
+      "when": "Study how a strong silhouette distinguishes a figure in a setting with many competing details.",
+      "why": "A figure recognizable by shape can catch the eye of a viewer walking past the poster.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Toulouse_Lautrec_in_The_Metropolitan_Museum_of_Art.pdf"
+      }
+    },
+    {
+      "name": "Les Nabis",
+      "look": "The dress and wallpaper meet as neighboring patterns so the figure can briefly blend into the room.",
+      "history": "Late nineteenth-century artists known as the Nabis explored decorative painting and other media, making designs for interiors, screens and prints as well as easel paintings.",
+      "when": "Study how pattern can change the way we locate a person inside a room.",
+      "why": "Related colors and motifs make the surface read across both the furniture and the figure.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/fr/essays/the-nabis-and-decorative-painting"
+      }
+    },
+    {
+      "name": "Vienna Secession",
+      "look": "A dark silhouette sits against gold and repeated geometric elements.",
+      "history": "The Vienna Secession was founded in 1897 by artists seeking independent exhibitions. Graphic arts, architecture and decorative design all figured in the movement.",
+      "when": "Study how one decorative rhythm can carry across several media or across an exhibition room.",
+      "why": "A consistent set of proportions and repeated forms make individually designed things feel like parts of a shared setting.",
+      "source": {
+        "label": "Getty Museum",
+        "href": "https://www.getty.edu/art/exhibitions/klimt/secession.html"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Educational art style comparison board. Exactly 3 equally wide scenes side by side in stated order in a wide 3:1 montage, separations only at vertical boundaries. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Toulouse-Lautrec poster idiom black and ochre limited lithographic ink palette, flat woman silhouette and diagonal framing at a late-night venue, no lettering; Les Nabis decorative interior interlocking dress and wallpaper patterns, flat intimate scene in softened cranberry and olive; Vienna Secession brocade-gold and geometric decorated rectangle with flat stark silhouette and a gridded ornamental wall, no wording. No lettering, captions, watermark or ornamental frame."
+}

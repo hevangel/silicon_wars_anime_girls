@@ -1,0 +1,43 @@
+{
+  "intro": "Cast metal and fired clay can make heads almost lifelike or sharpen familiar features into a distinct set of shapes. These studies refer to three separate artistic traditions in present-day Nigeria.",
+  "alt": "Microsoft examines an Ife metal head, a Benin palace plaque and a Nok terracotta head.",
+  "image": "atlas-038.webp",
+  "variants": [
+    {
+      "name": "Ife bronze",
+      "look": "Fine lines run down a softly modeled metal face, following its nose, mouth and cheeks.",
+      "history": "Ife was a major Yoruba city. Surviving cast copper and copper-alloy heads from the medieval period show the skill of its artists.",
+      "when": "Study the transitions around the nose and chin to see how a hard material can capture subtle flesh forms.",
+      "why": "The careful casting records a commanding face and its surface markings at the same time.",
+      "source": {
+        "label": "British Museum on Google Arts & Culture",
+        "href": "https://artsandculture.google.com/asset/ife-head-brass-head-of-a-ruler/rQGTIZwDJn4lCg"
+      }
+    },
+    {
+      "name": "Benin bronze",
+      "look": "Central and flanking court figures project from a rectangular metal plaque in shallow relief.",
+      "history": "Edo artists made brass plaques and other court works for the Kingdom of Benin. British forces looted many royal holdings during the 1897 invasion.",
+      "when": "Study how a relief image can organize ranks, regalia and other clues to status.",
+      "why": "Relative scale and grouping make the court hierarchy legible even in shallow depth.",
+      "source": {
+        "label": "British Museum",
+        "href": "https://www.britishmuseum.org/sites/default/files/2019-09/Benin_art_Nov2015.pdf"
+      }
+    },
+    {
+      "name": "Nok terracotta",
+      "look": "Pierced pupils, wide geometric eyes and an uneven fired surface are the clearest clues.",
+      "history": "Ancient Nok communities in what is now central Nigeria made some of the earliest known figurative terracottas in sub-Saharan Africa. Many survive as fragments.",
+      "when": "Study how fired clay can preserve fine openings and strong features after centuries.",
+      "why": "Cut, pierced and modeled forms catch light differently, separating each feature.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Educational museum style comparison board. Exactly 3 equally wide scenes side by side in stated order in a horizontal 3:1 montage, thin vertical dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn in every scene, black blazer and knee-length black sheath dress, blue lanyard and blank badge, white coffee mug with four colored squares. As specified she may be an exhibit visitor or the artwork subject. Prioritize obvious historical differences. Individual examples: Ife copper-alloy cast head with vertical fine scarification lines and gently naturalistic features; Benin royal brass palace plaque with a central standing court figure flanked by two attendants in shallow relief; Nok terra-cotta fired-clay head with broad semicircular eyes, pierced pupil holes and chipped ear. All original reference-like museum studies shown as displays, not combined objects. Keep panels instantly distinguishable, artwork fills most of each panel. No lettering, captions, watermark or ornamental frame."
+}

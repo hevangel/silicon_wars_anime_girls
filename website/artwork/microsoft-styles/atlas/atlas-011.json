@@ -1,0 +1,43 @@
+{
+  "intro": "Each image is built through a deliberate decision. The set establishes a story, the lighting directs attention to a garment, or two exposures put different spaces in one frame.",
+  "alt": "Three photographs of the heroine in a surreal blue set, a wine-red fashion studio and an exposure layered with trees and architecture.",
+  "image": "atlas-011.webp",
+  "variants": [
+    {
+      "name": "staged photography",
+      "look": "The arranged set and blue light put an everyday figure inside an improbable scene.",
+      "history": "Staged photographers adapt tools from the theater and studio, arranging subjects, props and lighting before taking the picture.",
+      "when": "Use a constructed set to make a portrait carry a specific story.",
+      "why": "The set gives even the smallest object a part to play in the scene.",
+      "source": {
+        "label": "Philadelphia Museum of Art | Staged studio photographs",
+        "href": "https://www.philamuseum.org/exhibitions/staged-studio-photographs"
+      }
+    },
+    {
+      "name": "fashion photography",
+      "look": "Hard light and a long pose bring out the fit and seams of the dress.",
+      "history": "Fashion photographers have worked with magazines and designers to turn garments into editorial pictures. Studio photographers such as Irving Penn made clothing central to the frame.",
+      "when": "Show the design and silhouette of an outfit as worn.",
+      "why": "Directional light and pose reveal construction, fabric and motion together.",
+      "source": {
+        "label": "Getty | Fashion photography exhibition checklist",
+        "href": "https://www.getty.edu/art/exhibitions/fashion_photography/downloads/fashion_photography_checklist.pdf"
+      }
+    },
+    {
+      "name": "double exposure",
+      "look": "Branches and building lines appear across the head and jacket while both subjects remain discernible.",
+      "history": "Twentieth-century experimental photographers explored superimposition and repeated exposure, often to connect subjects that never occupied the same physical space.",
+      "when": "Tie a portrait to a second image that represents a place or a memory.",
+      "why": "The overlapping areas let parts of each subject alter the meaning of the other.",
+      "source": {
+        "label": "Getty | Experimental photography",
+        "href": "https://www.getty.edu/exhibitions/abstracted-light-experimental-photography/"
+      }
+    }
+  ],
+  "width": 2172,
+  "height": 724,
+  "prompt": "Create wide 3-panel triptych, three independently composed equal-width panels side by side, hard splits at thirds. Repeat this original character in each distinct lens-made photographic idiom. Please produce a wide 3-column triptych of equally large vertical artwork panels meeting at straight vertical splits one-third and two-thirds. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. LEFT: staged cinematic photograph, carefully arranged surreal scene of woman holding her cup against overturned furniture, controlled blue spotlights and theater-like set. CENTER: fashion editorial photograph, blazer and fitted business dress photographed impeccably in a tall pose, angled hard magazine light and a rare burgundy set. RIGHT: actual photographic-style double exposure, her glasses and blonde low bun clearly visible over a second exposure of office facade and trees, cool silver-blue palette."
+}

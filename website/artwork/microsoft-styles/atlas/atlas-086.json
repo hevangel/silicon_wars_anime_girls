@@ -1,0 +1,58 @@
+{
+  "intro": "Each study changes what you can see or do in a particular space.",
+  "alt": "A room of hanging cups, fabric-wrapped architecture, a glass and stone arrangement and a blue projection installation.",
+  "image": "atlas-086.webp",
+  "variants": [
+    {
+      "name": "installation art",
+      "look": "Hanging cups make the visitor’s path part of what becomes visible.",
+      "history": "Installation art grew into a recognized practice as artists increasingly organized entire rooms or sites for visitors to enter.",
+      "when": "Place objects at different depths and heights so the viewer must move to read them.",
+      "why": "Objects at different heights appear and disappear relative to the visitor’s path.",
+      "source": {
+        "label": "Tate · Installation art",
+        "href": "https://www.tate.org.uk/art/art-terms/i/installation-art"
+      },
+      "period": "Widely recognized from the 1960s onward"
+    },
+    {
+      "name": "site-specific wrapping",
+      "look": "Cloth conceals surface detail while making the shape of the building easier to read.",
+      "history": "Christo and Jeanne-Claude used temporary fabric interventions to alter how people saw familiar buildings and landscapes.",
+      "when": "Choose a site whose silhouette becomes apparent through a temporary covering.",
+      "why": "Removing detail enlarges the apparent scale of the form and changes how people see a familiar outline.",
+      "source": {
+        "label": "Christo and Jeanne-Claude · Wrapped Reichstag",
+        "href": "https://christojeanneclaude.net/artworks/wrapped-reichstag/"
+      },
+      "period": "1960s–2021 in their joint practice"
+    },
+    {
+      "name": "Mono-ha",
+      "look": "Rough stone meets smooth glass and a reflected visitor.",
+      "history": "In late 1960s Japan, Mono-ha artists explored direct encounters among materials, viewers and sites.",
+      "when": "Make a single physical relationship carry the scene.",
+      "why": "Different weight, texture and reflection become immediately apparent at a point of contact.",
+      "source": {
+        "label": "MoMA · Mono-ha",
+        "href": "https://www.moma.org/collection/terms/mono-ha"
+      },
+      "period": "Late 1960s–early 1970s"
+    },
+    {
+      "name": "immersive projection",
+      "look": "Blue projected motifs extend across the space and onto the body.",
+      "history": "Expanded cinema helped open the projection image to multiple surfaces, environments and installations. Contemporary digital systems can map moving imagery to architecture.",
+      "when": "Use light to turn a whole volume into a changing image surface.",
+      "why": "Projection spills beyond a flat picture plane and lets the moving visitor interrupt its light.",
+      "source": {
+        "label": "teamLab · Borderless",
+        "href": "https://www.teamlab.art/e/tokyo/"
+      },
+      "period": "Experimental precedents in the 1960s, digital installations from the 1990s onward"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: installation art: hang dozens of translucent cups from hairline threads at different heights, the character walks underneath; site-specific wrapping: vast temporary white fabric follows and reveals the silhouette of a concrete building and balustrades and the character is tiny in foreground; Mono-ha: a rough dark stone just touches an upright plate of glass in an otherwise bare gallery, the executive's reflection crosses the join; immersive projection: a dark room coated edge-to-edge in projected vivid blue botanical motion, light spills onto character and her white coffee mug. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1254,
+  "height": 1254
+}

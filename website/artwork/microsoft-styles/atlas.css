@@ -1,0 +1,50 @@
+.atlas-directory, .atlas-collection {
+  max-width: 48rem;
+  margin-block: 2rem;
+  border-block: 1px solid #c9c9bf;
+  padding-block: .85rem;
+}
+
+.atlas-directory > summary, .atlas-collection > summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.atlas-contents {
+  columns: 2 15rem;
+  padding-inline-start: 1.25rem;
+}
+
+.atlas-contents li {
+  break-inside: avoid;
+  padding-block: .2rem;
+}
+
+.atlas-board h4 {
+  margin: 0;
+  font: 400 clamp(1.3rem, 2.7vw, 1.85rem)/1.15 Georgia, serif;
+}
+
+.atlas-board, [data-atlas-entry] {
+  scroll-margin-top: 5rem;
+}
+
+.painting-styles-page .atlas-single .style-board {
+  width: calc((100% - var(--style-column-gap)) / 2);
+}
+
+@media (min-width: 760px) {
+  .painting-styles-page .atlas-three .style-board-notes {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.atlas-context {
+  display: grid;
+  gap: 1rem;
+}
+
+[data-atlas-entry]:target dt {
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}

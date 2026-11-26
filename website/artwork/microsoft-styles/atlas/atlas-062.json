@@ -1,0 +1,32 @@
+{
+  "intro": "One broad history and one artist group show why school training cannot explain a painter's choices by itself. Look for how the portrait and the shaped line address their own settings.",
+  "alt": "Two paintings of Microsoft, one with naturalistic brushwork and one set among strong curving rhythms.",
+  "image": "atlas-062.webp",
+  "variants": [
+    {
+      "name": "Nigerian modernism",
+      "look": "The figure is developed through observed light and anatomy within an urban setting.",
+      "history": "Nigerian modernism includes distinct early twentieth-century and post-independence practices, from Aina Onabolu's portraiture to experimentation across local and international movements.",
+      "when": "Study the career of one artist rather than treating Nigerian modernism as a visual recipe.",
+      "why": "Named artists make it possible to follow differing choices about training, subjects and independence across generations.",
+      "source": {
+        "label": "Tate",
+        "href": "https://dig-305-artwork-alt-text-c8b04f.up.railway.app/whats-on/tate-modern/nigerian-modernism/exhibition-guide"
+      }
+    },
+    {
+      "name": "Zaria Art Society",
+      "look": "Strong curving shapes and patterned marks give the figure a setting with its own visual rhythm.",
+      "history": "Students at the Nigerian College of Arts, Science and Technology in Zaria formed the Art Society in the late 1950s. Their idea of Natural Synthesis brought varied local artistic resources into conversation with what they learned at college.",
+      "when": "Study a member's work and writing to see how the group developed individual alternatives to colonial curricula.",
+      "why": "A painter can build a new set of visual choices by deciding which techniques and sources to draw from and how they relate.",
+      "source": {
+        "label": "Tate",
+        "href": "https://dig-305-artwork-alt-text-c8b04f.up.railway.app/whats-on/tate-modern/nigerian-modernism/exhibition-guide"
+      }
+    }
+  ],
+  "width": 1774,
+  "height": 887,
+  "prompt": "Educational art style comparison board. Exactly 2 equally wide scenes side by side in stated order in a wide 2:1 montage, separations only at vertical boundaries. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Nigerian modernism inspired by Aina Onabolu-era cosmopolitan portraiture beside a strongly individual narrative of everyday Lagos street life in an independent gallery study, recurring character the portrait model; Zaria Art Society inspired by Natural Synthesis, sharply defined individual figure and geometric rhythmic curves as a new contemporary study, neither copies an artist or a traditional religious object. No lettering, captions, watermark or ornamental frame."
+}

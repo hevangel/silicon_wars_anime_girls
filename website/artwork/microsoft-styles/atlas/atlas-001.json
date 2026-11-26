@@ -1,0 +1,54 @@
+{
+  "intro": "Follow the shading beneath the glasses. Each tool leaves a different kind of mark even when the pose stays the same.",
+  "alt": "Four seated portraits holding a coffee mug, drawn in pale silver lines, red chalk, dark Conté and blue ballpoint.",
+  "image": "atlas-001.webp",
+  "variants": [
+    {
+      "name": "silverpoint",
+      "look": "Faint gray crosshatching follows the contours of the face and dark jacket.",
+      "history": "Renaissance artists drew over prepared grounds with a silver tip. Leonardo used it in Study of a Bear Walking.",
+      "when": "Draw a small study with light shading and repeated fine lines.",
+      "why": "The firm tip encourages deliberate strokes and leaves a fine, even line.",
+      "source": {
+        "label": "The Met | Leonardo, A Bear Walking",
+        "href": "https://www.metmuseum.org/art/collection/search/459184"
+      }
+    },
+    {
+      "name": "red chalk",
+      "look": "Brick-red lines soften into broader areas of rubbed shading.",
+      "history": "Michelangelo used red chalk for figure studies, including his study for the Libyan Sibyl on the Sistine ceiling.",
+      "when": "Sketch a face or hand when warmth and volume matter.",
+      "why": "The chalk gives the shadows a warm color and blends where a crisp line would interrupt the form.",
+      "source": {
+        "label": "The Met | Michelangelo, Studies for the Libyan Sibyl",
+        "href": "https://www.metmuseum.org/art/collection/search/337497"
+      }
+    },
+    {
+      "name": "conté",
+      "look": "Dense dark strokes and pale highlights sit on warm paper.",
+      "history": "Nicolas-Jacques Conté developed a mixture of graphite and clay in France in the late 18th century. Compressed drawing crayons continue that approach.",
+      "when": "Use dark and light sticks together for a portrait on toned paper.",
+      "why": "The paper supplies a middle value, letting a few dark marks and highlights define the face.",
+      "source": {
+        "label": "MFA Boston | Conté crayon",
+        "href": "https://cameo.mfa.org/wiki/Conte_crayon"
+      }
+    },
+    {
+      "name": "ballpoint drawing",
+      "look": "Closely spaced blue strokes build the jacket’s shadows.",
+      "history": "The ballpoint became an everyday writing tool in the 20th century. Artists also use its consistent marks to build dense hatching.",
+      "when": "Draw outdoors or build a detailed study with a pocket pen.",
+      "why": "Layered strokes make dark passages gradually while leaving the character of the line visible.",
+      "source": {
+        "label": "MFA Boston | Drawing and ink materials",
+        "href": "https://cameo.mfa.org/wiki/Ballpoint_pen"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one finished square atlas comparison plate made of four equally large separate square artwork panels in exact 2-by-2 full bleed layout with straight splits at midpoint, no visible gutter. Each panel independently portrays the same original manga reference heroine in the same centered waist-up 3/4 seated pose, holding white coffee mug showing a tiny four-square windowpane mark. Use the attached image for subject identity only; translate the person into the four traditional media, no anime in the result. Attractive 30yo light ash blonde blue eyes woman with neat low bun from image, rectangular black eyeglasses stay visible every quadrant, charcoal blazer and knee-length sheath dress with azure square and blue lanyard; blank tiny badge. No text/letters/numerals anywhere, no border. Upper left: Renaissance silverpoint with extremely fine, faint gray crosshatching on cool ivory prepared panel, very low contrast. Upper right: 16th century red chalk master drawing, warm brick-red crumbly red lines, rubbed highlights on light dusty pink paper. Lower left: 19th century black-and-white Conté crayon on ocher toned paper, rich dark velvety broad marks and white highlights. Lower right: contemporary blue ballpoint ink on white, intensive ultramarine thin hatching, darker high contrast and visible pen strokes. Make each immediately distinguishable, same scale, facial features and hairstyle. Nothing extends across panels. No captions; the final is a high-quality editorial reference plate for comparing drawing media."
+}

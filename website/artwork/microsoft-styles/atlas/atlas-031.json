@@ -1,0 +1,54 @@
+{
+  "intro": "Four pictures tell different stories about where art is made. Compare a watercolor for a patron, a reform movement’s wash technique, a mural within a temple and a painting on prepared cloth.",
+  "alt": "Four portraits in delicate watercolor, smoky Bengal washes, bright Thai-style mural decoration and red-brown Balinese-style cloth painting.",
+  "image": "atlas-031.webp",
+  "variants": [
+    {
+      "name": "Company painting",
+      "look": "Fine ink and pale watercolor isolate the figure and a few office objects on cream paper.",
+      "history": "South Asian artists working for East India Company patrons produced watercolors of people, flora, fauna and places. Shaykh Muhammad Amir of Karraya painted people and scenes in and around Kolkata.",
+      "when": "Describe a subject and its tools in a precise portable study.",
+      "why": "The plain ground leaves room to distinguish small objects and contours.",
+      "source": {
+        "label": "The Met | Shaykh Muhammad Amir and Company painting",
+        "href": "https://www.metmuseum.org/ko/perspectives/shaykh-amir-of-karrya-company-school"
+      }
+    },
+    {
+      "name": "Bengal School",
+      "look": "The elongated figure emerges out of muted streaks of green, lilac and ochre.",
+      "history": "The Bengal School grew around artists including Abanindranath Tagore in the early 20th century. Its artists drew on Asian painting traditions and debated the place of colonial academic instruction.",
+      "when": "Paint a reflective scene whose atmosphere should be more prominent than its setting.",
+      "why": "Thin washes give soft transitions and hold the emphasis on small gestures.",
+      "source": {
+        "label": "National Gallery of Modern Art | Collection",
+        "href": "https://museumsofindia.gov.in/repository/museum/ngma_del"
+      }
+    },
+    {
+      "name": "Thai temple mural",
+      "look": "A richly colored red and gold setting arranges repeated profiles and architectural shapes.",
+      "history": "Many Thai temples have wall paintings of Buddhist narratives. Paintings can draw viewers along a wall through repeated figures and places.",
+      "when": "Give a sequence of actions a continuous visual setting.",
+      "why": "Repeated architectural landmarks can show a viewer where an episode begins or changes.",
+      "source": {
+        "label": "Smithsonian National Museum of Asian Art | Southeast Asian art",
+        "href": "https://asia.si.edu/explore-art-culture/collections/collections-areas/southeast-asian/"
+      }
+    },
+    {
+      "name": "Balinese Kamasan painting",
+      "look": "Angular profiles and ink outlines recur across red and brown horizontal bands.",
+      "history": "Kamasan in Bali is associated with cloth paintings related to the wayang puppet tradition. Subjects include stories from the epics and local narratives on temple or palace hangings.",
+      "when": "Compose a sequence of scenes on one hanging with gestures that read at a distance.",
+      "why": "Repeating silhouettes and a consistent palette connect events even when the same figure appears several times.",
+      "source": {
+        "label": "National Gallery of Australia | Collecting the artistic voices of Indonesia",
+        "href": "https://nga.gov.au/stories-ideas/collecting-the-artistic-voices-of-indonesia/"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image with four independently composed equal-size square artworks in an exact 2x2 grid, precise split on each midpoint, full bleed with no gutters. Central fictional heroine holding mug in four distinctly different sheet or wall art formats.. The attached portrait is just a character reference. Our character is a 30-year-old woman with light ash-blonde hair in a neat low bun, black rectangular glasses always visible, tailored charcoal knee-length sheath dress and fitted blazer with an azure pocket square, blue lanyard, little four-color windowpane clip when feasible. She holds a signature white coffee mug. Freeze identity, repeat the subject in every distinct art idiom. Copy no reference card composition or type. No writing, digits, words or labels; no diptych or pastiche. top left: Company painting of late 18th-century India, keenly observed watercolor figure against empty cream paper, ink delineated dress and badge and adjacent office plants, fine wash shadow. top right: Bengal School-derived painted sheet, dusky muted lilac, green and ochre softly brushed wash streaks, lyrical elongated figure leaning with quiet grace. bottom left: Thai temple mural-inspired ornate narrative with vivid red painted framed architecture, gold ridgeline spire, curved foliage and energetic black silhouettes around her. bottom right: Balinese Kamasan painting-inspired cloth, flat cream rice-starch background, inky profile and repeated angular jewelry-like outlines, restrained red ochre browns, tiered narrative with sparse decoration."
+}

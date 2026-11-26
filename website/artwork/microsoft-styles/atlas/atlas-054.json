@@ -1,0 +1,54 @@
+{
+  "intro": "A shadow, a quiet task, an imagined distant place and a revived historical style each change how close the viewer feels to the subject.",
+  "alt": "Four studies show Microsoft in a dark scene, pouring at a window, viewing an imagined tiled interior and examining a fresco-like panel.",
+  "image": "atlas-054.webp",
+  "variants": [
+    {
+      "name": "Goya's art",
+      "look": "An isolated figure emerges from smoky darkness, with uneven marks and a narrow source of light.",
+      "history": "Francisco de Goya worked in Spain from the late eighteenth to the early nineteenth century. He moved among official portraits, prints, social critique and deeply unsettling late paintings.",
+      "when": "Study specific works for ways dark space and rough brushwork can make a scene psychologically tense.",
+      "why": "The eye searches the shadow for clues, leaving the subject's situation open to interpretation.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/artists/francisco-de-goya"
+      }
+    },
+    {
+      "name": "Chardin's art",
+      "look": "A small domestic action happens in a softly lit room, with the mug, jug and figure arranged at a measured pace.",
+      "history": "Jean-Siméon Chardin painted still lifes and domestic scenes in eighteenth-century France.",
+      "when": "Study the space around hands and objects when a small, familiar action needs attention.",
+      "why": "Quiet color and restrained gestures make people notice the effort and texture of daily routine.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/artists/jean-simeon-chardin"
+      }
+    },
+    {
+      "name": "Orientalism",
+      "look": "The pictured interior uses layered textiles and patterned tile to create an elaborate spectacle for the viewer.",
+      "history": "Numerous nineteenth-century European artists staged images of North Africa, the Middle East and Asia amid imperial unequal power. Their work ranges from observations to outright fantasy.",
+      "when": "Study the picture critically to see how stagecraft can turn a real place or tradition into an invented setting for others.",
+      "why": "Careful detail can make a fantasy seem authoritative. Comparing it with the people and places represented can expose the fabrication.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/met-publications/orientalism-between-fact-and-fantasy"
+      }
+    },
+    {
+      "name": "Nazarenes",
+      "look": "Pale fields of color, deliberate outlines and restrained faces give the composition a painted-wall quality.",
+      "history": "Early nineteenth-century German-speaking artists in the Nazarene group sought a revival of Christian painting. They looked to Italian and German work from before the High Renaissance.",
+      "when": "Study the way a historical model can inform new outlines, colors and themes.",
+      "why": "Firm contours and a quiet order make gestures clearly readable even with little modeling.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/paintings/glossary/nazarene"
+      }
+    }
+  ],
+  "width": 1261,
+  "height": 1247,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: Goya's art: brooding fictional scene with isolated modern woman, smoky deep-brown ground and rough asymmetric spotlight; Chardin genre painting: same woman pouring water into her mug beneath a quiet soft window with bare furnishings; Orientalism: modern woman visits a museum with a nineteenth-century European fantasy painting of opulent textiles and blue tile, emphasize painting is staged and artist's imagining rather than real cultural reportage, no stereotypes or pseudo-Arabic; Nazarenes: nineteenth-century revival pastiche with flat clear profile outlines, simple contemplative figures and measured fresco-like pale colors, modern visitor before study. No lettering, captions, watermark or ornamental frame."
+}

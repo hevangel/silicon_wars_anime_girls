@@ -1,0 +1,58 @@
+{
+  "intro": "See how familiar media ask viewers to buy, identify with or believe something.",
+  "alt": "Four studies restage a store window, a film-like publicity image, heroic official imagery and graphic consumer imagery.",
+  "image": "atlas-080.webp",
+  "variants": [
+    {
+      "name": "Capitalist Realism",
+      "look": "An executive poses among television sets in an ordinary shop display.",
+      "history": "In 1963 Gerhard Richter and Konrad Lueg staged Living with Pop—A Demonstration for Capitalist Realism in a Düsseldorf furniture store.",
+      "when": "Use the look and setting of retail to scrutinize consumer culture.",
+      "why": "Placing people among goods exposes how retail display sells a way of living alongside products.",
+      "source": {
+        "label": "MoMA · Gerhard Richter",
+        "href": "https://www.moma.org/collection/artists/4907"
+      },
+      "period": "1960s"
+    },
+    {
+      "name": "Pictures Generation",
+      "look": "The staged portrait borrows the appearance of a publicity still.",
+      "history": "Artists associated with the Pictures Generation used photography, film and appropriated images to examine familiar cultural scripts.",
+      "when": "Borrow a recognizable media frame to reveal how it shapes perception.",
+      "why": "A familiar framing code can carry genre assumptions even when the viewer has never seen the scene before.",
+      "source": {
+        "label": "The Met · The Pictures Generation",
+        "href": "https://www.metmuseum.org/exhibitions/listings/2009/pictures-generation"
+      },
+      "period": "Late 1970s–1980s"
+    },
+    {
+      "name": "Sots Art",
+      "look": "A monumental official pose turns paperwork and the mug into heroic objects.",
+      "history": "In 1970s Moscow, artists including Komar and Melamid satirized the imagery and slogans of Soviet official culture.",
+      "when": "Redirect the certainty of official signs toward an absurd subject.",
+      "why": "Heroic compression and scale amplify the contradiction between official form and mundane object.",
+      "source": {
+        "label": "Zimmerli Art Museum · Soviet Nonconformist Art",
+        "href": "https://zimmerli.rutgers.edu/collections/soviet-nonconformist-art"
+      },
+      "period": "From the early 1970s"
+    },
+    {
+      "name": "Chinese Political Pop",
+      "look": "Vivid official imagery shares the frame with multiplied consumer packages.",
+      "history": "In the early 1990s artists such as Wang Guangyi mixed propaganda-derived imagery with internationally recognizable consumer branding.",
+      "when": "Place political and commercial promises side by side so their visual similarities emerge.",
+      "why": "Side-by-side use of two kinds of persuasion exposes their similar use of repetition and icons.",
+      "source": {
+        "label": "M+ · Wang Guangyi",
+        "href": "https://www.mplus.org.hk/en/collection/makers/wang-guangyi/"
+      },
+      "period": "Late 1980s–1990s"
+    }
+  ],
+  "prompt": "Generate original, textless, museum-publication art atlas board. exactly four square cells in a precise 2x2 square grid, touching edges, no borders, no gutters. Order left to right in each row from top. In EVERY cell include the original character from the reference as identity only, recast in each listed style: adult female executive, ash-blonde low bun with four-color clips, blue eyes and rectangular black glasses, charcoal blazer with pocket square over graphite sheath dress, blue lanyard and four-color white coffee mug. Composition must look radically distinct per style and foreground its intended design/method, Capitalist Realism: sepia documentary look with the executive posed behind TV sets in a German department store window, deliberately banal commercial display; Pictures Generation: glossy shot of executive apparently excerpted from a film still, staged blank billboard panels and a reflection repeat the image; Sots Art: monumental red-and-cream parody of Soviet-style official painting, mug and paperwork elevated as awards with rays behind; Chinese Political Pop: bright screenprinted red and yellow compositions juxtapose a retro propaganda pose with repeating contemporary consumer drink packaging, no lettering. Keep scene details separate per cell and no legible letters, visible writing, signs, numbers, watermarks.",
+  "width": 1254,
+  "height": 1254
+}

@@ -1,0 +1,54 @@
+{
+  "intro": "Deciding when and where to take a picture can matter as much as the camera. Compare the face in a quiet study, a moving crowd, colored light and a deliberately ordered workplace.",
+  "alt": "Black-and-white studio photograph, a busy street photograph, a colorful reflected-light portrait and a distant frontal workplace photograph.",
+  "image": "atlas-010.webp",
+  "variants": [
+    {
+      "name": "straight photography",
+      "look": "Precise focus and side light give the subject clear edges and controlled gray values.",
+      "history": "Early-20th-century photographers such as Paul Strand explored photography’s ability to describe forms directly through sharp detail and tone.",
+      "when": "Make a study of the way window light falls across the face or an object.",
+      "why": "Clarity directs attention to the form and light already present in front of the camera.",
+      "source": {
+        "label": "The Met | Paul Strand",
+        "href": "https://www.metmuseum.org/pt/essays/paul-strand-1890-1976"
+      }
+    },
+    {
+      "name": "street photography",
+      "look": "The subject is caught in mid-step among layered people and surroundings.",
+      "history": "Smaller handheld cameras helped make the unscripted public scene a major subject in 20th-century photography. Helen Levitt photographed street life in New York.",
+      "when": "Show how a character moves through a shared public space.",
+      "why": "An unrepeatable combination of gestures and surroundings gives the moment its energy.",
+      "source": {
+        "label": "MoMA | Helen Levitt",
+        "href": "https://www.moma.org/artists/3530"
+      }
+    },
+    {
+      "name": "color photography",
+      "look": "Cyan reflections and orange light shape the face and surroundings.",
+      "history": "William Eggleston's color photographs helped establish a place for color in American fine-art photography in the 1970s.",
+      "when": "Make the particular colors of an ordinary moment carry the picture.",
+      "why": "The relationship between colors helps place the subject and can establish a distinctive mood.",
+      "source": {
+        "label": "MoMA | William Eggleston",
+        "href": "https://www.moma.org/artists/1690"
+      }
+    },
+    {
+      "name": "Düsseldorf School photography",
+      "look": "A frontal, detached view lets the workplace grid occupy as much attention as the figure.",
+      "history": "Bernd and Hilla Becher taught at the Düsseldorf art academy and developed systematic series of industrial structures. Several of their students explored highly detailed large-scale photographs.",
+      "when": "Compare different people or offices using the same camera height and framing.",
+      "why": "A consistent viewpoint makes small differences easier to notice.",
+      "source": {
+        "label": "The Met | Photography in Düsseldorf",
+        "href": "https://www.metmuseum.org/ja/essays/photography-in-dusseldorf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Present the heroine as a real photographed person. In all scenes a mug is visible. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: straight photography, precisely focused gelatin-silver black-and-white side light catches glasses and a precise study of quiet tones. TOP RIGHT: candid street photograph, she passes through a layered crowd near an office cafe, captured mid-step with photographic grain. BOTTOM LEFT: large luscious direct color photograph, pale blue morning light balanced with saturated cyan and orange-red window reflections, deliberate chromatic composition. BOTTOM RIGHT: Düsseldorf School-inspired neutral high-resolution frontal typological color view of subject at workplace, minimal industrial grid and flat daylight from distant viewpoint."
+}

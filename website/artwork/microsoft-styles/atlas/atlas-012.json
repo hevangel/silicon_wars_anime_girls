@@ -1,0 +1,54 @@
+{
+  "intro": "The convincing view can be the whole point. These images exaggerate observed detail, open a ceiling, move an image out of alignment or extend a film set.",
+  "alt": "A highly detailed portrait, a ceiling figure seen from below, an angled wall projection and a painted city beyond the figure.",
+  "image": "atlas-012.webp",
+  "variants": [
+    {
+      "name": "hyperrealism",
+      "look": "Skin, glass and ceramics are treated with sharp detail at large scale.",
+      "history": "Hyperrealist painting and sculpture developed from approaches to photographs and observed detail in the later 20th century.",
+      "when": "Make an ordinary object worth prolonged close inspection.",
+      "why": "Enlargement and exact rendering make details that usually go unnoticed central to the image.",
+      "source": {
+        "label": "Tate | Photorealism",
+        "href": "https://www.tate.org.uk/art/art-terms/p/photorealism"
+      }
+    },
+    {
+      "name": "illusionistic ceiling painting",
+      "look": "Foreshortened painted architecture opens the surface toward an apparent sky.",
+      "history": "Baroque ceiling painters such as Andrea Pozzo extended real architecture with painted perspective. A convincing view depends on where the viewer stands.",
+      "when": "Make an enclosed ceiling feel open or position viewers beneath a dramatic scene.",
+      "why": "Perspective lines seem to extend real space beyond the actual surface.",
+      "source": {
+        "label": "Smarthistory | Andrea Pozzo at Sant’Ignazio",
+        "href": "https://smarthistory.org/fra-andrea-pozzo-glorification-of-saint-ignatius/"
+      }
+    },
+    {
+      "name": "anamorphosis",
+      "look": "The image is stretched over a corner and resolves when seen from a particular vantage point.",
+      "history": "Hans Holbein’s The Ambassadors contains a stretched skull that resolves when viewed obliquely. Related effects may use curved mirrors.",
+      "when": "Build an image that visitors discover by moving to a specific spot.",
+      "why": "Distorting construction makes the viewer’s position an active part of the design.",
+      "source": {
+        "label": "National Gallery | The Ambassadors",
+        "href": "https://www.nationalgallery.org.uk/paintings/hans-holbein-the-younger-the-ambassadors"
+      }
+    },
+    {
+      "name": "matte painting",
+      "look": "Small-scale foreground details merge into a much larger painted city.",
+      "history": "Filmmakers used paintings to extend locations and sets, either by combining the painting and the filmed image or adding a background in the camera’s view.",
+      "when": "Show a distant environment beyond the resources of a built set.",
+      "why": "Match perspective and atmospheric light so the painted distance reads as part of the photographed space.",
+      "source": {
+        "label": "Academy Museum | Preserving a Vanishing Art",
+        "href": "https://www.academymuseum.org/en/content/article/preserving-a-vanishing-art"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. This comparison is about illusions. Keep the same bespectacled figure and mug prominent in all four panels. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: hyperrealist hand-painted portrait, astonishing sharp magnified detail in skin and ceramic reflections, tightly cropped. TOP RIGHT: illusionistic ceiling fresco seen looking straight up, steeply foreshortened figure in a painted window open to sky framed by ornate false balustrade. BOTTOM LEFT: anamorphic painting projected over a white gallery wall and floor and viewed off-axis, visibly stretched character with mug and geometric distortion intelligible in a small reflection on a column placed beside it. BOTTOM RIGHT: old-school cinematic matte painting; heroine in foreground with cup looking out at a vast terraced city over a gorge, painted imaginary architecture merges with tiny realistic foreground and blue haze."
+}

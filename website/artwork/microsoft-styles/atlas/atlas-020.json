@@ -1,0 +1,54 @@
+{
+  "intro": "These modern reinterpretations show ways ancient workshops used figures, animals and repeating architecture to organize a route or mark a place of power.",
+  "alt": "Four ancient-inspired surfaces, with a votive plaque, a profile procession, raised blue architectural brick and limestone delegates.",
+  "image": "atlas-020.webp",
+  "variants": [
+    {
+      "name": "Mesopotamian art",
+      "look": "Small figures sit in horizontal bands around a prominent office heroine.",
+      "history": "Ancient Mesopotamia includes many cities, kingdoms and periods. Early Dynastic votive sculpture and relief plaques are examples of its varied artistic production.",
+      "when": "Arrange a narrative so a viewer can read several actions in stages.",
+      "why": "Horizontal registers help convey sequence and rank.",
+      "source": {
+        "label": "The Met | Ancient Near Eastern Art guide",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Guide_to_the_Collections_Ancient_Near_Eastern_Art.pdf"
+      }
+    },
+    {
+      "name": "Assyrian relief",
+      "look": "Profile silhouettes, dense incisions and repeated patterns emerge from pale stone.",
+      "history": "Assyrian kings decorated palace interiors with gypsum reliefs depicting hunting, ceremonies and military campaigns. Major examples survive from Nimrud and Nineveh.",
+      "when": "Build a continuous scene with distinct figures and repeated gestures.",
+      "why": "Incised contours and shallow modeled depths can carry a long story along a wall.",
+      "source": {
+        "label": "The Met | Ancient Near Eastern Art guide",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Guide_to_the_Collections_Ancient_Near_Eastern_Art.pdf"
+      }
+    },
+    {
+      "name": "Ishtar Gate",
+      "look": "Raised ochre figures stand out against a wall of glossy blue glazed masonry.",
+      "history": "Nebuchadnezzar II built Babylon’s Ishtar Gate in the sixth century BCE. Its glazed bricks carry striding bulls and dragons, with lions on the Processional Way.",
+      "when": "Make color, relief and scale define an entryway.",
+      "why": "Alternating animals and blue masonry turn the wall itself into an image.",
+      "source": {
+        "label": "Pergamonmuseum | Ishtar Gate",
+        "href": "https://www.smorart.com/en/artworks/ishtar-gate/"
+      }
+    },
+    {
+      "name": "Achaemenid relief",
+      "look": "Neat limestone profiles and garment folds repeat along an orderly procession.",
+      "history": "Achaemenid carved stairways at Persepolis show delegations bearing gifts to the court. Repeated rows organize a long architectural surface.",
+      "when": "Show people approaching a central place or gathering.",
+      "why": "Regular spacing and recurring poses can express the order of a group at a glance.",
+      "source": {
+        "label": "ISAC Museum | Persepolis",
+        "href": "https://artsandculture.google.com/story/persepolis-isac-museum/KwVRKSxv_NfpLQ?hl=en"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Heroine and mug are portrayed as part of separate museum architectural reliefs, each retaining glasses and recognizable low bun as a deliberate fictional reinterpretation.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: Mesopotamian carved limestone votive plaque with horizontal registers, frontal large rounded eyes and small attendants beside her. top right: Assyrian pale gypsum palace relief, sharply incised majestic profile procession, patterned clothing and cuneiform-free lower band. bottom left: Ishtar Gate style glazed relief blue brick with raised golden animal motifs and a clearly recognizable brass-yellow glasses-and-bun figure in center, visible masonry courses. bottom right: Achaemenid limestone shallow relief with carefully repeated folds, profile figure holding cup and repeated columns of orderly delegates, calm monotone pale gray stone."
+}

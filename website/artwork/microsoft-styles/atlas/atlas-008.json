@@ -1,0 +1,54 @@
+{
+  "intro": "Printed images could hang at a doorway, circulate as a cheap broadside or be collected as individual artworks. The design and printing choices reflect those uses.",
+  "alt": "Japanese twilight color, a festive Chinese door print, a Mexican skeleton with the heroine’s glasses and mug and a rugged Japanese woodcut.",
+  "image": "atlas-008.webp",
+  "variants": [
+    {
+      "name": "shin-hanga",
+      "look": "Fine outlines and graduated dusk color show careful coordination across blocks.",
+      "history": "In early-20th-century Japan, publishers such as Watanabe Shōzaburō organized artists, carvers and printers to make new prints through traditional workshop roles.",
+      "when": "Create a multi-color scene with quiet atmospheric changes.",
+      "why": "Separate carving and printing work can unite highly precise lines with subtle bands of color.",
+      "source": {
+        "label": "National Diet Library | Shin-hanga",
+        "href": "https://www.ndl.go.jp/en/imagebank/column/shinhanga"
+      }
+    },
+    {
+      "name": "Chinese New Year prints",
+      "look": "Vermilion, green and gold frame the figure in a densely patterned design.",
+      "history": "Chinese woodblock New Year prints include protective door guardians and auspicious subjects displayed at the Lunar New Year.",
+      "when": "Design a festive image for an entrance or a gift.",
+      "why": "Strong outlines and charged color help an auspicious subject read from the street.",
+      "source": {
+        "label": "The Met | Lunar New Year collection resources",
+        "href": "https://www.metmuseum.org/zh/-/media/files/learn/for-educators/learning-resources/edu4108_nyct-lesson-plans_full_050124_update.pdf"
+      }
+    },
+    {
+      "name": "calavera prints",
+      "look": "A grinning skeleton keeps the sitter’s recognizable glasses, bun and mug.",
+      "history": "José Guadalupe Posada and others made lively skeletons for Mexican broadsides, often satirizing public figures and social behavior.",
+      "when": "Turn a recognizable character into an expressive satirical emblem.",
+      "why": "The skeleton simplifies the body and makes its gestures and props carry the joke.",
+      "source": {
+        "label": "Library of Congress | Posada's calaveras",
+        "href": "https://blogs.loc.gov/picturethis/2017/11/breathing-life-into-the-day-of-the-dead-the-calaveras-of-jos-guadalupe-posada/"
+      }
+    },
+    {
+      "name": "sōsaku-hanga",
+      "look": "Large russet and green fields retain grain and unpolished cut edges.",
+      "history": "Sōsaku-hanga, or creative prints, emphasized the artist’s personal work in designing, carving and printing. Onchi Kōshirō was a leading practitioner.",
+      "when": "Make a print where the carving itself should feel expressive.",
+      "why": "Visible tool marks keep the artist’s decisions present in the final impression.",
+      "source": {
+        "label": "Library of Congress | Beyond Ukiyo-e",
+        "href": "https://www.loc.gov/exhibits/ukiyo-e/beyond.html"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Create one square atlas comparison plate, precisely four independently composed equally sized artwork squares in full-bleed 2x2 grid, hard splits on both midlines, no margin nor gutter. Each print represents the character holding a white mug. Adapt figure and backdrop to each print tradition while preserving outfit glasses and low bun. Use the attached illustration only as subject character reference. 30-year-old attractive ash-blonde woman with tidy low bun, black rectangular eyeglasses clearly visible in every panel, tailored charcoal knee-length business dress under fitted blazer, signature white coffee mug with small four-color windowpane mark and plain blue lanyard with a blank badge. Never reproduce the card border or typography. The artwork techniques differ dramatically. Put nothing that crosses the splits. No letters, words, numerals or panel labels anywhere. TOP LEFT: shin-hanga, quiet twilight in slate blue with warm peach face, fine black key lines, woodgrain and precise brushed printing gradients. TOP RIGHT: Chinese New Year door print, highly saturated vermilion and gold and jewel green, strong mirrored border of celebratory floral patterns, black key outlines, auspicious context. BOTTOM LEFT: Mexican calavera broadside print, coarse energetic black relief line on amber paper, smiling skeleton heroine in recognisable dress and blazer with glasses and low bun, skeleton hand holds mug. BOTTOM RIGHT: sōsaku-hanga, an expressive single-artist woodcut, intentionally rough simplified carved hand shapes, strong dark russet and uneven green color planes, visible wood grain."
+}

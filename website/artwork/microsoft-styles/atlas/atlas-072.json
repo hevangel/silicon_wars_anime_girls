@@ -1,0 +1,58 @@
+{
+  "intro": "The mug travels from a commercial focal point to a repeatable sign and a source of pattern.",
+  "alt": "Four graphic compositions use an enlarged mug, repeated pictograms, interlaced ornament and a red circle.",
+  "image": "atlas-072.webp",
+  "variants": [
+    {
+      "name": "Plakatstil",
+      "look": "Silhouettes and broad blocks isolate one oversized product.",
+      "history": "Lucian Bernhard helped develop the German object poster, where a simplified product and its name carried the advertisement.",
+      "when": "Strip the composition down to a focal object readable at a glance.",
+      "why": "Untangled contours survive a brief glance or a distant viewpoint.",
+      "source": {
+        "label": "Neue Galerie · The Modern Poster in Germany",
+        "href": "https://www.neuegalerie.org/exhibitions/modern-poster-germany"
+      },
+      "period": "From about 1905"
+    },
+    {
+      "name": "Isotype pictograms",
+      "look": "Repeated figures establish a measurable rhythm across the panel.",
+      "history": "Otto Neurath, Marie Neurath and Gerd Arntz developed the Vienna Method, later known as Isotype, to make social statistics accessible.",
+      "when": "Use repeated equal units to communicate quantity or comparison.",
+      "why": "A repeated icon can be counted directly and compared by row.",
+      "source": {
+        "label": "University of Reading · Isotype Collection",
+        "href": "https://www.reading.ac.uk/typography/collections-and-archives/isotype-collection"
+      },
+      "period": "Late 1920s–1940s"
+    },
+    {
+      "name": "Wiener Werkstätte",
+      "look": "Checker frames and floral motifs organize figure and ground together.",
+      "history": "Josef Hoffmann and Koloman Moser cofounded the Vienna workshops to bring design to everyday objects and interiors.",
+      "when": "Design a family of related surfaces through a shared vocabulary of pattern.",
+      "why": "Repetition ties distinct objects together without requiring them to share a silhouette.",
+      "source": {
+        "label": "MAK · Wiener Werkstätte",
+        "href": "https://www.mak.at/en/collection/wiener_werkstaette"
+      },
+      "period": "1903–1932"
+    },
+    {
+      "name": "Japanese postwar graphic design",
+      "look": "An oversized red circle intersects the figure in clean asymmetry.",
+      "history": "Postwar Japanese designers such as Yusaku Kamekura combined international modernist design with imagery suited to Japanese clients and audiences.",
+      "when": "Use a dominant geometric accent to organize varied imagery.",
+      "why": "One large geometric shape can anchor the eye quickly amid asymmetrically placed images.",
+      "source": {
+        "label": "MoMA · Tokyo 1964 Olympic poster",
+        "href": "https://www.moma.org/artists/10217"
+      },
+      "period": "1950s–1970s"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is exactly four square cells in 2x2, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: Plakatstil: single oversized mug and executive as simple contours in black and tomato on cream, commercial lithography; Isotype pictograms: repeated small human icons in orderly rows, her icon holds a mug, red and black; Wiener Werkstätte: elegant black and gold checker framework, small repeating squares, ornate flower decoration around poised figure; Japanese postwar graphic design: meticulous photomontage profile intersected by a flat blazing red circle and navy oval in a crisply asymmetrical layout. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1247,
+  "height": 1261
+}

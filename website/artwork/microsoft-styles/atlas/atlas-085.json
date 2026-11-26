@@ -1,0 +1,34 @@
+{
+  "intro": "Think about what supplies energy to each future and what the buildings let you see.",
+  "alt": "Two futures surround the executive with brass mechanisms and sunlit planted terraces.",
+  "image": "atlas-085.webp",
+  "variants": [
+    {
+      "name": "steampunk",
+      "look": "Gauges and brass pipework put machinery in plain view.",
+      "history": "The name steampunk emerged in the late 1980s for speculative work recasting the nineteenth century and its machinery.",
+      "when": "Give a speculative technology a mechanical logic the viewer can see.",
+      "why": "Visible connections between gauges, pipes and gears help the audience infer an invented machine’s function.",
+      "source": {
+        "label": "Science Fiction Encyclopedia · Steampunk",
+        "href": "https://sf-encyclopedia.com/entry/steampunk"
+      },
+      "period": "Late 1980s onward"
+    },
+    {
+      "name": "solarpunk",
+      "look": "Plantings, timber terraces and a solar canopy share the same inhabited space.",
+      "history": "Solarpunk developed through online conversations and speculative fiction imagining adaptive, equitable and ecologically grounded futures.",
+      "when": "Show how an everyday place might collect energy, shelter life and be shared.",
+      "why": "Visible planting, collection and shelter show how infrastructure could participate in everyday life.",
+      "source": {
+        "label": "Solarpunk Manifesto",
+        "href": "https://www.re-des.org/a-solarpunk-manifesto/"
+      },
+      "period": "Late 2000s–2010s onward"
+    }
+  ],
+  "prompt": "Generate an original textless art atlas comparison. Layout: exactly 2 equally wide vertical cells side by side, with a landscape canvas, seamlessly edge-to-edge, strict equal widths, no gutters, no borders. Order is left to right within row, top row first. Each cell must feature the same recurring adult female executive from the attached reference, whose identity as opposed to its style or lettering the image is given to establish: ash-blonde neat low bun with four-color windowpane hair clip, blue eyes, rectangular black-rimmed glasses, dark charcoal blazer and tailored sheath dress, azure pocket square and blue lanyard, white coffee mug with four colored tiles. Preserve enough character identity under each variation. Scene/style list in exact order: steampunk: brass pressure gauges, exposed gear train, leather trim on black blazer and amber lamplight, thick retro copper industrial spaces; solarpunk: sun-lit greenery spilling off ceramic plant-packed stair terraces, warm cross-laminated timber, discreet photovoltaic canopy and visible water capture. No readable text, signs, letters, numbers, signature, framing or extra cells.",
+  "width": 1774,
+  "height": 887
+}

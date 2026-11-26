@@ -1,0 +1,54 @@
+{
+  "intro": "Painters can produce a sense of order by locating a figure among carefully arranged shapes or by positioning the viewer in an expansive city. The subject's scale changes what the picture seems to value.",
+  "alt": "Microsoft appears amid balanced architecture, a carefully staged scene, an expansive canal view and a full-length formal portrait.",
+  "image": "atlas-053.webp",
+  "variants": [
+    {
+      "name": "French classicism",
+      "look": "Clear contours and strong architectural lines divide the scene into readable parts.",
+      "history": "Seventeenth-century French painters such as Nicolas Poussin drew on classical antiquity and Renaissance examples. Poussin spent much of his career in Rome.",
+      "when": "Study the scene when several figures or gestures need to coexist within a clearly ordered space.",
+      "why": "A stable framework lets viewers understand a figure's action by its position among other forms.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/artists/nicolas-poussin"
+      }
+    },
+    {
+      "name": "Academic art",
+      "look": "Figures are modeled smoothly and gestures are visible from one passage of the composition to the next.",
+      "history": "European art academies formalized training in drawing, the human figure and historical models. Styles and institutions changed substantially across centuries and countries.",
+      "when": "Study a historical academy painting when you want to analyze how elaborate scenes were planned and polished.",
+      "why": "Shared conventions gave artists and audiences legible expectations about finish, subject and scale.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/paintings/glossary/art-academies"
+      }
+    },
+    {
+      "name": "vedute",
+      "look": "The view opens out along a canal, with buildings decreasing carefully in scale toward the distance.",
+      "history": "Vedute are detailed views. Eighteenth-century artists such as Canaletto sold recognizable Venetian views to local and traveling buyers.",
+      "when": "Study the relation between the viewpoint and the buildings chosen to make the city recognizable.",
+      "why": "Tiny foreground figures give a familiar measure against the broad architecture.",
+      "source": {
+        "label": "National Gallery, London",
+        "href": "https://www.nationalgallery.org.uk/artists/canaletto"
+      }
+    },
+    {
+      "name": "Grand Manner portrait",
+      "look": "A full-length pose, a plinth and rich drapery give the sitter an imposing presence.",
+      "history": "Grand Manner portraiture drew on elevated classical and historical poses. Eighteenth-century British painters such as Joshua Reynolds helped define the approach.",
+      "when": "Study it when setting, pose and clothing must establish how the sitter wishes to appear publicly.",
+      "why": "The arrangement enlarges the sitter's social presence as well as their physical scale.",
+      "source": {
+        "label": "National Gallery of Art",
+        "href": "https://www.nga.gov/stories/videos/thomas-eakins-and-grand-manner-portrait"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Educational art style comparison board. Exactly four square panels arranged as a 2×2 grid in stated reading order, hairline neutral dividers. Recurring original character is an adult woman with ash-blonde hair in a neat low bun, four-color square hair clip, black rectangular glasses worn throughout, black blazer over knee-length black sheath dress, blue lanyard, blank badge, white coffee mug with four colored squares. As specified, she is the subject of each individual artwork's idiom, or a visitor for works that do not depict people. Style distinctions are immediately clear. Scene list in exact order: French classicism: thoughtfully geometrical composition among grand architectural forms, clear contours in an ordered idealized room; Academic art: refined studio history painting with carefully modeled forms in clearly staged gesture and smoothly finished surface; Venetian veduta: modern woman a small visitor figure in a meticulously described broad canal view and architectural perspective; Grand Manner portrait: towering full-height woman posed with one hand on a stone plinth, dark costume set against red drapery and distant estate, dignified stage lighting. No lettering, captions, watermark or ornamental frame."
+}

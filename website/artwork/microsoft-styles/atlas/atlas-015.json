@@ -1,0 +1,54 @@
+{
+  "intro": "Look for where color lives. It can sit in layered coats, fill a wire enclosure, form part of a stone or come from the grain of a thin piece of wood.",
+  "alt": "Four crafted portraits in glossy black lacquer, wire-edged enamel, colored stone inlay and mixed wood veneers.",
+  "image": "atlas-015.webp",
+  "variants": [
+    {
+      "name": "lacquerware",
+      "look": "Gold and vermilion marks sit over a deep black glossy surface.",
+      "history": "Many East Asian lacquer traditions build layers of refined tree sap. Japanese maki-e decorates the surface with powders such as gold.",
+      "when": "Make a polished object with color and fine metallic detail on a dark field.",
+      "why": "Layers create depth, while powdered metal catches the light where it lands.",
+      "source": {
+        "label": "The Met | Lacquer techniques",
+        "href": "https://www.metmuseum.org/exhibitions/listings/2013/invisible-visible"
+      }
+    },
+    {
+      "name": "cloisonné enamel",
+      "look": "Narrow brass outlines separate pockets of bright glass color.",
+      "history": "Cloisonné workers form small cells with metal partitions and fill the cells with enamel. The technique was used widely on decorative objects in China and elsewhere.",
+      "when": "Define a small emblem with saturated colors that stay within clear boundaries.",
+      "why": "The wires retain the enamel and make its edges crisp.",
+      "source": {
+        "label": "V&A | Metalworking techniques",
+        "href": "https://www.vam.ac.uk/articles/metalworking-techniques"
+      }
+    },
+    {
+      "name": "pietra dura",
+      "look": "Polished slices of jasper and agate supply color and natural variation.",
+      "history": "Florentine pietra dura workshops cut and assemble colored stones into pictorial panels. Medici patronage supported a major workshop from the late 16th century.",
+      "when": "Design a decorative surface where real material supplies color and pattern.",
+      "why": "Veins and mottling can become part of the image without painted detail.",
+      "source": {
+        "label": "V&A | Pietre dure",
+        "href": "https://www.vam.ac.uk/articles/how-was-it-made-pietre-dure"
+      }
+    },
+    {
+      "name": "marquetry",
+      "look": "Visible shifts in wood grain distinguish face, clothing and background.",
+      "history": "Marquetry uses shaped veneers to decorate a surface. Eighteenth-century furniture makers such as the Roentgens made detailed pictorial veneers.",
+      "when": "Make a composition with natural grain directions and related warm colors.",
+      "why": "The wood gives each shape texture and value while keeping the surface level.",
+      "source": {
+        "label": "The Met | Roentgen furniture",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/Extravagant_Inventions_The_Princely_Furniture_of_the_Roentgens.pdf"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make one square image split into four independent identical-size squares at exact center, 2x2, full-bleed no gutter. Product photographs of separate handcraft panels with portrait heroine and coffee mug.. Use attached portrait just for character identity. Our character is a light ash blonde 30-year-old woman with tidy low bun and rectangular glasses (both must read clearly in EVERY panel), charcoal business dress and fitted blazer, simple lanyard and hair clip where the artistic medium permits. Her signature small white coffee mug has a four-square geometric mark. Repeat this figure in each wholly distinct medium. Do not copy the card design. Absolutely no text, words, letters, digits or panel labels, no printed margins. top left: lustrous Japanese layered black lacquer with vermilion and gold powdered maki-e motif. top right: cloisonné enamel, narrow raised brass wire outlines recognizable silhouette and glasses, colorful jewel cobalt and scarlet glass-filled pockets. bottom left: Florentine pietra dura, fully legible medallion portrait in highly polished naturally colored precisely joined contrasting hardstone, green jasper, lapis, pale agate. bottom right: marquetry with discreetly joined patterned walnut, maple, red padauk and satinwood veneers and visibly contrasting grain directions."
+}

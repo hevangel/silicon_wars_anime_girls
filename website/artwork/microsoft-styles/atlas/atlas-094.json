@@ -1,0 +1,58 @@
+{
+  "intro": "Each panel limits the kinds of marks that can define a digital body.",
+  "alt": "The figure appears in 3D color bands, built from cubes, made of symbols and simplified into broad polygon faces.",
+  "image": "atlas-094.webp",
+  "variants": [
+    {
+      "name": "cel-shaded 3D",
+      "look": "The model’s shading separates into discrete tones bounded by crisp contour.",
+      "history": "Cel shading became a visible approach in 3D games around the turn of the millennium, borrowing aspects of cel animation’s graphic appearance.",
+      "when": "Use a few distinct tones when you want a 3D figure to read like painted animation.",
+      "why": "Distinct bands cause form changes to appear as decisive shapes like painted cel shadows.",
+      "source": {
+        "label": "The Strong · Video game history",
+        "href": "https://www.museumofplay.org/exhibits/level-up/"
+      },
+      "period": "Popularized in games from around 2000"
+    },
+    {
+      "name": "voxel art",
+      "look": "Small cubes define clothing, hair and the body of the mug.",
+      "history": "Voxels represent positions in a 3D grid. Artists can deliberately expose the individual volumes as part of the visual style.",
+      "when": "Build solid forms from repeated elements that remain legible from several angles.",
+      "why": "An exposed grid makes material, contour and volume read as parts of one construction.",
+      "source": {
+        "label": "MagicaVoxel · Development and examples",
+        "href": "https://ephtracy.github.io/"
+      },
+      "period": "Appeared in computer graphics before its widespread use as a game art style"
+    },
+    {
+      "name": "ASCII art",
+      "look": "Dense clusters of small symbols produce lighter values around glasses and cup.",
+      "history": "Character-based pictures circulated through typesetting and text terminals. Computer ASCII art built on the printable ASCII character inventory.",
+      "when": "Assign value by symbol density while keeping recognizable shapes at the scale of the terminal.",
+      "why": "Denser symbols create apparent tone using the same printable palette as sparse symbols.",
+      "source": {
+        "label": "Textfiles · ASCII art archives",
+        "href": "http://www.textfiles.com/art/"
+      },
+      "period": "Computer tradition developed in the 1960s onward"
+    },
+    {
+      "name": "modern low-poly indie",
+      "look": "Broad untextured polygon faces emphasize planes and scale.",
+      "history": "Low-polygon modeling began under technical constraints and persists as an intentional style in contemporary independent games.",
+      "when": "Put the few visible edges exactly where they clarify the volume.",
+      "why": "Large flat faces show the model’s most important volume changes with economical geometry.",
+      "source": {
+        "label": "Blender · Modeling manual",
+        "href": "https://docs.blender.org/manual/en/latest/modeling/index.html"
+      },
+      "period": "Early 3D precedents, with a contemporary indie revival"
+    }
+  ],
+  "prompt": "Draw an original unlabeled museum art atlas comparison board. Layout: exactly four square cells arranged in a square 2x2 quadrant layout, edge to edge, exact square/equal cells, no frames or gutters. Sequence left to right within each row from top. Feature the original female executive character in each panel by including her directly or as part of the depicted artwork. Reference image for identity only, never copy its text or framing. Ash-blonde hair in neat low bun with small four-color tile clip, blue eyes, rectangular black glasses, formal charcoal blazer over fitted charcoal sheath dress, a blue pocket square and lanyard, white coffee mug with small four-color tile mark. Vary in accordance with requested aesthetic. Styles in order: cel-shaded 3D: smoothly modeled 3D character with discrete two-tier shadow and silhouette ink line; voxel art: all form constructed of densely tiled small cube volumes, geometric cubical mug and bun; ASCII art: monochrome green image formed entirely of tiny typographic punctuation and fine generic keyboard symbols, no words, showing recognizable silhouette and mug on a black terminal; modern low-poly indie: minimal well lit pink and alpine green planes with sparse deliberate flat facets and a three-dimensional diorama. No readable text, numbers, signs, signature or extraneous graphic borders.",
+  "width": 1254,
+  "height": 1254
+}

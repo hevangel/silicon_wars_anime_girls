@@ -1,0 +1,54 @@
+{
+  "intro": "A roofless room, a gold screen and two ink landscapes show how subject, audience and setting can change a Japanese painting.",
+  "alt": "Four views of Microsoft beside a spring court scene, a gold pine screen, misty ink mountains and a landscape with a riverside cottage.",
+  "image": "atlas-035.webp",
+  "variants": [
+    {
+      "name": "Yamato-e",
+      "look": "Look down into rooms whose roofs have been lifted away. Clouds separate clusters of figures and blossoms.",
+      "history": "Painters in Heian Japan developed conventions for local stories and seasonal scenes. Handscrolls could reveal them in stages.",
+      "when": "Useful when several moments or rooms have to share one image.",
+      "why": "Lifting the roof gives an intimate story room to unfold without losing the wider setting.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://www.metmuseum.org/essays/yamato-e-painting"
+      }
+    },
+    {
+      "name": "Kanō school",
+      "look": "A heavy pine branch stretches across gold screen panels, with folds cutting through the image.",
+      "history": "From the late fifteenth century onward, generations of Kanō painters developed a workshop tradition for elite patrons. They worked in ink as well as brilliant colors and gold.",
+      "when": "Use the screen example to study a large decorative composition across multiple surfaces.",
+      "why": "The branch links the panels and lends a big room a strong visual anchor.",
+      "source": {
+        "label": "Asian Art Museum",
+        "href": "https://education.asianart.org/resources/japanese-painting-kano-school/"
+      }
+    },
+    {
+      "name": "Zen ink painting",
+      "look": "Wet gray ink makes a mountain seem to dissolve. A few dark strokes give the foreground weight.",
+      "history": "Ink painting flourished in medieval Japanese Zen circles, where artists studied and adapted Chinese models.",
+      "when": "Try an ink study when you need one gesture or a very few marks to carry a scene.",
+      "why": "The unpainted paper is read as light and mist around the brushwork.",
+      "source": {
+        "label": "Metropolitan Museum of Art",
+        "href": "https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Japan_The_Metropolitan_Museum_of_Art_Bulletin_v_45_no_1_Summer_1987.pdf"
+      }
+    },
+    {
+      "name": "Nanga",
+      "look": "The eye follows a winding river past a tiny dwelling toward layers of dry-brushed hills.",
+      "history": "Edo-period Japanese artists adapted Chinese literati painting. Nanga flourished in the eighteenth and nineteenth centuries.",
+      "when": "Use it as a reference for a landscape meant to be explored slowly.",
+      "why": "Paths, trees and small buildings offer clues to scale and pace.",
+      "source": {
+        "label": "Suntory Museum of Art",
+        "href": "https://www.suntory.com/sma/exhibition/2021_1/display.html?ke=hd"
+      }
+    }
+  ],
+  "width": 1254,
+  "height": 1254,
+  "prompt": "Make an educational art-comparison board with four perfect square images in an edge-to-edge 2×2 grid, clean narrow neutral divider, no text or typography whatsoever. The reference image is for the recurring original character only, with black rectangular glasses, ash-blonde low bun, four-color clip, dark fitted blazer over charcoal sheath dress, blue lanyard and four-color square mug. Do not copy card/frame/layout or make all panels anime. Show this same modern visitor noticing four separately framed historical-technique studies in separate panels. Top left Yamato-e, spring and a roofless room from above, mineral pigment opaque jewel colors and clouds on paper, visitor in foreground of contemporary exhibit. Top right Kanō school, bold dark pine and rocks on gold folding screen, visitor looks up. Bottom left Zen ink painting, large empty paper with wet gray mountains and swift black strokes, visitor looks quietly. Bottom right Nanga, winding mountain and river in literati brushwork on warm paper, tiny cottage, no writing, visitor looks at mount. Make artwork fill each panel and the modern woman unobtrusive but legible. Strong panel separation. No lettering or seals, no watermark."
+}

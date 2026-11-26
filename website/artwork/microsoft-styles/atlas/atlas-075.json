@@ -1,0 +1,58 @@
+{
+  "intro": "Look up from ground level and trace how the structure directs your eye.",
+  "alt": "Four architectural settings show stone columns, pointed vaults, a patterned courtyard and a cellular vault.",
+  "image": "atlas-075.webp",
+  "variants": [
+    {
+      "name": "Classical orders",
+      "look": "Columns and capitals carry an entablature at regular intervals.",
+      "history": "Greek and Roman traditions established distinct systems of column proportion, capital and entablature later codified in architectural treatises.",
+      "when": "Read a classical façade by comparing the proportions and profiles from base to cornice.",
+      "why": "Distinct capital profiles and column-to-entablature ratios make orders recognizable across buildings.",
+      "source": {
+        "label": "The Met · Architecture in Ancient Greece",
+        "href": "https://www.metmuseum.org/essays/architecture-in-ancient-greece"
+      },
+      "period": "Antiquity, with numerous later revivals"
+    },
+    {
+      "name": "Gothic cathedral architecture",
+      "look": "Pointed arches and clustered piers guide the eye into a ribbed canopy.",
+      "history": "Gothic builders combined pointed arches, rib vaults and buttressing to construct taller interiors and larger windows.",
+      "when": "Trace where the web of ribs meets the piers to see how the interior is organized.",
+      "why": "The meeting of the ribs and piers turns engineering into a repeated visual cue.",
+      "source": {
+        "label": "The Met · Gothic Art",
+        "href": "https://www.metmuseum.org/essays/gothic-art"
+      },
+      "period": "From the mid-12th century in France"
+    },
+    {
+      "name": "Islamic architecture",
+      "look": "An arcade and patterned surfaces organize a courtyard around space and light.",
+      "history": "Architecture across Islamic societies developed many local traditions, including courtyard, garden, mosque and palace types.",
+      "when": "Identify spatial organization and regional materials alongside ornament.",
+      "why": "Courtyard axes and arcades choreograph movement, shade and moments of stillness.",
+      "source": {
+        "label": "The Met · The Nature of Islamic Art",
+        "href": "https://www.metmuseum.org/essays/the-nature-of-islamic-art"
+      },
+      "period": "From the 7th century onward"
+    },
+    {
+      "name": "muqarnas",
+      "look": "Repeated niches break the curve overhead into small, layered cells.",
+      "history": "Muqarnas developed in medieval Islamic architecture and is used under domes and cornices and above portals.",
+      "when": "Study connected tiers to see how builders mediate between flat walls and curved or polygonal spaces.",
+      "why": "Tiered cells make a transition between two larger shapes perceptible in small steps.",
+      "source": {
+        "label": "The Met · Panel from a Ceiling",
+        "href": "https://www.metmuseum.org/art/collection/search/452832"
+      },
+      "period": "From about the 11th century"
+    }
+  ],
+  "prompt": "Draw a single textless art comparison board for a museum-quality online art atlas. Layout is exactly four square cells in 2x2, edge-to-edge, no gutters or borders; precise, strictly equally sized cells. Order is left to right within each row, then next row. Each cell is a distinct style treatment featuring the same female executive from reference, in original new art. The reference image is for identity only: recognizable ash-blonde hair in neat low bun with four-color windowpane hair clip, black-rimmed rectangular glasses over blue eyes, charcoal sheath dress under fitted black blazer, azure pocket square and blue lanyard with blank ID badge, holding a white coffee mug with a little four-color tile mark. Change the actual render style rather than adding only backgrounds. Layout styles in order: Classical orders: executive standing by rhythmic stone columns with distinct capitals and measured entablature in clear limestone daylight; Gothic cathedral architecture: executive dwarfed by pointed arches, rib vaults, vertical piers and stained light; Islamic architecture: executive centered in a tranquil garden court with tiled geometric wall, rhythm of arches and reflecting pool; muqarnas: low angle on executive looking up with mug to cellular three-dimensional niches which step into a vault, turquoise and honey stone. No readable text, numbers, signatures, words, or extra panels.",
+  "width": 1249,
+  "height": 1259
+}
