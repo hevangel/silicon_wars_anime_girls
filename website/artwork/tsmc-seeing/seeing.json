@@ -1,0 +1,2779 @@
+{
+ "title": "The TSMC Seeing Course",
+ "control": {
+  "src": "art/control.webp",
+  "thumb": "art/control-t.webp"
+ },
+ "lessons": [
+  {
+   "n": 1,
+   "id": "line-and-shape",
+   "title": "Line and Shape",
+   "thesis": "Before light and color there is the skeleton: where the edges are and what shapes they enclose.",
+   "intro": "Every picture, however realistic, can be reduced to a handful of lines and flat shapes. In this lesson the café scene is stripped down to that skeleton. Notice how much of the picture's character is already decided before any shading or color arrives.",
+   "exercise": "Squint at the control image until the details vanish. Count the big shapes you can still see. If the answer is more than seven, the picture is probably cluttered.",
+   "cards": [
+    {
+     "slug": "contour-outline",
+     "name": "Contour Outline",
+     "subtitle": "A line around every form",
+     "explanation": "A contour is the line that traces the outer edge of a thing. Nature has no outlines, so drawing one is the first act of interpretation: it declares where one object ends and the next begins.",
+     "look": [
+      "A single even line encloses the figure, chair and cup",
+      "Inner lines mark only the big folds and overlaps",
+      "With no shading at all, the scene is still fully readable"
+     ],
+     "images": [
+      {
+       "src": "art/contour-outline/1.webp",
+       "thumb": "art/contour-outline/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "line-weight",
+     "name": "Line Weight",
+     "subtitle": "Thick and thin",
+     "explanation": "A line that swells and thins feels alive. Thicker lines pull forward and suggest weight or shadow, while thin lines recede and suggest light or distance.",
+     "look": [
+      "Lines thicken on the underside of forms, where shadow would fall",
+      "The nearest objects carry the heaviest lines",
+      "Thin lines on the window side make that edge feel lit"
+     ],
+     "images": [
+      {
+       "src": "art/line-weight/1.webp",
+       "thumb": "art/line-weight/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "line-direction",
+     "name": "Line Direction",
+     "subtitle": "Horizontal, vertical, diagonal, curved",
+     "explanation": "The dominant direction of a picture's lines sets its mood before the subject does. Horizontals rest, verticals stand firm, diagonals move and curves flow.",
+     "look": [
+      "Horizontals make the café feel calm and settled",
+      "Diagonals make the same room feel restless",
+      "Curves soften everything, including the figure"
+     ],
+     "images": [
+      {
+       "src": "art/line-direction/1.webp",
+       "thumb": "art/line-direction/t1.webp",
+       "label": "Variant 1 — Horizontal,"
+      },
+      {
+       "src": "art/line-direction/2.webp",
+       "thumb": "art/line-direction/t2.webp",
+       "label": "Variant 2 — Vertical,"
+      },
+      {
+       "src": "art/line-direction/3.webp",
+       "thumb": "art/line-direction/t3.webp",
+       "label": "Variant 3 — Diagonal,"
+      },
+      {
+       "src": "art/line-direction/4.webp",
+       "thumb": "art/line-direction/t4.webp",
+       "label": "Variant 4 — Curved"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "implied-line",
+     "name": "Implied Line",
+     "subtitle": "Lines that are not drawn",
+     "explanation": "The eye connects things without being asked. A gaze, a pointing hand or a row of objects creates a line that exists only in the viewer's head, and it steers attention as strongly as a drawn one.",
+     "look": [
+      "Her gaze makes a line from her eyes to its target",
+      "The viewer's eye follows that line and lands where she looks",
+      "A row of objects on the table forms a second invisible line"
+     ],
+     "images": [
+      {
+       "src": "art/implied-line/1.webp",
+       "thumb": "art/implied-line/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "gaze"
+    },
+    {
+     "slug": "hard-soft-and-lost-edges",
+     "name": "Hard, Soft and Lost Edges",
+     "subtitle": "How one shape meets the next",
+     "explanation": "An edge can be razor-sharp, blurred or missing entirely where two similar tones merge. Sharp edges attract the eye, and lost edges let the viewer's imagination finish the form.",
+     "look": [
+      "The sharpest edge in the picture is at the face",
+      "Hair and shoulder melt into the dark background on the shadow side",
+      "You still read the whole figure, even where no edge exists"
+     ],
+     "images": [
+      {
+       "src": "art/hard-soft-and-lost-edges/1.webp",
+       "thumb": "art/hard-soft-and-lost-edges/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "silhouette",
+     "name": "Silhouette",
+     "subtitle": "The shape with the inside removed",
+     "explanation": "Fill a figure with solid black and you learn whether its shape alone tells the story. A clear silhouette reads instantly, and a confusing one stays confusing however well it is rendered.",
+     "look": [
+      "The crossed legs, cup and profile are all identifiable from outline alone",
+      "Gaps between arm and body keep the shape readable",
+      "Where limbs overlap the torso, information is lost"
+     ],
+     "images": [
+      {
+       "src": "art/silhouette/1.webp",
+       "thumb": "art/silhouette/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "shape-language",
+     "name": "Shape Language",
+     "subtitle": "Circles, squares and triangles",
+     "explanation": "Simple shapes carry feeling. Round shapes feel friendly and soft, square shapes feel stable and solid, and triangular shapes feel sharp, fast or dangerous.",
+     "look": [
+      "In the round version, hair, cup, chair and table all echo circles",
+      "The square version feels sturdier and more formal",
+      "The triangular version looks edgy, though the pose has not changed"
+     ],
+     "images": [
+      {
+       "src": "art/shape-language/1.webp",
+       "thumb": "art/shape-language/t1.webp",
+       "label": "Variant 1 — Circles,"
+      },
+      {
+       "src": "art/shape-language/2.webp",
+       "thumb": "art/shape-language/t2.webp",
+       "label": "Variant 2 — Squares,"
+      },
+      {
+       "src": "art/shape-language/3.webp",
+       "thumb": "art/shape-language/t3.webp",
+       "label": "Variant 3 — Triangles. Keep pose and layout"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "positive-and-negative-space",
+     "name": "Positive and Negative Space",
+     "subtitle": "The thing and the gap around it",
+     "explanation": "The figure is positive space, and the empty areas around and between forms are negative space. Good designers shape the gaps as carefully as the objects.",
+     "look": [
+      "The gap between arm and body is a shape in its own right",
+      "The space between chair legs repeats and varies",
+      "When the colors flip, the background becomes the subject"
+     ],
+     "images": [
+      {
+       "src": "art/positive-and-negative-space/1.webp",
+       "thumb": "art/positive-and-negative-space/t1.webp",
+       "label": "Variant 1 — Figure and furniture in flat black on white"
+      },
+      {
+       "src": "art/positive-and-negative-space/2.webp",
+       "thumb": "art/positive-and-negative-space/t2.webp",
+       "label": "Variant 2 — The same image inverted: white figure, black surroundings"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "big-medium-small",
+     "name": "Big, Medium, Small",
+     "subtitle": "Variety of shape size",
+     "explanation": "Pictures with shapes of all one size feel monotonous. A common design habit is one big shape, a few medium ones and a scatter of small accents.",
+     "look": [
+      "One large mass dominates: the figure with her chair",
+      "The table and window are the medium shapes",
+      "The cup, glasses and small details are the accents"
+     ],
+     "images": [
+      {
+       "src": "art/big-medium-small/1.webp",
+       "thumb": "art/big-medium-small/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "bms"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "id": "value",
+   "title": "Value",
+   "thesis": "Value is how light or dark something is. It does most of the work in a picture, and color takes the credit.",
+   "intro": "Remove all color from a good picture and it still works. Remove the pattern of lights and darks and it collapses. This lesson shows the café in gray so you can see that pattern alone, then pushes it lighter, darker, simpler and stronger.",
+   "exercise": "Turn your phone screen to grayscale and look at any three cards from later lessons. Which one loses the most? That picture was leaning on color instead of value.",
+   "cards": [
+    {
+     "slug": "grayscale",
+     "name": "Grayscale",
+     "subtitle": "The picture without its color",
+     "explanation": "Every color has a value, a position between white and black. Converting to gray reveals the structure underneath: which areas are light, which are dark, and whether the subject separates from its surroundings.",
+     "look": [
+      "The figure still stands out from the background",
+      "Some colors that looked different turn out to be the same gray",
+      "The window is the lightest shape and the eye goes there first"
+     ],
+     "images": [
+      {
+       "src": "art/grayscale/1.webp",
+       "thumb": "art/grayscale/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "graystrip"
+    },
+    {
+     "slug": "two-value-design",
+     "name": "Two-Value Design",
+     "subtitle": "Notan: only black and white",
+     "explanation": "Notan is a Japanese term for the design of light against dark. Forcing every tone to pure black or pure white shows whether the picture has a strong underlying pattern.",
+     "look": [
+      "Everything in light becomes white and everything in shadow becomes black",
+      "Shadow shapes merge into a few large black masses",
+      "The scene is recognizable from two flat tones"
+     ],
+     "images": [
+      {
+       "src": "art/two-value-design/1.webp",
+       "thumb": "art/two-value-design/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "three-value-plan",
+     "name": "Three-Value Plan",
+     "subtitle": "Light, middle, dark",
+     "explanation": "Most painters plan with three values before anything else. One of the three usually covers most of the picture, which gives the image a clear overall tone.",
+     "look": [
+      "Middle gray covers the largest area",
+      "White is saved for the window and the lit side of the figure",
+      "Black appears only in a few accents"
+     ],
+     "images": [
+      {
+       "src": "art/three-value-plan/1.webp",
+       "thumb": "art/three-value-plan/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "high-key",
+     "name": "High Key",
+     "subtitle": "Mostly light values",
+     "explanation": "A high-key picture lives in the top of the value scale, with pale tones and few true darks. It feels airy, gentle, clean or dreamy.",
+     "look": [
+      "The darkest dark is only a middle gray",
+      "Shadows are soft and pale",
+      "The mood is light and open"
+     ],
+     "images": [
+      {
+       "src": "art/high-key/1.webp",
+       "thumb": "art/high-key/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "low-key",
+     "name": "Low Key",
+     "subtitle": "Mostly dark values",
+     "explanation": "A low-key picture lives in the bottom of the scale, with deep tones and a few small lights. It feels intimate, serious, mysterious or dramatic.",
+     "look": [
+      "Most of the frame is dark",
+      "A small area of light on the face and cup carries the picture",
+      "The room's edges disappear into shadow"
+     ],
+     "images": [
+      {
+       "src": "art/low-key/1.webp",
+       "thumb": "art/low-key/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "value-contrast",
+     "name": "Value Contrast",
+     "subtitle": "Wide range or narrow range",
+     "explanation": "The distance between a picture's lightest light and darkest dark sets its energy. A wide range is punchy and dramatic, and a narrow range is quiet and misty.",
+     "look": [
+      "The full-range version uses both pure white and pure black",
+      "The narrow version uses only middle grays",
+      "The same scene feels loud in one and hushed in the other"
+     ],
+     "images": [
+      {
+       "src": "art/value-contrast/1.webp",
+       "thumb": "art/value-contrast/t1.webp",
+       "label": "Variant 1 — Full range from black to white"
+      },
+      {
+       "src": "art/value-contrast/2.webp",
+       "thumb": "art/value-contrast/t2.webp",
+       "label": "Variant 2 — Compressed to middle grays only"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "value-grouping",
+     "name": "Value Grouping",
+     "subtitle": "The squint test",
+     "explanation": "Strong pictures keep their lights together and their darks together instead of scattering them like confetti. Squinting blurs the detail and shows whether the big groups hold.",
+     "look": [
+      "Small lights inside the shadow stay darker than anything in the light",
+      "Blurred, the picture reads as a few large patches",
+      "The patches make a simple, memorable pattern"
+     ],
+     "images": [
+      {
+       "src": "art/value-grouping/1.webp",
+       "thumb": "art/value-grouping/t1.webp",
+       "label": "Variant 1 — The control with its lights and darks massed into large conne…"
+      },
+      {
+       "src": "art/value-grouping/2.webp",
+       "thumb": "art/value-grouping/t2.webp",
+       "label": "Variant 2 — The same image heavily blurred"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "counterchange",
+     "name": "Counterchange",
+     "subtitle": "Light against dark, dark against light",
+     "explanation": "An edge is clearest when a light shape meets a dark one. Counterchange places each part of the subject against its opposite value, so the figure stays readable from head to foot.",
+     "look": [
+      "Her lit side sits against a dark part of the background",
+      "Her shadow side sits against a light part",
+      "No edge of the figure is lost by accident"
+     ],
+     "images": [
+      {
+       "src": "art/counterchange/1.webp",
+       "thumb": "art/counterchange/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "id": "light-on-form",
+   "title": "Light on Form",
+   "thesis": "Light falling on a solid object always makes the same few zones. Learn their names and you can read any shaded picture.",
+   "intro": "A ball, a cheek and a coffee cup all catch light the same way: a bright side, a dark side, and a predictable set of bands between and around them. This lesson isolates each zone on our model so you can find it in every later card.",
+   "exercise": "Put a white mug beside a window. Find its highlight, its darkest band and its shadow on the table. Then slide a sheet of colored paper next to its dark side and watch the shadow change color.",
+   "cards": [
+    {
+     "slug": "light-side-and-shadow-side",
+     "name": "Light Side and Shadow Side",
+     "subtitle": "The two families",
+     "explanation": "Every lit form divides into a part that faces the light and a part that turns away. The first rule of shading is to keep the two families separate: nothing in shadow is as bright as anything in light.",
+     "look": [
+      "A clear boundary runs down the face, arm and cup",
+      "Details inside the shadow stay quiet and dark",
+      "The form looks solid because the two sides never mix"
+     ],
+     "images": [
+      {
+       "src": "art/light-side-and-shadow-side/1.webp",
+       "thumb": "art/light-side-and-shadow-side/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "families"
+    },
+    {
+     "slug": "highlight",
+     "name": "Highlight",
+     "subtitle": "The light source, mirrored",
+     "explanation": "A highlight is a small reflection of the light source itself. It sits where the surface angles the light straight into your eye, so it moves when you move and is sharpest on shiny things.",
+     "look": [
+      "A crisp bright spot on the cup rim and glasses",
+      "A softer, broader one on the hair and cheek",
+      "Matte cloth has almost none"
+     ],
+     "images": [
+      {
+       "src": "art/highlight/1.webp",
+       "thumb": "art/highlight/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "highlights"
+    },
+    {
+     "slug": "halftone-and-terminator",
+     "name": "Halftone and Terminator",
+     "subtitle": "Where the form turns away",
+     "explanation": "Between the highlight and the shadow, the surface darkens gradually as it turns from the light. These are the halftones. They end at the terminator, the line where direct light stops.",
+     "look": [
+      "The cheek darkens smoothly toward the far side",
+      "A soft line marks where light gives way to shadow",
+      "That line follows the form's shape like a contour map"
+     ],
+     "images": [
+      {
+       "src": "art/halftone-and-terminator/1.webp",
+       "thumb": "art/halftone-and-terminator/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "terminator"
+    },
+    {
+     "slug": "core-shadow",
+     "name": "Core Shadow",
+     "subtitle": "The darkest band on the form",
+     "explanation": "Just past the terminator lies a band darker than the rest of the shadow. Direct light cannot reach it, and bounced light from the room barely does. It is what makes round things look round.",
+     "look": [
+      "A dark stripe runs down the shadow side of the cup",
+      "The same band appears on the arm and the cheek",
+      "The shadow beyond it is slightly lighter"
+     ],
+     "images": [
+      {
+       "src": "art/core-shadow/1.webp",
+       "thumb": "art/core-shadow/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "coreshadow"
+    },
+    {
+     "slug": "bounce-light",
+     "name": "Bounce Light",
+     "subtitle": "Light reflected into the shadow",
+     "explanation": "Light hits the table, the wall and her clothes, then bounces back into the shadows, carrying the color of whatever it bounced from. It is why shadows are rarely black and never flat.",
+     "look": [
+      "The underside of the chin glows faintly with the table's color",
+      "The shadow side of the cup picks up a tint from the saucer",
+      "The bounce is always dimmer than the lit side"
+     ],
+     "images": [
+      {
+       "src": "art/bounce-light/1.webp",
+       "thumb": "art/bounce-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "cast-shadow",
+     "name": "Cast Shadow",
+     "subtitle": "The shadow an object throws",
+     "explanation": "A cast shadow falls onto another surface and takes that surface's shape. It is darkest and sharpest near the object and grows paler and softer as it travels away.",
+     "look": [
+      "The cup's shadow is crisp at its base and soft at its tip",
+      "Her shadow bends where the floor meets the wall",
+      "The shadows show exactly where the light is coming from"
+     ],
+     "images": [
+      {
+       "src": "art/cast-shadow/1.webp",
+       "thumb": "art/cast-shadow/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "contact-shadow",
+     "name": "Contact Shadow",
+     "subtitle": "The dark line where things touch",
+     "explanation": "Where two surfaces meet, almost no light gets in. That thin, very dark accent is what makes an object sit on a table instead of floating above it.",
+     "look": [
+      "A dark sliver under the cup and saucer",
+      "Deep accents where the chair legs meet the floor",
+      "The same darkness where her crossed legs press together"
+     ],
+     "images": [
+      {
+       "src": "art/contact-shadow/1.webp",
+       "thumb": "art/contact-shadow/t1.webp",
+       "label": "Variant 1 — The control with contact shadows removed, so objects seem to…"
+      },
+      {
+       "src": "art/contact-shadow/2.webp",
+       "thumb": "art/contact-shadow/t2.webp",
+       "label": "Variant 2 — The control with strong contact shadows under cup, chair legs…"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "hard-light-and-soft-light",
+     "name": "Hard Light and Soft Light",
+     "subtitle": "Small source, large source",
+     "explanation": "A small or distant source, such as bare sun, gives hard light with sharp-edged shadows. A large or diffused source, such as a cloudy sky or a curtained window, gives soft light with gradual shadows.",
+     "look": [
+      "Hard light draws crisp shadow edges and strong texture",
+      "Soft light wraps around the face and flatters it",
+      "The light's direction is identical in both pictures"
+     ],
+     "images": [
+      {
+       "src": "art/hard-light-and-soft-light/1.webp",
+       "thumb": "art/hard-light-and-soft-light/t1.webp",
+       "label": "Variant 1 — Hard direct sun with razor-edged shadows"
+      },
+      {
+       "src": "art/hard-light-and-soft-light/2.webp",
+       "thumb": "art/hard-light-and-soft-light/t2.webp",
+       "label": "Variant 2 — Very soft diffused light with barely visible shadow edges"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "id": "direction-of-light",
+   "title": "Direction of Light",
+   "thesis": "Move one lamp around the model and you get eight different people.",
+   "intro": "Where the light comes from decides how much of the form we see and how the subject feels: open, sculpted, mysterious, heroic or frightening. In this lesson nothing changes except the position of a single light.",
+   "exercise": "In a dark room, hold your phone's flashlight at arm's length and move it around your own face in a mirror: front, side, above, below, behind. Name each position using the cards.",
+   "cards": [
+    {
+     "slug": "front-light",
+     "name": "Front Light",
+     "subtitle": "Light from the camera's position",
+     "explanation": "Light coming from behind the viewer fills every shadow. Forms flatten and color and pattern become the main event. It is honest and friendly, and it has little depth.",
+     "look": [
+      "Almost no shadows on the face",
+      "Shapes read as flat areas of color",
+      "The mood is open and plain, like a passport photo"
+     ],
+     "images": [
+      {
+       "src": "art/front-light/1.webp",
+       "thumb": "art/front-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "three-quarter-light",
+     "name": "Three-Quarter Light",
+     "subtitle": "The classic portrait angle",
+     "explanation": "Light from about 45 degrees to the side and above shows form best: most of the face is lit and enough is shadowed to look solid. A small triangle of light on the shadowed cheek is the mark of what photographers call Rembrandt lighting.",
+     "look": [
+      "About three-quarters of the face is lit",
+      "A small lit triangle sits under the eye on the shadow side",
+      "The nose casts a short shadow toward the far cheek"
+     ],
+     "images": [
+      {
+       "src": "art/three-quarter-light/1.webp",
+       "thumb": "art/three-quarter-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "side-light",
+     "name": "Side Light",
+     "subtitle": "Half light, half shadow",
+     "explanation": "Light from 90 degrees splits the form down the middle. It reveals texture and feels dramatic or divided, which is why film uses it for characters with two sides.",
+     "look": [
+      "One half of the face is lit and the other is dark",
+      "Every surface texture stands out in relief",
+      "Long shadows stretch sideways across the table"
+     ],
+     "images": [
+      {
+       "src": "art/side-light/1.webp",
+       "thumb": "art/side-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "rim-light",
+     "name": "Rim Light",
+     "subtitle": "Light from behind",
+     "explanation": "A light behind the subject traces her outline with a bright edge and leaves the front in shade. It separates a figure from a dark background and adds a touch of glamour.",
+     "look": [
+      "A thin bright line runs along the hair, shoulder and arm",
+      "The face is in soft shadow",
+      "The figure pops cleanly off the background"
+     ],
+     "images": [
+      {
+       "src": "art/rim-light/1.webp",
+       "thumb": "art/rim-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "top-light",
+     "name": "Top Light",
+     "subtitle": "Light from directly above",
+     "explanation": "Overhead light is the look of noon sun and ceiling fixtures. It shadows the eye sockets and under the nose and chin, and can feel harsh, lonely or interrogating.",
+     "look": [
+      "The eyes sit in shadow under the brow",
+      "The top of the head and shoulders are brightest",
+      "Shadows pool directly underneath everything"
+     ],
+     "images": [
+      {
+       "src": "art/top-light/1.webp",
+       "thumb": "art/top-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "under-light",
+     "name": "Under Light",
+     "subtitle": "Light from below",
+     "explanation": "We almost never see faces lit from beneath, so it looks unnatural at once. It is the campfire-story and horror-film light, though a glowing screen or a table candle makes it natural.",
+     "look": [
+      "Shadows run upward, the reverse of normal",
+      "The chin and the underside of the nose are brightest",
+      "The face looks unfamiliar and a little eerie"
+     ],
+     "images": [
+      {
+       "src": "art/under-light/1.webp",
+       "thumb": "art/under-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "backlit-silhouette",
+     "name": "Backlit Silhouette",
+     "subtitle": "All light behind, none in front",
+     "explanation": "When the background is bright and no light reaches the front, the subject becomes a dark flat shape. Detail is traded away for outline and mood.",
+     "look": [
+      "The figure is a near-black shape against a glowing window",
+      "Only the outline tells you who she is and what she is doing",
+      "The picture feels quiet and private"
+     ],
+     "images": [
+      {
+       "src": "art/backlit-silhouette/1.webp",
+       "thumb": "art/backlit-silhouette/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "three-point-lighting",
+     "name": "Three-Point Lighting",
+     "subtitle": "Key, fill and rim together",
+     "explanation": "The standard studio setup uses three lights. The key is the main light, the fill softens its shadows from the other side, and the rim separates the subject from the background.",
+     "look": [
+      "The key alone looks dramatic but harsh",
+      "Adding the fill lifts the shadows without removing them",
+      "Adding the rim outlines the hair and shoulders"
+     ],
+     "images": [
+      {
+       "src": "art/three-point-lighting/1.webp",
+       "thumb": "art/three-point-lighting/t1.webp",
+       "label": "Variant 1 — Key light only, from the left"
+      },
+      {
+       "src": "art/three-point-lighting/2.webp",
+       "thumb": "art/three-point-lighting/t2.webp",
+       "label": "Variant 2 — Fill light only, dim, from the right"
+      },
+      {
+       "src": "art/three-point-lighting/3.webp",
+       "thumb": "art/three-point-lighting/t3.webp",
+       "label": "Variant 3 — Rim light only"
+      },
+      {
+       "src": "art/three-point-lighting/4.webp",
+       "thumb": "art/three-point-lighting/t4.webp",
+       "label": "Variant 4 — All three together"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "id": "light-sources-and-atmosphere",
+   "title": "Light Sources and Atmosphere",
+   "thesis": "Light has a time, a place and a temperature. Name the source and you have named the mood.",
+   "intro": "Sunset, noon, a candle and a neon sign each have their own color, hardness and direction. Viewers know these lights from life, so choosing one sets the hour and the feeling without a word. Here the café stays put while the day and the lamps change around it.",
+   "exercise": "Photograph the same corner of your room at four times of day without moving anything. Lay the four photos side by side and describe the color of the shadows in each.",
+   "cards": [
+    {
+     "slug": "golden-hour",
+     "name": "Golden Hour",
+     "subtitle": "Low sun, shortly after sunrise or before sunset",
+     "explanation": "When the sun is near the horizon its light turns warm orange and arrives almost sideways. Shadows grow long and take on the cool blue of the sky, so warm and cool sit side by side.",
+     "look": [
+      "Warm orange light rakes across the room",
+      "Shadows are long and bluish",
+      "Everything looks gentle and a little nostalgic"
+     ],
+     "images": [
+      {
+       "src": "art/golden-hour/1.webp",
+       "thumb": "art/golden-hour/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "high-noon",
+     "name": "High Noon",
+     "subtitle": "Sun overhead",
+     "explanation": "Midday sun is hard, nearly white and comes from above. Shadows are short and dark, contrast is high and colors bleach in the glare.",
+     "look": [
+      "Short, hard-edged shadows directly under objects",
+      "Bright surfaces are almost washed out",
+      "The mood is exposed, hot and flat"
+     ],
+     "images": [
+      {
+       "src": "art/high-noon/1.webp",
+       "thumb": "art/high-noon/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "overcast",
+     "name": "Overcast",
+     "subtitle": "The sky as one giant lamp",
+     "explanation": "Cloud cover spreads the sun into a huge soft source. Shadows nearly vanish, and colors show their true selves because nothing is bleached or thrown into darkness.",
+     "look": [
+      "Shadows are faint and edgeless",
+      "Local colors look rich and even",
+      "The mood is calm, cool and a little subdued"
+     ],
+     "images": [
+      {
+       "src": "art/overcast/1.webp",
+       "thumb": "art/overcast/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "blue-hour",
+     "name": "Blue Hour",
+     "subtitle": "Twilight, after the sun has gone",
+     "explanation": "For a short time after sunset the only daylight is the deep blue of the sky. Any lamp that comes on looks orange against it, giving the classic warm-against-cool evening scene.",
+     "look": [
+      "The window and street are deep blue",
+      "Interior lamps glow orange by contrast",
+      "The picture feels like the day is ending"
+     ],
+     "images": [
+      {
+       "src": "art/blue-hour/1.webp",
+       "thumb": "art/blue-hour/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "moonlight",
+     "name": "Moonlight",
+     "subtitle": "Night, lit from the sky",
+     "explanation": "Moonlight is dim reflected sunlight, and in low light our eyes see less color and lean toward blue. Painters and filmmakers show it as cool, low-contrast and nearly colorless.",
+     "look": [
+      "A narrow range of cool blue-grays",
+      "Colors are almost drained away",
+      "Shadows are soft and detail is scarce"
+     ],
+     "images": [
+      {
+       "src": "art/moonlight/1.webp",
+       "thumb": "art/moonlight/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "candlelight",
+     "name": "Candlelight",
+     "subtitle": "A small flame, close by",
+     "explanation": "A candle is a tiny, warm, nearby source. Its light fades fast with distance, so the nearest things glow and the room falls quickly into darkness.",
+     "look": [
+      "The face and hands are warm orange",
+      "Brightness drops sharply a short distance from the flame",
+      "The corners of the room are nearly black"
+     ],
+     "images": [
+      {
+       "src": "art/candlelight/1.webp",
+       "thumb": "art/candlelight/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "lamp-light",
+     "name": "Lamp Light",
+     "subtitle": "A pool of light in a dark room",
+     "explanation": "A shaded lamp throws a cone of warm light and leaves the rest alone. It makes a private island: everything inside the pool belongs together.",
+     "look": [
+      "A bright circle on the table, falling off at its edge",
+      "The figure is half inside the pool and half outside",
+      "The darkness around it feels safe and close"
+     ],
+     "images": [
+      {
+       "src": "art/lamp-light/1.webp",
+       "thumb": "art/lamp-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "neon-and-mixed-light",
+     "name": "Neon and Mixed Light",
+     "subtitle": "Two colors of light at once",
+     "explanation": "City nights mix sources: pink signs, green tubes, blue screens. When two colored lights hit a form from different sides, each side takes one color and the scene turns electric.",
+     "look": [
+      "One side of the face is magenta and the other cyan",
+      "Shadows from one light are filled by the other's color",
+      "Wet or glossy surfaces repeat both colors"
+     ],
+     "images": [
+      {
+       "src": "art/neon-and-mixed-light/1.webp",
+       "thumb": "art/neon-and-mixed-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "dappled-light",
+     "name": "Dappled Light",
+     "subtitle": "Light through leaves",
+     "explanation": "Sunlight filtered through foliage or a lattice arrives as a scatter of bright patches. The pattern is lively and summery, and it partly disguises the forms it falls on.",
+     "look": [
+      "Irregular spots of sun across the table and figure",
+      "The patches follow the surfaces they land on",
+      "The eye has to work a little to find the face"
+     ],
+     "images": [
+      {
+       "src": "art/dappled-light/1.webp",
+       "thumb": "art/dappled-light/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "haze-and-light-beams",
+     "name": "Haze and Light Beams",
+     "subtitle": "Air you can see",
+     "explanation": "Dust, steam or mist in the air catches light and makes it visible as shafts. Haze also lightens and softens everything behind it, which adds depth.",
+     "look": [
+      "Visible beams slant in from the window",
+      "The far wall is paler and softer than the near table",
+      "The room feels still, as if time has slowed"
+     ],
+     "images": [
+      {
+       "src": "art/haze-and-light-beams/1.webp",
+       "thumb": "art/haze-and-light-beams/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "id": "surfaces-and-materials",
+   "title": "Surfaces and Materials",
+   "thesis": "We recognize what a thing is made of by how it handles light.",
+   "intro": "The same lamp falls on porcelain, silk, steel and skin, and each answers differently: one scatters the light, one mirrors it, one lets it through. Knowing those few behaviors lets you ask for any material by name and check whether it came out right.",
+   "exercise": "Line up a paper napkin, a glazed mug, a metal spoon and a glass of water under one lamp. For each, say where the brightest spot is and how sharp its edge looks.",
+   "cards": [
+    {
+     "slug": "matte",
+     "name": "Matte",
+     "subtitle": "Light scattered in all directions",
+     "explanation": "A matte surface, such as paper, plaster or unglazed clay, scatters light evenly. It has no mirror-like highlight, only a smooth shift from light to shadow.",
+     "look": [
+      "No bright spots anywhere on the surface",
+      "Shading is gradual and even",
+      "The surface's own color shows clearly"
+     ],
+     "images": [
+      {
+       "src": "art/matte/1.webp",
+       "thumb": "art/matte/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "gloss",
+     "name": "Gloss",
+     "subtitle": "A shine on top of a color",
+     "explanation": "A glossy surface, such as glazed porcelain or lacquer, is a colored body under a thin mirror. You see the object's color and, on top of it, sharp reflections of the lights and window.",
+     "look": [
+      "A crisp window-shaped highlight on the cup",
+      "The cup's color is still visible around the highlight",
+      "Dark surfaces show reflections most clearly"
+     ],
+     "images": [
+      {
+       "src": "art/gloss/1.webp",
+       "thumb": "art/gloss/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "metal",
+     "name": "Metal",
+     "subtitle": "A surface made of reflections",
+     "explanation": "Polished metal has almost no color of its own to show. What you see is the room, distorted across its shape, with very bright lights right next to very dark darks.",
+     "look": [
+      "Extreme contrast inside a small area",
+      "The surroundings appear bent across the form",
+      "Edges catch thin bright lines"
+     ],
+     "images": [
+      {
+       "src": "art/metal/1.webp",
+       "thumb": "art/metal/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "glass-and-liquid",
+     "name": "Glass and Liquid",
+     "subtitle": "Light passing through",
+     "explanation": "Transparent things are drawn mostly by what happens at their edges. Light bends as it passes through, so the background shifts, and bright highlights sit beside dark rims.",
+     "look": [
+      "The background is visible but displaced through the glass",
+      "The rim and base carry the darkest and lightest accents",
+      "The glass throws a shadow with a bright spot inside it"
+     ],
+     "images": [
+      {
+       "src": "art/glass-and-liquid/1.webp",
+       "thumb": "art/glass-and-liquid/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "fabric",
+     "name": "Fabric",
+     "subtitle": "Folds that reveal the cloth",
+     "explanation": "Cloth shows its weight and weave in its folds. Silk breaks into many sharp, shiny creases, while wool hangs in a few broad, soft, matte folds.",
+     "look": [
+      "Silk has bright streaks along every fold",
+      "Wool has rounded folds with no shine",
+      "The drape tells you how heavy the cloth is"
+     ],
+     "images": [
+      {
+       "src": "art/fabric/1.webp",
+       "thumb": "art/fabric/t1.webp",
+       "label": "Variant 1 — Lustrous silk,"
+      },
+      {
+       "src": "art/fabric/2.webp",
+       "thumb": "art/fabric/t2.webp",
+       "label": "Variant 2 — Thick matte wool"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "skin",
+     "name": "Skin",
+     "subtitle": "Light that goes in and comes back out",
+     "explanation": "Skin is slightly translucent. Light enters, scatters under the surface and leaves tinted warm, which is why shadow edges on skin look reddish and thin parts such as ears glow when lit from behind.",
+     "look": [
+      "The boundary between light and shadow on the face is warm",
+      "Backlit ears and fingertips glow red-orange",
+      "Without this effect, skin looks like plastic or stone"
+     ],
+     "images": [
+      {
+       "src": "art/skin/1.webp",
+       "thumb": "art/skin/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "texture-contrast",
+     "name": "Texture Contrast",
+     "subtitle": "Rough beside smooth",
+     "explanation": "A texture is felt most strongly next to its opposite. Placing rough against smooth, or soft against hard, makes both more vivid and gives the eye variety.",
+     "look": [
+      "Rough brick behind smooth skin",
+      "Coarse knit against polished porcelain",
+      "Side light makes every rough surface stand out"
+     ],
+     "images": [
+      {
+       "src": "art/texture-contrast/1.webp",
+       "thumb": "art/texture-contrast/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "id": "color-basics",
+   "title": "Color Basics",
+   "thesis": "Every color is three numbers: which color, how light, how strong.",
+   "intro": "People say \"blue\" as if it were one thing. A designer hears three separate dials: hue, value and saturation. This lesson turns each dial alone, then shows the two facts that surprise beginners most: light changes the color of things, and neighbors change the color you see.",
+   "exercise": "Pick any object near you and describe its color with three words, one for each dial, such as \"a dark, dull orange\". Brown, by the way, is exactly that.",
+   "cards": [
+    {
+     "slug": "hue",
+     "name": "Hue",
+     "subtitle": "Which color on the wheel",
+     "explanation": "Hue is the color's family name: red, orange, yellow, green, blue, violet. Arranged in a circle they make the color wheel, the map every color scheme is drawn on.",
+     "look": [
+      "Only the outfit's hue changes; lightness and strength stay equal",
+      "Each hue brings a different feeling to the same scene",
+      "Warm hues seem to advance and cool hues to recede"
+     ],
+     "images": [
+      {
+       "src": "art/hue/1.webp",
+       "thumb": "art/hue/t1.webp",
+       "label": "Variant 1 — Red,"
+      },
+      {
+       "src": "art/hue/2.webp",
+       "thumb": "art/hue/t2.webp",
+       "label": "Variant 2 — Yellow,"
+      },
+      {
+       "src": "art/hue/3.webp",
+       "thumb": "art/hue/t3.webp",
+       "label": "Variant 3 — Green,"
+      },
+      {
+       "src": "art/hue/4.webp",
+       "thumb": "art/hue/t4.webp",
+       "label": "Variant 4 — Blue"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "value-of-a-color",
+     "name": "Value of a Color",
+     "subtitle": "How light or dark it is",
+     "explanation": "Every color also sits somewhere between white and black. Yellow is naturally light and violet naturally dark, and two very different hues can share exactly the same value.",
+     "look": [
+      "The same blue runs from near-white to near-black",
+      "The lightest version blends with the wall and the darkest with the shadows",
+      "In grayscale, the hue disappears and only this dial remains"
+     ],
+     "images": [
+      {
+       "src": "art/value-of-a-color/1.webp",
+       "thumb": "art/value-of-a-color/t1.webp",
+       "label": "Variant 1 — Pale,"
+      },
+      {
+       "src": "art/value-of-a-color/2.webp",
+       "thumb": "art/value-of-a-color/t2.webp",
+       "label": "Variant 2 — Middle,"
+      },
+      {
+       "src": "art/value-of-a-color/3.webp",
+       "thumb": "art/value-of-a-color/t3.webp",
+       "label": "Variant 3 — Very dark"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "saturation",
+     "name": "Saturation",
+     "subtitle": "How strong or gray it is",
+     "explanation": "Saturation, also called chroma, is the intensity of a color: from vivid, through muted, down to gray. Most of the real world is far less saturated than beginners expect.",
+     "look": [
+      "The vivid version shouts and the muted one whispers",
+      "At zero saturation the picture is grayscale",
+      "The middle version looks most like real life"
+     ],
+     "images": [
+      {
+       "src": "art/saturation/1.webp",
+       "thumb": "art/saturation/t1.webp",
+       "label": "Variant 1 — Very low saturation,"
+      },
+      {
+       "src": "art/saturation/2.webp",
+       "thumb": "art/saturation/t2.webp",
+       "label": "Variant 2 — Natural saturation,"
+      },
+      {
+       "src": "art/saturation/3.webp",
+       "thumb": "art/saturation/t3.webp",
+       "label": "Variant 3 — Very high saturation"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "tint-tone-and-shade",
+     "name": "Tint, Tone and Shade",
+     "subtitle": "Adding white, gray or black",
+     "explanation": "Painters name three ways to change a pure color. Add white for a tint, gray for a tone and black for a shade. A whole picture can be built from one hue this way.",
+     "look": [
+      "Tints look soft and pastel",
+      "Tones look sophisticated and quiet",
+      "Shades look rich and heavy"
+     ],
+     "images": [
+      {
+       "src": "art/tint-tone-and-shade/1.webp",
+       "thumb": "art/tint-tone-and-shade/t1.webp",
+       "label": "Variant 1 — Tinted with white,"
+      },
+      {
+       "src": "art/tint-tone-and-shade/2.webp",
+       "thumb": "art/tint-tone-and-shade/t2.webp",
+       "label": "Variant 2 — Toned with gray,"
+      },
+      {
+       "src": "art/tint-tone-and-shade/3.webp",
+       "thumb": "art/tint-tone-and-shade/t3.webp",
+       "label": "Variant 3 — Shaded with black"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "temperature",
+     "name": "Temperature",
+     "subtitle": "Warm colors and cool colors",
+     "explanation": "Reds, oranges and yellows feel warm. Blues, blue-greens and violets feel cool. Temperature is relative: a color looks warm or cool mainly by comparison with its neighbors.",
+     "look": [
+      "The warm version feels cozy and near",
+      "The cool version feels calm and distant",
+      "A small warm spot in a cool picture draws the eye at once"
+     ],
+     "images": [
+      {
+       "src": "art/temperature/1.webp",
+       "thumb": "art/temperature/t1.webp",
+       "label": "Variant 1 — Warm, toward orange and red,"
+      },
+      {
+       "src": "art/temperature/2.webp",
+       "thumb": "art/temperature/t2.webp",
+       "label": "Variant 2 — Cool, toward blue and teal. Lighting direction unchanged"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "local-color-and-light-color",
+     "name": "Local Color and Light Color",
+     "subtitle": "What a thing is, and what the light makes it",
+     "explanation": "Local color is an object's own color in neutral light. The color you actually see is local color mixed with the color of the light. A white cup is orange at sunset and blue at dusk.",
+     "look": [
+      "The cup is \"white\" in all three pictures, and never the same color twice",
+      "Colored light tints every surface it touches",
+      "Your brain corrects for this, which is why it must be learned"
+     ],
+     "images": [
+      {
+       "src": "art/local-color-and-light-color/1.webp",
+       "thumb": "art/local-color-and-light-color/t1.webp",
+       "label": "Variant 1 — Neutral white light,"
+      },
+      {
+       "src": "art/local-color-and-light-color/2.webp",
+       "thumb": "art/local-color-and-light-color/t2.webp",
+       "label": "Variant 2 — Strong orange light,"
+      },
+      {
+       "src": "art/local-color-and-light-color/3.webp",
+       "thumb": "art/local-color-and-light-color/t3.webp",
+       "label": "Variant 3 — Strong blue light"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "warm-light-cool-shadow",
+     "name": "Warm Light, Cool Shadow",
+     "subtitle": "The rule of opposites",
+     "explanation": "Shadows are filled by whatever light is left over, usually of a different color from the main light. Under warm sun, shadows lean toward the blue of the sky. Under cool light, they look warm.",
+     "look": [
+      "Sunlit areas are yellow-orange and their shadows are blue-violet",
+      "In the reversed version, cool light gives warm brown shadows",
+      "Shadows have color; they are never just gray"
+     ],
+     "images": [
+      {
+       "src": "art/warm-light-cool-shadow/1.webp",
+       "thumb": "art/warm-light-cool-shadow/t1.webp",
+       "label": "Variant 1 — Warm sunlight with distinctly cool blue shadows"
+      },
+      {
+       "src": "art/warm-light-cool-shadow/2.webp",
+       "thumb": "art/warm-light-cool-shadow/t2.webp",
+       "label": "Variant 2 — Cool north light with distinctly warm shadows"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "simultaneous-contrast",
+     "name": "Simultaneous Contrast",
+     "subtitle": "Colors change their neighbors",
+     "explanation": "The eye judges every color against what surrounds it. The same gray looks cool on orange and warm on blue, lighter on black and darker on white.",
+     "look": [
+      "The cup is the identical gray in both pictures",
+      "Against orange it looks bluish, and against blue it looks warm",
+      "No color can be chosen alone, only in company"
+     ],
+     "images": [
+      {
+       "src": "art/simultaneous-contrast/1.webp",
+       "thumb": "art/simultaneous-contrast/t1.webp",
+       "label": "Variant 1 — A saturated orange background,"
+      },
+      {
+       "src": "art/simultaneous-contrast/2.webp",
+       "thumb": "art/simultaneous-contrast/t2.webp",
+       "label": "Variant 2 — A saturated blue background"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "id": "color-schemes",
+   "title": "Color Schemes",
+   "thesis": "A color scheme is a decision about which colors are invited and which are left out.",
+   "intro": "Pictures that use every color equally look chaotic. Harmony comes from limits: a few hues chosen by their positions on the color wheel, in unequal amounts. Each card repaints the café with a different guest list.",
+   "exercise": "Take a screenshot from a film you like and name its scheme using these cards. Then find the one small area of color that breaks the scheme. There usually is one, and it is usually the point.",
+   "cards": [
+    {
+     "slug": "monochromatic",
+     "name": "Monochromatic",
+     "subtitle": "One hue, many values",
+     "explanation": "The whole picture is built from tints, tones and shades of a single hue. It is unified by definition, and it depends entirely on value to separate one thing from another.",
+     "look": [
+      "Everything belongs to one color family",
+      "Light and dark do all the describing",
+      "The mood is strong and single-minded"
+     ],
+     "images": [
+      {
+       "src": "art/monochromatic/1.webp",
+       "thumb": "art/monochromatic/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "analogous",
+     "name": "Analogous",
+     "subtitle": "Neighbors on the wheel",
+     "explanation": "Three or four hues that sit side by side, such as yellow, orange and red, always agree with each other. The result is harmonious and gentle, with little tension.",
+     "look": [
+      "All colors lean the same way",
+      "Transitions between areas are smooth",
+      "The mood is settled and natural, like autumn leaves"
+     ],
+     "images": [
+      {
+       "src": "art/analogous/1.webp",
+       "thumb": "art/analogous/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "complementary",
+     "name": "Complementary",
+     "subtitle": "Opposites on the wheel",
+     "explanation": "Two hues from opposite sides, such as blue and orange, make each other look stronger. It is the highest-contrast pairing, and it works best when one color clearly dominates.",
+     "look": [
+      "Blue fills most of the picture",
+      "Orange appears in a small, important place",
+      "Where the two touch, the edge seems to vibrate"
+     ],
+     "images": [
+      {
+       "src": "art/complementary/1.webp",
+       "thumb": "art/complementary/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "split-complementary",
+     "name": "Split-Complementary",
+     "subtitle": "One color and its opposite's two neighbors",
+     "explanation": "Instead of the direct opposite, take the hues on either side of it: for example blue with yellow-orange and red-orange. You keep the contrast and lose some of the harshness.",
+     "look": [
+      "One main hue and two related accents",
+      "Lively, and less confrontational than a straight pair",
+      "The two accents agree with each other"
+     ],
+     "images": [
+      {
+       "src": "art/split-complementary/1.webp",
+       "thumb": "art/split-complementary/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "triadic",
+     "name": "Triadic",
+     "subtitle": "Three hues equally spaced",
+     "explanation": "Three colors at equal distances around the wheel, such as red, yellow and blue, give variety with balance. One should lead, or the result looks like a toy shop.",
+     "look": [
+      "Three distinct color families are present",
+      "One covers most of the area",
+      "The feeling is bright, playful and energetic"
+     ],
+     "images": [
+      {
+       "src": "art/triadic/1.webp",
+       "thumb": "art/triadic/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "limited-palette",
+     "name": "Limited Palette",
+     "subtitle": "Few pigments, mixed",
+     "explanation": "Many painters work from three or four paints. A famous example is the Zorn palette: yellow ochre, red, black and white. Because every mixture shares the same parents, the picture harmonizes itself.",
+     "look": [
+      "No bright blue or green anywhere",
+      "Grays made from black stand in for the cool colors",
+      "Skin tones look especially natural"
+     ],
+     "images": [
+      {
+       "src": "art/limited-palette/1.webp",
+       "thumb": "art/limited-palette/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "dominant-secondary-accent",
+     "name": "Dominant, Secondary, Accent",
+     "subtitle": "Unequal amounts",
+     "explanation": "A common rule of thumb gives about 60 percent of the picture to one color, 30 percent to a second and 10 percent to an accent. The exact numbers do not matter. The inequality does.",
+     "look": [
+      "One color clearly owns the picture",
+      "A second supports it",
+      "A third appears in a few small, deliberate spots"
+     ],
+     "images": [
+      {
+       "src": "art/dominant-secondary-accent/1.webp",
+       "thumb": "art/dominant-secondary-accent/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "bar603010"
+    },
+    {
+     "slug": "muted-field-one-accent",
+     "name": "Muted Field, One Accent",
+     "subtitle": "Saturation as a spotlight",
+     "explanation": "When almost everything is gray or dull, a single saturated color becomes impossible to miss. It works like a spotlight that needs no light.",
+     "look": [
+      "The scene is nearly colorless",
+      "One object carries all the saturation",
+      "Your eye goes to it first and returns to it"
+     ],
+     "images": [
+      {
+       "src": "art/muted-field-one-accent/1.webp",
+       "thumb": "art/muted-field-one-accent/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "color-and-mood",
+     "name": "Color and Mood",
+     "subtitle": "The same room, four feelings",
+     "explanation": "Color choices carry emotion that viewers read without thinking. The associations vary between cultures and are not laws, but within one audience they are reliable.",
+     "look": [
+      "Warm and bright feels cheerful",
+      "Cool and dark feels lonely",
+      "A greenish cast feels uneasy; soft pastels feel tender"
+     ],
+     "images": [
+      {
+       "src": "art/color-and-mood/1.webp",
+       "thumb": "art/color-and-mood/t1.webp",
+       "label": "Variant 1 — Warm, bright yellows and oranges,"
+      },
+      {
+       "src": "art/color-and-mood/2.webp",
+       "thumb": "art/color-and-mood/t2.webp",
+       "label": "Variant 2 — Cold, dark blues,"
+      },
+      {
+       "src": "art/color-and-mood/3.webp",
+       "thumb": "art/color-and-mood/t3.webp",
+       "label": "Variant 3 — Sickly yellow-green,"
+      },
+      {
+       "src": "art/color-and-mood/4.webp",
+       "thumb": "art/color-and-mood/t4.webp",
+       "label": "Variant 4 — Soft pastel pink and lavender"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "id": "depth-and-space",
+   "title": "Depth and Space",
+   "thesis": "A picture is flat. Every sense of depth in it is a trick, and there are only about ten tricks.",
+   "intro": "Artists make a flat surface feel deep with a small set of cues the eye already trusts from life: things overlap, shrink, converge, fade and blur. This lesson applies them one at a time, then removes them all to show that flatness is also a choice.",
+   "exercise": "Stand at a window with a long view. List every cue that tells you the farthest thing is far. Most people find at least four from this lesson.",
+   "cards": [
+    {
+     "slug": "overlap",
+     "name": "Overlap",
+     "subtitle": "In front means nearer",
+     "explanation": "When one shape covers part of another, we read it as closer. It is the simplest and strongest depth cue, and it works even in a flat cartoon.",
+     "look": [
+      "The table covers part of her legs, so it is nearer",
+      "She covers part of the window, so the window is farther",
+      "A chain of overlaps leads the eye step by step into the room"
+     ],
+     "images": [
+      {
+       "src": "art/overlap/1.webp",
+       "thumb": "art/overlap/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "diminishing-size",
+     "name": "Diminishing Size",
+     "subtitle": "Farther means smaller",
+     "explanation": "Objects we know to be the same size look smaller with distance. A row of identical things shrinking is an instant measure of space.",
+     "look": [
+      "Identical tables get smaller toward the back",
+      "The far customers are a fraction of her height",
+      "The rate of shrinking tells you how deep the room is"
+     ],
+     "images": [
+      {
+       "src": "art/diminishing-size/1.webp",
+       "thumb": "art/diminishing-size/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "horizon-line-and-vanishing-point",
+     "name": "Horizon Line and Vanishing Point",
+     "subtitle": "The viewer's eye level",
+     "explanation": "The horizon line is the height of the viewer's eye. Level lines that run away from the viewer appear to meet at a vanishing point on it. You see the tops of things below the line and the undersides of things above it.",
+     "look": [
+      "The horizon crosses the picture at her eye height",
+      "Floorboards and table edges aim toward one spot on it",
+      "You look down onto the tabletop and up under the ceiling lamps"
+     ],
+     "images": [
+      {
+       "src": "art/horizon-line-and-vanishing-point/1.webp",
+       "thumb": "art/horizon-line-and-vanishing-point/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "vp1"
+    },
+    {
+     "slug": "one-point-perspective",
+     "name": "One-Point Perspective",
+     "subtitle": "Facing the room head-on",
+     "explanation": "When you face a wall squarely, every line going away from you meets at a single point. The effect is formal, symmetrical and tunnel-like.",
+     "look": [
+      "All receding lines aim at one point behind her head",
+      "The back wall is a flat, undistorted rectangle",
+      "The room feels ordered and still"
+     ],
+     "images": [
+      {
+       "src": "art/one-point-perspective/1.webp",
+       "thumb": "art/one-point-perspective/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "vp1"
+    },
+    {
+     "slug": "two-point-perspective",
+     "name": "Two-Point Perspective",
+     "subtitle": "Looking at a corner",
+     "explanation": "Turn to face a corner and the walls recede in two directions, to two vanishing points on the horizon. This is how we usually see rooms and buildings, and it feels more natural and dynamic.",
+     "look": [
+      "The left wall recedes to the left and the right wall to the right",
+      "Vertical lines stay vertical",
+      "The corner of the room or table points toward the viewer"
+     ],
+     "images": [
+      {
+       "src": "art/two-point-perspective/1.webp",
+       "thumb": "art/two-point-perspective/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "vp2"
+    },
+    {
+     "slug": "atmospheric-perspective",
+     "name": "Atmospheric Perspective",
+     "subtitle": "Distance through air",
+     "explanation": "Air is not perfectly clear. With distance, things become paler, bluer, lower in contrast and less detailed. Painters exaggerate this to push backgrounds back.",
+     "look": [
+      "The near figure has the darkest darks and sharpest detail",
+      "Each layer of buildings beyond the window is paler and bluer",
+      "The farthest shapes nearly merge with the sky"
+     ],
+     "images": [
+      {
+       "src": "art/atmospheric-perspective/1.webp",
+       "thumb": "art/atmospheric-perspective/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "foreground-middle-ground-background",
+     "name": "Foreground, Middle Ground, Background",
+     "subtitle": "Three planes",
+     "explanation": "Dividing a scene into three distinct layers, each with its own value, gives a clear sense of space. Stage sets and landscape paintings rely on it.",
+     "look": [
+      "A dark object close to the camera frames the view",
+      "She sits in the well-lit middle",
+      "A pale, simple background closes the space"
+     ],
+     "images": [
+      {
+       "src": "art/foreground-middle-ground-background/1.webp",
+       "thumb": "art/foreground-middle-ground-background/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "depth-of-field",
+     "name": "Depth of Field",
+     "subtitle": "Sharp here, soft there",
+     "explanation": "A lens focuses at one distance. Things nearer and farther blur. Selective focus tells the viewer exactly where to look and how far away everything else is.",
+     "look": [
+      "Her face is sharp",
+      "The background melts into soft discs of light",
+      "Objects very near the camera are blurred too"
+     ],
+     "images": [
+      {
+       "src": "art/depth-of-field/1.webp",
+       "thumb": "art/depth-of-field/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "foreshortening",
+     "name": "Foreshortening",
+     "subtitle": "Forms pointing at you",
+     "explanation": "An arm stretched toward the viewer does not look long. It looks short, with a large hand overlapping a compressed forearm. Foreshortening is perspective applied to the body, and it creates powerful depth.",
+     "look": [
+      "The offered cup and hand are very large",
+      "The forearm is hidden almost entirely behind them",
+      "The pose seems to break through the picture surface"
+     ],
+     "images": [
+      {
+       "src": "art/foreshortening/1.webp",
+       "thumb": "art/foreshortening/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "flat-space",
+     "name": "Flat Space",
+     "subtitle": "Depth switched off",
+     "explanation": "Many traditions and much modern design choose to stay flat: no shrinking, no converging lines, no shadows. The picture becomes a pattern on a surface.",
+     "look": [
+      "Near and far objects are the same scale",
+      "The floor tilts up like a wall",
+      "Shapes sit side by side instead of one behind another"
+     ],
+     "images": [
+      {
+       "src": "art/flat-space/1.webp",
+       "thumb": "art/flat-space/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "id": "the-figure",
+   "title": "The Figure",
+   "thesis": "You do not need to draw a body to direct one. You need the words for how it is built and how it stands.",
+   "intro": "This is the one lesson where the pose changes, because the pose is the subject. Each card gives you a term that artists use to describe a figure: its proportions, its underlying forms, its line of movement, its balance and its expression. With these terms you can tell an AI exactly what is wrong with a figure and what you want instead.",
+   "exercise": "Find a photo of a person standing. Draw one curved line through the whole pose from head to weight-bearing foot. Then mark the tilt of the shoulders and the tilt of the hips with two straight lines. You have just described the pose in three strokes.",
+   "cards": [
+    {
+     "slug": "proportion-in-heads",
+     "name": "Proportion in Heads",
+     "subtitle": "Measuring the body with its own head",
+     "explanation": "Artists measure height in head-lengths. A realistic adult is about seven and a half heads tall. Fashion and heroic figures are stretched to eight or more, and cartoon characters shrink to between two and four.",
+     "look": [
+      "More heads makes a figure look taller, older and more elegant",
+      "Fewer heads makes it look younger and cuter",
+      "The head itself stays the same size in all four"
+     ],
+     "images": [
+      {
+       "src": "art/proportion-in-heads/1.webp",
+       "thumb": "art/proportion-in-heads/t1.webp",
+       "label": "Variant 1 — Realistic, 7.5 heads,"
+      },
+      {
+       "src": "art/proportion-in-heads/2.webp",
+       "thumb": "art/proportion-in-heads/t2.webp",
+       "label": "Variant 2 — Heroic, 8.5 heads,"
+      },
+      {
+       "src": "art/proportion-in-heads/3.webp",
+       "thumb": "art/proportion-in-heads/t3.webp",
+       "label": "Variant 3 — Stylized, 5 heads,"
+      },
+      {
+       "src": "art/proportion-in-heads/4.webp",
+       "thumb": "art/proportion-in-heads/t4.webp",
+       "label": "Variant 4 — Chibi, 2.5 heads"
+      }
+     ],
+     "overlay": "heads"
+    },
+    {
+     "slug": "body-landmarks",
+     "name": "Body Landmarks",
+     "subtitle": "Where things line up",
+     "explanation": "A few alignments make a figure look right. The body's midpoint is at the hips, not the waist. Elbows fall near the waist, and fingertips reach mid-thigh. On the face, the eyes sit halfway down the head.",
+     "look": [
+      "The halfway line passes through the hip joint",
+      "Elbows and waist share a level, as do wrists and hips",
+      "The eyes are in the middle of the head, lower than beginners expect"
+     ],
+     "images": [
+      {
+       "src": "art/body-landmarks/1.webp",
+       "thumb": "art/body-landmarks/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "landmarks"
+    },
+    {
+     "slug": "the-mannequin",
+     "name": "The Mannequin",
+     "subtitle": "The body as simple solids",
+     "explanation": "Under the surface, a figure is a set of basic forms: a ball for the skull, an egg for the ribcage, a box for the pelvis, cylinders for the limbs. Thinking this way makes it possible to turn a figure in space.",
+     "look": [
+      "Ribcage and pelvis are two separate masses joined by a flexible waist",
+      "Each limb is two cylinders with a joint between",
+      "Light falls on the solids as it does on any sphere or cylinder"
+     ],
+     "images": [
+      {
+       "src": "art/the-mannequin/1.webp",
+       "thumb": "art/the-mannequin/t1.webp",
+       "label": "Variant 1 — A wooden artist's mannequin built from spheres, boxes and cyl…"
+      },
+      {
+       "src": "art/the-mannequin/2.webp",
+       "thumb": "art/the-mannequin/t2.webp",
+       "label": "Variant 2 — The normal figure. Same lighting"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "gesture-and-line-of-action",
+     "name": "Gesture and Line of Action",
+     "subtitle": "One curve through the whole pose",
+     "explanation": "Gesture is the overall movement of a pose, captured before any detail. The line of action is a single imaginary curve running through it. A clear C or S curve feels alive, and a straight vertical feels stiff.",
+     "look": [
+      "One sweeping curve runs from head to foot",
+      "Every body part follows or balances that curve",
+      "The stiff version has the same anatomy and no life"
+     ],
+     "images": [
+      {
+       "src": "art/gesture-and-line-of-action/1.webp",
+       "thumb": "art/gesture-and-line-of-action/t1.webp",
+       "label": "Variant 1 — Standing rigidly straight"
+      },
+      {
+       "src": "art/gesture-and-line-of-action/2.webp",
+       "thumb": "art/gesture-and-line-of-action/t2.webp",
+       "label": "Variant 2 — Leaning in a clear C-curve"
+      },
+      {
+       "src": "art/gesture-and-line-of-action/3.webp",
+       "thumb": "art/gesture-and-line-of-action/t3.webp",
+       "label": "Variant 3 — Stretching in a clear S-curve"
+      }
+     ],
+     "overlay": "action"
+    },
+    {
+     "slug": "weight-and-balance",
+     "name": "Weight and Balance",
+     "subtitle": "Where the body's weight goes",
+     "explanation": "A believable figure is held up by something. When standing, the head sits above the foot that carries the weight. When sitting or leaning, the weight visibly presses into the chair, table or wall.",
+     "look": [
+      "A vertical line from her head lands on the supporting foot",
+      "The weight-bearing leg is straight and the other is relaxed",
+      "In the off-balance version, she looks about to fall"
+     ],
+     "images": [
+      {
+       "src": "art/weight-and-balance/1.webp",
+       "thumb": "art/weight-and-balance/t1.webp",
+       "label": "Variant 1 — Correctly balanced,"
+      },
+      {
+       "src": "art/weight-and-balance/2.webp",
+       "thumb": "art/weight-and-balance/t2.webp",
+       "label": "Variant 2 — Deliberately off balance"
+      }
+     ],
+     "overlay": "plumb"
+    },
+    {
+     "slug": "tilt-and-twist",
+     "name": "Tilt and Twist",
+     "subtitle": "Shoulders against hips",
+     "explanation": "When weight shifts to one leg, the hips tilt one way and the shoulders tilt the other. This counter-tilt is called contrapposto. Twisting the chest away from the direction of the hips adds further energy.",
+     "look": [
+      "The shoulder line and hip line slope in opposite directions",
+      "The spine makes a gentle S between them",
+      "The twisted version looks caught in mid-turn"
+     ],
+     "images": [
+      {
+       "src": "art/tilt-and-twist/1.webp",
+       "thumb": "art/tilt-and-twist/t1.webp",
+       "label": "Variant 1 — Shoulders and hips level,"
+      },
+      {
+       "src": "art/tilt-and-twist/2.webp",
+       "thumb": "art/tilt-and-twist/t2.webp",
+       "label": "Variant 2 — Contrapposto,"
+      },
+      {
+       "src": "art/tilt-and-twist/3.webp",
+       "thumb": "art/tilt-and-twist/t3.webp",
+       "label": "Variant 3 — Contrapposto with the upper body twisted to look over her sho…"
+      }
+     ],
+     "overlay": "tilt"
+    },
+    {
+     "slug": "open-and-closed-poses",
+     "name": "Open and Closed Poses",
+     "subtitle": "Body language",
+     "explanation": "An open pose exposes the chest, spreads the arms and leans in. It reads as confident or welcoming. A closed pose folds the arms and legs inward and turns away, and reads as guarded, shy or cold.",
+     "look": [
+      "Open: arms away from the body, chin up, leaning toward the viewer",
+      "Closed: arms crossed, shoulders raised, body angled away",
+      "The face is the same in both, and the message is opposite"
+     ],
+     "images": [
+      {
+       "src": "art/open-and-closed-poses/1.webp",
+       "thumb": "art/open-and-closed-poses/t1.webp",
+       "label": "Variant 1 — Open, relaxed, leaning forward,"
+      },
+      {
+       "src": "art/open-and-closed-poses/2.webp",
+       "thumb": "art/open-and-closed-poses/t2.webp",
+       "label": "Variant 2 — Closed, arms folded, turned partly away. Neutral expression i…"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "head-angle",
+     "name": "Head Angle",
+     "subtitle": "Front, three-quarter, profile, tilt",
+     "explanation": "The direction and tilt of the head changes both likeness and attitude. Front view confronts, three-quarter view shows the most form, and profile is the most graphic. A tilt adds emotion.",
+     "look": [
+      "Front view is symmetrical and direct",
+      "Three-quarter view shows the depth of nose and cheek",
+      "Chin down with eyes up looks intense or shy"
+     ],
+     "images": [
+      {
+       "src": "art/head-angle/1.webp",
+       "thumb": "art/head-angle/t1.webp",
+       "label": "Variant 1 — Front,"
+      },
+      {
+       "src": "art/head-angle/2.webp",
+       "thumb": "art/head-angle/t2.webp",
+       "label": "Variant 2 — Three-quarter,"
+      },
+      {
+       "src": "art/head-angle/3.webp",
+       "thumb": "art/head-angle/t3.webp",
+       "label": "Variant 3 — Profile,"
+      },
+      {
+       "src": "art/head-angle/4.webp",
+       "thumb": "art/head-angle/t4.webp",
+       "label": "Variant 4 — Three-quarter with chin lowered and eyes raised"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "expression",
+     "name": "Expression",
+     "subtitle": "Brows, eyelids, mouth",
+     "explanation": "Most facial expression comes from three controls: the eyebrows, the eyelids and the corners of the mouth. Small changes to each produce every emotion, and mixed signals produce subtle ones.",
+     "look": [
+      "Brows up or down, together or apart",
+      "Eyelids wide, relaxed or narrowed",
+      "Mouth corners up, level or down"
+     ],
+     "images": [
+      {
+       "src": "art/expression/1.webp",
+       "thumb": "art/expression/t1.webp",
+       "label": "Variant 1 — Calm,"
+      },
+      {
+       "src": "art/expression/2.webp",
+       "thumb": "art/expression/t2.webp",
+       "label": "Variant 2 — Delighted,"
+      },
+      {
+       "src": "art/expression/3.webp",
+       "thumb": "art/expression/t3.webp",
+       "label": "Variant 3 — Angry,"
+      },
+      {
+       "src": "art/expression/4.webp",
+       "thumb": "art/expression/t4.webp",
+       "label": "Variant 4 — Sad"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "hands",
+     "name": "Hands",
+     "subtitle": "The second face",
+     "explanation": "After the face, viewers look at the hands. A relaxed hand, a clenched fist and a delicate fingertip grip each say something different. Hands are also where generated images fail most often.",
+     "look": [
+      "Relaxed fingers curve gently and are never parallel",
+      "Tension shows in the knuckles and wrist",
+      "Count them: four fingers and a thumb on each hand"
+     ],
+     "images": [
+      {
+       "src": "art/hands/1.webp",
+       "thumb": "art/hands/t1.webp",
+       "label": "Variant 1 — Holding it loosely,"
+      },
+      {
+       "src": "art/hands/2.webp",
+       "thumb": "art/hands/t2.webp",
+       "label": "Variant 2 — Gripping it tightly,"
+      },
+      {
+       "src": "art/hands/3.webp",
+       "thumb": "art/hands/t3.webp",
+       "label": "Variant 3 — Lifting it delicately by the handle with fingertips"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "id": "viewpoint",
+   "title": "Viewpoint",
+   "thesis": "Before anything else, a picture answers one question: where is the viewer standing?",
+   "intro": "Camera height, tilt, distance and lens decide the viewer's relationship to the subject: equal, smaller, larger, intimate or remote. Film directors call these choices shots and angles, and the same terms work for any image. Here she never moves. The camera does.",
+   "exercise": "Photograph a friend, or a mug, from knee height, eye height and from a chair above. Decide which picture makes the subject look most powerful and which most vulnerable.",
+   "cards": [
+    {
+     "slug": "eye-level",
+     "name": "Eye Level",
+     "subtitle": "Meeting the subject as an equal",
+     "explanation": "With the camera at the subject's eye height, the viewer feels like a person sitting across the table. It is neutral and natural, and it is the baseline for every other angle.",
+     "look": [
+      "The horizon runs through her eyes",
+      "Nothing is distorted or exaggerated",
+      "The relationship feels equal and conversational"
+     ],
+     "images": [
+      {
+       "src": "art/eye-level/1.webp",
+       "thumb": "art/eye-level/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "low-angle",
+     "name": "Low Angle",
+     "subtitle": "Looking up",
+     "explanation": "A camera below eye level makes the subject loom. She appears taller, stronger and more important, and the ceiling or sky replaces the floor as background.",
+     "look": [
+      "You see the underside of the table and her chin",
+      "The ceiling is visible and the floor is not",
+      "She looks confident, even imposing"
+     ],
+     "images": [
+      {
+       "src": "art/low-angle/1.webp",
+       "thumb": "art/low-angle/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "high-angle",
+     "name": "High Angle",
+     "subtitle": "Looking down",
+     "explanation": "A camera above eye level makes the subject smaller and the floor into the background. It can feel protective, superior or lonely, depending on what else is in the frame.",
+     "look": [
+      "You see the tabletop and the top of her head",
+      "The floor fills the background",
+      "She looks smaller and more vulnerable"
+     ],
+     "images": [
+      {
+       "src": "art/high-angle/1.webp",
+       "thumb": "art/high-angle/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "birds-eye-view",
+     "name": "Bird's-Eye View",
+     "subtitle": "Straight down",
+     "explanation": "From directly overhead, the scene becomes a map. Depth nearly disappears, people become shapes and the arrangement of objects is the whole picture.",
+     "look": [
+      "The table is a perfect circle or rectangle",
+      "You see only her head, shoulders and knees",
+      "The picture reads as a flat pattern"
+     ],
+     "images": [
+      {
+       "src": "art/birds-eye-view/1.webp",
+       "thumb": "art/birds-eye-view/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "worms-eye-view",
+     "name": "Worm's-Eye View",
+     "subtitle": "From the ground, in three-point perspective",
+     "explanation": "From floor level looking steeply up, vertical lines also converge, toward a third vanishing point overhead. The subject towers and the architecture soars.",
+     "look": [
+      "Walls and window frames lean inward as they rise",
+      "Her shoes are huge and her head is small",
+      "The effect is monumental and a little dizzying"
+     ],
+     "images": [
+      {
+       "src": "art/worms-eye-view/1.webp",
+       "thumb": "art/worms-eye-view/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "vp3"
+    },
+    {
+     "slug": "dutch-tilt",
+     "name": "Dutch Tilt",
+     "subtitle": "A tilted horizon",
+     "explanation": "Rotating the camera so the horizon slopes makes a stable scene feel wrong. Films use it for unease, confusion or sudden action.",
+     "look": [
+      "The floor and table run diagonally across the frame",
+      "Verticals lean, so nothing feels secure",
+      "A calm scene becomes tense without any other change"
+     ],
+     "images": [
+      {
+       "src": "art/dutch-tilt/1.webp",
+       "thumb": "art/dutch-tilt/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "shot-size",
+     "name": "Shot Size",
+     "subtitle": "How much of the subject fills the frame",
+     "explanation": "Distance sets intimacy. A wide shot shows a person in a place, a medium shot shows what she is doing, a close-up shows what she feels and an extreme close-up shows a single detail.",
+     "look": [
+      "Wide: the room matters as much as she does",
+      "Close-up: the face is everything",
+      "Extreme close-up: one detail becomes the whole subject"
+     ],
+     "images": [
+      {
+       "src": "art/shot-size/1.webp",
+       "thumb": "art/shot-size/t1.webp",
+       "label": "Variant 1 — Wide: whole café, full figure small"
+      },
+      {
+       "src": "art/shot-size/2.webp",
+       "thumb": "art/shot-size/t2.webp",
+       "label": "Variant 2 — Medium: waist up with the table"
+      },
+      {
+       "src": "art/shot-size/3.webp",
+       "thumb": "art/shot-size/t3.webp",
+       "label": "Variant 3 — Close-up: face and shoulders"
+      },
+      {
+       "src": "art/shot-size/4.webp",
+       "thumb": "art/shot-size/t4.webp",
+       "label": "Variant 4 — Extreme close-up: eyes and glasses only"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "lens",
+     "name": "Lens",
+     "subtitle": "Wide-angle and telephoto",
+     "explanation": "A wide-angle lens used up close stretches space: near things swell and the background shrinks away. A telephoto lens used from far off compresses space: the background looms large and flat behind the subject.",
+     "look": [
+      "Wide: the cup and hands are large, the room is deep and its lines bend",
+      "Telephoto: the background is big, blurred and close behind her",
+      "She is the same size in both frames"
+     ],
+     "images": [
+      {
+       "src": "art/lens/1.webp",
+       "thumb": "art/lens/t1.webp",
+       "label": "Variant 1 — Wide-angle lens close to her,"
+      },
+      {
+       "src": "art/lens/2.webp",
+       "thumb": "art/lens/t2.webp",
+       "label": "Variant 2 — Long telephoto lens from across the street through the window"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "id": "composition",
+   "title": "Composition",
+   "thesis": "Composition is the arrangement of everything inside the rectangle. The rectangle itself is the first decision.",
+   "intro": "The same figure can sit in the center or to one side, be boxed in or be given space, and be pointed at by every line in the room or by none. These arrangements have names. None of them is a rule you must obey. Each is a tool with a known effect.",
+   "exercise": "Take one photo on your phone, then crop it five different ways using the cards in this lesson. Keep the crop that changes the meaning most.",
+   "cards": [
+    {
+     "slug": "rule-of-thirds",
+     "name": "Rule of Thirds",
+     "subtitle": "Off-center on a three-by-three grid",
+     "explanation": "Divide the frame into thirds both ways. Placing the subject on one of the lines, or where two cross, usually feels more natural and dynamic than dead center.",
+     "look": [
+      "Her face sits where two grid lines cross",
+      "The table edge lies along the lower third",
+      "The empty two-thirds give the picture room to breathe"
+     ],
+     "images": [
+      {
+       "src": "art/rule-of-thirds/1.webp",
+       "thumb": "art/rule-of-thirds/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "thirds"
+    },
+    {
+     "slug": "centered-symmetry",
+     "name": "Centered Symmetry",
+     "subtitle": "The subject in the middle",
+     "explanation": "Placing the subject on the center line, with matching halves on either side, is formal, stable and commanding. It suits portraits of power, religious images and anything meant to feel deliberate.",
+     "look": [
+      "Left and right halves nearly mirror each other",
+      "She faces the viewer squarely",
+      "The picture feels still, formal and a little ceremonial"
+     ],
+     "images": [
+      {
+       "src": "art/centered-symmetry/1.webp",
+       "thumb": "art/centered-symmetry/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "diagonal",
+     "name": "Diagonal",
+     "subtitle": "Energy across the frame",
+     "explanation": "A composition built on a slanting line feels active. The eye travels along the diagonal, and the picture seems to be in motion even when nothing moves.",
+     "look": [
+      "The main shapes line up from one corner toward the opposite one",
+      "The eye slides along that line",
+      "The scene feels livelier than the level version"
+     ],
+     "images": [
+      {
+       "src": "art/diagonal/1.webp",
+       "thumb": "art/diagonal/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "triangle",
+     "name": "Triangle",
+     "subtitle": "A stable three-point shape",
+     "explanation": "Grouping the main elements into a triangle, wide at the base and narrow at the top, gives stability and leads the eye up to the peak. Renaissance painters built portraits and group scenes this way.",
+     "look": [
+      "Her head is the top point",
+      "Her elbows, or the table's edges, form the base",
+      "The shape feels solid and calm"
+     ],
+     "images": [
+      {
+       "src": "art/triangle/1.webp",
+       "thumb": "art/triangle/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "triangle"
+    },
+    {
+     "slug": "leading-lines",
+     "name": "Leading Lines",
+     "subtitle": "Roads for the eye",
+     "explanation": "Any strong line in a picture pulls the eye along it. If the lines of the room converge on the subject, the viewer arrives there without effort.",
+     "look": [
+      "Floorboards, table edges and window frames aim toward her",
+      "The eye enters at the frame's edge and travels inward",
+      "She is found at once, even though she is small"
+     ],
+     "images": [
+      {
+       "src": "art/leading-lines/1.webp",
+       "thumb": "art/leading-lines/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "frame-within-a-frame",
+     "name": "Frame Within a Frame",
+     "subtitle": "A window around the subject",
+     "explanation": "A doorway, window or arch inside the picture can surround the subject. It focuses attention, adds depth and can make the viewer feel like an onlooker.",
+     "look": [
+      "A dark doorway or window frame surrounds her",
+      "Everything outside the inner frame is quieter",
+      "The viewer seems to be looking in from another room"
+     ],
+     "images": [
+      {
+       "src": "art/frame-within-a-frame/1.webp",
+       "thumb": "art/frame-within-a-frame/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "negative-space",
+     "name": "Negative Space",
+     "subtitle": "Emptiness as a subject",
+     "explanation": "Leaving most of the frame empty makes a small subject more important. The emptiness becomes a feeling of its own: calm, isolation, freedom or silence.",
+     "look": [
+      "She occupies a small corner of the frame",
+      "A large plain wall fills the rest",
+      "The empty area carries the mood"
+     ],
+     "images": [
+      {
+       "src": "art/negative-space/1.webp",
+       "thumb": "art/negative-space/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "looking-room",
+     "name": "Looking Room",
+     "subtitle": "Space in front of the gaze",
+     "explanation": "A figure looking to one side needs space in that direction. Give it and the picture feels comfortable. Take it away and she seems trapped or cut off.",
+     "look": [
+      "With space ahead, her gaze has somewhere to go",
+      "Against the edge, she looks blocked",
+      "The only difference is where the frame was placed"
+     ],
+     "images": [
+      {
+       "src": "art/looking-room/1.webp",
+       "thumb": "art/looking-room/t1.webp",
+       "label": "Variant 1 — Placed at left with open space ahead of her gaze,"
+      },
+      {
+       "src": "art/looking-room/2.webp",
+       "thumb": "art/looking-room/t2.webp",
+       "label": "Variant 2 — Placed at right with her face close to the frame edge"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "format",
+     "name": "Format",
+     "subtitle": "The shape of the rectangle",
+     "explanation": "The proportions of the frame set expectations before anything is drawn. Horizontal suits places and calm, vertical suits figures and height, square is balanced and still, and a wide panorama feels cinematic.",
+     "look": [
+      "Landscape gives her a room",
+      "Portrait makes her tall and important",
+      "Panorama turns the scene into a film still"
+     ],
+     "images": [
+      {
+       "src": "art/format/1.webp",
+       "thumb": "art/format/t1.webp",
+       "label": "Variant 1 — 4:3 landscape,"
+      },
+      {
+       "src": "art/format/2.webp",
+       "thumb": "art/format/t2.webp",
+       "label": "Variant 2 — 3:4 portrait,"
+      },
+      {
+       "src": "art/format/3.webp",
+       "thumb": "art/format/t3.webp",
+       "label": "Variant 3 — 1:1 square,"
+      },
+      {
+       "src": "art/format/4.webp",
+       "thumb": "art/format/t4.webp",
+       "label": "Variant 4 — 21:9 panorama"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "tangents-and-awkward-crops",
+     "name": "Tangents and Awkward Crops",
+     "subtitle": "Accidents at the edges",
+     "explanation": "A tangent is where two edges just touch, such as a head grazing the frame or a cup rim lining up with a chin. It flattens the space and distracts. Cropping a figure exactly at a joint looks like an amputation.",
+     "look": [
+      "In the flawed version her head touches the top edge",
+      "The frame cuts her at the ankles and wrist",
+      "The corrected version overlaps clearly or leaves clear gaps"
+     ],
+     "images": [
+      {
+       "src": "art/tangents-and-awkward-crops/1.webp",
+       "thumb": "art/tangents-and-awkward-crops/t1.webp",
+       "label": "Variant 1 — Flawed: head touching the top edge, frame cutting at the ankl…"
+      },
+      {
+       "src": "art/tangents-and-awkward-crops/2.webp",
+       "thumb": "art/tangents-and-awkward-crops/t2.webp",
+       "label": "Variant 2 — Corrected: clear space above the head, cropped at mid-shin, c…"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "id": "principles-of-design",
+   "title": "Principles of Design",
+   "thesis": "The principles describe what the arrangement does to the viewer: where the eye lands, how it moves and whether it rests.",
+   "intro": "Line, shape, value, color and space are the ingredients. The principles of design are the effects you cook with them: emphasis, balance, rhythm, unity. They are the vocabulary of critique. When a picture feels wrong, one of these is usually the reason.",
+   "exercise": "Look at any picture for three seconds, then close your eyes. What did you see first, second and third? That order is the picture's hierarchy. Decide whether it is the order the maker intended.",
+   "cards": [
+    {
+     "slug": "focal-point",
+     "name": "Focal Point",
+     "subtitle": "Where the eye lands first",
+     "explanation": "A picture needs one place that wins. The focal point is made by difference: the sharpest edge, the strongest contrast, the brightest color or the only face.",
+     "look": [
+      "One area has the highest contrast and sharpest detail",
+      "Everything else is slightly quieter",
+      "Your eye returns there after wandering"
+     ],
+     "images": [
+      {
+       "src": "art/focal-point/1.webp",
+       "thumb": "art/focal-point/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "contrast",
+     "name": "Contrast",
+     "subtitle": "Difference makes things visible",
+     "explanation": "Contrast is any strong difference: light against dark, large against small, rough against smooth, bright against dull. Without it a picture is flat. With too much everywhere, nothing stands out.",
+     "look": [
+      "The low-contrast version is gentle and unclear",
+      "The high-contrast version is bold and immediate",
+      "The strongest contrast marks what matters most"
+     ],
+     "images": [
+      {
+       "src": "art/contrast/1.webp",
+       "thumb": "art/contrast/t1.webp",
+       "label": "Variant 1 — Low contrast in value, color and size throughout"
+      },
+      {
+       "src": "art/contrast/2.webp",
+       "thumb": "art/contrast/t2.webp",
+       "label": "Variant 2 — Strong contrast in value, color and size, concentrated around…"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "balance",
+     "name": "Balance",
+     "subtitle": "Visual weight, left and right",
+     "explanation": "Every shape has visual weight. Large, dark, bright or detailed things weigh more. Symmetrical balance mirrors the two sides. Asymmetrical balance offsets a large quiet shape with a small intense one. Radial balance arranges everything around a center.",
+     "look": [
+      "Symmetrical: formal and still",
+      "Asymmetrical: she is balanced by a small bright lamp far to the other side",
+      "Radial: the table, chairs and floor pattern circle around her"
+     ],
+     "images": [
+      {
+       "src": "art/balance/1.webp",
+       "thumb": "art/balance/t1.webp",
+       "label": "Variant 1 — Symmetrical"
+      },
+      {
+       "src": "art/balance/2.webp",
+       "thumb": "art/balance/t2.webp",
+       "label": "Variant 2 — Asymmetrical: figure at left balanced by a small bright objec…"
+      },
+      {
+       "src": "art/balance/3.webp",
+       "thumb": "art/balance/t3.webp",
+       "label": "Variant 3 — Radial: round table, circular floor pattern, figure at the ce…"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "rhythm-and-repetition",
+     "name": "Rhythm and Repetition",
+     "subtitle": "A visual beat",
+     "explanation": "Repeating a shape, color or interval sets up a rhythm the eye follows, as the ear follows a beat. Breaking the pattern once creates an accent.",
+     "look": [
+      "A row of identical lamps and chairs sets the beat",
+      "The spacing is regular",
+      "She is the one element that breaks the pattern"
+     ],
+     "images": [
+      {
+       "src": "art/rhythm-and-repetition/1.webp",
+       "thumb": "art/rhythm-and-repetition/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "unity-and-variety",
+     "name": "Unity and Variety",
+     "subtitle": "Belonging together without sameness",
+     "explanation": "Unity means the parts look like they belong to one picture: shared colors, shapes or textures. Variety keeps it from being dull. Too much unity is boring, and too much variety is chaos.",
+     "look": [
+      "The unified version repeats a few shapes and colors",
+      "The chaotic version has no two things alike",
+      "The balanced version shares a family look with a few surprises"
+     ],
+     "images": [
+      {
+       "src": "art/unity-and-variety/1.webp",
+       "thumb": "art/unity-and-variety/t1.webp",
+       "label": "Variant 1 — Total unity: everything in one color and shape family"
+      },
+      {
+       "src": "art/unity-and-variety/2.webp",
+       "thumb": "art/unity-and-variety/t2.webp",
+       "label": "Variant 2 — Total variety: every object a different color, pattern and style"
+      },
+      {
+       "src": "art/unity-and-variety/3.webp",
+       "thumb": "art/unity-and-variety/t3.webp",
+       "label": "Variant 3 — Balanced"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "eye-path",
+     "name": "Eye Path",
+     "subtitle": "The route through the picture",
+     "explanation": "A well-arranged picture leads the eye on a journey: in, around and back to the focal point, without sliding off an edge. Lines, gazes and spots of contrast act as stepping stones.",
+     "look": [
+      "The eye enters at the bright window",
+      "It moves to her face, down her arm to the cup, and along the table back up",
+      "Nothing leads out of the frame"
+     ],
+     "images": [
+      {
+       "src": "art/eye-path/1.webp",
+       "thumb": "art/eye-path/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": "eyepath"
+    },
+    {
+     "slug": "scale-and-proportion",
+     "name": "Scale and Proportion",
+     "subtitle": "How big things are relative to each other",
+     "explanation": "Relative size carries meaning. A small figure in a huge space feels insignificant or free. A figure that fills the frame feels important or confined.",
+     "look": [
+      "Tiny figure, vast room: the place dominates",
+      "Large figure, tight room: the person dominates",
+      "Nothing but her size in the frame has changed"
+     ],
+     "images": [
+      {
+       "src": "art/scale-and-proportion/1.webp",
+       "thumb": "art/scale-and-proportion/t1.webp",
+       "label": "Variant 1 — Figure very small inside a vast, high-ceilinged café"
+      },
+      {
+       "src": "art/scale-and-proportion/2.webp",
+       "thumb": "art/scale-and-proportion/t2.webp",
+       "label": "Variant 2 — Figure filling almost the whole frame"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "detail-and-rest",
+     "name": "Detail and Rest",
+     "subtitle": "Busy areas and quiet areas",
+     "explanation": "The eye needs places to rest. Concentrating detail at the focal point and keeping other areas simple makes a picture both rich and readable. Equal detail everywhere is exhausting.",
+     "look": [
+      "Fine detail on the face, hands and cup",
+      "Broad simple areas on the wall and floor",
+      "The overloaded version gives the eye nowhere to stop"
+     ],
+     "images": [
+      {
+       "src": "art/detail-and-rest/1.webp",
+       "thumb": "art/detail-and-rest/t1.webp",
+       "label": "Variant 1 — Detail concentrated on face, hands and cup, with simple walls…"
+      },
+      {
+       "src": "art/detail-and-rest/2.webp",
+       "thumb": "art/detail-and-rest/t2.webp",
+       "label": "Variant 2 — Every surface equally crowded with pattern and objects"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "gestalt-grouping",
+     "name": "Gestalt Grouping",
+     "subtitle": "How the eye organizes what it sees",
+     "explanation": "The mind groups things automatically. Things close together belong together, similar things form a set, incomplete shapes get completed, and every scene is split into figure and background.",
+     "look": [
+      "Proximity: objects near each other read as one group",
+      "Similarity: the red objects connect across the room",
+      "Closure: a half-hidden shape is still read as whole"
+     ],
+     "images": [
+      {
+       "src": "art/gestalt-grouping/1.webp",
+       "thumb": "art/gestalt-grouping/t1.webp",
+       "label": "Variant 1 — Proximity: table objects in two tight clusters"
+      },
+      {
+       "src": "art/gestalt-grouping/2.webp",
+       "thumb": "art/gestalt-grouping/t2.webp",
+       "label": "Variant 2 — Similarity: a few red objects scattered among neutral ones"
+      },
+      {
+       "src": "art/gestalt-grouping/3.webp",
+       "thumb": "art/gestalt-grouping/t3.webp",
+       "label": "Variant 3 — Closure: the figure seen through gaps in a slatted screen"
+      },
+      {
+       "src": "art/gestalt-grouping/4.webp",
+       "thumb": "art/gestalt-grouping/t4.webp",
+       "label": "Variant 4 — Figure and ground: flat two-color image where figure and back…"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "id": "mood-recipes",
+   "title": "Mood Recipes",
+   "thesis": "A mood is a combination of settings. Change several at once and the same café tells a different story.",
+   "intro": "This is the capstone, and the only image lesson where more than one thing changes. Each card names a feeling and gives the recipe: light, value, color, viewpoint and composition, all taken from earlier lessons. Read the recipe, look at the picture and check that every ingredient is doing its job.",
+   "exercise": "Write your own recipe for a mood not listed here, such as \"bored\" or \"triumphant\", using one term from each of five lessons. Generate it. Then change a single ingredient and see whether the mood survives.",
+   "cards": [
+    {
+     "slug": "cozy",
+     "name": "Cozy",
+     "subtitle": "Warm, close, safe",
+     "explanation": "Cozy is warmth in a small space. The light is low and golden, the colors are neighbors on the warm side of the wheel, and the camera sits close at eye level.",
+     "look": [
+      "Lamp light: a warm pool with soft edges",
+      "Analogous oranges and browns, low contrast",
+      "Medium close-up at eye level, with soft foreground framing"
+     ],
+     "images": [
+      {
+       "src": "art/cozy/1.webp",
+       "thumb": "art/cozy/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "lonely",
+     "name": "Lonely",
+     "subtitle": "Small, cold, far away",
+     "explanation": "Loneliness is distance. The figure is small, the space around her is empty, the colors are cool and drained, and the camera looks down from far off.",
+     "look": [
+      "Blue hour light and a cool, muted palette",
+      "Wide shot from a high angle",
+      "Large negative space, with rows of empty chairs"
+     ],
+     "images": [
+      {
+       "src": "art/lonely/1.webp",
+       "thumb": "art/lonely/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "menacing",
+     "name": "Menacing",
+     "subtitle": "Dark, tilted, wrong",
+     "explanation": "Menace comes from what cannot be seen and what looks unnatural. The picture is low key, the light comes from below or behind, and the frame is tilted.",
+     "look": [
+      "Low key with most of the frame in shadow",
+      "Under light or hard rim light, with a sickly green cast",
+      "Low angle with a Dutch tilt"
+     ],
+     "images": [
+      {
+       "src": "art/menacing/1.webp",
+       "thumb": "art/menacing/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "heroic",
+     "name": "Heroic",
+     "subtitle": "Tall, bright, centered",
+     "explanation": "Heroism is height and clarity. The camera looks up, the figure is centered and symmetrical, and strong light outlines her against a simpler background.",
+     "look": [
+      "Low angle, centered symmetrical composition",
+      "Golden-hour key light with a bright rim",
+      "Complementary blue and orange, strong contrast"
+     ],
+     "images": [
+      {
+       "src": "art/heroic/1.webp",
+       "thumb": "art/heroic/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "mysterious",
+     "name": "Mysterious",
+     "subtitle": "Hidden, hazy, incomplete",
+     "explanation": "Mystery withholds information. Edges are lost, the air is thick, the face is partly hidden and the viewer watches from outside.",
+     "look": [
+      "Silhouette or strong backlight in haze",
+      "Lost edges and a near-monochromatic palette",
+      "Frame within a frame, seen through a window or doorway"
+     ],
+     "images": [
+      {
+       "src": "art/mysterious/1.webp",
+       "thumb": "art/mysterious/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    },
+    {
+     "slug": "nostalgic",
+     "name": "Nostalgic",
+     "subtitle": "Soft, golden, slightly faded",
+     "explanation": "Nostalgia looks like memory: warm, soft and a little washed out. Light is low and golden, contrast is compressed and colors are gently muted.",
+     "look": [
+      "Golden hour with dappled or hazy light",
+      "High key, narrow value range, muted warm colors",
+      "Rule-of-thirds placement, with the gaze directed out of the window"
+     ],
+     "images": [
+      {
+       "src": "art/nostalgic/1.webp",
+       "thumb": "art/nostalgic/t1.webp",
+       "label": "Study"
+      }
+     ],
+     "overlay": null
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "id": "studio-practice-in-the-ai-era",
+   "title": "Studio Practice in the AI Era",
+   "thesis": "When making a picture takes seconds, the work that remains is deciding what to make, judging what came out and showing the result.",
+   "intro": "Art schools teach three habits alongside technique: keeping a sketchbook, giving and taking critique, and building a portfolio. All three survive the move to AI, in a changed form. This lesson has no images and no cards.",
+   "exercise": "Take the last image you generated. Describe it, analyze it, interpret it and judge it in four sentences. Then write the one-line instruction for the next version.",
+   "cards": [],
+   "prose": "<h3>When making a picture takes seconds, the work that remains is deciding what to make, judging what came out and showing the result.</h3>\n<h3>Sketchbook: keep a repository</h3>\n<table><thead><tr><th>Folder</th><th>What goes in it</th></tr></thead><tbody><tr><td>briefs/</td><td>One file per picture: the intent in one sentence, then the settings in course terms (light, palette, viewpoint, composition)</td></tr><tr><td>prompts/</td><td>The exact prompt, model name and version, seed and settings, so the image can be made again</td></tr><tr><td>refs/</td><td>Reference images, each with a line on what you are borrowing from it</td></tr><tr><td>rejects/</td><td>Failed outputs, each with a line naming what went wrong</td></tr><tr><td>finals/</td><td>The chosen images at full resolution</td></tr><tr><td>journal.md</td><td>Dated notes on what you tried and what you learned</td></tr></tbody></table>\n<p>Five habits make it work:</p>\n<ul><li>Make one change per commit and name it in course terms, such as \"key light moved from side to three-quarter\". The history becomes a critique log.</li><li>Branch to try an alternative, and keep both.</li><li>Write one brief a day, however small.</li><li>Do master studies: take a picture you admire, write its recipe in course terms and regenerate it with your own subject. The Style Course is 105 of these.</li><li>Keep the rejects. They show what you learned to avoid.</li></ul>\n<h3>Critique: what it means now</h3>\n<p>Critique was never mainly about brushwork. It is the practice of saying what a picture does, why it does it and whether that matches what was intended. AI removes the cost of execution, which leaves critique as most of the job.</p>\n<p>It now does three things:</p>\n<ol><li><strong>Selection.</strong> A generator gives you a hundred competent images. Choosing one, and knowing why, is the first creative act.</li><li><strong>Diagnosis.</strong> \"It feels off\" cannot be typed into a prompt. Critique turns a reaction into a named cause and then into the next instruction.</li><li><strong>Meaning.</strong> A model supplies the average of what has been done before. Whether the picture says what you meant, and whether any decision in it is yours, is a question only critique asks.</li></ol>\n<table><thead><tr><th>Reaction</th><th>Diagnosis</th><th>Next instruction</th></tr></thead><tbody><tr><td>\"It looks flat\"</td><td>Front light and a narrow value range</td><td>Move the key light to three-quarter and widen the contrast</td></tr><tr><td>\"I don't know where to look\"</td><td>No focal point; equal detail everywhere</td><td>Put the sharpest contrast on the face and simplify the background</td></tr><tr><td>\"She looks stiff\"</td><td>No line of action; shoulders and hips level</td><td>Add contrapposto and a C-curve</td></tr><tr><td>\"It looks like every AI image\"</td><td>Model defaults: centered subject, soft glossy light, orange and teal</td><td>Choose the light, palette and placement yourself</td></tr></tbody></table>\n<p>Art schools teach critique in four steps, and they still apply:</p>\n<ol><li><strong>Describe.</strong> Say what is literally there, without opinion.</li><li><strong>Analyze.</strong> Name how it is built: light, value, color, viewpoint, composition.</li><li><strong>Interpret.</strong> Say what it communicates or feels like.</li><li><strong>Judge.</strong> Compare it with the brief. Keep, revise or discard, and name one change.</li></ol>\n<p>Generated images need five extra checks:</p>\n<ul><li><strong>Physical logic.</strong> Do all shadows agree with one light source? Do receding lines converge? Do reflections match the room?</li><li><strong>Figure.</strong> Check the hands, the proportions, how limbs attach and whether she is balanced.</li><li><strong>Consistency.</strong> Is the character the same person in every image?</li><li><strong>Defaults.</strong> Which decisions did you make, and which did the model make for you?</li><li><strong>Strays.</strong> Look for garbled text, extra objects and melted details.</li></ul>\n<p>Critique comes from three sources:</p>\n<ul><li><strong>You, a day later.</strong> Distance makes faults visible.</li><li><strong>An AI.</strong> It is a useful first reader, and it tends to flatter. Ask for three specific weaknesses and the course term for each.</li><li><strong>Other people.</strong> They are the only test of whether a picture communicates. Ask \"Where did your eye go first?\" and not \"Do you like it?\"</li></ul>\n<h3>Portfolio: four places, four jobs</h3>\n<p>A portfolio shows judgment. Each platform shows a different part of it.</p>\n<table><thead><tr><th>Place</th><th>Job</th><th>What goes there</th></tr></thead><tbody><tr><td>GitHub</td><td>The process record</td><td>The repository above, with a README per project giving the brief, key decisions and versions. It proves how you think and that results can be reproduced.</td></tr><tr><td>Web page</td><td>The curated gallery</td><td>Your best 10 to 20 pieces, each with a one-line intent, plus case studies showing control, variants and final. It can be published from the same repository.</td></tr><tr><td>YouTube</td><td>The explanation</td><td>Short narrated breakdowns: the brief, the iterations, the critique and the final, with before-and-after comparisons.</td></tr><tr><td>X</td><td>The daily feed and feedback loop</td><td>Work in progress, single-change comparisons and one specific question per post.</td></tr></tbody></table>\n<p>Five principles apply to all four:</p>\n<ul><li><strong>Edit hard.</strong> A portfolio is judged by its weakest piece.</li><li><strong>Show decisions.</strong> Anyone can generate a good-looking image. The brief, the rejected versions and the reasons are what set you apart.</li><li><strong>Build series.</strong> Twenty images exploring one idea say more than twenty unrelated ones. The Style Course is already a portfolio piece.</li><li><strong>Label AI use.</strong> Name the tools and say what you directed.</li><li><strong>Check rights before selling.</strong> Copyright protection for AI-generated images is uncertain and differs by country.</li></ul>"
+  }
+ ]
+}
