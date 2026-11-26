@@ -30,6 +30,41 @@ def save_variant(src_path, dst_path, maxdim, quality):
     return im.size
 
 
+# --- face-aware square thumbnails ---
+# The page shows thumbs in square tiles (object-fit: cover), so a plain
+# center crop cuts the character's face whenever she sits off-center.
+# faces.json (built by facecrop/detect_all.py in the study dir) records the
+# detected face box per source image; the thumb is a square crop positioned
+# so the face sits at (50%, 38%) of the tile. No detection -> upper-region
+# prior (the café pose keeps her face in the top half).
+FACES = {}
+_faces_path = os.path.join(SRC, "faces.json")
+if os.path.exists(_faces_path):
+    with open(_faces_path) as fh:
+        FACES = json.load(fh)
+
+
+def save_thumb(src_path, dst_path, size=440, quality=75):
+    im = Image.open(src_path).convert("RGB")
+    W, H = im.size
+    S = min(W, H)
+    rel = os.path.relpath(src_path, SRC)
+    face = FACES.get(rel)
+    if face:
+        cx = face["x"] + face["w"] / 2
+        cy = face["y"] + face["h"] / 2
+        left = cx - 0.50 * S
+        top = cy - 0.38 * S
+    elif H > W:  # portrait: face lives in the upper part
+        left, top = (W - S) / 2, H * 0.28 - S / 2
+    else:  # landscape café pose: figure left of center, face upper area
+        left, top = W * 0.38 - S / 2, H * 0.34 - S / 2
+    left = int(min(max(left, 0), W - S))
+    top = int(min(max(top, 0), H - S))
+    im.crop((left, top, left + S, top + S)).resize((size, size), Image.LANCZOS).save(
+        dst_path, "WEBP", quality=quality)
+
+
 lessons_out = []
 total_images = 0
 for lesson in LESSONS:
@@ -47,7 +82,7 @@ for lesson in LESSONS:
             full = os.path.join(dst_dir, f"{i}.webp")
             thumb = os.path.join(dst_dir, f"t{i}.webp")
             w, h = save_variant(f, full, 1100, 80)
-            save_variant(f, thumb, 440, 75)
+            save_thumb(f, thumb)
             images.append({"src": f"art/{slug}/{i}.webp", "thumb": f"art/{slug}/t{i}.webp",
                            "w": w, "h": h, "label": f"Variant {i}" if len(files) > 1 else "Study"})
         total_images += len(images)
