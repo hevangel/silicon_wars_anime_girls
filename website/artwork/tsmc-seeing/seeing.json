@@ -65,17 +65,17 @@
       {
        "src": "art/line-direction/1.webp",
        "thumb": "art/line-direction/t1.webp",
-       "label": "Variant 1 — Horizontal,"
+       "label": "Variant 1 — Horizontal"
       },
       {
        "src": "art/line-direction/2.webp",
        "thumb": "art/line-direction/t2.webp",
-       "label": "Variant 2 — Vertical,"
+       "label": "Variant 2 — Vertical"
       },
       {
        "src": "art/line-direction/3.webp",
        "thumb": "art/line-direction/t3.webp",
-       "label": "Variant 3 — Diagonal,"
+       "label": "Variant 3 — Diagonal"
       },
       {
        "src": "art/line-direction/4.webp",
@@ -156,17 +156,17 @@
       {
        "src": "art/shape-language/1.webp",
        "thumb": "art/shape-language/t1.webp",
-       "label": "Variant 1 — Circles,"
+       "label": "Variant 1 — Circles"
       },
       {
        "src": "art/shape-language/2.webp",
        "thumb": "art/shape-language/t2.webp",
-       "label": "Variant 2 — Squares,"
+       "label": "Variant 2 — Squares"
       },
       {
        "src": "art/shape-language/3.webp",
        "thumb": "art/shape-language/t3.webp",
-       "label": "Variant 3 — Triangles. Keep pose and layout"
+       "label": "Variant 3 — Triangles"
       }
      ],
      "overlay": null
@@ -1035,7 +1035,7 @@
       {
        "src": "art/fabric/1.webp",
        "thumb": "art/fabric/t1.webp",
-       "label": "Variant 1 — Lustrous silk,"
+       "label": "Variant 1 — Lustrous silk"
       },
       {
        "src": "art/fabric/2.webp",
@@ -1107,17 +1107,17 @@
       {
        "src": "art/hue/1.webp",
        "thumb": "art/hue/t1.webp",
-       "label": "Variant 1 — Red,"
+       "label": "Variant 1 — Red"
       },
       {
        "src": "art/hue/2.webp",
        "thumb": "art/hue/t2.webp",
-       "label": "Variant 2 — Yellow,"
+       "label": "Variant 2 — Yellow"
       },
       {
        "src": "art/hue/3.webp",
        "thumb": "art/hue/t3.webp",
-       "label": "Variant 3 — Green,"
+       "label": "Variant 3 — Green"
       },
       {
        "src": "art/hue/4.webp",
@@ -1141,12 +1141,12 @@
       {
        "src": "art/value-of-a-color/1.webp",
        "thumb": "art/value-of-a-color/t1.webp",
-       "label": "Variant 1 — Pale,"
+       "label": "Variant 1 — Pale"
       },
       {
        "src": "art/value-of-a-color/2.webp",
        "thumb": "art/value-of-a-color/t2.webp",
-       "label": "Variant 2 — Middle,"
+       "label": "Variant 2 — Middle"
       },
       {
        "src": "art/value-of-a-color/3.webp",
@@ -1170,12 +1170,12 @@
       {
        "src": "art/saturation/1.webp",
        "thumb": "art/saturation/t1.webp",
-       "label": "Variant 1 — Very low saturation,"
+       "label": "Variant 1 — Very low saturation"
       },
       {
        "src": "art/saturation/2.webp",
        "thumb": "art/saturation/t2.webp",
-       "label": "Variant 2 — Natural saturation,"
+       "label": "Variant 2 — Natural saturation"
       },
       {
        "src": "art/saturation/3.webp",
@@ -1199,12 +1199,12 @@
       {
        "src": "art/tint-tone-and-shade/1.webp",
        "thumb": "art/tint-tone-and-shade/t1.webp",
-       "label": "Variant 1 — Tinted with white,"
+       "label": "Variant 1 — Tinted with white"
       },
       {
        "src": "art/tint-tone-and-shade/2.webp",
        "thumb": "art/tint-tone-and-shade/t2.webp",
-       "label": "Variant 2 — Toned with gray,"
+       "label": "Variant 2 — Toned with gray"
       },
       {
        "src": "art/tint-tone-and-shade/3.webp",
@@ -1228,12 +1228,12 @@
       {
        "src": "art/temperature/1.webp",
        "thumb": "art/temperature/t1.webp",
-       "label": "Variant 1 — Warm, toward orange and red,"
+       "label": "Variant 1 — Warm, toward orange and red"
       },
       {
        "src": "art/temperature/2.webp",
        "thumb": "art/temperature/t2.webp",
-       "label": "Variant 2 — Cool, toward blue and teal. Lighting direction unchanged"
+       "label": "Variant 2 — Cool, toward blue and teal"
       }
      ],
      "overlay": null
@@ -1252,12 +1252,12 @@
       {
        "src": "art/local-color-and-light-color/1.webp",
        "thumb": "art/local-color-and-light-color/t1.webp",
-       "label": "Variant 1 — Neutral white light,"
+       "label": "Variant 1 — Neutral white light"
       },
       {
        "src": "art/local-color-and-light-color/2.webp",
        "thumb": "art/local-color-and-light-color/t2.webp",
-       "label": "Variant 2 — Strong orange light,"
+       "label": "Variant 2 — Strong orange light"
       },
       {
        "src": "art/local-color-and-light-color/3.webp",
@@ -1305,7 +1305,7 @@
       {
        "src": "art/simultaneous-contrast/1.webp",
        "thumb": "art/simultaneous-contrast/t1.webp",
-       "label": "Variant 1 — A saturated orange background,"
+       "label": "Variant 1 — A saturated orange background"
       },
       {
        "src": "art/simultaneous-contrast/2.webp",
@@ -1491,17 +1491,17 @@
       {
        "src": "art/color-and-mood/1.webp",
        "thumb": "art/color-and-mood/t1.webp",
-       "label": "Variant 1 — Warm, bright yellows and oranges,"
+       "label": "Variant 1 — Warm, bright yellows and oranges"
       },
       {
        "src": "art/color-and-mood/2.webp",
        "thumb": "art/color-and-mood/t2.webp",
-       "label": "Variant 2 — Cold, dark blues,"
+       "label": "Variant 2 — Cold, dark blues"
       },
       {
        "src": "art/color-and-mood/3.webp",
        "thumb": "art/color-and-mood/t3.webp",
-       "label": "Variant 3 — Sickly yellow-green,"
+       "label": "Variant 3 — Sickly yellow-green"
       },
       {
        "src": "art/color-and-mood/4.webp",
@@ -1735,17 +1735,17 @@
       {
        "src": "art/proportion-in-heads/1.webp",
        "thumb": "art/proportion-in-heads/t1.webp",
-       "label": "Variant 1 — Realistic, 7.5 heads,"
+       "label": "Variant 1 — Realistic, 7.5 heads"
       },
       {
        "src": "art/proportion-in-heads/2.webp",
        "thumb": "art/proportion-in-heads/t2.webp",
-       "label": "Variant 2 — Heroic, 8.5 heads,"
+       "label": "Variant 2 — Heroic, 8.5 heads"
       },
       {
        "src": "art/proportion-in-heads/3.webp",
        "thumb": "art/proportion-in-heads/t3.webp",
-       "label": "Variant 3 — Stylized, 5 heads,"
+       "label": "Variant 3 — Stylized, 5 heads"
       },
       {
        "src": "art/proportion-in-heads/4.webp",
@@ -1793,7 +1793,7 @@
       {
        "src": "art/the-mannequin/2.webp",
        "thumb": "art/the-mannequin/t2.webp",
-       "label": "Variant 2 — The normal figure. Same lighting"
+       "label": "Variant 2 — The normal figure"
       }
      ],
      "overlay": null
@@ -1841,7 +1841,7 @@
       {
        "src": "art/weight-and-balance/1.webp",
        "thumb": "art/weight-and-balance/t1.webp",
-       "label": "Variant 1 — Correctly balanced,"
+       "label": "Variant 1 — Correctly balanced"
       },
       {
        "src": "art/weight-and-balance/2.webp",
@@ -1865,12 +1865,12 @@
       {
        "src": "art/tilt-and-twist/1.webp",
        "thumb": "art/tilt-and-twist/t1.webp",
-       "label": "Variant 1 — Shoulders and hips level,"
+       "label": "Variant 1 — Shoulders and hips level"
       },
       {
        "src": "art/tilt-and-twist/2.webp",
        "thumb": "art/tilt-and-twist/t2.webp",
-       "label": "Variant 2 — Contrapposto,"
+       "label": "Variant 2 — Contrapposto"
       },
       {
        "src": "art/tilt-and-twist/3.webp",
@@ -1894,12 +1894,12 @@
       {
        "src": "art/open-and-closed-poses/1.webp",
        "thumb": "art/open-and-closed-poses/t1.webp",
-       "label": "Variant 1 — Open, relaxed, leaning forward,"
+       "label": "Variant 1 — Open, relaxed, leaning forward"
       },
       {
        "src": "art/open-and-closed-poses/2.webp",
        "thumb": "art/open-and-closed-poses/t2.webp",
-       "label": "Variant 2 — Closed, arms folded, turned partly away. Neutral expression i…"
+       "label": "Variant 2 — Closed, arms folded, turned partly away"
       }
      ],
      "overlay": null
@@ -1918,17 +1918,17 @@
       {
        "src": "art/head-angle/1.webp",
        "thumb": "art/head-angle/t1.webp",
-       "label": "Variant 1 — Front,"
+       "label": "Variant 1 — Front"
       },
       {
        "src": "art/head-angle/2.webp",
        "thumb": "art/head-angle/t2.webp",
-       "label": "Variant 2 — Three-quarter,"
+       "label": "Variant 2 — Three-quarter"
       },
       {
        "src": "art/head-angle/3.webp",
        "thumb": "art/head-angle/t3.webp",
-       "label": "Variant 3 — Profile,"
+       "label": "Variant 3 — Profile"
       },
       {
        "src": "art/head-angle/4.webp",
@@ -1952,17 +1952,17 @@
       {
        "src": "art/expression/1.webp",
        "thumb": "art/expression/t1.webp",
-       "label": "Variant 1 — Calm,"
+       "label": "Variant 1 — Calm"
       },
       {
        "src": "art/expression/2.webp",
        "thumb": "art/expression/t2.webp",
-       "label": "Variant 2 — Delighted,"
+       "label": "Variant 2 — Delighted"
       },
       {
        "src": "art/expression/3.webp",
        "thumb": "art/expression/t3.webp",
-       "label": "Variant 3 — Angry,"
+       "label": "Variant 3 — Angry"
       },
       {
        "src": "art/expression/4.webp",
@@ -1986,12 +1986,12 @@
       {
        "src": "art/hands/1.webp",
        "thumb": "art/hands/t1.webp",
-       "label": "Variant 1 — Holding it loosely,"
+       "label": "Variant 1 — Holding it loosely"
       },
       {
        "src": "art/hands/2.webp",
        "thumb": "art/hands/t2.webp",
-       "label": "Variant 2 — Gripping it tightly,"
+       "label": "Variant 2 — Gripping it tightly"
       },
       {
        "src": "art/hands/3.webp",
@@ -2173,7 +2173,7 @@
       {
        "src": "art/lens/1.webp",
        "thumb": "art/lens/t1.webp",
-       "label": "Variant 1 — Wide-angle lens close to her,"
+       "label": "Variant 1 — Wide-angle lens close to her"
       },
       {
        "src": "art/lens/2.webp",
@@ -2340,7 +2340,7 @@
       {
        "src": "art/looking-room/1.webp",
        "thumb": "art/looking-room/t1.webp",
-       "label": "Variant 1 — Placed at left with open space ahead of her gaze,"
+       "label": "Variant 1 — Placed at left with open space ahead of her gaze"
       },
       {
        "src": "art/looking-room/2.webp",
@@ -2364,17 +2364,17 @@
       {
        "src": "art/format/1.webp",
        "thumb": "art/format/t1.webp",
-       "label": "Variant 1 — 4:3 landscape,"
+       "label": "Variant 1 — 4:3 landscape"
       },
       {
        "src": "art/format/2.webp",
        "thumb": "art/format/t2.webp",
-       "label": "Variant 2 — 3:4 portrait,"
+       "label": "Variant 2 — 3:4 portrait"
       },
       {
        "src": "art/format/3.webp",
        "thumb": "art/format/t3.webp",
-       "label": "Variant 3 — 1:1 square,"
+       "label": "Variant 3 — 1:1 square"
       },
       {
        "src": "art/format/4.webp",

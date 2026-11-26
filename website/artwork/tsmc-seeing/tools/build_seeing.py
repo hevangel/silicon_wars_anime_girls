@@ -59,6 +59,9 @@ def label_for(item, lead):
     text = item.strip()
     if lead and text.lower().startswith(lead.lower()[:18]):
         text = text[len(lead):].strip(" ,.")
+    # variant lists in the syllabus are comma-separated and sometimes followed
+    # by an extra instruction sentence; a caption wants only the item itself
+    text = text.split(". ")[0].rstrip(",.;: ")
     text = text[:1].upper() + text[1:]
     return text if len(text) <= 64 else text[:61].rstrip() + "…"
 
