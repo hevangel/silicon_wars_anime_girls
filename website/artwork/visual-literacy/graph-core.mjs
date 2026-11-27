@@ -32,7 +32,8 @@ export function buildGraph(style, seeing, story, registry) {
     const id=add({id:"group:"+g.id,name:g.title,course:"III",layer,type:"semantic comparison",definition:g.learn,prompt:g.meaning,look:g.observe||[],alternatives:g.alternatives,lesson:l.title,href:source.III+"#lesson-"+l.id,images:g.images.filter(p=>p.src&&p.status==="accepted").map(p=>({src:img("III",p.src),thumb:img("III",p.thumb),label:p.label,job:p.job,reuse_of:p.reuse_of||null,cue:p.cue||""})),control:img("III",(story.controls.find(c=>c.id===g.control)||{}).src)});
     index("III",g.title,id); index("III",l.title+" "+g.title,id);
     for(const p of g.images) if(p.src&&p.status==="accepted"){
-      const pid=add({id:"plate:"+p.job,name:p.label,course:"III",layer,type:"semantic example",definition:p.cue,prompt:p.cue,lesson:l.title,href:source.III+"#lesson-"+l.id,images:[{src:img("III",p.src),thumb:img("III",p.thumb),label:p.label}],reuse_of:p.reuse_of||null});
+      const pid="plate:"+p.job;
+      if(!ids.has(pid)) add({id:pid,name:p.label,course:"III",layer,type:"semantic example",definition:p.cue,prompt:p.cue,lesson:l.title,href:source.III+"#lesson-"+l.id,images:[{src:img("III",p.src),thumb:img("III",p.thumb),label:p.label}],reuse_of:p.reuse_of||null});
       edge(id,pid,"has_example","Published storytelling manifest");
       index("III",p.label,pid);
     }
