@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "issue": 84,
+  "model_export": null,
+  "commands": [
+    {
+      "type": "expression",
+      "value": "neutral",
+      "duration_frames": 40
+    },
+    {
+      "type": "talking",
+      "value": true,
+      "duration_frames": 60
+    },
+    {
+      "type": "talking",
+      "value": false,
+      "duration_frames": 20
+    },
+    {
+      "type": "gesture",
+      "value": "point",
+      "duration_frames": 65
+    },
+    {
+      "type": "expression",
+      "value": "skeptical",
+      "duration_frames": 50
+    },
+    {
+      "type": "gesture",
+      "value": "idle",
+      "duration_frames": 25
+    },
+    {
+      "type": "expression",
+      "value": "smile",
+      "duration_frames": 40
+    }
+  ]
+}

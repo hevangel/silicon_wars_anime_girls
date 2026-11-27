@@ -1,0 +1,7 @@
+id: pilot-001-interactive_rive_presenter
+visual: {art_style: default_manga}
+animation: {technique: interactive_rive_presenter}
+delivery: {format: browser_preview}
+entrypoint: chapters/pilot-001/video/interactive_rive_presenter/preview.html
+source: chapters/pilot-001/video/interactive_rive_presenter/replay.json
+status: working_initial_prototype
