@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "issue": 85,
+  "id": "compatibility-choice",
+  "visual": "default_manga",
+  "animation": {
+    "technique": "interactive_visual_novel"
+  },
+  "delivery": {
+    "format": "interactive_game"
+  },
+  "review_status": "draft_human_approval_pending",
+  "start": "citadel",
+  "characters": {
+    "Intel": {
+      "source": "characters/intel/reference_card.jpg",
+      "continuity": "characters/intel/continuity.yaml"
+    },
+    "AMD": {
+      "source": "characters/amd/reference_card.jpg",
+      "continuity": "characters/amd/continuity.yaml"
+    }
+  },
+  "nodes": {
+    "citadel": {
+      "speaker": "Narrator",
+      "text": "At the gates of the x86 Citadel, an old software banner still flies.",
+      "next": "intel"
+    },
+    "intel": {
+      "speaker": "Intel",
+      "text": "The old code stays. Compatibility is the gate.",
+      "next": "amd"
+    },
+    "amd": {
+      "speaker": "AMD",
+      "text": "Then I'll build around it. A chiplet bridge could do more than a wall.",
+      "next": "choice"
+    },
+    "choice": {
+      "speaker": "Narrator",
+      "text": "The architects must choose what to prioritize.",
+      "choices": [
+        {
+          "label": "Protect the legacy path",
+          "to": "legacy"
+        },
+        {
+          "label": "Build the modular bridge",
+          "to": "bridge"
+        }
+      ]
+    },
+    "legacy": {
+      "speaker": "Intel",
+      "text": "We keep yesterday's applications alive. The citadel opens slowly, but safely.",
+      "next": "legacy_end"
+    },
+    "bridge": {
+      "speaker": "AMD",
+      "text": "A modular bridge goes up beside the gate. New pieces can now join the design.",
+      "next": "bridge_end"
+    },
+    "legacy_end": {
+      "speaker": "Narrator",
+      "text": "ENDING: The Compatibility Pact. Old programs remain the kingdom's first promise.",
+      "end": "compatibility_pact"
+    },
+    "bridge_end": {
+      "speaker": "Narrator",
+      "text": "ENDING: The Chiplet Accord. The factions agree to collaborate on a new architecture.",
+      "end": "chiplet_accord"
+    }
+  }
+}

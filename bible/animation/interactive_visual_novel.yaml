@@ -1,0 +1,7 @@
+id: interactive_visual_novel
+classification: interactive_delivery
+status: implementation_draft
+objective: "Playable browser story graph, save/resume and two endings plus Ren'Py script"
+visual_style_independent: true
+identity_source: [characters/intel/continuity.yaml, characters/amd/continuity.yaml]
+qa: {human_visual_approval: pending, production_release: not_yet}
