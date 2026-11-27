@@ -16,9 +16,23 @@ missing = [s for s in assigned if s not in STYLES]
 assert not missing, f"lesson styles without content: {missing}"
 unassigned = [s for s in STYLES if s not in assigned]
 assert not unassigned, f"styles not in any lesson: {unassigned}"
-ondisk = {d for d in os.listdir(SRC) if os.path.isdir(os.path.join(SRC, d)) and d not in ("contact-sheets", "expansion")}
+ondisk = {d for d in os.listdir(SRC) if os.path.isdir(os.path.join(SRC, d)) and d not in ("contact-sheets", "expansion", "classify")}
 assert ondisk == set(STYLES), f"disk/content mismatch: {ondisk ^ set(STYLES)}"
 print(f"curriculum OK: {len(LESSONS)} lessons, {len(STYLES)} styles")
+
+# --- classification metadata (Visual Literacy Series supplement) ---
+# Every style is multi-tagged across the series' 11 classification categories
+# and carries a one-line grammar note plus tendency links into Parts II/III.
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "classifications.json")) as fh:
+    CLASSIFICATIONS = json.load(fh)
+assert set(CLASSIFICATIONS) == set(STYLES), \
+    f"classification mismatch: {set(CLASSIFICATIONS) ^ set(STYLES)}"
+CATEGORIES = ["Medium", "Technique", "Artistic movement", "Cultural tradition",
+              "Historical period", "Artistic school", "Aesthetic", "Genre",
+              "Design system", "Production technology", "Functional application"]
+for slug, entry in CLASSIFICATIONS.items():
+    assert set(entry["classes"]) <= set(CATEGORIES), f"bad category on {slug}"
+print(f"classifications OK: {len(CLASSIFICATIONS)} styles, {len(CATEGORIES)} categories")
 
 os.makedirs(ART, exist_ok=True)
 
@@ -86,8 +100,11 @@ for lesson in LESSONS:
             images.append({"src": f"art/{slug}/{i}.webp", "thumb": f"art/{slug}/t{i}.webp",
                            "w": w, "h": h, "label": f"Variant {i}" if len(files) > 1 else "Study"})
         total_images += len(images)
+        cls = CLASSIFICATIONS[slug]
         styles_out.append({"slug": slug, "name": name, "tag": tag, "blurb": blurb,
                            "look": look, "wiki": f"https://en.wikipedia.org/wiki/{wiki}",
+                           "classes": cls["classes"], "grammar": cls["grammar"],
+                           "links": cls["links"],
                            "images": images})
     lessons_out.append({"id": lesson["id"], "title": lesson["title"],
                         "bigIdea": lesson["bigIdea"], "intro": lesson["intro"],
@@ -101,6 +118,8 @@ data = {
         "totalStyles": len(STYLES),
         "totalImages": total_images,
         "totalLessons": len(LESSONS),
+        "categories": CATEGORIES,
+        "series": "TSMC Visual Literacy Series — Part I: Visual Languages and Dialects",
     },
     "lessons": lessons_out,
 }

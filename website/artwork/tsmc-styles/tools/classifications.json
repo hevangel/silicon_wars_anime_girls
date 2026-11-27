@@ -1,0 +1,4899 @@
+{
+ "mughal-album": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "hairline brushwork and jewel-bright opaque color; profile figures mounted inside floral album borders",
+  "links": [
+   "ornate framing",
+   "reverence"
+  ]
+ },
+ "mithila": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Technique"
+  ],
+  "grammar": "double outlines and hatched color fills pack every inch; no empty space anywhere",
+  "links": [
+   "pattern density",
+   "celebration"
+  ]
+ },
+ "rinpa": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition",
+   "Aesthetic"
+  ],
+  "grammar": "gold-leaf grounds, bold silhouettes of plum and waves, tarashikomi pigment pooled into soft edges",
+  "links": [
+   "negative space",
+   "elegance"
+  ]
+ },
+ "chinese-ink-landscape": {
+  "classes": [
+   "Medium",
+   "Cultural tradition",
+   "Genre"
+  ],
+  "grammar": "empty mist is active space; textured brush strokes build mountains around a tiny human guest",
+  "links": [
+   "negative space",
+   "humility",
+   "transience"
+  ]
+ },
+ "chaekgeori": {
+  "classes": [
+   "Genre",
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "books, brushes and ceramics stacked on shelves in neat rows, rendered near trompe-l'œil",
+  "links": [
+   "accumulation",
+   "learning"
+  ]
+ },
+ "kalighat": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Technique"
+  ],
+  "grammar": "sweeping single-stroke outlines, flat washes, a few confident shadows model the figure",
+  "links": [
+   "bold contour",
+   "devotion"
+  ]
+ },
+ "wayang-kulit": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "strict profile silhouette of perforated, gilded leather; jointed rods; shadow cast on a screen",
+  "links": [
+   "silhouette",
+   "storytelling"
+  ]
+ },
+ "ajanta-murals": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "soft shaded bodies without harsh outline; warm earth pigments melt out of dark cave ground",
+  "links": [
+   "soft modeling",
+   "compassion"
+  ]
+ },
+ "rajput-miniature": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "flat hot color and hair-thin detail; profile lovers on terraces beneath monsoon storm clouds",
+  "links": [
+   "romance",
+   "longing"
+  ]
+ },
+ "tibetan-thangka": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "calm central deity in perfect symmetry, ringed by clouds, mountains and ranked attendant figures",
+  "links": [
+   "symmetry",
+   "meditation",
+   "reverence"
+  ]
+ },
+ "chola-bronze": {
+  "classes": [
+   "Medium",
+   "Production technology",
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "dark polished lost-wax bronze; tribhanga triple-bend pose inside a ring of flame",
+  "links": [
+   "rhythm",
+   "grace"
+  ]
+ },
+ "pattachitra": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "bold outlines and flat color fields on a blazing red ground; dense mythological crowd",
+  "links": [
+   "crowded narrative",
+   "devotion"
+  ]
+ },
+ "warli": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "white rice-paste figures built from two joined triangles; spirals and rows of dancers",
+  "links": [
+   "geometric figures",
+   "celebration"
+  ]
+ },
+ "gond": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "figures built entirely from tiny dots and dashes; saturated color glowing against dark grounds",
+  "links": [
+   "pattern texture",
+   "nature reverence"
+  ]
+ },
+ "tanjore": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "frontal icon-like figure on a wooden panel, dressed in real gold foil and glass beads",
+  "links": [
+   "frontality",
+   "reverence"
+  ]
+ },
+ "kalamkari": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "bamboo-pen line in plant and mineral dyes; epic story told across bordered narrative panels",
+  "links": [
+   "sequential storytelling",
+   "devotion"
+  ]
+ },
+ "company-painting": {
+  "classes": [
+   "Historical period",
+   "Functional application",
+   "Cultural tradition"
+  ],
+  "grammar": "precise watercolor naturalism; subject arranged like a catalogue specimen with its tools around it",
+  "links": [
+   "documentation",
+   "observation"
+  ]
+ },
+ "bengal-school": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "misty wash technique; figures dissolve into foggy muted color with no hard contour",
+  "links": [
+   "atmosphere",
+   "nostalgia",
+   "dream"
+  ]
+ },
+ "khmer-relief": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "shallow sandstone carving covering whole walls; apsara dancers twist among dense mythic crowds",
+  "links": [
+   "relief depth",
+   "mythic narrative"
+  ]
+ },
+ "thai-temple-mural": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "flat perspective in black lacquer and gold; every inch teems with palaces and episodes",
+  "links": [
+   "crowded narrative",
+   "splendor"
+  ]
+ },
+ "balinese-kamasan": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Genre"
+  ],
+  "grammar": "puppet-like ringgit profile figures; separate episodes divided by flames, trees and rocks",
+  "links": [
+   "profile view",
+   "episodic storytelling"
+  ]
+ },
+ "dong-ho-prints": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "bold outlines and natural colors on shell-coated pearly paper; cheerful auspicious New Year motifs",
+  "links": [
+   "good fortune",
+   "festivity"
+  ]
+ },
+ "vietnamese-lacquer": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "layered red, black and gold lacquer with eggshell inlay; image glows out of darkness",
+  "links": [
+   "emergence from darkness",
+   "glow"
+  ]
+ },
+ "chinese-calligraphy": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "one sweeping brush gesture carries speed, pressure and breath; the silhouette is suggested, not drawn",
+  "links": [
+   "gesture",
+   "energy"
+  ]
+ },
+ "gongbi": {
+  "classes": [
+   "Technique",
+   "Cultural tradition",
+   "Genre"
+  ],
+  "grammar": "fine ink outlines on silk filled with thin mineral-color layers; patient, exact, luxurious detail",
+  "links": [
+   "precision",
+   "refinement"
+  ]
+ },
+ "literati-painting": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition",
+   "Aesthetic"
+  ],
+  "grammar": "dry, scratchy brushstrokes and vast emptiness of silk; a tiny figure lost in landscape",
+  "links": [
+   "negative space",
+   "solitude",
+   "humility"
+  ]
+ },
+ "dunhuang-murals": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "brilliant mineral blue and green; weightless apsaras with streaming ribbons on cracked plaster",
+  "links": [
+   "flight",
+   "paradise"
+  ]
+ },
+ "chinese-bronzes": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Production technology",
+   "Functional application"
+  ],
+  "grammar": "green-patinated bronze vessels covered in taotie animal-mask faces and swirling relief patterns",
+  "links": [
+   "ritual power",
+   "antiquity"
+  ]
+ },
+ "shanghai-school": {
+  "classes": [
+   "Artistic school",
+   "Historical period",
+   "Artistic movement"
+  ],
+  "grammar": "loosened, splashier brushwork and brighter color turned onto modern city-life subjects",
+  "links": [
+   "urban energy",
+   "spontaneity"
+  ]
+ },
+ "lingnan-school": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "Chinese ink fused with Western watercolor light; figures washed in luminous atmospheric color",
+  "links": [
+   "atmospheric light",
+   "fusion"
+  ]
+ },
+ "contemporary-ink": {
+  "classes": [
+   "Artistic movement",
+   "Medium",
+   "Aesthetic"
+  ],
+  "grammar": "huge abstract ink fields, pours and digital glitches surround one small standing figure",
+  "links": [
+   "scale contrast",
+   "experimentation"
+  ]
+ },
+ "yamato-e": {
+  "classes": [
+   "Cultural tradition",
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "blown-off-roof view into palace rooms from above; gold cloud bands separate the episodes",
+  "links": [
+   "episodic storytelling",
+   "elevated viewpoint"
+  ]
+ },
+ "kano-screens": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition",
+   "Medium"
+  ],
+  "grammar": "bold pine, hawk and tiger silhouettes painted against grounds of pure gold leaf",
+  "links": [
+   "power",
+   "splendor"
+  ]
+ },
+ "zen-ink": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "one-breath uncorrected strokes; the ensō circle left slightly open; figure surrounded by white silence",
+  "links": [
+   "emptiness",
+   "meditation",
+   "imperfection"
+  ]
+ },
+ "nihonga": {
+  "classes": [
+   "Artistic movement",
+   "Medium",
+   "Cultural tradition"
+  ],
+  "grammar": "ground mineral pigments and gold leaf on silk; soft graded washes, glowing flat color",
+  "links": [
+   "serenity",
+   "craft tradition"
+  ]
+ },
+ "nanga": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition",
+   "Aesthetic"
+  ],
+  "grammar": "loose, playful ink landscape; a recluse in a mountain hut among sketchy peaks",
+  "links": [
+   "solitude",
+   "wit"
+  ]
+ },
+ "sosaku-hanga": {
+  "classes": [
+   "Artistic movement",
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "bold expressive gouge marks left proudly visible; one artist draws, carves and prints alone",
+  "links": [
+   "personal expression",
+   "rough texture"
+  ]
+ },
+ "mingei": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic",
+   "Functional application"
+  ],
+  "grammar": "rustic handmade stoneware and indigo textiles; honest materials, beauty found in use and imperfection",
+  "links": [
+   "everyday beauty",
+   "humility"
+  ]
+ },
+ "minhwa": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Aesthetic"
+  ],
+  "grammar": "flat bright color and bold simple shapes; a foolish tiger paired with a clever magpie",
+  "links": [
+   "humor",
+   "good fortune"
+  ]
+ },
+ "true-view-landscape": {
+  "classes": [
+   "Genre",
+   "Historical period",
+   "Cultural tradition"
+  ],
+  "grammar": "bold slashing brushwork on real, recognizable granite peaks; a tiny walker on the path below",
+  "links": [
+   "place identity",
+   "scale"
+  ]
+ },
+ "goryeo-buddhist": {
+  "classes": [
+   "Historical period",
+   "Cultural tradition",
+   "Medium"
+  ],
+  "grammar": "hair-fine lines on silk dusted with gold powder; serene water-moon Kannon composition",
+  "links": [
+   "compassion",
+   "delicacy"
+  ]
+ },
+ "dansaekhwa": {
+  "classes": [
+   "Artistic movement",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "single-color paint pushed, dragged and soaked into canvas; the figure barely emerges from the field",
+  "links": [
+   "process",
+   "meditation",
+   "monochrome restraint"
+  ]
+ },
+ "pictorialist-photography": {
+  "classes": [
+   "Production technology",
+   "Aesthetic",
+   "Artistic movement"
+  ],
+  "grammar": "soft focus, diffused highlights, hand-worked prints — painterly haze dissolves hard edges",
+  "links": [
+   "soft light",
+   "atmosphere"
+  ]
+ },
+ "documentary-photography": {
+  "classes": [
+   "Production technology",
+   "Genre",
+   "Functional application"
+  ],
+  "grammar": "grain, available light, unposed instant, full tonal range — the scene recorded without staging",
+  "links": [
+   "candid moment",
+   "narrative"
+  ]
+ },
+ "photorealism": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "photographic blur, glare and cropping transferred exactly into paint, detail rendered uniformly",
+  "links": [
+   "detail and texture"
+  ]
+ },
+ "trompe-loeil": {
+  "classes": [
+   "Technique",
+   "Genre"
+  ],
+  "grammar": "true scale, cast shadows, painted ledges and frames — objects project illusionistically toward the viewer",
+  "links": [
+   "point of view",
+   "illusion"
+  ]
+ },
+ "daguerreotype": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Genre"
+  ],
+  "grammar": "mirror-bright silvered plate, long-exposure stillness; image tilts between positive and negative",
+  "links": [
+   "portrait framing"
+  ]
+ },
+ "wet-plate": {
+  "classes": [
+   "Production technology",
+   "Historical period"
+  ],
+  "grammar": "deep blacks, streaked edges, chemical stains and vignetting from hand-coated collodion plates",
+  "links": [
+   "value contrast",
+   "atmosphere"
+  ]
+ },
+ "straight-photography": {
+  "classes": [
+   "Production technology",
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "tack-sharp focus throughout, full black-to-white tonal scale, no manipulation",
+  "links": [
+   "sharpness and focus",
+   "value range"
+  ]
+ },
+ "street-photography": {
+  "classes": [
+   "Production technology",
+   "Genre"
+  ],
+  "grammar": "candid gesture and layered depth, geometry caught at one unrepeatable instant",
+  "links": [
+   "decisive moment",
+   "composition"
+  ]
+ },
+ "photogram": {
+  "classes": [
+   "Production technology",
+   "Technique"
+  ],
+  "grammar": "camera-less white silhouettes on a black ground — objects recorded by the light they block",
+  "links": [
+   "silhouette",
+   "positive and negative space"
+  ]
+ },
+ "hyperrealism": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "detail sharpened beyond the photograph — every pore, thread and reflection at equal intensity",
+  "links": [
+   "detail and texture"
+  ]
+ },
+ "illusionistic-ceiling": {
+  "classes": [
+   "Technique",
+   "Historical period",
+   "Artistic movement"
+  ],
+  "grammar": "painted architecture continues the real building upward; extreme foreshortening for viewers far below",
+  "links": [
+   "point of view",
+   "foreshortening"
+  ]
+ },
+ "anamorphosis": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "image stretched diagonally into incoherence; resolves only from one oblique viewpoint or curved mirror",
+  "links": [
+   "point of view"
+  ]
+ },
+ "color-photography": {
+  "classes": [
+   "Production technology",
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "saturated dye-transfer color, ordinary subjects, democratic framing — everything given equal attention",
+  "links": [
+   "color saturation",
+   "everyday subject"
+  ]
+ },
+ "staged-photography": {
+  "classes": [
+   "Production technology",
+   "Genre",
+   "Technique"
+  ],
+  "grammar": "constructed set, directed actor, cinematic lighting — every element placed before the exposure",
+  "links": [
+   "staging",
+   "narrative"
+  ]
+ },
+ "dusseldorf-school": {
+  "classes": [
+   "Artistic school",
+   "Production technology",
+   "Aesthetic"
+  ],
+  "grammar": "frontal deadpan framing in flat even light; identical subjects arranged as typological series",
+  "links": [
+   "pattern and repetition",
+   "symmetry"
+  ]
+ },
+ "fashion-photography": {
+  "classes": [
+   "Production technology",
+   "Genre",
+   "Functional application"
+  ],
+  "grammar": "sculptural pose, dramatic directional light, garment silhouette emphasized against a styled backdrop",
+  "links": [
+   "pose and gesture",
+   "glamour"
+  ]
+ },
+ "double-exposure": {
+  "classes": [
+   "Production technology",
+   "Technique"
+  ],
+  "grammar": "two exposures layered in one frame; translucent forms ghost through each other",
+  "links": [
+   "layering",
+   "memory"
+  ]
+ },
+ "byzantine-mosaic": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "small stone and glass tesserae on a gold ground; flattened frontal figures glow in flickering light",
+  "links": [
+   "pattern and repetition",
+   "reverence"
+  ]
+ },
+ "stained-glass": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "pieces of colored glass joined by lead cames; image read by transmitted light, black outlines everywhere",
+  "links": [
+   "symbolic color",
+   "light"
+  ]
+ },
+ "paper-collage": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "flat cut-paper shapes with scissor edges, overlapping planes, no modeling or shading",
+  "links": [
+   "silhouette",
+   "flatness"
+  ]
+ },
+ "batik": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "wax-resist outlines and crackle veins where dye bleeds through; colors built in successive dye baths",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "narrative-story-quilts": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "appliquéd cloth shapes with seam outlines; patterned fabrics supply the shading, scenes stitched in registers",
+  "links": [
+   "narrative"
+  ]
+ },
+ "carved-relief": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "figures project a few centimeters from a flat stone ground; raking light and depth alone model form",
+  "links": [
+   "light direction",
+   "depth"
+  ]
+ },
+ "ceramic-vessel": {
+  "classes": [
+   "Medium",
+   "Cultural tradition",
+   "Functional application"
+  ],
+  "grammar": "painted scene wraps a curved glazed belly; colors transform in the kiln, glossy finish reflects light",
+  "links": []
+ },
+ "tapestry": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "woven wool blocks flatten forms into stepped outlines; millefleurs pattern fills every background gap",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "embroidery": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "couched wool threads on linen; flat outlined figures, borders lively with animals above and below",
+  "links": [
+   "line",
+   "narrative"
+  ]
+ },
+ "persian-carpet": {
+  "classes": [
+   "Medium",
+   "Cultural tradition",
+   "Design system"
+  ],
+  "grammar": "knotted pile; central medallion, corner spandrels and layered borders organize the field symmetrically",
+  "links": [
+   "pattern and repetition",
+   "symmetry"
+  ]
+ },
+ "islamic-tilework": {
+  "classes": [
+   "Medium",
+   "Cultural tradition",
+   "Design system"
+  ],
+  "grammar": "hand-cut glazed tiles in cobalt and turquoise; interlocking stars and polygons fitted without gaps",
+  "links": [
+   "pattern and repetition",
+   "geometry"
+  ]
+ },
+ "lacquerware": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "gold powder sprinkled into black lacquer; mother-of-pearl inlay glows against the deep polished ground",
+  "links": [
+   "value contrast"
+  ]
+ },
+ "cloisonne": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "bent metal wires partition the surface; each cell filled with a single jewel-bright enamel color",
+  "links": [
+   "outline",
+   "flat color"
+  ]
+ },
+ "papercutting": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "one connected silhouette cut from a single sheet — the picture formed by what is removed",
+  "links": [
+   "silhouette",
+   "positive and negative space"
+  ]
+ },
+ "freestanding-sculpture": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "fully three-dimensional figure on a plinth, meant to be circled; the material surface carries the modeling",
+  "links": [
+   "point of view",
+   "volume"
+  ]
+ },
+ "pietra-dura": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "shapes cut from differently colored stones, fitted seam-tight and polished into one picture plane",
+  "links": [
+   "flat color"
+  ]
+ },
+ "blown-glass": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "translucent blown forms; light passes through the material, softening edges and glowing from within",
+  "links": [
+   "transparency",
+   "light"
+  ]
+ },
+ "beadwork": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "thousands of seed beads stitched in rows; the image resolves at distance, dissolves into units up close",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "basketry": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "coiled fiber spirals climb round on round; the spiral stitch structure is itself the visible pattern",
+  "links": [
+   "pattern and repetition",
+   "spiral"
+  ]
+ },
+ "featherwork": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "individual feathers glued in overlapping mosaic rows; iridescent color shifts as the viewer moves",
+  "links": [
+   "surface texture"
+  ]
+ },
+ "goldwork": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "stiff gold threads couched over padding on silk; raised metallic relief catches light on a deep ground",
+  "links": [
+   "reverence"
+  ]
+ },
+ "ivory-carving": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "miniature figure carved in creamy fine-grained ivory; jeweler-scale detail, warm polished surface",
+  "links": [
+   "scale"
+  ]
+ },
+ "paper-marbling": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "pigment floated on water, combed into feathered swirls, transferred to paper in a single contact",
+  "links": [
+   "fluid pattern"
+  ]
+ },
+ "azulejo": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "hand-painted blue-and-white tiles in a grid; grout lines break the scene and rejoin it",
+  "links": [
+   "pattern and repetition",
+   "grid"
+  ]
+ },
+ "egyptian-wall-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "composite figure — profile head, frontal eye and shoulders, profile legs; registers and hieratic scale",
+  "links": [
+   "symbolic scale",
+   "profile"
+  ]
+ },
+ "greek-vase-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "black silhouettes with incised detail, later red figures reserved against a glossy black ground",
+  "links": [
+   "silhouette",
+   "narrative"
+  ]
+ },
+ "medieval-illumination": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "gold-leaf miniatures inside decorated initials; margins filled with vines, beasts and drolleries",
+  "links": [
+   "ornament",
+   "page as picture"
+  ]
+ },
+ "persian-manuscript": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "jewel colors, gold sky, architecture cut open like a dollhouse; space stacks in tiers, not recession",
+  "links": [
+   "flattened space",
+   "pattern"
+  ]
+ },
+ "cave-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "earth pigments blown or smeared on bare rock; no ground line, animals overlap in flickering outline",
+  "links": [
+   "outline"
+  ]
+ },
+ "saharan-rock-art": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "elongated, weightless figures in sun-baked ochres painted directly on open sandstone faces",
+  "links": [
+   "silhouette"
+  ]
+ },
+ "mesopotamian": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "strict profile processions in carved registers; glazed blue brick with molded animal reliefs",
+  "links": [
+   "pattern and repetition",
+   "authority"
+  ]
+ },
+ "cycladic": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "white marble figure reduced to smooth planes; folded arms, tilted-back head, all detail smoothed away",
+  "links": [
+   "abstraction",
+   "simplification"
+  ]
+ },
+ "minoan-fresco": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "flowing curved figures with pinched waists and long curls in earthy reds, blues and yellows",
+  "links": [
+   "movement"
+  ]
+ },
+ "etruscan-tomb": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "flat cheerful colors and dark outlines; patterned borders frame banquets, dancers and musicians",
+  "links": [
+   "celebration"
+  ]
+ },
+ "greek-sculpture": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "contrapposto — weight on one leg, hips and shoulders counter-tilted; ideal calm proportions in marble",
+  "links": [
+   "balance",
+   "ideal body"
+  ]
+ },
+ "roman-wall-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "painted fake architecture and garden views on rich red grounds — illusionistic windows in real walls",
+  "links": [
+   "illusion",
+   "point of view"
+  ]
+ },
+ "roman-mosaic": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "thousands of stone tesserae; the image resolves at distance, framed by black-and-white braided borders",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "achaemenid-relief": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "endless profile lines of tribute-bearers climb palace stairs; costume and gift identify each nation",
+  "links": [
+   "authority",
+   "pattern and repetition"
+  ]
+ },
+ "fayum-portraits": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium",
+   "Genre"
+  ],
+  "grammar": "encaustic wax paint on wood panels; huge dark eyes, individualized faces, gold wreaths",
+  "links": [
+   "portrait",
+   "presence"
+  ]
+ },
+ "catacomb-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "simple faded fresco symbols — fish, anchor, dove — and praying figures with raised arms",
+  "links": [
+   "symbol",
+   "reverence"
+  ]
+ },
+ "byzantine-icon": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Genre"
+  ],
+  "grammar": "gold ground, flat frontal figure, inverse perspective opening toward the viewer; no natural light source",
+  "links": [
+   "reverence",
+   "symbolic color"
+  ]
+ },
+ "carolingian-ottonian": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "enthroned wide-eyed figures in jeweled gold frames; flat hieratic bodies, drapery as decorative pattern",
+  "links": [
+   "authority"
+  ]
+ },
+ "insular": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "interlace knotwork, spirals and self-biting beasts fill the page; letters dissolve into ornament mazes",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "romanesque": {
+  "classes": [
+   "Artistic movement",
+   "Historical period",
+   "Cultural tradition"
+  ],
+  "grammar": "squat carved figures bent to fit the tympanum; drapery drawn in rhythmic parallel lines",
+  "links": [
+   "architecture as frame"
+  ]
+ },
+ "gothic": {
+  "classes": [
+   "Artistic movement",
+   "Historical period",
+   "Cultural tradition"
+  ],
+  "grammar": "S-curved swaying figures, jewel-bright color, gold grounds tooled with punched patterns",
+  "links": [
+   "elegance",
+   "ornament"
+  ]
+ },
+ "russian-icon": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Artistic school"
+  ],
+  "grammar": "elongated weightless figures; thin gold assiste lines sparkle on robes, faces luminous and calm",
+  "links": [
+   "reverence",
+   "light"
+  ]
+ },
+ "ethiopian-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "enormous almond-shaped eyes, flat reds, ochres and greens; saints arranged in rows on church walls",
+  "links": [
+   "frontal gaze"
+  ]
+ },
+ "armenian-manuscripts": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "intense mineral blues and reds; canon tables under horseshoe arches, margins dense with birds and flowers",
+  "links": [
+   "ornament"
+  ]
+ },
+ "islamic-calligraphy": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "flowing thuluth letterforms stretch, stack and interlace until the words themselves form the image",
+  "links": [
+   "word as image",
+   "pattern"
+  ]
+ },
+ "arabesque": {
+  "classes": [
+   "Cultural tradition",
+   "Design system",
+   "Aesthetic"
+  ],
+  "grammar": "endless scrolling tendrils interwoven with exact star-and-polygon geometry; no beginning, center or edge",
+  "links": [
+   "pattern and repetition",
+   "infinity"
+  ]
+ },
+ "ottoman-miniature": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "flattened bird's-eye view; tiny bright figures act in tiled courtyards — no shadows, no single viewpoint",
+  "links": [
+   "flattened space",
+   "map-like view"
+  ]
+ },
+ "qajar-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "frontal court portraits, joined arched brows and huge eyes; jeweled crowns against flat decorative grounds",
+  "links": [
+   "portrait",
+   "status display"
+  ]
+ },
+ "renaissance-perspective": {
+  "classes": [
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "single vanishing point, receding floor grid, measured architecture framing figures in rational space",
+  "links": [
+   "one-point perspective",
+   "geometric composition"
+  ]
+ },
+ "baroque": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "strong diagonals, deep shadow against sudden light, figures caught mid-gesture",
+  "links": [
+   "dramatic directional lighting",
+   "strong value contrast",
+   "diagonal composition"
+  ]
+ },
+ "neoclassicism": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "clean contour lines, smooth marble surfaces, frieze-like arrangements of upright figures",
+  "links": [
+   "balanced composition",
+   "authority"
+  ]
+ },
+ "rococo": {
+  "classes": [
+   "Artistic movement",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "pastel palette, S-curves and shell scrolls, feathery foliage, figures in playful garden groupings",
+  "links": [
+   "soft diffused lighting",
+   "romance"
+  ]
+ },
+ "romanticism": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "tiny lone figure before vast fog, storms and ruins; turbulent skies, dramatic scale contrast",
+  "links": [
+   "atmospheric perspective",
+   "awe",
+   "solitude"
+  ]
+ },
+ "pre-raphaelite": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "jewel-bright color, sharp-focus detail in every leaf, literary figures in real observed landscapes",
+  "links": [
+   "saturated color",
+   "sharp detail"
+  ]
+ },
+ "tonalism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "single dominant hue, soft edges, forms dissolving into dusk mist, minimal detail",
+  "links": [
+   "muted color palette",
+   "atmosphere",
+   "calm"
+  ]
+ },
+ "dutch-vanitas": {
+  "classes": [
+   "Genre",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "carefully lit tabletop objects — skulls, hourglasses, wilting flowers — arranged as symbols of brevity",
+  "links": [
+   "symbolism",
+   "still-life detail"
+  ]
+ },
+ "french-realism": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "life-size ordinary workers, earthy palette, unidealized bodies in contemporary dress and settings",
+  "links": [
+   "documentary honesty",
+   "everyday labor"
+  ]
+ },
+ "proto-renaissance": {
+  "classes": [
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "solid weighty figures on a shallow stage, gold accents fading, faces showing real grief and wonder",
+  "links": [
+   "emotional expression",
+   "shallow space"
+  ]
+ },
+ "early-netherlandish": {
+  "classes": [
+   "Artistic school",
+   "Historical period",
+   "Technique"
+  ],
+  "grammar": "microscopic oil-painted detail, jewel light, mirrors and small symbolic objects placed throughout",
+  "links": [
+   "sharp detail",
+   "symbolism"
+  ]
+ },
+ "northern-renaissance": {
+  "classes": [
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "crowded panoramas of small figures, precise engraved line, proverbs and seasons teeming across landscape",
+  "links": [
+   "busy composition",
+   "everyday detail"
+  ]
+ },
+ "high-renaissance": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "pyramidal balanced groupings, smoky sfumato edges, serene faces, calm harmonious proportions",
+  "links": [
+   "balanced composition",
+   "soft modeling"
+  ]
+ },
+ "venetian-colorism": {
+  "classes": [
+   "Artistic school",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "layered golden glazes, color modeling flesh and silk, warm atmospheric light over line",
+  "links": [
+   "warm color palette",
+   "glowing light"
+  ]
+ },
+ "mannerism": {
+  "classes": [
+   "Artistic movement",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "elongated twisted bodies, serpentine poses, acid colors, crowded vertical compressed space",
+  "links": [
+   "distortion",
+   "unease"
+  ]
+ },
+ "dutch-golden-age": {
+  "classes": [
+   "Artistic school",
+   "Historical period",
+   "Genre"
+  ],
+  "grammar": "window daylight in quiet interiors or golden shadow; small domestic scenes precisely observed",
+  "links": [
+   "window lighting",
+   "chiaroscuro"
+  ]
+ },
+ "spanish-golden-age": {
+  "classes": [
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "loose effortless brushwork, dark court interiors, mirrors and glances engaging the viewer",
+  "links": [
+   "viewer engagement",
+   "naturalism"
+  ]
+ },
+ "french-classicism": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "frieze-like figure arrangement, measured golden landscape, every element placed in rational order",
+  "links": [
+   "balanced composition",
+   "order"
+  ]
+ },
+ "goya": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "bright festive tapestry color colliding with black nightmare imagery, etched shadows, raw expressive faces",
+  "links": [
+   "darkness",
+   "satire"
+  ]
+ },
+ "english-landscape": {
+  "classes": [
+   "Artistic school",
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "towering studied clouds, fresh oil-sketch brushwork, small figures inside green valley weather",
+  "links": [
+   "atmospheric perspective",
+   "sky emphasis"
+  ]
+ },
+ "hudson-river-school": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "vast glowing valleys, waterfalls and peaks in sharp detail, tiny humbled human figures",
+  "links": [
+   "sublime scale",
+   "golden light"
+  ]
+ },
+ "barbizon": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "quiet tonal browns and greens, forest edges at dusk, peasants given monumental still dignity",
+  "links": [
+   "muted color palette",
+   "rural labor"
+  ]
+ },
+ "academic-art": {
+  "classes": [
+   "Artistic school",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "porcelain skin, invisible brushstrokes, marble-smooth mythological figures in polished finish",
+  "links": [
+   "idealization",
+   "smooth finish"
+  ]
+ },
+ "american-realism": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school"
+  ],
+  "grammar": "anatomically exact bodies, clear Atlantic light, rowers and workers observed without flattery",
+  "links": [
+   "documentary honesty",
+   "sharp detail"
+  ]
+ },
+ "vedute": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Technique"
+  ],
+  "grammar": "crystalline architectural panorama, exact cornices and ripples, tiny figures inside a painted postcard",
+  "links": [
+   "deep perspective",
+   "detail"
+  ]
+ },
+ "grand-manner": {
+  "classes": [
+   "Genre",
+   "Aesthetic",
+   "Artistic school"
+  ],
+  "grammar": "sitters in classical silk and columns, feathery trees, elevated poses borrowed from antiquity",
+  "links": [
+   "authority",
+   "idealization"
+  ]
+ },
+ "chardin": {
+  "classes": [
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "soft grey-brown light, velvety paint, humble pots and servants held in silent stillness",
+  "links": [
+   "quiet mood",
+   "soft lighting"
+  ]
+ },
+ "orientalism": {
+  "classes": [
+   "Artistic movement",
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "jewel-precise tiles and textiles, tiled palaces and markets, imagined Eastern interiors richly detailed",
+  "links": [
+   "pattern",
+   "exoticism"
+  ]
+ },
+ "nazarenes": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "clean outlines, bright local color, fresco-like solemn processions, early-Renaissance clarity revived",
+  "links": [
+   "flat color",
+   "solemnity"
+  ]
+ },
+ "luminism": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Aesthetic"
+  ],
+  "grammar": "invisible brushwork, glassy mirror water, calm supernatural light at dawn or dusk",
+  "links": [
+   "stillness",
+   "reflection"
+  ]
+ },
+ "macchiaioli": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Technique"
+  ],
+  "grammar": "bold patches of color side by side, form dissolved into spots of sunlight and shade",
+  "links": [
+   "broken color",
+   "outdoor light"
+  ]
+ },
+ "peredvizhniki": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "honest social scenes, processions and laborers, piercing psychological faces in observed Russian settings",
+  "links": [
+   "social commentary",
+   "emotional expression"
+  ]
+ },
+ "naturalism": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "photographic accuracy outdoors, high-key bright daylight, peasants in fields with every blade told",
+  "links": [
+   "documentary honesty",
+   "bright daylight"
+  ]
+ },
+ "japonisme": {
+  "classes": [
+   "Cultural tradition",
+   "Aesthetic"
+  ],
+  "grammar": "flat color areas, daring cropped compositions, diagonal bridges borrowed from ukiyo-e prints",
+  "links": [
+   "flat composition",
+   "diagonal composition"
+  ]
+ },
+ "mexican-muralism": {
+  "classes": [
+   "Artistic movement",
+   "Functional application",
+   "Cultural tradition"
+  ],
+  "grammar": "architectural-scale registers of history and labor, monumental figures readable from across a plaza",
+  "links": [
+   "public address",
+   "collective identity"
+  ]
+ },
+ "harlem-renaissance": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "flat silhouetted forms, radiating light beams, African motifs and jazz-age rhythmic patterning",
+  "links": [
+   "silhouette",
+   "identity"
+  ]
+ },
+ "american-regionalism": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "rolling farmland curves, small-town clarity, rhythmic rounded forms in crisp tempera-like finish",
+  "links": [
+   "rural identity",
+   "clarity"
+  ]
+ },
+ "soviet-socialist-realism": {
+  "classes": [
+   "Artistic movement",
+   "Functional application",
+   "Historical period"
+  ],
+  "grammar": "idealized sunlit workers and engineers, heroic poses, academic realism in service of optimism",
+  "links": [
+   "persuasion",
+   "heroism"
+  ]
+ },
+ "new-objectivity": {
+  "classes": [
+   "Artistic movement",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "crystalline precise detail, cold ironic portraits and café scenes, nothing exaggerated",
+  "links": [
+   "sharp detail",
+   "irony"
+  ]
+ },
+ "arts-and-crafts": {
+  "classes": [
+   "Artistic movement",
+   "Design system",
+   "Cultural tradition"
+  ],
+  "grammar": "visible handwork, honest materials, medieval-revival pattern covering walls, textiles and furniture",
+  "links": [
+   "pattern",
+   "craftsmanship"
+  ]
+ },
+ "ashcan-school": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Genre"
+  ],
+  "grammar": "dark charcoal-heavy city scenes, tenements and crowds painted with raw gestural energy",
+  "links": [
+   "urban grit",
+   "everyday labor"
+  ]
+ },
+ "social-realism": {
+  "classes": [
+   "Artistic movement",
+   "Functional application",
+   "Genre"
+  ],
+  "grammar": "flat tempera panels, plain legible figures, episodes of migration and work in sequence",
+  "links": [
+   "social commentary",
+   "storytelling"
+  ]
+ },
+ "new-deal-art": {
+  "classes": [
+   "Functional application",
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "monumental sturdy workers building dams and bridges, optimistic clear forms for public walls",
+  "links": [
+   "public address",
+   "optimism"
+  ]
+ },
+ "propaganda-poster": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Design system"
+  ],
+  "grammar": "bold limited colors, one unforgettable pointing figure, slogan readable across a street, halftone grain",
+  "links": [
+   "persuasion",
+   "direct address"
+  ]
+ },
+ "graffiti-street-art": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Aesthetic"
+  ],
+  "grammar": "stenciled portraits and wildstyle lettering on brick, spray drips, block-scale public imagery",
+  "links": [
+   "public address",
+   "rebellion"
+  ]
+ },
+ "chicano-muralism": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Functional application"
+  ],
+  "grammar": "neighborhood wall murals, Aztec calendars and heroes, airbrushed lowrider colors, community history lessons",
+  "links": [
+   "collective identity",
+   "public address"
+  ]
+ },
+ "feminist-art": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition"
+  ],
+  "grammar": "embroidery and ceramics raised to monument scale, place settings honoring women's lives and labor",
+  "links": [
+   "identity",
+   "craftsmanship"
+  ]
+ },
+ "black-arts-movement": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Functional application"
+  ],
+  "grammar": "radiant Kool-Aid poster colors, murals of heroes and families, proud joyful community imagery",
+  "links": [
+   "collective identity",
+   "public address"
+  ]
+ },
+ "chinese-revolutionary-poster": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Artistic movement"
+  ],
+  "grammar": "rosy-cheeked model workers in heroic poses, red sun rays, smooth gouache finish",
+  "links": [
+   "persuasion",
+   "heroism"
+  ]
+ },
+ "cuban-ospaaal": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Design system"
+  ],
+  "grammar": "Day-Glo silkscreen inks, fighters flowers and flags fused into one flat unforgettable symbol",
+  "links": [
+   "solidarity",
+   "bold color"
+  ]
+ },
+ "polish-poster-school": {
+  "classes": [
+   "Artistic school",
+   "Genre",
+   "Design system"
+  ],
+  "grammar": "one surreal painted metaphor in loose gouache, minimal type, poetic image carrying whole film",
+  "links": [
+   "metaphor",
+   "visual wit"
+  ]
+ },
+ "may-68-posters": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Production technology"
+  ],
+  "grammar": "one color, one bold silkscreened image, few words, rough fast printing for street walls",
+  "links": [
+   "protest",
+   "direct address"
+  ]
+ },
+ "taller-grafica": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition",
+   "Functional application"
+  ],
+  "grammar": "stark black-and-white linocut broadsides, bold carved shapes, cheap prints pasted on walls",
+  "links": [
+   "social commentary",
+   "printmaking"
+  ]
+ },
+ "group-of-seven": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Cultural tradition"
+  ],
+  "grammar": "windswept jack pines, pink granite and cold lakes, vigorous weather-beaten outdoor sketch brushwork",
+  "links": [
+   "national identity",
+   "landscape"
+  ]
+ },
+ "heidelberg-school": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "blue distances and golden heat-hazed air, bush landscapes painted fast outdoors, settler work scenes",
+  "links": [
+   "golden light",
+   "national identity"
+  ]
+ },
+ "brazilian-modernism": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "bulbous green hills, giant playful dreamlike figures, European forms digested into Brazilian shapes",
+  "links": [
+   "playfulness",
+   "identity"
+  ]
+ },
+ "indigenismo": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Functional application"
+  ],
+  "grammar": "monumental Indigenous figures in earth colors, terraced landscapes, dignity of labor and heritage",
+  "links": [
+   "collective identity",
+   "social commentary"
+  ]
+ },
+ "nigerian-modernism": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Artistic school"
+  ],
+  "grammar": "curving uli line work flowing through modern oil painting, traditional forms fused with contemporary scenes",
+  "links": [
+   "identity",
+   "line work"
+  ]
+ },
+ "american-comic-book": {
+  "classes": [
+   "Genre",
+   "Cultural tradition",
+   "Production technology",
+   "Historical period"
+  ],
+  "grammar": "bold black ink outlines and flat heroic color; shading built from visible Ben-Day dots inside panel borders",
+  "links": [
+   "limited palette",
+   "exaggerated proportion"
+  ]
+ },
+ "ligne-claire": {
+  "classes": [
+   "Artistic school",
+   "Genre",
+   "Cultural tradition"
+  ],
+  "grammar": "every object outlined in the same even black line, filled with flat color; no hatching or cast shadows",
+  "links": [
+   "flat color",
+   "visual clarity"
+  ]
+ },
+ "caricature": {
+  "classes": [
+   "Genre",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "the face's most telling features stretched and enlarged; likeness carried by exaggeration rather than detail",
+  "links": [
+   "exaggerated proportion",
+   "satire"
+  ]
+ },
+ "golden-age-illustration": {
+  "classes": [
+   "Historical period",
+   "Functional application",
+   "Aesthetic"
+  ],
+  "grammar": "lush gilt-edged plates with intricate ink detail and romantic, storybook framing",
+  "links": [
+   "nostalgia",
+   "wonder"
+  ]
+ },
+ "picture-book": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Aesthetic"
+  ],
+  "grammar": "soft gouache shapes and an uncluttered composition, with calm open space left where the text would go",
+  "links": [
+   "gentleness",
+   "simplicity"
+  ]
+ },
+ "botanical-illustration": {
+  "classes": [
+   "Functional application",
+   "Technique"
+  ],
+  "grammar": "measured, exact line; specimens dissected, arranged and labeled so a reader can identify the real thing",
+  "links": [
+   "precision",
+   "observation"
+  ]
+ },
+ "fashion-illustration": {
+  "classes": [
+   "Functional application",
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "an elongated, nine-heads-tall croquis figure drawn in flowing ink lines with touches of gold",
+  "links": [
+   "elegance",
+   "elongated proportion"
+  ]
+ },
+ "underground-comix": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "dense, sweating cross-hatch; forms bulge and wobble with unruly hand-drawn energy",
+  "links": [
+   "rebellion",
+   "excess"
+  ]
+ },
+ "pulp-cover": {
+  "classes": [
+   "Genre",
+   "Functional application",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "lurid painted scene of peril with a dramatic heroine pose and wide empty space at top for the title",
+  "links": [
+   "suspense",
+   "sensationalism"
+  ]
+ },
+ "technical-drawing": {
+  "classes": [
+   "Functional application",
+   "Technique",
+   "Design system"
+  ],
+  "grammar": "exact elevations with dimension lines and standard symbols; white line on deep blueprint blue",
+  "links": [
+   "precision",
+   "information"
+  ]
+ },
+ "tattoo-flash": {
+  "classes": [
+   "Cultural tradition",
+   "Design system",
+   "Functional application"
+  ],
+  "grammar": "bold black outlines and a tight palette of red, green and ochre; ready-made designs pinned on one sheet",
+  "links": [
+   "boldness",
+   "limited palette"
+  ]
+ },
+ "irezumi": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "dragons, koi, waves and peonies flow continuously across the body, with open skin left as breathing space",
+  "links": [
+   "flow",
+   "symbolism"
+  ]
+ },
+ "concept-art": {
+  "classes": [
+   "Functional application",
+   "Production technology",
+   "Technique"
+  ],
+  "grammar": "pages of quick painted thumbnails and variations, with annotated callouts pointing at design details",
+  "links": [
+   "iteration",
+   "world-building"
+  ]
+ },
+ "pixel-art": {
+  "classes": [
+   "Technique",
+   "Aesthetic",
+   "Medium"
+  ],
+  "grammar": "every pixel placed on purpose; limited palettes, readable silhouettes, dithering used for gradients",
+  "links": [
+   "limited palette",
+   "nostalgia"
+  ]
+ },
+ "nes-8bit": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "chunky pixels, flat color and hard outlines; each sprite allowed only a few colors from a 54-color palette",
+  "links": [
+   "limited palette",
+   "nostalgia"
+  ]
+ },
+ "snes-16bit": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "finer pixels and thousands of colors allow real shading, dusk light and glow effects",
+  "links": [
+   "atmosphere",
+   "nostalgia"
+  ]
+ },
+ "ps1-2d": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "high-resolution hand-drawn sprites over painted, pre-rendered backgrounds with a faint CRT softness",
+  "links": [
+   "lushness",
+   "nostalgia"
+  ]
+ },
+ "ps1-3d-lowpoly": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "a few hundred polygons per character, flat Gouraud shading, textures that swim and warp",
+  "links": [
+   "nostalgia",
+   "roughness"
+  ]
+ },
+ "ps1-3d-refined": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "multiplied polygons, rounded joints and texture-mapped faces; still low-resolution and slightly wobbly",
+  "links": [
+   "nostalgia"
+  ]
+ },
+ "ps3-ps4-3d": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "high-polygon models, normal maps faking fine detail, soft shadows and cinematic depth of field",
+  "links": [
+   "realism",
+   "cinematic mood"
+  ]
+ },
+ "ps5-raytraced": {
+  "classes": [
+   "Production technology",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "light itself simulated: true reflections, soft global illumination, skin that scatters light",
+  "links": [
+   "realism"
+  ]
+ },
+ "stylized-3d": {
+  "classes": [
+   "Production technology",
+   "Aesthetic",
+   "Technique"
+  ],
+  "grammar": "3D forms with painted, non-photorealistic surfaces; soft studio light and smooth materials",
+  "links": [
+   "timelessness"
+  ]
+ },
+ "vector-arcade": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "everything drawn as glowing wireframe lines on black; no filled shapes at all",
+  "links": [
+   "minimalism",
+   "nostalgia"
+  ]
+ },
+ "game-boy": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "chunky pixels in exactly four shades of green on a tiny low-resolution screen",
+  "links": [
+   "limited palette",
+   "nostalgia"
+  ]
+ },
+ "isometric": {
+  "classes": [
+   "Technique",
+   "Design system",
+   "Aesthetic"
+  ],
+  "grammar": "the world tilted at a fixed diamond angle; rooms read as floating dollhouse dioramas of hand-placed tiles",
+  "links": [
+   "order",
+   "miniature worlds"
+  ]
+ },
+ "prerendered-cg": {
+  "classes": [
+   "Production technology",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "glossy 3D models rendered in advance on workstations, then flattened into sprites with a plastic, airbrushed sheen",
+  "links": [
+   "illusion",
+   "nostalgia"
+  ]
+ },
+ "n64-3d": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "models built from few polygons, textures smeared into blur, distance fog hiding the short draw distance",
+  "links": [
+   "nostalgia",
+   "dreaminess"
+  ]
+ },
+ "ps2-era-3d": {
+  "classes": [
+   "Production technology",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "smooth, clean models with shiny reflective surfaces and the first modern lighting tricks",
+  "links": [
+   "nostalgia",
+   "polish"
+  ]
+ },
+ "cel-shaded-3d": {
+  "classes": [
+   "Technique",
+   "Production technology",
+   "Aesthetic"
+  ],
+  "grammar": "real 3D models rendered as cartoons: flat colors, simple shadow bands and bold outlines",
+  "links": [
+   "playfulness"
+  ]
+ },
+ "voxel": {
+  "classes": [
+   "Production technology",
+   "Technique",
+   "Design system"
+  ],
+  "grammar": "the whole world built from tiny cubes; every object, cup included, becomes blocky sculpture",
+  "links": [
+   "playfulness",
+   "construction"
+  ]
+ },
+ "ascii-1bit": {
+  "classes": [
+   "Medium",
+   "Production technology",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "pictures built only from keyboard characters in two colors; shading is just denser typing",
+  "links": [
+   "minimalism",
+   "ingenuity"
+  ]
+ },
+ "modern-lowpoly-indie": {
+  "classes": [
+   "Aesthetic",
+   "Production technology",
+   "Artistic movement"
+  ],
+  "grammar": "big flat-shaded facets, soft pastel colors and gentle fog; low polygon counts chosen on purpose",
+  "links": [
+   "calm",
+   "minimalism"
+  ]
+ },
+ "hand-painted-textures": {
+  "classes": [
+   "Technique",
+   "Production technology",
+   "Aesthetic"
+  ],
+  "grammar": "3D models wrapped in textures painted brushstroke by brushstroke; the world reads as a walkable storybook illustration",
+  "links": [
+   "warmth",
+   "storybook feeling"
+  ]
+ },
+ "hd-2d": {
+  "classes": [
+   "Production technology",
+   "Aesthetic",
+   "Technique"
+  ],
+  "grammar": "pixel-art sprite characters wander 3D diorama sets; tilt-shift blur and glowing bloom make the miniature world precious",
+  "links": [
+   "nostalgia",
+   "preciousness"
+  ]
+ },
+ "maya-painted-ceramics": {
+  "classes": [
+   "Cultural tradition",
+   "Medium"
+  ],
+  "grammar": "calligraphic black line on cream slip, figures in profile, glyph blocks interleaved with palace scenes",
+  "links": [
+   "narrative sequence",
+   "text and image"
+  ]
+ },
+ "ayacucho-retablo": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "tiered wooden box interior, rows of small painted figures acting out scenes behind opening doors",
+  "links": [
+   "miniature worlds",
+   "devotion"
+  ]
+ },
+ "nok-terracotta": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "naturalistic fired-clay heads, stylized coiffure and jewelry, pierced pupils, matte red-brown surface",
+  "links": [
+   "portraiture"
+  ]
+ },
+ "ife-bronze": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "flat bronze relief plaques in dark metal, court figures in regalia arranged in registers",
+  "links": [
+   "authority",
+   "court ceremony"
+  ]
+ },
+ "african-masks": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "carved wooden faces of stylized planes, contrasting pale and dark patinas, geometric scarification marks",
+  "links": [
+   "ancestry",
+   "transformation",
+   "ceremony"
+  ]
+ },
+ "kuba-cloth": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Design system"
+  ],
+  "grammar": "bold interlaced geometry on raffia, embroidered and cut-pile textures, improvisational breaks in the pattern",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "kente": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Design system"
+  ],
+  "grammar": "narrow woven strips sewn edge to edge, alternating named pattern blocks in gold, green, red, black",
+  "links": [
+   "pattern and repetition",
+   "symbolic color",
+   "status"
+  ]
+ },
+ "ndebele-painting": {
+  "classes": [
+   "Cultural tradition",
+   "Medium"
+  ],
+  "grammar": "huge crisp geometric murals, bold black outlines, flat saturated color blocks on whitewashed walls",
+  "links": [
+   "identity",
+   "pattern and repetition"
+  ]
+ },
+ "adire": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "white resist-painted motifs floating on deep indigo, two-tone pattern fields, stenciled or hand-drawn repeats",
+  "links": [
+   "pattern and repetition",
+   "symbolic color"
+  ]
+ },
+ "uli-nsibidi": {
+  "classes": [
+   "Cultural tradition",
+   "Design system"
+  ],
+  "grammar": "sweeping curvilinear black strokes on a white ground, figure reduced to calligraphy, ideogram signs alongside",
+  "links": [
+   "line and gesture",
+   "signs and symbols"
+  ]
+ },
+ "asafo-flags": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "flat appliquéd cloth figures on a bold colored field, proverb scene, contrasting canton in one corner",
+  "links": [
+   "proverb imagery",
+   "group identity"
+  ]
+ },
+ "tingatinga": {
+  "classes": [
+   "Artistic school",
+   "Medium"
+  ],
+  "grammar": "glossy bicycle enamel on board, flat saturated color, oversized animals, no cast shadows",
+  "links": [
+   "everyday life",
+   "animals"
+  ]
+ },
+ "oshogbo": {
+  "classes": [
+   "Artistic school",
+   "Artistic movement"
+  ],
+  "grammar": "dense swirling crowds of spirits, animals and people, printmaking textures, layered translucent color",
+  "links": [
+   "spirit world",
+   "myth"
+  ]
+ },
+ "el-anatsui": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "thousands of linked bottle caps stitched into draping metal cloth, shimmering mosaic surface, folds and ripples",
+  "links": [
+   "pattern and repetition",
+   "recycled materials"
+  ]
+ },
+ "aboriginal-bark": {
+  "classes": [
+   "Cultural tradition",
+   "Medium"
+  ],
+  "grammar": "ochre clan motifs on eucalyptus bark, forms infilled with fine rarrk cross-hatching that makes surfaces shimmer",
+  "links": [
+   "ancestry",
+   "pattern and repetition"
+  ]
+ },
+ "western-desert-dot": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Medium"
+  ],
+  "grammar": "aerial map view, concentric meeting-place circles joined by dotted travel lines, dot fields in desert colors",
+  "links": [
+   "journey",
+   "ancestry",
+   "mapping"
+  ]
+ },
+ "maori-carving": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Design system"
+  ],
+  "grammar": "koru spirals unfurling across carved posts, red-black-white painted rafter patterns, deep relief carving",
+  "links": [
+   "ancestry",
+   "pattern and repetition"
+  ]
+ },
+ "tapa-cloth": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "beaten bark sheets stamped with geometric motifs repeated in grids, earthy brown and black palette",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "sepik-carving": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "bold swirling faces and crocodiles carved in relief, picked out in ochre, white and black paint",
+  "links": [
+   "ancestors",
+   "spirits"
+  ]
+ },
+ "rapa-nui": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "monumental stone heads with elongated torsos and minimal features, human figures dwarfed by their scale",
+  "links": [
+   "ancestry",
+   "monumentality"
+  ]
+ },
+ "hawaiian-featherwork": {
+  "classes": [
+   "Cultural tradition",
+   "Functional application",
+   "Medium"
+  ],
+  "grammar": "thousands of tiny red and yellow feathers tied to fiber netting, bold geometric crescents and triangles",
+  "links": [
+   "rank and status",
+   "sacred power"
+  ]
+ },
+ "olmec": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "colossal basalt heads with naturalistic features and helmet-like headdresses, monumental scale in jungle clearings",
+  "links": [
+   "monumentality",
+   "portraiture"
+  ]
+ },
+ "teotihuacan-murals": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "flat profile figures in procession against deep red walls, outlined forms, offerings of water and butterflies",
+  "links": [
+   "procession",
+   "ritual"
+  ]
+ },
+ "aztec-codices": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "flat outline figures on deerskin pages, speech scrolls at mouths, day signs and place glyphs framing scenes",
+  "links": [
+   "narrative sequence",
+   "text and image",
+   "calendar"
+  ]
+ },
+ "andean-textiles": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Design system"
+  ],
+  "grammar": "woven figure set into a tocapu grid of geometric squares, alpaca-wool colors, embroidered surface detail",
+  "links": [
+   "pattern and repetition",
+   "identity"
+  ]
+ },
+ "moche-ceramics": {
+  "classes": [
+   "Cultural tradition",
+   "Historical period",
+   "Medium"
+  ],
+  "grammar": "sculpted ceramic portrait heads, cream and red-brown palette, stirrup-shaped spout rising behind the head",
+  "links": [
+   "portraiture"
+  ]
+ },
+ "northwest-coast-formline": {
+  "classes": [
+   "Cultural tradition",
+   "Design system",
+   "Medium"
+  ],
+  "grammar": "swelling formlines, ovoids and U-forms in black, red and teal, creatures split across the surface",
+  "links": [
+   "animals",
+   "transformation"
+  ]
+ },
+ "plains-ledger-art": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Genre"
+  ],
+  "grammar": "flat lively figures in colored pencil on lined account-book paper, blue ledger lines showing through",
+  "links": [
+   "narrative sequence",
+   "memory"
+  ]
+ },
+ "pueblo-pottery": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "black-on-white painted bowl interior, figure at the center ringed by feather and stepped patterns",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "inuit-prints": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "bold simple shapes cut into stone and printed by hand, flat color, Arctic animals with radiant presence",
+  "links": [
+   "animals",
+   "storytelling"
+  ]
+ },
+ "navajo-weaving": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Design system"
+  ],
+  "grammar": "upright-loom wool geometry, storm pattern linking a central rectangle to four corners with stepped lightning",
+  "links": [
+   "pattern and repetition"
+  ]
+ },
+ "woodlands-school": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition"
+  ],
+  "grammar": "bold black outlines and bright flat color, X-ray lines revealing inner spirit, flowing lines joining beings",
+  "links": [
+   "myth",
+   "interconnection",
+   "spirit world"
+  ]
+ },
+ "huichol-yarn": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Functional application"
+  ],
+  "grammar": "bright yarn strands pressed into beeswax, every contour a thread, deer, maize and peyote motifs throughout",
+  "links": [
+   "sacred offerings",
+   "myth"
+  ]
+ },
+ "amate": {
+  "classes": [
+   "Cultural tradition",
+   "Medium",
+   "Genre"
+  ],
+  "grammar": "jewel-bright village scenes on brown bark paper, crowded fiestas, birds and flowers filling every gap",
+  "links": [
+   "everyday life",
+   "celebration"
+  ]
+ },
+ "cuzco-school": {
+  "classes": [
+   "Artistic school",
+   "Cultural tradition",
+   "Historical period"
+  ],
+  "grammar": "flat patterned surfaces, robes stamped with gold brocade, Madonna-like figures with Andean birds and flowers",
+  "links": [
+   "devotion",
+   "syncretism"
+  ]
+ },
+ "casta-painting": {
+  "classes": [
+   "Genre",
+   "Historical period",
+   "Cultural tradition"
+  ],
+  "grammar": "labeled panel scenes of colonial daily life, market settings, clothing and food rendered in careful detail",
+  "links": [
+   "everyday life",
+   "identity"
+  ]
+ },
+ "haitian-painting": {
+  "classes": [
+   "Artistic school",
+   "Aesthetic",
+   "Cultural tradition"
+  ],
+  "grammar": "flat brilliant color, lush Eden-like greenery, no shadows, crowded joyful market scenes",
+  "links": [
+   "everyday life",
+   "paradise"
+  ]
+ },
+ "mola": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "stacked colored cloth cut through and stitched back, layered rainbow contours shared with fish and birds",
+  "links": [
+   "pattern and repetition",
+   "animals"
+  ]
+ },
+ "graphite-drawing": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "everything modeled in gray value alone; soft blended shading, no color at all",
+  "links": [
+   "grayscale value",
+   "soft edges"
+  ]
+ },
+ "pen-and-ink": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "grays faked by hatching and cross-hatching; crisp permanent black lines, no blending",
+  "links": [
+   "hatching",
+   "high contrast"
+  ]
+ },
+ "ink-wash": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Cultural tradition"
+  ],
+  "grammar": "diluted ink laid in flowing tonal washes; one brushstroke must carry a whole shadow",
+  "links": [
+   "tonal wash",
+   "negative space"
+  ]
+ },
+ "charcoal": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "deepest velvety blacks with smudged soft edges; tones lifted back out with an eraser",
+  "links": [
+   "soft edges",
+   "deep shadow"
+  ]
+ },
+ "colored-pencil": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "color built from dozens of transparent layered strokes; fine controlled detail, visible paper grain",
+  "links": [
+   "layered color"
+  ]
+ },
+ "soft-pastel": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "nearly pure pigment with a powdery matte surface; soft edges, colors glow without gloss",
+  "links": [
+   "soft edges",
+   "matte color"
+  ]
+ },
+ "watercolor": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "transparent washes where the paper's white becomes the light; edges bloom, pool and dry lighter",
+  "links": [
+   "transparency",
+   "luminosity"
+  ]
+ },
+ "gouache": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "opaque matte color in flat, even, poster-like coverage with a chalky dried finish",
+  "links": [
+   "flat color"
+  ]
+ },
+ "acrylic-painting": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "fast-drying paint with crisp edges and a smooth satin surface; imitates oil or flat poster color",
+  "links": [
+   "crisp edges"
+  ]
+ },
+ "oil-painting": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "slow blended paint layered with translucent glazes; rich depth in skin, silk and shadow",
+  "links": [
+   "glazing",
+   "soft blending"
+  ]
+ },
+ "egg-tempera": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "built from thousands of tiny hatched strokes; matte, pale and luminous early-Renaissance surface",
+  "links": [
+   "fine hatching",
+   "stillness"
+  ]
+ },
+ "buon-fresco": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "pigment locked into wet plaster; matte mineral color where surface cracks become part of the image",
+  "links": [
+   "matte surface"
+  ]
+ },
+ "digital-painting": {
+  "classes": [
+   "Medium",
+   "Production technology"
+  ],
+  "grammar": "software brushes imitate any medium; perfect gradients and undo, no material texture unless added",
+  "links": [
+   "smooth gradients"
+  ]
+ },
+ "vector-illustration": {
+  "classes": [
+   "Medium",
+   "Production technology",
+   "Design system"
+  ],
+  "grammar": "every shape is a mathematical curve; flat color, zero texture, scales forever without blurring",
+  "links": [
+   "flat graphic shapes"
+  ]
+ },
+ "manga-ink": {
+  "classes": [
+   "Technique",
+   "Genre",
+   "Cultural tradition"
+  ],
+  "grammar": "bold black ink plus screentone dot patterns faking gray; few tones, built for fast reading",
+  "links": [
+   "bold outlines",
+   "limited palette"
+  ]
+ },
+ "anime-cel": {
+  "classes": [
+   "Technique",
+   "Production technology",
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "flat color with exactly one shadow tone per shape; bold outlines and zero blending",
+  "links": [
+   "flat color",
+   "hard shadow edge"
+  ]
+ },
+ "silverpoint": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "fine silver line on coated paper; faint precise strokes that tarnish darker and cannot be erased",
+  "links": [
+   "fine line"
+  ]
+ },
+ "red-chalk": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "warm rust-red monochrome flattering skin; soft fingertip blending like an Old Master life study",
+  "links": [
+   "monochrome",
+   "warm tone"
+  ]
+ },
+ "oil-pastel": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "thick waxy strokes of vivid color; rich, smeary surface that never fully dries",
+  "links": [
+   "thick texture"
+  ]
+ },
+ "encaustic": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "pigment suspended in molten beeswax; luminous, slightly melted softness with a built-up surface",
+  "links": [
+   "luminous surface"
+  ]
+ },
+ "impasto": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "paint stands up in ridges and peaks; palette-knife marks turn the surface into low relief",
+  "links": [
+   "visible texture",
+   "directional light"
+  ]
+ },
+ "grisaille": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "painted entirely in grays; with color switched off, value and form carry everything",
+  "links": [
+   "grayscale value",
+   "sculptural form"
+  ]
+ },
+ "airbrush": {
+  "classes": [
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "no brushstrokes at all; seamless misty gradients with a soft, glossy, near-photographic sheen",
+  "links": [
+   "smooth gradients"
+  ]
+ },
+ "spray-paint": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Genre"
+  ],
+  "grammar": "aerosol fades beside stencil-sharp edges; overspray drift and bold, fast coverage",
+  "links": [
+   "stencil shapes"
+  ]
+ },
+ "mixed-media": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "paint, ink, collage and fabric layered in one work; clashing textures replace a single surface",
+  "links": [
+   "collage",
+   "texture contrast"
+  ]
+ },
+ "scratchboard": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "white lines scratched through solid black; the image is drawn with light instead of darkness",
+  "links": [
+   "reversed values",
+   "fine line"
+  ]
+ },
+ "marker-rendering": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "fast, streaky transparent strokes layered into rich color; the design-studio concept-sketch look",
+  "links": [
+   "visible strokes"
+  ]
+ },
+ "ballpoint": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "rich tones built from one color of ink and patient hatched lines, one stroke at a time",
+  "links": [
+   "hatching"
+  ]
+ },
+ "casein": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "milk-protein paint drying fast to a chalky, completely matte and quietly old-fashioned flat finish",
+  "links": [
+   "flat matte color"
+  ]
+ },
+ "fresco-secco": {
+  "classes": [
+   "Medium",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "paint on already-dry plaster; matte mineral color with cracks and stains showing through over time",
+  "links": [
+   "matte surface",
+   "aged texture"
+  ]
+ },
+ "cgi-render": {
+  "classes": [
+   "Production technology",
+   "Medium"
+  ],
+  "grammar": "scene calculated in 3D; simulated light bounce and through-skin glow, polished product-ad sheen",
+  "links": [
+   "photoreal lighting",
+   "smooth surfaces"
+  ]
+ },
+ "matte-painting": {
+  "classes": [
+   "Technique",
+   "Production technology",
+   "Functional application"
+  ],
+  "grammar": "a painted backdrop composited behind a real foreground; vast scenery that was never built",
+  "links": [
+   "deep background",
+   "scale"
+  ]
+ },
+ "woodblock": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "carved relief where what is not cut away prints black; bold shapes with visible knife marks",
+  "links": [
+   "bold shapes",
+   "flat black"
+  ]
+ },
+ "ukiyo-e": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "a separate carved block per color in perfect registration; flat color inside elegant contour lines",
+  "links": [
+   "flat color",
+   "limited palette"
+  ]
+ },
+ "linocut": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "soft linoleum cuts into bold swinging curves; high-contrast, poster-like carved marks",
+  "links": [
+   "bold curves",
+   "high contrast"
+  ]
+ },
+ "copperplate-etching": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "acid-bitten lines hold ink in the plate's grooves; spiderweb delicacy beside deep, warm darks",
+  "links": [
+   "fine line",
+   "deep shadow"
+  ]
+ },
+ "lithography": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "greasy crayon drawn on stone preserves the exact feel of the stroke; soft tonal grain",
+  "links": [
+   "crayon texture"
+  ]
+ },
+ "screenprinting": {
+  "classes": [
+   "Technique",
+   "Production technology"
+  ],
+  "grammar": "each color pushed through its own stenciled screen; image arrives in flat, separable ink layers",
+  "links": [
+   "flat color layers"
+  ]
+ },
+ "cyanotype": {
+  "classes": [
+   "Technique",
+   "Production technology"
+  ],
+  "grammar": "iron salts and sunlight turn everything Prussian blue; white silhouettes and line work on blue",
+  "links": [
+   "monochrome blue",
+   "silhouette"
+  ]
+ },
+ "generative-plotter": {
+  "classes": [
+   "Production technology",
+   "Technique"
+  ],
+  "grammar": "an algorithm sets the rules and a pen plotter draws them; line density becomes the shading",
+  "links": [
+   "line density",
+   "systems"
+  ]
+ },
+ "engraving": {
+  "classes": [
+   "Technique",
+   "Medium",
+   "Historical period"
+  ],
+  "grammar": "burin-cut lines swell and taper with musical control; the image rebuilt entirely from disciplined lines",
+  "links": [
+   "fine line",
+   "cross-hatching"
+  ]
+ },
+ "drypoint": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "the needle's ragged burr catches extra ink, so lines print fuzzy, velvety and sketchy",
+  "links": [
+   "soft line"
+  ]
+ },
+ "aquatint": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "draws with tones, not lines: resin dust bitten into thousands of pits printing as grainy gray washes",
+  "links": [
+   "grainy tone",
+   "dark atmosphere"
+  ]
+ },
+ "mezzotint": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "plate roughened to print solid black, then burnished smooth; light polished out of darkness, velvet-soft",
+  "links": [
+   "soft gradients",
+   "darkness"
+  ]
+ },
+ "wood-engraving": {
+  "classes": [
+   "Technique",
+   "Medium",
+   "Historical period"
+  ],
+  "grammar": "white lines cut into dense end-grain wood; incredibly fine detail for dramatic illustrated-book scenes",
+  "links": [
+   "fine white line",
+   "high detail"
+  ]
+ },
+ "monotype": {
+  "classes": [
+   "Technique"
+  ],
+  "grammar": "a painting on a smooth plate pressed to paper exactly once; soft, ghostly, one-chance painterly blur",
+  "links": [
+   "soft edges"
+  ]
+ },
+ "chiaroscuro-woodcut": {
+  "classes": [
+   "Technique",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "several blocks layer flat brown and ochre tones beneath the line block for modeled light and shadow",
+  "links": [
+   "tonal layers",
+   "dramatic light"
+  ]
+ },
+ "pochoir": {
+  "classes": [
+   "Technique",
+   "Functional application",
+   "Aesthetic"
+  ],
+  "grammar": "gouache dabbed through dozens of hand-cut stencils; crisp, flat, jewel-bright decorative color",
+  "links": [
+   "flat color",
+   "decorative pattern"
+  ]
+ },
+ "letterpress": {
+  "classes": [
+   "Technique",
+   "Production technology"
+  ],
+  "grammar": "raised type and image pressed so hard into paper you can feel the dent",
+  "links": [
+   "deep impression"
+  ]
+ },
+ "halftone-offset": {
+  "classes": [
+   "Production technology",
+   "Technique"
+  ],
+  "grammar": "the image is secretly CMYK halftone dots; the eye mixes four inks into full color",
+  "links": [
+   "dot pattern",
+   "mass reproduction"
+  ]
+ },
+ "risograph": {
+  "classes": [
+   "Production technology",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "soy-ink stencil layers printed separately and slightly off-register; fluorescent, grainy, DIY energy",
+  "links": [
+   "limited palette",
+   "misregistration"
+  ]
+ },
+ "shin-hanga": {
+  "classes": [
+   "Cultural tradition",
+   "Artistic movement",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "traditional woodblock carving and printing carrying Western light, shadow and atmosphere; quiet luminous scenes",
+  "links": [
+   "atmospheric light",
+   "nostalgia"
+  ]
+ },
+ "chinese-new-year-prints": {
+  "classes": [
+   "Cultural tradition",
+   "Technique",
+   "Genre",
+   "Functional application"
+  ],
+  "grammar": "folk woodblock outlines finished with hand-painted color; festive red and gold luck symbolism",
+  "links": [
+   "bold color",
+   "auspicious symbols"
+  ]
+ },
+ "posada-calavera": {
+  "classes": [
+   "Technique",
+   "Cultural tradition",
+   "Genre"
+  ],
+  "grammar": "bold black etched line for penny broadsheets; punchy images made to be read at a glance",
+  "links": [
+   "bold outlines",
+   "satire"
+  ]
+ },
+ "impressionism": {
+  "classes": [
+   "Artistic movement",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "broken touches of unmixed color, no black; edges dissolve into shimmering light and atmosphere",
+  "links": [
+   "optical color mixing",
+   "fleeting natural light",
+   "the fleeting moment"
+  ]
+ },
+ "pointillism": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "image built from thousands of separate dots of pure color, mixed by the eye at distance",
+  "links": [
+   "optical color mixing",
+   "systematic touch"
+  ]
+ },
+ "symbolism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "dreamlike staged scenes, jeweled detail, crescent moons and peacocks; mood suggested, never explained",
+  "links": [
+   "dream imagery",
+   "melancholy",
+   "mythic suggestion"
+  ]
+ },
+ "fauvism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "arbitrary high-chroma color in bold flat strokes; drawing simplified, feeling over description",
+  "links": [
+   "high-chroma contrast",
+   "emotional color"
+  ]
+ },
+ "expressionism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "jagged contours, tilted space, acid color and slashing strokes distort the scene to match anxiety",
+  "links": [
+   "distortion",
+   "anxiety",
+   "emotional intensity"
+  ]
+ },
+ "cubism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "object fractured into interlocking geometric planes; several viewpoints shown at once, palette near-monochrome",
+  "links": [
+   "multiple viewpoints",
+   "geometric simplification",
+   "fragmentation"
+  ]
+ },
+ "futurism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "repeated limbs and motion echoes, force-lines and streaking light render speed itself",
+  "links": [
+   "implied motion",
+   "speed",
+   "machine-age energy"
+  ]
+ },
+ "orphism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "concentric discs and arcs of simultaneous contrasting color; rhythm replaces subject",
+  "links": [
+   "color contrast",
+   "musical rhythm",
+   "pure abstraction"
+  ]
+ },
+ "surrealism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic",
+   "Genre"
+  ],
+  "grammar": "impossible objects rendered with photographic precision in dream landscapes; scale and logic quietly wrong",
+  "links": [
+   "dream logic",
+   "the uncanny",
+   "juxtaposition"
+  ]
+ },
+ "dada-photomontage": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "cut photographs and newsprint recombined into absurd satirical machines; visible seams, clashing scales",
+  "links": [
+   "collage",
+   "satire",
+   "chance assembly"
+  ]
+ },
+ "cezanne": {
+  "classes": [
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "world rebuilt from cylinders, spheres and cones; warm-cool patches of color construct form",
+  "links": [
+   "geometric simplification",
+   "structural brushwork"
+  ]
+ },
+ "van-gogh": {
+  "classes": [
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "thick directional impasto strokes and intensified complementary color make every surface vibrate",
+  "links": [
+   "visible brushwork",
+   "emotional color",
+   "movement in stillness"
+  ]
+ },
+ "gauguin-synthetism": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "flat areas of pure color enclosed by dark cloisonné outlines; shading traded for symbolic feeling",
+  "links": [
+   "flat color",
+   "dark contour",
+   "symbolic color"
+  ]
+ },
+ "toulouse-lautrec": {
+  "classes": [
+   "Genre",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "flat silhouettes, daring crops and few acidic colors; crowd reduced to black shapes",
+  "links": [
+   "poster composition",
+   "flat color",
+   "nightlife glamour"
+  ]
+ },
+ "les-nabis": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school"
+  ],
+  "grammar": "domestic interior where pattern swallows depth; figure and wallpaper merge into one decorative surface",
+  "links": [
+   "pattern over depth",
+   "intimacy",
+   "decorative flatness"
+  ]
+ },
+ "vienna-secession": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Aesthetic"
+  ],
+  "grammar": "figures wrapped in gold ornament of squares and spirals, or drawn with raw nervous contour",
+  "links": [
+   "gold ornament",
+   "decorative pattern",
+   "psychological tension"
+  ]
+ },
+ "blaue-reiter": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school"
+  ],
+  "grammar": "prismatic color, blue dominant, forms dissolving toward abstraction; animals and mountains as spiritual symbols",
+  "links": [
+   "spiritual color",
+   "dissolution of form"
+  ]
+ },
+ "naive-art": {
+  "classes": [
+   "Aesthetic",
+   "Artistic school"
+  ],
+  "grammar": "flat lush foliage, no perspective, every leaf counted; dream scene painted with earnest precision",
+  "links": [
+   "flatness",
+   "dream imagery",
+   "innocent gaze"
+  ]
+ },
+ "suprematism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "single geometric forms — black square, red rectangle — floating on white; painting reduced to pure feeling",
+  "links": [
+   "geometric simplification",
+   "reduction",
+   "weightlessness"
+  ]
+ },
+ "early-abstraction": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "spirals, shells and symbolic diagrams in soft pastel map invisible spiritual evolution",
+  "links": [
+   "symbolic diagram",
+   "spiritual meaning",
+   "organic geometry"
+  ]
+ },
+ "metaphysical-painting": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "empty piazzas, long raking shadows, arcades and statues; mannequin figures in impossible light",
+  "links": [
+   "the uncanny",
+   "emptiness",
+   "dreamlike stillness"
+  ]
+ },
+ "school-of-paris": {
+  "classes": [
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "floating lovers over village rooftops; elongated elegant necks; cosmopolitan Paris modernism",
+  "links": [
+   "floating figures",
+   "nostalgia",
+   "elegance"
+  ]
+ },
+ "dada-readymade": {
+  "classes": [
+   "Artistic movement",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "an ordinary manufactured object on a gallery plinth, declared art by the artist's choice alone",
+  "links": [
+   "found object",
+   "irony",
+   "questioning art itself"
+  ]
+ },
+ "abstract-surrealism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "private sign-language of stars, birds and ladders scattered like constellations on deep blue",
+  "links": [
+   "symbolic signs",
+   "playfulness",
+   "dream imagery"
+  ]
+ },
+ "kahlo": {
+  "classes": [
+   "Cultural tradition",
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "frontal unflinching self-portrait framed by jungle growth, monkeys and a folk ex-voto border",
+  "links": [
+   "direct gaze",
+   "identity",
+   "pain made visible"
+  ]
+ },
+ "art-brut": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "dense marker-and-crayon field with no empty space; faces repeat obsessively, horror vacui",
+  "links": [
+   "obsessive pattern",
+   "raw expression",
+   "outsider authenticity"
+  ]
+ },
+ "vorticism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "hard angles and crystalline shards; figure as faceted engine at the still center of a vortex",
+  "links": [
+   "angular fragmentation",
+   "machine-age energy"
+  ]
+ },
+ "rayonism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "figure refracted into crossed beams of spectral color; objects dissolve into rays of light",
+  "links": [
+   "light as subject",
+   "dissolution of form"
+  ]
+ },
+ "cubo-futurism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "metallic cones and cylinders shatter the figure amid the chaos of an experimental book page",
+  "links": [
+   "fragmentation",
+   "speed",
+   "geometric simplification"
+  ]
+ },
+ "purism": {
+  "classes": [
+   "Artistic movement",
+   "Design system"
+  ],
+  "grammar": "tubular robot-like figures in bold outline and flat primaries; painting ordered like a machine",
+  "links": [
+   "machine order",
+   "geometric simplification",
+   "clarity"
+  ]
+ },
+ "synchromism": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "rhythmic arcs of spectral color build form the way notes build musical scales and chords",
+  "links": [
+   "color as music",
+   "rhythmic abstraction"
+  ]
+ },
+ "magic-realism": {
+  "classes": [
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "everyday scene painted with perfect clarity while one impossible thing happens, very quietly",
+  "links": [
+   "the uncanny",
+   "quiet impossibility",
+   "deadpan wonder"
+  ]
+ },
+ "cobra": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school"
+  ],
+  "grammar": "fierce joyful figures in raw bright paint; childlike and folk spontaneity valued over polish",
+  "links": [
+   "spontaneity",
+   "childlike expression",
+   "raw paint"
+  ]
+ },
+ "art-informel": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "form abandoned for gesture and matter; thick dragged paint, stains and smears, figure barely surfacing",
+  "links": [
+   "gesture",
+   "materiality",
+   "dissolution of form"
+  ]
+ },
+ "school-of-london": {
+  "classes": [
+   "Artistic school",
+   "Genre"
+  ],
+  "grammar": "fleshy paint and psychological pressure; the figure exposed inside a space-frame cage",
+  "links": [
+   "psychological intensity",
+   "the body",
+   "vulnerability"
+  ]
+ },
+ "art-nouveau": {
+  "classes": [
+   "Artistic movement",
+   "Design system",
+   "Aesthetic"
+  ],
+  "grammar": "whiplash line turns hair, stems and smoke into one flowing ornamental system",
+  "links": [
+   "organic line",
+   "ornament",
+   "elegance"
+  ]
+ },
+ "art-deco": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "sunbursts, chevrons and symmetry; gold on black; curves disciplined into geometry",
+  "links": [
+   "geometric ornament",
+   "glamour",
+   "symmetry"
+  ]
+ },
+ "bauhaus": {
+  "classes": [
+   "Design system",
+   "Artistic movement",
+   "Artistic school"
+  ],
+  "grammar": "world rebuilt from circle, triangle, square in red, yellow, blue; typographic grids",
+  "links": [
+   "geometric simplification",
+   "primary color",
+   "form follows function"
+  ]
+ },
+ "constructivism": {
+  "classes": [
+   "Artistic movement",
+   "Design system",
+   "Technique"
+  ],
+  "grammar": "bold diagonals, red-black-cream photomontage; figures thrust forward like pistons",
+  "links": [
+   "diagonal energy",
+   "propaganda clarity",
+   "photomontage"
+  ]
+ },
+ "de-stijl": {
+  "classes": [
+   "Artistic movement",
+   "Design system",
+   "Aesthetic"
+  ],
+  "grammar": "black lines, white ground, red-yellow-blue rectangles only; the figure survives as grid",
+  "links": [
+   "grid",
+   "primary color",
+   "total reduction"
+  ]
+ },
+ "op-art": {
+  "classes": [
+   "Aesthetic",
+   "Technique",
+   "Artistic movement"
+  ],
+  "grammar": "stripes that bend, grids that swell, moiré that hums; the figure appears as a shift in pattern",
+  "links": [
+   "optical vibration",
+   "pattern",
+   "retinal play"
+  ]
+ },
+ "abstract-expressionism": {
+  "classes": [
+   "Artistic movement",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "dripped webs, slashed brushstrokes or glowing color fields; painting as physical event at large scale",
+  "links": [
+   "gesture",
+   "scale",
+   "emotional intensity"
+  ]
+ },
+ "minimalism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic",
+   "Design system"
+  ],
+  "grammar": "almost everything removed; one figure, immense quiet, space itself doing the talking",
+  "links": [
+   "reduction",
+   "silence",
+   "viewer completion"
+  ]
+ },
+ "swiss-style": {
+  "classes": [
+   "Design system",
+   "Technique",
+   "Functional application"
+  ],
+  "grammar": "grids, sans-serif type, asymmetry and red-black-white order; words replaced by pure shapes",
+  "links": [
+   "grid layout",
+   "objectivity",
+   "information clarity"
+  ]
+ },
+ "precisionism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "factories painted like cathedrals: immaculate geometry, sharp light, no people, no dirt",
+  "links": [
+   "geometric clarity",
+   "machine reverence",
+   "stillness"
+  ]
+ },
+ "color-field": {
+  "classes": [
+   "Artistic movement",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "thinned paint soaked into raw canvas; a huge glowing expanse of color is the whole subject",
+  "links": [
+   "color as emotion",
+   "immersion",
+   "scale"
+  ]
+ },
+ "hard-edge": {
+  "classes": [
+   "Artistic movement",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "flat unmixed color shapes with razor-sharp borders arranged like puzzle pieces",
+  "links": [
+   "crisp geometry",
+   "flat color",
+   "optical clarity"
+  ]
+ },
+ "neo-concrete": {
+  "classes": [
+   "Artistic movement",
+   "Design system"
+  ],
+  "grammar": "hinged metal forms to fold by hand; sewn capes that become art only when danced in",
+  "links": [
+   "participation",
+   "the body",
+   "art as object-in-use"
+  ]
+ },
+ "plakatstil": {
+  "classes": [
+   "Design system",
+   "Genre",
+   "Functional application",
+   "Technique"
+  ],
+  "grammar": "one bold simplified product huge on an empty ground; no scenery, no story",
+  "links": [
+   "single-object focus",
+   "advertising clarity",
+   "flat color"
+  ]
+ },
+ "streamline-moderne": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "long horizontal lines and rounded chrome corners; even parked buildings look fast",
+  "links": [
+   "speed styling",
+   "smooth curves",
+   "machine optimism"
+  ]
+ },
+ "mid-century-modern": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "clean lines, warm wood, molded plywood and starburst patterns in mustard and teal",
+  "links": [
+   "optimism",
+   "domestic comfort",
+   "atomic-age pattern"
+  ]
+ },
+ "new-wave-type": {
+  "classes": [
+   "Design system",
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "letters torn, layered, stretched and half-buried; reading becomes experience, not just information",
+  "links": [
+   "rule-breaking layout",
+   "expressive typography",
+   "grunge texture"
+  ]
+ },
+ "flat-vs-skeuomorphic": {
+  "classes": [
+   "Design system",
+   "Production technology",
+   "Functional application"
+  ],
+  "grammar": "one half dressed as real leather, glass and felt; the other plain colored shapes",
+  "links": [
+   "interface metaphor",
+   "digital materiality",
+   "usability"
+  ]
+ },
+ "isotype": {
+  "classes": [
+   "Design system",
+   "Functional application",
+   "Technique"
+  ],
+  "grammar": "one simple icon stands for a set number of things; more icons mean more of them",
+  "links": [
+   "universal pictograms",
+   "data made visible",
+   "clarity"
+  ]
+ },
+ "wiener-werkstatte": {
+  "classes": [
+   "Design system",
+   "Artistic school",
+   "Cultural tradition"
+  ],
+  "grammar": "black-and-white grids and checkerboards unify furniture, fabric, jewelry and cutlery as total artwork",
+  "links": [
+   "total design",
+   "geometric ornament",
+   "craft unity"
+  ]
+ },
+ "japanese-postwar-graphics": {
+  "classes": [
+   "Design system",
+   "Cultural tradition",
+   "Aesthetic"
+  ],
+  "grammar": "rising suns, Mount Fuji and ukiyo-e waves collide with psychedelic pop color and photography",
+  "links": [
+   "collage collision",
+   "tradition remixed",
+   "poster energy"
+  ]
+ },
+ "classical-orders": {
+  "classes": [
+   "Design system",
+   "Historical period",
+   "Functional application"
+  ],
+  "grammar": "kit of column styles — Doric, Ionic, Corinthian — each under strict rules of proportion",
+  "links": [
+   "proportion",
+   "symmetry",
+   "enduring authority"
+  ]
+ },
+ "gothic-cathedral": {
+  "classes": [
+   "Design system",
+   "Historical period",
+   "Cultural tradition"
+  ],
+  "grammar": "pointed arches, ribbed vaults and rose windows; stone walls thinned into cages of colored light",
+  "links": [
+   "vertical aspiration",
+   "stained light",
+   "structural daring"
+  ]
+ },
+ "muqarnas": {
+  "classes": [
+   "Design system",
+   "Cultural tradition",
+   "Technique"
+  ],
+  "grammar": "hundreds of small carved cells stack into a honeycomb dome dissolving wall into ceiling",
+  "links": [
+   "geometric pattern",
+   "infinite repetition",
+   "sacred geometry"
+  ]
+ },
+ "baroque-architecture": {
+  "classes": [
+   "Design system",
+   "Historical period",
+   "Aesthetic"
+  ],
+  "grammar": "curving walls, oval domes and staged shafts of light; architecture as emotional performance",
+  "links": [
+   "drama",
+   "movement in stone",
+   "sensory overwhelm"
+  ]
+ },
+ "beaux-arts": {
+  "classes": [
+   "Design system",
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "strict symmetry, sweeping staircases, every surface dressed with sculpture and gilding",
+  "links": [
+   "grandeur",
+   "classical order",
+   "ceremony"
+  ]
+ },
+ "international-style": {
+  "classes": [
+   "Design system",
+   "Artistic movement",
+   "Functional application"
+  ],
+  "grammar": "white glass-and-steel boxes on stilts, ribbon windows, no ornament, no history",
+  "links": [
+   "form follows function",
+   "universal design",
+   "structural honesty"
+  ]
+ },
+ "organic-architecture": {
+  "classes": [
+   "Design system",
+   "Artistic movement"
+  ],
+  "grammar": "concrete terraces pour over a waterfall; stone, glass and forest composed as one",
+  "links": [
+   "harmony with landscape",
+   "nature as model",
+   "flowing space"
+  ]
+ },
+ "postmodern-architecture": {
+  "classes": [
+   "Design system",
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "broken pediments, polka-dot columns and tops copied from antique furniture; ornament with a wink",
+  "links": [
+   "irony",
+   "historical quotation",
+   "playfulness"
+  ]
+ },
+ "high-tech-architecture": {
+  "classes": [
+   "Design system",
+   "Production technology",
+   "Functional application"
+  ],
+  "grammar": "ducts, pipes and escalators moved outside, color-coded and displayed like a cheerful machine",
+  "links": [
+   "exposed structure",
+   "technology celebrated",
+   "flexibility"
+  ]
+ },
+ "metabolism": {
+  "classes": [
+   "Design system",
+   "Artistic movement",
+   "Production technology"
+  ],
+  "grammar": "prefabricated room-capsules bolted onto a concrete core, each swappable like a living cell",
+  "links": [
+   "modularity",
+   "cities as organisms",
+   "replaceable parts"
+  ]
+ },
+ "parametric-architecture": {
+  "classes": [
+   "Design system",
+   "Production technology",
+   "Technique"
+  ],
+  "grammar": "algorithms generate seamless curves; walls melt into floors, the right angle nearly disappears",
+  "links": [
+   "computed form",
+   "flowing continuity",
+   "data-driven shape"
+  ]
+ },
+ "pop-art": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "enlarged advertising and comic imagery, Ben-Day dots, flat commercial color, silkscreen repetition of portraits",
+  "links": [
+   "repetition",
+   "celebrity",
+   "satire"
+  ]
+ },
+ "psychedelic-poster": {
+  "classes": [
+   "Aesthetic",
+   "Genre",
+   "Functional application"
+  ],
+  "grammar": "melting Art Nouveau lettering, liquid swirling forms, vibrating complementary colors, legibility sacrificed to sensation",
+  "links": [
+   "sensory overload"
+  ]
+ },
+ "memphis-design": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Artistic movement"
+  ],
+  "grammar": "squiggles, terrazzo chips, pastel-and-black clashes, playful geometric shapes refusing symmetry or good taste",
+  "links": [
+   "playfulness"
+  ]
+ },
+ "space-age-design": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "starbursts, boomerang shapes, orbital rings, glossy white and orange, rounded rocket-age forms",
+  "links": [
+   "optimism"
+  ]
+ },
+ "afrofuturism": {
+  "classes": [
+   "Aesthetic",
+   "Genre",
+   "Cultural tradition"
+  ],
+  "grammar": "African motifs and regal gold projected into starfields, cosmic technology and advanced cities",
+  "links": [
+   "identity",
+   "the future"
+  ]
+ },
+ "neo-dada": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "everyday found objects and photographs combined deadpan with painting, targets and flags as ready-made imagery",
+  "links": [
+   "irony",
+   "playfulness"
+  ]
+ },
+ "nouveau-realisme": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "reality used as material: monochrome blue fields, accumulations of identical objects, painted body prints",
+  "links": [
+   "repetition"
+  ]
+ },
+ "fluxus": {
+  "classes": [
+   "Artistic movement",
+   "Genre"
+  ],
+  "grammar": "a short written instruction performed as the artwork, humble everyday actions documented like event cards",
+  "links": [
+   "playfulness",
+   "participation"
+  ]
+ },
+ "conceptual-art": {
+  "classes": [
+   "Artistic movement"
+  ],
+  "grammar": "instructions, definitions and documentation stand in for the object, plain presentation with the idea foregrounded",
+  "links": [
+   "language",
+   "systems"
+  ]
+ },
+ "arte-povera": {
+  "classes": [
+   "Artistic movement",
+   "Medium"
+  ],
+  "grammar": "rags, twigs, soil and scrap built monumental, raw unfinished surfaces with one flash of neon",
+  "links": [
+   "humility",
+   "nature"
+  ]
+ },
+ "capitalist-realism": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "photographs blurred into paintings, Ben-Day dot printing, chemical stains, advertising imagery quoted deadpan",
+  "links": [
+   "satire",
+   "consumer culture"
+  ]
+ },
+ "neo-expressionism": {
+  "classes": [
+   "Artistic movement",
+   "Historical period"
+  ],
+  "grammar": "big fast gestural paint, scrawled words and anatomy, crowned figures, thick urgent emotional surfaces",
+  "links": [
+   "emotion",
+   "history"
+  ]
+ },
+ "pictures-generation": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Technique"
+  ],
+  "grammar": "appropriated advertisements and film stills re-presented, bold white-on-red text bars slashing black-and-white photographs",
+  "links": [
+   "media critique",
+   "satire"
+  ]
+ },
+ "yba": {
+  "classes": [
+   "Artistic school",
+   "Historical period"
+  ],
+  "grammar": "specimens preserved in glass vitrines, grids of colored spots, shock subjects with slick clinical presentation",
+  "links": [
+   "spectacle",
+   "shock"
+  ]
+ },
+ "superflat": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "glossy depthless surfaces, cute cartoon characters, smiling flowers and jellyfish eyes swirling flat",
+  "links": [
+   "cuteness",
+   "consumer culture"
+  ]
+ },
+ "lowbrow": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic",
+   "Cultural tradition"
+  ],
+  "grammar": "big-eyed girls, tiki bars and hot rods from underground comix, painted with a glossy obsessive finish",
+  "links": [
+   "nostalgia",
+   "playfulness"
+  ]
+ },
+ "contemporary-figuration": {
+  "classes": [
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "recognizable people in heroic poses against dense decorative pattern backgrounds that swallow the sitter",
+  "links": [
+   "identity",
+   "portraiture"
+  ]
+ },
+ "chicago-imagists": {
+  "classes": [
+   "Artistic school",
+   "Aesthetic"
+  ],
+  "grammar": "comic grotesque figures packed edge to edge, wiry line, circus-poster and shop-sign energy throughout",
+  "links": [
+   "humor",
+   "excess"
+  ]
+ },
+ "pattern-decoration": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "all-over ornament in layered repeats — tiles, florals, fabrics — until figure and pattern merge",
+  "links": [
+   "decoration",
+   "craft"
+  ]
+ },
+ "neo-geo": {
+  "classes": [
+   "Artistic movement",
+   "Design system"
+  ],
+  "grammar": "day-glo geometric cells linked by conduits, circuit-board diagrams of society, cool hard edges",
+  "links": [
+   "systems",
+   "technology"
+  ]
+ },
+ "sots-art": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "heroic socialist-realist poster poses collided with Western brand logos, products and slogans",
+  "links": [
+   "satire",
+   "ideology"
+  ]
+ },
+ "chinese-political-pop": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic"
+  ],
+  "grammar": "propaganda heroes massed in poster layouts, stamped with brand logos, flat bars of commercial color",
+  "links": [
+   "satire",
+   "ideology"
+  ]
+ },
+ "post-internet": {
+  "classes": [
+   "Artistic movement",
+   "Aesthetic",
+   "Production technology"
+  ],
+  "grammar": "stock photos, tilted screens and glossy 3D renders dragged into physical gallery objects and resin pools",
+  "links": [
+   "technology",
+   "spectacle"
+  ]
+ },
+ "vaporwave": {
+  "classes": [
+   "Aesthetic",
+   "Genre"
+  ],
+  "grammar": "Roman bust, palm trees, checkerboard floor and pastel grid sunset collaged into dreamy consumer nostalgia",
+  "links": [
+   "nostalgia",
+   "irony"
+  ]
+ },
+ "glitch-art": {
+  "classes": [
+   "Technique",
+   "Aesthetic",
+   "Production technology"
+  ],
+  "grammar": "corrupted files, compression smears and datamoshed pixels dissolving the image into digital breakage",
+  "links": [
+   "technology",
+   "decay"
+  ]
+ },
+ "cyberpunk": {
+  "classes": [
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "rain-slick neon megacity, steaming alleys, body technology and glowing contraband, high tech against low life",
+  "links": [
+   "dystopia",
+   "artificial light"
+  ]
+ },
+ "synthwave": {
+  "classes": [
+   "Aesthetic",
+   "Genre"
+  ],
+  "grammar": "chrome sun sinking over a glowing grid, purple mountains, VHS-cover and arcade-poster colors",
+  "links": [
+   "nostalgia",
+   "the future"
+  ]
+ },
+ "steampunk": {
+  "classes": [
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "Victorian brass, gears, pipes and airships, goggles and clockwork standing in for computers",
+  "links": [
+   "nostalgia",
+   "invention"
+  ]
+ },
+ "solarpunk": {
+  "classes": [
+   "Genre",
+   "Aesthetic"
+  ],
+  "grammar": "leafy terraces and solar glass, art-nouveau curves, gardens woven through bright green optimistic cities",
+  "links": [
+   "hope",
+   "nature"
+  ]
+ },
+ "y2k-aesthetic": {
+  "classes": [
+   "Aesthetic",
+   "Historical period",
+   "Design system"
+  ],
+  "grammar": "liquid chrome blobs, frosted translucent plastic, iridescent bubbles and chunky pixel fonts",
+  "links": [
+   "nostalgia",
+   "the future"
+  ]
+ },
+ "land-art": {
+  "classes": [
+   "Artistic movement",
+   "Medium"
+  ],
+  "grammar": "earthworks drawn at landscape scale, spirals of stone, artist tiny inside the work, weather collaborating",
+  "links": [
+   "extreme scale",
+   "nature"
+  ]
+ },
+ "light-and-space": {
+  "classes": [
+   "Artistic movement",
+   "Medium",
+   "Artistic school"
+  ],
+  "grammar": "rooms of haze and colored light where edges dissolve and perception itself becomes the exhibit",
+  "links": [
+   "artificial light",
+   "immersion"
+  ]
+ },
+ "brutalist-architecture": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "raw concrete masses, deep shadow-carved recesses, monumental fortress-like repetition of heavy forms",
+  "links": [
+   "extreme scale",
+   "power"
+  ]
+ },
+ "deconstructivist-architecture": {
+  "classes": [
+   "Design system",
+   "Aesthetic",
+   "Artistic movement"
+  ],
+  "grammar": "fragmented titanium shards, tilted walls and colliding geometries frozen mid-explosion",
+  "links": [
+   "instability",
+   "spectacle"
+  ]
+ },
+ "kinetic-sculpture": {
+  "classes": [
+   "Medium",
+   "Technique"
+  ],
+  "grammar": "balanced discs and rods rotating slowly on air currents, sculpture moving like slow weather",
+  "links": [
+   "movement",
+   "balance"
+  ]
+ },
+ "gutai": {
+  "classes": [
+   "Artistic movement",
+   "Cultural tradition",
+   "Technique"
+  ],
+  "grammar": "paint flung, poured and smashed through paper, raw material acting in performance across canvas",
+  "links": [
+   "gesture",
+   "performance"
+  ]
+ },
+ "ballets-russes": {
+  "classes": [
+   "Cultural tradition",
+   "Genre",
+   "Historical period"
+  ],
+  "grammar": "exotic ornate stage sets drenched in color, painting, music and dance fused into total theatre",
+  "links": [
+   "spectacle",
+   "performance"
+  ]
+ },
+ "stop-motion": {
+  "classes": [
+   "Production technology",
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "handmade clay, felt and miniature sets photographed frame by frame, maker's fingerprints left in the material",
+  "links": [
+   "playfulness",
+   "craft"
+  ]
+ },
+ "installation-kusama": {
+  "classes": [
+   "Medium",
+   "Aesthetic"
+  ],
+  "grammar": "mirrored rooms multiplying lights and reflections to infinity, polka dots covering every surface and form",
+  "links": [
+   "immersion",
+   "infinity",
+   "unease"
+  ]
+ },
+ "performance-art": {
+  "classes": [
+   "Medium",
+   "Genre"
+  ],
+  "grammar": "the artist's body performing a scored gesture before an audience, grainy documentation as the only remains",
+  "links": [
+   "performance",
+   "participation"
+  ]
+ },
+ "video-art": {
+  "classes": [
+   "Medium",
+   "Production technology"
+  ],
+  "grammar": "television sets stacked as sculpture — robots, walls, gardens — a face playing across every screen",
+  "links": [
+   "technology",
+   "spectacle"
+  ]
+ },
+ "assemblage": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "found objects — bottles, maps, toys, scraps — arranged inside shadow boxes until they dream",
+  "links": [
+   "memory",
+   "nostalgia"
+  ]
+ },
+ "christo-wrapping": {
+  "classes": [
+   "Technique",
+   "Aesthetic"
+  ],
+  "grammar": "whole buildings and landscapes shrouded in fabric and rope, familiar landmarks turned soft and mysterious",
+  "links": [
+   "extreme scale",
+   "spectacle"
+  ]
+ },
+ "process-art": {
+  "classes": [
+   "Artistic movement",
+   "Technique"
+  ],
+  "grammar": "materials left to sag, melt, scatter and rust on their own, gravity and chance as co-authors",
+  "links": [
+   "decay",
+   "chance"
+  ]
+ },
+ "mono-ha": {
+  "classes": [
+   "Artistic movement",
+   "Artistic school",
+   "Cultural tradition"
+  ],
+  "grammar": "raw stone, glass plate and beam placed in careful relation in near-empty space, arrangement as art",
+  "links": [
+   "stillness",
+   "space"
+  ]
+ },
+ "teamlab-immersive": {
+  "classes": [
+   "Production technology",
+   "Medium",
+   "Aesthetic"
+  ],
+  "grammar": "projected waterfalls, flowers and fish filling dark rooms, images blooming across bodies and reacting to touch",
+  "links": [
+   "immersion",
+   "artificial light"
+  ]
+ },
+ "modern-sculpture": {
+  "classes": [
+   "Historical period",
+   "Artistic movement"
+  ],
+  "grammar": "the human figure reinvented: rough emotional bronze, polished egg-smooth forms, hollowed landscape-like reclining bodies",
+  "links": [
+   "the body",
+   "abstraction"
+  ]
+ },
+ "classic-animation": {
+  "classes": [
+   "Production technology",
+   "Technique",
+   "Historical period"
+  ],
+  "grammar": "hand-drawn cels inked and laid over painted backgrounds, Technicolor warmth, slight shimmer at the cel edge",
+  "links": [
+   "craft",
+   "nostalgia"
+  ]
+ },
+ "rubber-hose": {
+  "classes": [
+   "Technique",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "boneless tube limbs bouncing to music, pie-cut eyes, a black-and-white world where everything wiggles",
+  "links": [
+   "playfulness",
+   "movement"
+  ]
+ },
+ "upa-limited": {
+  "classes": [
+   "Production technology",
+   "Design system",
+   "Aesthetic"
+  ],
+  "grammar": "flat simple shapes and textured color fields, movement suggested rather than fully drawn, modernist design",
+  "links": [
+   "economy",
+   "design"
+  ]
+ },
+ "silhouette-animation": {
+  "classes": [
+   "Technique",
+   "Medium"
+  ],
+  "grammar": "jointed paper cut-outs filmed as pure black silhouettes against glowing colored backgrounds, shadow puppetry with a camera",
+  "links": [
+   "shadow",
+   "storytelling"
+  ]
+ },
+ "rotoscope": {
+  "classes": [
+   "Technique",
+   "Production technology"
+  ],
+  "grammar": "live action traced frame by frame, uncannily smooth realistic motion wearing an illustrated skin",
+  "links": [
+   "realism",
+   "movement"
+  ]
+ },
+ "german-expressionist-cinema": {
+  "classes": [
+   "Genre",
+   "Aesthetic",
+   "Historical period"
+  ],
+  "grammar": "crooked painted sets, jagged ink shadows on the walls, tilted streets inside a nightmare fairground",
+  "links": [
+   "unease",
+   "shadow"
+  ]
+ },
+ "film-noir": {
+  "classes": [
+   "Genre",
+   "Aesthetic",
+   "Cultural tradition"
+  ],
+  "grammar": "venetian-blind light slicing faces into stripes, smoke and haze, wet streets shining behind the figure",
+  "links": [
+   "shadow",
+   "unease",
+   "mystery"
+  ]
+ },
+ "noh-theatre": {
+  "classes": [
+   "Cultural tradition",
+   "Genre"
+  ],
+  "grammar": "masked actors in glacial stillness on a bare stage with a single painted pine, fan in hand",
+  "links": [
+   "stillness",
+   "ritual"
+  ]
+ },
+ "kabuki": {
+  "classes": [
+   "Cultural tradition",
+   "Genre"
+  ],
+  "grammar": "bold kumadori makeup, swirling costumes, dramatic mie poses frozen at emotional peaks along the runway",
+  "links": [
+   "spectacle",
+   "performance"
+  ]
+ },
+ "chinese-opera": {
+  "classes": [
+   "Cultural tradition",
+   "Genre"
+  ],
+  "grammar": "painted-face color codes — red for loyalty, white for treachery — and water sleeves extending gesture into calligraphy",
+  "links": [
+   "symbolism",
+   "performance"
+  ]
+ }
+}
