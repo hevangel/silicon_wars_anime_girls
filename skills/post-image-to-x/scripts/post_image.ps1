@@ -1,22 +1,22 @@
-<#
+﻿<#
 .SYNOPSIS
-    Posts an image with optional text to X (Twitter) using playwright-cli.
+    Posts one or more images with optional text to X (Twitter) using playwright-cli.
 
 .DESCRIPTION
-    Automates opening an X session, attaching an image, inputting tweet text,
-    verifying preview, and publishing via playwright-cli.
+    Automates opening an X session, attaching up to 20 images, inputting tweet text,
+    verifying preview, clicking Post, and closing the session cleanly.
 
 .PARAMETER ImagePath
-    Path to the image file to upload (.png, .jpg, .jpeg, .webp, .gif).
+    Path(s) to the image file(s) to upload (.png, .jpg, .jpeg, .webp, .gif).
 
 .PARAMETER Text
-    Optional tweet/post copy to include with the image.
+    Optional tweet/post copy to include with the image(s).
 
 .PARAMETER Session
-    Name of the playwright-cli browser session (default: "x-poster").
+    Name of the playwright-cli browser session (default: "x").
 
 .PARAMETER ProfileDir
-    Path to a persistent user profile directory. Defaults to "$HOME\.playwright-x-profile".
+    Path to a persistent user profile directory. Defaults to "$env:USERPROFILE\.playwright-x-profile".
 
 .PARAMETER StateFile
     Path to a storage state JSON file exported with state-save.
@@ -28,22 +28,22 @@
     Prepares post and takes a preview screenshot, but skips clicking "Post".
 
 .EXAMPLE
-    .\post_image.ps1 -ImagePath ".\c01_p01.png" -Text "Silicon Wars Chapter 1 preview!"
+    .\post_image.ps1 -ImagePath ".\c01_p01.png" -Text "Silicon Wars preview! #what_if_ai_companies_are_anime_girls"
 
 .EXAMPLE
-    .\post_image.ps1 -ImagePath ".\poster.png" -Headed -DryRun
+    .\post_image.ps1 -ImagePath @(".\ms.png", ".\arm.jpg", ".\tsmc.webp", ".\bc.webp") -Text "Day 2: Paper Collage — Microsoft, ARM, TSMC & Broadcom #what_if_ai_companies_are_anime_girls"
 #>
 
 [CmdletBinding()]
 param (
     [Parameter(Mandatory = $true)]
-    [string]$ImagePath,
+    [string[]]$ImagePath,
 
     [Parameter(Mandatory = $false)]
     [string]$Text = "",
 
     [Parameter(Mandatory = $false)]
-    [string]$Session = "x-poster",
+    [string]$Session = "x",
 
     [Parameter(Mandatory = $false)]
     [string]$ProfileDir = "$env:USERPROFILE\.playwright-x-profile",
@@ -61,13 +61,16 @@ param (
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-# 1. Validate image path
-if (-not (Test-Path -Path $ImagePath)) {
-    Write-Error "Image file not found: $ImagePath"
-    exit 1
+# 1. Validate and resolve all image paths
+$AbsoluteImagePaths = @()
+foreach ($p in $ImagePath) {
+    if (-not (Test-Path -Path $p)) {
+        Write-Error "Image file not found: $p"
+        exit 1
+    }
+    $AbsoluteImagePaths += (Resolve-Path -Path $p).ProviderPath
 }
-$AbsoluteImagePath = (Resolve-Path -Path $ImagePath).ProviderPath
-Write-Host "[1/7] Target image resolved: $AbsoluteImagePath" -ForegroundColor Cyan
+Write-Host "[1/6] Resolved $($AbsoluteImagePaths.Count) image(s)." -ForegroundColor Cyan
 
 # 2. Verify playwright-cli is available
 if (-not (Get-Command "playwright-cli" -ErrorAction SilentlyContinue)) {
@@ -75,7 +78,7 @@ if (-not (Get-Command "playwright-cli" -ErrorAction SilentlyContinue)) {
     exit 1
 }
 
-# 3. Build open command
+# 3. Open browser session
 $openArgs = @("-s=$Session", "open", "https://x.com/compose/post")
 if ($Headed) {
     $openArgs += "--headed"
@@ -85,54 +88,89 @@ if ($ProfileDir) {
     $openArgs += "--profile=$ProfileDir"
 }
 
-Write-Host "[2/7] Opening browser session '$Session' at https://x.com/compose/post..." -ForegroundColor Cyan
+Write-Host "[2/6] Opening browser session '$Session' at https://x.com/compose/post..." -ForegroundColor Cyan
 & playwright-cli @openArgs
 
-# If StateFile is specified, load authentication state
 if ($StateFile -and (Test-Path $StateFile)) {
     Write-Host "Loading storage state from $StateFile..." -ForegroundColor Cyan
     & playwright-cli "-s=$Session" state-load (Resolve-Path $StateFile).ProviderPath
     & playwright-cli "-s=$Session" goto "https://x.com/compose/post"
 }
 
-Start-Sleep -Seconds 2
+# 4. Generate temporary Playwright script (avoids PowerShell inline quoting issues)
+$imgsJson = ConvertTo-Json -InputObject @($AbsoluteImagePaths) -Compress
+$textJson = ConvertTo-Json -InputObject $Text -Compress
+$dryRunJs = if ($DryRun) { "true" } else { "false" }
 
-# 4. Upload Image
-Write-Host "[3/7] Uploading image..." -ForegroundColor Cyan
-& playwright-cli "-s=$Session" upload "$AbsoluteImagePath"
+$jsContent = @"
+async (page) => {
+  await page.waitForTimeout(3000);
+  const currentUrl = page.url();
+  if (currentUrl.includes('login') || currentUrl.includes('onboarding')) {
+    throw new Error('AUTH_REQUIRED: Redirected to ' + currentUrl + '. Run with -Headed and sign in first.');
+  }
 
-Start-Sleep -Seconds 2
+  const modal = page.locator('[role="dialog"]').filter({ has: page.locator('[data-testid="tweetTextarea_0"]') }).last();
+  await modal.waitFor({ state: 'visible', timeout: 15000 });
 
-# 5. Enter Post Text if provided
-if (-not [string]::IsNullOrWhiteSpace($Text)) {
-    Write-Host "[4/7] Entering post text..." -ForegroundColor Cyan
-    & playwright-cli "-s=$Session" click '[data-testid="tweetTextarea_0"]'
-    & playwright-cli "-s=$Session" type "$Text"
-} else {
-    Write-Host "[4/7] No post text specified. Proceeding with media only." -ForegroundColor Yellow
+  const fileInput = modal.locator('input[data-testid="fileInput"]').first();
+  await fileInput.setInputFiles($imgsJson);
+
+  const text = $textJson;
+  const textarea = modal.locator('[data-testid="tweetTextarea_0"]').first();
+  if (text && text.trim().length > 0) {
+    await textarea.click();
+    await textarea.fill(text);
+  }
+
+  const postBtn = modal.locator('[data-testid="tweetButton"]').first();
+  await postBtn.waitFor({ state: 'visible', timeout: 15000 });
+  for (let i = 0; i < 30; i++) {
+    const disabled = await postBtn.getAttribute('aria-disabled');
+    if (!disabled || disabled === 'false') break;
+    await page.waitForTimeout(1000);
+  }
+
+  if ($dryRunJs) {
+    return { dryRun: true, url: page.url() };
+  }
+
+  await postBtn.click({ force: true });
+  await page.waitForTimeout(3000);
+  if (await postBtn.isVisible().catch(() => false)) {
+    await textarea.focus();
+    await page.keyboard.press('Control+Enter');
+    await page.waitForTimeout(4000);
+  }
+
+  const afterUrl = page.url();
+  const statusLinks = await page.locator('a[href*="/status/"]').evaluateAll(
+    els => els.slice(0, 5).map(e => e.href)
+  );
+  return { ok: true, afterUrl, statusLinks };
 }
+"@
 
-Start-Sleep -Seconds 1
+$tempJs = Join-Path $env:TEMP ("post_x_" + [guid]::NewGuid().ToString("N") + ".js")
+Set-Content -Path $tempJs -Value $jsContent -Encoding UTF8
 
-# 6. Preview Screenshot
-Write-Host "[5/7] Capturing preview screenshot..." -ForegroundColor Cyan
-& playwright-cli "-s=$Session" screenshot
+try {
+    Write-Host "[3/6] Uploading media, entering text, and submitting..." -ForegroundColor Cyan
+    & playwright-cli "-s=$Session" run-code "--filename=$tempJs"
 
-if ($DryRun) {
-    Write-Host "[DRY RUN] Skipping post submission. Review screenshot or headed window." -ForegroundColor Yellow
-    Write-Host "Session remains open as '$Session'. Run 'playwright-cli -s=$Session close' when done."
-    exit 0
+    Write-Host "[4/6] Capturing screenshot..." -ForegroundColor Cyan
+    & playwright-cli "-s=$Session" screenshot
+
+    if ($DryRun) {
+        Write-Host "[DRY RUN] Skipped clicking Post. Session '$Session' left open for inspection." -ForegroundColor Yellow
+        exit 0
+    }
+
+    Write-Host "[5/6] Post submitted! Closing browser session..." -ForegroundColor Green
+    & playwright-cli "-s=$Session" close
 }
-
-# 7. Click Post Button
-Write-Host "[6/7] Clicking Post button..." -ForegroundColor Cyan
-& playwright-cli "-s=$Session" click '[data-testid="tweetButton"]'
-
-Start-Sleep -Seconds 3
-
-# 8. Verification & Cleanup
-Write-Host "[7/7] Verifying submission..." -ForegroundColor Cyan
-& playwright-cli "-s=$Session" snapshot
-
-Write-Host "Post action complete! Closing browser session..." -ForegroundColor Green
-& playwright-cli "-s=$Session" close
+finally {
+    if (Test-Path $tempJs) {
+        Remove-Item $tempJs -Force -ErrorAction SilentlyContinue
+    }
+}

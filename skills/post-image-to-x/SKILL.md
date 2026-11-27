@@ -71,7 +71,7 @@ playwright-cli -s=x snapshot
 - **If redirected to login**: Pause and run the headed login flow described in [Prerequisites](#strategy-c-one-time-headed-interactive-login).
 
 ### 3. Upload Image(s)
-Pass the absolute path to the image file:
+X supports up to 20 media items per post. Pass one or more absolute paths to `setInputFiles` (or use `post_image.ps1` with `-ImagePath @(...)`).
 ```powershell
 playwright-cli -s=x upload "B:\silicon_wars_anime_girls\characters\triad\renders\accepted\c01_p01_v02.png"
 ```
@@ -81,6 +81,10 @@ playwright-cli -s=x snapshot
 ```
 Look for `[data-testid="attachments"]` or an image container element in the composer.
 
+> [!NOTE]
+> X's DOM on `x.com/compose/post` can contain duplicate `fileInput` / `tweetButton` elements and hidden `[role="dialog"]` containers. When automating with `run-code`, scope locators to the active compose modal:
+> `page.locator('[role="dialog"]').filter({ has: page.locator('[data-testid="tweetTextarea_0"]') }).last()`
+
 ### 4. Input Post Text
 Focus the composer textarea and type your message:
 ```powershell
@@ -89,10 +93,8 @@ playwright-cli -s=x type "Check out the latest character reveal from Silicon War
 ```
 
 > [!NOTE]
-> If your text contains multiple lines, special characters, or hashtags, you can also use `fill` or `run-code`:
-> ```powershell
-> playwright-cli -s=x run-code "async (page) => { await page.locator('[data-testid=\"tweetTextarea_0\"]').fill('Multi-line\nPost text here'); }"
-> ```
+> For all X posts from this repository, always include `#what_if_ai_companies_are_anime_girls`.
+> On Windows PowerShell, avoid inline JS strings with spaces/quotes in `run-code` (which can trigger `too many arguments`); write a `.js` file and pass `--filename=<path>` instead.
 
 ### 5. Verification & Review
 Always verify the preview before publishing:
@@ -105,21 +107,15 @@ Review the screenshot to ensure:
 - Sensitive content flags or audience options match expectations.
 
 ### 6. Publish the Post
-Click the "Post" button:
+Click the "Post" button (make sure you actually submit the post unless doing a `-DryRun`):
 ```powershell
 playwright-cli -s=x click '[data-testid="tweetButton"]'
 ```
+If X's modal overlay intercepts pointer events on `[data-testid="tweetButton"]`, use `click({ force: true })` inside `run-code --filename=...`, and fall back to `Control+Enter` if the modal remains open.
 
 ### 7. Confirm Publication & Close
-Wait 2-3 seconds, then take a snapshot:
+Wait 3-5 seconds, then verify the modal closed (`https://x.com/home`) and check `a[href*="/status/"]` for the published post URL. Always close the session afterward so the persistent profile is not left locked for scheduled runs:
 ```powershell
-playwright-cli -s=x snapshot
-```
-The compose modal will be closed, or a toast notification ("Your post was sent") will appear.
-
-Save session state (optional) and close the browser:
-```powershell
-playwright-cli -s=x state-save "$env:USERPROFILE\.x-auth-state.json"
 playwright-cli -s=x close
 ```
 
@@ -167,7 +163,12 @@ Key selectors:
 3. **Bot / Verification Challenges**:
    - If X presents an Arkose/CAPTCHA challenge, do NOT attempt to solve it via automated clicks.
    - Launch headed browser (`--headed`) and ask the user to complete verification manually in the browser window.
-4. **Session Cleanup**:
+4. **Overlay Intercepts Click / Hidden Dialog / Unsaved Draft**:
+   - X may render a hidden `[role="dialog"]` before the active compose modal; filter with `.filter({ has: page.locator('[data-testid="tweetTextarea_0"]') }).last()`.
+   - If `tweetButton` click times out due to an overlay `div` intercepting pointer events, use `click({ force: true })` and `Control+Enter` fallback.
+   - If navigating to `/compose/post` triggers an unsaved-draft `beforeunload` prompt, run `playwright-cli -s=x dialog-accept`.
+5. **Session Cleanup & Profile Lock**:
+   - Always run `playwright-cli -s=x close` after posting; leaving a persistent profile open causes `Browser is already in use` errors on subsequent runs.
    - If an existing session gets stuck:
      ```powershell
      playwright-cli kill-all

@@ -43,6 +43,26 @@ playwright-cli -s=x run-code "async (page) => {
 }"
 ```
 
+### Example: Scoping to the Active Compose Modal
+X often renders hidden `[role="dialog"]` nodes and duplicate `fileInput` / `tweetButton` elements. Filter for the dialog containing the composer textarea:
+```javascript
+const modal = page.locator('[role="dialog"]').filter({ has: page.locator('[data-testid="tweetTextarea_0"]') }).last();
+await modal.waitFor({ state: 'visible', timeout: 15000 });
+await modal.locator('input[data-testid="fileInput"]').first().setInputFiles(['C:/path/a.png', 'C:/path/b.jpg']);
+```
+
+### Example: Clicking Post Reliably
+X's modal overlay can intercept standard Playwright clicks on `tweetButton`. Use `force: true` with a `Control+Enter` fallback:
+```javascript
+const postBtn = modal.locator('[data-testid="tweetButton"]').first();
+await postBtn.click({ force: true });
+await page.waitForTimeout(3000);
+if (await postBtn.isVisible().catch(() => false)) {
+  await modal.locator('[data-testid="tweetTextarea_0"]').first().focus();
+  await page.keyboard.press('Control+Enter');
+}
+```
+
 ### Example: Checking Post Status
 ```powershell
 playwright-cli -s=x eval "() => {

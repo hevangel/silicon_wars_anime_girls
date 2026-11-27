@@ -1,0 +1,456 @@
+/* Key Art exhibition layout and blueprint lightbox */
+.stage-page .stage-lead {
+  color: #b8adc8;
+  margin-top: 1.5rem;
+}
+
+.stage-page .stage-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1.6rem;
+}
+
+.stage-page .stage-jump a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid #3c314e;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  color: #e6ddf5;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: border-color 0.15s ease, background-color 0.15s ease, color 0.15s ease;
+}
+
+.stage-page .stage-jump a:hover {
+  border-color: #d6adf6;
+  background: rgba(214, 173, 246, 0.1);
+  color: #fff;
+}
+
+.stage-page .key-art-section {
+  scroll-margin-top: 2rem;
+}
+
+.stage-page .key-art-section + .key-art-section {
+  margin-top: clamp(3.5rem, 7vw, 6rem);
+  padding-top: clamp(2.5rem, 5vw, 4rem);
+  border-top: 1px solid #3c314e;
+}
+
+.stage-page .section-head {
+  max-width: 60rem;
+  margin-bottom: 1.75rem;
+}
+
+.stage-page .section-head h2 {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: clamp(2rem, 4.5vw, 3.6rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.04;
+  margin: 0;
+}
+
+.stage-page .section-head p:last-child {
+  color: #b8adc8;
+  margin: 1rem 0 0;
+}
+
+.stage-page .hero-plate {
+  display: block;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #2e2540;
+  background: #0a0912;
+  box-shadow: 0 1rem 6rem rgba(166, 60, 255, 0.1);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.stage-page .hero-plate:hover {
+  border-color: #6f5a96;
+}
+
+.stage-page .hero-plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.stage-page .plate-caption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  padding-top: 0.9rem;
+}
+
+.stage-page .plate-caption a {
+  color: #d6adf6;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.stage-page .plate-caption a:hover {
+  text-decoration: underline;
+}
+
+/* Machine Setting Sheets Triptych */
+.stage-page .sheets-wrap {
+  margin-top: clamp(2.4rem, 4vw, 3.5rem);
+  scroll-margin-top: 2rem;
+}
+
+.stage-page .sheets-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.stage-page .sheets-bar__copy .kicker {
+  margin-bottom: 0.55rem;
+}
+
+.stage-page .sheets-bar h3 {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: clamp(1.35rem, 2.4vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.stage-page .sheets-bar p.sheets-note {
+  margin: 0.35rem 0 0;
+  color: #b8adc8;
+  font-size: 0.92rem;
+}
+
+.stage-page .view-toggle {
+  display: inline-flex;
+  gap: 0.35rem;
+  padding: 0.25rem;
+  border: 1px solid #3c314e;
+  border-radius: 999px;
+  background: #171426;
+}
+
+.stage-page .view-btn {
+  padding: 0.38rem 0.9rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: #b8adc8;
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.stage-page .view-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.stage-page .view-btn.is-active {
+  background: #d6adf6;
+  color: #100f1b;
+}
+
+.stage-page .sheets-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.35rem;
+  align-items: stretch;
+}
+
+.stage-page .sheets-grid.is-stacked {
+  grid-template-columns: 1fr;
+  gap: 2.25rem;
+}
+
+.stage-page .sheet-card {
+  --team: #d6adf6;
+  display: flex;
+  flex-direction: column;
+  background: #181628;
+  border: 1px solid #302847;
+  border-top: 3px solid var(--team);
+  border-radius: 10px;
+  padding: 0.95rem;
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+
+.stage-page .sheet-card:hover {
+  border-color: var(--team);
+}
+
+.stage-page .sheet-card--intel {
+  --team: #3b9eff;
+}
+
+.stage-page .sheet-card--amd {
+  --team: #ff4455;
+}
+
+.stage-page .sheet-card--nvidia {
+  --team: #84cc16;
+}
+
+.stage-page .sheet-frame {
+  display: block;
+  padding: 0.4rem;
+  background: #f8f9fc;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+}
+
+.stage-page .sheet-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  transition: transform 0.25s ease;
+}
+
+.stage-page .sheet-frame:hover img {
+  transform: scale(1.012);
+}
+
+.stage-page .sheet-meta {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 0.9rem;
+}
+
+.stage-page .sheet-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--team);
+}
+
+.stage-page .sheet-num {
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--team) 55%, transparent);
+  background: color-mix(in srgb, var(--team) 14%, transparent);
+  font-variant-numeric: tabular-nums;
+}
+
+.stage-page .sheet-title {
+  margin: 0.35rem 0 0.2rem;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  color: #f7f4ff;
+}
+
+.stage-page .sheet-epithet {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #b8adc8;
+}
+
+.stage-page .sheet-specs {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0;
+}
+
+.stage-page .sheets-grid.is-stacked .sheet-specs {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stage-page .sheet-specs li {
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid #2b2440;
+  font-size: 0.78rem;
+  line-height: 1.3;
+  color: #e4dcf2;
+}
+
+.stage-page .sheet-specs span {
+  display: block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #9e93b3;
+}
+
+.stage-page .sheet-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 0.85rem;
+  font-size: 0.82rem;
+}
+
+.stage-page .sheet-inspect {
+  padding: 0.38rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--team) 60%, transparent);
+  background: color-mix(in srgb, var(--team) 16%, transparent);
+  color: #fff;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.stage-page .sheet-inspect:hover {
+  background: color-mix(in srgb, var(--team) 28%, transparent);
+  border-color: var(--team);
+}
+
+.stage-page .sheet-raw {
+  color: #b8adc8;
+  text-decoration: none;
+}
+
+.stage-page .sheet-raw:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Lightbox Dialog */
+.stage-page .stage-lightbox {
+  width: min(96vw, 1500px);
+  max-width: none;
+  max-height: 94dvh;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #3c314e;
+  border-radius: 12px;
+  background: #141122;
+  color: #f3eefb;
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.65);
+}
+
+.stage-page .stage-lightbox::backdrop {
+  background: rgba(6, 5, 12, 0.85);
+  backdrop-filter: blur(5px);
+}
+
+.stage-page .stage-lightbox__shell {
+  display: flex;
+  flex-direction: column;
+  max-height: 94dvh;
+}
+
+.stage-page .stage-lightbox__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.85rem 1.15rem;
+  border-bottom: 1px solid #302847;
+}
+
+.stage-page .stage-lightbox__kicker {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #d6adf6;
+}
+
+.stage-page .stage-lightbox__title {
+  margin: 0.15rem 0 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.stage-page .stage-lightbox__controls {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+}
+
+.stage-page .stage-lightbox__controls button,
+.stage-page .stage-lightbox__controls a {
+  padding: 0.36rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid #3c314e;
+  background: #1d1930;
+  color: #f3eefb;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.stage-page .stage-lightbox__controls button:hover,
+.stage-page .stage-lightbox__controls a:hover {
+  border-color: #d6adf6;
+  background: #2b2445;
+}
+
+.stage-page .stage-lightbox__stage {
+  padding: 1rem 1.15rem;
+  overflow: auto;
+  display: grid;
+  place-items: center;
+  background: #0d0b16;
+}
+
+.stage-page .stage-lightbox__stage img {
+  display: block;
+  max-width: 100%;
+  max-height: 75dvh;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+}
+
+.stage-page .stage-lightbox__caption {
+  margin: 0;
+  padding: 0.75rem 1.15rem 0.95rem;
+  border-top: 1px solid #302847;
+  font-size: 0.85rem;
+  color: #b8adc8;
+}
+
+@media (max-width: 960px) {
+  .stage-page .sheets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stage-page .sheets-grid.is-stacked .sheet-specs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .stage-page .stage-lightbox__head {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .stage-page .stage-lightbox__controls {
+    flex-wrap: wrap;
+  }
+}

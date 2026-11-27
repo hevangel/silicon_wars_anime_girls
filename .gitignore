@@ -1,4 +1,6 @@
 /site-preview/
 .venv/
 tmp/
+.playwright-cli/
+.playwright-mcp/
 

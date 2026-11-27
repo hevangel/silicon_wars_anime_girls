@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#100f1b">
-  <meta name="description" content="Silicon Wars key art: AMD, Intel, and Nvidia share the spotlight in a red, blue, and green concert illustration.">
+  <meta name="description" content="Silicon Wars key art: AMD, Intel, and Nvidia share the concert spotlight and line up on the Cyber Circuit GP starting grid alongside their FX-01, AX-02, and NV-09 machine setting sheets.">
   <title>Three rivals. One stage. — Silicon Wars Artwork</title>
   <link rel="icon" href="../../comics/chip.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="key-art.css">
 </head>
-<body class="stage-page">
+<body class="stage-page" id="top">
   <a class="skip-link" href="#main">Skip to artwork</a>
   <div class="site-header"><header class="masthead">
     <a class="brand" href="../../../"><img class="brand-mark" src="../../comics/chip.svg" width="29" height="29" alt="">Silicon Wars</a>
@@ -20,18 +21,162 @@
     <header class="piece-header">
       <p class="kicker">02 / Key art</p>
       <h1>Three rivals.<br>One stage.</h1>
-      <p>AMD, Intel, and Nvidia trade the battlefield for the spotlight. Crimson, blue, and emerald, together for an encore.</p>
+      <p class="stage-lead">AMD, Intel, and Nvidia trade the battlefield for two headline showcases: first under concert spotlights for an encore, then lined up wheel-to-wheel on the Cyber Circuit GP starting grid with full mechanical setting sheets for each machine.</p>
+      <nav class="stage-jump" aria-label="Jump to key art showcase">
+        <a href="#concert-encore">01 · Concert Encore</a>
+        <a href="#cyber-circuit-gp">02 · Cyber Circuit GP Grid</a>
+        <a href="#machine-sheets">03 · Machine Setting Sheets (3)</a>
+      </nav>
     </header>
-    <figure>
-      <a href="../assets/key-art.jpg?v=singing-v5" aria-label="Open full-size concert key art"><img class="piece-image" src="../assets/key-art.jpg?v=singing-v5" width="1673" height="940" alt="AMD sings at left in red and black, Intel sings facing forward at center in her sapphire crown, and Nvidia sings at right with her green braid sweeping across her chest, surrounded by concert lights and confetti."></a>
-      <figcaption>The compute trio under their signature colors.</figcaption>
-    </figure>
+
+    <section class="key-art-section" id="concert-encore" aria-labelledby="concert-heading">
+      <h2 id="concert-heading" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;">Concert Encore Key Art</h2>
+      <figure>
+        <a class="hero-plate" href="../assets/key-art.jpg?v=singing-v5" data-lightbox data-kicker="Act I · Concert Encore" data-title="Three rivals. One stage." data-caption="AMD sings at left in crimson and black, Intel holds center in her sapphire crown, and Nvidia takes right with her emerald braid under concert lights." aria-label="Inspect full-size concert key art">
+          <img class="piece-image" src="../assets/key-art.jpg?v=singing-v5" width="1673" height="940" alt="AMD sings at left in red and black, Intel sings facing forward at center in her sapphire crown, and Nvidia sings at right with her green braid sweeping across her chest, surrounded by concert lights and confetti.">
+        </a>
+        <figcaption class="plate-caption">
+          <span>The compute trio under their signature colors. Click to inspect fullscreen.</span>
+          <a href="../assets/key-art.jpg?v=singing-v5">Full size ↗</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="key-art-section" id="cyber-circuit-gp" aria-labelledby="gp-heading">
+      <header class="section-head">
+        <p class="kicker">Act II · Cyber Circuit GP</p>
+        <h2 id="gp-heading">Three machines.<br>One starting grid.</h2>
+        <p>Under the Cyber Circuit GP gantry light, Intel “The Blue Empress” (#01), AMD “The Crimson Challenger” (#02), and Nvidia “The Emerald Queen” (#09) pose beside their Cyber Formula-inspired hybrid prototypes right before five red lights go out.</p>
+      </header>
+
+      <figure>
+        <a class="hero-plate" href="../assets/cyber-circuit-grid.webp" data-lightbox data-kicker="Act II · Cyber Circuit GP" data-title="Silicon Wars: Cyber Circuit GP Starting Grid" data-caption="Grid slots 01, 02, and 09: Intel FX-01 Arcflow (left), AMD AX-02 Redstone (center), and Nvidia NV-09 Blackwell (right) with their pilots before lights out." aria-label="Inspect full-size Cyber Circuit GP grid key art">
+          <img class="piece-image" src="../assets/cyber-circuit-grid.webp" width="1672" height="941" loading="lazy" alt="Silicon Wars Cyber Circuit GP starting grid illustration showing Intel in slot 01 with her white-and-blue FX-01 car, AMD in slot 02 with her crimson AX-02 car, and Nvidia in slot 09 with her black-and-lime NV-09 car under a red-lit race gantry.">
+        </a>
+        <figcaption class="plate-caption">
+          <span>Grid slots 01, 02, and 09 in team formation—matching the three mechanical specification sheets below.</span>
+          <a href="../assets/cyber-circuit-grid.webp">Full size ↗</a>
+        </figcaption>
+      </figure>
+
+      <div class="sheets-wrap" id="machine-sheets">
+        <div class="sheets-bar">
+          <div class="sheets-bar__copy">
+            <p class="kicker">Technical Blueprints</p>
+            <h3>Machine Setting Sheets</h3>
+            <p class="sheets-note">Aligned left-to-right to match their grid positions above. Click any drafting sheet to zoom into callouts, cutaways, and aero diagrams.</p>
+          </div>
+          <div class="view-toggle" role="group" aria-label="Blueprint layout">
+            <button type="button" class="view-btn is-active" data-view="grid" aria-pressed="true">3-up grid</button>
+            <button type="button" class="view-btn" data-view="stacked" aria-pressed="false">Full-width sheets</button>
+          </div>
+        </div>
+
+        <div class="sheets-grid" id="sheetsGrid">
+          <article class="sheet-card sheet-card--intel">
+            <a class="sheet-frame" href="../assets/cyber-circuit-intel-fx01.webp" data-lightbox data-kicker="Grid 01 · Intel Racing Team" data-title="FX-01 Arcflow — Machine Setting Sheet" data-caption="Sapphire blue, white, and gold Cyber Formula-style active-aero racer with 1,200 PS Hybrid Turbo V6, 4WD torque vectoring, four-angle orthographic views, cutaway system layout, and cockpit/suspension details." aria-label="Inspect FX-01 Arcflow machine setting sheet">
+              <img src="../assets/cyber-circuit-intel-fx01.webp" width="1448" height="1086" loading="lazy" alt="Intel Racing Team FX-01 Arcflow machine setting sheet with three-quarter hero view, front/rear/side/top orthographics, transparent cutaway powertrain diagram, nose/cockpit/suspension/wheel details, and aero boost mode diagram.">
+            </a>
+            <div class="sheet-meta">
+              <div class="sheet-team">
+                <span>Intel Racing Team</span>
+                <span class="sheet-num">#01</span>
+              </div>
+              <h4 class="sheet-title">FX-01 Arcflow</h4>
+              <p class="sheet-epithet">The Blue Empress · Variable-Aero Active Downforce</p>
+              <ul class="sheet-specs">
+                <li><span>Output</span>1,200 PS (V6 ERS)</li>
+                <li><span>Drive</span>4WD Torque Vectoring</li>
+                <li><span>Max Speed</span>520+ km/h Boost</li>
+                <li><span>Weight</span>728 kg</li>
+              </ul>
+              <div class="sheet-actions">
+                <button type="button" class="sheet-inspect" data-open-lightbox="../assets/cyber-circuit-intel-fx01.webp">Inspect blueprint</button>
+                <a class="sheet-raw" href="../assets/cyber-circuit-intel-fx01.webp">Open raw ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="sheet-card sheet-card--amd">
+            <a class="sheet-frame" href="../assets/cyber-circuit-amd-ax02.webp" data-lightbox data-kicker="Grid 02 · AMD Racing Team" data-title="AX-02 Redstone — Machine Setting Sheet" data-caption="Crimson red, black, and silver ground-effect racer with 1,250 PS qualifying Twin-Turbo V6 hybrid, MGU-K, underfloor Venturi tunnels, full wireframe cutaway, and E-Fuel powertrain specs." aria-label="Inspect AX-02 Redstone machine setting sheet">
+              <img src="../assets/cyber-circuit-amd-ax02.webp" width="1448" height="1086" loading="lazy" alt="AMD Racing Team AX-02 Redstone machine setting sheet with three-quarter front view, orthographic dimensions, wireframe cutaway layout, bottom underfloor Venturi tunnel view, and five enlarged detail boxes.">
+            </a>
+            <div class="sheet-meta">
+              <div class="sheet-team">
+                <span>AMD Racing Team</span>
+                <span class="sheet-num">#02</span>
+              </div>
+              <h4 class="sheet-title">AX-02 Redstone</h4>
+              <p class="sheet-epithet">The Crimson Challenger · Ground-Effect Venturi Hybrid</p>
+              <ul class="sheet-specs">
+                <li><span>Output</span>1,250 PS (Twin-Turbo)</li>
+                <li><span>Drive</span>RWD Rear-Wheel</li>
+                <li><span>Max Speed</span>535+ km/h Boost</li>
+                <li><span>Weight</span>720 kg (dry)</li>
+              </ul>
+              <div class="sheet-actions">
+                <button type="button" class="sheet-inspect" data-open-lightbox="../assets/cyber-circuit-amd-ax02.webp">Inspect blueprint</button>
+                <a class="sheet-raw" href="../assets/cyber-circuit-amd-ax02.webp">Open raw ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="sheet-card sheet-card--nvidia">
+            <a class="sheet-frame" href="../assets/cyber-circuit-nvidia-nv09.webp" data-lightbox data-kicker="Grid 09 · NVIDIA Racing" data-title="NV-09 Blackwell — Machine Setting Sheet" data-caption="Lime-green, black, and silver AI-accelerated aero racer with 1,400 PS V6 + eGPU-Boost powertrain, ground-effect fan, symmetrical twin-channel intake layout, and 560+ km/h telemetry." aria-label="Inspect NV-09 Blackwell machine setting sheet">
+              <img src="../assets/cyber-circuit-nvidia-nv09.webp" width="1448" height="1086" loading="lazy" alt="NVIDIA Racing NV-09 Blackwell machine setting sheet showing three-quarter view, scale-consistent orthographics, twin-channel front aero diagram, AI cockpit telemetry at 560+ km/h, and airflow vector schematic.">
+            </a>
+            <div class="sheet-meta">
+              <div class="sheet-team">
+                <span>NVIDIA Racing</span>
+                <span class="sheet-num">#09</span>
+              </div>
+              <h4 class="sheet-title">NV-09 Blackwell</h4>
+              <p class="sheet-epithet">The Emerald Queen · AI × Aero × Parallel Flow</p>
+              <ul class="sheet-specs">
+                <li><span>Output</span>1,400 PS (eGPU-Boost)</li>
+                <li><span>Drive</span>AWD Torque Vectoring</li>
+                <li><span>Max Speed</span>560+ km/h</li>
+                <li><span>Weight</span>705 kg</li>
+              </ul>
+              <div class="sheet-actions">
+                <button type="button" class="sheet-inspect" data-open-lightbox="../assets/cyber-circuit-nvidia-nv09.webp">Inspect blueprint</button>
+                <a class="sheet-raw" href="../assets/cyber-circuit-nvidia-nv09.webp">Open raw ↗</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <nav class="piece-footer" aria-label="Artwork navigation">
       <a href="../ed-walk/">← Previous: The ED Walk</a>
-      <a href="../assets/key-art.jpg?v=singing-v5">Open full-size artwork ↗</a>
+      <a href="#top">↑ Back to top</a>
       <a href="../microsoft-styles/">Next: Microsoft Art Style Index →</a>
     </nav>
   </main>
+
+  <dialog id="stageLightbox" class="stage-lightbox" aria-labelledby="lbTitle">
+    <div class="stage-lightbox__shell">
+      <header class="stage-lightbox__head">
+        <div>
+          <p class="stage-lightbox__kicker" id="lbKicker"></p>
+          <h2 class="stage-lightbox__title" id="lbTitle"></h2>
+        </div>
+        <div class="stage-lightbox__controls">
+          <button type="button" id="lbPrev" title="Previous plate (←)">← Prev</button>
+          <button type="button" id="lbNext" title="Next plate (→)">Next →</button>
+          <a id="lbRaw" href="#">Open original ↗</a>
+          <button type="button" id="lbClose" aria-label="Close plate viewer">✕ Close</button>
+        </div>
+      </header>
+      <div class="stage-lightbox__stage">
+        <img id="lbImg" src="" alt="">
+      </div>
+      <p class="stage-lightbox__caption" id="lbCaption"></p>
+    </div>
+  </dialog>
+
   <footer>Fictional fan art unaffiliated with the companies depicted.</footer>
+  <script type="module" src="key-art.js"></script>
 </body>
 </html>
