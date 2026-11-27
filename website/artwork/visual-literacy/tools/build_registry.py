@@ -110,12 +110,15 @@ def main():
     cls = json.load(open(os.path.join(ARTWORK, "tsmc-styles", "tools", "classifications.json")))
     styles_data = json.load(open(os.path.join(ARTWORK, "tsmc-styles", "artwork.json")))
     style_name = {s["slug"]: s["name"] for l in styles_data["lessons"] for s in l["styles"]}
+    style_thumb = {s["slug"]: s["images"][0]["thumb"]
+                   for l in styles_data["lessons"] for s in l["styles"] if s["images"]}
     lesson_of = {s: l["id"] for l in STYLE_LESSONS for s in l["styles"]}
     for slug, entry in cls.items():
         for link in entry["links"]:
             add(link, {"course": "Part I", "kind": "tendency",
                        "label": style_name[slug],
-                       "href": f"../tsmc-styles/#lesson-{lesson_of[slug]}"})
+                       "href": f"../tsmc-styles/#lesson-{lesson_of[slug]}",
+                       "img": f"../tsmc-styles/{style_thumb[slug]}"})
 
     # ---- Part III group concepts -------------------------------------------
     story = json.load(open(os.path.join(ARTWORK, "tsmc-storytelling", "storytelling.json")))
@@ -124,9 +127,12 @@ def main():
             for raw in g["concepts"]:
                 m = re.match(r"^Part (I|II|III)\s*[—–-]\s*(.+)$", raw)
                 name = m.group(2) if m else raw
-                add(name, {"course": "Part III", "kind": "taught",
-                           "label": f"{lesson['title'].split('—')[0].strip()} · {g['title']}",
-                           "href": f"../tsmc-storytelling/#group-{g['id']}"})
+                ref = {"course": "Part III", "kind": "taught",
+                       "label": f"{lesson['title'].split('—')[0].strip()} · {g['title']}",
+                       "href": f"../tsmc-storytelling/#group-{g['id']}"}
+                if g["images"] and g["images"][0].get("thumb"):
+                    ref["img"] = f"../tsmc-storytelling/{g['images'][0]['thumb']}"
+                add(name, ref)
 
     # ---- Part II card matching ----------------------------------------------
     seeing = json.load(open(os.path.join(ARTWORK, "tsmc-seeing", "seeing.json")))
@@ -146,9 +152,12 @@ def main():
                 best, best_score = (les, cd), score
         if best and best_score >= 0.5:
             les, cd = best
-            add(c["name"], {"course": "Part II", "kind": "decision",
-                            "label": f"Lesson {les['n']} · {cd['name']}",
-                            "href": f"../tsmc-seeing/#lesson-{les['id']}"})
+            ref = {"course": "Part II", "kind": "decision",
+                   "label": f"Lesson {les['n']} · {cd['name']}",
+                   "href": f"../tsmc-seeing/#lesson-{les['id']}"}
+            if cd["images"] and cd["images"][0].get("thumb"):
+                ref["img"] = f"../tsmc-seeing/{cd['images'][0]['thumb']}"
+            add(c["name"], ref)
 
     out = []
     for c in concepts.values():

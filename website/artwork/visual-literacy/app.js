@@ -71,11 +71,53 @@ function showConcept(c, btn) {
   };
   const html = Object.entries(byCourse).map(([course, refs]) => `
     <h4>${course} — ${kindText[course] || ""}</h4>
-    <ul>${refs.map(r => `<li><a href="${r.href}">${r.label}</a></li>`).join("")}</ul>`).join("");
+    <ul>${refs.map(r => `<li><a href="${r.href}"${r.img ? ` data-img="${r.img}"` : ""}>${r.label}</a></li>`).join("")}</ul>`).join("");
   $("#conceptDetail").innerHTML = `
     <h3>${c.name}</h3>
     <p class="detail-meta">Stack layer ${c.layer} — ${c.layer_title} · a ${c.type} concept · ${c.refs.length} references across ${Object.keys(byCourse).length} course(s). Tendencies, not rules.</p>
     ${html}`;
+}
+
+// Hover/focus preview: hovering a reference link in the concept card shows
+// the picture it points at, without leaving the registry.
+const refPreview = document.createElement("div");
+refPreview.id = "refPreview";
+refPreview.hidden = true;
+refPreview.innerHTML = `<img alt=""><p></p>`;
+document.body.appendChild(refPreview);
+const refPreviewImg = refPreview.querySelector("img");
+function placePreview(link) {
+  const r = link.getBoundingClientRect();
+  const w = 248, h = 285;
+  let x = Math.min(Math.max(8, r.left), window.innerWidth - w - 8);
+  let y = r.bottom + 8;
+  if (y + h > window.innerHeight - 8) y = Math.max(8, r.top - h - 8);
+  refPreview.style.left = x + "px";
+  refPreview.style.top = y + "px";
+}
+function showPreview(link) {
+  refPreviewImg.src = link.dataset.img;
+  refPreview.querySelector("p").textContent = link.textContent;
+  refPreview.hidden = false;
+  placePreview(link);
+}
+function hidePreview() { refPreview.hidden = true; }
+{
+  const detail = $("#conceptDetail");
+  detail.addEventListener("mouseover", e => {
+    const a = e.target.closest("a[data-img]");
+    if (a) showPreview(a);
+  });
+  detail.addEventListener("mouseout", e => {
+    const a = e.target.closest("a[data-img]");
+    if (a && !a.contains(e.relatedTarget)) hidePreview();
+  });
+  detail.addEventListener("focusin", e => {
+    const a = e.target.closest("a[data-img]");
+    if (a) showPreview(a);
+  });
+  detail.addEventListener("focusout", hidePreview);
+  window.addEventListener("scroll", hidePreview, { passive: true });
 }
 
 $("#search").addEventListener("input", e => {
