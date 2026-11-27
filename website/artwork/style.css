@@ -64,7 +64,9 @@ button:hover { background: #f4f2ec; }
 .work--tsmc-styles { max-width: 38rem; }
 .work--tsmc-seeing { max-width: 48rem; }
 .work--tsmc-seeing .work-image { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.work--arm-styles { max-width: 38rem; }
 .work-image--painting-styles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.work--broadcom-styles { max-width: 38rem; }
 .painting-styles-page { --style-column-gap: clamp(.75rem, 3vw, 1.5rem); }
 .painting-styles-page .piece-header { max-width: 65rem; }
 .painting-styles-page .style-jump { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; font-size: .9rem; }

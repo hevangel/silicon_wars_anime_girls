@@ -85,17 +85,38 @@ editing the template never rewrites the history of a finished plate.
 
 ## Status
 
-See `PLATES.md` for the live tick-list and `index.html` for the rendered count. The
-`Manga panel` family is complete; the rest of the atlas is filled in family by family.
+65 of 219 plates are rendered (29.7%): the whole `Manga panel` family, six of the seven
+four-variant media in `Drawing, paint, and paper`, and six of the seven video-game eras.
 
-## Notes from the first pass
+Two shortfalls to record honestly:
 
-- Run order matters: the very first `anime-cel-shading-v02` came back facing the camera.
-  The pose block now opens with "her back is to the viewer … do not turn her to face the
-  camera", and the back view has held since.
-- Skirt length drifts between plates — some read as a mini, some as knee-length. The
-  prompt asks for knee-length; the renderer sometimes shortens it. Treated as an
-  accepted variation rather than a defect, and worth tightening if the study is ever
-  used as costume reference.
-- The `arm` wordmark on the chest patch is not legible at this scale in most media, which
-  is expected; it is a printed-text risk, not a design failure.
+- The NES plate's first take read as modern pixel art rather than 8-bit, and the
+  tightened replacement could not be generated, so `Video game eras` is 6/7.
+- **The image account reached its generation limit part-way through the build**
+  (`managed_model_points_insufficient`), so the remaining 154 plates are specced,
+  prompted and queued in `plates.json` but not yet drawn. Re-running `save_plate.py`
+  per id against a refreshed account fills the atlas and the website with no other
+  changes.
+
+## Teaching page
+
+`website/artwork/` is a 17-lesson course built from these plates: one lesson per view,
+105 styles grouped into a teaching sequence, every style linking out to Wikipedia and
+Smarthistory. Lesson 00 explains the method and the four variant axes; the rest walk
+through media, print, camera, narrative, craft, staging, public life, landscape,
+emotion, abstraction, design, architecture, performance and game hardware. The header
+and colophon state that every image was generated with Seedream.
+
+## Rebuilding
+
+```
+python tools/style_study/build_study.py     # regenerate plates.json + PLATES.md
+python tools/style_study/save_plate.py <plate-id> "<imageUrl>"   # add one render
+python tools/style_study/build_atlas.py     # regenerate index.html + sheets/
+python tools/style_study/build_web.py       # regenerate the website course data
+```
+
+`build_study.py` preserves the recorded prompt of any plate already rendered, so
+editing the template never rewrites the history of a finished plate.
+
+`PLATES.md` holds the live tick-list and `index.html` the rendered count.

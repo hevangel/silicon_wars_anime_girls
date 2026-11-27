@@ -21,10 +21,10 @@ h2{font-size:13px;font-family:system-ui,sans-serif;text-transform:uppercase;
 .style{margin:34px 0 0}
 .style h3{font-size:22px;margin:0 0 2px;font-weight:600}
 .style .medium{color:var(--muted);font-size:14px;margin:0 0 14px;max-width:86ch}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.grid.solo{grid-template-columns:repeat(3,1fr)}
-figure{margin:0}
-figure img{width:100%;display:block;border:1px solid #d8d1c2;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.grid.solo{grid-template-columns:repeat(3,minmax(0,1fr))}
+figure{margin:0;min-width:0}
+figure img{width:100%;height:auto;display:block;border:1px solid #d8d1c2;background:#fff}
 .slot{aspect-ratio:2/3;border:1px dashed #c3bbab;display:flex;align-items:center;
  justify-content:center;text-align:center;padding:12px;color:#9b9384;
  font:12px/1.5 system-ui,sans-serif}
@@ -37,8 +37,8 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <p class='kicker'>Silicon Wars · art direction study</p>
 <h1>Arm in every style</h1>
 <p class='lede'>One character, one pose, 105 styles. Each plate redraws Arm, the Pocket Architect, walking away with her folded umbrella — the pose of the supplied reference — so that only the medium changes. Styles whose subject is a visual language rather than a material are allowed to rebuild the composition around the same girl, street and season.</p>
-<p class='meta'>105 styles · 219 plates · 35 rendered · character sheet used as the identity reference for every plate · prompts and hashes recorded beside each render.</p>
-<div class='progress'><span style='width:16.0%'></span></div>
+<p class='meta'>105 styles · 219 plates · 65 rendered · character sheet used as the identity reference for every plate · prompts and hashes recorded beside each render.</p>
+<div class='progress'><span style='width:29.7%'></span></div>
 </header>
 <h2>Manga panel</h2>
 <section class='style'>
@@ -118,28 +118,28 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Charcoal drawing</h3>
 <p class='medium'>Vine and compressed charcoal on toned paper: smudged soft masses, dragged and lifted highlights with a kneaded eraser, sharp compressed-charcoal accents, dusty halos around the darks, a few white chalk touches.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
-<figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
-<figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
+<figure><img src='renders/charcoal-drawing-v01.png' alt='Charcoal drawing version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/charcoal-drawing-v02.png' alt='Charcoal drawing version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
+<figure><img src='renders/charcoal-drawing-v03.png' alt='Charcoal drawing version 3' loading='lazy'><figcaption><b>v3</b> · re-framed</figcaption></figure>
+<figure><img src='renders/charcoal-drawing-v04.png' alt='Charcoal drawing version 4' loading='lazy'><figcaption><b>v4</b> · material-extreme</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>Soft pastel</h3>
 <p class='medium'>Soft pastel on tinted pastel paper: powdery blended passages, sticks laid on their side for broad strokes, crisp edges cut with the tip, the paper&#x27;s colour breathing through the gaps, velvety luminous light.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
-<figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
-<figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
+<figure><img src='renders/soft-pastel-v01.png' alt='Soft pastel version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/soft-pastel-v02.png' alt='Soft pastel version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
+<figure><img src='renders/soft-pastel-v03.png' alt='Soft pastel version 3' loading='lazy'><figcaption><b>v3</b> · re-framed</figcaption></figure>
+<figure><img src='renders/soft-pastel-v04.png' alt='Soft pastel version 4' loading='lazy'><figcaption><b>v4</b> · material-extreme</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>Paper collage</h3>
 <p class='medium'>Cut-paper collage: shapes torn and scissor-cut from coloured and printed paper, layered with visible edges and soft drop shadows, misregistered overlaps, a few halftone and map fragments, glue sheen, no drawn line where paper can do the work.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
+<figure><img src='renders/paper-collage-v01.png' alt='Paper collage version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
 <figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
-<figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
-<figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
+<figure><img src='renders/paper-collage-v03.png' alt='Paper collage version 3' loading='lazy'><figcaption><b>v3</b> · re-framed</figcaption></figure>
+<figure><img src='renders/paper-collage-v04.png' alt='Paper collage version 4' loading='lazy'><figcaption><b>v4</b> · material-extreme</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>Acrylic painting</h3>
@@ -182,7 +182,7 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Woodblock-inspired print</h3>
 <p class='medium'>Woodblock print: flat areas of unmodulated colour from separate blocks, a firm keyblock outline that thins and swells, visible woodgrain and goma-zuri speckle, bleed of the water-based ink into the paper edge, a small registry margin.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
+<figure><img src='renders/woodblock-inspired-print-v01.png' alt='Woodblock-inspired print version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
 <figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
 <figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
 <figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
@@ -191,10 +191,10 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Ukiyo-e</h3>
 <p class='medium'>Ukiyo-e woodblock print in the manner of the floating world: elegant flowing keyblock line, flat Prussian-blue and beni-e reds with bokashi sky gradation, patterned textile detail, a cartouche panel left empty, the figure stylised to the kanzōshi silhouette.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
-<figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
-<figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
+<figure><img src='renders/ukiyo-e-v01.png' alt='Ukiyo-e version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/ukiyo-e-v02.png' alt='Ukiyo-e version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
+<figure><img src='renders/ukiyo-e-v03.png' alt='Ukiyo-e version 3' loading='lazy'><figcaption><b>v3</b> · re-framed</figcaption></figure>
+<figure><img src='renders/ukiyo-e-v04.png' alt='Ukiyo-e version 4' loading='lazy'><figcaption><b>v4</b> · material-extreme</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>Pictorialist photography</h3>
@@ -249,17 +249,17 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Persian manuscript painting</h3>
 <p class='medium'>Persian manuscript painting: flattened tilted ground, mineral pigments — lapis, vermilion, gold — fine brush outlines, stylised cloud bands and blossoming trees, a carpet-like field of pattern, gold-flecked margin, no cast shadow.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
-<figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
+<figure><img src='renders/persian-manuscript-painting-v01.png' alt='Persian manuscript painting version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/persian-manuscript-painting-v02.png' alt='Persian manuscript painting version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
+<figure><img src='renders/persian-manuscript-painting-v03.png' alt='Persian manuscript painting version 3' loading='lazy'><figcaption><b>v3</b> · re-framed</figcaption></figure>
 <figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>Byzantine-inspired mosaic</h3>
 <p class='medium'>Byzantine mosaic: tesserae of glass and stone set in mortar, gold-ground field, frontal hieratic placement, dark contour lines around forms, grout lines visible between every tile, slight irregular setting, a shallow banded border.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
+<figure><img src='renders/byzantine-mosaic-v01.png' alt='Byzantine-inspired mosaic version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/byzantine-mosaic-v02.png' alt='Byzantine-inspired mosaic version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
 <figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
 <figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
 </div></section>
@@ -267,10 +267,10 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Stained glass</h3>
 <p class='medium'>Stained glass window: thick lead cames dividing the image into jewel-coloured panes, cathedral reds, cobalt and amber, painted grisaille detail fired onto the glass, bubbles and streaks in the glass, backlit with light pouring through.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
-<figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
-<figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
+<figure><img src='renders/stained-glass-v01.png' alt='Stained glass version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/stained-glass-v02.png' alt='Stained glass version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
+<figure><img src='renders/stained-glass-v03.png' alt='Stained glass version 3' loading='lazy'><figcaption><b>v3</b> · re-framed</figcaption></figure>
+<figure><img src='renders/stained-glass-v04.png' alt='Stained glass version 4' loading='lazy'><figcaption><b>v4</b> · material-extreme</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>Ancient Egyptian wall painting</h3>
@@ -307,8 +307,8 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Art Nouveau</h3>
 <p class='medium'>Art Nouveau poster and panel: whiplash sinuous contour, a heavy decorative outline, muted sage-olive and dusty violet with gold accents, hair and drapery resolved into ornamental tendrils, stylised foliage framing the figure, flat colour inside the line, lithographic texture.</p>
 <div class='grid'>
-<figure><div class='slot'>v1<br>canonical</div><figcaption><b>v1</b> · pending</figcaption></figure>
-<figure><div class='slot'>v2<br>re-keyed</div><figcaption><b>v2</b> · pending</figcaption></figure>
+<figure><img src='renders/art-nouveau-v01.png' alt='Art Nouveau version 1' loading='lazy'><figcaption><b>v1</b> · canonical</figcaption></figure>
+<figure><img src='renders/art-nouveau-v02.png' alt='Art Nouveau version 2' loading='lazy'><figcaption><b>v2</b> · re-keyed</figcaption></figure>
 <figure><div class='slot'>v3<br>re-framed</div><figcaption><b>v3</b> · pending</figcaption></figure>
 <figure><div class='slot'>v4<br>material-extreme</div><figcaption><b>v4</b> · pending</figcaption></figure>
 </div></section>
@@ -785,19 +785,19 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-top:18px;
 <h3>Dreamcast / Dead or Alive era 3D</h3>
 <p class='medium'>Late-1990s arcade 3D at Dead or Alive fidelity: around 10k polygons, smooth skinned character mesh, per-vertex lighting, 512px textures, hair as alpha-mapped cards, a glossy specular sheen, simple shadow blob on the floor.</p>
 <div class='grid solo'>
-<figure><div class='slot'>v1<br>single study</div><figcaption><b>v1</b> · pending</figcaption></figure>
+<figure><img src='renders/doa-era-3d-v01.png' alt='Dreamcast / Dead or Alive era 3D version 1' loading='lazy'><figcaption><b>v1</b> · single study</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>PS3 / PS4 era 3D</h3>
 <p class='medium'>2010s console real-time 3D: 50-100k polygon character, normal and specular maps, physically based-ish shading, baked ambient occlusion, cloth and hair simulation, bloom and depth of field, a fully modelled environment.</p>
 <div class='grid solo'>
-<figure><div class='slot'>v1<br>single study</div><figcaption><b>v1</b> · pending</figcaption></figure>
+<figure><img src='renders/ps3-ps4-era-3d-v01.png' alt='PS3 / PS4 era 3D version 1' loading='lazy'><figcaption><b>v1</b> · single study</figcaption></figure>
 </div></section>
 <section class='style'>
 <h3>PS5 era 3D with ray tracing</h3>
 <p class='medium'>Current-generation real-time 3D with ray tracing: path-traced reflections in wet stone and puddles, accurate global illumination bounce, subsurface skin scattering, strand-groom hair, volumetric light shafts, filmic tone mapping, photoreal materials at 4K detail.</p>
 <div class='grid solo'>
-<figure><div class='slot'>v1<br>single study</div><figcaption><b>v1</b> · pending</figcaption></figure>
+<figure><img src='renders/ps5-era-raytracing-v01.png' alt='PS5 era 3D with ray tracing version 1' loading='lazy'><figcaption><b>v1</b> · single study</figcaption></figure>
 </div></section>
 <footer>Pose: reference supplied 2026-11-24, archived at scratchpad/originals/pose-reference.png. Identity: characters/arm/character_sheet.png and characters/arm/continuity.yaml. Machine-readable record: plates.json. Generated with the Seedream image model; each render's prompt, reference hash and image hash sit beside the file.</footer>
 </div></body></html>

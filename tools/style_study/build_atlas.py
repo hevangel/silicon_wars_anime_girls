@@ -132,10 +132,10 @@ h2{font-size:13px;font-family:system-ui,sans-serif;text-transform:uppercase;
 .style{margin:34px 0 0}
 .style h3{font-size:22px;margin:0 0 2px;font-weight:600}
 .style .medium{color:var(--muted);font-size:14px;margin:0 0 14px;max-width:86ch}
-.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.grid.solo{grid-template-columns:repeat(3,1fr)}
-figure{margin:0}
-figure img{width:100%;display:block;border:1px solid #d8d1c2;background:#fff}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.grid.solo{grid-template-columns:repeat(3,minmax(0,1fr))}
+figure{margin:0;min-width:0}
+figure img{width:100%;height:auto;display:block;border:1px solid #d8d1c2;background:#fff}
 .slot{aspect-ratio:2/3;border:1px dashed #c3bbab;display:flex;align-items:center;
  justify-content:center;text-align:center;padding:12px;color:#9b9384;
  font:12px/1.5 system-ui,sans-serif}

@@ -1,0 +1,213 @@
+/* Arm in Every Style — course atlas
+   Editorial syllabus layout: fixed lesson rail, one lesson per view. */
+
+:root {
+  --paper: #f5f2ea;
+  --paper-2: #eee9dd;
+  --ink: #191713;
+  --ink-2: #4a453c;
+  --muted: #7d7669;
+  --rule: #d8d1c1;
+  --accent: #b04a2d;
+  --accent-2: #1f6b78;
+  --rail: 296px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 17px/1.62 "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent-2); text-decoration: none; border-bottom: 1px solid rgba(31,107,120,.35); }
+a:hover { border-bottom-color: var(--accent-2); }
+
+.shell { display: flex; min-height: 100vh; }
+
+/* ---------------------------------------------------------------- rail --- */
+.rail {
+  width: var(--rail);
+  flex: 0 0 var(--rail);
+  border-right: 1px solid var(--rule);
+  padding: 34px 26px 40px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background: linear-gradient(180deg, #f7f4ed, var(--paper));
+}
+
+.brand { font: 600 11px/1.4 system-ui, sans-serif; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
+.brand-title { font-size: 26px; line-height: 1.1; margin: 0 0 10px; letter-spacing: -.01em; }
+.brand-sub { font: 12px/1.5 system-ui, sans-serif; color: var(--muted); margin: 0 0 22px; }
+.brand-sub b { color: var(--ink-2); font-weight: 600; }
+
+.meter { margin: 0 0 26px; }
+.meter-bar { height: 3px; background: #ddd6c6; position: relative; }
+.meter-bar span { position: absolute; inset: 0 auto 0 0; background: var(--accent); }
+.meter-label { display: flex; justify-content: space-between;
+  font: 11px/1.4 system-ui, sans-serif; color: var(--muted); margin-top: 7px;
+  letter-spacing: .04em; }
+.meter-label b { color: var(--ink); font-weight: 600; }
+
+.nav-h { font: 600 10px/1.4 system-ui, sans-serif; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+
+ol.lessons { list-style: none; margin: 0; padding: 0; }
+ol.lessons li { border-top: 1px solid transparent; }
+ol.lessons a {
+  display: grid; grid-template-columns: 24px 1fr auto; gap: 8px;
+  padding: 8px 4px 8px 0; border: 0; color: var(--ink-2); font-size: 14.5px;
+  line-height: 1.35; align-items: baseline;
+}
+ol.lessons a:hover { color: var(--ink); }
+ol.lessons .num { font: 11px/1.4 system-ui, sans-serif; color: var(--muted);
+  letter-spacing: .06em; }
+ol.lessons .tick { font: 10px/1 system-ui, sans-serif; color: var(--accent); opacity: 0; }
+ol.lessons li.done .tick { opacity: 1; }
+ol.lessons li.active a { color: var(--accent); font-weight: 600; }
+ol.lessons li.active .num { color: var(--accent); }
+
+.rail-foot { margin-top: 30px; padding-top: 16px; border-top: 1px solid var(--rule);
+  font: 11px/1.6 system-ui, sans-serif; color: var(--muted); }
+.rail-foot b { color: var(--ink-2); }
+
+/* ---------------------------------------------------------------- main --- */
+main { flex: 1 1 auto; min-width: 0; }
+.page { max-width: 940px; margin: 0 auto; padding: 64px 48px 120px; }
+
+.kicker { font: 600 11px/1.4 system-ui, sans-serif; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--accent); margin: 0 0 16px; }
+
+h1 { font-size: clamp(34px, 4.4vw, 52px); line-height: 1.04; letter-spacing: -.02em;
+  margin: 0 0 18px; font-weight: 400; }
+h1 .n { color: var(--accent-2); font-size: .42em; letter-spacing: .04em;
+  margin-right: .28em; vertical-align: .55em; font-variant-numeric: tabular-nums; }
+
+.lead { font-size: 21px; line-height: 1.45; color: var(--ink-2); margin: 0 0 26px;
+  max-width: 44ch; }
+
+.meta-row { display: flex; flex-wrap: wrap; gap: 18px; padding: 12px 0 0;
+  border-top: 1px solid var(--rule); font: 12px/1.4 system-ui, sans-serif;
+  color: var(--muted); letter-spacing: .05em; text-transform: uppercase; }
+.meta-row b { color: var(--ink); font-weight: 600; }
+
+.prose { margin: 34px 0 0; }
+.prose p { margin: 0 0 20px; max-width: 68ch; }
+
+/* axes (lesson 00) */
+.axes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; margin: 34px 0 0; }
+.axis { border: 1px solid var(--rule); padding: 18px 18px 16px; background: #faf8f2; }
+.axis h4 { margin: 0 0 6px; font: 600 11px/1.4 system-ui, sans-serif;
+  letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.axis p { margin: 0; font-size: 15px; color: var(--ink-2); }
+
+.identity { margin: 26px 0 0; border: 1px solid var(--rule); background: #fff; }
+.identity img { width: 100%; display: block; }
+.identity figcaption { font: 12px/1.5 system-ui, sans-serif; color: var(--muted);
+  padding: 10px 14px; border-top: 1px solid var(--rule); }
+
+/* --------------------------------------------------------------- styles --- */
+.styles { margin: 54px 0 0; }
+.styles > h2 { font: 600 11px/1.4 system-ui, sans-serif; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.styles > h2 + p { margin: 0 0 8px; color: var(--muted); font-size: 15px; }
+
+.style { padding: 30px 0 34px; border-top: 1px solid var(--rule); }
+.style-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.style-ix { font: 11px/1 system-ui, sans-serif; color: var(--muted); letter-spacing: .1em;
+  min-width: 40px; }
+.style h3 { font-size: 25px; font-weight: 400; margin: 0; letter-spacing: -.01em; }
+.chip { font: 10px/1 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--rule); padding: 4px 7px; border-radius: 2px; }
+.chip.pose { color: var(--accent-2); border-color: rgba(31,107,120,.35); }
+.chip.lang { color: var(--accent); border-color: rgba(176,74,45,.35); }
+
+.style .medium { margin: 12px 0 18px; color: var(--ink-2); font-size: 15.5px;
+  max-width: 74ch; }
+
+.plates { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+/* a style with a single plate should not sit in a quarter-width column */
+.plates:has(> .plate:only-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.plate { margin: 0; min-width: 0; }
+.plate button { all: unset; cursor: zoom-in; display: block; width: 100%; }
+.plate img { width: 100%; height: auto; display: block; background: #fff;
+  border: 1px solid var(--rule); }
+.plate .cap { font: 10.5px/1.4 system-ui, sans-serif; color: var(--muted); margin-top: 6px;
+  letter-spacing: .04em; }
+.plate .cap b { color: var(--ink-2); font-weight: 600; }
+.slot { aspect-ratio: 2 / 3; border: 1px dashed #cdc5b3; background: #f2eee4;
+  display: flex; align-items: center; justify-content: center; text-align: center;
+  font: 10.5px/1.5 system-ui, sans-serif; color: #9e9685; padding: 10px; }
+
+.style-links { margin: 14px 0 0; font: 12px/1.6 system-ui, sans-serif; color: var(--muted);
+  display: flex; gap: 16px; flex-wrap: wrap; }
+.style-links a { border-bottom-style: dotted; }
+
+/* ------------------------------------------------------------- lesson end --- */
+.takeaway { margin: 46px 0 0; padding: 22px 24px; background: #fbf8f1;
+  border-left: 3px solid var(--accent); }
+.takeaway p { margin: 0; font-size: 19px; line-height: 1.45; }
+.takeaway span { display: block; font: 600 10px/1.4 system-ui, sans-serif;
+  letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+
+.resources { margin: 34px 0 0; }
+.resources h4 { font: 600 10px/1.4 system-ui, sans-serif; letter-spacing: .18em;
+  text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+.resources ul { margin: 0; padding: 0; list-style: none; font-size: 15px; }
+.resources li { padding: 6px 0; border-bottom: 1px solid var(--rule); }
+.resources li:last-child { border-bottom: 0; }
+
+.pager { display: flex; justify-content: space-between; gap: 20px; margin: 56px 0 0;
+  padding-top: 20px; border-top: 1px solid var(--rule);
+  font: 12px/1.5 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
+.pager a { border: 0; color: var(--ink-2); }
+.pager a:hover { color: var(--accent); }
+.pager .dir { display: block; color: var(--muted); font-size: 10px; letter-spacing: .18em;
+  margin-bottom: 3px; }
+
+footer.colophon { margin: 64px 0 0; padding: 22px 0 0; border-top: 1px solid var(--rule);
+  font: 11.5px/1.75 system-ui, sans-serif; color: var(--muted); }
+footer.colophon b { color: var(--ink-2); }
+
+/* ------------------------------------------------------------- lightbox --- */
+.lightbox { position: fixed; inset: 0; background: rgba(18,16,13,.972); z-index: 50;
+  display: grid; grid-template-rows: 1fr auto; padding: 28px; }
+.lightbox[hidden] { display: none; }
+.lightbox figure { margin: 0; display: grid; place-items: center; min-height: 0; }
+.lightbox img { max-width: min(92vw, 900px); max-height: 78vh; display: block;
+  background: #fff; }
+.lightbox figcaption { color: #efe9dc; font: 13px/1.6 system-ui, sans-serif;
+  max-width: 900px; margin: 0 auto; padding-top: 14px; }
+.lightbox figcaption b { color: #fff; }
+.lightbox .close { position: absolute; top: 14px; right: 20px; background: none;
+  border: 0; color: #efe9dc; font-size: 30px; line-height: 1; cursor: pointer; }
+.lightbox .nav { position: absolute; top: 50%; transform: translateY(-50%);
+  background: none; border: 0; color: #efe9dc; font-size: 34px; cursor: pointer;
+  padding: 12px; opacity: .55; }
+.lightbox .nav:hover { opacity: 1; }
+.lightbox .prev { left: 8px; } .lightbox .next { right: 8px; }
+
+/* -------------------------------------------------------------- responsive */
+@media (max-width: 1080px) {
+  .plates { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+  .shell { display: block; }
+  .rail { position: relative; width: auto; height: auto; border-right: 0;
+    border-bottom: 1px solid var(--rule); }
+  ol.lessons { display: flex; gap: 4px; overflow-x: auto; padding-bottom: 6px; }
+  ol.lessons li { flex: 0 0 auto; }
+  ol.lessons a { grid-template-columns: auto auto; white-space: nowrap;
+    border: 1px solid var(--rule); padding: 7px 10px; }
+  .page { padding: 40px 22px 90px; }
+  .axes { grid-template-columns: 1fr; }
+  .lead { font-size: 19px; }
+}

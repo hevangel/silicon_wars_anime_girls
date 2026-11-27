@@ -43,7 +43,7 @@
 - [x] `charcoal-drawing-v01` — Charcoal drawing (1/4, canonical)
 - [x] `charcoal-drawing-v02` — Charcoal drawing (2/4, re-keyed)
 - [x] `charcoal-drawing-v03` — Charcoal drawing (3/4, re-framed)
-- [ ] `charcoal-drawing-v04` — Charcoal drawing (4/4, material-extreme)
+- [x] `charcoal-drawing-v04` — Charcoal drawing (4/4, material-extreme)
 - [x] `soft-pastel-v01` — Soft pastel (1/4, canonical)
 - [x] `soft-pastel-v02` — Soft pastel (2/4, re-keyed)
 - [x] `soft-pastel-v03` — Soft pastel (3/4, re-framed)
@@ -61,7 +61,7 @@
 
 ## Prints, photographs, and camera vision
 
-- [ ] `woodblock-inspired-print-v01` — Woodblock-inspired print (1/4, canonical)
+- [x] `woodblock-inspired-print-v01` — Woodblock-inspired print (1/4, canonical)
 - [ ] `woodblock-inspired-print-v02` — Woodblock-inspired print (2/4, re-keyed)
 - [ ] `woodblock-inspired-print-v03` — Woodblock-inspired print (3/4, re-framed)
 - [ ] `woodblock-inspired-print-v04` — Woodblock-inspired print (4/4, material-extreme)
@@ -101,7 +101,7 @@
 ## Pattern, craft, and objects
 
 - [x] `art-nouveau-v01` — Art Nouveau (1/4, canonical)
-- [ ] `art-nouveau-v02` — Art Nouveau (2/4, re-keyed)
+- [x] `art-nouveau-v02` — Art Nouveau (2/4, re-keyed)
 - [ ] `art-nouveau-v03` — Art Nouveau (3/4, re-framed)
 - [ ] `art-nouveau-v04` — Art Nouveau (4/4, material-extreme)
 - [ ] `mithila-painting-v01` — Mithila painting (1/1, single study)
