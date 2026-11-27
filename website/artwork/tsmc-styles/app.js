@@ -66,6 +66,7 @@ let activeClass = "";
 function renderFilters() {
   const bar = $("#classFilters");
   if (!bar || !DATA.meta.categories) return;
+  bar.innerHTML = ""; // re-rendered on every click to refresh the active chip
   const counts = {};
   DATA.lessons.forEach(l => l.styles.forEach(s => (s.classes || []).forEach(c => {
     counts[c] = (counts[c] || 0) + 1;
