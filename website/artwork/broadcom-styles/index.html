@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1ea">
+  <meta name="description" content="A beginner's field guide to 105 art styles and 40 years of video game graphics, taught through one constant walk with Broadcom.">
+  <title>Broadcom: One Walk, 105 Styles (Gemini) — Silicon Wars</title>
+  <link rel="icon" href="../../comics/chip.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="broadcom-styles.css">
+</head>
+<body class="broadcom-guide">
+  <a class="skip-link" href="#main">Skip to style chapters</a>
+
+  <header class="site-bar">
+    <div class="site-bar__inner">
+      <a class="brand" href="../../../">
+        <img src="../../comics/chip.svg" width="24" height="24" alt="">
+        <span>Silicon Wars</span>
+      </a>
+      <nav class="site-bar__nav" aria-label="Breadcrumb">
+        <a href="../">← Artwork</a>
+        <button type="button" id="themeToggle" class="pill-btn" aria-pressed="false">Dark gallery</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="eyebrow">Field Guide · Gemini · 9 Chapters · 105 Styles · 219 Plates</p>
+        <h1 id="hero-title">One Walk, <span>105 Styles.</span></h1>
+        <p class="hero__lead">
+          When you are just starting to study art, comparing a watercolor landscape with an oil portrait is tough because the subjects are different. Here, <strong>Broadcom</strong> takes the exact same autumn stroll past a boutique window with a coffee cup in every single plate—so every difference you see comes purely from medium, light, line, and history.
+        </p>
+
+        <div class="variant-legend" aria-label="How the 4-variant studies work">
+          <h2>How to read the 4-variant styles</h2>
+          <p class="legend-sub">Thirty-eight core styles include four plates to show how one medium adapts:</p>
+          <ol class="legend-grid">
+            <li><span class="badge">1 · Daylight</span> Full-figure textbook baseline in clear autumn light.</li>
+            <li><span class="badge">2 · Rain / Mood</span> Same scene shifted into rain, twilight, or cooler reflections.</li>
+            <li><span class="badge">3 · Close-up</span> Cropped waist-up view so you can inspect brush grain and ink weight.</li>
+            <li><span class="badge">4 · Material</span> The physical quirks—paper tooth, ink bleed, or impasto—turned up high.</li>
+          </ol>
+        </div>
+      </div>
+
+      <aside class="hero__anchors" aria-label="Constant reference images">
+        <figure class="anchor-card">
+          <img src="images/ref-character-sheet.webp" width="1100" height="754" alt="Broadcom official character turnaround sheet showing her braided updo, gold fiber-connector hairpins, rectangular glasses, black-plum brocade jacket, and wine-red pleated skirt.">
+          <figcaption><strong>Reference 1 · Character Sheet</strong> — Her braided hairpins, glasses, plum brocade jacket, pulse clasp, and wine-red skirt stay fixed.</figcaption>
+        </figure>
+        <figure class="anchor-card anchor-card--portrait">
+          <img src="images/ref-baseline-walk.webp" width="780" height="780" alt="Broadcom walking right past an autumn boutique shop window holding a steaming coffee cup and leather shoulder bag.">
+          <figcaption><strong>Reference 2 · Constant Staging</strong> — Walking past the boutique window with coffee, shoulder bag, and autumn leaves.</figcaption>
+        </figure>
+      </aside>
+    </section>
+
+    <section class="controls" aria-label="Browse and filter styles">
+      <div class="controls__row">
+        <label class="search-box" for="searchInput">
+          <span class="sr-only">Search styles, tools, or eras</span>
+          <input id="searchInput" type="search" placeholder="Search styles (e.g. impasto, gold, 8-bit, etching, rain)…">
+        </label>
+        <div class="filter-group" role="group" aria-label="Filter by plate count">
+          <button type="button" class="filter-btn is-active" data-filter="all">All 105</button>
+          <button type="button" class="filter-btn" data-filter="4">4-Variant Deep Dives (38)</button>
+          <button type="button" class="filter-btn" data-filter="1">Single Studies (67)</button>
+        </div>
+        <button type="button" id="openCompareBtn" class="compare-launch" disabled>
+          Compare (<span id="compareCount">0</span>/2)
+        </button>
+      </div>
+      <nav class="chapter-nav" id="chapterNav" aria-label="Jump to chapter"></nav>
+      <p class="status-line" id="statusLine" aria-live="polite"></p>
+    </section>
+
+    <div id="catalogRoot" class="catalog"></div>
+  </main>
+
+  <dialog id="studyDialog" class="modal study-modal" aria-labelledby="studyTitle">
+    <div class="modal__shell">
+      <header class="modal__head">
+        <div>
+          <p class="modal__kicker" id="studyChapter"></p>
+          <h2 id="studyTitle"></h2>
+        </div>
+        <div class="modal__nav">
+          <button type="button" id="prevStyleBtn" class="icon-btn" title="Previous style (←)">← Prev</button>
+          <button type="button" id="nextStyleBtn" class="icon-btn" title="Next style (→)">Next →</button>
+          <button type="button" id="closeStudyBtn" class="icon-btn icon-btn--close" aria-label="Close study dialog">✕</button>
+        </div>
+      </header>
+      <div class="study-modal__body">
+        <div class="study-modal__stage">
+          <img id="studyImg" src="" alt="">
+          <div id="studyVariants" class="variant-tabs" role="tablist" aria-label="Select plate variant"></div>
+          <p id="studyVariantNote" class="variant-note"></p>
+        </div>
+        <div class="study-modal__lesson">
+          <p class="lesson-era" id="studyEra"></p>
+          <p class="lesson-hook" id="studyHook"></p>
+          <section class="lesson-block">
+            <h3>How It Works</h3>
+            <p id="studyHow"></p>
+          </section>
+          <section class="lesson-block">
+            <h3>What to Look For in This Picture</h3>
+            <ul id="studyLookFor"></ul>
+          </section>
+          <section class="lesson-block lesson-block--tip">
+            <h3>Beginner's Eye Exercise</h3>
+            <p id="studyTryIt"></p>
+          </section>
+          <div class="lesson-tags" id="studyTags"></div>
+          <div class="lesson-actions">
+            <button type="button" id="studyCompareBtn" class="pill-btn">Pin to Compare</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog id="compareDialog" class="modal compare-modal" aria-labelledby="compareHeading">
+    <div class="modal__shell">
+      <header class="modal__head">
+        <div>
+          <p class="modal__kicker">Side-by-Side Visual Comparison</p>
+          <h2 id="compareHeading">Spot the Medium's Fingerprint</h2>
+        </div>
+        <div class="modal__nav">
+          <button type="button" id="clearCompareBtn" class="icon-btn">Clear</button>
+          <button type="button" id="closeCompareBtn" class="icon-btn icon-btn--close" aria-label="Close comparison dialog">✕</button>
+        </div>
+      </header>
+      <div id="compareGrid" class="compare-grid"></div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <p>Broadcom: One Walk, 105 Styles · Fictional fan art unaffiliated with the companies depicted · Silicon Wars</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
