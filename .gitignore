@@ -2,4 +2,5 @@
 .venv/
 tmp/
 .playwright-cli/
+.playwright-mcp/
 
