@@ -1,0 +1,7 @@
+id: pilot-001-multiplane_2_5d
+visual: {art_style: default_manga}
+animation: {technique: multiplane_2_5d}
+delivery: {format: browser_preview, fps: 24}
+source: chapters/pilot-001/video/multiplane_2_5d/scene.json
+entrypoint: chapters/pilot-001/video/multiplane_2_5d/preview.html
+production_status: exploratory

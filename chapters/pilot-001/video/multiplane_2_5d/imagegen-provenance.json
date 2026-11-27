@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "issue": 76,
+  "kind": "AI-generated multi-plane concept board",
+  "generation_id": "72b565c8-0e03-4c7f-8817-d98c562fee9d",
+  "original_png": "silicon_wars_multiplane_parallax_board.png",
+  "original_dimensions": [
+    1672,
+    941
+  ],
+  "committed_preview": "polished-board-preview.webp",
+  "preview_dimensions": [
+    240,
+    135
+  ],
+  "preview_sha256": "c4e6af071aa327f83ab03640a97a14f46977401133b60500ab002393785d7c7d",
+  "editable_alpha_separated_planes": false,
+  "blender_export": false,
+  "human_review": "pending"
+}

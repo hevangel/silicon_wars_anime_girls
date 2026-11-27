@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "issue": 76,
+  "technique": "multiplane_2_5d",
+  "visual": "default_manga",
+  "fps": 24,
+  "delivery": "browser_live_preview",
+  "review_status": "human_review_pending",
+  "stages": [
+    {
+      "id": "s1",
+      "description": "Citadel approach",
+      "start_frame": 0,
+      "end_frame": 48
+    },
+    {
+      "id": "s2",
+      "description": "Foreground arch",
+      "start_frame": 48,
+      "end_frame": 96
+    },
+    {
+      "id": "s3",
+      "description": "Character reveal",
+      "start_frame": 96,
+      "end_frame": 144
+    }
+  ],
+  "source_provenance": "original_programmatic_vector_art",
+  "output_video": null,
+  "limitations": "three original vector plates with individual depths; actual manga artwork not yet cut and repainted"
+}
