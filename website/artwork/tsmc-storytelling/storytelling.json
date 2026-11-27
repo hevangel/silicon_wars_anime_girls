@@ -4730,7 +4730,7 @@
      "learn": "The classic four-beat sequence — establisher, initial, peak, release — is the skeleton of visual narrative grammar. The peak, the falling cup, only reads as an accident because the establisher showed the cup safe at the table's edge and the release shows the cost.",
      "observe": [
       "Frame one plants the cause: the cup rests near the edge of the table while she reads, absorbed.",
-      "Her elbow nudges the cup; then the cup falls and the tea arcs down — the peak is the one frame that could not be still.",
+      "The second frame never shows the nudge itself: the cup already lies tipped on its saucer, tea spilled across it, while her hands stay on the book and her eyes stay on the page — the cause happens in the gutter between frames, and you supply it.",
       "The release lands on consequences: spilled tea, the intact cup on the floor, and her looking at the result."
      ],
      "meaning": "Cause, climax and consequence, dealt out one frame at a time, let readers reconstruct an event they never saw whole.",
@@ -4763,8 +4763,14 @@
        "cue": "elbow nudges cup",
        "control": "C00",
        "sequence_order": 2,
-       "status": "pending",
-       "alt": "Pending plate — TSMC, Initial: elbow nudges cup"
+       "src": "art/l18/l18-g01/2.webp",
+       "thumb": "art/l18/l18-g01/t2.webp",
+       "status": "accepted",
+       "alt": "TSMC — Initial: elbow nudges cup",
+       "prompt": "Preserve canonical adult TSMC (Quiet Queenmaker): ash-silver chin-length bob and blunt bangs, amber eyes, thin round silver glasses, single wafer-die hairpin with short wine-red tassel, pearl-white high-collar die-grid tunic and skirt, narrow wine-red piping and sash, slim silver belt, lowered surgical mask, white gloves, loupe on silver chain, pearl ankle boots when visible. Match the neutral digital-painting rendering of Part 2. Do not redesign face, age, costume, palette, or proportions. No watermarks, captions, labels, panels, or added lettering unless the specified visual sign explicitly requires it. Single image only.\nUse approved control C00 as primary composition reference. Fixed camera and identical cup; no lettering. Depict Initial: elbow nudges cup. Keep all unrelated variables as close to the approved control as possible. Match the control aspect ratio and framing unless the lesson explicitly permits a cut. For sequence frames, preserve the same characters, props and spatial continuity across the group. Still reading, she shifts in her chair and her elbow visibly bumps the cup resting at the table edge; the cup tilts and tea sloshes at its rim, about to fall. Clear physical contact between elbow and cup. Both of her hands hold the open book in her lap; she holds no cup. Her ELBOW — not her hand — brushes the white cup on its saucer at the table edge; the cup tips only slightly, a small slosh of tea at its rim, nothing spilled yet. The latte glass elsewhere on the table stays untouched. Composition: her forearm rests flat on the table surface beside the cup; as she shifts in her chair the forearm slides sideways and its side visibly presses against the cup, which tips a few degrees toward the edge, tea sloshing at the rim, nothing spilled.",
+       "w": 1200,
+       "h": 905,
+       "note": "Accepted with deviation (Horace, 2026-11-27 — accept take 6 with honest copy): after six takes the generator never rendered the elbow-to-cup contact itself; take 6 shows the moment just after — her hands stay on the open book, her eyes stay on the page, and the cup already lies tipped on its saucer with the tea spilled onto the saucer. Published as the Initial frame with copy that describes what is actually visible; the contact itself happens between frames."
       },
       {
        "job": "l18-g01-v03",
@@ -6775,8 +6781,8 @@
   }
  ],
  "coverage": {
-  "study_accepted": 312,
-  "study_pending": 1,
+  "study_accepted": 313,
+  "study_pending": 0,
   "reuse_slots": 20,
   "study_total": 333,
   "groups": 80,
