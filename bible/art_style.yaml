@@ -58,3 +58,44 @@ style_system:
         - simplify costume details but keep major motifs
         - use exaggerated expressions
         - avoid realistic anatomy
+
+    loose_ink_fashion:
+      description: "Japanese editorial fashion illustration with gestural ink and selective watercolor-like washes."
+      proportions:
+        head_to_body_ratio: "1:7 to 1:8 for adult characters; preserve age and build"
+        limbs: "elegant, elongated without losing character-specific anatomy"
+        hands_feet: "readable, selectively detailed"
+      rendering:
+        line_style: "thin, variable, overlapping and deliberately incomplete black pen contours"
+        shading: "irregular flat washes, selective color blocks, white paper gaps, occasional color outside contours"
+        detail_level: "selective; simplify incidental detail rather than identity anchors"
+      expression_rules:
+        exaggeration: "low; delicate minimalist anime faces"
+      pose_rules:
+        style: "relaxed asymmetrical editorial fashion poses, natural gestures"
+      tone: "airy, sophisticated, cozy, sketchbook-like"
+      rules:
+        - preserve canonical hair, eyes, body build, silhouette and signature motifs
+        - use generous white negative space and sparse abstract color accents
+        - avoid polished cel shading, glossy gradients, uniform outlines and fully rendered backgrounds
+
+    polished_anime_key_art:
+      description: "High-finish modern anime promotional illustration; deliberate contrast to loose_ink_fashion (anti-style)."
+      proportions:
+        head_to_body_ratio: "canonical proportions; preserve age and build"
+        limbs: "natural anime anatomy with precise silhouettes"
+        hands_feet: "fully drawn"
+      rendering:
+        line_style: "clean, controlled, continuous tapered digital contours"
+        shading: "crisp cel shadows with controlled soft gradients, specular highlights and rim light"
+        detail_level: "high; finished materials and coherent environmental detail"
+      expression_rules:
+        exaggeration: "moderate; clear polished anime facial features"
+      pose_rules:
+        style: "confident promotional poses; match pose when comparing styles"
+      tone: "vibrant, cinematic, contemporary commercial key art"
+      rules:
+        - preserve canonical identity and all signature costume motifs
+        - use saturated character-specific accents and fully filled color regions
+        - use coherent directional lighting and a designed environment
+        - avoid broken sketch contours, unpainted gaps, accidental color bleed and loose watercolor washes

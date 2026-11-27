@@ -1,0 +1,17 @@
+Silicon Wars prompt template — style variant: polished_anime_key_art
+
+Assemble from identity, style and scene blocks. Load the canonical character continuity.yaml and model sheet first; reference images for the style must not override identity.
+
+[BASE IDENTITY BLOCK]
+Draw {{NAME}} from Silicon Wars. Preserve {{IDENTITY}} (persona: {{PERSONALITY}}; signature prop / power: {{SIGNATURE_PROP}}).
+
+[STYLE BLOCK — polished_anime_key_art]
+High-finish contemporary anime promotional illustration, controlled continuous tapered digital linework, carefully drawn hair and anatomy, fully filled colors, crisp cel shadows with controlled soft gradients, coherent directional light, selective rim light and specular accents, saturated character-specific color palette, carefully rendered cloth and metal, well-designed corporate or technology setting if appropriate to the scene, clean perspective, strong silhouette and clear visual hierarchy. Keep the character canonical. Not photorealistic or 3D.
+
+[NEGATIVE STYLE BLOCK]
+Loose gestural sketch lines, repeated searching contours, watercolor bleed, unpainted color gaps, flat abstract blobs replacing the scene, unfinished fabric, accidental tangents, incoherent lighting, excessive bloom, clutter.
+
+[SCENE BLOCK]
+{{POSE, EXPRESSION, CAMERA, ENVIRONMENT for this panel or asset}}
+
+For a paired comparison, reuse the exact identity, outfit, pose, framing, expression and scene content across the two styles. Change only rendering and environment detail, not the underlying scene. Keep lettering separate. No invented logos or accessories that replace canonical anchors.

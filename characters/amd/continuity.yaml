@@ -12,6 +12,8 @@ default_style: default_manga
 supported_styles:
   - default_manga
   - chibi
+  - loose_ink_fashion
+  - polished_anime_key_art
 
 style_variants:
   chibi:
@@ -38,3 +40,26 @@ style_variants:
       expressions: "more exaggerated"
       shading: "minimal"
       costume_detail: "simplified but recognizable"
+
+  loose_ink_fashion:
+    description: "Expressive editorial ink and watercolor rendering of the canonical character."
+    preserve:
+      - red braided high ponytail and amber eyes
+      - black-and-crimson tactical jacket
+      - headphones at neck and fingerless gloves
+      - modular chiplets and energetic challenger silhouette
+    simplifications:
+      - reduce incidental seam and fabric detail to gestural ink marks
+      - retain signature accessories as readable silhouettes
+      - use selective washes rather than replacing canonical colors
+
+  polished_anime_key_art:
+    description: "Fully rendered commercial anime key art; contrast to loose_ink_fashion."
+    preserve:
+      - red braided high ponytail and amber eyes
+      - black-and-crimson tactical jacket
+      - headphones at neck and fingerless gloves
+      - modular chiplets and energetic challenger silhouette
+    simplifications:
+      - retain all identity-critical detail; simplify only distracting background elements
+      - do not add generic mascot accessories or change the canonical outfit
