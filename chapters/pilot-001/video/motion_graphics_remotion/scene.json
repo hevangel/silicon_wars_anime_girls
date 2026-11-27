@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "issue": 82,
+  "technique": "motion_graphics_remotion",
+  "visual": {
+    "art_style": "default_manga",
+    "source_refs": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "format": "remotion_mp4_and_browser_prototype"
+  },
+  "review_status": "human_approval_pending",
+  "shots": [
+    {
+      "id": "intro",
+      "duration_frames": 120,
+      "description": "Typed, frame-accurate 24fps compatibility story"
+    },
+    {
+      "id": "action",
+      "duration_frames": 120,
+      "description": "Technique-specific demonstration"
+    },
+    {
+      "id": "review",
+      "duration_frames": 120,
+      "description": "Frame comparison and QA"
+    }
+  ],
+  "limitations": "Remotion project is authored but dependencies could not be installed/test-rendered here; final render, narration rights and screen QC are still pending.",
+  "source_audio": null,
+  "approved_output": null
+}

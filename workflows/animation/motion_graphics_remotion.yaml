@@ -1,0 +1,7 @@
+id: pilot-001-motion_graphics_remotion
+visual: {art_style: default_manga}
+animation: {technique: motion_graphics_remotion}
+delivery: {fps: 24, resolution: [1920, 1080]}
+source: chapters/pilot-001/video/motion_graphics_remotion/scene.json
+entrypoint: chapters/pilot-001/video/motion_graphics_remotion/preview.html
+status: partial_prototype
