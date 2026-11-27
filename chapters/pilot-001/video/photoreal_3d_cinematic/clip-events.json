@@ -1,0 +1,22 @@
+{
+  "fps": 24,
+  "clips": [
+    {
+      "id": "wide",
+      "start": 0,
+      "end": 120
+    },
+    {
+      "id": "walk_in",
+      "start": 120,
+      "end": 210
+    },
+    {
+      "id": "closeup",
+      "start": 210,
+      "end": 240
+    }
+  ],
+  "scene_file_generated_when_run": "blender/blocking_scene.blend",
+  "actual_blend_file_in_repo": false
+}
