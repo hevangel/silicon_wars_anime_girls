@@ -1,0 +1,7 @@
+id: pilot-001-ai_performance_transfer
+visual: {art_style: default_manga}
+animation: {technique: ai_performance_transfer}
+delivery: {fps: 24, resolution: [1920, 1080]}
+source: chapters/pilot-001/video/ai_performance_transfer/scene.json
+entrypoint: chapters/pilot-001/video/ai_performance_transfer/preview.html
+status: partial_prototype
