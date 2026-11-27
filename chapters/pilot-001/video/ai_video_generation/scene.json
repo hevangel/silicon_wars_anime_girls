@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "issue": 79,
+  "technique": "ai_video_generation",
+  "visual": {
+    "art_style": "default_manga",
+    "source_character_continuity": [
+      "characters/intel/continuity.yaml",
+      "characters/amd/continuity.yaml"
+    ]
+  },
+  "delivery": {
+    "fps": 24,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "format": "browser_blocking_preview"
+  },
+  "status": "draft_not_approved",
+  "shots": [
+    {
+      "id": "shot-1",
+      "duration_frames": 120,
+      "description": "First keyframe AMD enters"
+    },
+    {
+      "id": "shot-2",
+      "duration_frames": 120,
+      "description": "Requested camera turn / preview only"
+    },
+    {
+      "id": "shot-3",
+      "duration_frames": 120,
+      "description": "Last storyboard keyframe; no generated video"
+    }
+  ],
+  "source_media": {
+    "approved_meshes": null,
+    "approved_wav": null
+  },
+  "tool_specific_output": null,
+  "limitations": "No video service is connected; no real model output, cost measurement or accepted AI video is invented."
+}
