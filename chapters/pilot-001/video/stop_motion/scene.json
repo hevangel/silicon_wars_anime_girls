@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "issue": 83,
+  "technique": "stop_motion",
+  "digital_simulation": true,
+  "physical_camera_recording": false,
+  "fps": 24,
+  "unique_poses_per_second": 8,
+  "hold_frames": 3,
+  "frame_count": 192,
+  "source_png": null,
+  "review": "pending_human_approval"
+}
