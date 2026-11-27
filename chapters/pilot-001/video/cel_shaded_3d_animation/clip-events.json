@@ -1,0 +1,27 @@
+{
+  "fps": 24,
+  "clips": [
+    {
+      "id": "idle",
+      "start": 0,
+      "end": 36
+    },
+    {
+      "id": "charge",
+      "start": 36,
+      "end": 72
+    },
+    {
+      "id": "attack",
+      "start": 72,
+      "end": 112
+    },
+    {
+      "id": "block",
+      "start": 112,
+      "end": 170
+    }
+  ],
+  "scene_file_generated_when_run": "blender/blocking_scene.blend",
+  "actual_blend_file_in_repo": false
+}
