@@ -35,7 +35,11 @@ main{max-width:1180px;margin:0 auto;padding:0 1rem 3rem}
 .hero{padding:2.2rem 0 1rem}
 .hero-grid{display:grid;grid-template-columns:1fr 380px;gap:2rem;align-items:start}
 @media (max-width:900px){.hero-grid{grid-template-columns:1fr}}
+.hero-series{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
 .hero h1{font-size:clamp(1.9rem,4.5vw,3rem);margin:.2rem 0 .4rem}
+.strands-title{margin:1.6rem 0 .3rem;font-size:1.35rem}
+.bridge-note{background:var(--accent-soft);border-left:4px solid var(--accent);
+  padding:.7rem 1rem;border-radius:0 8px 8px 0;max-width:75ch;font-size:.95rem}
 .hero-subtitle{font-family:Georgia,serif;font-size:1.12rem;color:var(--accent);margin:.1rem 0 .9rem}
 .hero-lede{font-size:1.08rem;max-width:62ch}
 .hero-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.4rem 0}

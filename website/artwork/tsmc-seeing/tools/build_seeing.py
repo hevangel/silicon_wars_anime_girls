@@ -148,6 +148,26 @@ def lesson15_html():
     return "\n".join(kept)
 
 
+# Conceptual strands (Visual Literacy Series supplement): the lessons keep
+# their order; the strands group them by what they teach. Lesson 14 is the
+# bridge to Part III — it reverses the course's direction, from
+# "visual decision -> perceptual effect" to "intended meaning -> visual
+# decisions".
+STRANDS = [
+    ("vocabulary", "Visual vocabulary", [1, 2, 6, 7]),
+    ("representation", "Visual representation", [3, 4, 5, 9, 10, 11]),
+    ("grammar", "Visual grammar", [8, 12, 13]),
+    ("semantics", "Introduction to visual semantics", [14]),
+    ("practice", "Cross-cutting practice", [15]),
+]
+STRAND_OF = {n: (sid, title) for sid, title, ns in STRANDS for n in ns}
+BRIDGE_NOTE = ("This lesson is the bridge to Part III, the Storytelling Course. "
+               "Until now the direction was: a visual decision produces a perceptual effect. "
+               "Lesson 14 turns the first corner toward meaning — mood — and Part III reverses "
+               "the direction entirely: start from the meaning you intend, then choose the "
+               "decisions that carry it.")
+
+
 def main():
     manifest = json.load(open(os.path.join(SRC, "manifest.json")))
     art = os.path.join(PAGE, "art")
@@ -160,9 +180,13 @@ def main():
 
     lessons, n_cards, n_images, n_overlays = [], 0, 0, 0
     for les in manifest:
+        sid, stitle = STRAND_OF[les["n"]]
         out_les = {"n": les["n"], "id": les["id"], "title": les["title"],
                    "thesis": les["thesis"], "intro": les["intro"],
-                   "exercise": les["exercise"], "cards": []}
+                   "exercise": les["exercise"], "cards": [],
+                   "strand": sid, "strand_title": stitle}
+        if les["n"] == 14:
+            out_les["bridge_note"] = BRIDGE_NOTE
         for cd in les["cards"]:
             n = cd["images"]
             items = variant_items(cd["claude_raw"], n)
@@ -198,6 +222,8 @@ def main():
     assert n_images == 188, n_images
     assert n_overlays == 20, n_overlays
     data = {"title": "The TSMC Seeing Course",
+            "series": "TSMC Visual Literacy Series — Part II: Visual Vocabulary and Grammar",
+            "strands": [{"id": sid, "title": t, "lessons": ns} for sid, t, ns in STRANDS],
             "control": {"src": "art/control.webp", "thumb": "art/control-t.webp"},
             "lessons": lessons}
     with open(os.path.join(PAGE, "seeing.json"), "w") as f:

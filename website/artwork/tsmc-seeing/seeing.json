@@ -1,5 +1,53 @@
 {
  "title": "The TSMC Seeing Course",
+ "series": "TSMC Visual Literacy Series — Part II: Visual Vocabulary and Grammar",
+ "strands": [
+  {
+   "id": "vocabulary",
+   "title": "Visual vocabulary",
+   "lessons": [
+    1,
+    2,
+    6,
+    7
+   ]
+  },
+  {
+   "id": "representation",
+   "title": "Visual representation",
+   "lessons": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "grammar",
+   "title": "Visual grammar",
+   "lessons": [
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "id": "semantics",
+   "title": "Introduction to visual semantics",
+   "lessons": [
+    14
+   ]
+  },
+  {
+   "id": "practice",
+   "title": "Cross-cutting practice",
+   "lessons": [
+    15
+   ]
+  }
+ ],
  "control": {
   "src": "art/control.webp",
   "thumb": "art/control-t.webp"
@@ -214,7 +262,9 @@
      ],
      "overlay": "bms"
     }
-   ]
+   ],
+   "strand": "vocabulary",
+   "strand_title": "Visual vocabulary"
   },
   {
    "n": 2,
@@ -386,7 +436,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "vocabulary",
+   "strand_title": "Visual vocabulary"
   },
   {
    "n": 3,
@@ -558,7 +610,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "representation",
+   "strand_title": "Visual representation"
   },
   {
    "n": 4,
@@ -735,7 +789,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "representation",
+   "strand_title": "Visual representation"
   },
   {
    "n": 5,
@@ -935,7 +991,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "representation",
+   "strand_title": "Visual representation"
   },
   {
    "n": 6,
@@ -1083,7 +1141,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "vocabulary",
+   "strand_title": "Visual vocabulary"
   },
   {
    "n": 7,
@@ -1315,7 +1375,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "vocabulary",
+   "strand_title": "Visual vocabulary"
   },
   {
    "n": 8,
@@ -1511,7 +1573,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "grammar",
+   "strand_title": "Visual grammar"
   },
   {
    "n": 9,
@@ -1711,7 +1775,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "representation",
+   "strand_title": "Visual representation"
   },
   {
    "n": 10,
@@ -2001,7 +2067,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "representation",
+   "strand_title": "Visual representation"
   },
   {
    "n": 11,
@@ -2183,7 +2251,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "representation",
+   "strand_title": "Visual representation"
   },
   {
    "n": 12,
@@ -2408,7 +2478,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "grammar",
+   "strand_title": "Visual grammar"
   },
   {
    "n": 13,
@@ -2639,7 +2711,9 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "grammar",
+   "strand_title": "Visual grammar"
   },
   {
    "n": 14,
@@ -2763,7 +2837,10 @@
      ],
      "overlay": null
     }
-   ]
+   ],
+   "strand": "semantics",
+   "strand_title": "Introduction to visual semantics",
+   "bridge_note": "This lesson is the bridge to Part III, the Storytelling Course. Until now the direction was: a visual decision produces a perceptual effect. Lesson 14 turns the first corner toward meaning — mood — and Part III reverses the direction entirely: start from the meaning you intend, then choose the decisions that carry it."
   },
   {
    "n": 15,
@@ -2773,6 +2850,8 @@
    "intro": "Art schools teach three habits alongside technique: keeping a sketchbook, giving and taking critique, and building a portfolio. All three survive the move to AI, in a changed form. This lesson has no images and no cards.",
    "exercise": "Take the last image you generated. Describe it, analyze it, interpret it and judge it in four sentences. Then write the one-line instruction for the next version.",
    "cards": [],
+   "strand": "practice",
+   "strand_title": "Cross-cutting practice",
    "prose": "<h3>When making a picture takes seconds, the work that remains is deciding what to make, judging what came out and showing the result.</h3>\n<h3>Sketchbook: keep a repository</h3>\n<table><thead><tr><th>Folder</th><th>What goes in it</th></tr></thead><tbody><tr><td>briefs/</td><td>One file per picture: the intent in one sentence, then the settings in course terms (light, palette, viewpoint, composition)</td></tr><tr><td>prompts/</td><td>The exact prompt, model name and version, seed and settings, so the image can be made again</td></tr><tr><td>refs/</td><td>Reference images, each with a line on what you are borrowing from it</td></tr><tr><td>rejects/</td><td>Failed outputs, each with a line naming what went wrong</td></tr><tr><td>finals/</td><td>The chosen images at full resolution</td></tr><tr><td>journal.md</td><td>Dated notes on what you tried and what you learned</td></tr></tbody></table>\n<p>Five habits make it work:</p>\n<ul><li>Make one change per commit and name it in course terms, such as \"key light moved from side to three-quarter\". The history becomes a critique log.</li><li>Branch to try an alternative, and keep both.</li><li>Write one brief a day, however small.</li><li>Do master studies: take a picture you admire, write its recipe in course terms and regenerate it with your own subject. The Style Course is 105 of these.</li><li>Keep the rejects. They show what you learned to avoid.</li></ul>\n<h3>Critique: what it means now</h3>\n<p>Critique was never mainly about brushwork. It is the practice of saying what a picture does, why it does it and whether that matches what was intended. AI removes the cost of execution, which leaves critique as most of the job.</p>\n<p>It now does three things:</p>\n<ol><li><strong>Selection.</strong> A generator gives you a hundred competent images. Choosing one, and knowing why, is the first creative act.</li><li><strong>Diagnosis.</strong> \"It feels off\" cannot be typed into a prompt. Critique turns a reaction into a named cause and then into the next instruction.</li><li><strong>Meaning.</strong> A model supplies the average of what has been done before. Whether the picture says what you meant, and whether any decision in it is yours, is a question only critique asks.</li></ol>\n<table><thead><tr><th>Reaction</th><th>Diagnosis</th><th>Next instruction</th></tr></thead><tbody><tr><td>\"It looks flat\"</td><td>Front light and a narrow value range</td><td>Move the key light to three-quarter and widen the contrast</td></tr><tr><td>\"I don't know where to look\"</td><td>No focal point; equal detail everywhere</td><td>Put the sharpest contrast on the face and simplify the background</td></tr><tr><td>\"She looks stiff\"</td><td>No line of action; shoulders and hips level</td><td>Add contrapposto and a C-curve</td></tr><tr><td>\"It looks like every AI image\"</td><td>Model defaults: centered subject, soft glossy light, orange and teal</td><td>Choose the light, palette and placement yourself</td></tr></tbody></table>\n<p>Art schools teach critique in four steps, and they still apply:</p>\n<ol><li><strong>Describe.</strong> Say what is literally there, without opinion.</li><li><strong>Analyze.</strong> Name how it is built: light, value, color, viewpoint, composition.</li><li><strong>Interpret.</strong> Say what it communicates or feels like.</li><li><strong>Judge.</strong> Compare it with the brief. Keep, revise or discard, and name one change.</li></ol>\n<p>Generated images need five extra checks:</p>\n<ul><li><strong>Physical logic.</strong> Do all shadows agree with one light source? Do receding lines converge? Do reflections match the room?</li><li><strong>Figure.</strong> Check the hands, the proportions, how limbs attach and whether she is balanced.</li><li><strong>Consistency.</strong> Is the character the same person in every image?</li><li><strong>Defaults.</strong> Which decisions did you make, and which did the model make for you?</li><li><strong>Strays.</strong> Look for garbled text, extra objects and melted details.</li></ul>\n<p>Critique comes from three sources:</p>\n<ul><li><strong>You, a day later.</strong> Distance makes faults visible.</li><li><strong>An AI.</strong> It is a useful first reader, and it tends to flatter. Ask for three specific weaknesses and the course term for each.</li><li><strong>Other people.</strong> They are the only test of whether a picture communicates. Ask \"Where did your eye go first?\" and not \"Do you like it?\"</li></ul>\n<h3>Portfolio: four places, four jobs</h3>\n<p>A portfolio shows judgment. Each platform shows a different part of it.</p>\n<table><thead><tr><th>Place</th><th>Job</th><th>What goes there</th></tr></thead><tbody><tr><td>GitHub</td><td>The process record</td><td>The repository above, with a README per project giving the brief, key decisions and versions. It proves how you think and that results can be reproduced.</td></tr><tr><td>Web page</td><td>The curated gallery</td><td>Your best 10 to 20 pieces, each with a one-line intent, plus case studies showing control, variants and final. It can be published from the same repository.</td></tr><tr><td>YouTube</td><td>The explanation</td><td>Short narrated breakdowns: the brief, the iterations, the critique and the final, with before-and-after comparisons.</td></tr><tr><td>X</td><td>The daily feed and feedback loop</td><td>Work in progress, single-change comparisons and one specific question per post.</td></tr></tbody></table>\n<p>Five principles apply to all four:</p>\n<ul><li><strong>Edit hard.</strong> A portfolio is judged by its weakest piece.</li><li><strong>Show decisions.</strong> Anyone can generate a good-looking image. The brief, the rejected versions and the reasons are what set you apart.</li><li><strong>Build series.</strong> Twenty images exploring one idea say more than twenty unrelated ones. The Style Course is already a portfolio piece.</li><li><strong>Label AI use.</strong> Name the tools and say what you directed.</li><li><strong>Check rights before selling.</strong> Copyright protection for AI-generated images is uncertain and differs by country.</li></ul>"
   }
  ]

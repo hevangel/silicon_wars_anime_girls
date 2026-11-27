@@ -175,10 +175,11 @@ function renderLessons() {
     const head = document.createElement("div");
     head.className = "lesson-head";
     head.innerHTML = `
-      <div class="lesson-kicker">Lesson ${li + 1} of ${DATA.lessons.length} · ${count}</div>
+      <div class="lesson-kicker">Lesson ${li + 1} of ${DATA.lessons.length} · ${count} · ${lesson.strand_title}</div>
       <h2>${lesson.title}</h2>
       <p class="big-idea">${lesson.thesis}</p>
       <p class="lesson-intro">${lesson.intro}</p>
+      ${lesson.bridge_note ? `<p class="bridge-note"><strong>The bridge to Part III.</strong> ${lesson.bridge_note}</p>` : ""}
       <div class="exercise"><strong>Try this</strong>${lesson.exercise}</div>
       <label class="lesson-done"><input type="checkbox" data-done="${lesson.id}" ${done.has(lesson.id) ? "checked" : ""}> Mark this lesson complete</label>`;
     sec.appendChild(head);
@@ -250,12 +251,24 @@ $("#search").addEventListener("input", e => {
   $("#noResults").hidden = anyVisible;
 });
 
+function renderStrands() {
+  const el = $("#strands");
+  if (!el || !DATA.strands) return;
+  const byN = {};
+  DATA.lessons.forEach(l => { byN[l.n] = l; });
+  el.innerHTML = DATA.strands.map(s => {
+    const links = s.lessons.map(n => `<a href="#lesson-${byN[n].id}">L${n} ${byN[n].title.split(":")[0]}</a>`).join(" · ");
+    return `<div class="hero-card"><h3>${s.title}</h3><p>${links}</p></div>`;
+  }).join("");
+}
+
 fetch("seeing.json")
   .then(r => r.json())
   .then(data => {
     DATA = data;
     renderNav();
     renderLessons();
+    renderStrands();
     renderProgress();
   })
   .catch(err => {

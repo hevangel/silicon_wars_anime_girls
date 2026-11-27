@@ -61,10 +61,56 @@ function renderLessons() {
   });
 }
 
+let activeClass = "";
+
+function renderFilters() {
+  const bar = $("#classFilters");
+  if (!bar || !DATA.meta.categories) return;
+  const counts = {};
+  DATA.lessons.forEach(l => l.styles.forEach(s => (s.classes || []).forEach(c => {
+    counts[c] = (counts[c] || 0) + 1;
+  })));
+  const all = document.createElement("button");
+  all.textContent = "All styles";
+  all.className = "class-chip" + (activeClass ? "" : " active");
+  all.addEventListener("click", () => { activeClass = ""; renderFilters(); applyFilters(); });
+  bar.appendChild(all);
+  DATA.meta.categories.forEach(cat => {
+    const b = document.createElement("button");
+    b.className = "class-chip" + (activeClass === cat ? " active" : "");
+    b.textContent = `${cat} · ${counts[cat] || 0}`;
+    b.addEventListener("click", () => {
+      activeClass = activeClass === cat ? "" : cat;
+      renderFilters();
+      applyFilters();
+    });
+    bar.appendChild(b);
+  });
+}
+
+function applyFilters() {
+  const q = $("#search").value.trim().toLowerCase();
+  let anyVisible = false;
+  document.querySelectorAll(".lesson").forEach(sec => {
+    let lessonVisible = false;
+    sec.querySelectorAll(".style-card").forEach(card => {
+      const hitSearch = !q || card.dataset.search.includes(q);
+      const hitClass = !activeClass || (card.dataset.classes || "").split("|").includes(activeClass);
+      const hit = hitSearch && hitClass;
+      card.style.display = hit ? "" : "none";
+      if (hit) { lessonVisible = true; anyVisible = true; }
+    });
+    sec.style.display = lessonVisible ? "" : "none";
+  });
+  $("#noResults").hidden = anyVisible;
+}
+
 function styleCard(style) {
   const card = document.createElement("article");
   card.className = "style-card";
-  card.dataset.search = (style.name + " " + style.tag + " " + style.slug).toLowerCase();
+  card.dataset.search = (style.name + " " + style.tag + " " + style.slug + " " +
+    (style.classes || []).join(" ") + " " + (style.grammar || "")).toLowerCase();
+  card.dataset.classes = (style.classes || []).join("|");
 
   const figs = style.images.map((img, i) => `
     <figure>
@@ -73,13 +119,19 @@ function styleCard(style) {
       <figcaption>${img.label}</figcaption>
     </figure>`).join("");
   const looks = style.look.map(t => `<li>${t}</li>`).join("");
+  const chips = (style.classes || []).map(c => `<span class="class-tag">${c}</span>`).join("");
+  const links = (style.links || []).length
+    ? `<p class="style-links"><strong>Tends to use / say:</strong> ${style.links.join(" · ")}</p>` : "";
 
   card.innerHTML = `
     <div class="style-head"><h3>${style.name}</h3><span class="style-tag">${style.tag}</span></div>
+    <div class="class-tags">${chips}</div>
     <p class="style-blurb">${style.blurb}</p>
     <div class="style-body">
       <div class="style-images">${figs}</div>
       <aside class="look-box"><h4>What to look for</h4><ul>${looks}</ul>
+        <p class="style-grammar"><strong>Its grammar:</strong> ${style.grammar || ""}</p>
+        ${links}
         <a class="learn-more" href="${style.wiki}" target="_blank" rel="noopener">Learn more on Wikipedia ↗</a>
       </aside>
     </div>`;
@@ -122,21 +174,8 @@ document.addEventListener("keydown", e => {
   if (e.key === "ArrowRight") $("#lbNext").click();
 });
 
-/* search */
-$("#search").addEventListener("input", e => {
-  const q = e.target.value.trim().toLowerCase();
-  let anyVisible = false;
-  document.querySelectorAll(".lesson").forEach(sec => {
-    let lessonVisible = false;
-    sec.querySelectorAll(".style-card").forEach(card => {
-      const hit = !q || card.dataset.search.includes(q);
-      card.style.display = hit ? "" : "none";
-      if (hit) { lessonVisible = true; anyVisible = true; }
-    });
-    sec.style.display = lessonVisible ? "" : "none";
-  });
-  $("#noResults").hidden = anyVisible;
-});
+/* search + classification filter */
+$("#search").addEventListener("input", applyFilters);
 
 fetch("artwork.json")
   .then(r => r.json())
@@ -144,6 +183,7 @@ fetch("artwork.json")
     DATA = data;
     renderNav();
     renderLessons();
+    renderFilters();
     renderProgress();
   })
   .catch(err => {
