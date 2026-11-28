@@ -1,0 +1,17 @@
+import assert from "node:assert/strict";
+import {readFile} from "node:fs/promises";
+import {buildGraph,composePrompt,makeAnalysisPrompt,validateAnalysis} from "./graph-core.mjs";
+const read=async p=>JSON.parse(await readFile(new URL(p,import.meta.url),"utf8"));
+const graph=buildGraph(...await Promise.all([read("../tsmc-styles/artwork.json"),read("../tsmc-seeing/seeing.json"),read("../tsmc-storytelling/storytelling.json"),read("./concepts.json")]));
+const ids=new Set(graph.nodes.map(n=>n.id));
+assert.equal(ids.size,graph.nodes.length);
+assert.ok(graph.edges.every(e=>ids.has(e.from)&&ids.has(e.to)));
+assert.equal(graph.unresolvedBridges.length,0);
+const prompt=composePrompt({subject:"TSMC",purpose:"Editorial",constraints:"Keep identity",selected:graph.nodes.filter(n=>["style:baroque","decision:side-light","concept:hope"].includes(n.id))});
+assert.ok(prompt.includes("Baroque")&&prompt.includes("Side Light")&&prompt.includes("Hope"));
+assert.ok(makeAnalysisPrompt(graph.nodes).includes("concept:hope"));
+const result=validateAnalysis({observations:["visible"],matches:[{id:"invented",evidence:"x",confidence:"high"},{id:"concept:hope",evidence:"light",confidence:"low"}],possible_meanings:[],unknowns:[]},graph);
+assert.equal(result.matches.length,1);
+assert.equal(result.unrecognized,1);
+if(process.argv.includes("--export")) console.log(JSON.stringify(graph,null,2));
+else console.log("PASS: "+graph.nodes.length+" nodes, "+graph.edges.length+" edges; IDs, references, prompt composition and analysis validation.");
