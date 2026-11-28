@@ -33,7 +33,18 @@ a{color:var(--accent)}
 /* hero */
 main{max-width:1180px;margin:0 auto;padding:0 1rem 3rem}
 .hero{padding:2.2rem 0 1rem}
+.hero-series{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700;margin:0}
 .hero h1{font-size:clamp(1.9rem,4.5vw,3rem);margin:.2rem 0 .4rem}
+.class-filters{display:flex;gap:.4rem;flex-wrap:wrap;margin:0 0 1.2rem}
+.class-chip{background:#fff;border:1px solid var(--line);border-radius:99px;
+  padding:.3rem .75rem;font-size:.83rem;cursor:pointer;color:var(--ink)}
+.class-chip:hover{border-color:var(--accent);color:var(--accent)}
+.class-chip.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.class-tags{display:flex;gap:.3rem;flex-wrap:wrap;margin:.1rem 0 .4rem}
+.class-tag{font-size:.72rem;border:1px solid var(--gold);color:var(--gold);
+  border-radius:99px;padding:.1rem .55rem;background:#fff}
+.style-grammar{font-size:.9rem;margin:.6rem 0 0}
+.style-links{font-size:.9rem;margin:.4rem 0 0;color:var(--muted)}
 .hero-subtitle{font-family:Georgia,serif;font-size:1.12rem;color:var(--accent);margin:.1rem 0 .9rem}
 .hero-lede{font-size:1.08rem;max-width:62ch}
 .hero-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin:1.4rem 0}
@@ -67,9 +78,9 @@ main{max-width:1180px;margin:0 auto;padding:0 1rem 3rem}
 .style-blurb{max-width:78ch;margin:.55rem 0 .8rem}
 .style-body{display:grid;grid-template-columns:1fr 250px;gap:1.2rem}
 @media (max-width:820px){.style-body{grid-template-columns:1fr}}
-.style-images{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem}
+.style-images{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.6rem;align-items:start}
 .style-images figure{margin:0}
-.style-images img{width:100%;height:100%;object-fit:cover;aspect-ratio:1/1;border-radius:8px;
+.style-images img{width:100%;height:auto;object-fit:cover;aspect-ratio:1/1;border-radius:8px;
   cursor:zoom-in;display:block;border:1px solid var(--line)}
 .style-images figcaption{font-size:.75rem;color:var(--muted);margin-top:.25rem;text-align:center}
 .look-box{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;height:fit-content}
