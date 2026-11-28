@@ -9,8 +9,9 @@ captions, taught through controlled comparisons against six control images.
 
 - 25 lessons in six modules (the face; the body; people together; signs, scenes
   and symbols; stories; semantic experiments), 80 comparison groups.
-- 313 generated study plates (312 accepted at first publication; one sequence
-  frame is shown as an honest placeholder while in review) plus 20 deliberate
+- 313 generated study plates, all accepted (the Lesson 18 sequence frame whose
+  elbow contact never rendered is published with its deviation stated on the
+  page: the frame shows the moment just after the nudge) plus 20 deliberate
   reuses of earlier plates, cross-referenced instead of duplicated.
 - Layouts: side-by-side comparisons (control first), intensity ladders,
   reorderable sequences, a caption experiment (same picture, three stories)
